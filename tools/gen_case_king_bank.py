@@ -422,7 +422,7 @@ def case_summary(body: str) -> str:
     text = re.sub(r"^(?:\d{1,2}\.\s*)+", "", text)
     text = re.sub(r"\s+\d{1,2}\.\s*$", "", text)
     text = re.sub(r"\s+([,.;:])", r"\1", text)
-    return text.strip("\"“” ")
+    return cleanup_pdf_spacing(text.strip("\"“” "))
 
 
 def paragraph_windows(text: str) -> list[str]:
@@ -469,7 +469,50 @@ def cleanup_question_text(text: str) -> str:
     text = compact(text)
     text = re.sub(r"^(?:\d{1,2}\.\s*)+", "", text)
     text = re.sub(r"\s+\d{1,2}\.\s*$", "", text)
-    return text
+    return cleanup_pdf_spacing(text)
+
+
+def cleanup_pdf_spacing(text: str) -> str:
+    text = compact(text)
+    text = re.sub(r"제\s*(\d+)\s*조", r"제\1조", text)
+    text = re.sub(r"(\d)\s+(년|월|일|조|항|호|차로|차|심|톤|명|개|분|초)", r"\1\2", text)
+    replacements = {
+        "헌 법": "헌법",
+        "민 법": "민법",
+        "형 법": "형법",
+        "법 원": "법원",
+        "대 법원": "대법원",
+        "법 인": "법인",
+        "유 류분": "유류분",
+        "소 멸시효": "소멸시효",
+        "취 득시효": "취득시효",
+        "인 정": "인정",
+        "구 별": "구별",
+        "배 척": "배척",
+        "원 칙": "원칙",
+        "사 실": "사실",
+        "갑자 기": "갑자기",
+        "가중 범": "가중범",
+        "직 접": "직접",
+        "간 접": "간접",
+        "피 상속인": "피상속인",
+        "상 속인": "상속인",
+        "채 권자": "채권자",
+        "채 무자": "채무자",
+        "공 동상속인": "공동상속인",
+        "공 소외": "공소외",
+    }
+    for bad, good in replacements.items():
+        text = text.replace(bad, good)
+    particles = "은|는|이|가|을|를|의|에|와|과|도|만|부터|까지|에게|에서|으로|로"
+    endings = "되|된|될|된다|됐|되어|하고|하여|하며|하는|한|할|함|고|다|며|면|니|나|라|서|지|던|자|기|히"
+    suffixes = "범|법|칙|권|죄|심|론|설|증|액|물|률|원|문|규|분|청|급|척|정"
+    for _ in range(3):
+        text = re.sub(rf"([가-힣])\s+({particles})(?=[가-힣\s,.;:!?]|$)", r"\1\2", text)
+        text = re.sub(rf"([가-힣])\s+({endings})(?=[가-힣\s,.;:!?]|$)", r"\1\2", text)
+        text = re.sub(rf"([가-힣])\s+({suffixes})(?=[이가은는을를의에와과도만\s,.;:!?]|$)", r"\1\2", text)
+    text = re.sub(r"\s+([,.;:!?])", r"\1", text)
+    return compact(text)
 
 
 def good_occurrence(text: str, term: str, idx: int | None = None) -> bool:
