@@ -419,12 +419,15 @@ def case_summary(body: str) -> str:
     text = re.sub(r"\[[0-9]+\]\s*", "", text)
     text = re.sub(r"(?m)^\s*[①-⑳]\s*", "", text)
     text = compact(text)
+    text = re.sub(r"^(?:\d{1,2}\.\s*)+", "", text)
+    text = re.sub(r"\s+\d{1,2}\.\s*$", "", text)
     text = re.sub(r"\s+([,.;:])", r"\1", text)
     return text.strip("\"“” ")
 
 
 def paragraph_windows(text: str) -> list[str]:
     sentences = [compact(s) for s in re.findall(r"[^.。!?！？]+[.。!?！？]?", text) if compact(s)]
+    sentences = clean_sentences(sentences)
     if not sentences:
         return []
     if len(sentences) <= 5:
@@ -441,11 +444,32 @@ def paragraph_windows(text: str) -> list[str]:
 
 def five_sentence_window(text: str) -> str:
     sentences = [s.strip() for s in re.findall(r"[^.。!?！？]+[.。!?！？]?", text) if s.strip()]
+    sentences = clean_sentences(sentences)
     if len(sentences) <= 5:
-        return text
+        return cleanup_question_text(" ".join(sentences))
     hit = next((idx for idx, sentence in enumerate(sentences) if "(A)" in sentence), 0)
     start = max(0, min(hit - 2, len(sentences) - 5))
-    return " ".join(sentences[start : start + 5])
+    return cleanup_question_text(" ".join(sentences[start : start + 5]))
+
+
+def clean_sentences(sentences: list[str]) -> list[str]:
+    cleaned = []
+    for sentence in sentences:
+        sentence = compact(sentence)
+        if re.fullmatch(r"\d{1,2}\.", sentence):
+            continue
+        sentence = re.sub(r"^\d{1,2}\.\s*", "", sentence)
+        sentence = re.sub(r"\s+\d{1,2}\.\s*$", "", sentence)
+        if sentence:
+            cleaned.append(sentence)
+    return cleaned
+
+
+def cleanup_question_text(text: str) -> str:
+    text = compact(text)
+    text = re.sub(r"^(?:\d{1,2}\.\s*)+", "", text)
+    text = re.sub(r"\s+\d{1,2}\.\s*$", "", text)
+    return text
 
 
 def good_occurrence(text: str, term: str, idx: int | None = None) -> bool:
