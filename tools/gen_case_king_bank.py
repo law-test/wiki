@@ -6,13 +6,36 @@ import re
 import zipfile
 from pathlib import Path
 
-from bs4 import BeautifulSoup
+from pypdf import PdfReader
 
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT_JSON = ROOT / "assets" / "case_king_questions.json"
 OUT_SQL = ROOT / "supabase_case_king_questions.sql"
 OUT_HWPX = ROOT / "assets" / "case_king_questions.hwpx"
+STANDARD_PDFS = [
+    (
+        "민법",
+        [
+            ROOT / "tmp_standard_cases" / "civil.pdf",
+            Path(r"D:/2026_04_09_시작/변호사업무_2024_10_21/법학경시대회/230425 민법 표준판례 2023년 (1) (3).pdf"),
+        ],
+    ),
+    (
+        "형법",
+        [
+            ROOT / "tmp_standard_cases" / "criminal.pdf",
+            Path(r"D:/2026_04_09_시작/변호사업무_2024_10_21/법학경시대회/2023형법표준판례 선정연구보고서(116.수정) (2).pdf"),
+        ],
+    ),
+    (
+        "헌법",
+        [
+            ROOT / "tmp_standard_cases" / "constitutional.pdf",
+            Path(r"D:/2026_04_09_시작/변호사업무_2024_10_21/법학경시대회/헌법 표준판례 (1).pdf"),
+        ],
+    ),
+]
 
 
 TERMS = """
@@ -234,31 +257,97 @@ def make_terms() -> list[str]:
 
 
 def source_paragraphs() -> list[dict[str, str]]:
-    soup = BeautifulSoup((ROOT / "index.html").read_text(encoding="utf-8"), "html.parser")
+    grouped: list[list[dict[str, str]]] = []
+    for subject, paths in STANDARD_PDFS:
+        path = next((candidate for candidate in paths if candidate.exists()), None)
+        if path is None:
+            continue
+        grouped.append(pdf_source_paragraphs(subject, path))
     rows: list[dict[str, str]] = []
-    for p in soup.find_all("p"):
-        links = p.find_all("a", href=lambda href: href and "law.go.kr" in href)
-        if not links:
-            continue
-        text = compact(p.get_text(" ", strip=True)).strip("\"“” ")
-        if len(text) < 80:
-            continue
-        source = compact(links[-1].get_text(" ", strip=True))
-        url = links[-1].get("href") or ""
-        for marker in (" (대법원", " (헌법재판소"):
-            cut = text.rfind(marker)
-            if cut > 80:
-                text = text[:cut]
-        rows.append({"text": text.strip("\"“” "), "source": source, "url": url})
-    for card in soup.select(".paper.flat.case"):
-        title = compact(card.select_one(".ptitle").get_text(" ", strip=True)) if card.select_one(".ptitle") else ""
-        meta = compact(card.select_one(".pmeta").get_text(" ", strip=True)) if card.select_one(".pmeta") else ""
-        summary = compact(card.select_one(".psum").get_text(" ", strip=True)) if card.select_one(".psum") else ""
-        link = card.select_one("a[href*='law.go.kr']")
-        if not title or not summary:
-            continue
-        rows.append({"text": summary, "source": title, "url": link.get("href") if link else ""})
+    max_len = max((len(group) for group in grouped), default=0)
+    for idx in range(max_len):
+        for group in grouped:
+            if idx < len(group):
+                rows.append(group[idx])
     return rows
+
+
+def pdf_text(path: Path) -> str:
+    reader = PdfReader(str(path))
+    pages = []
+    for page in reader.pages:
+        pages.append(page.extract_text() or "")
+    return "\n".join(pages)
+
+
+def clean_pdf_text(text: str) -> str:
+    text = text.replace("\u3000", " ").replace("\xa0", " ")
+    text = re.sub(r"ﾠ|ㅤ", " ", text)
+    text = re.sub(r"(?m)^\s*-\s*[ivxlcdm]+\s*-\s*$", "\n", text, flags=re.I)
+    text = re.sub(r"(?m)^변호사시험의 자격시험을 위한 .*?표준판례.*$", "\n", text)
+    text = re.sub(r"(?m)^제\s*\d+\s*편.*$", "\n", text)
+    text = re.sub(r"(?m)^\s*\d+\s*$", "\n", text)
+    text = re.sub(r"[ \t]+", " ", text)
+    return text
+
+
+def pdf_source_paragraphs(subject: str, path: Path) -> list[dict[str, str]]:
+    text = clean_pdf_text(pdf_text(path))
+    parts = re.split(r"(?m)^\s*(\d{1,4})\.\s*$", text)
+    rows: list[dict[str, str]] = []
+    for idx in range(1, len(parts), 2):
+        number = parts[idx]
+        body = parts[idx + 1]
+        source = case_source(subject, number, body)
+        summary = case_summary(body)
+        if not summary:
+            continue
+        paragraphs = paragraph_windows(summary)
+        for paragraph in paragraphs:
+            if len(paragraph) >= 70:
+                rows.append({"text": paragraph, "source": source, "url": "", "subject": subject})
+    return rows
+
+
+def case_source(subject: str, number: str, body: str) -> str:
+    head = compact(body[:700])
+    title = re.split(r"\(", head, maxsplit=1)[0].strip()
+    title = re.sub(r"<쟁점>.*$", "", title).strip()
+    case = re.search(r"\(([^()]{8,120}(?:판결|결정|전원재판부)[^()]*)\)", head)
+    case_text = compact(case.group(1)) if case else ""
+    return compact(f"{subject} 표준판례 {number}. {title} {case_text}")
+
+
+def case_summary(body: str) -> str:
+    match = re.search(
+        r"<(?:판결요지|결정요지|결정·판결요지)>\s*(.*?)(?=<(?:판례선정이유|선정이유|참고판례)>|$)",
+        body,
+        flags=re.S,
+    )
+    if not match:
+        return ""
+    text = match.group(1)
+    text = re.sub(r"\[[0-9]+\]\s*", "", text)
+    text = re.sub(r"(?m)^\s*[①-⑳]\s*", "", text)
+    text = compact(text)
+    text = re.sub(r"\s+([,.;:])", r"\1", text)
+    return text.strip("\"“” ")
+
+
+def paragraph_windows(text: str) -> list[str]:
+    sentences = [compact(s) for s in re.findall(r"[^.。!?！？]+[.。!?！？]?", text) if compact(s)]
+    if not sentences:
+        return []
+    if len(sentences) <= 5:
+        return [compact(" ".join(sentences))]
+    out = []
+    for idx in range(0, len(sentences), 3):
+        chunk = compact(" ".join(sentences[idx : idx + 5]))
+        if len(chunk) >= 70:
+            out.append(chunk)
+        if len(out) >= 3:
+            break
+    return out
 
 
 def five_sentence_window(text: str) -> str:
@@ -422,6 +511,8 @@ def terms_from_text(text: str) -> list[str]:
         if len(term.replace(" ", "")) < 3 or len(term) > 24:
             continue
         if re.search(r"(항에|조에|따른|사건에서|판결|결정|선고|관련된)", term):
+            continue
+        if re.search(r"(따라|대한|대하여|경우에는|경우|사유로|이유로|상태에서)", term):
             continue
         if re.match(r"^[0-9제]", term):
             continue
