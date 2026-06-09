@@ -10,9 +10,10 @@ from pypdf import PdfReader
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT_JSON = ROOT / "assets" / "case_king_questions.json"
-OUT_SQL = ROOT / "supabase_case_king_questions.sql"
-OUT_HWPX = ROOT / "assets" / "case_king_questions.hwpx"
+PRIVATE_OUT = ROOT.parent / "law-test-private"
+OUT_JSON = PRIVATE_OUT / "case_king_questions.json"
+OUT_SQL = PRIVATE_OUT / "supabase_case_king_questions.sql"
+OUT_HWPX = PRIVATE_OUT / "case_king_questions.hwpx"
 STANDARD_PDFS = [
     (
         "민법",
@@ -683,6 +684,7 @@ def terms_from_text(text: str) -> list[str]:
 
 
 def write_json(rows: list[dict[str, str | int]]) -> None:
+    PRIVATE_OUT.mkdir(parents=True, exist_ok=True)
     OUT_JSON.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
@@ -722,12 +724,8 @@ def write_sql(rows: list[dict[str, str | int]]) -> None:
 alter table public.case_king_questions enable row level security;
 
 drop policy if exists "case king questions readable" on public.case_king_questions;
-create policy "case king questions readable"
-on public.case_king_questions for select
-using (true);
 
 grant usage on schema public to anon, authenticated;
-grant select on public.case_king_questions to anon, authenticated;
 
 delete from public.case_king_questions;
 
@@ -744,6 +742,30 @@ on conflict (id) do update set
   source = excluded.source,
   url = excluded.url,
   type = excluded.type;
+
+drop function if exists public.get_case_king_question();
+create or replace function public.get_case_king_question()
+returns table (
+  id integer,
+  case_no text,
+  question text,
+  answer text,
+  source text,
+  url text,
+  type text
+)
+language sql
+security definer
+set search_path = public
+as $$
+  select id, case_no, question, answer, source, url, type
+  from public.case_king_questions
+  order by random()
+  limit 1;
+$$;
+
+revoke all on function public.get_case_king_question() from public;
+grant execute on function public.get_case_king_question() to anon, authenticated;
 """
     OUT_SQL.write_text(sql, encoding="utf-8")
 
