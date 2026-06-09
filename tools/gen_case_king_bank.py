@@ -80,17 +80,25 @@ def compact(text: str) -> str:
 
 
 def make_terms() -> list[str]:
-    expanded: list[str] = []
-    single_ok = {
+    high_quality = {
         "관습법",
+        "법적 확신",
+        "법적 규범",
         "법원",
         "제정법",
         "조리",
+        "사실인 관습",
         "신의성실",
+        "신의칙",
         "권리남용",
+        "반사회질서",
+        "불공정한 법률행위",
         "착오",
         "사기",
         "강박",
+        "의사표시",
+        "통정허위표시",
+        "비진의표시",
         "무효",
         "취소",
         "추인",
@@ -181,6 +189,7 @@ def make_terms() -> list[str]:
         "상속",
         "상속포기",
         "한정승인",
+        "상속회복청구권",
         "유류분",
         "특별수익",
         "기여분",
@@ -240,18 +249,97 @@ def make_terms() -> list[str]:
         "이행청구",
         "승인",
         "압류",
+        "죄형법정주의",
+        "법률주의",
+        "명확성의 원칙",
+        "유추적용금지",
+        "형벌불소급의 원칙",
+        "책임주의",
+        "인과관계",
+        "미필적 고의",
+        "고의",
+        "과실범",
+        "위법성조각사유",
+        "정당방위",
+        "긴급피난",
+        "자구행위",
+        "책임조각사유",
+        "기대가능성",
+        "예비",
+        "음모",
+        "미수",
+        "실행의 착수",
+        "중지미수",
+        "불능미수",
+        "공동정범",
+        "공모공동정범",
+        "교사범",
+        "종범",
+        "방조범",
+        "간접정범",
+        "신분범",
+        "부작위범",
+        "결과적 가중범",
+        "죄수",
+        "상상적 경합",
+        "실체적 경합",
+        "몰수",
+        "추징",
+        "횡령죄",
+        "배임죄",
+        "사기죄",
+        "절도죄",
+        "강도죄",
+        "주거침입죄",
+        "업무방해죄",
+        "명예훼손죄",
+        "공연성",
+        "위법성",
+        "구성요건",
+        "불법영득의사",
+        "관습헌법",
+        "합헌적 법률해석",
+        "헌법소원심판",
+        "위헌법률심판",
+        "헌법의 최고규범성",
+        "민주적 기본질서",
+        "방어적 민주주의",
+        "정당해산",
+        "과잉금지원칙",
+        "비례원칙",
+        "평등원칙",
+        "명확성원칙",
+        "포괄위임금지원칙",
+        "신뢰보호원칙",
+        "소급입법금지원칙",
+        "적법절차원칙",
+        "자기책임원리",
+        "기본권 제한",
+        "본질적 내용",
+        "인간의 존엄과 가치",
+        "행복추구권",
+        "일반적 행동자유권",
+        "인격권",
+        "개인정보자기결정권",
+        "양심의 자유",
+        "종교의 자유",
+        "표현의 자유",
+        "언론의 자유",
+        "집회의 자유",
+        "결사의 자유",
+        "학문의 자유",
+        "직업의 자유",
+        "재산권",
+        "선거운동",
+        "공무담임권",
+        "재판청구권",
+        "평등권",
+        "사회적 기본권",
+        "권한쟁의심판",
+        "탄핵심판",
     }
-    for line in TERMS.splitlines():
-        words = [word for word in compact(line).split(" ") if word]
-        for size in (3, 2, 1):
-            for idx in range(0, max(0, len(words) - size + 1)):
-                term = " ".join(words[idx : idx + size])
-                if size == 1 and term not in single_ok:
-                    continue
-                expanded.append(term)
-    expanded = [term for term in expanded if len(term) >= 2]
-    for term in list(expanded):
-        expanded.append(term.replace(" ", ""))
+    expanded = set(high_quality)
+    expanded.update(term.replace(" ", "") for term in high_quality if " " in term)
     out = list(dict.fromkeys(t for t in expanded if len(t) >= 2))
     return sorted(out, key=lambda x: (-len(x), x))
 
@@ -376,9 +464,6 @@ def good_occurrence(text: str, term: str, idx: int | None = None) -> bool:
         "착오",
         "사기",
         "강박",
-        "선의",
-        "악의",
-        "과실",
         "점유",
         "등기",
         "변제",
@@ -386,26 +471,34 @@ def good_occurrence(text: str, term: str, idx: int | None = None) -> bool:
         "상계",
         "해제",
         "해지",
-        "위임",
-        "조합",
-        "화해",
-        "증여",
-        "혼인",
-        "이혼",
-        "친권",
-        "부양",
-        "상속",
-        "유증",
-        "유언",
-        "최고",
-        "승인",
-        "압류",
-        "통지",
-        "승낙",
     }
     if len(term.replace(" ", "")) <= 2 and term not in short_ok:
         return False
-    generic = {"법적", "규범", "사유", "사정", "권리", "의무", "책임", "청구", "계약", "사실인", "특별한", "정당한"}
+    if re.search(r"(없이|있는|없는|되어|하여|따라|대한|대하여|으로|로서|부터|까지|얼마동안|최고 이념|귀 책사유)", term):
+        return False
+    generic = {
+        "법적",
+        "규범",
+        "사유",
+        "사정",
+        "권리",
+        "의무",
+        "책임",
+        "청구",
+        "계약",
+        "사실인",
+        "특별한",
+        "정당한",
+        "위임",
+        "승인",
+        "최고",
+        "선의",
+        "악의",
+        "과실",
+        "상속",
+        "유언",
+        "유증",
+    }
     return term not in generic
 
 
@@ -420,7 +513,7 @@ def blank_variants(text: str, term: str) -> list[str]:
             question = text[:idx] + "(A)" + text[idx + len(term) :]
             variants.append(five_sentence_window(question))
         start = idx + len(term)
-        if len(variants) >= 3:
+        if len(variants) >= 1:
             break
     return variants
 
@@ -429,12 +522,16 @@ def build_questions() -> list[dict[str, str | int]]:
     terms = make_terms()
     rows: list[dict[str, str | int]] = []
     seen: set[tuple[str, str]] = set()
+    answer_counts: dict[str, int] = {}
     for para in source_paragraphs():
         text = para["text"]
         candidates = [term for term in terms if term in text]
-        candidates.extend(terms_from_text(text))
         candidates = list(dict.fromkeys(candidates))
         for answer in candidates:
+            if not quality_answer(answer, para["source"], text):
+                continue
+            if answer_counts.get(answer, 0) >= 8:
+                continue
             for question in blank_variants(text, answer):
                 if "(A)" not in question or len(question) < 60:
                     continue
@@ -454,9 +551,72 @@ def build_questions() -> list[dict[str, str | int]]:
                         "hint": "띄어쓰기와 줄바꿈은 채점에서 무시됩니다.",
                     }
                 )
-                if len(rows) >= 1000:
-                    return rows
+                answer_counts[answer] = answer_counts.get(answer, 0) + 1
     return rows
+
+
+def quality_answer(answer: str, source: str, text: str) -> bool:
+    compact_answer = answer.replace(" ", "")
+    broad = {
+        "법률행위",
+        "의사표시",
+        "위법성",
+        "불법행위",
+        "무과실",
+        "손해배상",
+        "처분행위",
+        "청구권",
+        "항변권",
+        "구상권",
+        "수익자",
+        "인격권",
+        "평등권",
+        "재산권",
+        "기본권제한",
+        "본질적내용",
+        "점유",
+        "등기",
+        "변제",
+        "공탁",
+        "상계",
+        "압류",
+        "통지",
+        "승낙",
+        "매매",
+        "임대차",
+        "위임",
+        "조합",
+        "화해",
+        "증여",
+        "혼인",
+        "이혼",
+        "친권",
+        "양육권",
+        "부양",
+        "소유권",
+        "상속",
+    }
+    if compact_answer in broad:
+        return False
+    if len(compact_answer) < 3:
+        return False
+    if re.search(r"(행위단속법|법률 제|대법원|헌법재판소|피고인|피해자|원고|피고|갑|을|병)", answer):
+        return False
+    source_compact = source.replace(" ", "")
+    text_head = text[:350].replace(" ", "")
+    core_short = {
+        "무효",
+        "취소",
+        "착오",
+        "사기",
+        "강박",
+        "해제",
+        "해지",
+        "추인",
+    }
+    if len(compact_answer) <= 3 and compact_answer not in core_short:
+        return compact_answer in source_compact
+    return compact_answer in source_compact
 
 
 def terms_from_text(text: str) -> list[str]:
@@ -569,6 +729,8 @@ using (true);
 grant usage on schema public to anon, authenticated;
 grant select on public.case_king_questions to anon, authenticated;
 
+delete from public.case_king_questions;
+
 insert into public.case_king_questions
   (id, case_no, question, answer, source, url, type)
 values
@@ -587,7 +749,7 @@ on conflict (id) do update set
 
 
 def write_hwpx(rows: list[dict[str, str | int]]) -> None:
-    lines = ["도전! 판례왕 문제은행 1000문제", "유형: 판례검색", ""]
+    lines = [f"도전! 판례왕 표준판례 엄선 문제은행 {len(rows)}문제", "유형: 판례검색", ""]
     for row in rows:
         lines.append(f"{row['id']:04d}. {row['caseNo']}")
         lines.append(str(row["question"]))
@@ -621,8 +783,8 @@ def write_hwpx(rows: list[dict[str, str | int]]) -> None:
 
 def main() -> None:
     rows = build_questions()
-    if len(rows) != 1000:
-        raise SystemExit(f"expected 1000 questions, got {len(rows)}")
+    if len(rows) < 100:
+        raise SystemExit(f"too few quality questions, got {len(rows)}")
     write_json(rows)
     write_sql(rows)
     write_hwpx(rows)
