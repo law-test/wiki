@@ -3,9 +3,11 @@ from __future__ import annotations
 import html
 import json
 import re
+import time
 import zipfile
 from pathlib import Path
 
+import requests
 from pypdf import PdfReader
 
 
@@ -14,6 +16,49 @@ PRIVATE_OUT = ROOT.parent / "law-test-private"
 OUT_JSON = PRIVATE_OUT / "case_king_questions.json"
 OUT_SQL = PRIVATE_OUT / "supabase_case_king_questions.sql"
 OUT_HWPX = PRIVATE_OUT / "case_king_questions.hwpx"
+API_CACHE = PRIVATE_OUT / "law_api_cases.json"
+LAW_API_OC = "test"
+LAW_API_QUERIES = [
+    "소멸시효",
+    "취득시효",
+    "유치권",
+    "저당권",
+    "근저당권",
+    "명의신탁",
+    "사해행위",
+    "채권자대위권",
+    "채권자취소권",
+    "채권양도",
+    "부당이득",
+    "불법행위",
+    "사용자책임",
+    "공동불법행위",
+    "계약해제",
+    "동시이행항변권",
+    "임대차",
+    "보증채무",
+    "유류분",
+    "상속포기",
+    "재산분할",
+    "정당방위",
+    "공동정범",
+    "미필적 고의",
+    "횡령죄",
+    "배임죄",
+    "업무방해죄",
+    "명예훼손",
+    "공연성",
+    "위법성조각사유",
+    "헌법소원심판",
+    "평등원칙",
+    "과잉금지원칙",
+    "명확성원칙",
+    "표현의 자유",
+    "직업의 자유",
+    "재산권",
+    "선거운동",
+    "권한쟁의심판",
+]
 STANDARD_PDFS = [
     (
         "민법",
@@ -352,6 +397,9 @@ def source_paragraphs() -> list[dict[str, str]]:
         if path is None:
             continue
         grouped.append(pdf_source_paragraphs(subject, path))
+    api_rows = law_api_source_paragraphs()
+    if api_rows:
+        grouped.append(api_rows)
     rows: list[dict[str, str]] = []
     max_len = max((len(group) for group in grouped), default=0)
     for idx in range(max_len):
@@ -359,6 +407,145 @@ def source_paragraphs() -> list[dict[str, str]]:
             if idx < len(group):
                 rows.append(group[idx])
     return rows
+
+
+def law_api_source_paragraphs() -> list[dict[str, str]]:
+    cache = fetch_law_api_cases()
+    rows: list[dict[str, str]] = []
+    for case in cache:
+        summary = case.get("summary", "")
+        if not summary:
+            continue
+        paragraphs = paragraph_windows(summary)
+        for paragraph in paragraphs[:2]:
+            if len(paragraph) >= 90:
+                rows.append(
+                    {
+                        "text": paragraph,
+                        "source": case["source"],
+                        "url": case.get("url", ""),
+                        "subject": case.get("subject", "API"),
+                    }
+                )
+    return rows
+
+
+def fetch_law_api_cases() -> list[dict[str, str]]:
+    PRIVATE_OUT.mkdir(parents=True, exist_ok=True)
+    try:
+        cases = collect_law_api_cases()
+        if len(cases) >= 30:
+            API_CACHE.write_text(json.dumps(cases, ensure_ascii=False, indent=2), encoding="utf-8")
+            return cases
+    except Exception as exc:
+        print(f"law api fetch failed: {exc}")
+    if API_CACHE.exists():
+        return json.loads(API_CACHE.read_text(encoding="utf-8"))
+    return []
+
+
+def collect_law_api_cases() -> list[dict[str, str]]:
+    session = requests.Session()
+    session.headers.update({"User-Agent": "Mozilla/5.0"})
+    seen: set[str] = set()
+    out: list[dict[str, str]] = []
+    for query in LAW_API_QUERIES:
+        for page in (1, 2):
+            for item in law_api_search(session, query, page):
+                prec_id = str(item.get("판례일련번호") or "")
+                if not prec_id or prec_id in seen:
+                    continue
+                if item.get("데이터출처명") != "대법원" and item.get("법원명") != "대법원":
+                    continue
+                seen.add(prec_id)
+                detail = law_api_detail(session, prec_id)
+                if detail.get("법원명") and detail.get("법원명") != "대법원":
+                    continue
+                summary = clean_law_api_text(detail.get("판결요지") or detail.get("판시사항") or "")
+                if len(summary) < 120:
+                    continue
+                case_name = clean_law_api_text(detail.get("사건명") or item.get("사건명") or "")
+                court = detail.get("법원명") or item.get("법원명") or "대법원"
+                date = format_case_date(detail.get("선고일자") or item.get("선고일자") or "")
+                case_no = detail.get("사건번호") or item.get("사건번호") or ""
+                decision_type = detail.get("판결유형") or item.get("판결유형") or ""
+                subject = classify_case_subject(detail, item)
+                source = compact(f"{subject} API 판례 {court} {date} {case_no} {decision_type} {case_name}")
+                out.append(
+                    {
+                        "id": prec_id,
+                        "subject": subject,
+                        "source": source,
+                        "summary": summary,
+                        "url": f"https://www.law.go.kr/LSW/precInfoP.do?precSeq={prec_id}",
+                    }
+                )
+                time.sleep(0.04)
+                if len(out) >= 180:
+                    return out
+    return out
+
+
+def law_api_search(session: requests.Session, query: str, page: int) -> list[dict[str, str]]:
+    res = session.get(
+        "http://www.law.go.kr/DRF/lawSearch.do",
+        params={
+            "OC": LAW_API_OC,
+            "target": "prec",
+            "type": "JSON",
+            "mobileYn": "Y",
+            "query": query,
+            "search": "2",
+            "display": "30",
+            "page": str(page),
+            "sort": "ddes",
+        },
+        timeout=20,
+    )
+    res.raise_for_status()
+    data = res.json().get("PrecSearch", {})
+    rows = data.get("prec") or []
+    if isinstance(rows, dict):
+        rows = [rows]
+    return rows
+
+
+def law_api_detail(session: requests.Session, prec_id: str) -> dict[str, str]:
+    res = session.get(
+        "http://www.law.go.kr/DRF/lawService.do",
+        params={"OC": LAW_API_OC, "target": "prec", "ID": prec_id, "type": "JSON", "mobileYn": "Y"},
+        timeout=20,
+    )
+    res.raise_for_status()
+    return res.json().get("PrecService", {})
+
+
+def clean_law_api_text(text: str) -> str:
+    text = html.unescape(text or "")
+    text = re.sub(r"<br\s*/?>", "\n", text, flags=re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"\[[0-9]+\]\s*", "", text)
+    text = re.sub(r"【[^】]+】", " ", text)
+    text = compact(text)
+    text = cleanup_pdf_spacing(text)
+    text = re.sub(r"\s+([,.;:])", r"\1", text)
+    return text.strip()
+
+
+def format_case_date(raw: str) -> str:
+    raw = str(raw or "").strip()
+    digits = re.sub(r"\D", "", raw)
+    if len(digits) == 8:
+        return f"{digits[:4]}. {int(digits[4:6])}. {int(digits[6:])}."
+    return raw
+
+
+def classify_case_subject(detail: dict[str, str], item: dict[str, str]) -> str:
+    kind = detail.get("사건종류명") or item.get("사건종류명") or ""
+    refs = " ".join(str(detail.get(k, "")) for k in ("참조조문", "판시사항", "판결요지", "사건명"))
+    if "형사" in kind or "형법" in refs or "형사소송법" in refs:
+        return "형법"
+    return "민법"
 
 
 def pdf_text(path: Path) -> str:
@@ -504,13 +691,6 @@ def cleanup_pdf_spacing(text: str) -> str:
     }
     for bad, good in replacements.items():
         text = text.replace(bad, good)
-    particles = "은|는|이|가|을|를|의|에|와|과|도|만|부터|까지|에게|에서|으로|로"
-    endings = "되|된|될|된다|됐|되어|하고|하여|하며|하는|한|할|함|고|다|며|면|니|나|라|서|지|던|자|기|히"
-    suffixes = "범|법|칙|권|죄|심|론|설|증|액|물|률|원|문|규|분|청|급|척|정"
-    for _ in range(3):
-        text = re.sub(rf"([가-힣])\s+({particles})(?=[가-힣\s,.;:!?]|$)", r"\1\2", text)
-        text = re.sub(rf"([가-힣])\s+({endings})(?=[가-힣\s,.;:!?]|$)", r"\1\2", text)
-        text = re.sub(rf"([가-힣])\s+({suffixes})(?=[이가은는을를의에와과도만\s,.;:!?]|$)", r"\1\2", text)
     text = re.sub(r"\s+([,.;:!?])", r"\1", text)
     return compact(text)
 
@@ -683,8 +863,8 @@ def quality_answer(answer: str, source: str, text: str) -> bool:
         "추인",
     }
     if len(compact_answer) <= 3 and compact_answer not in core_short:
-        return compact_answer in source_compact
-    return compact_answer in source_compact
+        return compact_answer in source_compact or compact_answer in text_head
+    return compact_answer in source_compact or compact_answer in text_head
 
 
 def terms_from_text(text: str) -> list[str]:
@@ -838,7 +1018,7 @@ grant execute on function public.get_case_king_question() to anon, authenticated
 
 
 def write_hwpx(rows: list[dict[str, str | int]]) -> None:
-    lines = [f"도전! 판례왕 표준판례 엄선 문제은행 {len(rows)}문제", "유형: 판례검색", ""]
+    lines = [f"도전! 판례왕 변호사시험 예상판례 문제은행 {len(rows)}문제", "유형: 판례검색", ""]
     for row in rows:
         lines.append(f"{row['id']:04d}. {row['caseNo']}")
         lines.append(str(row["question"]))
