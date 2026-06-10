@@ -15,6 +15,7 @@ OUT_DIR = ROOT.parent / "law-test-private" / "public_criminal_laws"
 ARTICLES_JSON = OUT_DIR / "law_subject_articles.json"
 SQL_OUT = OUT_DIR / "supabase_law_subject_articles.sql"
 SQL_ASCII_OUT = OUT_DIR / "supabase_law_subject_articles_ascii.sql"
+SQL_CHUNK_DIR = OUT_DIR / "sql_chunks"
 
 LAW_GROUPS = [
     {"subject": "형법", "law_name": "형법"},
@@ -223,6 +224,98 @@ on conflict (id) do update set
 """
 
 
+def build_setup_sql(ascii_only: bool = False) -> str:
+    lit = ascii_sql_literal if ascii_only else sql_quote
+    subjects = ["형법", "형사소송법", "헌법", "행정법"]
+    subject_list = ", ".join(lit(subject) for subject in subjects)
+    return f"""create table if not exists public.law_subject_articles (
+  id text primary key,
+  subject text not null,
+  law_name text not null,
+  article_no text not null,
+  article_code text not null,
+  title text not null,
+  body text not null,
+  part text,
+  chapter text,
+  section text,
+  source text,
+  source_url text,
+  sort_base integer,
+  sort_sub integer,
+  created_at timestamptz default now()
+);
+
+alter table public.law_subject_articles enable row level security;
+
+drop policy if exists "law subject articles readable" on public.law_subject_articles;
+create policy "law subject articles readable"
+on public.law_subject_articles for select
+using (true);
+
+grant usage on schema public to anon, authenticated;
+grant select on public.law_subject_articles to anon, authenticated;
+
+delete from public.law_subject_articles
+where subject in ({subject_list});
+"""
+
+
+def build_insert_sql(rows: list[dict[str, Any]], ascii_only: bool = False) -> str:
+    lit = ascii_sql_literal if ascii_only else sql_quote
+    cols = [
+        "id",
+        "subject",
+        "law_name",
+        "article_no",
+        "article_code",
+        "title",
+        "body",
+        "part",
+        "chapter",
+        "section",
+        "source",
+        "source_url",
+        "sort_base",
+        "sort_sub",
+    ]
+    values = []
+    for row in rows:
+        values.append("(" + ", ".join(lit(row.get(col)) for col in cols) + ")")
+    return f"""insert into public.law_subject_articles
+  ({", ".join(cols)})
+values
+{",\n".join(values)}
+on conflict (id) do update set
+  subject = excluded.subject,
+  law_name = excluded.law_name,
+  article_no = excluded.article_no,
+  article_code = excluded.article_code,
+  title = excluded.title,
+  body = excluded.body,
+  part = excluded.part,
+  chapter = excluded.chapter,
+  section = excluded.section,
+  source = excluded.source,
+  source_url = excluded.source_url,
+  sort_base = excluded.sort_base,
+  sort_sub = excluded.sort_sub;
+"""
+
+
+def write_sql_chunks(rows: list[dict[str, Any]], batch_size: int = 100) -> None:
+    SQL_CHUNK_DIR.mkdir(parents=True, exist_ok=True)
+    for path in SQL_CHUNK_DIR.glob("*.sql"):
+        path.unlink()
+    (SQL_CHUNK_DIR / "00_setup.sql").write_text(build_setup_sql(ascii_only=True), encoding="ascii")
+    for idx in range(0, len(rows), batch_size):
+        chunk = rows[idx : idx + batch_size]
+        start = idx + 1
+        end = idx + len(chunk)
+        name = f"{idx // batch_size + 1:02d}_insert_{start:04d}_{end:04d}.sql"
+        (SQL_CHUNK_DIR / name).write_text(build_insert_sql(chunk, ascii_only=True), encoding="ascii")
+
+
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     all_rows: list[dict[str, Any]] = []
@@ -235,8 +328,10 @@ def main() -> None:
     ARTICLES_JSON.write_text(json.dumps(all_rows, ensure_ascii=False, indent=2), encoding="utf-8")
     SQL_OUT.write_text(build_sql(all_rows), encoding="utf-8")
     SQL_ASCII_OUT.write_text(build_sql(all_rows, ascii_only=True), encoding="ascii")
+    write_sql_chunks(all_rows)
     print(f"wrote {len(all_rows)} rows")
     print(SQL_ASCII_OUT)
+    print(SQL_CHUNK_DIR)
 
 
 if __name__ == "__main__":
