@@ -794,6 +794,12 @@ section.art.law-subject-article-mode>.pager{display:none}
 .law-subject-single .lawtext{margin-top:0}
 .law-subject-structure{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 18px}
 .law-subject-structure span{display:inline-flex;align-items:center;border:1px solid rgba(109,40,217,.16);background:#f8f5ff;color:#4c1d95;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:900}
+.civil-procedure-commentary{margin:22px 0 28px}
+.civil-procedure-commentary .gist{margin:0 0 18px}
+.civil-procedure-commentary h2{margin-top:18px}
+.civil-procedure-commentary h3{font-size:18px;margin:18px 0 8px;color:#24304a}
+.civil-procedure-commentary p{font-size:15.5px;line-height:1.86;color:#334155;word-break:keep-all}
+.civil-procedure-commentary .commentary-block{border-left:4px solid var(--accent);padding-left:15px;margin:14px 0 18px}
 
 
 /* ---------- 하랑재 강의노트 ---------- */
@@ -19215,6 +19221,58 @@ window.__KCI_BOOT=function(d){
         (row.subject===target.subject&&row.law_name===target.law_name&&row.article_no===target.article_no);
     })||null;
   }
+  var CIVIL_PROCEDURE_COMMENTARY_CACHE=null;
+  var CIVIL_PROCEDURE_COMMENTARY_PROMISE=null;
+  function fetchCivilProcedureCommentaries(){
+    if(CIVIL_PROCEDURE_COMMENTARY_CACHE)return Promise.resolve(CIVIL_PROCEDURE_COMMENTARY_CACHE);
+    if(CIVIL_PROCEDURE_COMMENTARY_PROMISE)return CIVIL_PROCEDURE_COMMENTARY_PROMISE;
+    CIVIL_PROCEDURE_COMMENTARY_PROMISE=fetch('assets/civil_procedure_commentaries.json?v=20260615')
+      .then(function(r){if(!r.ok)throw new Error('민사소송법 해설 로딩 실패');return r.json();})
+      .then(function(data){
+        var map={};
+        (data.items||[]).forEach(function(item){
+          if(item&&item.article_no)map[item.article_no]=item;
+        });
+        CIVIL_PROCEDURE_COMMENTARY_CACHE=map;
+        return map;
+      })
+      .catch(function(){
+        CIVIL_PROCEDURE_COMMENTARY_CACHE={};
+        return CIVIL_PROCEDURE_COMMENTARY_CACHE;
+      });
+    return CIVIL_PROCEDURE_COMMENTARY_PROMISE;
+  }
+  function renderCivilProcedureCommentaryHtml(item){
+    if(!item)return '';
+    var h='<div class="civil-procedure-commentary">';
+    if(item.gist)h+='<p class="gist">'+lawSubjectEsc(item.gist)+'</p>';
+    h+='<h2>해설</h2>';
+    (item.explanations||[]).forEach(function(section){
+      h+='<div class="commentary-block">';
+      if(section.title)h+='<h3>'+lawSubjectEsc(section.title)+'</h3>';
+      (section.paragraphs||[]).forEach(function(p){
+        h+='<p>'+lawSubjectEsc(p)+'</p>';
+      });
+      h+='</div>';
+    });
+    h+='</div>';
+    return h;
+  }
+  async function renderCivilProcedureCommentary(slot,row){
+    if(!slot||slot.dataset.ready||slot.dataset.loading)return;
+    slot.dataset.loading='1';
+    try{
+      var map=await fetchCivilProcedureCommentaries();
+      delete slot.dataset.loading;
+      var item=map[row.article_no];
+      if(!item){slot.innerHTML='';return;}
+      slot.dataset.ready='1';
+      slot.innerHTML=renderCivilProcedureCommentaryHtml(item);
+    }catch(e){
+      delete slot.dataset.loading;
+      slot.innerHTML='';
+    }
+  }
   var CIVIL_PROCEDURE_RESOURCE_CACHE={};
   function civilProcedureRestUrl(table,params){
     var qs=Object.keys(params).map(function(k){return k+'='+params[k];}).join('&');
@@ -19324,7 +19382,7 @@ window.__KCI_BOOT=function(d){
     var html='<div class="law-subject-single">'
       +'<div class="lawtext"><div class="lbl">조문</div><p>'+lawSubjectEsc(row.body||'')+'</p></div>'
       +(chips?'<div class="law-subject-structure">'+chips+'</div>':'')
-      +(row.subject==='민사소송법'?'<div class="civil-procedure-resource-slot" data-article-no="'+lawSubjectEsc(row.article_no)+'"></div>':'')
+      +(row.subject==='민사소송법'?'<div class="civil-procedure-commentary-slot" data-article-no="'+lawSubjectEsc(row.article_no)+'"></div><div class="civil-procedure-resource-slot" data-article-no="'+lawSubjectEsc(row.article_no)+'"></div>':'')
       +'<div class="pager">';
     html+=prev?'<a href="#'+lawSubjectEsc(prev._anchor)+'">‹ '+lawSubjectEsc(lawSubjectArticleHeading(prev))+'</a>':'<span class="off">이전 조문 없음</span>';
     html+=next?'<a href="#'+lawSubjectEsc(next._anchor)+'">'+lawSubjectEsc(lawSubjectArticleHeading(next))+' ›</a>':'<span class="off">다음 조문 없음</span>';
@@ -19368,6 +19426,7 @@ window.__KCI_BOOT=function(d){
           if(row){
             lawSubjectSetArticleHeader(sec,row);
             slot.innerHTML=lawSubjectRenderSingleArticle(row,rows);
+            renderCivilProcedureCommentary(slot.querySelector('.civil-procedure-commentary-slot'),row);
             renderCivilProcedureResources(slot.querySelector('.civil-procedure-resource-slot'),row);
             return;
           }
