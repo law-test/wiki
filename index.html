@@ -769,6 +769,7 @@ nav .special-civil-nav .special-law-link{margin-left:0}
 .law-subject-section-body{padding:6px 12px 10px}
 .law-subject-section-range{font-size:12px;color:var(--txt3);font-weight:800;white-space:nowrap}
 .law-subject-menu-node>.ddrop{min-width:280px}
+.law-subject-menu-node>.ddrop:has(.ditem.has){max-height:none;overflow:visible}
 .law-subject-menu-node>.ddrop a{max-width:440px;overflow:hidden;text-overflow:ellipsis}
 nav details.law-nav-node>summary{font-size:13px;background:transparent;border:0;color:#344054}
 nav details.law-nav-node.depth-1>summary{padding-left:22px}
@@ -19312,6 +19313,12 @@ window.__KCI_BOOT=function(d){
     if(!item)return;
     var drop=item.querySelector('.mdrop');
     if(!drop){drop=document.createElement('div');drop.className='mdrop';item.appendChild(drop);}
+    if(configs.length===1&&configs[0].label===topLabel&&configs[0].rows.length){
+      var only=configs[0];
+      var directBody=lawSubjectRenderMenuNodes(lawSubjectBuildTree(only.rows,['part','chapter','section']));
+      drop.innerHTML=directBody||lawSubjectArticleLinks(only.rows,'law-subject-leaf');
+      return;
+    }
     drop.innerHTML=configs.map(function(cfg){
       if(!cfg.rows.length)return '<div class="ditem"><a href="#'+lawSubjectEsc(cfg.subject)+'">'+lawSubjectEsc(cfg.label)+'</a></div>';
       var first=cfg.rows[0],range=lawSubjectRange(cfg.rows);
