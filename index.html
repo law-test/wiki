@@ -19226,6 +19226,107 @@ window.__KCI_BOOT=function(d){
         (row.subject===target.subject&&row.law_name===target.law_name&&row.article_no===target.article_no);
     })||null;
   }
+  var CIVIL_PROCEDURE_RESOURCE_CACHE={};
+  function civilProcedureRestUrl(table,params){
+    var qs=Object.keys(params).map(function(k){return k+'='+params[k];}).join('&');
+    return LAW_SUBJECT_DB_URL+'/rest/v1/'+table+'?'+qs;
+  }
+  async function civilProcedureRest(table,params){
+    var res=await fetch(civilProcedureRestUrl(table,params),{headers:{apikey:LAW_SUBJECT_DB_KEY,Authorization:'Bearer '+LAW_SUBJECT_DB_KEY}});
+    if(!res.ok)throw new Error('민사소송법 연결 자료 로딩 실패');
+    return res.json();
+  }
+  async function fetchCivilProcedureResources(articleNo){
+    if(CIVIL_PROCEDURE_RESOURCE_CACHE[articleNo])return CIVIL_PROCEDURE_RESOURCE_CACHE[articleNo];
+    var promise=(async function(){
+      var caseLinks=await civilProcedureRest('civil_procedure_article_cases',{
+        select:'article_no,case_id,rank,query',
+        article_no:'eq.'+encodeURIComponent(articleNo),
+        order:'rank.asc',
+        limit:'50'
+      });
+      var paperLinks=await civilProcedureRest('civil_procedure_article_papers',{
+        select:'article_no,paper_id,keyword,rank',
+        article_no:'eq.'+encodeURIComponent(articleNo),
+        order:'rank.asc',
+        limit:'50'
+      });
+      var caseIds=caseLinks.map(function(x){return x.case_id;}).filter(Boolean);
+      var paperIds=paperLinks.map(function(x){return x.paper_id;}).filter(Boolean);
+      var cases=[],papers=[];
+      if(caseIds.length){
+        cases=await civilProcedureRest('civil_procedure_cases',{
+          select:'case_id,title,court,decision_date,case_no,url,source',
+          case_id:'in.('+caseIds.map(encodeURIComponent).join(',')+')',
+          limit:'50'
+        });
+      }
+      if(paperIds.length){
+        papers=await civilProcedureRest('civil_procedure_papers',{
+          select:'paper_id,title,author,journal,year,keywords,uci,oa,summary,source',
+          paper_id:'in.('+paperIds.map(encodeURIComponent).join(',')+')',
+          limit:'50'
+        });
+      }
+      var caseMap={},paperMap={};
+      cases.forEach(function(c){caseMap[c.case_id]=c;});
+      papers.forEach(function(p){paperMap[p.paper_id]=p;});
+      return {
+        cases:caseLinks.map(function(link){var c=caseMap[link.case_id];return c?{link:link,item:c}:null;}).filter(Boolean),
+        papers:paperLinks.map(function(link){var p=paperMap[link.paper_id];return p?{link:link,item:p}:null;}).filter(Boolean)
+      };
+    })();
+    CIVIL_PROCEDURE_RESOURCE_CACHE[articleNo]=promise;
+    return promise;
+  }
+  function civilProcedureCaseSummary(entry,articleNo){
+    var c=entry.item,query=entry.link.query||('민사소송법 '+articleNo);
+    return '「'+(c.title||c.case_no||'판례')+'」 사건에서 '+query+'와 관련된 민사소송 쟁점을 확인할 수 있습니다.';
+  }
+  function renderCivilProcedureResourceHtml(data,articleNo){
+    var h='';
+    if(data.cases&&data.cases.length){
+      h+='<h2>판례 <span class="note">(대법원 '+data.cases.length+'건)</span></h2><p class="note">사건번호를 누르면 국가법령정보센터 판례 원문으로 이동합니다.</p>';
+      data.cases.forEach(function(entry){
+        var c=entry.item,url=c.url||('https://www.law.go.kr/LSW/precInfoP.do?precSeq='+encodeURIComponent(c.case_id||''));
+        var meta=[c.court,c.decision_date,c.case_no].filter(Boolean).map(lawSubjectEsc).join(' · ');
+        h+='<div class="paper flat case"><span class="ptitle"><a href="'+lawSubjectEsc(url)+'" target="_blank" rel="noopener noreferrer">'+lawSubjectEsc(c.title||c.case_no||'판례')+'</a></span>'
+          +(meta?'<span class="pmeta">'+meta+'</span>':'')
+          +'<p class="psum">'+lawSubjectEsc(civilProcedureCaseSummary(entry,articleNo))+'</p></div>';
+      });
+    }
+    if(data.papers&&data.papers.length){
+      h+='<div class="civil-procedure-papers"><h2>논문 <span class="note">(KCI '+data.papers.length+'건)</span></h2>';
+      data.papers.forEach(function(entry){
+        var p=entry.item,url='https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId='+encodeURIComponent(p.paper_id||'');
+        var badge=p.oa==='Y'?' <span class="oa">원문공개</span>':'';
+        var meta=[];
+        if(p.author)meta.push(lawSubjectEsc(p.author));
+        if(p.journal)meta.push(lawSubjectEsc(p.journal)+(p.year?' '+lawSubjectEsc(p.year):''));
+        else if(p.year)meta.push(lawSubjectEsc(p.year));
+        h+='<div class="paper flat"><span class="ptitle"><a href="'+lawSubjectEsc(url)+'" target="_blank" rel="noopener noreferrer">'+lawSubjectEsc(p.title||'KCI 논문')+'</a></span>'
+          +'<span class="pmeta">'+meta.join(', ')+badge+'</span>'
+          +'<p class="psum">'+lawSubjectEsc(p.summary||('「'+(p.title||'논문')+'」은(는) '+(entry.link.keyword||articleNo)+' 관련 민사소송 쟁점을 다룬 논문입니다.'))+'</p></div>';
+      });
+      h+='</div>';
+    }
+    return h;
+  }
+  async function renderCivilProcedureResources(slot,row){
+    if(!slot||slot.dataset.ready||slot.dataset.loading)return;
+    slot.dataset.loading='1';
+    try{
+      var data=await fetchCivilProcedureResources(row.article_no);
+      delete slot.dataset.loading;
+      if((!data.cases||!data.cases.length)&&(!data.papers||!data.papers.length)){slot.innerHTML='';return;}
+      slot.dataset.ready='1';
+      slot.innerHTML=renderCivilProcedureResourceHtml(data,row.article_no);
+      applyLimitedLists(slot.closest('section.art'));
+    }catch(e){
+      delete slot.dataset.loading;
+      slot.innerHTML='';
+    }
+  }
   function lawSubjectRenderSingleArticle(row,rows){
     var related=(rows||[]).filter(function(r){return r.law_name===row.law_name;});
     var idx=related.findIndex(function(r){return r._anchor===row._anchor;});
@@ -19237,6 +19338,7 @@ window.__KCI_BOOT=function(d){
       +(chips?'<div class="law-subject-structure">'+chips+'</div>':'')
       +'<h2>주요 연결</h2>'
       +'<div class="paper flat law-subject-source"><a href="'+lawSubjectEsc(source)+'" target="_blank" rel="noopener noreferrer">국가법령정보센터 원문 보기</a><p class="psum">'+lawSubjectEsc(lawSubjectLawName(row.law_name))+' '+lawSubjectEsc(row.article_no)+' 원문과 시행일 기준 내용을 확인합니다.</p></div>'
+      +(row.subject==='민사소송법'?'<div class="civil-procedure-resource-slot" data-article-no="'+lawSubjectEsc(row.article_no)+'"></div>':'')
       +'<div class="pager">';
     html+=prev?'<a href="#'+lawSubjectEsc(prev._anchor)+'">‹ '+lawSubjectEsc(lawSubjectArticleHeading(prev))+'</a>':'<span class="off">이전 조문 없음</span>';
     html+=next?'<a href="#'+lawSubjectEsc(next._anchor)+'">'+lawSubjectEsc(lawSubjectArticleHeading(next))+' ›</a>':'<span class="off">다음 조문 없음</span>';
@@ -19280,6 +19382,7 @@ window.__KCI_BOOT=function(d){
           if(row){
             lawSubjectSetArticleHeader(sec,row);
             slot.innerHTML=lawSubjectRenderSingleArticle(row,rows);
+            renderCivilProcedureResources(slot.querySelector('.civil-procedure-resource-slot'),row);
             return;
           }
         }
@@ -19719,7 +19822,7 @@ window.__KCI_BOOT=function(d){
   }
   function applyLimitedLists(sec){
     applyLimitedList(sec,'.paper.flat.case','cases','판례');
-    applyLimitedList(sec,'.paperslot .paper','papers','논문');
+    applyLimitedList(sec,'.paperslot .paper,.civil-procedure-papers .paper','papers','논문');
   }
   async function renderPapers(slot){
     if(slot.dataset.ready||slot.dataset.loading)return;
