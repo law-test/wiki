@@ -19246,10 +19246,39 @@ window.__KCI_BOOT=function(d){
       });
     return LAW_SUBJECT_COMMENTARY_PROMISES[subject];
   }
+  function renderLawSubjectResourceItemsHtml(item){
+    if(!item||item.subject==='민사소송법')return '';
+    var h='';
+    if(item.cases&&item.cases.length){
+      h+='<h2>판례 <span class="note">('+item.cases.length+'건)</span></h2><p class="note">사건번호를 누르면 국가법령정보센터 판례 검색 또는 원문으로 이동합니다.</p>';
+      item.cases.forEach(function(c){
+        var meta=[c.case_name,c.date,c.case_no].filter(Boolean).map(lawSubjectEsc).join(' · ');
+        var url=c.url||'#';
+        h+='<div class="paper flat case"><span class="ptitle"><a href="'+lawSubjectEsc(url)+'" target="_blank" rel="noopener noreferrer">'+lawSubjectEsc(c.title||c.case_no||'판례')+'</a></span>'
+          +(meta?'<span class="pmeta">'+meta+'</span>':'')
+          +'<p class="psum">'+lawSubjectEsc(c.summary||'이 조문과 관련하여 함께 볼 판례입니다.')+'</p></div>';
+      });
+    }
+    if(item.papers&&item.papers.length){
+      h+='<div class="law-subject-papers"><h2>논문 <span class="note">(KCI '+item.papers.length+'건)</span></h2>';
+      item.papers.forEach(function(p){
+        var meta=[];
+        if(p.author)meta.push(lawSubjectEsc(p.author));
+        if(p.journal)meta.push(lawSubjectEsc(p.journal)+(p.year?' '+lawSubjectEsc(p.year):''));
+        else if(p.year)meta.push(lawSubjectEsc(p.year));
+        var url=p.url||('https://www.kci.go.kr/kciportal/po/search/poArtiSearList.kci?searchKeyword='+encodeURIComponent(p.title||'형법'));
+        h+='<div class="paper flat"><span class="ptitle"><a href="'+lawSubjectEsc(url)+'" target="_blank" rel="noopener noreferrer">'+lawSubjectEsc(p.title||'KCI 논문')+'</a></span>'
+          +(meta.length?'<span class="pmeta">'+meta.join(', ')+'</span>':'')
+          +'<p class="psum">'+lawSubjectEsc(p.summary||'이 조문과 관련된 형사법 논문 검색 자료입니다.')+'</p></div>';
+      });
+      h+='</div>';
+    }
+    return h;
+  }
   function renderLawSubjectCommentaryHtml(item){
     if(!item)return '';
     var h='<div class="law-subject-commentary">';
-    if(item.gist)h+='<p class="gist">'+lawSubjectEsc(item.gist)+'</p>';
+    if(item.gist)h+='<div class="lawtext law-subject-gist"><div class="lbl">핵심</div><p>'+lawSubjectEsc(item.gist)+'</p></div>';
     h+='<h2>해설</h2>';
     (item.explanations||[]).forEach(function(section){
       h+='<div class="commentary-block">';
@@ -19259,6 +19288,7 @@ window.__KCI_BOOT=function(d){
       });
       h+='</div>';
     });
+    h+=renderLawSubjectResourceItemsHtml(item);
     h+='</div>';
     return h;
   }
@@ -19272,6 +19302,7 @@ window.__KCI_BOOT=function(d){
       if(!item){slot.innerHTML='';return;}
       slot.dataset.ready='1';
       slot.innerHTML=renderLawSubjectCommentaryHtml(item);
+      applyLimitedLists(slot.closest('section.art'));
     }catch(e){
       delete slot.dataset.loading;
       slot.innerHTML='';
@@ -19869,7 +19900,7 @@ window.__KCI_BOOT=function(d){
   }
   function applyLimitedLists(sec){
     applyLimitedList(sec,'.paper.flat.case','cases','판례');
-    applyLimitedList(sec,'.paperslot .paper','papers','논문');
+    applyLimitedList(sec,'.paperslot .paper,.law-subject-papers .paper','papers','논문');
   }
   async function renderPapers(slot){
     if(slot.dataset.ready||slot.dataset.loading)return;

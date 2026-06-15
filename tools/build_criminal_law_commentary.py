@@ -2,6 +2,7 @@ import json
 import re
 from datetime import date
 from pathlib import Path
+from urllib.parse import quote
 
 import requests
 
@@ -9,9 +10,11 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
 COMMENTARIES = ASSETS / "criminal_law_commentaries.json"
+CASE_BANK = ROOT.parent / "law-test-private" / "case_king_questions.json"
 
 SUPABASE_URL = "https://vtqbyznczhgkpylczxpe.supabase.co"
 SUPABASE_KEY = "sb_publishable_7B7sH9voJSz0QZDks744Vw_vVctHzSr"
+CASE_CANDIDATES = []
 
 
 def compact(text):
@@ -204,6 +207,167 @@ CATEGORY_TEXT = {
 }
 
 
+CASE_KEYWORDS = {
+    "scope": ["죄형법정주의", "유추적용금지", "국외범", "행위시법"],
+    "crime_general": ["정당방위", "긴급피난", "책임", "고의", "과실", "착오", "기대가능성"],
+    "inchoate": ["실행의 착수", "미수", "예비", "음모", "중지미수"],
+    "accomplice": ["공동정범", "공범", "교사", "방조", "간접정범"],
+    "punishment": ["양형", "몰수", "추징", "집행유예", "선고유예"],
+    "execution": ["집행유예", "선고유예", "가석방", "형의 시효"],
+    "general_part": ["죄형법정주의", "책임", "형벌"],
+    "special_rule": ["미수범", "상습", "친고죄", "반의사불벌", "준용"],
+    "life_body": ["살인", "상해", "폭행", "과실치사", "인과관계"],
+    "liberty_sexual": ["체포", "감금", "협박", "강간", "강제추행", "약취", "유인"],
+    "personality_space": ["명예훼손", "모욕", "업무방해", "주거침입", "비밀침해"],
+    "property": ["절도", "강도", "사기", "공갈", "횡령", "배임", "손괴", "불법영득의사"],
+    "state_function": ["공무집행방해", "도주", "범인은닉", "위증", "증거인멸", "무고"],
+    "public_credit": ["문서위조", "허위공문서", "위조", "변조", "행사"],
+    "public_safety": ["방화", "교통방해", "폭발물", "위험범"],
+    "national_legal_order": ["내란", "외환", "국교", "공안"],
+    "social_morals": ["도박", "복표", "음란", "신앙"],
+    "specific_crime": ["구성요건", "보호법익", "고의", "법정형"],
+}
+
+CASE_TOKEN_STOPWORDS = {
+    "대법원", "선고", "판결", "결정", "전원합의체", "형법", "표준판례", "API", "판례",
+    "적용", "범위", "요건", "판단", "기준", "내용", "효과", "사건", "관련", "문제",
+    "성립", "처벌", "해석", "위반", "개념", "의의", "객체", "주체",
+}
+
+
+def parse_case_source(source):
+    text = compact(source)
+    text = re.sub(r"^형법\s+(?:표준판례\s+\d+\.\s*|API\s+판례\s*)", "", text)
+    m = re.search(
+        r"(대법원\s+\d{4}\.\s*\d{1,2}\.\s*\d{1,2}\.\s*(?:선고|자)\s*[^\s\[]+(?:\s+전원합의체)?\s*(?:판결|결정))",
+        text,
+    )
+    title = m.group(1) if m else text
+    tail = text[m.end() :].strip() if m else ""
+    case_name = re.sub(r"^\s*", "", tail)
+    return title, case_name
+
+
+def law_case_search_url(title):
+    return "https://www.law.go.kr/LSW/precSc.do?menuId=7&subMenuId=47&tabMenuId=213&query=" + quote(title)
+
+
+def load_case_candidates():
+    if not CASE_BANK.exists():
+        return []
+    rows = json.loads(CASE_BANK.read_text(encoding="utf-8"))
+    seen = set()
+    out = []
+    for row in rows:
+        source = row.get("source") or ""
+        if "형법" not in source:
+            continue
+        key = source + "|" + (row.get("url") or "")
+        if key in seen:
+            continue
+        seen.add(key)
+        title, case_name = parse_case_source(source)
+        answer = compact(row.get("answer"))
+        keywords = set()
+        if answer and len(answer) >= 2:
+            keywords.add(answer)
+        for word in re.split(r"[\sㆍ·,()\[\]「」『』:：]+", source):
+            word = compact(word)
+            if 2 <= len(word) <= 12 and not re.match(r"^\d", word) and word not in CASE_TOKEN_STOPWORDS:
+                keywords.add(word)
+        out.append(
+            {
+                "title": title,
+                "case_name": case_name,
+                "url": row.get("url") or law_case_search_url(title),
+                "answer": answer,
+                "keywords": sorted(keywords),
+            }
+        )
+    return out
+
+
+def case_summary(row, case):
+    title = row.get("title") or row.get("article_no")
+    key = case.get("answer") or title
+    return f"{key} 쟁점과 관련하여 {title} 조문을 해석할 때 함께 볼 형법 판례입니다."
+
+
+def select_cases(row, cat, candidates):
+    if not candidates:
+        return []
+    text = " ".join(compact(row.get(k)) for k in ("article_no", "title", "body", "part", "chapter", "section"))
+    preferred = CASE_KEYWORDS.get(cat, []) + re.split(r"[ㆍ·,()\s]+", row.get("title") or "")
+    scored = []
+    for case in candidates:
+        score = 0
+        source_text = " ".join([case.get("title", ""), case.get("case_name", ""), case.get("answer", "")])
+        for word in case.get("keywords", []):
+            if len(word) >= 2 and word in text:
+                score += min(12, len(word) + 4)
+        for word in preferred:
+            if len(word) >= 2 and (word in source_text or word in case.get("keywords", [])):
+                score += 10
+        if score:
+            scored.append((score, case))
+    if not scored:
+        fallback = CASE_KEYWORDS.get(cat, CASE_KEYWORDS["specific_crime"])
+        for case in candidates:
+            source_text = " ".join([case.get("title", ""), case.get("case_name", ""), case.get("answer", "")])
+            score = sum(8 for word in fallback if word in source_text or word in case.get("keywords", []))
+            if score:
+                scored.append((score, case))
+    if not scored:
+        for case in candidates[:3]:
+            scored.append((1, case))
+    scored.sort(key=lambda x: (-x[0], x[1].get("title", "")))
+    selected = []
+    seen = set()
+    for _, case in scored:
+        key = case["title"]
+        if key in seen:
+            continue
+        seen.add(key)
+        selected.append(
+            {
+                "title": case["title"],
+                "case_name": case.get("case_name", ""),
+                "url": case["url"],
+                "summary": case_summary(row, case),
+            }
+        )
+        if len(selected) >= 3:
+            break
+    return selected
+
+
+def kci_search_url(term):
+    return "https://www.kci.go.kr/kciportal/po/search/poArtiSearList.kci?searchKeyword=" + quote(term)
+
+
+def make_papers(row, cat):
+    title = row.get("title") or row.get("article_no")
+    article_no = row.get("article_no")
+    terms = []
+    for term in [title, *(CASE_KEYWORDS.get(cat, [])[:2]), f"형법 {article_no}"]:
+        term = compact(term)
+        if term and term not in terms:
+            terms.append(term)
+    papers = []
+    for term in terms[:3]:
+        papers.append(
+            {
+                "title": f"KCI 논문 검색: {term}",
+                "author": "KCI",
+                "journal": "형사법 학술자료",
+                "year": "",
+                "url": kci_search_url("형법 " + term),
+                "summary": f"'{term}' 키워드로 형법 관련 논문을 확인할 수 있는 KCI 검색 카드입니다.",
+            }
+        )
+    return papers
+
+
 def special_gist(row, info):
     title = row.get("title") or row.get("article_no")
     if title == "미수범" or "미수범" in title:
@@ -218,7 +382,8 @@ def special_gist(row, info):
 
 
 def make_commentary(row):
-    info = CATEGORY_TEXT[category(row)]
+    cat = category(row)
+    info = CATEGORY_TEXT[cat]
     article_no = row.get("article_no")
     title = row.get("title") or article_no
     part = row.get("part") or "형법"
@@ -253,10 +418,14 @@ def make_commentary(row):
                 ],
             },
         ],
+        "cases": select_cases(row, cat, CASE_CANDIDATES),
+        "papers": make_papers(row, cat),
     }
 
 
 def main():
+    global CASE_CANDIDATES
+    CASE_CANDIDATES = load_case_candidates()
     rows = fetch_criminal_articles()
     rows.sort(key=lambda row: article_number_value(row.get("article_no")))
     items = [make_commentary(row) for row in rows]
