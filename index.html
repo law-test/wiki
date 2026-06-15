@@ -19517,11 +19517,10 @@ window.__KCI_BOOT=function(d){
     if(!arts){arts=document.createElement('div');arts.className='arts';root.appendChild(arts);}
     var flat=(configs.length===1&&configs[0].label===summaryText);
     arts.innerHTML=configs.map(function(cfg){
-      var overview='<a class="art-link full" data-art="'+lawSubjectEsc(cfg.subject)+'" href="#'+lawSubjectEsc(cfg.subject)+'">'+lawSubjectEsc(cfg.label)+' 전체</a>';
-      if(!cfg.rows.length)return overview;
+      if(!cfg.rows.length)return '';
       var links=lawSubjectRenderSideNodes(lawSubjectBuildTree(cfg.rows,['part','chapter','section']),1);
-      if(flat)return overview+links;
-      return '<details><summary>'+lawSubjectEsc(cfg.label)+' <span class="cnt">'+lawSubjectEsc(lawSubjectRange(cfg.rows))+'</span></summary><div class="arts">'+overview+links+'</div></details>';
+      if(flat)return links;
+      return '<details><summary>'+lawSubjectEsc(cfg.label)+' <span class="cnt">'+lawSubjectEsc(lawSubjectRange(cfg.rows))+'</span></summary><div class="arts">'+links+'</div></details>';
     }).join('');
   }
   function buildLawSubjectMenus(){
