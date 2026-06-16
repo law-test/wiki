@@ -892,6 +892,16 @@ section.art.law-subject-article-mode>.pager{display:none}
 .rank-panel details[open] summary::after{content:"닫기"}
 .rank-panel-body{padding:0 16px 16px}
 .rank-panel-body h2{font-size:16px;margin-top:16px}.rank-panel-body h3{font-size:13px;margin:16px 0 5px;color:#344054}
+.recent-score-box{padding:16px;border-bottom:1px solid #e5e7eb;background:#fff}
+.recent-score-box h2{margin:0 0 10px!important;font-size:16px!important}
+.recent-score-box h2::before{height:17px!important}
+.recent-score-list{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.recent-score-list li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:center;border:1px solid #edf2f7;border-radius:14px;background:#f9fafb;padding:10px 11px}
+.recent-score-mode{display:block;color:#3730a3;font-size:12px;font-weight:950}
+.recent-score-detail{display:block;margin-top:2px;color:#667085;font-size:11.5px;line-height:1.4}
+.recent-score-rank{display:flex;flex-direction:column;align-items:flex-end;gap:2px;color:#111827;font-weight:950}
+.recent-score-rank small{color:#98a2b3;font-size:11px;font-weight:800}
+.recent-score-list .recent-score-empty{display:block;border:0;background:transparent;padding:8px 0;color:#98a2b3;font-size:12.5px}
 .confidence-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:10px;border:1px solid #e5e7eb;border-radius:14px;background:#f9fafb;padding:9px 10px}
 .confidence-row[hidden]{display:none!important}
 .confidence-row span{font-size:12px;font-weight:900;color:#667085;margin-right:2px}
@@ -18849,6 +18859,10 @@ section.art.law-subject-article-mode>.pager{display:none}
 })();
 </script>
 <aside class="game-panel rank-panel">
+<section class="recent-score-box" aria-label="최근 기록">
+<h2>최근 기록</h2>
+<ol class="recent-score-list" id="recentScores"></ol>
+</section>
 <details>
 <summary>전체 랭킹 보기</summary>
 <div class="rank-panel-body">
@@ -20795,8 +20809,11 @@ async function loadExamTerms(){
     function setTypingBonus(el,m,ev){if(!el)return;var eventText=typingEventText(ev);el.textContent=(eventText?eventText+' · ':'')+'x'+m;el.className='game-bonus'+(m>1?' hot':'')+(m>=10?' ultra':'');}
     function dateShort(iso){var d=new Date(iso);if(isNaN(d.getTime()))return '';return (d.getMonth()+1)+'/'+d.getDate();}
     var scoreKey='civilwiki_game_scores_v3';
+    var recentScoreKey='civilwiki_recent_scores_v1';
     function allScores(){try{return JSON.parse(localStorage.getItem(scoreKey))||{};}catch(e){return {};}}
     function setAllScores(d){localStorage.setItem(scoreKey,JSON.stringify(d));}
+    function recentScores(){try{return JSON.parse(localStorage.getItem(recentScoreKey))||[];}catch(e){return [];}}
+    function setRecentScores(rows){localStorage.setItem(recentScoreKey,JSON.stringify((rows||[]).slice(0,30)));}
     function polarOutcomeForLevel(level){
       level=level||1;
       if(level===1)return {success:'로스쿨 합격',fail:'로스쿨 낙방'};
@@ -20856,6 +20873,14 @@ async function loadExamTerms(){
     function sortScoreRows(rows){
       return (rows||[]).sort(function(a,b){return b.score-a.score || (a.at||'').localeCompare(b.at||'');}).slice(0,200);
     }
+    function rankForScore(rows,row){
+      var at=row.at||row.created_at||'',score=row.score||0,rank=1;
+      (rows||[]).forEach(function(r){
+        if((r.score||0)>score || ((r.score||0)===score && (r.at||r.created_at||'')<at))rank++;
+      });
+      return rank;
+    }
+    function modeTitle(mode){return {typing:'법학 타자연습',rain:'법학 산성비',blank:'조문왕',caseblank:'판례왕',polar:'변시탐험',ox:'CLAT OX'}[mode]||mode;}
     function normalizeScoreGroups(groups){
       var out={typing:[],rain:[],blank:[],caseblank:[],polar:[],ox:[]};
       Object.keys(out).forEach(function(mode){
@@ -20879,17 +20904,19 @@ async function loadExamTerms(){
     }
     async function addScore(mode,score,name,detail){
       if(score<0)return;
-      var shownScore=Math.round(score),days=gameScoreDays(),adjustedScore=gameAdjustedScore(shownScore),storedScore=adjustedScore<=0?1:adjustedScore,scoreDetail=(shownScore<=0?'표시점수:0 · ':'')+gameScoreAdjustmentPrefix(shownScore,adjustedScore,days)+(detail||'');
+      var shownScore=Math.round(score),days=gameScoreDays(),adjustedScore=gameAdjustedScore(shownScore),storedScore=adjustedScore<=0?1:adjustedScore,scoreDetail=(shownScore<=0?'표시점수:0 · ':'')+gameScoreAdjustmentPrefix(shownScore,adjustedScore,days)+(detail||''),scoreAt=new Date().toISOString(),scoreName=cleanText(name)||'익명';
       var db=window.LAWINUS_DB,user=db&&db.user;
       if(db&&db.client){
         var dbMode=(mode==='caseblank'||mode==='ox')?'blank':mode,dbDetail=mode==='caseblank'?('판례왕 · '+scoreDetail):(mode==='ox'?('CLAT · '+scoreDetail):scoreDetail);
-        var res=await db.client.from('game_scores').insert({user_id:user?user.id:null,author_name:cleanText(name)||'익명',mode:dbMode,score:storedScore,detail:dbDetail});
-        if(res.error){console.warn(res.error);var fallback=allScores();fallback[mode]=fallback[mode]||[];fallback[mode].push({name:cleanText(name)||'익명',score:storedScore,detail:scoreDetail,at:new Date().toISOString()});fallback=trimStoredScoreGroups(fallback);setAllScores(fallback);}
+        var res=await db.client.from('game_scores').insert({user_id:user?user.id:null,author_name:scoreName,mode:dbMode,score:storedScore,detail:dbDetail});
+        if(res.error){console.warn(res.error);var fallback=allScores();fallback[mode]=fallback[mode]||[];fallback[mode].push({name:scoreName,score:storedScore,detail:scoreDetail,at:scoreAt});fallback=trimStoredScoreGroups(fallback);setAllScores(fallback);}
+        var recent=recentScores();recent.unshift({mode:mode,name:scoreName,score:storedScore,detail:scoreDetail,at:scoreAt});setRecentScores(recent);
         renderRanks();
         return;
       }
       var d=allScores();d[mode]=d[mode]||[];
-      d[mode].push({name:cleanText(name)||'익명',score:storedScore,detail:scoreDetail,at:new Date().toISOString()});
+      var recentLocal=recentScores();recentLocal.unshift({mode:mode,name:scoreName,score:storedScore,detail:scoreDetail,at:scoreAt});setRecentScores(recentLocal);
+      d[mode].push({name:scoreName,score:storedScore,detail:scoreDetail,at:scoreAt});
       d=trimStoredScoreGroups(d);setAllScores(d);renderRanks();
     }
     window.__addGameScore=addScore;
@@ -20912,6 +20939,18 @@ async function loadExamTerms(){
         btn.setAttribute('aria-expanded',limit>5?'true':'false');
         el.insertAdjacentElement('afterend',btn);
       }
+    }
+    function renderRecentScores(groups){
+      var el=document.getElementById('recentScores');if(!el)return;
+      var rows=recentScores().slice(0,8);
+      if(!rows.length){el.innerHTML='<li class="recent-score-empty">아직 최근 기록이 없습니다.</li>';return;}
+      el.innerHTML=rows.map(function(r){
+        var parsed=readStoredScore({score:r.score,detail:r.detail||'',at:r.at});
+        var mode=r.mode||'typing',rank=rankForScore(groups[mode]||[],{score:parsed.score,at:r.at});
+        var detail=displayRankDetail(mode,parsed.detail);
+        var name=mode==='polar'?polarRankName(r.name,parsed.detail):(r.name||'익명');
+        return '<li><span><span class="recent-score-mode">'+esc(modeTitle(mode))+' · '+esc(name)+'</span><span class="recent-score-detail">'+esc(detail)+' · '+dateShort(r.at)+'</span></span><span class="recent-score-rank"><strong>'+rank+'등</strong><small>'+parsed.score+'점</small></span></li>';
+      }).join('');
     }
     async function fetchScores(){
       var db=window.LAWINUS_DB;
@@ -20936,7 +20975,7 @@ async function loadExamTerms(){
       }else{console.warn(oxRes.error);}
       return normalizeScoreGroups(grouped);
     }
-    async function renderRanks(){var d=await fetchScores();renderRankList('typingRanks',d.typing||[]);renderRankList('rainRanks',d.rain||[]);renderRankList('blankRanks',d.blank||[]);renderRankList('caseblankRanks',d.caseblank||[]);renderRankList('oxRanks',d.ox||[]);renderRankList('polarRanks',d.polar||[]);}
+    async function renderRanks(){var d=await fetchScores();renderRecentScores(d);renderRankList('typingRanks',d.typing||[]);renderRankList('rainRanks',d.rain||[]);renderRankList('blankRanks',d.blank||[]);renderRankList('caseblankRanks',d.caseblank||[]);renderRankList('oxRanks',d.ox||[]);renderRankList('polarRanks',d.polar||[]);}
     document.addEventListener('lawinus-auth-change',renderRanks);
     root.addEventListener('click',function(e){
       var btn=e.target.closest('.rank-more');
