@@ -19997,7 +19997,7 @@ window.__KCI_BOOT=function(d){
     return Object.keys(out).length?out:null;
   }
 
-  var LIST_LIMIT=10;
+  var LIST_LIMIT=3;
   function paperOneLine(p,topics){
     if(p.sum)return p.sum;
     var parts=[];
@@ -20093,7 +20093,7 @@ window.__KCI_BOOT=function(d){
   }
   function applyLimitedLists(sec){
     applyLimitedList(sec,'.paper.flat.case','cases','판례');
-    applyLimitedList(sec,'.paperslot .paper,.law-subject-papers .paper,.civil-procedure-papers .paper,.commercial-law-papers .paper','papers','논문');
+    applyLimitedList(sec,'.paperslot .paper,.law-subject-papers .paper,.civil-procedure-papers .paper,.commercial-law-papers .paper,section.art.law-subject-article-mode>.paper.flat:not(.case)','papers','논문');
   }
   async function renderPapers(slot){
     if(slot.dataset.ready||slot.dataset.loading)return;
