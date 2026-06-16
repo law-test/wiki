@@ -835,6 +835,7 @@ section.art.law-subject-article-mode>.pager{display:none}
 .atom-meta{display:inline-flex;align-items:center;border-radius:999px;background:#eef2ff;color:#3730a3;padding:4px 9px;font-size:11.5px;font-weight:950}
 .atom-stmt{margin:0;color:#111827;font-size:15.3px;line-height:1.76;font-weight:650}
 .atom-why{margin:8px 0 0;color:#475467;font-size:13.4px;line-height:1.7}
+.atom-correction{margin:8px 0 0;border:1px solid rgba(16,185,129,.24);border-radius:10px;background:rgba(16,185,129,.08);padding:8px 10px;color:#065f46;font-size:13.2px;line-height:1.65}
 .atom-ref{margin:9px 0 0;border-left:3px solid #d8b4fe;padding-left:9px;color:#667085;font-size:12.5px;line-height:1.6}
 .atom-twins{display:grid;gap:10px;margin-top:13px;padding-top:12px;border-top:1px dashed rgba(148,163,184,.38)}
 .atom-twin{border-left:3px solid rgba(239,68,68,.42);padding:2px 0 2px 13px}
@@ -18943,14 +18944,14 @@ section.art.law-subject-article-mode>.pager{display:none}
   }
   function load(){
     if(bank)return Promise.resolve(bank);
-    return fetch('assets/ox_legal_ethics_exam15.json?v=20260617ethics').then(function(r){return r.json();}).then(function(data){
+    return fetch('assets/ox_legal_ethics_exam15.json?v=20260617ethics2').then(function(r){return r.json();}).then(function(data){
       var out=[];
       (data.items||[]).forEach(function(u){
         if(!u.rep)return;
         var base={q:u.rep,a:'O',trap:u.topic||'',why:u.why||'',ref:u.ref||'',art:u.art||'',grade:u.grade||'',freq:u.freq||1,rep:u.rep,tag:tagsFrom(u)};
         out.push(base);
         (u.twins||[]).forEach(function(t){
-          out.push({q:t.q,a:'X',trap:t.trap||u.topic||'',why:u.why||'',ref:t.ref||u.ref||'',art:u.art||'',grade:t.grade||u.grade||'',freq:u.freq||1,rep:u.rep,tag:tagsFrom(u,t)});
+          out.push({q:t.q,a:'X',trap:t.trap||u.topic||'',why:t.why||u.why||'',ref:t.ref||u.ref||'',art:u.art||'',grade:t.grade||u.grade||'',freq:t.freq||u.freq||1,rep:t.corrected||t.rep||u.rep,tag:tagsFrom(u,t)});
         });
       });
       bank=out.filter(function(x){return x.q&&(x.a==='O'||x.a==='X');});
@@ -19732,7 +19733,7 @@ window.__KCI_BOOT=function(d){
   function lawSubjectLawName(name){return LAW_SUBJECT_LABELS[name]||name;}
   var LAW_ATOM_SOURCE_URLS=[
     'assets/ox_msa_unified_v001.json?v=20260616atom3',
-    'assets/ox_legal_ethics_exam15.json?v=20260617a'
+    'assets/ox_legal_ethics_exam15.json?v=20260617q1curated'
   ];
   function lawAtomLoadSources(){
     return Promise.all(LAW_ATOM_SOURCE_URLS.map(function(url){
@@ -19790,7 +19791,7 @@ window.__KCI_BOOT=function(d){
     function entry(text,answer,u,t){
       var stmt=String(text||'').trim();
       if(!stmt)return null;
-      return {answer:answer,stmt:stmt,topic:((t&&t.trap)||u.topic||''),why:(answer==='X'&&(t&&t.trap)?t.trap:u.why||''),ref:(t&&t.ref)||u.ref||'',grade:(t&&t.grade)||u.grade||'',freq:(t&&t.freq)||(!t&&u.freq)||1,weight:(t&&t.weight)||u.weight||0,tags:lawAtomSourceTags(u,t)};
+      return {answer:answer,stmt:stmt,topic:((t&&t.trap)||u.topic||''),why:(t&&t.why)||(answer==='X'&&(t&&t.trap)?t.trap:u.why||''),corrected:(t&&t.corrected)||'',ref:(t&&t.ref)||u.ref||'',grade:(t&&t.grade)||u.grade||'',freq:(t&&t.freq)||(!t&&u.freq)||1,weight:(t&&t.weight)||u.weight||0,tags:lawAtomSourceTags(u,t)};
     }
     (items||[]).forEach(function(u){
       if(!lawAtomMatches(u,subject,lawName,articleNo))return;
@@ -19899,6 +19900,7 @@ window.__KCI_BOOT=function(d){
         var tm=metaText(t);
         return '<div class="atom-twin"><p class="atom-twin-line"><span class="atom-twin-badge">함정 X</span>'+lawSubjectEsc(t.stmt)+(tm?'<span class="atom-twin-meta">'+lawSubjectEsc(tm)+'</span>':'')+reportButton(t,'X')+'</p>'
           +(t.why?'<p class="atom-why">'+lawSubjectEsc(t.why)+'</p>':'')
+          +(t.corrected?'<p class="atom-correction"><b>옳은 문장 · </b>'+lawSubjectEsc(t.corrected)+'</p>':'')
           +(t.ref?'<p class="atom-ref">근거 · '+lawSubjectEsc(t.ref)+'</p>':'')+'</div>';
       }).join('');
       return '<article class="atom-card atom-family is-o"><div class="atom-mark"><span class="atom-badge o">O</span></div><div class="atom-main">'
