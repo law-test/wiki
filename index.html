@@ -823,10 +823,10 @@ section.art.law-subject-article-mode>.pager{display:none}
 .menubar .mitem:has(>.mtop[href="#하랑재"]){display:none!important}
 .mitem::after{content:"";position:absolute;left:-16px;top:100%;width:max(100%,260px);height:24px;display:none;z-index:49;pointer-events:auto}
 .mitem:hover::after,.mitem.menu-open::after{display:block}
-.mitem.menu-open>.mdrop{display:block}
+.mitem.menu-open>.mdrop{display:block!important}
 .ditem.has::after{content:"";position:absolute;top:-10px;bottom:-10px;left:100%;width:24px;display:none;z-index:59;pointer-events:auto}
 .ditem.has:hover::after,.ditem.has.menu-open::after{display:block}
-.ditem.has.menu-open>.ddrop{display:block}
+.ditem.has.menu-open>.ddrop{display:block!important}
 @media (max-width:900px){.harang-hero,.harang-grid,.harang-topics{grid-template-columns:1fr}}
 
 </style>
@@ -18987,16 +18987,117 @@ window.__KCI_BOOT=function(d){
       function keepOpen(){
         if(menuTimer)clearTimeout(menuTimer);
         item.classList.add('menu-open');
+        var opened=item.querySelector(':scope>a[aria-expanded]');
+        if(opened)opened.setAttribute('aria-expanded','true');
       }
       function closeLater(){
         if(menuTimer)clearTimeout(menuTimer);
-        menuTimer=setTimeout(function(){item.classList.remove('menu-open');},380);
+        menuTimer=setTimeout(function(){
+          if(item.dataset.menuClickOpened==='1'){
+            var stillOpen=item.querySelector(':scope>a[aria-expanded]');
+            if(stillOpen)stillOpen.setAttribute('aria-expanded','true');
+            return;
+          }
+          item.classList.remove('menu-open');
+          delete item.dataset.menuClickOpened;
+          var closed=item.querySelector(':scope>a[aria-expanded]');
+          if(closed)closed.setAttribute('aria-expanded','false');
+        },380);
       }
       item.addEventListener('mouseenter',keepOpen);
       item.addEventListener('mouseleave',closeLater);
       item.addEventListener('focusin',keepOpen);
       item.addEventListener('focusout',closeLater);
     });
+  }
+  function bindMenuClickOpen(root){
+    var scope=root||document,nodes=[];
+    bindMenuDelegatedClickOpen();
+    if(scope.matches&&scope.matches('.mitem,.ditem.has'))nodes.push(scope);
+    if(scope.querySelectorAll)scope.querySelectorAll('.mitem,.ditem.has').forEach(function(item){nodes.push(item);});
+    nodes.forEach(function(item){
+      if(item.dataset.menuClickBound)return;
+      var trigger=item.querySelector(':scope>a');
+      var drop=item.querySelector(':scope>.mdrop,:scope>.ddrop');
+      if(!trigger||!drop)return;
+      item.dataset.menuClickBound='1';
+      trigger.setAttribute('aria-haspopup','true');
+      trigger.setAttribute('aria-expanded',item.classList.contains('menu-open')?'true':'false');
+      trigger.addEventListener('click',function(e){
+        if(item.dataset.menuClickPass==='1'){
+          delete item.dataset.menuClickPass;
+          return;
+        }
+        if(item.dataset.menuClickOpened==='1'){
+          delete item.dataset.menuClickOpened;
+          item.classList.remove('menu-open');
+          trigger.setAttribute('aria-expanded','false');
+          return;
+        }
+        var hashBefore=location.hash;
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        openMenuClickItem(item,trigger);
+        keepMenuClickOnCurrentPage(item,trigger,hashBefore);
+      });
+    });
+    if(!document.documentElement.dataset.menuOutsideBound){
+      document.documentElement.dataset.menuOutsideBound='1';
+      document.addEventListener('click',function(e){
+        if(e.target.closest&&e.target.closest('.menubar'))return;
+        document.querySelectorAll('.mitem.menu-open,.ditem.has.menu-open').forEach(function(item){
+          closeMenuClickItem(item);
+        });
+      });
+    }
+  }
+  function closeMenuClickItem(item){
+    item.classList.remove('menu-open');
+    delete item.dataset.menuClickOpened;
+    var a=item.querySelector(':scope>a[aria-expanded]');
+    if(a)a.setAttribute('aria-expanded','false');
+  }
+  function openMenuClickItem(item,trigger){
+    Array.prototype.slice.call((item.parentElement||document).children||[]).forEach(function(sib){
+      if(sib!==item&&sib.classList){
+        closeMenuClickItem(sib);
+        delete sib.dataset.menuClickPass;
+      }
+    });
+    delete item.dataset.menuClickPass;
+    item.classList.add('menu-open');
+    item.dataset.menuClickOpened='1';
+    if(trigger)trigger.setAttribute('aria-expanded','true');
+  }
+  function keepMenuClickOnCurrentPage(item,trigger,hashBefore){
+    setTimeout(function(){
+      var href=trigger&&trigger.getAttribute('href');
+      if(!href||!/^#/.test(href)||href===hashBefore)return;
+      if(item.dataset.menuClickOpened==='1'&&location.hash===href){
+        history.replaceState(null,'',location.pathname+location.search+(hashBefore||''));
+        if(typeof showArt==='function')showArt(decodeURIComponent((hashBefore||'').replace(/^#/,''))||DEFAULT);
+      }
+    },0);
+  }
+  function bindMenuDelegatedClickOpen(){
+    if(document.documentElement.dataset.menuDelegatedClickBound)return;
+    document.documentElement.dataset.menuDelegatedClickBound='1';
+    document.addEventListener('click',function(e){
+      var trigger=e.target.closest&&e.target.closest('.menubar .mitem>a,.menubar .ditem.has>a');
+      if(!trigger)return;
+      var item=trigger.parentElement;
+      if(!item||!item.matches||!item.matches('.mitem,.ditem.has')||!item.querySelector(':scope>.mdrop,:scope>.ddrop'))return;
+      if(item.dataset.menuClickOpened==='1'){
+        item.dataset.menuClickPass='1';
+        closeMenuClickItem(item);
+        return;
+      }
+      var hashBefore=location.hash;
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      openMenuClickItem(item,trigger);
+      keepMenuClickOnCurrentPage(item,trigger,hashBefore);
+    },true);
   }
   function ensureCivilProcedureShell(){
     if(!document.querySelector('.menubar .mtop[data-pyeon="민사소송법"]')){
@@ -19037,6 +19138,7 @@ window.__KCI_BOOT=function(d){
       else{var main=document.querySelector('main');if(main)main.appendChild(sec);}
     }
     bindMenuHoverGuards(document.querySelector('.menubar'));
+    bindMenuClickOpen(document.querySelector('.menubar'));
   }
   ensureCivilProcedureShell();
   function ensureCommercialLawShell(){
@@ -19082,6 +19184,7 @@ window.__KCI_BOOT=function(d){
       else{var main=document.querySelector('main');if(main)main.appendChild(sec);}
     }
     bindMenuHoverGuards(document.querySelector('.menubar'));
+    bindMenuClickOpen(document.querySelector('.menubar'));
   }
   ensureCommercialLawShell();
   // ---- End civil special laws ----
@@ -19385,6 +19488,8 @@ window.__KCI_BOOT=function(d){
       if(!body)body=lawSubjectArticleLinks(cfg.rows,'law-subject-leaf');
       return '<div class="ditem has law-subject-menu-node"><a href="#'+lawSubjectEsc(first._anchor)+'">'+lawSubjectEsc(cfg.label)+' <span class="rng">'+lawSubjectEsc(range)+'</span><span class="arr">›</span></a><div class="ddrop">'+body+'</div></div>';
     }).join('');
+    bindMenuHoverGuards(item);
+    bindMenuClickOpen(item);
   }
   function buildSideLawSubjectNav(summaryText,configs){
     var root=null;
@@ -19590,10 +19695,22 @@ window.__KCI_BOOT=function(d){
     function keepOpen(){
       if(menuTimer)clearTimeout(menuTimer);
       item.classList.add('menu-open');
+      var opened=item.querySelector(':scope>a[aria-expanded]');
+      if(opened)opened.setAttribute('aria-expanded','true');
     }
     function closeLater(){
       if(menuTimer)clearTimeout(menuTimer);
-      menuTimer=setTimeout(function(){item.classList.remove('menu-open');},260);
+      menuTimer=setTimeout(function(){
+        if(item.dataset.menuClickOpened==='1'){
+          var stillOpen=item.querySelector(':scope>a[aria-expanded]');
+          if(stillOpen)stillOpen.setAttribute('aria-expanded','true');
+          return;
+        }
+        item.classList.remove('menu-open');
+        delete item.dataset.menuClickOpened;
+        var closed=item.querySelector(':scope>a[aria-expanded]');
+        if(closed)closed.setAttribute('aria-expanded','false');
+      },260);
     }
     item.addEventListener('mouseenter',keepOpen);
     item.addEventListener('mouseleave',closeLater);
@@ -19603,6 +19720,11 @@ window.__KCI_BOOT=function(d){
 
   document.querySelectorAll('.menubar a[href^="#"]').forEach(function(a){
     a.addEventListener('click',function(e){
+      var menuItem=a.closest('.mitem,.ditem.has');
+      if(menuItem&&menuItem.dataset.menuClickOpened==='1'&&menuItem.querySelector(':scope>.mdrop,:scope>.ddrop')){
+        e.preventDefault();e.stopPropagation();
+        return;
+      }
       e.preventDefault();e.stopPropagation();
       var k=decodeURIComponent((a.getAttribute('href')||'').slice(1));
       if(!k)return;
@@ -19699,7 +19821,7 @@ window.__KCI_BOOT=function(d){
     return Object.keys(out).length?out:null;
   }
 
-  var LIST_LIMIT=10;
+  var LIST_LIMIT=3;
   function paperOneLine(p,topics){
     if(p.sum)return p.sum;
     var parts=[];
@@ -19795,7 +19917,7 @@ window.__KCI_BOOT=function(d){
   }
   function applyLimitedLists(sec){
     applyLimitedList(sec,'.paper.flat.case','cases','판례');
-    applyLimitedList(sec,'.paperslot .paper','papers','논문');
+    applyLimitedList(sec,'.paperslot .paper,.law-subject-papers .paper,.civil-procedure-papers .paper,.commercial-law-papers .paper,section.art.law-subject-article-mode>.paper.flat:not(.case)','papers','논문');
   }
   async function renderPapers(slot){
     if(slot.dataset.ready||slot.dataset.loading)return;
