@@ -18976,6 +18976,28 @@ window.__KCI_BOOT=function(d){
     buildSpecialCivilMenus();
   }
   insertSpecialCivilLaws();
+  function bindMenuHoverGuards(root){
+    var scope=root||document,nodes=[];
+    if(scope.matches&&scope.matches('.mitem,.ditem.has'))nodes.push(scope);
+    if(scope.querySelectorAll)scope.querySelectorAll('.mitem,.ditem.has').forEach(function(item){nodes.push(item);});
+    nodes.forEach(function(item){
+      if(item.dataset.menuHoverBound)return;
+      item.dataset.menuHoverBound='1';
+      var menuTimer=null;
+      function keepOpen(){
+        if(menuTimer)clearTimeout(menuTimer);
+        item.classList.add('menu-open');
+      }
+      function closeLater(){
+        if(menuTimer)clearTimeout(menuTimer);
+        menuTimer=setTimeout(function(){item.classList.remove('menu-open');},380);
+      }
+      item.addEventListener('mouseenter',keepOpen);
+      item.addEventListener('mouseleave',closeLater);
+      item.addEventListener('focusin',keepOpen);
+      item.addEventListener('focusout',closeLater);
+    });
+  }
   function ensureCivilProcedureShell(){
     if(!document.querySelector('.menubar .mtop[data-pyeon="민사소송법"]')){
       var afterTop=null;
