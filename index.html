@@ -19484,6 +19484,56 @@ window.__KCI_BOOT=function(d){
     bindMenuClickOpen(document.querySelector('.menubar'));
   }
   ensureCommercialLawShell();
+  function ensureLegalEthicsShell(){
+    var laws=['변호사법','변호사윤리장전','대한변호사협회 회칙','변호사 징계규칙','변호사 광고에 관한 규정','외국법자문사법','법관윤리강령','검사윤리강령','민법','행정소송법','공직선거법'];
+    var links=laws.map(function(name){return '<a class="art-link law-subject-link legal-ethics-link" data-art="법조윤리" href="#법조윤리">'+name+'</a>';}).join('');
+    if(!document.querySelector('.menubar .mtop[data-pyeon="법조윤리"]')){
+      var afterTop=null,beforeTop=null;
+      document.querySelectorAll('.menubar .mwrap>.mitem>.mtop').forEach(function(a){
+        if(a.textContent.trim()==='공법')afterTop=a.closest('.mitem');
+        if(a.textContent.trim()==='CBT 게임센터')beforeTop=a.closest('.mitem');
+      });
+      var topItem=document.createElement('div');
+      topItem.className='mitem';
+      topItem.innerHTML='<a class="mtop" data-pyeon="법조윤리" href="#법조윤리">법조윤리</a><div class="mdrop">'+laws.map(function(name){return '<div class="ditem"><a href="#법조윤리">'+name+'</a></div>';}).join('')+'</div>';
+      if(afterTop)afterTop.insertAdjacentElement('afterend',topItem);
+      else if(beforeTop)beforeTop.insertAdjacentElement('beforebegin',topItem);
+      else{var wrap=document.querySelector('.menubar .mwrap');if(wrap)wrap.appendChild(topItem);}
+    }
+    if(!document.querySelector('nav details.pyeon>summary[data-legal-ethics-nav]')){
+      var afterSide=null,beforeSide=null;
+      document.querySelectorAll('nav details.pyeon').forEach(function(d){
+        var s=d.querySelector(':scope>summary');
+        if(s&&s.textContent.trim()==='공법')afterSide=d;
+        if(s&&s.textContent.trim()==='CBT 게임센터')beforeSide=d;
+      });
+      var side=document.createElement('details');
+      side.className='pyeon';
+      side.innerHTML='<summary data-legal-ethics-nav="1">법조윤리</summary><div class="arts">'+links+'</div>';
+      if(afterSide)afterSide.insertAdjacentElement('afterend',side);
+      else if(beforeSide)beforeSide.insertAdjacentElement('beforebegin',side);
+      else{var nav=document.querySelector('nav');if(nav)nav.appendChild(side);}
+    }
+    if(!document.querySelector('section.art[data-art="법조윤리"]')){
+      var chips=laws.map(function(name){return '<span>'+name+'</span>';}).join('');
+      var sec=document.createElement('section');
+      sec.className='art';
+      sec.dataset.art='법조윤리';
+      sec.dataset.pyeon='법조윤리';
+      sec.id='법조윤리';
+      sec.innerHTML='<div class="crumb">법조윤리</div>'
+        +'<h1>법조윤리</h1><div class="bar"></div>'
+        +'<div class="lawtext"><div class="lbl">핵심</div><p>법조윤리는 변호사ㆍ법관ㆍ검사의 직역 윤리와 변호사시험 법조윤리 과목의 기준 법령을 함께 보는 영역입니다.</p></div>'
+        +'<div class="law-subject-structure">'+chips+'</div>'
+        +'<div class="pager"><a href="#행정법">‹ 공법</a><a href="#학습게임">CBT 게임센터 ›</a></div>';
+      var before=document.querySelector('section.art[data-art="학습게임"]');
+      if(before)before.insertAdjacentElement('beforebegin',sec);
+      else{var main=document.querySelector('main');if(main)main.appendChild(sec);}
+    }
+    bindMenuHoverGuards(document.querySelector('.menubar'));
+    bindMenuClickOpen(document.querySelector('.menubar'));
+  }
+  ensureLegalEthicsShell();
   // ---- End civil special laws ----
   var secs=document.querySelectorAll('section.art');
   var links=document.querySelectorAll('nav .art-link[data-art]');
@@ -19500,7 +19550,7 @@ window.__KCI_BOOT=function(d){
   }
   var LAW_SUBJECT_DB_URL='https://vtqbyznczhgkpylczxpe.supabase.co';
   var LAW_SUBJECT_DB_KEY='sb_publishable_7B7sH9voJSz0QZDks744Vw_vVctHzSr';
-  var LAW_SUBJECT_NAMES={'민사소송법':1,'상법':1,'형법':1,'형사소송법':1,'헌법':1,'행정법':1};
+  var LAW_SUBJECT_NAMES={'민사소송법':1,'상법':1,'형법':1,'형사소송법':1,'헌법':1,'행정법':1,'법조윤리':1};
   var LAW_SUBJECT_CACHE={},LAW_SUBJECT_PROMISES={};
   var LAW_SUBJECT_LABELS={'대한민국헌법':'헌법'};
   var LAW_SUBJECT_LOCAL_ARTICLES={
@@ -19910,6 +19960,7 @@ window.__KCI_BOOT=function(d){
   function lawSubjectGroupLabel(row){
     if(row.subject==='민사소송법')return '민사소송법';
     if(row.subject==='상법')return '상법';
+    if(row.subject==='법조윤리')return '법조윤리';
     if(row.subject==='헌법'||row.subject==='행정법')return '공법';
     return (row.subject==='형법'||row.subject==='형사소송법')?'형사법':'공법';
   }
@@ -20080,6 +20131,11 @@ window.__KCI_BOOT=function(d){
             return;
           }
         }
+        if(k==='법조윤리'&&!rows.length&&!target){
+          lawSubjectSetOverview(sec);
+          slot.innerHTML='';
+          return;
+        }
         lawSubjectSetOverview(sec);
         var html='<div class="law-subject-panel"><div class="law-subject-head"><strong>'+lawSubjectEsc(k)+' 조문</strong><span class="law-subject-count">'+rows.length+'개</span></div>';
         html+='<div class="law-subject-group">'+lawSubjectRenderContentNodes(lawSubjectBuildTree(rows,['law_name','part','chapter','section']),0,{count:0})+'</div>';
@@ -20140,6 +20196,9 @@ window.__KCI_BOOT=function(d){
         }).join('');
         return '<details class="law-nav-node depth-1"><summary>'+lawSubjectEsc(cfg.label)+' <span class="cnt">'+cfg.items.length+'개</span></summary><div class="arts">'+relatedLinks+'</div></details>';
       }
+      if(!cfg.rows.length&&cfg.subject==='법조윤리'){
+        return '<a class="art-link law-subject-link legal-ethics-link" data-art="'+lawSubjectEsc(cfg.subject)+'" href="#'+lawSubjectEsc(cfg.subject)+'">'+lawSubjectEsc(cfg.label)+'</a>';
+      }
       if(!cfg.rows.length)return '';
       var links=lawSubjectRenderSideNodes(lawSubjectBuildTree(cfg.rows,['part','chapter','section']),1);
       if(flat||cfg.label===summaryText)return links;
@@ -20148,7 +20207,7 @@ window.__KCI_BOOT=function(d){
     lawAtomRefreshNavBadges(root);
   }
   function buildLawSubjectMenus(){
-    Promise.all(['민사소송법','상법','형법','형사소송법','헌법','행정법'].map(function(name){
+    Promise.all(['민사소송법','상법','형법','형사소송법','헌법','행정법','법조윤리'].map(function(name){
       return lawSubjectFetch(name).catch(function(){return [];});
     })).then(function(){
       var civilRelated=(typeof civilProcedureRelatedMenuConfigs==='function')?civilProcedureRelatedMenuConfigs():[];
@@ -20168,14 +20227,29 @@ window.__KCI_BOOT=function(d){
         lawSubjectMakeConfig('행정절차법','행정법','행정절차법'),
         lawSubjectMakeConfig('행정소송법','행정법','행정소송법')
       ];
+      var legalEthics=[
+        lawSubjectMakeConfig('변호사법','법조윤리','변호사법'),
+        lawSubjectMakeConfig('변호사윤리장전','법조윤리','변호사윤리장전'),
+        lawSubjectMakeConfig('대한변호사협회 회칙','법조윤리','대한변호사협회 회칙'),
+        lawSubjectMakeConfig('변호사 징계규칙','법조윤리','변호사 징계규칙'),
+        lawSubjectMakeConfig('변호사 광고에 관한 규정','법조윤리','변호사 광고에 관한 규정'),
+        lawSubjectMakeConfig('외국법자문사법','법조윤리','외국법자문사법'),
+        lawSubjectMakeConfig('법관윤리강령','법조윤리','법관윤리강령'),
+        lawSubjectMakeConfig('검사윤리강령','법조윤리','검사윤리강령'),
+        lawSubjectMakeConfig('민법','법조윤리','민법'),
+        lawSubjectMakeConfig('행정소송법','법조윤리','행정소송법'),
+        lawSubjectMakeConfig('공직선거법','법조윤리','공직선거법')
+      ];
       buildTopLawSubjectMenu('민사소송법',civilProcedure);
       buildTopLawSubjectMenu('상법',commercial);
       buildTopLawSubjectMenu('형사법',criminal);
       buildTopLawSubjectMenu('공법',publicLaw);
+      buildTopLawSubjectMenu('법조윤리',legalEthics);
       buildSideLawSubjectNav('민사소송법',civilProcedure);
       buildSideLawSubjectNav('상법',commercial);
       buildSideLawSubjectNav('형사법',criminal);
       buildSideLawSubjectNav('공법',publicLaw);
+      buildSideLawSubjectNav('법조윤리',legalEthics);
       var current=decodeURIComponent(location.hash.replace(/^#/,''))||DEFAULT;
       var target=parseLawSubjectAnchor(current);
       syncActiveNav(current,target?target.subject:current);
