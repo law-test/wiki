@@ -18944,7 +18944,7 @@ section.art.law-subject-article-mode>.pager{display:none}
   }
   function load(){
     if(bank)return Promise.resolve(bank);
-    return fetch('assets/ox_legal_ethics_exam15.json?v=20260617ethics2').then(function(r){return r.json();}).then(function(data){
+    return fetch('assets/ox_legal_ethics_exam15.json?v=20260617q1complete').then(function(r){return r.json();}).then(function(data){
       var out=[];
       (data.items||[]).forEach(function(u){
         if(!u.rep)return;
@@ -19733,7 +19733,7 @@ window.__KCI_BOOT=function(d){
   function lawSubjectLawName(name){return LAW_SUBJECT_LABELS[name]||name;}
   var LAW_ATOM_SOURCE_URLS=[
     'assets/ox_msa_unified_v001.json?v=20260616atom3',
-    'assets/ox_legal_ethics_exam15.json?v=20260617q1curated'
+    'assets/ox_legal_ethics_exam15.json?v=20260617q1complete'
   ];
   function lawAtomLoadSources(){
     return Promise.all(LAW_ATOM_SOURCE_URLS.map(function(url){
