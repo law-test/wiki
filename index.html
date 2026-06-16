@@ -18553,7 +18553,7 @@ section.art.law-subject-article-mode>.pager{display:none}
 <p class="note">띄어쓰기·줄바꿈과 상관없이 제시어가 포함되면 정답입니다. 입력 후 <span class="game-kbd">Enter</span>를 누르세요.</p>
 <div class="game-controls">
 <input id="typingNick" maxlength="16" placeholder="닉네임" type="text"/>
-<select id="typingBank"><option value="terms">서술형 개념어</option><option value="phrases">긴 중요문구</option><option value="mixed">혼합</option></select>
+<select id="typingBank"><option value="terms">서술형 개념어</option><option value="phrases">긴 중요문구</option><option value="mixed">혼합</option><option value="objectiveAtoms">객관식 정지문</option></select>
 <select id="typingDuration"><option selected="" value="30">30초</option><option value="60">60초</option><option value="90">90초</option><option value="120">120초</option></select>
 <button class="game-btn primary" id="typingStart" type="button">시작</button>
 <button class="game-btn ghost" id="typingStop" type="button">종료</button>
@@ -18670,7 +18670,7 @@ section.art.law-subject-article-mode>.pager{display:none}
 </style>
 <div class="game-panel" data-game-panel="ox" hidden="">
 <h2>CLAT <span style="font-size:14px;font-weight:700;color:var(--txt3)">— 변호사시험 기출 OX퀴즈</span></h2>
-<p class="note">실제 변호사시험 기출에서 뽑은 OX 문제입니다. 문장이 맞으면 <b>O</b>, 틀리면 <b>X</b>를 누르세요(키보드 O·X 가능). 정답 공개 시 함정유형·해설·관련 조문 링크가 나옵니다. 정답은 가점, 오답은 감점(-10)입니다. 높은 등급 문제일수록 더 자주 출제됩니다. 문제마다 <b>🐯 호랑이의 가호</b> 30%(그중 3%는 <b>호랑이의 대박</b> 정답 ×10) 또는 <b>🦅 독수리의 추락</b> 20%가 서로 겹치지 않게 발동합니다. 전부 맞히고 끝나면 <b>🎯 퍼펙트 보너스 +30%</b>. HP는 5에서 시작해 오답·시간초과마다 1씩 줄고 0이 되면 게임 오버. 각 문제는 <b>20초 안에</b> O/X를 골라야 하며(초과 시 오답 처리), 제한없음 모드는 30초간 입력이 없으면 자동 종료됩니다.</p>
+<p class="note">실제 변호사시험 제1회부터 제15회까지 전개년 기출문제를 반영하고, 2026. 6. 16. 시행 법령 기준으로 검증한 OX 문제입니다. 문장이 맞으면 <b>O</b>, 틀리면 <b>X</b>를 누르세요(키보드 O·X 가능). 정답 공개 시 함정유형·해설·관련 조문 링크가 나옵니다. 정답은 가점, 오답은 감점(-10)입니다. 높은 등급 문제일수록 더 자주 출제됩니다. 문제마다 <b>🐯 호랑이의 가호</b> 30%(그중 3%는 <b>호랑이의 대박</b> 정답 ×10) 또는 <b>🦅 독수리의 추락</b> 20%가 서로 겹치지 않게 발동합니다. 전부 맞히고 끝나면 <b>🎯 퍼펙트 보너스 +30%</b>. HP는 5에서 시작해 오답·시간초과마다 1씩 줄고 0이 되면 게임 오버. 각 문제는 <b>20초 안에</b> O/X를 골라야 하며(초과 시 오답 처리), 제한없음 모드는 30초간 입력이 없으면 자동 종료됩니다.</p>
 <div class="game-controls">
 <input id="oxNick" maxlength="16" placeholder="닉네임" type="text"/>
 <select id="oxDuration"><option selected="" value="60">60초</option><option value="90">90초</option><option value="120">120초</option><option value="0">제한없음</option></select>
@@ -18695,7 +18695,7 @@ section.art.law-subject-article-mode>.pager{display:none}
 <button class="game-btn ghost" id="oxPause" type="button" hidden="">멈춤</button>
 <button class="game-btn ghost" id="oxNext" type="button" hidden="">넘김 ›</button>
 </div>
-<div class="game-feed" id="oxFeed">변호사시험 기출 민법 OX 조문별 통합본 (제1~15회 · 1,063논점) · 빈출 가중 점수 · O·X로 도전</div>
+<div class="game-feed" id="oxFeed">변호사시험 제1~15회 전개년 기출 반영 · 2026. 6. 16. 시행 법령 기준 검증 · 빈출 가중 점수 · O·X로 도전</div>
 <div class="ox-reveal" id="oxReveal" hidden=""></div>
 </div>
 </div>
@@ -20541,6 +20541,23 @@ async function loadExamTerms(){
     res.data.forEach(function(r){if(out[r.category])out[r.category].push(r.term);});
     return out;
   }
+  async function loadObjectiveAtomStatements(){
+    try{
+      var res=await fetch('assets/ox_msa_unified_v001.json?v=20260616typing');
+      if(!res.ok)return [];
+      var data=await res.json(),seen={},out=[];
+      (data.items||[]).forEach(function(item){
+        var text=(item&&item.rep||'').replace(/\s+/g,' ').trim();
+        if(text.length<18||text.length>260||seen[text])return;
+        seen[text]=1;
+        out.push(text);
+      });
+      return out;
+    }catch(e){
+      console.warn(e);
+      return [];
+    }
+  }
   function mapCaseQuestion(r){
       return {
         id:r.id,
@@ -20571,6 +20588,7 @@ async function loadExamTerms(){
     function isHangul(ch){return !!ch&&/[가-힣]/.test(ch);}
     function goodBlankOccurrence(text,term){var i=text.indexOf(term);if(i<0)return false;var left=text.charAt(i-1),right=text.charAt(i+term.length);return !(term.length<=3&&isHangul(left)&&isHangul(right));}
     var examData=await loadExamTerms();
+    var objectiveAtoms=await loadObjectiveAtomStatements();
     var examAll=unique((examData.all||[]).concat(examData.public||[],examData.criminal||[],examData.civil||[]));
     var examPublic=unique(examData.public||[]),examCriminal=unique(examData.criminal||[]),examCivil=unique(examData.civil||[]);
     function buildBlanks(){
@@ -20651,7 +20669,7 @@ async function loadExamTerms(){
       var terms=examAll.filter(function(x){return x.length>=2&&x.length<=24;});
       var phrases=examAll.filter(function(x){return x.length>=5&&x.length<=34;});
       var short=examAll.filter(function(x){return x.length<=8&&!/\s/.test(x);});
-      return {terms:terms,phrases:phrases.length?phrases:terms,mixed:unique(terms.concat(phrases)),short:short,public:examPublic,civil:examCivil,criminal:examCriminal,blanks:buildBlanks(),caseBlanks:buildCaseBlanks()};
+      return {terms:terms,phrases:phrases.length?phrases:terms,mixed:unique(terms.concat(phrases)),objectiveAtoms:objectiveAtoms.length?objectiveAtoms:phrases,short:short,public:examPublic,civil:examCivil,criminal:examCriminal,blanks:buildBlanks(),caseBlanks:buildCaseBlanks()};
     }
     var bank=null;function getBank(){if(!bank)bank=buildBank();return bank;}
     function pick(list){return (list&&list.length)?list[Math.floor(Math.random()*list.length)]:'소멸시효';}
@@ -20668,6 +20686,9 @@ async function loadExamTerms(){
     function answerContains(input,target){var a=norm(input),b=norm(target);return !!(a&&b&&a.indexOf(b)>-1);}
     function randomMultiplier(){var r=Math.random();if(r<0.03)return 5;if(r<0.10)return 3;if(r<0.30)return 2;return 1;}
     function setBonus(el,m){if(!el)return;el.textContent='x'+m;el.className='game-bonus'+(m>1?' hot':'')+(m>=5?' ultra':'');}
+    function typingRollEvent(){var r=Math.random();if(r<0.03)return {key:'jackpot',mult:10,label:'호랑이의 대박'};if(r<0.30)return {key:'tiger',mult:3,label:'호랑이의 가호'};return {key:'normal',mult:1,label:''};}
+    function typingEventText(ev){if(!ev||ev.key==='normal')return '';return ev.key==='jackpot'?'🐯 호랑이의 대박 ×10':'🐯 호랑이의 가호 ×3';}
+    function setTypingBonus(el,m,ev){if(!el)return;var eventText=typingEventText(ev);el.textContent=(eventText?eventText+' · ':'')+'x'+m;el.className='game-bonus'+(m>1?' hot':'')+(m>=10?' ultra':'');}
     function dateShort(iso){var d=new Date(iso);if(isNaN(d.getTime()))return '';return (d.getMonth()+1)+'/'+d.getDate();}
     var scoreKey='civilwiki_game_scores_v3';
     function allScores(){try{return JSON.parse(localStorage.getItem(scoreKey))||{};}catch(e){return {};}}
@@ -20829,12 +20850,12 @@ async function loadExamTerms(){
       });
     });
 
-    var typing={active:false,timer:null,target:'',last:'',score:0,time:30,combo:0,ok:0,bad:0,mult:1};
+    var typing={active:false,timer:null,target:'',last:'',mode:'terms',score:0,time:30,combo:0,perfect:0,ok:0,bad:0,mult:1,event:null};
     var typingInput=document.getElementById('typingInput'),typingTarget=document.getElementById('typingTarget'),typingFeed=document.getElementById('typingFeed'),typingBonus=document.getElementById('typingBonus');
     function typingStats(){document.getElementById('typingScore').textContent=Math.round(typing.score);document.getElementById('typingTime').textContent=typing.time;document.getElementById('typingCombo').textContent=typing.combo;document.getElementById('typingMult').textContent='x'+typing.mult;}
-    function nextTyping(){var mode=document.getElementById('typingBank').value,b=getBank();typing.target=pickDifferent(b[mode]||b.terms,typing.last);typing.last=typing.target;typing.mult=randomMultiplier();setBonus(typingBonus,typing.mult);typingTarget.classList.remove('idle');typingTarget.textContent=typing.target;typingInput.value='';typingInput.focus();typingStats();}
-    function finishTyping(msg){if(!typing.active&&msg!=='force')return;typing.active=false;clearInterval(typing.timer);typingInput.disabled=true;var total=typing.ok+typing.bad,acc=total?Math.round(typing.ok/total*100):100;var detail=typing.ok+'문항 · 정확도 '+acc+'%',rawScore=typing.score,finalScore=gameAdjustedScore(rawScore);addScore('typing',rawScore,document.getElementById('typingNick').value,detail);typing.score=finalScore;typingTarget.classList.add('idle');typingTarget.textContent='종료! 점수 '+finalScore+'점 · '+detail;typingFeed.className='game-feed good';typingFeed.textContent='상위 점수표를 확인하세요.';typing.mult=1;setBonus(typingBonus,1);typingStats();}
-    document.getElementById('typingStart').addEventListener('click',function(){clearInterval(typing.timer);typing={active:true,timer:null,target:'',last:'',score:0,time:parseInt(document.getElementById('typingDuration').value,10)||30,combo:0,ok:0,bad:0,mult:1};typingInput.disabled=false;typingFeed.className='game-feed';typingFeed.textContent='띄어쓰기·줄바꿈과 상관없이 핵심 단어가 포함되면 정답입니다.';typingStats();nextTyping();typing.timer=setInterval(function(){typing.time--;typingStats();if(typing.time<=0)finishTyping();},1000);});
+    function nextTyping(){var mode=document.getElementById('typingBank').value,b=getBank(),pool=b[mode]||b.terms;typing.mode=mode;typing.target=pickDifferent(pool,typing.last);typing.last=typing.target;typing.event=typingRollEvent();typing.mult=randomMultiplier()*typing.event.mult;setTypingBonus(typingBonus,typing.mult,typing.event);typingTarget.classList.remove('idle');typingTarget.textContent=typing.target;typingInput.value='';typingInput.focus();typingStats();}
+    function finishTyping(msg){if(!typing.active&&msg!=='force')return;typing.active=false;clearInterval(typing.timer);typingInput.disabled=true;var total=typing.ok+typing.bad,acc=total?Math.round(typing.ok/total*100):100,modeLabel=typing.mode==='objectiveAtoms'?'객관식 정지문':'타자연습';var detail=modeLabel+' · '+typing.ok+'문항 · 정확도 '+acc+'%',rawScore=typing.score,finalScore=gameAdjustedScore(rawScore);addScore('typing',rawScore,document.getElementById('typingNick').value,detail);typing.score=finalScore;typingTarget.classList.add('idle');typingTarget.textContent='종료! 점수 '+finalScore+'점 · '+detail;typingFeed.className='game-feed good';typingFeed.textContent='상위 점수표를 확인하세요.';typing.mult=1;typing.event=null;setTypingBonus(typingBonus,1,null);typingStats();}
+    document.getElementById('typingStart').addEventListener('click',function(){clearInterval(typing.timer);var selectedMode=document.getElementById('typingBank').value;typing={active:true,timer:null,target:'',last:'',mode:selectedMode,score:0,time:parseInt(document.getElementById('typingDuration').value,10)||30,combo:0,perfect:0,ok:0,bad:0,mult:1,event:null};typingInput.disabled=false;typingFeed.className='game-feed';typingFeed.textContent=selectedMode==='objectiveAtoms'?'객관식 정지문 atom을 그대로 입력하세요. Ctrl+V 붙여넣기는 점수에 반영되지 않습니다.':'띄어쓰기·줄바꿈과 상관없이 핵심 단어가 포함되면 정답입니다. Ctrl+V 붙여넣기는 점수에 반영되지 않습니다.';typingStats();nextTyping();typing.timer=setInterval(function(){typing.time--;typingStats();if(typing.time<=0)finishTyping();},1000);});
     document.getElementById('typingStop').addEventListener('click',function(){finishTyping('force');});
     var typingEnterLock=false,typingPendingEnter=false;
     function scheduleTypingSubmit(){
@@ -20848,18 +20869,28 @@ async function loadExamTerms(){
       if(!norm(raw)){typingFeed.className='game-feed';typingFeed.textContent='입력한 뒤 Enter를 누르세요.';return;}
       if(answerContains(raw,typing.target)){
         typing.ok++;typing.combo++;
-        typing.score+=(typing.target.length*10+typing.combo*3)*typing.mult;
+        typing.perfect++;
+        var base=typing.target.length*12+typing.combo*8;
+        var perfectBoost=Math.pow(1.2,typing.perfect);
+        var add=Math.floor(base*typing.mult*perfectBoost);
+        typing.score+=add;
         typingFeed.className='game-feed good';
-        typingFeed.textContent='정답! x'+typing.mult+' · 콤보 '+typing.combo;
+        typingFeed.textContent='정답! +'+add+' · x'+typing.mult+' · 퍼펙트 '+typing.perfect+'연속 ×'+perfectBoost.toFixed(2)+(typing.event&&typing.event.key!=='normal'?' · '+typing.event.label:'');
         nextTyping();
       }else{
-        typing.bad++;typing.combo=0;typing.score=Math.max(0,typing.score-8);
+        typing.bad++;typing.combo=0;typing.perfect=0;typing.score=Math.max(0,typing.score-8);
         typingFeed.className='game-feed bad';
         typingFeed.textContent='핵심 단어가 포함되지 않았어요. 띄어쓰기·줄바꿈은 무시됩니다.';
         typingStats();
       }
     }
     typingInput.addEventListener('keydown',function(e){
+      if((e.ctrlKey||e.metaKey)&&String(e.key||'').toLowerCase()==='v'){
+        e.preventDefault();
+        typingFeed.className='game-feed bad';
+        typingFeed.textContent='붙여넣기는 사용할 수 없습니다. 직접 타자로 입력하세요.';
+        return;
+      }
       if(e.key==='Enter'){
         if(e.isComposing||e.keyCode===229||typingInput.dataset.composing==='1'){
           typingPendingEnter=true;
@@ -20874,6 +20905,9 @@ async function loadExamTerms(){
       if(typingPendingEnter){typingPendingEnter=false;scheduleTypingSubmit();}
     });
     typingInput.addEventListener('compositionstart',function(){typingInput.dataset.composing='1';});
+    typingInput.addEventListener('paste',function(e){e.preventDefault();typingFeed.className='game-feed bad';typingFeed.textContent='붙여넣기는 사용할 수 없습니다. 직접 타자로 입력하세요.';});
+    typingInput.addEventListener('drop',function(e){e.preventDefault();});
+    typingInput.addEventListener('beforeinput',function(e){if(e.inputType==='insertFromPaste'||e.inputType==='insertFromDrop'){e.preventDefault();}});
 
     var rain={active:false,raf:0,timer:null,last:0,spawn:0,drops:[],score:0,time:30,duration:30,lives:8,combo:0,level:0,base:0,boss:null,hits:0};
     var stage=document.getElementById('rainStage'),rainInput=document.getElementById('rainInput'),rainFeed=document.getElementById('rainFeed');
