@@ -19555,7 +19555,8 @@ window.__KCI_BOOT=function(d){
   var LAW_SUBJECT_LABELS={'대한민국헌법':'헌법'};
   var LAW_SUBJECT_LOCAL_ARTICLES={
     '민사소송법':{url:'assets/civil_procedure_articles.json?v=20260613',min:500},
-    '상법':{url:'assets/commercial_law_articles.json?v=20260616a',min:1000}
+    '상법':{url:'assets/commercial_law_articles.json?v=20260616a',min:1000},
+    '법조윤리':{url:'assets/legal_ethics_articles.json?v=20260617a',min:2015}
   };
   var LAW_SUBJECT_COMMENTARY_FILES={
     '민사소송법':'assets/civil_procedure_commentaries.json?v=20260616a',
@@ -19932,7 +19933,7 @@ window.__KCI_BOOT=function(d){
   function lawSubjectFetch(k){
     if(LAW_SUBJECT_CACHE[k])return Promise.resolve(LAW_SUBJECT_CACHE[k]);
     if(LAW_SUBJECT_PROMISES[k])return LAW_SUBJECT_PROMISES[k];
-    var url=LAW_SUBJECT_DB_URL+'/rest/v1/law_subject_articles?select=subject,law_name,article_no,title,body,part,chapter,section,source_url,sort_base,sort_sub&subject=eq.'+encodeURIComponent(k)+'&order=law_name.asc,sort_base.asc,sort_sub.asc&limit=2000';
+    var url=LAW_SUBJECT_DB_URL+'/rest/v1/law_subject_articles?select=subject,law_name,article_no,title,body,part,chapter,section,source_url,sort_base,sort_sub&subject=eq.'+encodeURIComponent(k)+'&order=law_name.asc,sort_base.asc,sort_sub.asc&limit=3000';
     LAW_SUBJECT_PROMISES[k]=fetch(url,{headers:{apikey:LAW_SUBJECT_DB_KEY,Authorization:'Bearer '+LAW_SUBJECT_DB_KEY}})
       .then(function(r){if(!r.ok){if(LAW_SUBJECT_LOCAL_ARTICLES[k])return [];throw new Error('DB 조문 로딩 실패');}return r.json();})
       .then(function(rows){
