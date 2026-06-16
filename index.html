@@ -18975,6 +18975,71 @@ window.__KCI_BOOT=function(d){
     buildSpecialCivilMenus();
   }
   insertSpecialCivilLaws();
+  var CIVIL_PROCEDURE_RELATED_LAWS=[
+    {"group":"기본 절차","law":"민사소송규칙","short":"","note":"민사소송법의 송달, 변론, 증거, 기록 등 세부 절차를 보충합니다."},
+    {"group":"기본 절차","law":"민사소송 등 인지법","short":"인지법","note":"소장, 신청서 등에 붙는 인지액과 납부 구조를 정합니다."},
+    {"group":"기본 절차","law":"민사소송 등 인지규칙","short":"인지규칙","note":"인지액 산정과 납부 실무를 구체화합니다."},
+    {"group":"전자소송","law":"민사소송 등에서의 전자문서 이용 등에 관한 법률","short":"전자소송법","note":"전자문서 제출, 전자송달, 전자기록 등 전자소송의 기본 법률입니다."},
+    {"group":"전자소송","law":"민사소송 등에서의 전자문서 이용 등에 관한 규칙","short":"전자소송규칙","note":"전자소송 시스템 이용과 전자문서 처리 절차를 보충합니다."},
+    {"group":"집행·보전","law":"민사집행법","short":"","note":"판결과 집행권원에 따른 강제집행, 보전처분, 경매 절차의 중심 법률입니다."},
+    {"group":"집행·보전","law":"민사집행규칙","short":"","note":"민사집행법상 경매, 압류, 배당 등 집행 실무 절차를 보충합니다."},
+    {"group":"집행·보전","law":"공탁법","short":"","note":"변제공탁, 담보공탁, 집행공탁 등 소송·집행과 연결되는 공탁 제도입니다."},
+    {"group":"집행·보전","law":"공탁규칙","short":"","note":"공탁서류, 접수, 출급·회수 절차를 구체화합니다."},
+    {"group":"특별절차","law":"소액사건심판법","short":"","note":"소액 민사분쟁을 간이하고 신속하게 처리하는 특별절차입니다."},
+    {"group":"특별절차","law":"소송촉진 등에 관한 특례법","short":"","note":"소송 지연 방지, 지연손해금, 소송촉진 관련 특례를 둡니다."},
+    {"group":"특별절차","law":"상고심절차에 관한 특례법","short":"","note":"상고심 심리불속행 등 대법원 상고심 절차의 특례를 정합니다."},
+    {"group":"특별절차","law":"비송사건절차법","short":"","note":"소송이 아닌 법원의 비송사건 처리 절차를 정합니다."},
+    {"group":"조정·중재·가사","law":"민사조정법","short":"","note":"민사분쟁을 판결 전 조정으로 해결하는 절차를 정합니다."},
+    {"group":"조정·중재·가사","law":"중재법","short":"","note":"중재합의와 중재판정, 그 승인·집행 절차를 정합니다."},
+    {"group":"조정·중재·가사","law":"가사소송법","short":"","note":"혼인, 친자, 상속 등 가족관계 사건의 소송·비송 절차를 정합니다."},
+    {"group":"조정·중재·가사","law":"가사소송규칙","short":"","note":"가사소송법의 세부 절차와 서식·심리 방식을 보충합니다."}
+  ];
+  function civilProcedureRelatedId(item,idx){return '민사소송법-관련-'+(idx+1);}
+  function civilProcedureRelatedLabel(item){return item.short||item.law;}
+  function civilProcedureRelatedLawUrl(item){return 'https://www.law.go.kr/LSW/lsSc.do?menuId=1&subMenuId=15&query='+encodeURIComponent(item.law);}
+  function civilProcedureRelatedGroups(){
+    var order=['기본 절차','전자소송','집행·보전','특별절차','조정·중재·가사'];
+    var groups={};
+    order.forEach(function(name){groups[name]=[];});
+    CIVIL_PROCEDURE_RELATED_LAWS.forEach(function(item){
+      (groups[item.group]||(groups[item.group]=[])).push(item);
+    });
+    return order.map(function(name){return {name:name,items:groups[name]||[]};}).filter(function(group){return group.items.length;});
+  }
+  function insertCivilProcedureRelatedLaws(){
+    if(document.body.dataset.civilProcedureRelatedReady)return;
+    document.body.dataset.civilProcedureRelatedReady='1';
+    CIVIL_PROCEDURE_RELATED_LAWS.forEach(function(item,idx){
+      item._id=civilProcedureRelatedId(item,idx);
+      item._idx=idx;
+    });
+    var after=document.querySelector('section.art[data-art="민사소송법"]');
+    var before=document.querySelector('section.art[data-art="형법"]');
+    CIVIL_PROCEDURE_RELATED_LAWS.forEach(function(item){
+      if(document.getElementById(item._id))return;
+      var section=document.createElement('section');
+      section.className='art special-law-section civil-procedure-related-section';
+      section.dataset.art=item._id;
+      section.dataset.pyeon='민사소송법';
+      section.id=item._id;
+      section.innerHTML=''
+        +'<div class="crumb">민사소송법 › 관련 법령 › '+specialCivilEsc(item.group)+'</div>'
+        +'<h1>'+specialCivilEsc(civilProcedureRelatedLabel(item))+'</h1>'
+        +'<div class="bar"></div>'
+        +'<div class="lawtext"><div class="lbl">핵심</div><p>'+specialCivilEsc(item.note)+'</p></div>'
+        +'<div class="special-law-card">'
+        +'<span class="special-law-badge">민사소송법 관련 법령</span>'
+        +'<dl class="special-law-grid">'
+        +'<dt>분류</dt><dd>'+specialCivilEsc(item.group)+'</dd>'
+        +'<dt>법령</dt><dd>'+specialCivilEsc(item.law)+'</dd>'
+        +'<dt>연결 위치</dt><dd>민사소송법 탭 하위</dd>'
+        +'</dl><div class="special-law-actions"><a href="'+specialCivilEsc(civilProcedureRelatedLawUrl(item))+'" target="_blank" rel="noopener">국가법령정보센터 원문 보기</a></div></div>'
+        +'<div class="pager"><a href="#민사소송법">‹ 민사소송법으로 돌아가기</a><a href="#형법">형법 ›</a></div>';
+      if(after){after.insertAdjacentElement('afterend',section);after=section;}
+      else if(before){before.insertAdjacentElement('beforebegin',section);after=section;}
+      else{var main=document.querySelector('main');if(main){main.appendChild(section);after=section;}}
+    });
+  }
   function ensureCivilProcedureShell(){
     if(!document.querySelector('.menubar .mtop[data-pyeon="민사소송법"]')){
       var afterTop=null;
@@ -19015,6 +19080,7 @@ window.__KCI_BOOT=function(d){
     }
   }
   ensureCivilProcedureShell();
+  insertCivilProcedureRelatedLaws();
   // ---- End civil special laws ----
   var secs=document.querySelectorAll('section.art');
   var links=document.querySelectorAll('nav .art-link[data-art]');
@@ -19490,6 +19556,11 @@ window.__KCI_BOOT=function(d){
     var rows=lawSubjectRows(subject,lawName);
     return {label:label,subject:subject,lawName:lawName,rows:rows};
   }
+  function civilProcedureRelatedMenuConfigs(){
+    return civilProcedureRelatedGroups().map(function(group){
+      return {type:'related-laws',label:group.name,items:group.items};
+    });
+  }
   function lawSubjectMenuLinks(rows){
     return rows.map(function(row){
       return '<a href="#'+lawSubjectEsc(row._anchor)+'">'+lawSubjectEsc(lawSubjectArticleTitle(row))+'</a>';
@@ -19501,6 +19572,14 @@ window.__KCI_BOOT=function(d){
     var drop=item.querySelector('.mdrop');
     if(!drop){drop=document.createElement('div');drop.className='mdrop';item.appendChild(drop);}
     drop.innerHTML=configs.map(function(cfg){
+      if(cfg.type==='related-laws'){
+        if(!cfg.items||!cfg.items.length)return '';
+        var firstItem=cfg.items[0];
+        var links=cfg.items.map(function(item){
+          return '<a href="#'+lawSubjectEsc(item._id)+'">'+lawSubjectEsc(civilProcedureRelatedLabel(item))+'</a>';
+        }).join('');
+        return '<div class="ditem has law-subject-menu-node"><a href="#'+lawSubjectEsc(firstItem._id)+'">'+lawSubjectEsc(cfg.label)+' <span class="rng">'+cfg.items.length+'개</span><span class="arr">›</span></a><div class="ddrop special-ddrop">'+links+'</div></div>';
+      }
       if(!cfg.rows.length)return '<div class="ditem"><a href="#'+lawSubjectEsc(cfg.subject)+'">'+lawSubjectEsc(cfg.label)+'</a></div>';
       var first=cfg.rows[0],range=lawSubjectRange(cfg.rows);
       var body=lawSubjectRenderMenuNodes(lawSubjectBuildTree(cfg.rows,['part','chapter','section']));
@@ -19519,9 +19598,16 @@ window.__KCI_BOOT=function(d){
     if(!arts){arts=document.createElement('div');arts.className='arts';root.appendChild(arts);}
     var flat=(configs.length===1&&configs[0].label===summaryText);
     arts.innerHTML=configs.map(function(cfg){
+      if(cfg.type==='related-laws'){
+        if(!cfg.items||!cfg.items.length)return '';
+        var relatedLinks=cfg.items.map(function(item){
+          return '<a class="art-link special-law-link civil-procedure-related-link" data-art="'+lawSubjectEsc(item._id)+'" href="#'+lawSubjectEsc(item._id)+'">'+lawSubjectEsc(civilProcedureRelatedLabel(item))+'</a>';
+        }).join('');
+        return '<details class="law-nav-node depth-1"><summary>'+lawSubjectEsc(cfg.label)+' <span class="cnt">'+cfg.items.length+'개</span></summary><div class="arts">'+relatedLinks+'</div></details>';
+      }
       if(!cfg.rows.length)return '';
       var links=lawSubjectRenderSideNodes(lawSubjectBuildTree(cfg.rows,['part','chapter','section']),1);
-      if(flat)return links;
+      if(flat||cfg.label===summaryText)return links;
       return '<details><summary>'+lawSubjectEsc(cfg.label)+' <span class="cnt">'+lawSubjectEsc(lawSubjectRange(cfg.rows))+'</span></summary><div class="arts">'+links+'</div></details>';
     }).join('');
   }
@@ -19529,7 +19615,7 @@ window.__KCI_BOOT=function(d){
     Promise.all(['민사소송법','형법','형사소송법','헌법','행정법'].map(lawSubjectFetch)).then(function(){
       var civilProcedure=[
         lawSubjectMakeConfig('민사소송법','민사소송법')
-      ];
+      ].concat(civilProcedureRelatedMenuConfigs());
       var criminal=[
         lawSubjectMakeConfig('형법','형법'),
         lawSubjectMakeConfig('형사소송법','형사소송법')
