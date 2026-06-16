@@ -19321,6 +19321,11 @@ window.__KCI_BOOT=function(d){
       trigger.setAttribute('aria-haspopup','true');
       trigger.setAttribute('aria-expanded',item.classList.contains('menu-open')?'true':'false');
       trigger.addEventListener('click',function(e){
+        if(item.dataset.menuDelegatedHandled==='1'){
+          delete item.dataset.menuDelegatedHandled;
+          return;
+        }
+        if(menuLinkNavigatesToArticle(trigger))return;
         if(item.dataset.menuClickPass==='1'){
           delete item.dataset.menuClickPass;
           return;
@@ -19366,6 +19371,10 @@ window.__KCI_BOOT=function(d){
     item.dataset.menuClickOpened='1';
     if(trigger)trigger.setAttribute('aria-expanded','true');
   }
+  function menuLinkNavigatesToArticle(trigger){
+    var href=trigger&&trigger.getAttribute&&trigger.getAttribute('href');
+    return !!(href&&/^#lawsub-/.test(href));
+  }
   function keepMenuClickOnCurrentPage(item,trigger,hashBefore){
     setTimeout(function(){
       var href=trigger&&trigger.getAttribute('href');
@@ -19384,6 +19393,11 @@ window.__KCI_BOOT=function(d){
       if(!trigger)return;
       var item=trigger.parentElement;
       if(!item||!item.matches||!item.matches('.mitem,.ditem.has')||!item.querySelector(':scope>.mdrop,:scope>.ddrop'))return;
+      if(menuLinkNavigatesToArticle(trigger)){
+        closeMenuClickItem(item);
+        return;
+      }
+      item.dataset.menuDelegatedHandled='1';
       if(item.dataset.menuClickOpened==='1'){
         item.dataset.menuClickPass='1';
         closeMenuClickItem(item);
