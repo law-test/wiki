@@ -752,6 +752,8 @@ nav .art-link.special-law-link{margin-left:18px;padding-left:30px;color:#0f766e;
 nav .art-link.special-law-link::before{content:"§";position:absolute;left:12px;color:#0ea5a4;font-weight:900}
 nav .art-link.special-law-link.active{background:linear-gradient(135deg,#0ea5a4,#2563eb);color:#fff;box-shadow:0 10px 22px rgba(14,165,164,.18)}
 nav .special-civil-nav .special-law-link{margin-left:0}
+nav .art-link .atom-nav-badge{display:inline-flex;align-items:center;border:1px solid rgba(124,58,237,.22);background:#ede9fe;color:#4c1d95;border-radius:999px;padding:1px 6px;margin-left:6px;font-size:10px;font-weight:950;line-height:1.45;vertical-align:1px;white-space:nowrap}
+nav .art-link.active .atom-nav-badge{border-color:rgba(255,255,255,.5);background:rgba(255,255,255,.22);color:#fff}
 @media (max-width:640px){.special-law-grid{grid-template-columns:1fr}.special-law-card{padding:18px}}
 .law-subject-slot{margin-top:22px}
 .law-subject-panel{border:1px solid rgba(208,213,221,.88);border-radius:18px;background:#fff;box-shadow:0 14px 34px rgba(15,23,42,.06);overflow:hidden}
@@ -19383,7 +19385,7 @@ window.__KCI_BOOT=function(d){
     if(LAW_ATOM_PROMISE)return LAW_ATOM_PROMISE;
     LAW_ATOM_PROMISE=fetch('assets/ox_msa_unified_v001.json?v=20260616atom2')
       .then(function(r){if(!r.ok)throw new Error('atom loading failed');return r.json();})
-      .then(function(data){LAW_ATOM_CACHE=(data&&data.items)||[];return LAW_ATOM_CACHE;});
+      .then(function(data){LAW_ATOM_CACHE=(data&&data.items)||[];setTimeout(function(){lawAtomApplyNavBadges(document,LAW_ATOM_CACHE);},0);return LAW_ATOM_CACHE;});
     return LAW_ATOM_PROMISE;
   }
   function lawAtomArticleNos(text){
@@ -19461,6 +19463,64 @@ window.__KCI_BOOT=function(d){
     });
     return groups;
   }
+  function lawAtomCountFor(subject,lawName,articleNo,items){
+    var total=0;
+    (items||[]).forEach(function(u){
+      if(!lawAtomMatches(u,subject,lawName,articleNo))return;
+      if(u.rep)total++;
+      (u.twins||[]).forEach(function(t){
+        if(String(t.q||'').trim()===String(u.rep||'').trim())return;
+        if(t.q)total++;
+      });
+    });
+    return total;
+  }
+  function lawSubjectFindRowByAnchor(anchor){
+    var found=null;
+    Object.keys(LAW_SUBJECT_CACHE).some(function(k){
+      return (LAW_SUBJECT_CACHE[k]||[]).some(function(row){
+        if(row._anchor===anchor){found=row;return true;}
+        return false;
+      });
+    });
+    return found;
+  }
+  function lawAtomNavTarget(link){
+    var art=link&&link.dataset?link.dataset.art:'';
+    if(!art)return null;
+    if(/^제[0-9]/.test(art))return {subject:'민법',lawName:'민법',articleNo:art};
+    var row=lawSubjectFindRowByAnchor(art);
+    if(row)return {subject:row.subject,lawName:row.law_name,articleNo:row.article_no};
+    return null;
+  }
+  function lawAtomSetNavBadge(link,count){
+    var badge=link.querySelector('.atom-nav-badge');
+    if(!count){
+      if(badge)badge.remove();
+      link.classList.remove('has-atom');
+      delete link.dataset.atomCount;
+      return;
+    }
+    if(!badge){
+      badge=document.createElement('span');
+      badge.className='atom-nav-badge';
+      link.appendChild(badge);
+    }
+    badge.textContent='atom '+count;
+    badge.title='이 조문에 기출 atom '+count+'개';
+    link.classList.add('has-atom');
+    link.dataset.atomCount=String(count);
+  }
+  function lawAtomApplyNavBadges(root,items){
+    (root||document).querySelectorAll('nav .art-link[data-art]').forEach(function(link){
+      var target=lawAtomNavTarget(link);
+      if(!target){lawAtomSetNavBadge(link,0);return;}
+      lawAtomSetNavBadge(link,lawAtomCountFor(target.subject,target.lawName,target.articleNo,items));
+    });
+  }
+  function lawAtomRefreshNavBadges(root){
+    lawAtomFetch().then(function(items){lawAtomApplyNavBadges(root||document,items);}).catch(function(){});
+  }
   function lawAtomRender(subject,lawName,articleNo,items){
     var groups=lawAtomEntries(subject,lawName,articleNo,items);
     if(!groups.length)return '';
@@ -19525,6 +19585,7 @@ window.__KCI_BOOT=function(d){
     var sec=document.getElementById(id);
     if(sec&&sec.classList&&sec.classList.contains('art'))lawAtomEnsureCivilSection(sec);
   }
+  lawAtomRefreshNavBadges(document);
   function lawSubjectHex(str){
     var bytes=new TextEncoder().encode(str),out='';
     bytes.forEach(function(b){out+=('0'+b.toString(16)).slice(-2);});
@@ -19945,6 +20006,7 @@ window.__KCI_BOOT=function(d){
       if(flat||cfg.label===summaryText)return links;
       return '<details><summary>'+lawSubjectEsc(cfg.label)+' <span class="cnt">'+lawSubjectEsc(lawSubjectRange(cfg.rows))+'</span></summary><div class="arts">'+links+'</div></details>';
     }).join('');
+    lawAtomRefreshNavBadges(root);
   }
   function buildLawSubjectMenus(){
     Promise.all(['민사소송법','상법','형법','형사소송법','헌법','행정법'].map(function(name){
