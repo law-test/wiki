@@ -213,6 +213,10 @@ div.paper.flat:hover{background:var(--bg2)}
 .game-help.ox-help[open] summary::after{content:"-"}
 .game-help.ox-help ul{margin:7px 0 0 16px;padding:0}
 .game-help.ox-help li{margin:2px 0}
+.typing-input-row{display:flex;gap:8px;align-items:stretch;margin-bottom:8px}
+.typing-input-row .game-input{flex:1;min-width:0;margin-bottom:0}
+.typing-symbol-btn{min-width:48px;padding:0 14px!important;font-size:20px;font-weight:950;line-height:1}
+.typing-symbol-btn:disabled{opacity:.45;cursor:not-allowed}
 .game-bonus{display:inline-flex;align-items:center;justify-content:center;min-width:44px;border:1px solid var(--line);background:var(--bg2);color:var(--txt2);font-size:13px;font-weight:900;border-radius:18px;padding:3px 10px;margin:4px 0 0}
 .game-bonus.hot{border-color:var(--accent);background:var(--accent-bg);color:var(--accent-dark)}
 .game-bonus.ultra{border-width:2px;letter-spacing:.5px}
@@ -18650,7 +18654,10 @@ section.art.law-subject-article-mode>.pager{display:none}
 </div>
 <div class="game-bonus" id="typingBonus">x1</div>
 <div class="game-target idle" id="typingTarget">시작을 누르면 문제가 나옵니다.</div>
+<div class="typing-input-row">
 <input autocomplete="off" class="game-input" disabled="" id="typingInput" placeholder="핵심 단어를 입력하고 Enter" type="text"/>
+<button aria-label="가운데 점 입력" class="game-btn ghost typing-symbol-btn" disabled="" id="typingDot" title="가운데 점 입력" type="button">·</button>
+</div>
 <div class="game-feed" id="typingFeed">30초 동안 정확도와 속도를 함께 올려보세요.</div>
 </div>
 <div class="game-panel" data-game-panel="rain" hidden="">
@@ -21022,11 +21029,11 @@ async function loadExamTerms(){
     });
 
     var typing={active:false,timer:null,target:'',last:'',mode:'terms',score:0,time:30,combo:0,perfect:0,ok:0,bad:0,mult:1,event:null};
-    var typingInput=document.getElementById('typingInput'),typingTarget=document.getElementById('typingTarget'),typingFeed=document.getElementById('typingFeed'),typingBonus=document.getElementById('typingBonus');
+    var typingInput=document.getElementById('typingInput'),typingTarget=document.getElementById('typingTarget'),typingFeed=document.getElementById('typingFeed'),typingBonus=document.getElementById('typingBonus'),typingDot=document.getElementById('typingDot');
     function typingStats(){document.getElementById('typingScore').textContent=Math.round(typing.score);document.getElementById('typingTime').textContent=typing.time;document.getElementById('typingCombo').textContent=typing.combo;document.getElementById('typingMult').textContent='x'+typing.mult;}
     function nextTyping(){var mode=document.getElementById('typingBank').value,b=getBank(),pool=b[mode]||b.terms;typing.mode=mode;typing.target=pickDifferent(pool,typing.last);typing.last=typing.target;typing.event=typingRollEvent();typing.mult=randomMultiplier()*typing.event.mult;setTypingBonus(typingBonus,typing.mult,typing.event);typingTarget.classList.remove('idle');typingTarget.textContent=typing.target;typingInput.value='';typingInput.focus();typingStats();}
-    function finishTyping(msg){if(!typing.active&&msg!=='force')return;typing.active=false;clearInterval(typing.timer);typingInput.disabled=true;var total=typing.ok+typing.bad,acc=total?Math.round(typing.ok/total*100):100,modeLabel=typing.mode==='objectiveAtoms'?'객관식 정지문':'타자연습';var detail=modeLabel+' · '+typing.ok+'문항 · 정확도 '+acc+'%',rawScore=typing.score,finalScore=gameAdjustedScore(rawScore);addScore('typing',rawScore,document.getElementById('typingNick').value,detail);typing.score=finalScore;typingTarget.classList.add('idle');typingTarget.textContent='종료! 점수 '+finalScore+'점 · '+detail;typingFeed.className='game-feed good';typingFeed.textContent='상위 점수표를 확인하세요.';typing.mult=1;typing.event=null;setTypingBonus(typingBonus,1,null);typingStats();}
-    document.getElementById('typingStart').addEventListener('click',function(){clearInterval(typing.timer);var selectedMode=document.getElementById('typingBank').value;typing={active:true,timer:null,target:'',last:'',mode:selectedMode,score:0,time:parseInt(document.getElementById('typingDuration').value,10)||30,combo:0,perfect:0,ok:0,bad:0,mult:1,event:null};typingInput.disabled=false;typingFeed.className='game-feed';typingFeed.textContent=selectedMode==='objectiveAtoms'?'객관식 정지문 atom을 그대로 입력하세요. Ctrl+V 붙여넣기는 점수에 반영되지 않습니다.':'띄어쓰기·줄바꿈과 상관없이 핵심 단어가 포함되면 정답입니다. Ctrl+V 붙여넣기는 점수에 반영되지 않습니다.';typingStats();nextTyping();typing.timer=setInterval(function(){typing.time--;typingStats();if(typing.time<=0)finishTyping();},1000);});
+    function finishTyping(msg){if(!typing.active&&msg!=='force')return;typing.active=false;clearInterval(typing.timer);typingInput.disabled=true;if(typingDot)typingDot.disabled=true;var total=typing.ok+typing.bad,acc=total?Math.round(typing.ok/total*100):100,modeLabel=typing.mode==='objectiveAtoms'?'객관식 정지문':'타자연습';var detail=modeLabel+' · '+typing.ok+'문항 · 정확도 '+acc+'%',rawScore=typing.score,finalScore=gameAdjustedScore(rawScore);addScore('typing',rawScore,document.getElementById('typingNick').value,detail);typing.score=finalScore;typingTarget.classList.add('idle');typingTarget.textContent='종료! 점수 '+finalScore+'점 · '+detail;typingFeed.className='game-feed good';typingFeed.textContent='상위 점수표를 확인하세요.';typing.mult=1;typing.event=null;setTypingBonus(typingBonus,1,null);typingStats();}
+    document.getElementById('typingStart').addEventListener('click',function(){clearInterval(typing.timer);var selectedMode=document.getElementById('typingBank').value;typing={active:true,timer:null,target:'',last:'',mode:selectedMode,score:0,time:parseInt(document.getElementById('typingDuration').value,10)||30,combo:0,perfect:0,ok:0,bad:0,mult:1,event:null};typingInput.disabled=false;if(typingDot)typingDot.disabled=false;typingFeed.className='game-feed';typingFeed.textContent=selectedMode==='objectiveAtoms'?'객관식 정지문 atom을 그대로 입력하세요. Ctrl+V 붙여넣기는 점수에 반영되지 않습니다.':'띄어쓰기·줄바꿈과 상관없이 핵심 단어가 포함되면 정답입니다. Ctrl+V 붙여넣기는 점수에 반영되지 않습니다.';typingStats();nextTyping();typing.timer=setInterval(function(){typing.time--;typingStats();if(typing.time<=0)finishTyping();},1000);});
     document.getElementById('typingStop').addEventListener('click',function(){finishTyping('force');});
     var typingEnterLock=false,typingPendingEnter=false;
     function scheduleTypingSubmit(){
@@ -21079,6 +21086,20 @@ async function loadExamTerms(){
     typingInput.addEventListener('paste',function(e){e.preventDefault();typingFeed.className='game-feed bad';typingFeed.textContent='붙여넣기는 사용할 수 없습니다. 직접 타자로 입력하세요.';});
     typingInput.addEventListener('drop',function(e){e.preventDefault();});
     typingInput.addEventListener('beforeinput',function(e){if(e.inputType==='insertFromPaste'||e.inputType==='insertFromDrop'){e.preventDefault();}});
+    function insertTypingSymbol(ch){
+      if(!typingInput||typingInput.disabled)return;
+      var start=typingInput.selectionStart,end=typingInput.selectionEnd,value=typingInput.value||'';
+      if(typeof start==='number'&&typeof end==='number'){
+        typingInput.value=value.slice(0,start)+ch+value.slice(end);
+        var pos=start+ch.length;
+        typingInput.setSelectionRange(pos,pos);
+      }else{
+        typingInput.value=value+ch;
+      }
+      typingInput.focus();
+      typingInput.dispatchEvent(new Event('input',{bubbles:true}));
+    }
+    if(typingDot)typingDot.addEventListener('click',function(){insertTypingSymbol('·');});
 
     var rain={active:false,raf:0,timer:null,last:0,spawn:0,drops:[],score:0,time:30,duration:30,lives:8,combo:0,level:0,base:0,boss:null,hits:0};
     var stage=document.getElementById('rainStage'),rainInput=document.getElementById('rainInput'),rainFeed=document.getElementById('rainFeed');
