@@ -794,22 +794,39 @@ section.art.law-subject-article-mode>.pager{display:none}
 .law-subject-structure{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 18px}
 .law-subject-structure span{display:inline-flex;align-items:center;border:1px solid rgba(109,40,217,.16);background:#f8f5ff;color:#4c1d95;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:900}
 .law-subject-source{margin-top:12px}
-.article-atoms{margin:22px 0}
+.article-atoms{margin:28px 0 24px;border:1px solid rgba(167,139,250,.32);border-radius:20px;background:linear-gradient(180deg,#fff,#fbf9ff);padding:16px;box-shadow:0 14px 34px rgba(79,70,229,.08)}
 .article-atoms:empty{display:none}
-.article-atoms h2{display:flex;align-items:center;gap:8px;margin:0 0 5px;font-size:22px}
-.article-atoms .note{margin:0 0 12px}
-.atom-list{display:grid;gap:10px}
-.atom-card{border:1px solid rgba(226,232,240,.95);border-radius:16px;background:#fff;padding:13px 15px;box-shadow:var(--shadow-sm)}
-.atom-card.is-x{background:linear-gradient(135deg,#fff,#fff7f7)}
-.atom-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px}
-.atom-badge{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:999px;font-size:13px;font-weight:950;color:#fff}
-.atom-badge.o{background:#16a34a}.atom-badge.x{background:#dc2626}
-.atom-topic{font-size:13px;font-weight:900;color:var(--txt)}
-.atom-meta{display:inline-flex;align-items:center;border-radius:999px;background:#f5f3ff;color:#4c1d95;padding:3px 8px;font-size:11.5px;font-weight:900}
-.atom-stmt{margin:0;color:var(--txt);font-size:14.5px;line-height:1.7}
-.atom-why{margin:7px 0 0;color:var(--txt2);font-size:13.2px;line-height:1.65}
-.atom-ref{margin:6px 0 0;color:var(--txt3);font-size:12.2px;line-height:1.55}
+.atom-headline{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:14px}
+.atom-title-stack h2{display:flex;align-items:center;gap:9px;margin:0 0 5px;font-size:22px}
+.article-atoms .note{margin:0;color:#667085}
+.atom-count-pill{display:inline-flex;align-items:center;border-radius:999px;background:#ede9fe;color:#4c1d95;padding:3px 9px;font-size:12px;font-weight:950}
+.atom-cta{flex:0 0 auto;border:1px solid rgba(109,40,217,.22);border-radius:999px;background:#fff;color:#4c1d95;font-size:12px;font-weight:950;padding:8px 12px;box-shadow:var(--shadow-sm)}
+.atom-list{display:grid;gap:12px}
+.atom-card{display:grid;grid-template-columns:48px minmax(0,1fr);gap:12px;border:1px solid rgba(209,213,219,.92);border-radius:18px;background:#fff;padding:14px 15px;box-shadow:var(--shadow-sm)}
+.atom-card.is-o{border-color:rgba(22,163,74,.28)}
+.atom-card.is-x{border-color:rgba(220,38,38,.25);background:linear-gradient(135deg,#fff,#fff7f7)}
+.atom-mark{display:flex;align-items:flex-start;justify-content:center;padding-top:2px}
+.atom-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:7px}
+.atom-badge{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:999px;font-size:20px;font-weight:950;color:#fff;box-shadow:0 8px 18px rgba(15,23,42,.12)}
+.atom-badge.o{background:linear-gradient(135deg,#16a34a,#22c55e)}.atom-badge.x{background:linear-gradient(135deg,#dc2626,#f87171)}
+.atom-topic{display:inline-flex;align-items:center;border-radius:999px;background:#f8fafc;color:#334155;padding:4px 9px;font-size:12.5px;font-weight:950}
+.atom-meta{display:inline-flex;align-items:center;border-radius:999px;background:#eef2ff;color:#3730a3;padding:4px 9px;font-size:11.5px;font-weight:950}
+.atom-stmt{margin:0;color:#111827;font-size:15.3px;line-height:1.76;font-weight:650}
+.atom-why{margin:8px 0 0;color:#475467;font-size:13.4px;line-height:1.7}
+.atom-ref{margin:9px 0 0;border-left:3px solid #d8b4fe;padding-left:9px;color:#667085;font-size:12.5px;line-height:1.6}
 .atom-empty{border:1px dashed var(--line);border-radius:16px;padding:12px 14px;color:var(--txt3);font-size:13px}
+.law-commentary{border:1px solid rgba(226,232,240,.95);border-radius:18px;background:#fff;padding:16px;margin:18px 0 24px;box-shadow:var(--shadow-sm)}
+.law-commentary .gist{margin:0 0 12px;color:#24304a;font-weight:800;line-height:1.75}
+.law-commentary .law-subject-structure{margin:0 0 12px}
+.law-commentary-block{border-top:1px solid #edf2f7;padding-top:12px;margin-top:12px}
+.law-commentary-block h3{margin:0 0 8px;font-size:16px;color:#312e81}
+.law-commentary-block p{margin:7px 0;color:#475467;line-height:1.78}
+.law-resource-section{margin:24px 0}
+.law-resource-section h2{display:flex;align-items:center;gap:8px}
+.law-resource-section h2 .note{font-size:13px}
+.law-source-link{margin-top:16px;border:1px solid rgba(226,232,240,.95);border-radius:16px;background:#fff;padding:13px 15px;box-shadow:var(--shadow-sm)}
+.law-source-link p{margin:4px 0 0;color:#667085;font-size:13px;line-height:1.65}
+@media (max-width:700px){.atom-headline{display:block}.atom-cta{display:inline-flex;margin-top:10px}.atom-card{grid-template-columns:40px minmax(0,1fr);padding:12px}.atom-badge{width:36px;height:36px;font-size:17px}}
 
 
 /* ---------- 하랑재 강의노트 ---------- */
@@ -19242,6 +19259,19 @@ window.__KCI_BOOT=function(d){
   var LAW_SUBJECT_NAMES={'민사소송법':1,'상법':1,'형법':1,'형사소송법':1,'헌법':1,'행정법':1};
   var LAW_SUBJECT_CACHE={},LAW_SUBJECT_PROMISES={};
   var LAW_SUBJECT_LABELS={'대한민국헌법':'헌법'};
+  var LAW_SUBJECT_LOCAL_ARTICLES={
+    '민사소송법':{url:'assets/civil_procedure_articles.json?v=20260613',min:500},
+    '상법':{url:'assets/commercial_law_articles.json?v=20260616a',min:1000}
+  };
+  var LAW_SUBJECT_COMMENTARY_FILES={
+    '민사소송법':'assets/civil_procedure_commentaries.json?v=20260616a',
+    '상법':'assets/commercial_law_commentaries.json?v=20260616a'
+  };
+  var LAW_SUBJECT_RESOURCE_FILES={
+    '상법':'assets/commercial_law_resources.json?v=20260616a'
+  };
+  var LAW_SUBJECT_COMMENTARY_CACHE={},LAW_SUBJECT_COMMENTARY_PROMISES={};
+  var LAW_SUBJECT_RESOURCE_CACHE={},LAW_SUBJECT_RESOURCE_PROMISES={};
   function lawSubjectEsc(v){return String(v==null?'':v).replace(/[&<>"']/g,function(ch){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch];});}
   function lawSubjectLawName(name){return LAW_SUBJECT_LABELS[name]||name;}
   var LAW_ATOM_CACHE=null,LAW_ATOM_PROMISE=null;
@@ -19307,13 +19337,13 @@ window.__KCI_BOOT=function(d){
     if(!rows.length)return '';
     var cards=rows.map(function(r){
       var meta=[r.tags.join(' '),r.grade?(r.grade+'급'):'',(r.freq>1?('★'+r.freq+'회'):'')].filter(Boolean).join(' · ');
-      return '<div class="atom-card '+(r.answer==='X'?'is-x':'is-o')+'"><div class="atom-head"><span class="atom-badge '+(r.answer==='X'?'x':'o')+'">'+r.answer+'</span>'
-        +(r.topic?'<span class="atom-topic">'+lawSubjectEsc(r.topic)+'</span>':'')+(meta?'<span class="atom-meta">'+lawSubjectEsc(meta)+'</span>':'')+'</div>'
+      return '<article class="atom-card '+(r.answer==='X'?'is-x':'is-o')+'"><div class="atom-mark"><span class="atom-badge '+(r.answer==='X'?'x':'o')+'">'+r.answer+'</span></div><div class="atom-main">'
+        +'<div class="atom-head">'+(r.topic?'<span class="atom-topic">'+lawSubjectEsc(r.topic)+'</span>':'')+(meta?'<span class="atom-meta">'+lawSubjectEsc(meta)+'</span>':'')+'</div>'
         +'<p class="atom-stmt">'+lawSubjectEsc(r.stmt)+'</p>'
         +(r.why?'<p class="atom-why">'+lawSubjectEsc(r.why)+'</p>':'')
-        +(r.ref?'<p class="atom-ref">근거: '+lawSubjectEsc(r.ref)+'</p>':'')+'</div>';
+        +(r.ref?'<p class="atom-ref">근거 · '+lawSubjectEsc(r.ref)+'</p>':'')+'</div></article>';
     }).join('');
-    return '<h2>조문별 기출 atom <span class="note">('+rows.length+'개)</span></h2><p class="note">O 대표 법리 · X 함정 지문 · 출처 회차</p><div class="atom-list">'+cards+'</div>';
+    return '<div class="atom-headline"><div class="atom-title-stack"><h2>조문별 기출 atom <span class="atom-count-pill">'+rows.length+'개</span></h2><p class="note">O 대표 법리 · X 함정 지문 · 출처 회차 (풀이는 CBT)</p></div><a class="atom-cta" href="#학습게임">CBT로 풀기</a></div><div class="atom-list">'+cards+'</div>';
   }
   function lawAtomPlaceholder(subject,lawName,articleNo){
     return '<div class="article-atoms" data-atom-subject="'+lawSubjectEsc(subject||'')+'" data-atom-law="'+lawSubjectEsc(lawName||'')+'" data-atom-article="'+lawSubjectEsc(articleNo||'')+'"></div>';
@@ -19371,6 +19401,37 @@ window.__KCI_BOOT=function(d){
       row.part='제2편 각칙';
     }
     return row;
+  }
+  function lawSubjectLocalFetch(k){
+    var cfg=LAW_SUBJECT_LOCAL_ARTICLES[k];
+    if(!cfg)return Promise.resolve(null);
+    return fetch(cfg.url).then(function(r){
+      if(!r.ok)throw new Error(k+' 로컬 조문 로딩 실패');
+      return r.json();
+    }).then(function(data){return data.items||data.rows||[];});
+  }
+  function lawSubjectDataMapFetch(k,fileMap,cache,promises){
+    if(cache[k])return Promise.resolve(cache[k]);
+    if(promises[k])return promises[k];
+    var url=fileMap[k];
+    if(!url)return Promise.resolve({});
+    promises[k]=fetch(url).then(function(r){
+      if(!r.ok)throw new Error(k+' 보조자료 로딩 실패');
+      return r.json();
+    }).then(function(data){
+      var map={};
+      (data.items||[]).forEach(function(item){if(item&&item.article_no)map[item.article_no]=item;});
+      if(data.articles)Object.keys(data.articles).forEach(function(key){map[key]=data.articles[key];});
+      cache[k]=map;
+      return map;
+    }).catch(function(){cache[k]={};return cache[k];});
+    return promises[k];
+  }
+  function lawSubjectCommentaryFetch(k){
+    return lawSubjectDataMapFetch(k,LAW_SUBJECT_COMMENTARY_FILES,LAW_SUBJECT_COMMENTARY_CACHE,LAW_SUBJECT_COMMENTARY_PROMISES);
+  }
+  function lawSubjectResourcesFetch(k){
+    return lawSubjectDataMapFetch(k,LAW_SUBJECT_RESOURCE_FILES,LAW_SUBJECT_RESOURCE_CACHE,LAW_SUBJECT_RESOURCE_PROMISES);
   }
   function parseLawSubjectAnchor(k){
     if(!/^lawsub-[0-9a-f]+$/i.test(k||''))return null;
@@ -19482,13 +19543,14 @@ window.__KCI_BOOT=function(d){
     if(LAW_SUBJECT_PROMISES[k])return LAW_SUBJECT_PROMISES[k];
     var url=LAW_SUBJECT_DB_URL+'/rest/v1/law_subject_articles?select=subject,law_name,article_no,title,body,part,chapter,section,source_url,sort_base,sort_sub&subject=eq.'+encodeURIComponent(k)+'&order=law_name.asc,sort_base.asc,sort_sub.asc&limit=2000';
     LAW_SUBJECT_PROMISES[k]=fetch(url,{headers:{apikey:LAW_SUBJECT_DB_KEY,Authorization:'Bearer '+LAW_SUBJECT_DB_KEY}})
-      .then(function(r){if(!r.ok){if(k==='민사소송법')return [];throw new Error('DB 조문 로딩 실패');}return r.json();})
+      .then(function(r){if(!r.ok){if(LAW_SUBJECT_LOCAL_ARTICLES[k])return [];throw new Error('DB 조문 로딩 실패');}return r.json();})
       .then(function(rows){
-        if(rows&&rows.length)return rows;
-        if(k!=='민사소송법')return rows||[];
-        return fetch('assets/civil_procedure_articles.json?v=20260613')
-          .then(function(r){if(!r.ok)throw new Error('민사소송법 조문 로딩 실패');return r.json();})
-          .then(function(data){return data.items||[];});
+        var cfg=LAW_SUBJECT_LOCAL_ARTICLES[k];
+        if(!cfg)return rows||[];
+        if(rows&&rows.length>=cfg.min)return rows;
+        return lawSubjectLocalFetch(k).then(function(localRows){
+          return localRows&&localRows.length?localRows:(rows||[]);
+        });
       })
       .then(function(rows){
         rows.forEach(function(row){lawSubjectNormalizeRow(row);row._anchor=lawSubjectAnchor(row);});
@@ -19506,6 +19568,8 @@ window.__KCI_BOOT=function(d){
   }
   function lawSubjectGroupLabel(row){
     if(row.subject==='민사소송법')return '민사소송법';
+    if(row.subject==='상법')return '상법';
+    if(row.subject==='헌법'||row.subject==='행정법')return '공법';
     return (row.subject==='형법'||row.subject==='형사소송법')?'형사법':'공법';
   }
   function lawSubjectStructureLabels(row){
@@ -19540,6 +19604,81 @@ window.__KCI_BOOT=function(d){
         (row.subject===target.subject&&row.law_name===target.law_name&&row.article_no===target.article_no);
     })||null;
   }
+  function lawSubjectCommentaryPlaceholder(row){
+    return '<div class="law-commentary-slot" data-law-subject="'+lawSubjectEsc(row.subject||'')+'" data-law-article="'+lawSubjectEsc(row.article_no||'')+'"></div>';
+  }
+  function lawSubjectResourcesPlaceholder(row){
+    return '<div class="law-resources-slot" data-law-subject="'+lawSubjectEsc(row.subject||'')+'" data-law-article="'+lawSubjectEsc(row.article_no||'')+'"></div>';
+  }
+  function lawSubjectRenderCommentary(row,item){
+    if(!item)return '';
+    var topics=(item.manual_topics||[]).map(function(t){return '<span>'+lawSubjectEsc(t)+'</span>';}).join('');
+    var blocks=(item.explanations||[]).map(function(block){
+      var ps=(block.paragraphs||[]).map(function(p){return '<p>'+lawSubjectEsc(p)+'</p>';}).join('');
+      return '<div class="law-commentary-block"><h3>'+lawSubjectEsc(block.title||'해설')+'</h3>'+ps+'</div>';
+    }).join('');
+    if(!item.gist&&!topics&&!blocks)return '';
+    return '<h2>조문해설</h2><div class="law-commentary">'
+      +(item.gist?'<p class="gist">'+lawSubjectEsc(item.gist)+'</p>':'')
+      +(topics?'<div class="law-subject-structure">'+topics+'</div>':'')
+      +blocks+'</div>';
+  }
+  function lawSubjectRenderCaseCard(c){
+    var title=[c.court,c.decision_date,c.case_no].filter(Boolean).join(' ');
+    var label=title||c.title||'판례';
+    var href=c.url||'#';
+    var meta=[c.title,c.source].filter(Boolean).join(' · ');
+    return '<div class="paper flat case"><span class="ptitle"><a href="'+lawSubjectEsc(href)+'" target="_blank" rel="noopener noreferrer">'+lawSubjectEsc(label)+'</a></span>'
+      +(meta?'<span class="pmeta">'+lawSubjectEsc(meta)+'</span>':'')
+      +(c.summary?'<p class="psum">'+lawSubjectEsc(c.summary)+'</p>':'')+'</div>';
+  }
+  function lawSubjectRenderPaperCard(p){
+    var meta=[p.author,p.journal,p.year,p.source,(p.oa==='Y'?'OA':'')].filter(Boolean).join(' · ');
+    var title=lawSubjectEsc(p.title||'논문');
+    var head=p.url?'<a href="'+lawSubjectEsc(p.url)+'" target="_blank" rel="noopener noreferrer">'+title+'</a>':title;
+    return '<div class="paper flat"><span class="ptitle">'+head+'</span>'
+      +(meta?'<span class="pmeta">'+lawSubjectEsc(meta)+'</span>':'')
+      +(p.keywords?'<p class="pkw">'+lawSubjectEsc(p.keywords)+'</p>':'')
+      +(p.summary?'<p class="psum">'+lawSubjectEsc(p.summary)+'</p>':'')+'</div>';
+  }
+  function lawSubjectRenderResources(row,res){
+    if(!res)return '';
+    var cases=res.cases||[],papers=res.papers||[];
+    var html='';
+    if(cases.length){
+      html+='<section class="law-resource-section law-subject-cases"><h2>판례 <span class="note">('+cases.length+'건)</span></h2>'+cases.map(lawSubjectRenderCaseCard).join('')+'</section>';
+    }
+    if(papers.length){
+      html+='<section class="law-resource-section law-subject-papers commercial-law-papers"><h2>논문 <span class="note">('+papers.length+'건)</span></h2>'+papers.map(lawSubjectRenderPaperCard).join('')+'</section>';
+    }
+    return html;
+  }
+  function lawSubjectHydrateCommentaryBox(box){
+    if(!box||box.dataset.ready)return;
+    box.dataset.ready='1';
+    lawSubjectCommentaryFetch(box.dataset.lawSubject).then(function(map){
+      var item=map[box.dataset.lawArticle];
+      var html=lawSubjectRenderCommentary({subject:box.dataset.lawSubject,article_no:box.dataset.lawArticle},item);
+      if(html)box.innerHTML=html;else box.remove();
+    }).catch(function(){box.remove();});
+  }
+  function lawSubjectHydrateResourcesBox(box){
+    if(!box||box.dataset.ready)return;
+    box.dataset.ready='1';
+    lawSubjectResourcesFetch(box.dataset.lawSubject).then(function(map){
+      var res=map[box.dataset.lawArticle];
+      var html=lawSubjectRenderResources({subject:box.dataset.lawSubject,article_no:box.dataset.lawArticle},res);
+      if(html){
+        box.innerHTML=html;
+        if(typeof applyLimitedLists==='function')applyLimitedLists(box.closest('section.art'));
+      }else box.remove();
+    }).catch(function(){box.remove();});
+  }
+  function lawSubjectHydrateDynamic(root){
+    lawAtomHydrateContainer(root);
+    (root||document).querySelectorAll('.law-commentary-slot').forEach(lawSubjectHydrateCommentaryBox);
+    (root||document).querySelectorAll('.law-resources-slot').forEach(lawSubjectHydrateResourcesBox);
+  }
   function lawSubjectRenderSingleArticle(row,rows){
     var related=(rows||[]).filter(function(r){return r.law_name===row.law_name;});
     var idx=related.findIndex(function(r){return r._anchor===row._anchor;});
@@ -19549,9 +19688,10 @@ window.__KCI_BOOT=function(d){
     var html='<div class="law-subject-single">'
       +'<div class="lawtext"><div class="lbl">조문</div><p>'+lawSubjectEsc(row.body||'')+'</p></div>'
       +(chips?'<div class="law-subject-structure">'+chips+'</div>':'')
+      +lawSubjectCommentaryPlaceholder(row)
       +lawAtomPlaceholder(row.subject,row.law_name,row.article_no)
-      +'<h2>주요 연결</h2>'
-      +'<div class="paper flat law-subject-source"><a href="'+lawSubjectEsc(source)+'" target="_blank" rel="noopener noreferrer">국가법령정보센터 원문 보기</a><p class="psum">'+lawSubjectEsc(lawSubjectLawName(row.law_name))+' '+lawSubjectEsc(row.article_no)+' 원문과 시행일 기준 내용을 확인합니다.</p></div>'
+      +lawSubjectResourcesPlaceholder(row)
+      +'<div class="law-source-link law-subject-source"><a href="'+lawSubjectEsc(source)+'" target="_blank" rel="noopener noreferrer">국가법령정보센터 원문 보기</a><p>'+lawSubjectEsc(lawSubjectLawName(row.law_name))+' '+lawSubjectEsc(row.article_no)+' 원문과 시행일 기준 내용을 확인합니다.</p></div>'
       +'<div class="pager">';
     html+=prev?'<a href="#'+lawSubjectEsc(prev._anchor)+'">‹ '+lawSubjectEsc(lawSubjectArticleHeading(prev))+'</a>':'<span class="off">이전 조문 없음</span>';
     html+=next?'<a href="#'+lawSubjectEsc(next._anchor)+'">'+lawSubjectEsc(lawSubjectArticleHeading(next))+' ›</a>':'<span class="off">다음 조문 없음</span>';
@@ -19595,7 +19735,7 @@ window.__KCI_BOOT=function(d){
           if(row){
             lawSubjectSetArticleHeader(sec,row);
             slot.innerHTML=lawSubjectRenderSingleArticle(row,rows);
-            lawAtomHydrateContainer(slot);
+            lawSubjectHydrateDynamic(slot);
             return;
           }
         }
