@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import csv
 import re
 from collections import Counter, defaultdict
 from dataclasses import dataclass
@@ -15,6 +16,7 @@ REPORTS = ROOT / "reports"
 UNIFIED_BANK = ASSETS / "ox_msa_unified_v001.json"
 LEGACY_CIVIL_BANK = ASSETS / "ox_civil_unified_full_v002.json"
 PER_ROUND_PATTERN = "ox_civil_bar{round}.json"
+LEXBANK_PATTERN = "lex-bank_*_2026-06-16/02_export/mc_questions.csv"
 
 EXPECTED_ROUNDS = range(1, 16)
 EXPECTED_QUESTIONS = set(range(1, 71))
@@ -156,6 +158,46 @@ def scan_external_pdfs() -> list[Path]:
     )
 
 
+def scan_lexbank_mc() -> tuple[Path | None, dict[int, dict[str, Any]]]:
+    matches = list(Path(r"C:\cowork").glob(LEXBANK_PATTERN))
+    if not matches:
+        return None, {}
+
+    path = matches[0]
+    per_round: dict[int, dict[str, Any]] = {
+        round_no: {
+            "total": 0,
+            "civil_count": 0,
+            "civil_numbers": set(),
+            "civil_with_answer": 0,
+            "civil_with_explanation": 0,
+        }
+        for round_no in EXPECTED_ROUNDS
+    }
+    with path.open(encoding="utf-8-sig", newline="") as file:
+        for row in csv.DictReader(file):
+            try:
+                round_no = int(row.get("round") or 0)
+            except ValueError:
+                continue
+            if round_no not in per_round:
+                continue
+            per_round[round_no]["total"] += 1
+            if row.get("subject") != "민사법":
+                continue
+            per_round[round_no]["civil_count"] += 1
+            try:
+                per_round[round_no]["civil_numbers"].add(int(row.get("number") or 0))
+            except ValueError:
+                pass
+            if (row.get("answer") or "").strip():
+                per_round[round_no]["civil_with_answer"] += 1
+            if (row.get("ai_explanation") or "").strip():
+                per_round[round_no]["civil_with_explanation"] += 1
+
+    return path, per_round
+
+
 def main() -> None:
     REPORTS.mkdir(exist_ok=True)
 
@@ -165,6 +207,7 @@ def main() -> None:
     subject_total = Counter(item.get("subject") or "분류없음" for item in items)
     per_round_files = available_source_files()
     external_pdfs = scan_external_pdfs()
+    lexbank_path, lexbank_rounds = scan_lexbank_mc()
 
     round_atom_count: Counter[int] = Counter()
     round_subject_count: dict[int, Counter[str]] = defaultdict(Counter)
@@ -237,13 +280,47 @@ def main() -> None:
         "- `C:\\cowork\\0gichul_법과목_기출\\민사법`에는 변호사시험 민사법 PDF가 "
         f"{len(external_pdfs)}개 발견되었습니다. 이 폴더가 원문 재검증의 기준 자료입니다."
     )
+    if lexbank_path:
+        complete_lexbank_rounds = [
+            round_no
+            for round_no, row in lexbank_rounds.items()
+            if row["civil_count"] == 70
+            and len(row["civil_numbers"]) == 70
+            and row["civil_with_answer"] == 70
+            and row["civil_with_explanation"] == 70
+        ]
+        lines.append(
+            "- lex-bank CSV에는 "
+            f"{len(complete_lexbank_rounds)}개 회차의 민사법 70문항·정답·AI 해설이 구조화되어 있습니다."
+        )
+    else:
+        lines.append("- lex-bank CSV는 현재 `C:\\cowork`에서 찾지 못했습니다.")
     lines.append(
         "- 현재 통합본에는 1회부터 15회까지 출처 표시는 있으나, 모든 atom이 `몇 회 몇 번 몇 지문`까지 "
         "완전하게 남아 있는 상태는 아닙니다. 아래 표의 `문항 추적`이 그 정도를 보여줍니다."
     )
     lines.append("")
 
-    lines.append("## 회차별 추적 현황")
+    lines.append("## lex-bank 선택형 자료 현황")
+    lines.append("")
+    if lexbank_path:
+        lines.append(f"- 기준 파일: `{lexbank_path}`")
+        lines.append("")
+        lines.append("| 회차 | 민사법 문항 | 번호 범위 | 정답 있음 | 해설 있음 |")
+        lines.append("| ---: | ---: | --- | ---: | ---: |")
+        for round_no in sorted(EXPECTED_ROUNDS, reverse=True):
+            row = lexbank_rounds[round_no]
+            numbers = sorted(row["civil_numbers"])
+            number_range = f"{numbers[0]}-{numbers[-1]}" if numbers else "-"
+            lines.append(
+                f"| {round_no} | {row['civil_count']}/70 | {number_range} | "
+                f"{row['civil_with_answer']}/70 | {row['civil_with_explanation']}/70 |"
+            )
+    else:
+        lines.append("- lex-bank 자료 없음")
+    lines.append("")
+
+    lines.append("## 회차별 통합 atom 추적 현황")
     lines.append("")
     lines.append(
         "| 회차 | atom 수 | 문항 추적 | 보기 추적 | 미추적 문항 | 민법 | 민사소송법 | 상법 | 단순 회차표시 | 저장소 회차파일 |"
@@ -325,6 +402,18 @@ def main() -> None:
         "subject_total": dict(subject_total),
         "per_round_files": {str(k): str(v.relative_to(ROOT)) for k, v in per_round_files.items()},
         "external_pdfs": [str(path) for path in external_pdfs],
+        "lexbank": {
+            "path": str(lexbank_path) if lexbank_path else None,
+            "rounds": {
+                str(round_no): {
+                    "civil_count": row["civil_count"],
+                    "civil_numbers": sorted(row["civil_numbers"]),
+                    "civil_with_answer": row["civil_with_answer"],
+                    "civil_with_explanation": row["civil_with_explanation"],
+                }
+                for round_no, row in lexbank_rounds.items()
+            },
+        },
         "rounds": {
             str(round_no): {
                 "atom_count": round_atom_count.get(round_no, 0),
