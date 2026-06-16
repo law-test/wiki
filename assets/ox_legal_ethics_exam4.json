@@ -1,0 +1,5451 @@
+{
+  "title": "법조윤리 제4회 OX atom",
+  "version": "2026-06-17.exam4.manual.v1",
+  "source": "제4회 법조윤리시험 공식 문제 및 확정정답",
+  "lawAsOf": "2026-06-17",
+  "subject": "법조윤리",
+  "round": 4,
+  "count": 160,
+  "items": [
+    {
+      "pid": "legal-ethics-r04-q01-001",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 1,
+      "sourceQuestionId": "legal_ethics_r04_q01",
+      "sourcePart": "1",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "상대방 직접접촉",
+      "rep": "수임사건의 상대방에게 변호사가 선임되어 있으면 특별한 사정 없이 상대방 본인과 직접 접촉하여서는 안 된다.",
+      "why": "상대방 직접접촉에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "수임사건의 상대방에게 변호사가 선임되어 있어도 변호사는 상대방 본인과 자유롭게 직접 접촉할 수 있다.",
+          "trap": "직접접촉",
+          "why": "직접접촉 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "수임사건의 상대방에게 변호사가 선임되어 있으면 특별한 사정 없이 상대방 본인과 직접 접촉하여서는 안 된다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사윤리장전",
+          "sourcePart": "1"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q01-002",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 1,
+      "sourceQuestionId": "legal_ethics_r04_q01",
+      "sourcePart": "2",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "상대방 이익 수수",
+      "rep": "변호사가 수임 중인 사건에 관하여 상대방으로부터 이익을 받거나 요구하면 형사처벌 대상이 될 수 있다.",
+      "why": "상대방 이익 수수에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사가 수임 중인 사건의 상대방으로부터 이익을 받아도 징계만 문제 되고 형사처벌 대상은 아니다.",
+          "trap": "상대방 이익",
+          "why": "상대방 이익 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사가 수임 중인 사건에 관하여 상대방으로부터 이익을 받거나 요구하면 형사처벌 대상이 될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "2"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q01-003",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 1,
+      "sourceQuestionId": "legal_ethics_r04_q01",
+      "sourcePart": "3",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "다른 변호사 선임 사건",
+      "rep": "의뢰인이 이미 다른 변호사를 선임한 사건을 새로 수임할 때에는 기존 변호사와의 관계를 확인하고 양해를 구하는 것이 원칙이다.",
+      "why": "다른 변호사 선임 사건에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "의뢰인이 이미 다른 변호사를 선임한 사건을 새로 맡을 때에도 기존 변호사에게 알릴 필요가 없다.",
+          "trap": "기존 변호사",
+          "why": "기존 변호사 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "의뢰인이 이미 다른 변호사를 선임한 사건을 새로 수임할 때에는 기존 변호사와의 관계를 확인하고 양해를 구하는 것이 원칙이다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "3"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q01-004",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 1,
+      "sourceQuestionId": "legal_ethics_r04_q01",
+      "sourcePart": "4",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "보관금의 보수 전환",
+      "rep": "공탁금이나 보증금 등 보관금을 성공보수로 전환하는 약정은 서면으로 명백히 정하는 등 엄격한 요건 아래에서만 문제없이 처리될 수 있다.",
+      "why": "보관금의 보수 전환에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "공탁금이나 보증금 등 보관금은 서면으로 명백히 약정하여도 성공보수로 전환할 수 없다.",
+          "trap": "보관금 전환",
+          "why": "보관금 전환 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "공탁금이나 보증금 등 보관금을 성공보수로 전환하는 약정은 서면으로 명백히 정하는 등 엄격한 요건 아래에서만 문제없이 처리될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "4"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q02-005",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 2,
+      "sourceQuestionId": "legal_ethics_r04_q02",
+      "sourcePart": "5",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "사무직원 결격자 채용",
+      "rep": "법정 결격사유가 있는 사람은 사건 유치 능력이 있더라도 법률사무소 사무직원으로 채용할 수 없다.",
+      "why": "사무직원 결격자 채용에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법정 결격사유가 있는 사람도 사건 유치 능력이 있으면 법률사무소 사무직원으로 채용할 수 있다.",
+          "trap": "사무직원 결격",
+          "why": "사무직원 결격 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법정 결격사유가 있는 사람은 사건 유치 능력이 있더라도 법률사무소 사무직원으로 채용할 수 없다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "5"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q02-006",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 2,
+      "sourceQuestionId": "legal_ethics_r04_q02",
+      "sourcePart": "6",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "비변호사 소개료",
+      "rep": "변호사가 비변호사에게 사건 소개의 대가로 보수 일부를 지급하면 변호사법상 형사처벌 대상이 될 수 있다.",
+      "why": "비변호사 소개료에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사가 비변호사에게만 소개료를 지급하는 방식이면 변호사법상 형사처벌 대상이 아니다.",
+          "trap": "소개료",
+          "why": "소개료 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사가 비변호사에게 사건 소개의 대가로 보수 일부를 지급하면 변호사법상 형사처벌 대상이 될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법",
+          "sourcePart": "6"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q02-007",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 2,
+      "sourceQuestionId": "legal_ethics_r04_q02",
+      "sourcePart": "7",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "연락사무소",
+      "rep": "주사무소와 떨어진 곳에 연락사무소를 두는 행위는 설치 방식과 표시 내용에 따라 규제 여부를 판단한다.",
+      "why": "연락사무소에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사는 주사무소 외의 장소에 연락 목적의 사무공간을 어떤 경우에도 둘 수 없다.",
+          "trap": "연락사무소",
+          "why": "연락사무소 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "주사무소와 떨어진 곳에 연락사무소를 두는 행위는 설치 방식과 표시 내용에 따라 규제 여부를 판단한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "7"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q02-008",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 2,
+      "sourceQuestionId": "legal_ethics_r04_q02",
+      "sourcePart": "8",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "사건유치 지시",
+      "rep": "직원에게 유치장이나 사고 환자 병원 출입을 독려하여 사건을 유치하게 하는 행위는 변호사 품위와 광고규제를 침해할 수 있다.",
+      "why": "사건유치 지시에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사는 직원에게 유치장이나 사고 환자 병원에 출입하여 사건을 유치하도록 자유롭게 지시할 수 있다.",
+          "trap": "사건유치",
+          "why": "사건유치 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "직원에게 유치장이나 사고 환자 병원 출입을 독려하여 사건을 유치하게 하는 행위는 변호사 품위와 광고규제를 침해할 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "8"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q03-009",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 3,
+      "sourceQuestionId": "legal_ethics_r04_q03",
+      "sourcePart": "9",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "요청 방문 상담",
+      "rep": "의뢰인의 요청으로 방문하여 손해배상청구 소송을 설명하고 권유하는 행위는 허용될 수 있다.",
+      "why": "요청 방문 상담에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사 광고에 관한 규정",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "의뢰인이 요청하였더라도 변호사가 방문하여 손해배상청구 소송을 설명하는 행위는 언제나 금지된다.",
+          "trap": "요청 방문",
+          "why": "요청 방문 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "의뢰인의 요청으로 방문하여 손해배상청구 소송을 설명하고 권유하는 행위는 허용될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사 광고에 관한 규정",
+          "sourcePart": "9"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q03-010",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 3,
+      "sourceQuestionId": "legal_ethics_r04_q03",
+      "sourcePart": "10",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "무요청 방문 권유",
+      "rep": "재난 피해자를 요청 없이 방문하여 사건 의뢰를 권유하는 행위는 엄격히 제한되며 허가와 방식이 핵심 심사요소가 된다.",
+      "why": "무요청 방문 권유에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사 광고에 관한 규정",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "재난 피해자를 요청 없이 방문하여 사건 의뢰를 권유하는 행위는 허가 여부와 관계없이 언제나 자유롭다.",
+          "trap": "무요청 방문",
+          "why": "무요청 방문 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "재난 피해자를 요청 없이 방문하여 사건 의뢰를 권유하는 행위는 엄격히 제한되며 허가와 방식이 핵심 심사요소가 된다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사 광고에 관한 규정",
+          "sourcePart": "10"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q03-011",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 3,
+      "sourceQuestionId": "legal_ethics_r04_q03",
+      "sourcePart": "11",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "상담 후 의뢰",
+      "rep": "승소가능성 상담을 받은 사람이 나중에 스스로 사무실을 찾아와 사건을 의뢰하였다면 광고규정 위반이 아닐 수 있다.",
+      "why": "상담 후 의뢰에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사 광고에 관한 규정",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "승소가능성을 상담한 뒤 나중에 사건 의뢰가 이루어지면 항상 변호사업무광고규정 위반이다.",
+          "trap": "상담 후 의뢰",
+          "why": "상담 후 의뢰 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "승소가능성 상담을 받은 사람이 나중에 스스로 사무실을 찾아와 사건을 의뢰하였다면 광고규정 위반이 아닐 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사 광고에 관한 규정",
+          "sourcePart": "11"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q03-012",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 3,
+      "sourceQuestionId": "legal_ethics_r04_q03",
+      "sourcePart": "12",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "피해자 소개 요청",
+      "rep": "상담 과정에서 다른 피해자에게도 법률상담을 제공하겠다고 소개를 요청하는 행위는 방법과 맥락에 따라 허용될 수 있다.",
+      "why": "피해자 소개 요청에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사 광고에 관한 규정",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "상담 과정에서 다른 피해자 소개를 요청하는 행위는 어떤 맥락에서도 전부 금지된다.",
+          "trap": "소개 요청",
+          "why": "소개 요청 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "상담 과정에서 다른 피해자에게도 법률상담을 제공하겠다고 소개를 요청하는 행위는 방법과 맥락에 따라 허용될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사 광고에 관한 규정",
+          "sourcePart": "12"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q04-013",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 4,
+      "sourceQuestionId": "legal_ethics_r04_q04",
+      "sourcePart": "13",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "무죄변론",
+      "rep": "형사변호인은 의뢰인의 범행을 의심하더라도 증거법상 무죄 주장을 할 근거가 있으면 무죄변론을 할 수 있다.",
+      "why": "무죄변론에 관한 법조윤리 원칙입니다.",
+      "ref": "형사소송법, 변호사윤리장전",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "형사변호인은 의뢰인이 실제 범죄를 저질렀다고 의심하면 증거법상 근거가 있어도 무죄변론을 할 수 없다.",
+          "trap": "무죄변론",
+          "why": "무죄변론 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "형사변호인은 의뢰인의 범행을 의심하더라도 증거법상 무죄 주장을 할 근거가 있으면 무죄변론을 할 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "형사소송법, 변호사윤리장전",
+          "sourcePart": "13"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q04-014",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 4,
+      "sourceQuestionId": "legal_ethics_r04_q04",
+      "sourcePart": "14",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "증거인멸 법률상담",
+      "rep": "피의자가 자기 사건 증거인멸의 처벌 여부를 묻는 경우 변호사가 법률효과를 설명하는 것은 성실의무 범위에 속할 수 있다.",
+      "why": "증거인멸 법률상담에 관한 법조윤리 원칙입니다.",
+      "ref": "형법, 변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "피의자가 자기 사건 증거인멸의 처벌 여부를 물어도 변호사는 그 법률효과를 설명할 수 없다.",
+          "trap": "법률효과 설명",
+          "why": "법률효과 설명 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "피의자가 자기 사건 증거인멸의 처벌 여부를 묻는 경우 변호사가 법률효과를 설명하는 것은 성실의무 범위에 속할 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "형법, 변호사윤리장전",
+          "sourcePart": "14"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q04-015",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 4,
+      "sourceQuestionId": "legal_ethics_r04_q04",
+      "sourcePart": "15",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "불리한 증거 제공의무",
+      "rep": "변호사는 위증교사나 허위증거 제출을 해서는 안 되지만 피고인에게 불리한 증거를 스스로 제출할 적극의무까지 부담하지는 않는다.",
+      "why": "불리한 증거 제공의무에 관한 법조윤리 원칙입니다.",
+      "ref": "형사소송법, 변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사는 실체적 진실 발견을 위하여 피고인에게 불리한 증거를 스스로 제출하여야 한다.",
+          "trap": "불리한 증거",
+          "why": "불리한 증거 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사는 위증교사나 허위증거 제출을 해서는 안 되지만 피고인에게 불리한 증거를 스스로 제출할 적극의무까지 부담하지는 않는다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "형사소송법, 변호사윤리장전",
+          "sourcePart": "15"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q04-016",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 4,
+      "sourceQuestionId": "legal_ethics_r04_q04",
+      "sourcePart": "16",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "진술거부권 권고",
+      "rep": "형사변호인이 피고인에게 진술거부권을 설명하고 그 행사를 권고하는 것만으로 진실의무 위반이라고 볼 수 없다.",
+      "why": "진술거부권 권고에 관한 법조윤리 원칙입니다.",
+      "ref": "형사소송법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "형사변호인이 피고인에게 진술거부권 행사를 권고하면 언제나 진실의무 위반이다.",
+          "trap": "진술거부권",
+          "why": "진술거부권 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "형사변호인이 피고인에게 진술거부권을 설명하고 그 행사를 권고하는 것만으로 진실의무 위반이라고 볼 수 없다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "형사소송법",
+          "sourcePart": "16"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q05-017",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 5,
+      "sourceQuestionId": "legal_ethics_r04_q05",
+      "sourcePart": "17",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "경찰관 사건소개",
+      "rep": "수사기관 공무원이 담당 기관 사건을 변호사에게 소개하는 행위는 소개료가 없더라도 법조윤리상 문제가 될 수 있다.",
+      "why": "경찰관 사건소개에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법, 변호사윤리장전",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "수사기관 공무원이 담당 기관 사건을 소개하여도 소개료가 없으면 법조윤리상 아무 문제가 없다.",
+          "trap": "공무원 소개",
+          "why": "공무원 소개 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "수사기관 공무원이 담당 기관 사건을 변호사에게 소개하는 행위는 소개료가 없더라도 법조윤리상 문제가 될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법, 변호사윤리장전",
+          "sourcePart": "17"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q05-018",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 5,
+      "sourceQuestionId": "legal_ethics_r04_q05",
+      "sourcePart": "18",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "감사표시 금품",
+      "rep": "사건을 소개한 사람에게 감사 표시로 금품을 지급하는 행위는 소개료 지급으로 평가될 수 있다.",
+      "why": "감사표시 금품에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "사건 소개 후 감사 표시 명목으로 소액을 주는 것은 소개료가 아니므로 허용된다.",
+          "trap": "감사 명목",
+          "why": "감사 명목 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "사건을 소개한 사람에게 감사 표시로 금품을 지급하는 행위는 소개료 지급으로 평가될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "18"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q05-019",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 5,
+      "sourceQuestionId": "legal_ethics_r04_q05",
+      "sourcePart": "19",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "브로커 소개",
+      "rep": "사건 주선을 업으로 하는 사람에게서 사건을 소개받는 행위는 소개료 지급이 없어도 윤리 위반이 될 수 있다.",
+      "why": "브로커 소개에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "사건 주선을 업으로 하는 사람에게서 사건을 소개받아도 소개료를 지급하지 않으면 언제나 허용된다.",
+          "trap": "브로커",
+          "why": "브로커 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "사건 주선을 업으로 하는 사람에게서 사건을 소개받는 행위는 소개료 지급이 없어도 윤리 위반이 될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "19"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q05-020",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 5,
+      "sourceQuestionId": "legal_ethics_r04_q05",
+      "sourcePart": "20",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "친족 사건 소개",
+      "rep": "공무원이 자기 친족 사건을 변호사에게 소개한 경우에는 직무관련성, 대가성, 영향력 행사 여부를 기준으로 위반 여부를 판단한다.",
+      "why": "친족 사건 소개에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "공무원이 자기 친족 사건을 소개하면 소개료가 없더라도 언제나 형사처벌 대상이다.",
+          "trap": "친족 소개",
+          "why": "친족 소개 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "공무원이 자기 친족 사건을 변호사에게 소개한 경우에는 직무관련성, 대가성, 영향력 행사 여부를 기준으로 위반 여부를 판단한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "20"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q06-021",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 6,
+      "sourceQuestionId": "legal_ethics_r04_q06",
+      "sourcePart": "21",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "복대리 관여",
+      "rep": "소송복대리인으로 관여한 사건도 실질적으로 직무상 관여한 사건이면 후속 상대방 대리가 제한될 수 있다.",
+      "why": "복대리 관여에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법 제31조",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "소송복대리인은 정식 수임인이 아니므로 같은 사건의 상대방 대리를 언제나 맡을 수 있다.",
+          "trap": "복대리",
+          "why": "복대리 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "소송복대리인으로 관여한 사건도 실질적으로 직무상 관여한 사건이면 후속 상대방 대리가 제한될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법 제31조",
+          "sourcePart": "21"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q06-022",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 6,
+      "sourceQuestionId": "legal_ethics_r04_q06",
+      "sourcePart": "22",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "수임제한과 소송행위 효력",
+      "rep": "수임제한을 위반한 변호사의 소송행위라도 상대방이 적시에 이의하지 않으면 절차상 효력이 유지될 수 있다.",
+      "why": "수임제한과 소송행위 효력에 관한 법조윤리 원칙입니다.",
+      "ref": "민사소송법, 변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사의 수임제한 위반이 있으면 이미 이루어진 소송행위는 이의 여부와 관계없이 항상 무효이다.",
+          "trap": "소송행위 효력",
+          "why": "소송행위 효력 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "수임제한을 위반한 변호사의 소송행위라도 상대방이 적시에 이의하지 않으면 절차상 효력이 유지될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "민사소송법, 변호사법",
+          "sourcePart": "22"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q06-023",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 6,
+      "sourceQuestionId": "legal_ethics_r04_q06",
+      "sourcePart": "23",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "사임과 위반",
+      "rep": "수임제한 위반 여부는 직무수행 당시를 기준으로 보며 변론종결 후 사임만으로 위반이 처음부터 사라지는 것은 아니다.",
+      "why": "사임과 위반에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법 제31조",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사가 변론종결 후 사임하면 그 전의 수임제한 위반은 처음부터 없었던 것이 된다.",
+          "trap": "사임",
+          "why": "사임 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "수임제한 위반 여부는 직무수행 당시를 기준으로 보며 변론종결 후 사임만으로 위반이 처음부터 사라지는 것은 아니다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법 제31조",
+          "sourcePart": "23"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q06-024",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 6,
+      "sourceQuestionId": "legal_ethics_r04_q06",
+      "sourcePart": "24",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "상고심 무효 주장",
+      "rep": "상대방이 항소심에서 이의하지 않고 상고심에서 비로소 수임제한 위반을 이유로 무효를 주장하더라도 그 주장은 제한될 수 있다.",
+      "why": "상고심 무효 주장에 관한 법조윤리 원칙입니다.",
+      "ref": "민사소송법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "항소심에서 이의하지 않았더라도 상고심에서 수임제한 위반을 주장하면 항소심 소송행위는 당연히 무효가 된다.",
+          "trap": "뒤늦은 이의",
+          "why": "뒤늦은 이의 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "상대방이 항소심에서 이의하지 않고 상고심에서 비로소 수임제한 위반을 이유로 무효를 주장하더라도 그 주장은 제한될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "민사소송법",
+          "sourcePart": "24"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q07-025",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 7,
+      "sourceQuestionId": "legal_ethics_r04_q07",
+      "sourcePart": "25",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "외국법자문사 사무소 수",
+      "rep": "원자격국 법률사무소와 국내 외국법자문법률사무소를 함께 두는 것이 곧바로 복수 국내 사무소 설치가 되는 것은 아니다.",
+      "why": "외국법자문사 사무소 수에 관한 법조윤리 원칙입니다.",
+      "ref": "외국법자문사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "원자격국에서 법률사무소를 운영하면서 국내에 외국법자문법률사무소를 열면 복수 사무소 설치에 해당한다.",
+          "trap": "사무소 수",
+          "why": "사무소 수 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "원자격국 법률사무소와 국내 외국법자문법률사무소를 함께 두는 것이 곧바로 복수 국내 사무소 설치가 되는 것은 아니다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "외국법자문사법",
+          "sourcePart": "25"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q07-026",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 7,
+      "sourceQuestionId": "legal_ethics_r04_q07",
+      "sourcePart": "26",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "외국법자문사 등록기관",
+      "rep": "외국법자문사는 법무부장관의 자격승인을 받은 뒤 대한변호사협회에 등록하여야 한다.",
+      "why": "외국법자문사 등록기관에 관한 법조윤리 원칙입니다.",
+      "ref": "외국법자문사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "외국법자문사는 법무부에서 자격승인과 등록을 모두 마치면 된다.",
+          "trap": "등록기관",
+          "why": "등록기관 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "외국법자문사는 법무부장관의 자격승인을 받은 뒤 대한변호사협회에 등록하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "외국법자문사법",
+          "sourcePart": "26"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q07-027",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 7,
+      "sourceQuestionId": "legal_ethics_r04_q07",
+      "sourcePart": "27",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "사적 연고 광고",
+      "rep": "외국법자문사는 담당공무원과의 사적 관계를 내세워 영향력을 미칠 수 있는 것처럼 선전하여서는 안 된다.",
+      "why": "사적 연고 광고에 관한 법조윤리 원칙입니다.",
+      "ref": "외국법자문사법",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "외국법자문사는 담당공무원과의 사적 관계를 광고하여 사건처리에 영향력을 미칠 수 있다고 선전할 수 있다.",
+          "trap": "사적 연고",
+          "why": "사적 연고 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "외국법자문사는 담당공무원과의 사적 관계를 내세워 영향력을 미칠 수 있는 것처럼 선전하여서는 안 된다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "외국법자문사법",
+          "sourcePart": "27"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q07-028",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 7,
+      "sourceQuestionId": "legal_ethics_r04_q07",
+      "sourcePart": "28",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "외국법자문법률사무소 인가",
+      "rep": "외국법자문법률사무소 인가는 본점 운영기간 외에도 법령상 여러 요건을 함께 충족하여야 한다.",
+      "why": "외국법자문법률사무소 인가에 관한 법조윤리 원칙입니다.",
+      "ref": "외국법자문사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "외국법자문법률사무소는 본점이 5년 이상 운영되었다는 요건만 충족하면 당연히 인가된다.",
+          "trap": "인가요건",
+          "why": "인가요건 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "외국법자문법률사무소 인가는 본점 운영기간 외에도 법령상 여러 요건을 함께 충족하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "외국법자문사법",
+          "sourcePart": "28"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q08-029",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 8,
+      "sourceQuestionId": "legal_ethics_r04_q08",
+      "sourcePart": "29",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "대한변협 구성",
+      "rep": "대한변호사협회는 변호사법에 따라 설립된 지방변호사회로 구성된다.",
+      "why": "대한변협 구성에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "대한변호사협회는 지방변호사회와 무관한 임의단체로 구성된다.",
+          "trap": "구성",
+          "why": "구성 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "대한변호사협회는 변호사법에 따라 설립된 지방변호사회로 구성된다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "29"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q08-030",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 8,
+      "sourceQuestionId": "legal_ethics_r04_q08",
+      "sourcePart": "30",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "대한변협 목적",
+      "rep": "대한변호사협회는 변호사의 품위 보전과 자질 향상 등을 목적으로 한다.",
+      "why": "대한변협 목적에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "대한변호사협회의 목적에는 변호사의 품위 보전이나 자질 향상이 포함되지 않는다.",
+          "trap": "목적",
+          "why": "목적 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "대한변호사협회는 변호사의 품위 보전과 자질 향상 등을 목적으로 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "30"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q08-031",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 8,
+      "sourceQuestionId": "legal_ethics_r04_q08",
+      "sourcePart": "31",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "개업신고와 감독",
+      "rep": "개업신고를 하지 않은 변호사에게는 대한변호사협회의 지도와 감독 규정 적용이 제한될 수 있다.",
+      "why": "개업신고와 감독에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "개업신고를 하지 않은 변호사도 개업 변호사와 완전히 같은 지도와 감독을 받는다.",
+          "trap": "개업신고",
+          "why": "개업신고 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "개업신고를 하지 않은 변호사에게는 대한변호사협회의 지도와 감독 규정 적용이 제한될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "31"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q08-032",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 8,
+      "sourceQuestionId": "legal_ethics_r04_q08",
+      "sourcePart": "32",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "개인회원 범위",
+      "rep": "대한변호사협회의 개인회원 범위는 변호사법과 외국법자문사법의 회원 규정에 따라 정해진다.",
+      "why": "개인회원 범위에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "대한변호사협회의 개인회원은 개업신고 변호사와 외국법자문사만으로 한정된다고 단정할 수 있다.",
+          "trap": "회원 범위",
+          "why": "회원 범위 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "대한변호사협회의 개인회원 범위는 변호사법과 외국법자문사법의 회원 규정에 따라 정해진다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법",
+          "sourcePart": "32"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q09-033",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 9,
+      "sourceQuestionId": "legal_ethics_r04_q09",
+      "sourcePart": "33",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "동의받은 번역위탁",
+      "rep": "의뢰인의 동의를 받아 사건 서류 작성을 전문번역업체에 맡기고 다시 검토하는 행위는 비밀유지의무 위반이 아닐 수 있다.",
+      "why": "동의받은 번역위탁에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "의뢰인의 동의가 있어도 사건 서류 번역을 외부 전문업체에 맡기는 것은 언제나 비밀유지의무 위반이다.",
+          "trap": "번역위탁",
+          "why": "번역위탁 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "의뢰인의 동의를 받아 사건 서류 작성을 전문번역업체에 맡기고 다시 검토하는 행위는 비밀유지의무 위반이 아닐 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "33"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q09-034",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 9,
+      "sourceQuestionId": "legal_ethics_r04_q09",
+      "sourcePart": "34",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "회사 비밀 이용",
+      "rep": "회사 법률고문 과정에서 알게 된 회사 비밀을 경영권 분쟁에서 한쪽 동업자를 위해 이용하면 비밀유지의무 위반이 될 수 있다.",
+      "why": "회사 비밀 이용에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "회사 법률고문 과정에서 알게 된 비밀은 나중에 한쪽 동업자의 소송에서 자유롭게 이용할 수 있다.",
+          "trap": "회사 비밀",
+          "why": "회사 비밀 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "회사 법률고문 과정에서 알게 된 회사 비밀을 경영권 분쟁에서 한쪽 동업자를 위해 이용하면 비밀유지의무 위반이 될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사윤리장전",
+          "sourcePart": "34"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q09-035",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 9,
+      "sourceQuestionId": "legal_ethics_r04_q09",
+      "sourcePart": "35",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "수임경위 사실조회",
+      "rep": "종전 사건의 수임경위와 내용은 의뢰인 비밀에 해당할 수 있으므로 법원의 사실조회에도 신중하게 대응하여야 한다.",
+      "why": "수임경위 사실조회에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법, 민사소송법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법원이 종전 사건 수임경위에 관하여 사실조회를 하면 변호사는 비밀유지와 관계없이 모두 회신하여야 한다.",
+          "trap": "사실조회",
+          "why": "사실조회 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "종전 사건의 수임경위와 내용은 의뢰인 비밀에 해당할 수 있으므로 법원의 사실조회에도 신중하게 대응하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법, 민사소송법",
+          "sourcePart": "35"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q09-036",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 9,
+      "sourceQuestionId": "legal_ethics_r04_q09",
+      "sourcePart": "36",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "행정기관 자료요구",
+      "rep": "행정기관이 직무상 필요를 이유로 법률자문 서류 제출을 요구하더라도 변호사는 의뢰인 비밀보호 의무를 고려하여야 한다.",
+      "why": "행정기관 자료요구에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법, 변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "행정기관이 직무상 필요를 이유로 요구하면 법률자문 서류는 비밀유지의무와 관계없이 제출하여야 한다.",
+          "trap": "자료요구",
+          "why": "자료요구 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "행정기관이 직무상 필요를 이유로 법률자문 서류 제출을 요구하더라도 변호사는 의뢰인 비밀보호 의무를 고려하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법, 변호사윤리장전",
+          "sourcePart": "36"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q10-037",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 10,
+      "sourceQuestionId": "legal_ethics_r04_q10",
+      "sourcePart": "37",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "의무연수",
+      "rep": "변호사는 대한변호사협회가 실시하는 의무연수를 법조윤리 과목을 포함하여 법정 시간 이상 이수하여야 한다.",
+      "why": "의무연수에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사는 대한변호사협회가 실시하는 법조윤리 의무연수를 이수할 필요가 없다.",
+          "trap": "의무연수",
+          "why": "의무연수 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사는 대한변호사협회가 실시하는 의무연수를 법조윤리 과목을 포함하여 법정 시간 이상 이수하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "37"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q10-038",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 10,
+      "sourceQuestionId": "legal_ethics_r04_q10",
+      "sourcePart": "38",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "신규변호사 연수",
+      "rep": "신규변호사의 추가 연수의무는 경력과 등록시기 등 법령이 정한 요건에 따라 판단한다.",
+      "why": "신규변호사 연수에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법, 변호사연수규칙",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "신규변호사는 자격등록을 한 해에 일반 의무연수 외 8시간을 언제나 추가로 이수하여야 한다.",
+          "trap": "신규연수",
+          "why": "신규연수 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "신규변호사의 추가 연수의무는 경력과 등록시기 등 법령이 정한 요건에 따라 판단한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법, 변호사연수규칙",
+          "sourcePart": "38"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q10-039",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 10,
+      "sourceQuestionId": "legal_ethics_r04_q10",
+      "sourcePart": "39",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "특별연수",
+      "rep": "변호사연수 중 특별연수는 희망하는 변호사를 대상으로 실시될 수 있다.",
+      "why": "특별연수에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "특별연수는 모든 변호사가 예외 없이 의무적으로 받아야 한다.",
+          "trap": "특별연수",
+          "why": "특별연수 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사연수 중 특별연수는 희망하는 변호사를 대상으로 실시될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "39"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q10-040",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 10,
+      "sourceQuestionId": "legal_ethics_r04_q10",
+      "sourcePart": "40",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "연수 면제와 유예",
+      "rep": "질병이나 출산 등 정당한 사유가 있으면 심의를 거쳐 연수의무 전부 또는 일부가 면제되거나 유예될 수 있다.",
+      "why": "연수 면제와 유예에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "질병이나 출산 등 정당한 사유가 있어도 변호사 연수의무는 면제되거나 유예될 수 없다.",
+          "trap": "면제 유예",
+          "why": "면제 유예 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "질병이나 출산 등 정당한 사유가 있으면 심의를 거쳐 연수의무 전부 또는 일부가 면제되거나 유예될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "40"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q11-041",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 11,
+      "sourceQuestionId": "legal_ethics_r04_q11",
+      "sourcePart": "41",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "등록 전 광고 금지",
+      "rep": "변호사는 자격등록신청이 수리되기 전에 변호사업무 광고를 하여서는 안 된다.",
+      "why": "등록 전 광고 금지에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사 광고에 관한 규정",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사는 자격등록신청을 하기만 하면 수리 전에도 변호사업무 광고를 할 수 있다.",
+          "trap": "등록 전 광고",
+          "why": "등록 전 광고 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사는 자격등록신청이 수리되기 전에 변호사업무 광고를 하여서는 안 된다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사 광고에 관한 규정",
+          "sourcePart": "41"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q11-042",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 11,
+      "sourceQuestionId": "legal_ethics_r04_q11",
+      "sourcePart": "42",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "다른 광고와 연결",
+      "rep": "변호사업무 광고는 다른 목적의 광고와 동시에 하거나 연결할 때 오인 가능성과 품위유지를 고려하여 제한된다.",
+      "why": "다른 광고와 연결에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사 광고에 관한 규정",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사는 다른 목적의 광고와 변호사업무 광고를 언제나 동시에 또는 연결하여 할 수 있다.",
+          "trap": "연결 광고",
+          "why": "연결 광고 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사업무 광고는 다른 목적의 광고와 동시에 하거나 연결할 때 오인 가능성과 품위유지를 고려하여 제한된다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사 광고에 관한 규정",
+          "sourcePart": "42"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q11-043",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 11,
+      "sourceQuestionId": "legal_ethics_r04_q11",
+      "sourcePart": "43",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "법률상담 광고",
+      "rep": "변호사는 유료 또는 무료 법률상담에 관한 사항을 광고할 수 있고 상담방식에 의한 광고도 가능하다.",
+      "why": "법률상담 광고에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사 광고에 관한 규정",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사는 법률상담이 유료인지 무료인지에 관한 사항을 광고할 수 없다.",
+          "trap": "상담 광고",
+          "why": "상담 광고 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사는 유료 또는 무료 법률상담에 관한 사항을 광고할 수 있고 상담방식에 의한 광고도 가능하다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사 광고에 관한 규정",
+          "sourcePart": "43"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q11-044",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 11,
+      "sourceQuestionId": "legal_ethics_r04_q11",
+      "sourcePart": "44",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "광고 명의 표시",
+      "rep": "변호사는 광고에 자신의 성명 또는 명칭을 표시하고 공동광고에서는 대표자 성명 또는 명칭을 명시하여야 한다.",
+      "why": "광고 명의 표시에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사 광고에 관한 규정",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사 광고에는 성명이나 명칭을 표시하지 않아도 된다.",
+          "trap": "명의 표시",
+          "why": "명의 표시 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사는 광고에 자신의 성명 또는 명칭을 표시하고 공동광고에서는 대표자 성명 또는 명칭을 명시하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사 광고에 관한 규정",
+          "sourcePart": "44"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q12-045",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 12,
+      "sourceQuestionId": "legal_ethics_r04_q12",
+      "sourcePart": "45",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "소송위임과 위임계약",
+      "rep": "소송위임은 소송대리권 발생을 목적으로 하는 소송행위로서 기초관계인 사법상 위임계약과 구별된다.",
+      "why": "소송위임과 위임계약에 관한 법조윤리 원칙입니다.",
+      "ref": "민사소송법, 민법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "소송위임은 의뢰인과 변호사 사이의 사법상 위임계약과 법적 성격이 완전히 같다.",
+          "trap": "소송위임",
+          "why": "소송위임 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "소송위임은 소송대리권 발생을 목적으로 하는 소송행위로서 기초관계인 사법상 위임계약과 구별된다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "민사소송법, 민법",
+          "sourcePart": "45"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q12-046",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 12,
+      "sourceQuestionId": "legal_ethics_r04_q12",
+      "sourcePart": "46",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "소송대리권과 계약의무",
+      "rep": "본안소송 대리권에 강제집행이나 보전처분 권한이 포함된다고 하여 위임계약상 그 조치를 당연히 수행할 의무가 생기는 것은 아니다.",
+      "why": "소송대리권과 계약의무에 관한 법조윤리 원칙입니다.",
+      "ref": "민법, 변호사 책임 판례",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "본안소송 대리권에 보전처분 권한이 있으면 의뢰인에 대한 위임계약상 보전처분 의무가 당연히 발생한다.",
+          "trap": "계약의무",
+          "why": "계약의무 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "본안소송 대리권에 강제집행이나 보전처분 권한이 포함된다고 하여 위임계약상 그 조치를 당연히 수행할 의무가 생기는 것은 아니다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "민법, 변호사 책임 판례",
+          "sourcePart": "46"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q12-047",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 12,
+      "sourceQuestionId": "legal_ethics_r04_q12",
+      "sourcePart": "47",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "상소 조언의무",
+      "rep": "수임사건에서 패소판결을 받은 변호사는 특별한 수권이 없어도 판결 내용과 상소 가능성을 설명하고 조언하여야 한다.",
+      "why": "상소 조언의무에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사 책임 판례",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "패소판결 후 상소에 관한 특별수권이 없으면 변호사는 상소 가능성을 설명할 의무가 없다.",
+          "trap": "상소 조언",
+          "why": "상소 조언 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "수임사건에서 패소판결을 받은 변호사는 특별한 수권이 없어도 판결 내용과 상소 가능성을 설명하고 조언하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사 책임 판례",
+          "sourcePart": "47"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q12-048",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 12,
+      "sourceQuestionId": "legal_ethics_r04_q12",
+      "sourcePart": "48",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "담보금 보전조언",
+      "rep": "본안소송 중 승소금 회수에 실효적인 보전방안을 알게 된 변호사는 의뢰인에게 필요한 정보와 법률조언을 제공하여야 한다.",
+      "why": "담보금 보전조언에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사 책임 판례",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "본안소송 외 담보금 보전조치를 별도로 위임받지 않았다면 변호사는 그 실효적 방안을 알게 되어도 설명할 의무가 없다.",
+          "trap": "보전조언",
+          "why": "보전조언 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "본안소송 중 승소금 회수에 실효적인 보전방안을 알게 된 변호사는 의뢰인에게 필요한 정보와 법률조언을 제공하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사 책임 판례",
+          "sourcePart": "48"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q13-049",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 13,
+      "sourceQuestionId": "legal_ethics_r04_q13",
+      "sourcePart": "49",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "휴업 변호사 겸직",
+      "rep": "휴업한 변호사는 개업 중인 변호사와 달리 일정 겸직허가 규제가 적용되지 않을 수 있다.",
+      "why": "휴업 변호사 겸직에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "휴업한 변호사도 주식회사 이사가 되려면 항상 지방변호사회 겸직허가를 받아야 한다.",
+          "trap": "휴업 겸직",
+          "why": "휴업 겸직 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "휴업한 변호사는 개업 중인 변호사와 달리 일정 겸직허가 규제가 적용되지 않을 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "49"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q13-050",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 13,
+      "sourceQuestionId": "legal_ethics_r04_q13",
+      "sourcePart": "50",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "지방의회 의원",
+      "rep": "법무법인 구성원 변호사가 지방의회 의원이 되는 것은 일반 영리겸직과 달리 별도 예외가 인정될 수 있다.",
+      "why": "지방의회 의원에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법무법인 구성원 변호사는 지방의회 의원이 되려면 언제나 지방변호사회 겸직허가를 받아야 한다.",
+          "trap": "지방의회",
+          "why": "지방의회 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법무법인 구성원 변호사가 지방의회 의원이 되는 것은 일반 영리겸직과 달리 별도 예외가 인정될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "50"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q13-051",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 13,
+      "sourceQuestionId": "legal_ethics_r04_q13",
+      "sourcePart": "51",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "법무법인 수임승낙 사건",
+      "rep": "법무법인 소속 변호사는 사직 후에도 그 법무법인 재직 중 법인이 수임을 승낙한 사건에 관하여 업무수행이 제한될 수 있다.",
+      "why": "법무법인 수임승낙 사건에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법무법인 소속 변호사는 사직만 하면 재직 중 법무법인이 수임을 승낙한 사건을 자유롭게 맡을 수 있다.",
+          "trap": "사직 후 제한",
+          "why": "사직 후 제한 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법무법인 소속 변호사는 사직 후에도 그 법무법인 재직 중 법인이 수임을 승낙한 사건에 관하여 업무수행이 제한될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법",
+          "sourcePart": "51"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q13-052",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 13,
+      "sourceQuestionId": "legal_ethics_r04_q13",
+      "sourcePart": "52",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "사내변호사 일반수임",
+      "rep": "사내변호사를 고용한 회사가 일반인 사건을 수임하여 그 사내변호사에게 소송대리를 시키는 것은 허용되지 않는다.",
+      "why": "사내변호사 일반수임에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "사내변호사를 둔 회사는 일반인 사건을 수임하여 사내변호사에게 소송대리를 시킬 수 있다.",
+          "trap": "일반인 사건",
+          "why": "일반인 사건 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "사내변호사를 고용한 회사가 일반인 사건을 수임하여 그 사내변호사에게 소송대리를 시키는 것은 허용되지 않는다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "52"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q14-053",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 14,
+      "sourceQuestionId": "legal_ethics_r04_q14",
+      "sourcePart": "53",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "법원 위신 존중",
+      "rep": "변호사는 법정 안팎에서 법원의 위신과 재판의 신뢰성을 손상시키는 언동을 하여서는 안 된다.",
+      "why": "법원 위신 존중에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사는 법정 밖에서는 법원의 위신이나 재판 신뢰성을 손상시키는 언동을 해도 윤리상 문제 되지 않는다.",
+          "trap": "법원 위신",
+          "why": "법원 위신 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사는 법정 안팎에서 법원의 위신과 재판의 신뢰성을 손상시키는 언동을 하여서는 안 된다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "53"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q14-054",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 14,
+      "sourceQuestionId": "legal_ethics_r04_q14",
+      "sourcePart": "54",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "기한 준수",
+      "rep": "변호사는 재판시간과 서류제출기한 등을 준수하고 소송지연 목적의 행위를 하여서는 안 된다.",
+      "why": "기한 준수에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사는 의뢰인에게 유리하면 소송지연 목적의 행위를 할 수 있다.",
+          "trap": "기한 준수",
+          "why": "기한 준수 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사는 재판시간과 서류제출기한 등을 준수하고 소송지연 목적의 행위를 하여서는 안 된다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "54"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q14-055",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 14,
+      "sourceQuestionId": "legal_ethics_r04_q14",
+      "sourcePart": "55",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "사건 진행순서",
+      "rep": "변호사는 법정 질서를 존중하여야 하지만 필요한 경우 재판장의 허가를 받아 사건 진행순서에 관한 의견을 낼 수 있다.",
+      "why": "사건 진행순서에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사는 특별한 사정이 있어도 법정에서 사건 진행순서에 관한 의견을 낼 수 없다.",
+          "trap": "진행순서",
+          "why": "진행순서 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사는 법정 질서를 존중하여야 하지만 필요한 경우 재판장의 허가를 받아 사건 진행순서에 관한 의견을 낼 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사윤리장전",
+          "sourcePart": "55"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q14-056",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 14,
+      "sourceQuestionId": "legal_ethics_r04_q14",
+      "sourcePart": "56",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "의뢰인 모욕 방임 금지",
+      "rep": "변호사는 법정 주위에서 의뢰인이 상대방에게 모욕적 언사를 하는 것을 방임하여서는 안 된다.",
+      "why": "의뢰인 모욕 방임 금지에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사는 의뢰인이 법정 주위에서 상대방에게 모욕적 언사를 해도 관여할 필요가 없다.",
+          "trap": "모욕 방임",
+          "why": "모욕 방임 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사는 법정 주위에서 의뢰인이 상대방에게 모욕적 언사를 하는 것을 방임하여서는 안 된다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "56"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q15-057",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 15,
+      "sourceQuestionId": "legal_ethics_r04_q15",
+      "sourcePart": "57",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "무료상담 비밀",
+      "rep": "무료법률상담에서 알게 된 상담자의 비밀도 변호사의 비밀유지와 이해충돌 판단에서 보호될 수 있다.",
+      "why": "무료상담 비밀에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "무료법률상담에서 알게 된 정보는 변호사의 비밀유지나 이해충돌 판단에서 보호되지 않는다.",
+          "trap": "무료상담 비밀",
+          "why": "무료상담 비밀 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "무료법률상담에서 알게 된 상담자의 비밀도 변호사의 비밀유지와 이해충돌 판단에서 보호될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "57"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q15-058",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 15,
+      "sourceQuestionId": "legal_ethics_r04_q15",
+      "sourcePart": "58",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "수임료 미지급과 계약",
+      "rep": "수임료 지급이 뒤로 미루어졌더라도 수임계약이 성립하면 의뢰인 관계와 이해충돌 제한이 발생할 수 있다.",
+      "why": "수임료 미지급과 계약에 관한 법조윤리 원칙입니다.",
+      "ref": "민법, 변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "수임료를 아직 받지 않았으면 수임계약이 성립하여도 이해충돌 제한이 발생하지 않는다.",
+          "trap": "수임료 미지급",
+          "why": "수임료 미지급 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "수임료 지급이 뒤로 미루어졌더라도 수임계약이 성립하면 의뢰인 관계와 이해충돌 제한이 발생할 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "민법, 변호사윤리장전",
+          "sourcePart": "58"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q15-059",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 15,
+      "sourceQuestionId": "legal_ethics_r04_q15",
+      "sourcePart": "59",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "대립 상담 중지",
+      "rep": "이미 한쪽과 수임계약을 체결한 변호사는 같은 분쟁의 상대방과 상담하게 된 때 그 상담을 중지하여야 한다.",
+      "why": "대립 상담 중지에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "이미 한쪽과 수임계약을 체결했어도 같은 분쟁의 상대방과 상담을 시작했다면 끝까지 상담을 계속하여야 한다.",
+          "trap": "대립 상담",
+          "why": "대립 상담 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "이미 한쪽과 수임계약을 체결한 변호사는 같은 분쟁의 상대방과 상담하게 된 때 그 상담을 중지하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사윤리장전",
+          "sourcePart": "59"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q15-060",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 15,
+      "sourceQuestionId": "legal_ethics_r04_q15",
+      "sourcePart": "60",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "상담사실 공개",
+      "rep": "한쪽 상담 사실은 그 자체로 비밀이 될 수 있으므로 상대방에게 공개하려면 정당한 근거와 동의가 필요하다.",
+      "why": "상담사실 공개에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "한쪽 상담 사실은 상대방에게 상담 계속 의사를 묻기 위해 자유롭게 공개할 수 있다.",
+          "trap": "상담사실",
+          "why": "상담사실 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "한쪽 상담 사실은 그 자체로 비밀이 될 수 있으므로 상대방에게 공개하려면 정당한 근거와 동의가 필요하다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "60"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q16-061",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 16,
+      "sourceQuestionId": "legal_ethics_r04_q16",
+      "sourcePart": "61",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "금고형 결격기간",
+      "rep": "금고 이상의 실형을 선고받고 집행이 끝난 뒤 법정 기간이 지나지 않은 사람은 법률사무소 사무직원으로 채용될 수 없다.",
+      "why": "금고형 결격기간에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "금고 이상의 실형을 마친 사람은 출소 즉시 법률사무소 사무직원으로 채용될 수 있다.",
+          "trap": "실형 결격",
+          "why": "실형 결격 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "금고 이상의 실형을 선고받고 집행이 끝난 뒤 법정 기간이 지나지 않은 사람은 법률사무소 사무직원으로 채용될 수 없다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법",
+          "sourcePart": "61"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q16-062",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 16,
+      "sourceQuestionId": "legal_ethics_r04_q16",
+      "sourcePart": "62",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "해임 후 기간",
+      "rep": "공무원 징계 해임을 받은 사람의 사무직원 결격 여부는 해임 사유와 법정 경과기간을 기준으로 판단한다.",
+      "why": "해임 후 기간에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "공무원 징계 해임을 받은 사람은 기간 경과와 관계없이 영구히 법률사무소 사무직원이 될 수 없다.",
+          "trap": "해임 결격",
+          "why": "해임 결격 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "공무원 징계 해임을 받은 사람의 사무직원 결격 여부는 해임 사유와 법정 경과기간을 기준으로 판단한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "62"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q16-063",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 16,
+      "sourceQuestionId": "legal_ethics_r04_q16",
+      "sourcePart": "63",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "선고유예",
+      "rep": "일정 범죄로 선고유예를 받은 사람도 유예기간 등 법정 요건에 따라 사무직원 채용 제한을 받을 수 있다.",
+      "why": "선고유예에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "선고유예를 받은 사람은 어떤 범죄라도 법률사무소 사무직원 결격자가 될 수 없다.",
+          "trap": "선고유예",
+          "why": "선고유예 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "일정 범죄로 선고유예를 받은 사람도 유예기간 등 법정 요건에 따라 사무직원 채용 제한을 받을 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "63"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q16-064",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 16,
+      "sourceQuestionId": "legal_ethics_r04_q16",
+      "sourcePart": "64",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "집행유예 경과",
+      "rep": "집행유예 판결을 받은 사람의 사무직원 결격 여부는 확정일부터 법정 기간이 지났는지를 기준으로 판단한다.",
+      "why": "집행유예 경과에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "집행유예 판결을 받은 사람은 판결 확정 후 기간이 지나도 법률사무소 사무직원으로 채용될 수 없다.",
+          "trap": "집행유예",
+          "why": "집행유예 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "집행유예 판결을 받은 사람의 사무직원 결격 여부는 확정일부터 법정 기간이 지났는지를 기준으로 판단한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "64"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q17-065",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 17,
+      "sourceQuestionId": "legal_ethics_r04_q17",
+      "sourcePart": "65",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "총회 결의 인가",
+      "rep": "지방변호사회와 대한변호사협회의 총회 결의가 모두 법무부장관 인가를 받아야 하는 것은 아니다.",
+      "why": "총회 결의 인가에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "지방변호사회와 대한변호사협회의 모든 총회 결의는 법무부장관에게 보고하고 인가를 받아야 한다.",
+          "trap": "총회 결의",
+          "why": "총회 결의 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "지방변호사회와 대한변호사협회의 총회 결의가 모두 법무부장관 인가를 받아야 하는 것은 아니다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법",
+          "sourcePart": "65"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q17-066",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 17,
+      "sourceQuestionId": "legal_ethics_r04_q17",
+      "sourcePart": "66",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "회원 정보 제공",
+      "rep": "지방변호사회는 변호사를 선임하려는 사람에게 회원의 경력과 업무실적 등에 관한 정보를 제공하여야 한다.",
+      "why": "회원 정보 제공에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "지방변호사회는 회원의 경력과 업무실적 정보를 변호사 선임 예정자에게 제공할 수 없다.",
+          "trap": "정보 제공",
+          "why": "정보 제공 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "지방변호사회는 변호사를 선임하려는 사람에게 회원의 경력과 업무실적 등에 관한 정보를 제공하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "66"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q17-067",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 17,
+      "sourceQuestionId": "legal_ethics_r04_q17",
+      "sourcePart": "67",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "회칙 변경 인가",
+      "rep": "지방변호사회와 대한변호사협회가 회칙을 변경한 때에는 법무부장관의 인가를 받아야 한다.",
+      "why": "회칙 변경 인가에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "지방변호사회와 대한변호사협회는 회칙을 변경하여도 법무부장관 인가를 받을 필요가 없다.",
+          "trap": "회칙 변경",
+          "why": "회칙 변경 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "지방변호사회와 대한변호사협회가 회칙을 변경한 때에는 법무부장관의 인가를 받아야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "67"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q17-068",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 17,
+      "sourceQuestionId": "legal_ethics_r04_q17",
+      "sourcePart": "68",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "회원 분쟁 조정",
+      "rep": "지방변호사회는 회원 변호사 상호 간 직무상 분쟁이 있으면 당사자 청구에 따라 조정할 수 있다.",
+      "why": "회원 분쟁 조정에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "지방변호사회는 회원 변호사 사이의 직무상 분쟁을 조정할 권한이 없다.",
+          "trap": "분쟁 조정",
+          "why": "분쟁 조정 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "지방변호사회는 회원 변호사 상호 간 직무상 분쟁이 있으면 당사자 청구에 따라 조정할 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "68"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q18-069",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 18,
+      "sourceQuestionId": "legal_ethics_r04_q18",
+      "sourcePart": "69",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "합리적 고소 조언",
+      "rep": "변호사는 범죄혐의가 합리적으로 의심되면 의뢰인에게 고소 가능성을 설명하고 조언할 수 있다.",
+      "why": "합리적 고소 조언에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사는 범죄혐의가 확실히 입증된 사건에서만 고소를 조언할 수 있다.",
+          "trap": "고소 조언",
+          "why": "고소 조언 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사는 범죄혐의가 합리적으로 의심되면 의뢰인에게 고소 가능성을 설명하고 조언할 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "69"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q18-070",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 18,
+      "sourceQuestionId": "legal_ethics_r04_q18",
+      "sourcePart": "70",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "증인 지위 법정진술",
+      "rep": "다른 피고인의 사건에서 증인 지위에 있는 사람이 선서 없이 한 법정진술은 그 공소사실 인정 증거로 제한될 수 있다.",
+      "why": "증인 지위 법정진술에 관한 법조윤리 원칙입니다.",
+      "ref": "형사소송법",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "증인 지위에 있는 사람이 선서 없이 한 법정진술도 다른 사람의 공소사실 인정 증거로 언제나 사용할 수 있다.",
+          "trap": "선서 없는 진술",
+          "why": "선서 없는 진술 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "다른 피고인의 사건에서 증인 지위에 있는 사람이 선서 없이 한 법정진술은 그 공소사실 인정 증거로 제한될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "형사소송법",
+          "sourcePart": "70"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q18-071",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 18,
+      "sourceQuestionId": "legal_ethics_r04_q18",
+      "sourcePart": "71",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "피의자신문조서 증거능력",
+      "rep": "피의자신문조서가 다른 사람의 공소사실 증거로 쓰이려면 형사소송법상 동의와 증거능력 요건을 충족하여야 한다.",
+      "why": "피의자신문조서 증거능력에 관한 법조윤리 원칙입니다.",
+      "ref": "형사소송법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "피의자신문조서는 다른 사람의 공소사실 증거로 당연히 사용할 수 있다.",
+          "trap": "조서 증거능력",
+          "why": "조서 증거능력 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "피의자신문조서가 다른 사람의 공소사실 증거로 쓰이려면 형사소송법상 동의와 증거능력 요건을 충족하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "형사소송법",
+          "sourcePart": "71"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q18-072",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 18,
+      "sourceQuestionId": "legal_ethics_r04_q18",
+      "sourcePart": "72",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "증거법 다툼 조언",
+      "rep": "검사 제출 증거에 증거능력 다툼의 여지가 있으면 변호사는 그 법리를 설명하고 배척 방향을 조언할 수 있다.",
+      "why": "증거법 다툼 조언에 관한 법조윤리 원칙입니다.",
+      "ref": "형사소송법, 변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "검사 제출 증거는 다툼의 여지가 없으므로 변호사는 증거능력 다툼을 조언할 수 없다.",
+          "trap": "증거법 조언",
+          "why": "증거법 조언 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "검사 제출 증거에 증거능력 다툼의 여지가 있으면 변호사는 그 법리를 설명하고 배척 방향을 조언할 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "형사소송법, 변호사윤리장전",
+          "sourcePart": "72"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q19-073",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 19,
+      "sourceQuestionId": "legal_ethics_r04_q19",
+      "sourcePart": "73",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "법무법인유한 감사",
+      "rep": "법무법인유한에 변호사인 감사를 반드시 두어야 하는지는 법령상 기관구조에 따라 판단하며 일반 회사와 동일하게 보지 않는다.",
+      "why": "법무법인유한 감사에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법무법인유한에는 변호사인 감사를 반드시 한 명 이상 두어야 한다.",
+          "trap": "감사",
+          "why": "감사 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법무법인유한에 변호사인 감사를 반드시 두어야 하는지는 법령상 기관구조에 따라 판단하며 일반 회사와 동일하게 보지 않는다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "73"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q19-074",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 19,
+      "sourceQuestionId": "legal_ethics_r04_q19",
+      "sourcePart": "74",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "담당변호사 대표",
+      "rep": "법무법인유한의 담당변호사가 지정 업무 수행 시 언제나 공동으로 법인을 대표하는 것은 아니다.",
+      "why": "담당변호사 대표에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법무법인유한의 담당변호사는 지정 업무를 수행할 때 언제나 공동으로 법인을 대표한다.",
+          "trap": "담당변호사",
+          "why": "담당변호사 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법무법인유한의 담당변호사가 지정 업무 수행 시 언제나 공동으로 법인을 대표하는 것은 아니다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "74"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q19-075",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 19,
+      "sourceQuestionId": "legal_ethics_r04_q19",
+      "sourcePart": "75",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "법무조합 인가취소",
+      "rep": "법무부장관은 법무조합이 업무집행에 관하여 법령을 위반한 경우 설립인가를 취소할 수 있다.",
+      "why": "법무조합 인가취소에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법무부장관은 법무조합이 업무집행에서 법령을 위반하여도 설립인가를 취소할 수 없다.",
+          "trap": "인가취소",
+          "why": "인가취소 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법무부장관은 법무조합이 업무집행에 관하여 법령을 위반한 경우 설립인가를 취소할 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법",
+          "sourcePart": "75"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q19-076",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 19,
+      "sourceQuestionId": "legal_ethics_r04_q19",
+      "sourcePart": "76",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "법무조합 성립",
+      "rep": "법무조합은 등기만이 아니라 법령이 정한 설립절차와 인가 요건에 따라 성립한다.",
+      "why": "법무조합 성립에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법무조합은 주사무소 소재지에서 설립등기를 하는 것만으로 성립한다.",
+          "trap": "성립요건",
+          "why": "성립요건 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법무조합은 등기만이 아니라 법령이 정한 설립절차와 인가 요건에 따라 성립한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "76"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q20-077",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 20,
+      "sourceQuestionId": "legal_ethics_r04_q20",
+      "sourcePart": "77",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "국회 자료제출",
+      "rep": "법조윤리협의회는 인사청문회나 국정조사를 위한 국회 요구가 있으면 법정 자료를 국회에 제출하여야 한다.",
+      "why": "국회 자료제출에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법조윤리협의회는 국회가 인사청문회나 국정조사를 위해 요구하여도 자료를 제출할 수 없다.",
+          "trap": "국회 제출",
+          "why": "국회 제출 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법조윤리협의회는 인사청문회나 국정조사를 위한 국회 요구가 있으면 법정 자료를 국회에 제출하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법",
+          "sourcePart": "77"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q20-078",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 20,
+      "sourceQuestionId": "legal_ethics_r04_q20",
+      "sourcePart": "78",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "위원장 지명",
+      "rep": "법조윤리협의회 위원장은 법령이 정한 방식으로 정해지며 대한변호사협회장이 임의로 지명하는 구조가 아니다.",
+      "why": "위원장 지명에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법조윤리협의회 위원장은 대한변호사협회장이 위원 중에서 지명한다.",
+          "trap": "위원장",
+          "why": "위원장 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법조윤리협의회 위원장은 법령이 정한 방식으로 정해지며 대한변호사협회장이 임의로 지명하는 구조가 아니다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "78"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q20-079",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 20,
+      "sourceQuestionId": "legal_ethics_r04_q20",
+      "sourcePart": "79",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "징계개시와 수사의뢰",
+      "rep": "법조윤리협의회 위원장의 징계개시 신청이나 수사의뢰 권한은 공직퇴임변호사에게만 한정된다고 볼 수 없다.",
+      "why": "징계개시와 수사의뢰에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법조윤리협의회 위원장은 공직퇴임변호사에 대해서만 징계개시 신청이나 수사의뢰를 할 수 있다.",
+          "trap": "권한 범위",
+          "why": "권한 범위 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법조윤리협의회 위원장의 징계개시 신청이나 수사의뢰 권한은 공직퇴임변호사에게만 한정된다고 볼 수 없다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "79"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q20-080",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 20,
+      "sourceQuestionId": "legal_ethics_r04_q20",
+      "sourcePart": "80",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "수임자료 제출처",
+      "rep": "공직퇴임변호사의 수임자료와 처리결과는 법령이 정한 제출처와 절차에 따라 제출하여야 한다.",
+      "why": "수임자료 제출처에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "공직퇴임변호사는 퇴직일부터 일정 기간의 수임자료를 법조윤리협의회에 직접 제출하여야 한다.",
+          "trap": "제출처",
+          "why": "제출처 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "공직퇴임변호사의 수임자료와 처리결과는 법령이 정한 제출처와 절차에 따라 제출하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "80"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q21-081",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 21,
+      "sourceQuestionId": "legal_ethics_r04_q21",
+      "sourcePart": "81",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "공익성 광고",
+      "rep": "공익성을 띤 분쟁이라도 특정 사건 의뢰를 권유하는 광고는 광고규정의 제한을 받는다.",
+      "why": "공익성 광고에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사 광고에 관한 규정",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "공익성을 띤 분쟁이면 특정 사건 의뢰를 권유하는 광고도 제한 없이 허용된다.",
+          "trap": "공익성",
+          "why": "공익성 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "공익성을 띤 분쟁이라도 특정 사건 의뢰를 권유하는 광고는 광고규정의 제한을 받는다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사 광고에 관한 규정",
+          "sourcePart": "81"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q21-082",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 21,
+      "sourceQuestionId": "legal_ethics_r04_q21",
+      "sourcePart": "82",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "예상 당사자 권유",
+      "rep": "예상 당사자나 이해관계인에게 요청이나 동의 없이 특정 사건 의뢰를 권유하는 광고는 지방변호사회 허가 없이 허용되기 어렵다.",
+      "why": "예상 당사자 권유에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사 광고에 관한 규정",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "예상 당사자에게 특정 사건 의뢰를 권유하는 광고는 요청이나 동의가 없어도 허가 없이 가능하다.",
+          "trap": "예상 당사자",
+          "why": "예상 당사자 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "예상 당사자나 이해관계인에게 요청이나 동의 없이 특정 사건 의뢰를 권유하는 광고는 지방변호사회 허가 없이 허용되기 어렵다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사 광고에 관한 규정",
+          "sourcePart": "82"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q21-083",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 21,
+      "sourceQuestionId": "legal_ethics_r04_q21",
+      "sourcePart": "83",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "수임사건 표시",
+      "rep": "현재 수임 중인 사건을 광고에 표시하려면 의뢰인의 동의와 비밀보호가 문제 된다.",
+      "why": "수임사건 표시에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "현재 수임 중인 사건은 의뢰인 동의 없이도 광고에 자유롭게 표시할 수 있다.",
+          "trap": "수임사건 표시",
+          "why": "수임사건 표시 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "현재 수임 중인 사건을 광고에 표시하려면 의뢰인의 동의와 비밀보호가 문제 된다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "83"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q21-084",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 21,
+      "sourceQuestionId": "legal_ethics_r04_q21",
+      "sourcePart": "84",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "유인물 배포",
+      "rep": "아파트 세대 우편함에 특정 소송 동참 유인물을 넣는 행위는 불특정 다수 광고라도 허가와 방식 제한을 받을 수 있다.",
+      "why": "유인물 배포에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사 광고에 관한 규정",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "아파트 세대 우편함 유인물 배포는 불특정 다수 광고이므로 허가 제한을 받지 않는다.",
+          "trap": "유인물",
+          "why": "유인물 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "아파트 세대 우편함에 특정 소송 동참 유인물을 넣는 행위는 불특정 다수 광고라도 허가와 방식 제한을 받을 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사 광고에 관한 규정",
+          "sourcePart": "84"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q22-085",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 22,
+      "sourceQuestionId": "legal_ethics_r04_q22",
+      "sourcePart": "85",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "과다보수 제한",
+      "rep": "변호사 보수 약정이 부당하게 과다하면 신의칙과 형평에 따라 상당한 범위로 제한될 수 있다.",
+      "why": "과다보수 제한에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사 보수 판례",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사 보수 약정은 아무리 과다하여도 약정한 전액을 반드시 청구할 수 있다.",
+          "trap": "과다보수",
+          "why": "과다보수 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사 보수 약정이 부당하게 과다하면 신의칙과 형평에 따라 상당한 범위로 제한될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사 보수 판례",
+          "sourcePart": "85"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q22-086",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 22,
+      "sourceQuestionId": "legal_ethics_r04_q22",
+      "sourcePart": "86",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "공동당사자 보수채무",
+      "rep": "공동당사자의 변호사 보수채무는 경제적 이익을 함께 누린다는 사정만으로 당연히 연대채무나 불가분채무가 되는 것은 아니다.",
+      "why": "공동당사자 보수채무에 관한 법조윤리 원칙입니다.",
+      "ref": "민법, 변호사 보수 판례",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "공동당사자의 경제적 이익이 불가분이면 변호사 보수채무도 당연히 연대채무나 불가분채무가 된다.",
+          "trap": "공동당사자",
+          "why": "공동당사자 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "공동당사자의 변호사 보수채무는 경제적 이익을 함께 누린다는 사정만으로 당연히 연대채무나 불가분채무가 되는 것은 아니다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "민법, 변호사 보수 판례",
+          "sourcePart": "86"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q22-087",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 22,
+      "sourceQuestionId": "legal_ethics_r04_q22",
+      "sourcePart": "87",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "성공보수 시효",
+      "rep": "일심 성공보수 약정은 특약이 없으면 일심 판결을 송달받은 때부터 소멸시효가 진행될 수 있다.",
+      "why": "성공보수 시효에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사 보수 판례",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "일심 성공보수 약정의 소멸시효는 특약이 없어도 판결 확정일부터만 진행된다.",
+          "trap": "시효",
+          "why": "시효 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "일심 성공보수 약정은 특약이 없으면 일심 판결을 송달받은 때부터 소멸시효가 진행될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사 보수 판례",
+          "sourcePart": "87"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q22-088",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 22,
+      "sourceQuestionId": "legal_ethics_r04_q22",
+      "sourcePart": "88",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "착수금 성질",
+      "rep": "소송사건 착수금은 일반적으로 위임사무 처리비용 외에 보수 일부의 선급금 성질을 가진다.",
+      "why": "착수금 성질에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사 보수 판례",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "소송사건 착수금은 항상 순수 실비 예치금일 뿐 보수 선급금이 아니다.",
+          "trap": "착수금",
+          "why": "착수금 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "소송사건 착수금은 일반적으로 위임사무 처리비용 외에 보수 일부의 선급금 성질을 가진다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사 보수 판례",
+          "sourcePart": "88"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q23-089",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 23,
+      "sourceQuestionId": "legal_ethics_r04_q23",
+      "sourcePart": "89",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "동시대리와 의뢰인 동의",
+      "rep": "현재 대리 중인 의뢰인과 이해가 충돌할 수 있는 사건은 적어도 현재 의뢰인의 동의가 필요하다.",
+      "why": "동시대리와 의뢰인 동의에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "현재 대리 중인 의뢰인과 이해가 충돌할 수 있는 사건도 현재 의뢰인의 동의 없이 수임할 수 있다.",
+          "trap": "현재 의뢰인",
+          "why": "현재 의뢰인 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "현재 대리 중인 의뢰인과 이해가 충돌할 수 있는 사건은 적어도 현재 의뢰인의 동의가 필요하다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사윤리장전",
+          "sourcePart": "89"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q23-090",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 23,
+      "sourceQuestionId": "legal_ethics_r04_q23",
+      "sourcePart": "90",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "공동임차인 간 별도 분쟁",
+      "rep": "공동임차인 사이의 별도 대여금 분쟁을 맡을 때에는 현재 임대인 대리와의 이해충돌을 먼저 검토하여야 한다.",
+      "why": "공동임차인 간 별도 분쟁에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "공동임차인 사이의 별도 분쟁은 현재 임대인 대리와 전혀 이해충돌을 일으킬 수 없다.",
+          "trap": "공동임차인",
+          "why": "공동임차인 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "공동임차인 사이의 별도 대여금 분쟁을 맡을 때에는 현재 임대인 대리와의 이해충돌을 먼저 검토하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "90"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q23-091",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 23,
+      "sourceQuestionId": "legal_ethics_r04_q23",
+      "sourcePart": "91",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "상대 공동당사자 동의",
+      "rep": "같은 소송의 상대 공동당사자 동의가 항상 필요한지는 사건의 실질적 이해충돌과 비밀 이용 가능성에 따라 달라진다.",
+      "why": "상대 공동당사자 동의에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "같은 소송의 모든 공동당사자 동의 없이는 별도 사건을 어떤 경우에도 수임할 수 없다.",
+          "trap": "공동당사자 동의",
+          "why": "공동당사자 동의 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "같은 소송의 상대 공동당사자 동의가 항상 필요한지는 사건의 실질적 이해충돌과 비밀 이용 가능성에 따라 달라진다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "91"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q23-092",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 23,
+      "sourceQuestionId": "legal_ethics_r04_q23",
+      "sourcePart": "92",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "법원 허가",
+      "rep": "변호사의 이해충돌 수임 여부는 원칙적으로 법원의 허가가 아니라 변호사법과 윤리규정에 따라 판단한다.",
+      "why": "법원 허가에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "이해충돌 가능성이 있는 사건 수임은 법원의 허가를 받으면 언제나 가능하다.",
+          "trap": "법원 허가",
+          "why": "법원 허가 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사의 이해충돌 수임 여부는 원칙적으로 법원의 허가가 아니라 변호사법과 윤리규정에 따라 판단한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "92"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q24-093",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 24,
+      "sourceQuestionId": "legal_ethics_r04_q24",
+      "sourcePart": "93",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "전직 후 비밀",
+      "rep": "변호사를 그만둔 뒤에도 직무상 알게 된 의뢰인의 비밀을 공개하여서는 안 된다.",
+      "why": "전직 후 비밀에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사를 그만두면 직무상 알게 된 의뢰인의 비밀을 자서전에 공개할 수 있다.",
+          "trap": "전직 후 비밀",
+          "why": "전직 후 비밀 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사를 그만둔 뒤에도 직무상 알게 된 의뢰인의 비밀을 공개하여서는 안 된다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법",
+          "sourcePart": "93"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q24-094",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 24,
+      "sourceQuestionId": "legal_ethics_r04_q24",
+      "sourcePart": "94",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "의뢰인 동의 공개",
+      "rep": "의뢰인의 유효한 동의가 있으면 필요한 범위에서 의뢰인 비밀을 공개할 수 있다.",
+      "why": "의뢰인 동의 공개에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "의뢰인이 동의하여도 변호사는 의뢰인 비밀을 어떤 범위에서도 공개할 수 없다.",
+          "trap": "동의",
+          "why": "동의 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "의뢰인의 유효한 동의가 있으면 필요한 범위에서 의뢰인 비밀을 공개할 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "94"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q24-095",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 24,
+      "sourceQuestionId": "legal_ethics_r04_q24",
+      "sourcePart": "95",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "자기방어 공개",
+      "rep": "변호사는 자신의 권리 옹호를 위해 필요한 경우 최소한의 범위에서 의뢰인 비밀을 공개할 수 있다.",
+      "why": "자기방어 공개에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사는 자신의 권리 옹호를 위해서도 의뢰인 비밀을 전혀 공개할 수 없다.",
+          "trap": "자기방어",
+          "why": "자기방어 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사는 자신의 권리 옹호를 위해 필요한 경우 최소한의 범위에서 의뢰인 비밀을 공개할 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "95"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q24-096",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 24,
+      "sourceQuestionId": "legal_ethics_r04_q24",
+      "sourcePart": "96",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "직무상 비밀",
+      "rep": "변호사 비밀유지의무는 원칙적으로 직무상 알게 된 비밀을 대상으로 한다.",
+      "why": "직무상 비밀에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "직무와 무관하게 알게 된 모든 정보가 변호사 비밀유지의무의 대상이다.",
+          "trap": "직무상 비밀",
+          "why": "직무상 비밀 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사 비밀유지의무는 원칙적으로 직무상 알게 된 비밀을 대상으로 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "96"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q25-097",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 25,
+      "sourceQuestionId": "legal_ethics_r04_q25",
+      "sourcePart": "97",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "업무정지 제외",
+      "rep": "약식명령 청구나 과실범 공소제기만으로는 변호사 업무정지 결정 청구가 제한될 수 있다.",
+      "why": "업무정지 제외에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "약식명령 청구나 과실범 공소제기만으로도 변호사 업무정지 결정을 언제나 청구할 수 있다.",
+          "trap": "업무정지 제외",
+          "why": "업무정지 제외 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "약식명령 청구나 과실범 공소제기만으로는 변호사 업무정지 결정 청구가 제한될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "97"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q25-098",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 25,
+      "sourceQuestionId": "legal_ethics_r04_q25",
+      "sourcePart": "98",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "특별변호인",
+      "rep": "업무정지결정이 청구된 변호사는 특별변호인을 선임하여 보충 진술과 증거 제출을 하게 할 수 있다.",
+      "why": "특별변호인에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "업무정지결정이 청구된 변호사는 특별변호인을 선임할 수 없다.",
+          "trap": "특별변호인",
+          "why": "특별변호인 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "업무정지결정이 청구된 변호사는 특별변호인을 선임하여 보충 진술과 증거 제출을 하게 할 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "98"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q25-099",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 25,
+      "sourceQuestionId": "legal_ethics_r04_q25",
+      "sourcePart": "99",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "업무정지 해제신청",
+      "rep": "업무정지명령 해제신청의 주체와 절차는 변호사법이 정한 기관과 방식에 따라야 한다.",
+      "why": "업무정지 해제신청에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "업무정지명령을 받은 변호사는 법무부 변호사징계위원회에 언제나 직접 해제를 신청할 수 있다.",
+          "trap": "해제신청",
+          "why": "해제신청 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "업무정지명령 해제신청의 주체와 절차는 변호사법이 정한 기관과 방식에 따라야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법",
+          "sourcePart": "99"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q25-100",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 25,
+      "sourceQuestionId": "legal_ethics_r04_q25",
+      "sourcePart": "100",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "업무정지 불복",
+      "rep": "업무정지명령에 불복하려는 변호사는 통지를 받은 날부터 법정 기간 안에 행정소송을 제기할 수 있다.",
+      "why": "업무정지 불복에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "업무정지명령에는 행정소송으로 불복할 수 없다.",
+          "trap": "불복",
+          "why": "불복 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "업무정지명령에 불복하려는 변호사는 통지를 받은 날부터 법정 기간 안에 행정소송을 제기할 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "100"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q26-101",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 26,
+      "sourceQuestionId": "legal_ethics_r04_q26",
+      "sourcePart": "101",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "구성원과 근로자",
+      "rep": "법무법인 구성원으로 등기되었더라도 실제로 임금을 목적으로 종속적으로 근로하였다면 근로자성이 인정될 수 있다.",
+      "why": "구성원과 근로자에 관한 법조윤리 원칙입니다.",
+      "ref": "근로기준법, 변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법무법인 구성원으로 등기되면 실제 근무형태와 관계없이 근로자가 될 수 없다.",
+          "trap": "근로자성",
+          "why": "근로자성 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법무법인 구성원으로 등기되었더라도 실제로 임금을 목적으로 종속적으로 근로하였다면 근로자성이 인정될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "근로기준법, 변호사법",
+          "sourcePart": "101"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q26-102",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 26,
+      "sourceQuestionId": "legal_ethics_r04_q26",
+      "sourcePart": "102",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "정직과 당연탈퇴",
+      "rep": "법무법인 구성원 변호사가 정직 징계를 받으면 법령상 구성원 자격 상실이 문제 될 수 있다.",
+      "why": "정직과 당연탈퇴에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법무법인 구성원 변호사가 정직 징계를 받아도 구성원 자격에는 아무 영향이 없다.",
+          "trap": "정직 탈퇴",
+          "why": "정직 탈퇴 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법무법인 구성원 변호사가 정직 징계를 받으면 법령상 구성원 자격 상실이 문제 될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "102"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q26-103",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 26,
+      "sourceQuestionId": "legal_ethics_r04_q26",
+      "sourcePart": "103",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "담당변호사 과실",
+      "rep": "법무법인 담당변호사의 과실로 손해가 발생한 경우 책임범위는 법무법인과 관련 구성원 책임 규정에 따라 정해진다.",
+      "why": "담당변호사 과실에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법, 민법",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "담당변호사의 과실로 손해가 발생하면 구성원 전원이 언제나 무조건 연대책임을 진다.",
+          "trap": "책임범위",
+          "why": "책임범위 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법무법인 담당변호사의 과실로 손해가 발생한 경우 책임범위는 법무법인과 관련 구성원 책임 규정에 따라 정해진다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법, 민법",
+          "sourcePart": "103"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q26-104",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 26,
+      "sourceQuestionId": "legal_ethics_r04_q26",
+      "sourcePart": "104",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "합병과 조직변경",
+      "rep": "법무법인이 합병하거나 조직변경을 하려면 구성원 전원의 동의 등 엄격한 요건을 갖추어야 한다.",
+      "why": "합병과 조직변경에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법무법인은 구성원 과반수 동의만 있으면 합병이나 조직변경을 할 수 있다.",
+          "trap": "조직변경",
+          "why": "조직변경 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법무법인이 합병하거나 조직변경을 하려면 구성원 전원의 동의 등 엄격한 요건을 갖추어야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "104"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q27-105",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 27,
+      "sourceQuestionId": "legal_ethics_r04_q27",
+      "sourcePart": "105",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "실형 확정과 등록취소",
+      "rep": "변호사가 징역형을 선고받아 확정되면 정직기간 경과만으로 곧바로 변호사 직무를 다시 수행할 수 없다.",
+      "why": "실형 확정과 등록취소에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사가 징역형 확정까지 받았더라도 정직기간만 지나면 곧바로 재등록하여 직무를 수행할 수 있다.",
+          "trap": "등록취소",
+          "why": "등록취소 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사가 징역형을 선고받아 확정되면 정직기간 경과만으로 곧바로 변호사 직무를 다시 수행할 수 없다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법",
+          "sourcePart": "105"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q27-106",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 27,
+      "sourceQuestionId": "legal_ethics_r04_q27",
+      "sourcePart": "106",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "법무부장관 등록취소명령",
+      "rep": "변호사 등록취소 사유가 있으면 법무부장관은 대한변호사협회에 등록취소를 명할 수 있다.",
+      "why": "법무부장관 등록취소명령에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "등록취소 사유가 있어도 법무부장관은 대한변호사협회에 등록취소를 명할 수 없다.",
+          "trap": "취소명령",
+          "why": "취소명령 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사 등록취소 사유가 있으면 법무부장관은 대한변호사협회에 등록취소를 명할 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "106"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q27-107",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 27,
+      "sourceQuestionId": "legal_ethics_r04_q27",
+      "sourcePart": "107",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "징계 불복",
+      "rep": "정직 징계처분을 다투려는 변호사는 법정 이의신청 절차를 거쳐 행정소송으로 불복할 수 있다.",
+      "why": "징계 불복에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "정직 징계처분을 받은 변호사는 이의신청이나 행정소송으로 다툴 수 없다.",
+          "trap": "징계불복",
+          "why": "징계불복 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "정직 징계처분을 다투려는 변호사는 법정 이의신청 절차를 거쳐 행정소송으로 불복할 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "107"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q27-108",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 27,
+      "sourceQuestionId": "legal_ethics_r04_q27",
+      "sourcePart": "108",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "징계 공개",
+      "rep": "대한변호사협회장은 정직처분 사실을 인터넷 홈페이지 등에 일정 기간 공개하여야 한다.",
+      "why": "징계 공개에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "대한변호사협회장은 정직처분 사실을 공개하여서는 안 된다.",
+          "trap": "징계공개",
+          "why": "징계공개 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "대한변호사협회장은 정직처분 사실을 인터넷 홈페이지 등에 일정 기간 공개하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "108"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q28-109",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 28,
+      "sourceQuestionId": "legal_ethics_r04_q28",
+      "sourcePart": "109",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "복대리인 선임",
+      "rep": "변호사는 위임인의 승낙이나 부득이한 사유 없이 제삼자로 하여금 위임사무를 처리하게 할 수 없다.",
+      "why": "복대리인 선임에 관한 법조윤리 원칙입니다.",
+      "ref": "민법, 변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사는 위임인의 승낙이나 부득이한 사유 없이도 자유롭게 복대리인을 선임할 수 있다.",
+          "trap": "복대리",
+          "why": "복대리 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사는 위임인의 승낙이나 부득이한 사유 없이 제삼자로 하여금 위임사무를 처리하게 할 수 없다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "민법, 변호사윤리장전",
+          "sourcePart": "109"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q28-110",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 28,
+      "sourceQuestionId": "legal_ethics_r04_q28",
+      "sourcePart": "110",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "법인 피고인 변호인선임",
+      "rep": "법인 피고인의 대표자가 변호인 선임권 자체를 제삼자에게 임의로 위임하는 것은 제한될 수 있다.",
+      "why": "법인 피고인 변호인선임에 관한 법조윤리 원칙입니다.",
+      "ref": "형사소송법",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법인 피고인의 대표자는 변호인 선임권을 제삼자에게 자유롭게 위임하여 선임하게 할 수 있다.",
+          "trap": "선임권 위임",
+          "why": "선임권 위임 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법인 피고인의 대표자가 변호인 선임권 자체를 제삼자에게 임의로 위임하는 것은 제한될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "형사소송법",
+          "sourcePart": "110"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q28-111",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 28,
+      "sourceQuestionId": "legal_ethics_r04_q28",
+      "sourcePart": "111",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "묵시적 보수약정",
+      "rep": "계쟁사건 처리를 위임하면서 보수액을 명시하지 않아도 특별한 무보수 약정이 없으면 상당 보수 약정이 묵시적으로 인정될 수 있다.",
+      "why": "묵시적 보수약정에 관한 법조윤리 원칙입니다.",
+      "ref": "민법, 변호사 보수 판례",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "보수액을 명시하지 않은 사건 위임은 언제나 무보수 약정으로 보아야 한다.",
+          "trap": "묵시 약정",
+          "why": "묵시 약정 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "계쟁사건 처리를 위임하면서 보수액을 명시하지 않아도 특별한 무보수 약정이 없으면 상당 보수 약정이 묵시적으로 인정될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "민법, 변호사 보수 판례",
+          "sourcePart": "111"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q28-112",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 28,
+      "sourceQuestionId": "legal_ethics_r04_q28",
+      "sourcePart": "112",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "불리한 시기 해지",
+      "rep": "의뢰인이 부득이한 사유 없이 불리한 시기에 위임계약을 해지하면 손해배상책임이 생길 수 있다.",
+      "why": "불리한 시기 해지에 관한 법조윤리 원칙입니다.",
+      "ref": "민법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "의뢰인은 언제나 손해배상책임 없이 불리한 시기에도 위임계약을 해지할 수 있다.",
+          "trap": "불리한 해지",
+          "why": "불리한 해지 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "의뢰인이 부득이한 사유 없이 불리한 시기에 위임계약을 해지하면 손해배상책임이 생길 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "민법",
+          "sourcePart": "112"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q29-113",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 29,
+      "sourceQuestionId": "legal_ethics_r04_q29",
+      "sourcePart": "113",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "선임서 없는 의견서",
+      "rep": "변호인이 수사기관 사건에서 변호인 선임서를 제출하지 않고 변호인 명의 의견서를 내는 것은 변호사법상 문제가 된다.",
+      "why": "선임서 없는 의견서에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호인은 선임서를 제출하지 않아도 수사기관에 변호인 명의 의견서를 자유롭게 제출할 수 있다.",
+          "trap": "선임서",
+          "why": "선임서 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호인이 수사기관 사건에서 변호인 선임서를 제출하지 않고 변호인 명의 의견서를 내는 것은 변호사법상 문제가 된다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법",
+          "sourcePart": "113"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q29-114",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 29,
+      "sourceQuestionId": "legal_ethics_r04_q29",
+      "sourcePart": "114",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "계쟁권리 양수",
+      "rep": "변호사가 상당한 대가를 지급하고 계쟁권리를 양수하여 소송을 수행하는 행위는 변호사법상 제한된다.",
+      "why": "계쟁권리 양수에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "당사자가 수임료를 낼 능력이 없으면 변호사는 계쟁권리를 사서 소송을 수행할 수 있다.",
+          "trap": "계쟁권리 양수",
+          "why": "계쟁권리 양수 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사가 상당한 대가를 지급하고 계쟁권리를 양수하여 소송을 수행하는 행위는 변호사법상 제한된다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "114"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q29-115",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 29,
+      "sourceQuestionId": "legal_ethics_r04_q29",
+      "sourcePart": "115",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "법무법인 퇴직 후 계속대리",
+      "rep": "법무법인 소속 변호사가 퇴직 후 같은 의뢰인의 같은 사건을 개인 자격으로 계속 대리하는 것은 사정에 따라 허용될 수 있다.",
+      "why": "법무법인 퇴직 후 계속대리에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법무법인 소속 변호사는 퇴직 후 같은 의뢰인의 같은 사건을 개인 자격으로 절대 계속 대리할 수 없다.",
+          "trap": "계속대리",
+          "why": "계속대리 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법무법인 소속 변호사가 퇴직 후 같은 의뢰인의 같은 사건을 개인 자격으로 계속 대리하는 것은 사정에 따라 허용될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "115"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q29-116",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 29,
+      "sourceQuestionId": "legal_ethics_r04_q29",
+      "sourcePart": "116",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "공동법률사무소 수임",
+      "rep": "공동법률사무소가 통일된 형태와 수익분배를 하더라도 법무법인과 같은 수임제한 효과가 당연히 생기는 것은 아니다.",
+      "why": "공동법률사무소 수임에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "공동법률사무소의 한 변호사가 검사 시절 취급한 사건은 다른 변호사도 법무법인처럼 당연히 수임할 수 없다.",
+          "trap": "공동사무소",
+          "why": "공동사무소 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "공동법률사무소가 통일된 형태와 수익분배를 하더라도 법무법인과 같은 수임제한 효과가 당연히 생기는 것은 아니다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "116"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q30-117",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 30,
+      "sourceQuestionId": "legal_ethics_r04_q30",
+      "sourcePart": "117",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "서적판매업 겸직",
+      "rep": "개업 중인 변호사가 영리 목적 서적판매업을 경영하려면 겸직제한 규정을 준수하여야 한다.",
+      "why": "서적판매업 겸직에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "개업 중인 변호사는 소속 지방변호사회 허가 없이 서적판매업을 자유롭게 경영할 수 있다.",
+          "trap": "서적판매",
+          "why": "서적판매 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "개업 중인 변호사가 영리 목적 서적판매업을 경영하려면 겸직제한 규정을 준수하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "117"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q30-118",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 30,
+      "sourceQuestionId": "legal_ethics_r04_q30",
+      "sourcePart": "118",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "공공기관 위촉업무",
+      "rep": "공공기관에서 위촉한 업무를 보수를 받고 수행하는 것은 법령상 예외에 해당하여 겸직제한 위반이 아닐 수 있다.",
+      "why": "공공기관 위촉업무에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "공공기관에서 위촉한 업무라도 보수를 받으면 언제나 겸직제한 위반이다.",
+          "trap": "공공기관 위촉",
+          "why": "공공기관 위촉 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "공공기관에서 위촉한 업무를 보수를 받고 수행하는 것은 법령상 예외에 해당하여 겸직제한 위반이 아닐 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법",
+          "sourcePart": "118"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q30-119",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 30,
+      "sourceQuestionId": "legal_ethics_r04_q30",
+      "sourcePart": "119",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "법무법인 구성원",
+      "rep": "변호사가 법무법인이나 법무조합의 구성원이 되는 것은 통상적 변호사업무 형태로서 일반 영리겸직과 다르게 취급된다.",
+      "why": "법무법인 구성원에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사는 지방변호사회 허가 없이는 법무법인이나 법무조합의 구성원이 될 수 없다.",
+          "trap": "법무법인 구성원",
+          "why": "법무법인 구성원 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사가 법무법인이나 법무조합의 구성원이 되는 것은 통상적 변호사업무 형태로서 일반 영리겸직과 다르게 취급된다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "119"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q30-120",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 30,
+      "sourceQuestionId": "legal_ethics_r04_q30",
+      "sourcePart": "120",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "휴업 후 영업",
+      "rep": "휴업한 변호사는 개업 중 변호사의 겸직제한 규정과 달리 별도 영업을 할 수 있는 범위가 넓어진다.",
+      "why": "휴업 후 영업에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "휴업한 변호사도 개업 변호사와 똑같이 모든 영업에 지방변호사회 겸직허가가 필요하다.",
+          "trap": "휴업 영업",
+          "why": "휴업 영업 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "휴업한 변호사는 개업 중 변호사의 겸직제한 규정과 달리 별도 영업을 할 수 있는 범위가 넓어진다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "120"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q31-121",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 31,
+      "sourceQuestionId": "legal_ethics_r04_q31",
+      "sourcePart": "121",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "법관의 사건소개",
+      "rep": "법관이 직무상 취급 중인 사건에 관하여 특정 변호사를 소개하면 형사처벌 대상이 될 수 있다.",
+      "why": "법관의 사건소개에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법, 법관윤리강령",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법관이 직무상 취급 중인 사건에서 원활한 진행을 위해 특정 변호사를 소개하는 것은 허용된다.",
+          "trap": "법관 소개",
+          "why": "법관 소개 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법관이 직무상 취급 중인 사건에 관하여 특정 변호사를 소개하면 형사처벌 대상이 될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법, 법관윤리강령",
+          "sourcePart": "121"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q31-122",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 31,
+      "sourceQuestionId": "legal_ethics_r04_q31",
+      "sourcePart": "122",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "가족 사건 소개",
+      "rep": "법관이 자기 직무와 무관한 가족 사건에서 사적 관계의 변호사를 소개하는 행위는 직무관련성과 영향력 행사 여부에 따라 판단한다.",
+      "why": "가족 사건 소개에 관한 법조윤리 원칙입니다.",
+      "ref": "법관윤리강령",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법관은 자기 가족 사건에서도 변호사를 소개할 수 없다.",
+          "trap": "가족 사건",
+          "why": "가족 사건 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법관이 자기 직무와 무관한 가족 사건에서 사적 관계의 변호사를 소개하는 행위는 직무관련성과 영향력 행사 여부에 따라 판단한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "법관윤리강령",
+          "sourcePart": "122"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q31-123",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 31,
+      "sourceQuestionId": "legal_ethics_r04_q31",
+      "sourcePart": "123",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "재판장 정보제공",
+      "rep": "재판장이 담당 사건 당사자에게 특정 변호사 정보를 제공하는 행위는 공정성 의심을 초래하여 허용되기 어렵다.",
+      "why": "재판장 정보제공에 관한 법조윤리 원칙입니다.",
+      "ref": "법관윤리강령",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "재판장은 담당 사건의 원활한 진행을 위해 당사자에게 특정 변호사 정보를 제공할 수 있다.",
+          "trap": "담당 사건",
+          "why": "담당 사건 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "재판장이 담당 사건 당사자에게 특정 변호사 정보를 제공하는 행위는 공정성 의심을 초래하여 허용되기 어렵다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "법관윤리강령",
+          "sourcePart": "123"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q31-124",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 31,
+      "sourceQuestionId": "legal_ethics_r04_q31",
+      "sourcePart": "124",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "다른 재판부 영향",
+      "rep": "법관이 다른 재판부 재판장에게 특정 서면을 잘 보아 달라고 부탁하는 것은 다른 법관의 재판에 영향을 미치는 행위이다.",
+      "why": "다른 재판부 영향에 관한 법조윤리 원칙입니다.",
+      "ref": "법관윤리강령",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법관이 다른 재판부 재판장에게 준비서면 검토를 부탁하는 것은 단순한 의견교환으로 허용된다.",
+          "trap": "재판 영향",
+          "why": "재판 영향 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법관이 다른 재판부 재판장에게 특정 서면을 잘 보아 달라고 부탁하는 것은 다른 법관의 재판에 영향을 미치는 행위이다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "법관윤리강령",
+          "sourcePart": "124"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q32-125",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 32,
+      "sourceQuestionId": "legal_ethics_r04_q32",
+      "sourcePart": "125",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "비밀유지와 증언거부",
+      "rep": "변호사의 비밀유지의무와 소송법상 증언거부권은 각각 의무와 권리의 측면에서 의뢰인 비밀을 보호한다.",
+      "why": "비밀유지와 증언거부에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법, 민사소송법, 형사소송법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사의 비밀유지의무와 증언거부권은 서로 아무 관련이 없다.",
+          "trap": "비밀보호",
+          "why": "비밀보호 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사의 비밀유지의무와 소송법상 증언거부권은 각각 의무와 권리의 측면에서 의뢰인 비밀을 보호한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법, 민사소송법, 형사소송법",
+          "sourcePart": "125"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q32-126",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 32,
+      "sourceQuestionId": "legal_ethics_r04_q32",
+      "sourcePart": "126",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "공익상 공개의무",
+      "rep": "공익상 이유가 있더라도 변호사에게 의뢰인 비밀을 공개할 의무가 당연히 발생하는 것은 아니다.",
+      "why": "공익상 공개의무에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "공익상 이유가 있으면 변호사는 의뢰인 비밀을 반드시 공개하여야 한다.",
+          "trap": "공익상 이유",
+          "why": "공익상 이유 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "공익상 이유가 있더라도 변호사에게 의뢰인 비밀을 공개할 의무가 당연히 발생하는 것은 아니다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사윤리장전",
+          "sourcePart": "126"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q32-127",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 32,
+      "sourceQuestionId": "legal_ethics_r04_q32",
+      "sourcePart": "127",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "당사자주의",
+      "rep": "의뢰인 비밀유지의무는 변호사와 의뢰인의 신뢰관계뿐 아니라 대립적 당사자주의의 유지에도 필요하다.",
+      "why": "당사자주의에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "의뢰인 비밀유지의무는 사적 신뢰관계만을 위한 것이고 당사자주의와는 무관하다.",
+          "trap": "당사자주의",
+          "why": "당사자주의 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "의뢰인 비밀유지의무는 변호사와 의뢰인의 신뢰관계뿐 아니라 대립적 당사자주의의 유지에도 필요하다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "127"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q32-128",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 32,
+      "sourceQuestionId": "legal_ethics_r04_q32",
+      "sourcePart": "128",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "법무법인 내부공유",
+      "rep": "법무법인 의뢰인이 사건처리를 위해 비밀을 공개하면 필요한 범위에서 같은 법무법인의 다른 변호사에게 공유될 묵시적 동의가 인정될 수 있다.",
+      "why": "법무법인 내부공유에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법무법인 의뢰인의 비밀은 담당 변호사 한 명 외에는 같은 법무법인 내부에서도 절대 공유할 수 없다.",
+          "trap": "내부공유",
+          "why": "내부공유 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법무법인 의뢰인이 사건처리를 위해 비밀을 공개하면 필요한 범위에서 같은 법무법인의 다른 변호사에게 공유될 묵시적 동의가 인정될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "128"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q33-129",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 33,
+      "sourceQuestionId": "legal_ethics_r04_q33",
+      "sourcePart": "129",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "공동피고인 이해충돌",
+      "rep": "서로 이익이 충돌하는 공동피고인의 같은 사건은 기존 의뢰인이 동의하여도 수임할 수 없는 경우가 있다.",
+      "why": "공동피고인 이해충돌에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "서로 이익이 충돌하는 공동피고인의 같은 사건도 기존 의뢰인이 동의하면 항상 수임할 수 있다.",
+          "trap": "공동피고인",
+          "why": "공동피고인 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "서로 이익이 충돌하는 공동피고인의 같은 사건은 기존 의뢰인이 동의하여도 수임할 수 없는 경우가 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사윤리장전",
+          "sourcePart": "129"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q33-130",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 33,
+      "sourceQuestionId": "legal_ethics_r04_q33",
+      "sourcePart": "130",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "상대방 다른 사건",
+      "rep": "수임 중인 사건의 상대방이 맡기는 다른 사건은 현재 의뢰인이 동의하거나 양해하면 수임 가능성이 생길 수 있다.",
+      "why": "상대방 다른 사건에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "수임 중인 사건의 상대방이 맡기는 다른 사건은 의뢰인이 동의하여도 언제나 수임할 수 없다.",
+          "trap": "상대방 다른 사건",
+          "why": "상대방 다른 사건 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "수임 중인 사건의 상대방이 맡기는 다른 사건은 현재 의뢰인이 동의하거나 양해하면 수임 가능성이 생길 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "130"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q33-131",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 33,
+      "sourceQuestionId": "legal_ethics_r04_q33",
+      "sourcePart": "131",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "친족 변호사 사건",
+      "rep": "친족 변호사가 수임 중인 사건의 대립 당사자 사건은 의뢰인 양해 등 요건을 갖추면 수임 가능성이 있다.",
+      "why": "친족 변호사 사건에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "친족 변호사가 수임 중인 사건의 대립 당사자 사건은 의뢰인이 동의하여도 언제나 수임할 수 없다.",
+          "trap": "친족 변호사",
+          "why": "친족 변호사 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "친족 변호사가 수임 중인 사건의 대립 당사자 사건은 의뢰인 양해 등 요건을 갖추면 수임 가능성이 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "131"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q33-132",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 33,
+      "sourceQuestionId": "legal_ethics_r04_q33",
+      "sourcePart": "132",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "동업 변호사 상대방",
+      "rep": "공동 법률사무소를 운영하는 변호사가 맡은 사건의 상대방 사건은 이해충돌과 동의 여부를 기준으로 판단한다.",
+      "why": "동업 변호사 상대방에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "공동 법률사무소를 운영하는 변호사의 상대방 사건은 의뢰인 동의가 있어도 무조건 수임할 수 없다.",
+          "trap": "동업 변호사",
+          "why": "동업 변호사 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "공동 법률사무소를 운영하는 변호사가 맡은 사건의 상대방 사건은 이해충돌과 동의 여부를 기준으로 판단한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "132"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q34-133",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 34,
+      "sourceQuestionId": "legal_ethics_r04_q34",
+      "sourcePart": "133",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "공직퇴임 수임제한 기준",
+      "rep": "공직퇴임변호사 수임제한은 퇴직 전 근무기관, 근무기간, 퇴직 후 기간, 사건 처리기관을 기준으로 판단한다.",
+      "why": "공직퇴임 수임제한 기준에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "공직퇴임변호사 수임제한은 퇴직 전 마지막 직함만으로 단순히 판단한다.",
+          "trap": "판단기준",
+          "why": "판단기준 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "공직퇴임변호사 수임제한은 퇴직 전 근무기관, 근무기간, 퇴직 후 기간, 사건 처리기관을 기준으로 판단한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "133"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q34-134",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 34,
+      "sourceQuestionId": "legal_ethics_r04_q34",
+      "sourcePart": "134",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "지청 대응기관",
+      "rep": "검찰청과 지청 근무 이력은 대응 법원과 처리기관을 세분하여 수임제한 여부를 판단하여야 한다.",
+      "why": "지청 대응기관에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "검찰청 지청 근무 이력은 공직퇴임변호사 수임제한 판단에서 전혀 고려하지 않는다.",
+          "trap": "지청",
+          "why": "지청 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "검찰청과 지청 근무 이력은 대응 법원과 처리기관을 세분하여 수임제한 여부를 판단하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "134"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q34-135",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 34,
+      "sourceQuestionId": "legal_ethics_r04_q34",
+      "sourcePart": "135",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "친족 사건 예외",
+      "rep": "가까운 친족 사건은 공직퇴임변호사 수임제한에서 예외가 인정될 수 있다.",
+      "why": "친족 사건 예외에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "가까운 친족 사건도 공직퇴임변호사 수임제한에서 예외가 전혀 인정되지 않는다.",
+          "trap": "친족 예외",
+          "why": "친족 예외 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "가까운 친족 사건은 공직퇴임변호사 수임제한에서 예외가 인정될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "135"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q34-136",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 34,
+      "sourceQuestionId": "legal_ethics_r04_q34",
+      "sourcePart": "136",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "파견 근무와 제한",
+      "rep": "검찰청 근무 후 다른 기관 파견을 거친 경우에도 퇴직 전 근무기관과 대응기관 관계에 따라 수임제한이 문제 될 수 있다.",
+      "why": "파견 근무와 제한에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "검찰청 근무 뒤 다른 기관에 파견되면 검찰청 관련 수임제한은 모두 사라진다.",
+          "trap": "파견 근무",
+          "why": "파견 근무 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "검찰청 근무 후 다른 기관 파견을 거친 경우에도 퇴직 전 근무기관과 대응기관 관계에 따라 수임제한이 문제 될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법",
+          "sourcePart": "136"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q35-137",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 35,
+      "sourceQuestionId": "legal_ethics_r04_q35",
+      "sourcePart": "137",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "국선 금품 거절",
+      "rep": "국선변호인은 피고인이 감사 표시와 비용 명목으로 주는 금품을 모두 거절하여야 한다.",
+      "why": "국선 금품 거절에 관한 법조윤리 원칙입니다.",
+      "ref": "형사소송법, 변호사윤리장전",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "국선변호인은 피고인이 감사 표시와 비용 명목으로 주는 금품 중 비용 상당액은 받을 수 있다.",
+          "trap": "국선 금품",
+          "why": "국선 금품 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "국선변호인은 피고인이 감사 표시와 비용 명목으로 주는 금품을 모두 거절하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "형사소송법, 변호사윤리장전",
+          "sourcePart": "137"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q35-138",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 35,
+      "sourceQuestionId": "legal_ethics_r04_q35",
+      "sourcePart": "138",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "국선 비용",
+      "rep": "국선변호 활동에 필요한 비용은 법정 절차에 따라 처리하여야 하고 피고인에게 별도 청구하여서는 안 된다.",
+      "why": "국선 비용에 관한 법조윤리 원칙입니다.",
+      "ref": "형사소송법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "국선변호 활동에 필요한 실제 비용은 피고인에게 별도로 직접 받을 수 있다.",
+          "trap": "국선 비용",
+          "why": "국선 비용 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "국선변호 활동에 필요한 비용은 법정 절차에 따라 처리하여야 하고 피고인에게 별도 청구하여서는 안 된다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "형사소송법",
+          "sourcePart": "138"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q35-139",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 35,
+      "sourceQuestionId": "legal_ethics_r04_q35",
+      "sourcePart": "139",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "사선 전환",
+      "rep": "국선변호인이 금품을 받으려면 사선변호인으로 선임서를 제출하면 된다는 식의 처리는 허용되지 않는다.",
+      "why": "사선 전환에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "국선변호인은 사선 선임서만 추가 제출하면 피고인이 제안한 금품을 받을 수 있다.",
+          "trap": "사선 전환",
+          "why": "사선 전환 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "국선변호인이 금품을 받으려면 사선변호인으로 선임서를 제출하면 된다는 식의 처리는 허용되지 않는다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "139"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q35-140",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 35,
+      "sourceQuestionId": "legal_ethics_r04_q35",
+      "sourcePart": "140",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "선정취소 요청",
+      "rep": "피고인이 금품을 제안했다는 사정만으로 국선변호인이 반드시 선정취소를 요청하여야 하는 것은 아니다.",
+      "why": "선정취소 요청에 관한 법조윤리 원칙입니다.",
+      "ref": "형사소송법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "피고인이 국선변호인에게 금품을 제안하면 국선변호인은 반드시 선정취소를 요청하여야 한다.",
+          "trap": "선정취소",
+          "why": "선정취소 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "피고인이 금품을 제안했다는 사정만으로 국선변호인이 반드시 선정취소를 요청하여야 하는 것은 아니다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "형사소송법",
+          "sourcePart": "140"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q36-141",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 36,
+      "sourceQuestionId": "legal_ethics_r04_q36",
+      "sourcePart": "141",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "전직 공무원 고문료",
+      "rep": "전직 공무원을 고문으로 영입하고 그 영향으로 수임한 사건 수임료를 비율로 나누어 주는 것은 윤리 위반이 될 수 있다.",
+      "why": "전직 공무원 고문료에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "전직 공무원을 고문으로 영입한 뒤 그 때문에 수임한 사건 수임료를 비율로 나누어 주어도 허용된다.",
+          "trap": "고문 수수료",
+          "why": "고문 수수료 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "전직 공무원을 고문으로 영입하고 그 영향으로 수임한 사건 수임료를 비율로 나누어 주는 것은 윤리 위반이 될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "141"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q36-142",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 36,
+      "sourceQuestionId": "legal_ethics_r04_q36",
+      "sourcePart": "142",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "사무장 수임료 분배",
+      "rep": "변호사가 사건을 받아오는 대가로 사무장에게 수임료 일부를 지급하면 변호사법 위반이 될 수 있다.",
+      "why": "사무장 수임료 분배에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "사무장에게 사건을 받아오는 대가로 수임료 일부를 지급하는 것은 내부 성과급이므로 적법하다.",
+          "trap": "사무장 알선",
+          "why": "사무장 알선 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사가 사건을 받아오는 대가로 사무장에게 수임료 일부를 지급하면 변호사법 위반이 될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법",
+          "sourcePart": "142"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q36-143",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 36,
+      "sourceQuestionId": "legal_ethics_r04_q36",
+      "sourcePart": "143",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "브로커 소개 수임",
+      "rep": "사건 주선을 업으로 하는 사람에게서 사건을 소개받는 것은 소개료 지급 여부와 무관하게 윤리 위반이 될 수 있다.",
+      "why": "브로커 소개 수임에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "사건 주선을 업으로 하는 사람에게서 사건을 소개받아도 소개료를 지급하지 않으면 윤리 위반이 아니다.",
+          "trap": "브로커",
+          "why": "브로커 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "사건 주선을 업으로 하는 사람에게서 사건을 소개받는 것은 소개료 지급 여부와 무관하게 윤리 위반이 될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "143"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q36-144",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 36,
+      "sourceQuestionId": "legal_ethics_r04_q36",
+      "sourcePart": "144",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "추징 범위",
+      "rep": "사무직원에게 소개료를 지급한 경우 추징 대상은 범죄수익과 관련 범위에 따라 정해지며 수임료 전체라고 단정할 수 없다.",
+      "why": "추징 범위에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "사무직원에게 소개료를 지급한 사건의 수임료는 언제나 전액 추징된다.",
+          "trap": "추징 범위",
+          "why": "추징 범위 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "사무직원에게 소개료를 지급한 경우 추징 대상은 범죄수익과 관련 범위에 따라 정해지며 수임료 전체라고 단정할 수 없다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "144"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q37-145",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 37,
+      "sourceQuestionId": "legal_ethics_r04_q37",
+      "sourcePart": "145",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "법률구조재단 기부",
+      "rep": "대한변호사협회가 설립한 법률구조재단에 금원을 기부하는 활동은 공익활동으로 인정될 수 있다.",
+      "why": "법률구조재단 기부에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법률구조재단에 금원을 기부하는 활동은 공익활동으로 인정될 수 없다.",
+          "trap": "기부",
+          "why": "기부 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "대한변호사협회가 설립한 법률구조재단에 금원을 기부하는 활동은 공익활동으로 인정될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "145"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q37-146",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 37,
+      "sourceQuestionId": "legal_ethics_r04_q37",
+      "sourcePart": "146",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "조사위원 활동",
+      "rep": "대한변호사협회 조사위원으로 회의에 참석하여 의견을 개진하는 활동은 공익활동으로 인정될 수 있다.",
+      "why": "조사위원 활동에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "대한변호사협회 조사위원 활동은 공익활동으로 인정될 수 없다.",
+          "trap": "조사위원",
+          "why": "조사위원 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "대한변호사협회 조사위원으로 회의에 참석하여 의견을 개진하는 활동은 공익활동으로 인정될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "146"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q37-147",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 37,
+      "sourceQuestionId": "legal_ethics_r04_q37",
+      "sourcePart": "147",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "국선변호 활동",
+      "rep": "국선변호인으로 선정된 사건에서 변론하고 소정의 보수를 받는 활동은 공익활동으로 인정될 수 있다.",
+      "why": "국선변호 활동에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "국선변호 활동은 소정의 보수를 받으면 공익활동으로 인정될 수 없다.",
+          "trap": "국선변호",
+          "why": "국선변호 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "국선변호인으로 선정된 사건에서 변론하고 소정의 보수를 받는 활동은 공익활동으로 인정될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "147"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q37-148",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 37,
+      "sourceQuestionId": "legal_ethics_r04_q37",
+      "sourcePart": "148",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "고액 보수 파산관재",
+      "rep": "법인 파산관재인으로 위촉받아 상당한 보수를 받고 수행한 업무는 공익활동으로 인정되기 어렵다.",
+      "why": "고액 보수 파산관재에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "법인 파산관재인으로 상당한 보수를 받고 수행한 업무도 언제나 공익활동에 해당한다.",
+          "trap": "파산관재",
+          "why": "파산관재 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "법인 파산관재인으로 위촉받아 상당한 보수를 받고 수행한 업무는 공익활동으로 인정되기 어렵다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사윤리장전",
+          "sourcePart": "148"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q38-149",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 38,
+      "sourceQuestionId": "legal_ethics_r04_q38",
+      "sourcePart": "149",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "민사조정 쌍방대리",
+      "rep": "민사조정 사건에서도 이해가 대립하는 당사자 쌍방을 한 변호사가 대리하는 것은 원칙적으로 허용되지 않는다.",
+      "why": "민사조정 쌍방대리에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "민사조정 사건에서는 변호사가 이해가 대립하는 당사자 쌍방을 대리할 수 있다.",
+          "trap": "쌍방대리",
+          "why": "쌍방대리 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "민사조정 사건에서도 이해가 대립하는 당사자 쌍방을 한 변호사가 대리하는 것은 원칙적으로 허용되지 않는다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사윤리장전",
+          "sourcePart": "149"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q38-150",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 38,
+      "sourceQuestionId": "legal_ethics_r04_q38",
+      "sourcePart": "150",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "개인감정과 수임",
+      "rep": "변호사는 사건에 대한 개인적 감정 때문에 성실하게 변론할 수 없으면 사건을 수임해서는 안 된다.",
+      "why": "개인감정과 수임에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사는 사건에 대한 개인적 감정 때문에 성실변론이 어려워도 사건을 수임할 수 있다.",
+          "trap": "개인감정",
+          "why": "개인감정 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사는 사건에 대한 개인적 감정 때문에 성실하게 변론할 수 없으면 사건을 수임해서는 안 된다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "150"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q38-151",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 38,
+      "sourceQuestionId": "legal_ethics_r04_q38",
+      "sourcePart": "151",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "다른 변호사 참가",
+      "rep": "의뢰인이 다른 변호사의 참가를 희망할 때 변호사는 정당한 이유가 있으면 반대할 수 있다.",
+      "why": "다른 변호사 참가에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "의뢰인이 다른 변호사의 참가를 희망하면 기존 변호사는 어떤 이유로도 반대할 수 없다.",
+          "trap": "공동수임",
+          "why": "공동수임 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "의뢰인이 다른 변호사의 참가를 희망할 때 변호사는 정당한 이유가 있으면 반대할 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "151"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q38-152",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 38,
+      "sourceQuestionId": "legal_ethics_r04_q38",
+      "sourcePart": "152",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "위법행위 협조중단",
+      "rep": "변호사는 직무수행 중 의뢰인의 행위가 위법하다고 판단되면 그 협조를 중단하여야 한다.",
+      "why": "위법행위 협조중단에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사는 의뢰인의 행위가 위법하다고 판단하여도 위임이 유지되는 동안 계속 협조하여야 한다.",
+          "trap": "위법행위",
+          "why": "위법행위 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사는 직무수행 중 의뢰인의 행위가 위법하다고 판단되면 그 협조를 중단하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "152"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q39-153",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 39,
+      "sourceQuestionId": "legal_ethics_r04_q39",
+      "sourcePart": "153",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "형사와 후속 민사",
+      "rep": "형사사건 변호 후 그 피해자가 의뢰하는 손해배상 사건은 동일하거나 본질적으로 관련된 사건으로 수임이 제한될 수 있다.",
+      "why": "형사와 후속 민사에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법 제31조",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "형사사건과 후속 손해배상 사건은 절차가 다르므로 본질적 관련성이 인정될 수 없다.",
+          "trap": "후속 민사",
+          "why": "후속 민사 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "형사사건 변호 후 그 피해자가 의뢰하는 손해배상 사건은 동일하거나 본질적으로 관련된 사건으로 수임이 제한될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법 제31조",
+          "sourcePart": "153"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q39-154",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 39,
+      "sourceQuestionId": "legal_ethics_r04_q39",
+      "sourcePart": "154",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "종전 의뢰인 양해",
+      "rep": "종전 형사 의뢰인에게 불리한 본질적 관련 사건은 양해가 있더라도 수임이 제한될 수 있다.",
+      "why": "종전 의뢰인 양해에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "종전 형사 의뢰인이 양해하면 피해자의 후속 손해배상 사건을 언제나 수임할 수 있다.",
+          "trap": "종전 의뢰인",
+          "why": "종전 의뢰인 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "종전 형사 의뢰인에게 불리한 본질적 관련 사건은 양해가 있더라도 수임이 제한될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "154"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q39-155",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 39,
+      "sourceQuestionId": "legal_ethics_r04_q39",
+      "sourcePart": "155",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "종료 후 비밀",
+      "rep": "형사사건이 종료되었더라도 그 과정에서 알게 된 의뢰인 비밀을 후속 민사 의뢰인에게 공개할 수 없다.",
+      "why": "종료 후 비밀에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "형사사건이 종료되면 변호사는 그 과정에서 알게 된 비밀을 후속 민사 의뢰인에게 공개할 수 있다.",
+          "trap": "종료 후 비밀",
+          "why": "종료 후 비밀 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "형사사건이 종료되었더라도 그 과정에서 알게 된 의뢰인 비밀을 후속 민사 의뢰인에게 공개할 수 없다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "155"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q39-156",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 39,
+      "sourceQuestionId": "legal_ethics_r04_q39",
+      "sourcePart": "156",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "비밀과 민사 영향",
+      "rep": "종전 형사사건의 비밀이 후속 민사사건에 영향을 줄 수 있더라도 그 비밀은 공개할 수 없다.",
+      "why": "비밀과 민사 영향에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사윤리장전",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "후속 민사사건에 영향을 줄 수 있으면 종전 형사사건에서 알게 된 비밀도 공개할 수 있다.",
+          "trap": "민사 영향",
+          "why": "민사 영향 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "종전 형사사건의 비밀이 후속 민사사건에 영향을 줄 수 있더라도 그 비밀은 공개할 수 없다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사윤리장전",
+          "sourcePart": "156"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q40-157",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 40,
+      "sourceQuestionId": "legal_ethics_r04_q40",
+      "sourcePart": "157",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "등록 전 업무금지",
+      "rep": "변호사는 대한변호사협회에 등록하지 않고 변호사 업무를 수행하여서는 안 된다.",
+      "why": "등록 전 업무금지에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "변호사는 대한변호사협회 등록 전에도 변호사 업무를 수행할 수 있다.",
+          "trap": "등록",
+          "why": "등록 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "변호사는 대한변호사협회에 등록하지 않고 변호사 업무를 수행하여서는 안 된다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "157"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q40-158",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 40,
+      "sourceQuestionId": "legal_ethics_r04_q40",
+      "sourcePart": "158",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "징계해임 등록거부",
+      "rep": "징계처분으로 해임된 뒤 법정 기간이 지나지 않은 사람은 등록심사위원회 의결을 거쳐 등록이 거부될 수 있다.",
+      "why": "징계해임 등록거부에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "징계처분으로 해임된 사람도 법정 기간과 관계없이 변호사 등록이 당연히 허용된다.",
+          "trap": "등록거부",
+          "why": "등록거부 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "징계처분으로 해임된 뒤 법정 기간이 지나지 않은 사람은 등록심사위원회 의결을 거쳐 등록이 거부될 수 있다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "158"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q40-159",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 40,
+      "sourceQuestionId": "legal_ethics_r04_q40",
+      "sourcePart": "159",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "등록 지연 효과",
+      "rep": "대한변호사협회가 등록신청을 받은 뒤 법정 기간 안에 등록하지 않으면 등록이 거부된 것으로 보는 것이 아니다.",
+      "why": "등록 지연 효과에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A+",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "대한변호사협회가 등록신청을 받은 뒤 3개월 동안 등록하지 않으면 등록이 거부된 것으로 본다.",
+          "trap": "등록 지연",
+          "why": "등록 지연 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "대한변호사협회가 등록신청을 받은 뒤 법정 기간 안에 등록하지 않으면 등록이 거부된 것으로 보는 것이 아니다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A+",
+          "ref": "변호사법",
+          "sourcePart": "159"
+        }
+      ]
+    },
+    {
+      "pid": "legal-ethics-r04-q40-160",
+      "subject": "법조윤리",
+      "src": [
+        "법윤4"
+      ],
+      "sourceRound": 4,
+      "sourceQuestion": 40,
+      "sourceQuestionId": "legal_ethics_r04_q40",
+      "sourcePart": "160",
+      "answer": "O",
+      "type": "legal_ethics_atom",
+      "topic": "등록취소 보고",
+      "rep": "지방변호사회는 소속 변호사에게 등록취소 사유가 있다고 인정되면 지체 없이 대한변호사협회에 보고하여야 한다.",
+      "why": "등록취소 보고에 관한 법조윤리 원칙입니다.",
+      "ref": "변호사법",
+      "grade": "A",
+      "weight": 0.78,
+      "twins": [
+        {
+          "q": "지방변호사회는 소속 변호사에게 등록취소 사유가 있어도 대한변호사협회에 보고할 의무가 없다.",
+          "trap": "취소 보고",
+          "why": "취소 보고 부분이 법조윤리 원칙과 다릅니다.",
+          "corrected": "지방변호사회는 소속 변호사에게 등록취소 사유가 있다고 인정되면 지체 없이 대한변호사협회에 보고하여야 한다.",
+          "src": [
+            "법윤4"
+          ],
+          "weight": 0.78,
+          "grade": "A",
+          "ref": "변호사법",
+          "sourcePart": "160"
+        }
+      ]
+    }
+  ]
+}
