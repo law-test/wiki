@@ -25,6 +25,17 @@ ANSWER_MARKS = {"1": "①", "2": "②", "3": "③", "4": "④"}
 CHOICE_MARKS = "①②③④⑤"
 
 ROUND_CONFIG = {
+    **{
+        round_no: {
+            "year": 2009 + round_no,
+            "roundName": f"제{round_no:02d}회",
+            "questionFile": f"제{round_no:02d}회_법조윤리시험_문제.hwp",
+            "answerFile": f"제{round_no:02d}회_법조윤리시험_최종정답.hwp",
+            "answerMemo": f"제{round_no:02d}회_정답확정_메모.txt",
+            "answerStatus": "final",
+        }
+        for round_no in range(1, 14)
+    },
     14: {
         "year": 2023,
         "roundName": "제14회",
