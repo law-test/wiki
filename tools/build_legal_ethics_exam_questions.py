@@ -25,6 +25,14 @@ ANSWER_MARKS = {"1": "①", "2": "②", "3": "③", "4": "④"}
 CHOICE_MARKS = "①②③④⑤"
 
 ROUND_CONFIG = {
+    14: {
+        "year": 2023,
+        "roundName": "제14회",
+        "questionFile": "제14회_법조윤리시험_문제.hwp",
+        "answerFile": "제14회_법조윤리시험_정답가안.hwp",
+        "answerMemo": "제14회_정답확정_메모.txt",
+        "answerStatus": "final_same_as_draft",
+    },
     15: {
         "year": 2024,
         "roundName": "제15회",
@@ -77,7 +85,7 @@ def hwp_body_text(path: Path) -> str:
 
 def clean_line(value: str) -> str:
     cleaned = "".join(" " if ch in ARTIFACT_CHARS else ch for ch in value)
-    cleaned = cleaned.replace("\u00a0", " ").replace("\u3000", " ")
+    cleaned = cleaned.replace("\u00a0", " ").replace("\u3000", " ").replace("\u2ce0", " ")
     cleaned = re.sub(r"[\x00-\x1f]+", " ", cleaned)
     cleaned = re.sub(r"\s+", " ", cleaned).strip()
     return cleaned
@@ -98,6 +106,17 @@ def clean_lines(text: str, *, keep_numeric: bool = False) -> list[str]:
 def append_text(values: list[str], line: str) -> None:
     if line:
         values.append(line)
+
+
+def choice_segments(line: str) -> list[tuple[str, str]]:
+    matches = list(re.finditer(rf"[{CHOICE_MARKS}]", line))
+    if not matches or matches[0].start() != 0:
+        return []
+    segments: list[tuple[str, str]] = []
+    for idx, match in enumerate(matches):
+        end = matches[idx + 1].start() if idx + 1 < len(matches) else len(line)
+        segments.append((match.group(0), line[match.end() : end].strip()))
+    return segments
 
 
 def parse_questions(question_path: Path) -> list[dict[str, Any]]:
@@ -134,10 +153,11 @@ def parse_questions(question_path: Path) -> list[dict[str, Any]]:
         if current is None:
             continue
 
-        match_choice = re.match(rf"^([{CHOICE_MARKS}])\s*(.*)$", line)
-        if match_choice:
-            active_choice = match_choice.group(1)
-            current["choices"][active_choice] = match_choice.group(2).strip()
+        segments = choice_segments(line)
+        if segments:
+            for mark, body in segments:
+                active_choice = mark
+                current["choices"][active_choice] = body
             continue
 
         if active_choice:
@@ -237,7 +257,7 @@ def build_round(round_no: int, config: dict[str, Any]) -> dict[str, Any]:
 
 def build_database() -> dict[str, Any]:
     rounds = {str(round_no): build_round(round_no, config) for round_no, config in ROUND_CONFIG.items()}
-    return {
+    data = {
         "schemaVersion": 1,
         "subject": "법조윤리",
         "description": "법조윤리시험 기출 원문과 현행 법령 기준 검토본을 분리해 보관하는 문제은행입니다.",
@@ -245,6 +265,33 @@ def build_database() -> dict[str, Any]:
         "verifiedAt": VERIFIED_AT,
         "rounds": rounds,
     }
+    preserve_existing_review(data)
+    return data
+
+
+def preserve_existing_review(data: dict[str, Any]) -> None:
+    if not OUT_JSON.exists():
+        return
+    existing = json.loads(OUT_JSON.read_text(encoding="utf-8"))
+    existing_rounds = existing.get("rounds") or {}
+    for round_key, round_data in data["rounds"].items():
+        previous = existing_rounds.get(round_key)
+        if not previous:
+            continue
+        previous_questions = {
+            item.get("number"): item for item in previous.get("questions", []) if item.get("number")
+        }
+        for question in round_data.get("questions", []):
+            old_question = previous_questions.get(question.get("number"))
+            if not old_question:
+                continue
+            if old_question.get("current"):
+                question["current"] = old_question["current"]
+            if old_question.get("atoms"):
+                question["atoms"] = old_question["atoms"]
+        for key in ["reviewStatus", "reviewNote"]:
+            if key in previous:
+                round_data[key] = previous[key]
 
 
 def validate_no_artifacts(data: Any) -> None:
@@ -260,16 +307,21 @@ def main() -> int:
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
     OUT_JSON.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    round15 = data["rounds"]["15"]
+    round_summaries = {
+        round_key: {
+            "round": round_data["round"],
+            "questions": round_data["questionCount"],
+            "firstAnswer": round_data["questions"][0]["current"]["answer"],
+            "lastAnswer": round_data["questions"][-1]["current"]["answer"],
+        }
+        for round_key, round_data in sorted(data["rounds"].items(), key=lambda item: int(item[0]))
+    }
     print(
         json.dumps(
             {
                 "status": "ok",
                 "output": str(OUT_JSON),
-                "round": round15["round"],
-                "questions": round15["questionCount"],
-                "firstAnswer": round15["questions"][0]["current"]["answer"],
-                "lastAnswer": round15["questions"][-1]["current"]["answer"],
+                "rounds": round_summaries,
             },
             ensure_ascii=False,
             indent=2,
