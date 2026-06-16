@@ -18942,16 +18942,24 @@ section.art.law-subject-article-mode>.pager{display:none}
     tags.sort(function(a,b){var an=parseInt((a.match(/[0-9]+/)||[0])[0],10)||0;var bn=parseInt((b.match(/[0-9]+/)||[0])[0],10)||0;return bn-an;});
     return tags.join(' · ');
   }
+  var ETHICS_ATOM_SOURCE_URLS=[
+    'assets/ox_legal_ethics_exam15.json?v=20260617manualall',
+    'assets/ox_legal_ethics_exam14.json?v=20260617manualall'
+  ];
   function load(){
     if(bank)return Promise.resolve(bank);
-    return fetch('assets/ox_legal_ethics_exam15.json?v=20260617manualall').then(function(r){return r.json();}).then(function(data){
+    return Promise.all(ETHICS_ATOM_SOURCE_URLS.map(function(url){
+      return fetch(url).then(function(r){if(!r.ok)throw new Error('legal ethics atom loading failed');return r.json();});
+    })).then(function(list){
       var out=[];
-      (data.items||[]).forEach(function(u){
-        if(!u.rep)return;
-        var base={q:u.rep,a:'O',trap:u.topic||'',why:u.why||'',ref:u.ref||'',art:u.art||'',grade:u.grade||'',freq:u.freq||1,rep:u.rep,tag:tagsFrom(u)};
-        out.push(base);
-        (u.twins||[]).forEach(function(t){
-          out.push({q:t.q,a:'X',trap:t.trap||u.topic||'',why:t.why||u.why||'',ref:t.ref||u.ref||'',art:u.art||'',grade:t.grade||u.grade||'',freq:t.freq||u.freq||1,rep:t.corrected||t.rep||u.rep,tag:tagsFrom(u,t)});
+      list.forEach(function(data){
+        (data.items||[]).forEach(function(u){
+          if(!u.rep)return;
+          var base={q:u.rep,a:'O',trap:u.topic||'',why:u.why||'',ref:u.ref||'',art:u.art||'',grade:u.grade||'',freq:u.freq||1,rep:u.rep,tag:tagsFrom(u)};
+          out.push(base);
+          (u.twins||[]).forEach(function(t){
+            out.push({q:t.q,a:'X',trap:t.trap||u.topic||'',why:t.why||u.why||'',ref:t.ref||u.ref||'',art:u.art||'',grade:t.grade||u.grade||'',freq:t.freq||u.freq||1,rep:t.corrected||t.rep||u.rep,tag:tagsFrom(u,t)});
+          });
         });
       });
       bank=out.filter(function(x){return x.q&&(x.a==='O'||x.a==='X');});
@@ -19733,7 +19741,8 @@ window.__KCI_BOOT=function(d){
   function lawSubjectLawName(name){return LAW_SUBJECT_LABELS[name]||name;}
   var LAW_ATOM_SOURCE_URLS=[
     'assets/ox_msa_unified_v001.json?v=20260616atom3',
-    'assets/ox_legal_ethics_exam15.json?v=20260617manualall'
+    'assets/ox_legal_ethics_exam15.json?v=20260617manualall',
+    'assets/ox_legal_ethics_exam14.json?v=20260617manualall'
   ];
   function lawAtomLoadSources(){
     return Promise.all(LAW_ATOM_SOURCE_URLS.map(function(url){
