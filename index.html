@@ -18605,7 +18605,7 @@ section.art.law-subject-article-mode>.pager{display:none}
 <div class="blank-article" id="blankArticle">조문</div>
 <div class="game-target idle" id="blankQuestion">시작을 누르면 도전! 조문왕 문제가 나옵니다.</div>
 <input autocomplete="off" class="game-input" disabled="" id="blankInput" placeholder="빈칸에 들어갈 말" type="text"/>
-<div class="problem-report-row"><button class="problem-report-btn" id="blankReport" type="button" hidden="">신고하기</button></div>
+<div class="problem-report-row"><button class="problem-report-btn" id="blankReport" type="button" hidden="">오류 신고하기</button></div>
 <div class="game-feed" id="blankFeed">같은 정답 단어가 반복되지 않도록 문제를 구성했습니다.</div>
 </div>
 <div class="game-panel" data-game-panel="caseblank" hidden="">
@@ -18626,7 +18626,7 @@ section.art.law-subject-article-mode>.pager{display:none}
 <div class="blank-article" id="caseArticle">판례</div>
 <div class="game-target idle" id="caseQuestion">시작을 누르면 도전! 판례왕 문제가 나옵니다.</div>
 <input autocomplete="off" class="game-input" disabled="" id="caseInput" placeholder="빈칸에 들어갈 말" type="text"/>
-<div class="problem-report-row"><button class="problem-report-btn" id="caseReport" type="button" hidden="">신고하기</button></div>
+<div class="problem-report-row"><button class="problem-report-btn" id="caseReport" type="button" hidden="">오류 신고하기</button></div>
 <div class="game-feed" id="caseFeed">변호사시험 예상판례 문제은행에서 랜덤 출제됩니다.</div>
 </div>
 <div class="game-panel" data-game-panel="polar" hidden="">
@@ -18689,7 +18689,7 @@ section.art.law-subject-article-mode>.pager{display:none}
 <button class="ox-choice ox-x" data-ans="X" type="button">X</button>
 </div>
 <div class="ox-flow-controls">
-<button class="game-btn problem-report-btn" id="oxReport" type="button" hidden="">신고하기</button>
+<button class="game-btn problem-report-btn" id="oxReport" type="button" hidden="">오류 신고하기</button>
 <button class="game-btn ghost" id="oxPause" type="button" hidden="">멈춤</button>
 <button class="game-btn ghost" id="oxNext" type="button" hidden="">넘김 ›</button>
 </div>
@@ -19467,7 +19467,7 @@ window.__KCI_BOOT=function(d){
     function metaText(r){return [r.tags.join(' · '),r.grade?(r.grade+'급'):'',(r.freq>1?('★'+r.freq+'회'):'')].filter(Boolean).join(' · ');}
     var total=groups.reduce(function(n,g){return n+1+(g.twins?g.twins.length:0);},0);
     function reportButton(r,answer){
-      return '<button class="problem-report-btn atom-report" type="button" data-report-source="atom" data-report-mode="조문별 기출 atom" data-report-article="'+lawSubjectEsc((lawName||subject||'')+' '+(articleNo||''))+'" data-report-question="'+lawSubjectEsc(r.stmt||'')+'" data-report-answer="'+lawSubjectEsc(answer||'')+'" data-report-ref="'+lawSubjectEsc(r.ref||'')+'">신고하기</button>';
+      return '<button class="problem-report-btn atom-report" type="button" data-report-source="atom" data-report-mode="조문별 기출 atom" data-report-article="'+lawSubjectEsc((lawName||subject||'')+' '+(articleNo||''))+'" data-report-question="'+lawSubjectEsc(r.stmt||'')+'" data-report-answer="'+lawSubjectEsc(answer||'')+'" data-report-ref="'+lawSubjectEsc(r.ref||'')+'">오류 신고하기</button>';
     }
     var cards=groups.map(function(r){
       var meta=metaText(r);
