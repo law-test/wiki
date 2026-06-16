@@ -805,8 +805,10 @@ section.art.law-subject-article-mode>.pager{display:none}
 .atom-card{display:grid;grid-template-columns:48px minmax(0,1fr);gap:12px;border:1px solid rgba(209,213,219,.92);border-radius:18px;background:#fff;padding:14px 15px;box-shadow:var(--shadow-sm)}
 .atom-card.is-o{border-color:rgba(22,163,74,.28)}
 .atom-card.is-x{border-color:rgba(220,38,38,.25);background:linear-gradient(135deg,#fff,#fff7f7)}
+.atom-card.atom-family{border-color:rgba(22,163,74,.24);background:linear-gradient(180deg,#fff,#fcfffd)}
 .atom-mark{display:flex;align-items:flex-start;justify-content:center;padding-top:2px}
 .atom-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:7px}
+.atom-family .atom-head{margin:8px 0 0}
 .atom-badge{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:999px;font-size:20px;font-weight:950;color:#fff;box-shadow:0 8px 18px rgba(15,23,42,.12)}
 .atom-badge.o{background:linear-gradient(135deg,#16a34a,#22c55e)}.atom-badge.x{background:linear-gradient(135deg,#dc2626,#f87171)}
 .atom-topic{display:inline-flex;align-items:center;border-radius:999px;background:#f8fafc;color:#334155;padding:4px 9px;font-size:12.5px;font-weight:950}
@@ -814,6 +816,11 @@ section.art.law-subject-article-mode>.pager{display:none}
 .atom-stmt{margin:0;color:#111827;font-size:15.3px;line-height:1.76;font-weight:650}
 .atom-why{margin:8px 0 0;color:#475467;font-size:13.4px;line-height:1.7}
 .atom-ref{margin:9px 0 0;border-left:3px solid #d8b4fe;padding-left:9px;color:#667085;font-size:12.5px;line-height:1.6}
+.atom-twins{display:grid;gap:10px;margin-top:13px;padding-top:12px;border-top:1px dashed rgba(148,163,184,.38)}
+.atom-twin{border-left:3px solid rgba(239,68,68,.42);padding:2px 0 2px 13px}
+.atom-twin-line{margin:0;color:#1f2937;font-size:14.1px;line-height:1.72}
+.atom-twin-badge{display:inline-flex;align-items:center;border-radius:999px;background:#fee2e2;color:#991b1b;padding:3px 8px;margin-right:7px;font-size:12px;font-weight:950}
+.atom-twin-meta{display:inline-flex;align-items:center;border-radius:999px;background:#eef2ff;color:#3730a3;padding:3px 8px;margin-left:6px;font-size:11.2px;font-weight:900}
 .atom-empty{border:1px dashed var(--line);border-radius:16px;padding:12px 14px;color:var(--txt3);font-size:13px}
 .law-commentary{border:1px solid rgba(226,232,240,.95);border-radius:18px;background:#fff;padding:16px;margin:18px 0 24px;box-shadow:var(--shadow-sm)}
 .law-commentary .gist{margin:0 0 12px;color:#24304a;font-weight:800;line-height:1.75}
@@ -826,7 +833,7 @@ section.art.law-subject-article-mode>.pager{display:none}
 .law-resource-section h2 .note{font-size:13px}
 .law-source-link{margin-top:16px;border:1px solid rgba(226,232,240,.95);border-radius:16px;background:#fff;padding:13px 15px;box-shadow:var(--shadow-sm)}
 .law-source-link p{margin:4px 0 0;color:#667085;font-size:13px;line-height:1.65}
-@media (max-width:700px){.atom-headline{display:block}.atom-cta{display:inline-flex;margin-top:10px}.atom-card{grid-template-columns:40px minmax(0,1fr);padding:12px}.atom-badge{width:36px;height:36px;font-size:17px}}
+@media (max-width:700px){.atom-headline{display:block}.atom-cta{display:inline-flex;margin-top:10px}.atom-card{grid-template-columns:40px minmax(0,1fr);padding:12px}.atom-badge{width:36px;height:36px;font-size:17px}.atom-twin{padding-left:10px}.atom-twin-meta{margin:5px 0 0;display:inline-flex}}
 
 
 /* ---------- 하랑재 강의노트 ---------- */
@@ -19302,8 +19309,12 @@ window.__KCI_BOOT=function(d){
       var s=String(v),m,re=/변시\s*([0-9]+)/g;
       while((m=re.exec(s)))push('변시'+m[1]);
     }
-    scan(u&&u.years);scan(u&&u.src);scan(u&&u.refs);scan(u&&u.ref);
-    scan(t&&t.src);scan(t&&t.refs);scan(t&&t.ref);
+    if(t){
+      scan(t&&t.years);scan(t&&t.src);scan(t&&t.refs);scan(t&&t.ref);
+      if(!tags.length){scan(u&&u.years);scan(u&&u.src);scan(u&&u.refs);scan(u&&u.ref);}
+    }else{
+      scan(u&&u.years);scan(u&&u.src);scan(u&&u.refs);scan(u&&u.ref);
+    }
     tags.sort(function(a,b){return (parseInt((b.match(/[0-9]+/)||[0])[0],10)||0)-(parseInt((a.match(/[0-9]+/)||[0])[0],10)||0);});
     return tags;
   }
@@ -19317,37 +19328,68 @@ window.__KCI_BOOT=function(d){
     return true;
   }
   function lawAtomEntries(subject,lawName,articleNo,items){
-    var seen={},entries=[];
-    function add(text,answer,u,t){
+    var groups=[],byStmt={};
+    function entry(text,answer,u,t){
       var stmt=String(text||'').trim();
-      if(!stmt||seen[answer+'|'+stmt])return;
-      seen[answer+'|'+stmt]=1;
-      entries.push({answer:answer,stmt:stmt,topic:(u.topic||t&&t.trap||''),why:(answer==='X'&&(t&&t.trap)?t.trap:u.why||''),ref:u.ref||'',grade:(t&&t.grade)||u.grade||'',freq:u.freq||1,weight:(t&&t.weight)||u.weight||0,tags:lawAtomSourceTags(u,t)});
+      if(!stmt)return null;
+      return {answer:answer,stmt:stmt,topic:((t&&t.trap)||u.topic||''),why:(answer==='X'&&(t&&t.trap)?t.trap:u.why||''),ref:(t&&t.ref)||u.ref||'',grade:(t&&t.grade)||u.grade||'',freq:(t&&t.freq)||(!t&&u.freq)||1,weight:(t&&t.weight)||u.weight||0,tags:lawAtomSourceTags(u,t)};
     }
     (items||[]).forEach(function(u){
       if(!lawAtomMatches(u,subject,lawName,articleNo))return;
-      add(u.rep,'O',u,null);
-      (u.twins||[]).forEach(function(t){if(String(t.q||'').trim()!==String(u.rep||'').trim())add(t.q,'X',u,t);});
+      var base=entry(u.rep,'O',u,null);
+      if(!base)return;
+      var key=base.stmt;
+      var group=byStmt[key];
+      if(!group){
+        group=base;
+        group.twins=[];
+        group._seenTwin={};
+        byStmt[key]=group;
+        groups.push(group);
+      }
+      (u.twins||[]).forEach(function(t){
+        if(String(t.q||'').trim()===String(u.rep||'').trim())return;
+        var twin=entry(t.q,'X',u,t);
+        if(!twin||group._seenTwin[twin.stmt])return;
+        group._seenTwin[twin.stmt]=1;
+        group.twins.push(twin);
+      });
     });
-    entries.sort(function(a,b){
+    groups.forEach(function(g){
+      delete g._seenTwin;
+      g.twins.sort(function(a,b){
+        if((b.weight||0)!==(a.weight||0))return (b.weight||0)-(a.weight||0);
+        return (b.tags.length||0)-(a.tags.length||0);
+      });
+    });
+    groups.sort(function(a,b){
       if((b.freq||1)!==(a.freq||1))return (b.freq||1)-(a.freq||1);
       if((b.weight||0)!==(a.weight||0))return (b.weight||0)-(a.weight||0);
       return (b.tags.length||0)-(a.tags.length||0);
     });
-    return entries;
+    return groups;
   }
   function lawAtomRender(subject,lawName,articleNo,items){
-    var rows=lawAtomEntries(subject,lawName,articleNo,items);
-    if(!rows.length)return '';
-    var cards=rows.map(function(r){
-      var meta=[r.tags.join(' · '),r.grade?(r.grade+'급'):'',(r.freq>1?('★'+r.freq+'회'):'')].filter(Boolean).join(' · ');
-      return '<article class="atom-card '+(r.answer==='X'?'is-x':'is-o')+'"><div class="atom-mark"><span class="atom-badge '+(r.answer==='X'?'x':'o')+'">'+r.answer+'</span></div><div class="atom-main">'
-        +'<div class="atom-head">'+(r.topic?'<span class="atom-topic">'+lawSubjectEsc(r.topic)+'</span>':'')+(meta?'<span class="atom-meta">'+lawSubjectEsc(meta)+'</span>':'')+'</div>'
+    var groups=lawAtomEntries(subject,lawName,articleNo,items);
+    if(!groups.length)return '';
+    function metaText(r){return [r.tags.join(' · '),r.grade?(r.grade+'급'):'',(r.freq>1?('★'+r.freq+'회'):'')].filter(Boolean).join(' · ');}
+    var total=groups.reduce(function(n,g){return n+1+(g.twins?g.twins.length:0);},0);
+    var cards=groups.map(function(r){
+      var meta=metaText(r);
+      var twins=(r.twins||[]).map(function(t){
+        var tm=metaText(t);
+        return '<div class="atom-twin"><p class="atom-twin-line"><span class="atom-twin-badge">함정 X</span>'+lawSubjectEsc(t.stmt)+(tm?'<span class="atom-twin-meta">'+lawSubjectEsc(tm)+'</span>':'')+'</p>'
+          +(t.why?'<p class="atom-why">'+lawSubjectEsc(t.why)+'</p>':'')
+          +(t.ref?'<p class="atom-ref">근거 · '+lawSubjectEsc(t.ref)+'</p>':'')+'</div>';
+      }).join('');
+      return '<article class="atom-card atom-family is-o"><div class="atom-mark"><span class="atom-badge o">O</span></div><div class="atom-main">'
         +'<p class="atom-stmt">'+lawSubjectEsc(r.stmt)+'</p>'
+        +'<div class="atom-head">'+(r.topic?'<span class="atom-topic">'+lawSubjectEsc(r.topic)+'</span>':'')+(meta?'<span class="atom-meta">'+lawSubjectEsc(meta)+'</span>':'')+'</div>'
         +(r.why?'<p class="atom-why">'+lawSubjectEsc(r.why)+'</p>':'')
-        +(r.ref?'<p class="atom-ref">근거 · '+lawSubjectEsc(r.ref)+'</p>':'')+'</div></article>';
+        +(r.ref?'<p class="atom-ref">근거 · '+lawSubjectEsc(r.ref)+'</p>':'')
+        +(twins?'<div class="atom-twins">'+twins+'</div>':'')+'</div></article>';
     }).join('');
-    return '<div class="atom-headline"><div class="atom-title-stack"><h2>조문별 기출 atom <span class="atom-count-pill">'+rows.length+'개</span></h2><p class="note">O 대표 법리 · X 함정 지문 · 출처 회차 (풀이는 CBT)</p></div><a class="atom-cta" href="#학습게임">CBT로 풀기</a></div><div class="atom-list">'+cards+'</div>';
+    return '<div class="atom-headline"><div class="atom-title-stack"><h2>조문별 기출 atom <span class="atom-count-pill">'+total+'개</span></h2><p class="note">O 대표 법리 · X 함정 지문 · 출처 회차 (풀이는 CBT)</p></div><a class="atom-cta" href="#학습게임">CBT로 풀기</a></div><div class="atom-list">'+cards+'</div>';
   }
   function lawAtomPlaceholder(subject,lawName,articleNo){
     return '<div class="article-atoms" data-atom-subject="'+lawSubjectEsc(subject||'')+'" data-atom-law="'+lawSubjectEsc(lawName||'')+'" data-atom-article="'+lawSubjectEsc(articleNo||'')+'"></div>';
