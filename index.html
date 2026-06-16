@@ -845,6 +845,62 @@ section.art.law-subject-article-mode>.pager{display:none}
 @media (max-width:700px){.atom-headline{display:block}.atom-cta{display:inline-flex;margin-top:10px}.atom-card{grid-template-columns:40px minmax(0,1fr);padding:12px}.atom-badge{width:36px;height:36px;font-size:17px}.atom-twin{padding-left:10px}.atom-twin-meta{margin:5px 0 0;display:inline-flex}}
 
 
+/* ==================== Study-first UI pass 2026-06-16 ==================== */
+.game-page .game-center{--study-accent:#4f46e5;--study-ink:#111827;--study-muted:#667085;--study-line:#e5e7eb}
+.study-dashboard{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(280px,.8fr);gap:18px;margin:18px 0 18px;border:1px solid var(--study-line);border-radius:22px;background:#fff;padding:22px;box-shadow:0 10px 28px rgba(15,23,42,.06)}
+.study-dashboard-main h2{display:block;margin:7px 0 8px;border:0;padding:0;color:var(--study-ink);font-size:25px;line-height:1.3;letter-spacing:-.02em}
+.study-dashboard-main h2::before{display:none}
+.study-dashboard-main p{margin:0;color:#475467;line-height:1.7;max-width:720px}
+.study-eyebrow{display:inline-flex;align-items:center;border:1px solid #dbeafe;border-radius:999px;background:#f8fafc;color:#344054;padding:4px 9px;font-size:12px;font-weight:900}
+.study-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.study-action{border:1px solid #d0d5dd;border-radius:12px;background:#fff;color:#344054;font-family:var(--sans);font-size:14px;font-weight:900;padding:10px 14px;cursor:pointer}
+.study-action.primary{border-color:var(--study-accent);background:var(--study-accent);color:#fff}
+.study-action:hover{box-shadow:0 8px 18px rgba(15,23,42,.10);transform:translateY(-1px)}
+.study-today-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;align-content:stretch}
+.study-today-card{border:1px solid #edf2f7;border-radius:16px;background:#f9fafb;padding:13px 12px;min-height:108px}
+.study-today-card span{display:block;color:var(--study-muted);font-size:12px;font-weight:900}
+.study-today-card b{display:block;margin:7px 0 3px;color:var(--study-ink);font-size:24px;line-height:1.15;letter-spacing:-.03em}
+.study-today-card small{display:block;color:#98a2b3;font-size:12px;font-weight:700;line-height:1.45}
+.game-page .study-mode-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:0 0 16px;padding:0;border:0;background:transparent;border-radius:0}
+.game-page .study-mode-grid .game-tab{display:block;text-align:left;min-height:92px;border:1px solid #dbe4ef;border-radius:16px;background:#fff;color:#344054;box-shadow:0 4px 12px rgba(15,23,42,.04);padding:13px 14px;transform:none}
+.game-page .study-mode-grid .game-tab strong{display:block;color:#182230;font-size:15px;line-height:1.3}
+.game-page .study-mode-grid .game-tab span{display:block;margin-top:6px;color:#667085;font-size:12px;line-height:1.45;font-weight:700}
+.game-page .study-mode-grid .game-tab.active{border-color:var(--study-accent);background:#eef2ff;box-shadow:inset 0 0 0 1px rgba(79,70,229,.18),0 8px 18px rgba(79,70,229,.08)}
+.game-page .study-mode-grid .game-tab.active strong{color:#3730a3}
+.game-page .study-mode-grid .game-tab.is-lab{background:#fcfcfd}
+.game-page .study-mode-grid .game-tab.is-lab strong{color:#475467}
+.game-page .game-layout{grid-template-columns:minmax(0,1fr) 260px;gap:14px}
+.game-page .game-panel{border:1px solid #e5e7eb;border-radius:20px;background:#fff;box-shadow:0 10px 28px rgba(15,23,42,.05);padding:18px 20px}
+.game-page .game-panel::before{display:none}
+.game-page .game-panel h2{font-size:19px;color:#182230;letter-spacing:-.02em}
+.game-page .game-panel h2::before{width:4px;height:20px;border-radius:999px;background:var(--study-accent);box-shadow:none}
+.game-page .game-controls input,.game-page .game-controls select,.game-page .game-input{border-color:#d0d5dd;border-radius:12px;box-shadow:none}
+.game-page .game-btn,.game-page .game-tab{box-shadow:none}
+.game-page .game-btn.primary{background:var(--study-accent);box-shadow:none}
+.game-page .game-btn:hover,.game-page .game-tab:hover{box-shadow:0 8px 18px rgba(15,23,42,.08)}
+.game-page .game-stat,.game-page .game-stats span{border-color:#edf2f7;border-radius:14px;background:#f9fafb;box-shadow:none}
+.game-page .game-stat b,.game-page .game-stats b{color:#3730a3}
+.game-page .game-target{border:1px solid #e5e7eb;border-radius:18px;background:#fff;box-shadow:none}
+.game-page .game-bonus{border:1px solid #e5e7eb;background:#f9fafb;box-shadow:none}
+.game-page .game-bonus.hot,.game-page .game-bonus.ultra{background:#fff7ed;color:#9a3412;border-color:#fed7aa}
+.rank-panel{align-self:start;position:sticky;top:118px;padding:0!important;overflow:hidden}
+.rank-panel details{display:block}
+.rank-panel summary{list-style:none;cursor:pointer;padding:14px 16px;font-weight:950;color:#344054;background:#f9fafb;border-bottom:1px solid transparent}
+.rank-panel summary::-webkit-details-marker{display:none}
+.rank-panel summary::after{content:"열기";float:right;color:#667085;font-size:12px}
+.rank-panel details[open] summary{border-bottom-color:#e5e7eb}
+.rank-panel details[open] summary::after{content:"닫기"}
+.rank-panel-body{padding:0 16px 16px}
+.rank-panel-body h2{font-size:16px;margin-top:16px}.rank-panel-body h3{font-size:13px;margin:16px 0 5px;color:#344054}
+.confidence-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:10px;border:1px solid #e5e7eb;border-radius:14px;background:#f9fafb;padding:9px 10px}
+.confidence-row[hidden]{display:none!important}
+.confidence-row span{font-size:12px;font-weight:900;color:#667085;margin-right:2px}
+.confidence-row button{border:1px solid #d0d5dd;border-radius:999px;background:#fff;color:#344054;font-family:var(--sans);font-size:12px;font-weight:900;padding:6px 10px;cursor:pointer}
+.confidence-row button:hover{border-color:#4f46e5;color:#3730a3;background:#eef2ff}
+@media (max-width:1100px){.study-dashboard{grid-template-columns:1fr}.game-page .study-mode-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.game-page .game-layout{grid-template-columns:1fr}.rank-panel{position:static}}
+@media (max-width:700px){.study-dashboard{padding:16px;border-radius:18px}.study-today-grid,.game-page .study-mode-grid{grid-template-columns:1fr}.study-actions{display:grid}.study-action{width:100%}}
+
+
 /* ---------- 하랑재 강의노트 ---------- */
 .harang-page .gist{font-size:15px}
 .harang-hero{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,.65fr);gap:18px;align-items:stretch;margin:16px 0 22px}
@@ -18531,24 +18587,35 @@ section.art.law-subject-article-mode>.pager{display:none}
 </section>
 <section class="art game-page" data-art="학습게임" data-pyeon="학습도구" id="학습게임">
 <div class="crumb">학습도구 › CBT 게임센터</div>
-<h1>CBT 게임센터</h1>
+<h1>오늘 공부</h1>
 <div class="game-center" id="gameCenter">
-<div class="game-hero">
-<p class="gist">변호사시험 서술형에 직접 나오는 중요문구를 연습하는 미니 게임입니다.</p>
-<p>변호사시험 실제 서술형 개념어로만 만든 CBT 대비의 정석</p>
-<div class="game-chiprow"><span class="game-chip game-chip-new">NEW CLAT OX퀴즈</span><span class="game-chip">🐯가호·대박·🦅추락</span><span class="game-chip">30초 기본</span><span class="game-chip">x2·x3·x5</span><span class="game-chip">산성비 보스</span><span class="game-chip">도전! 조문왕</span><span class="game-chip">도전! 판례왕</span><span class="game-chip">변시탐험</span><span class="game-chip">TOP 5</span></div>
+<div class="study-dashboard">
+<div class="study-dashboard-main">
+<span class="study-eyebrow">법학용 Quizlet</span>
+<h2>조문 · 판례 · 기출 atom을 하루 10분씩</h2>
+<p>먼저 OX로 기억을 꺼내고, 틀린 지문은 오답 복습으로 다시 봅니다. 출처와 관련 조문은 문제마다 함께 확인할 수 있습니다.</p>
+<div class="study-actions">
+<button class="study-action primary" data-game-open="ox" type="button">빠른 OX 열기</button>
+<button class="study-action" data-game-open="typing" data-typing-bank="objectiveAtoms" type="button">객관식 정지문 열기</button>
 </div>
-<div aria-label="게임 선택" class="game-tabs" role="tablist">
-<button class="game-tab active" data-game-tab="typing" type="button">법학 타자연습</button>
-<button class="game-tab" data-game-tab="rain" type="button">법학 산성비</button>
-<button class="game-tab" data-game-tab="blank" type="button">도전! 조문왕</button>
-<button class="game-tab" data-game-tab="caseblank" type="button">도전! 판례왕</button>
-<button class="game-tab" data-game-tab="polar" type="button">변시탐험</button>
-<button class="game-tab" data-game-tab="ox" type="button">CLAT · OX퀴즈</button>
+</div>
+<div class="study-today-grid" aria-label="오늘 공부 요약">
+<div class="study-today-card"><span>오늘 복습</span><b id="studyTodayCount">atom</b><small>기출 지문 중심</small></div>
+<div class="study-today-card"><span>오답 복습</span><b id="studyWrongCount">자동</b><small>틀린 문제부터</small></div>
+<div class="study-today-card"><span>법령 기준</span><b>2026.6.16</b><small>시행 법령 검증</small></div>
+</div>
+</div>
+<div aria-label="학습 모드 선택" class="game-tabs study-mode-grid" role="tablist">
+<button class="game-tab active" data-game-tab="ox" type="button"><strong>빠른 OX</strong><span>기출 atom을 O/X로 확인</span></button>
+<button class="game-tab" data-game-tab="typing" type="button"><strong>타자연습</strong><span>객관식 정지문·중요문구 입력</span></button>
+<button class="game-tab" data-game-tab="blank" type="button"><strong>조문 빈칸</strong><span>조문 핵심어 복습</span></button>
+<button class="game-tab" data-game-tab="caseblank" type="button"><strong>판례 빈칸</strong><span>표준판례 핵심어 복습</span></button>
+<button class="game-tab is-lab" data-game-tab="rain" type="button"><strong>실험실 · 산성비</strong><span>게임형 타자 모드</span></button>
+<button class="game-tab is-lab" data-game-tab="polar" type="button"><strong>실험실 · 변시탐험</strong><span>보너스 게임</span></button>
 </div>
 <div class="game-layout">
 <div>
-<div class="game-panel" data-game-panel="typing">
+<div class="game-panel" data-game-panel="typing" hidden="">
 <h2>법학 타자연습</h2>
 <p class="note">띄어쓰기·줄바꿈과 상관없이 제시어가 포함되면 정답입니다. 입력 후 <span class="game-kbd">Enter</span>를 누르세요.</p>
 <div class="game-controls">
@@ -18668,7 +18735,7 @@ section.art.law-subject-article-mode>.pager{display:none}
 .ox-event-eagle{background:linear-gradient(135deg,#475569,#1e293b);color:#fff;box-shadow:0 4px 12px rgba(30,41,59,.35)}
 @keyframes oxEvtPop{0%{transform:scale(.4);opacity:0}100%{transform:scale(1);opacity:1}}
 </style>
-<div class="game-panel" data-game-panel="ox" hidden="">
+<div class="game-panel" data-game-panel="ox">
 <h2>CLAT <span style="font-size:14px;font-weight:700;color:var(--txt3)">— 변호사시험 기출 OX퀴즈</span></h2>
 <p class="note">실제 변호사시험 제1회부터 제15회까지 전개년 기출문제를 반영하고, 2026. 6. 16. 시행 법령 기준으로 검증한 OX 문제입니다. 문장이 맞으면 <b>O</b>, 틀리면 <b>X</b>를 누르세요(키보드 O·X 가능). 정답 공개 시 함정유형·해설·관련 조문 링크가 나옵니다. 정답은 가점, 오답은 감점(-10)입니다. 높은 등급 문제일수록 더 자주 출제됩니다. 문제마다 <b>🐯 호랑이의 가호</b> 30%(그중 3%는 <b>호랑이의 대박</b> 정답 ×10) 또는 <b>🦅 독수리의 추락</b> 20%가 서로 겹치지 않게 발동합니다. 전부 맞히고 끝나면 <b>🎯 퍼펙트 보너스 +30%</b>. HP는 5에서 시작해 오답·시간초과마다 1씩 줄고 0이 되면 게임 오버. 각 문제는 <b>20초 안에</b> O/X를 골라야 하며(초과 시 오답 처리), 제한없음 모드는 30초간 입력이 없으면 자동 종료됩니다.</p>
 <div class="game-controls">
@@ -18697,6 +18764,12 @@ section.art.law-subject-article-mode>.pager{display:none}
 </div>
 <div class="game-feed" id="oxFeed">변호사시험 제1~15회 전개년 기출 반영 · 2026. 6. 16. 시행 법령 기준 검증 · 빈출 가중 점수 · O·X로 도전</div>
 <div class="ox-reveal" id="oxReveal" hidden=""></div>
+<div class="confidence-row" id="oxConfidence" hidden="">
+<span>이 지문 기억 정도</span>
+<button data-confidence="1" type="button">모름</button>
+<button data-confidence="2" type="button">애매함</button>
+<button data-confidence="4" type="button">확실함</button>
+</div>
 </div>
 </div>
 <script>
@@ -18709,9 +18782,32 @@ section.art.law-subject-article-mode>.pager{display:none}
   function clearQ(){if(st.qTimer){clearTimeout(st.qTimer);st.qTimer=null;}}
   function armQ(){clearQ();st.qTimer=setTimeout(function(){st.qTimer=null;if(st.active&&!st.paused&&!st.answered)answer(null,true);},20000);}
   function rollEvent(){var r=Math.random();if(r<0.03)return 'tigerJackpot';if(r<0.30)return 'tiger';if(r<0.50)return 'eagle';return null;}
-  var elT=panel.querySelector('#oxTarget'),elBtns=panel.querySelector('#oxButtons'),elFeed=panel.querySelector('#oxFeed'),elRev=panel.querySelector('#oxReveal');
+  var elT=panel.querySelector('#oxTarget'),elBtns=panel.querySelector('#oxButtons'),elFeed=panel.querySelector('#oxFeed'),elRev=panel.querySelector('#oxReveal'),elConf=panel.querySelector('#oxConfidence');
   var oxPauseBtn=panel.querySelector('#oxPause'),oxNextBtn=panel.querySelector('#oxNext'),oxReportBtn=panel.querySelector('#oxReport'),oxNick=panel.querySelector('#oxNick');
+  var wrongKey='lawinus_wrong_atoms_v1',confidenceKey='lawinus_atom_confidence_v1';
   function esc(s){var d=document.createElement('div');d.textContent=(s==null?'':s);return d.innerHTML;}
+  function readJson(key,fallback){try{return JSON.parse(localStorage.getItem(key))||fallback;}catch(e){return fallback;}}
+  function writeJson(key,value){try{localStorage.setItem(key,JSON.stringify(value));}catch(e){}}
+  function updateWrongCount(){var el=document.getElementById('studyWrongCount');if(el)el.textContent=readJson(wrongKey,[]).length+'개';}
+  updateWrongCount();
+  function questionKey(q){return String(q||'').replace(/\s+/g,' ').trim().slice(0,140);}
+  function recordWrong(q){
+    if(!q)return;
+    var rows=readJson(wrongKey,[]),key=questionKey(q.q);
+    rows=rows.filter(function(x){return x.key!==key;});
+    rows.unshift({key:key,q:q.q,a:q.a,ref:q.ref||'',art:q.art||'',at:new Date().toISOString()});
+    writeJson(wrongKey,rows.slice(0,120));
+    updateWrongCount();
+  }
+  function recordConfidence(level){
+    if(!st.cur)return;
+    var map=readJson(confidenceKey,{});
+    map[questionKey(st.cur.q)]={level:parseInt(level,10)||1,at:new Date().toISOString(),answer:st.cur.a,art:st.cur.art||''};
+    writeJson(confidenceKey,map);
+    if(elConf)elConf.hidden=true;
+    elFeed.textContent='기억 정도를 저장했습니다.';
+    elFeed.className='game-feed good';
+  }
   function stats(){panel.querySelector('#oxScore').textContent=st.score;panel.querySelector('#oxHp').textContent='♥'+Math.max(0,st.hp);panel.querySelector('#oxTime').textContent=st.dur?st.time:'∞';panel.querySelector('#oxCombo').textContent=st.combo;panel.querySelector('#oxAcc').textContent=st.ok+'/'+st.n;}
   function shuffle(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t;}return a;}
   function oxTagText(tags){return (tags||[]).join(' · ');}
@@ -18735,8 +18831,8 @@ section.art.law-subject-article-mode>.pager{display:none}
   function load(){if(bank)return Promise.resolve(bank);return fetch('assets/ox_msa_unified_v001.json?v=20260616x').then(function(r){return r.json();}).then(function(d){var out=[];(d.items||[]).forEach(function(u){if(!u.rep)return;var f=u.freq||1;var w=u.weight||0;var g=u.grade||'';var sj=u.subject||'민법';var tags=oxSourceTags(u);var yrs=oxTagText(tags);out.push({q:u.rep,a:'O',trap:(u.topic||''),why:u.why,ref:u.ref,art:u.art,freq:f,weight:w,grade:g,subject:sj,rep:u.rep,tag:yrs});(u.twins||[]).forEach(function(t){var tTags=oxSourceTags(u,t);out.push({q:t.q,a:'X',trap:(t.trap||''),why:u.why,ref:u.ref,art:u.art,freq:f,weight:w,grade:g,subject:sj,rep:u.rep,tag:(tTags.length?oxTagText(tTags):yrs)});});});bank=out.filter(function(x){return x.q&&(x.a==='O'||x.a==='X');});return bank;});}
   function clearAdv(){if(st.advTimer){clearTimeout(st.advTimer);st.advTimer=null;}}
   function scheduleAdvance(ms){clearAdv();st.advTimer=setTimeout(function(){st.advTimer=null;if(st.active&&!st.paused)next();},ms);}
-  function next(){clearAdv();st.answered=false;elRev.hidden=true;elRev.innerHTML='';if(st.idx>=st.order.length){st.order=oxWeightedOrder(st.pool||st.order);st.idx=0;}st.cur=st.order[st.idx++];st.event=rollEvent();if(oxReportBtn)oxReportBtn.hidden=false;elT.classList.remove('idle','ox-correct','ox-wrong');var ev='';if(st.event==='tigerJackpot')ev=' <span class="ox-event ox-event-jackpot">🐯 호랑이의 대박 — 정답 ×10 · 오답 감점 없음</span>';else if(st.event==='tiger')ev=' <span class="ox-event ox-event-tiger">🐯 호랑이의 가호 — 정답 ×3 · 오답 감점 없음</span>';else if(st.event==='eagle')ev=' <span class="ox-event ox-event-eagle">🦅 독수리의 추락 — 정답 ÷2 · 오답 감점 ×2</span>';var gcol={'S':'#7c3aed','A+':'#2563eb','A':'#2563eb','B+':'#0891b2','B':'#0891b2','C+':'#b45309','C':'#b45309','D+':'#6b7280','D':'#6b7280'};var gchip=st.cur.grade?(' <span class="ox-tag" style="background:'+(gcol[st.cur.grade]||'#6b7280')+';color:#fff;border-color:transparent;font-weight:800">'+st.cur.grade+'급</span>'):'';elT.innerHTML=esc(st.cur.q)+' <span class="ox-tag">'+esc(st.cur.tag||'변시14')+'</span>'+gchip+ev;elBtns.hidden=false;armQ();}
-  function answer(ans,timedOut){if(!st.active||st.answered||!st.cur)return;clearQ();if(!timedOut)touch();st.answered=true;st.n++;elBtns.hidden=true;var c=st.cur,correct=(ans===c.a);if(correct){st.combo++;var base=10+Math.min(st.combo,10)*2;var GM={'S':3,'A+':2.6,'A':2.3,'B+':2,'B':1.7,'C+':1.5,'C':1.3,'D+':1.15,'D':1};var fm=GM[c.grade]||1;var add=Math.round(base*fm);var evtxt=c.grade?(' ['+c.grade+'급 ×'+fm+']'):'';if(st.event==='tigerJackpot'){add*=10;evtxt+=' 🐯대박×10';}else if(st.event==='tiger'){add*=3;evtxt+=' 🐯×3';}else if(st.event==='eagle'){add=Math.max(1,Math.floor(add/2));evtxt+=' 🦅÷2';}st.score+=add;st.ok++;elT.classList.add('ox-correct');elFeed.textContent='정답! +'+add+evtxt+' (콤보 '+st.combo+')';elFeed.className='game-feed good';}else{st.combo=0;st.hp--;var pen=10;var ptxt='';if(st.event==='tigerJackpot'){pen=0;ptxt=' (🐯 대박 보호로 감점 없음)';}else if(st.event==='tiger'){pen=0;ptxt=' (🐯 가호로 감점 없음)';}else if(st.event==='eagle'){pen*=2;ptxt=' (🦅 추락 감점 ×2)';}st.score=Math.max(0,st.score-pen);elT.classList.add('ox-wrong');elFeed.textContent=(timedOut?'⏰ 시간초과! ':'오답! ')+(pen?'-'+pen:'±0')+ptxt+' · ♥-1 · 정답은 '+c.a;elFeed.className='game-feed bad';if(st.hp<=0){stats();stop();elFeed.textContent='💀 HP 소진! 최종 점수 '+st.score+' · 정답 '+st.ok+'/'+st.n;elFeed.className='game-feed bad';return;}}stats();if(st.revealMode==='none'){scheduleAdvance(correct?550:1000);return;}var isArt=/^제[0-9]/.test(c.art||'');var link=isArt?(' · <a href="#'+esc(c.art)+'">'+esc(c.art)+' 보기 ›</a>'):'';var gc={'S':'#7c3aed','A+':'#2563eb','A':'#2563eb','B+':'#0891b2','B':'#0891b2','C+':'#b45309','C':'#b45309','D+':'#6b7280','D':'#6b7280'};var hot=(c.grade?(' <span style="font-weight:700;color:'+(gc[c.grade]||'#6b7280')+'">'+c.grade+'급</span>'):'')+((c.freq>1)?(' <span style="color:#b45309">★'+c.freq+'회</span>'):'');var corr=(c.a==='X'&&c.rep)?('<div style="margin-top:6px;padding:6px 9px;background:rgba(16,185,129,.12);border-radius:6px">✓ 옳은 명제: '+esc(c.rep)+'</div>'):'';elRev.innerHTML='<b>정답 '+esc(c.a)+'</b> <span class="ox-trap">'+esc(c.trap||'')+'</span>'+hot+'<br>'+esc(c.why||'')+corr+'<div class="ox-ref">근거: '+esc(c.ref||'')+link+'</div>';elRev.hidden=false;if(st.revealMode==='auto')scheduleAdvance(3000);}
+  function next(){clearAdv();st.answered=false;elRev.hidden=true;elRev.innerHTML='';if(elConf)elConf.hidden=true;if(st.idx>=st.order.length){st.order=oxWeightedOrder(st.pool||st.order);st.idx=0;}st.cur=st.order[st.idx++];st.event=rollEvent();if(oxReportBtn)oxReportBtn.hidden=false;elT.classList.remove('idle','ox-correct','ox-wrong');var ev='';if(st.event==='tigerJackpot')ev=' <span class="ox-event ox-event-jackpot">🐯 호랑이의 대박 — 정답 ×10 · 오답 감점 없음</span>';else if(st.event==='tiger')ev=' <span class="ox-event ox-event-tiger">🐯 호랑이의 가호 — 정답 ×3 · 오답 감점 없음</span>';else if(st.event==='eagle')ev=' <span class="ox-event ox-event-eagle">🦅 독수리의 추락 — 정답 ÷2 · 오답 감점 ×2</span>';var gcol={'S':'#7c3aed','A+':'#2563eb','A':'#2563eb','B+':'#0891b2','B':'#0891b2','C+':'#b45309','C':'#b45309','D+':'#6b7280','D':'#6b7280'};var gchip=st.cur.grade?(' <span class="ox-tag" style="background:'+(gcol[st.cur.grade]||'#6b7280')+';color:#fff;border-color:transparent;font-weight:800">'+st.cur.grade+'급</span>'):'';elT.innerHTML=esc(st.cur.q)+' <span class="ox-tag">'+esc(st.cur.tag||'변시14')+'</span>'+gchip+ev;elBtns.hidden=false;armQ();}
+  function answer(ans,timedOut){if(!st.active||st.answered||!st.cur)return;clearQ();if(!timedOut)touch();st.answered=true;st.n++;elBtns.hidden=true;var c=st.cur,correct=(ans===c.a);if(correct){st.combo++;var base=10+Math.min(st.combo,10)*2;var GM={'S':3,'A+':2.6,'A':2.3,'B+':2,'B':1.7,'C+':1.5,'C':1.3,'D+':1.15,'D':1};var fm=GM[c.grade]||1;var add=Math.round(base*fm);var evtxt=c.grade?(' ['+c.grade+'급 ×'+fm+']'):'';if(st.event==='tigerJackpot'){add*=10;evtxt+=' 🐯대박×10';}else if(st.event==='tiger'){add*=3;evtxt+=' 🐯×3';}else if(st.event==='eagle'){add=Math.max(1,Math.floor(add/2));evtxt+=' 🦅÷2';}st.score+=add;st.ok++;elT.classList.add('ox-correct');elFeed.textContent='정답! +'+add+evtxt+' (콤보 '+st.combo+')';elFeed.className='game-feed good';}else{recordWrong(c);st.combo=0;st.hp--;var pen=10;var ptxt='';if(st.event==='tigerJackpot'){pen=0;ptxt=' (🐯 대박 보호로 감점 없음)';}else if(st.event==='tiger'){pen=0;ptxt=' (🐯 가호로 감점 없음)';}else if(st.event==='eagle'){pen*=2;ptxt=' (🦅 추락 감점 ×2)';}st.score=Math.max(0,st.score-pen);elT.classList.add('ox-wrong');elFeed.textContent=(timedOut?'⏰ 시간초과! ':'오답! ')+(pen?'-'+pen:'±0')+ptxt+' · ♥-1 · 정답은 '+c.a;elFeed.className='game-feed bad';if(st.hp<=0){stats();stop();elFeed.textContent='💀 HP 소진! 최종 점수 '+st.score+' · 정답 '+st.ok+'/'+st.n;elFeed.className='game-feed bad';return;}}stats();if(elConf)elConf.hidden=false;if(st.revealMode==='none'){scheduleAdvance(correct?550:1000);return;}var isArt=/^제[0-9]/.test(c.art||'');var link=isArt?(' · <a href="#'+esc(c.art)+'">'+esc(c.art)+' 보기 ›</a>'):'';var gc={'S':'#7c3aed','A+':'#2563eb','A':'#2563eb','B+':'#0891b2','B':'#0891b2','C+':'#b45309','C':'#b45309','D+':'#6b7280','D':'#6b7280'};var hot=(c.grade?(' <span style="font-weight:700;color:'+(gc[c.grade]||'#6b7280')+'">'+c.grade+'급</span>'):'')+((c.freq>1)?(' <span style="color:#b45309">★'+c.freq+'회</span>'):'');var corr=(c.a==='X'&&c.rep)?('<div style="margin-top:6px;padding:6px 9px;background:rgba(16,185,129,.12);border-radius:6px">✓ 옳은 명제: '+esc(c.rep)+'</div>'):'';elRev.innerHTML='<b>정답 '+esc(c.a)+'</b> <span class="ox-trap">'+esc(c.trap||'')+'</span>'+hot+'<br>'+esc(c.why||'')+corr+'<div class="ox-ref">근거: '+esc(c.ref||'')+link+'</div>';elRev.hidden=false;if(st.revealMode==='auto')scheduleAdvance(3000);}
   function tick(){if(st.paused||!st.dur)return;st.time--;stats();if(st.time<=0)stop();}
   function start(){elFeed.textContent='문제를 불러오는 중...';elFeed.className='game-feed';load().then(function(b){if(!b||!b.length){elFeed.textContent='문제를 불러오지 못했습니다.';return;}var subjSel=panel.querySelector('#oxSubject');var subjV=subjSel?subjSel.value:'all';var pool=(subjV&&subjV!=='all')?b.filter(function(x){return x.subject===subjV;}):b;if(!pool.length){elFeed.textContent='해당 과목 문제가 없습니다.';return;}st.dur=parseInt(panel.querySelector('#oxDuration').value,10)||0;st.revealMode=panel.querySelector('#oxRevealMode').value||'auto';st.active=true;st.paused=false;st.ended=false;st.score=0;st.combo=0;st.ok=0;st.n=0;st.hp=5;st.time=st.dur||0;st.pool=pool.slice();st.order=oxWeightedOrder(st.pool);st.idx=0;clearAdv();if(st.timer)clearInterval(st.timer);if(st.dur)st.timer=setInterval(tick,1000);touch();if(st.idleTimer)clearInterval(st.idleTimer);st.idleTimer=null;if(!st.dur)st.idleTimer=setInterval(function(){if(st.active&&!st.paused&&Date.now()-st.lastAct>30000){stop();elFeed.textContent='30초 동안 입력이 없어 자동 종료되었습니다.';}},1000);oxPauseBtn.hidden=false;oxNextBtn.hidden=false;oxPauseBtn.textContent='멈춤';stats();next();}).catch(function(){elFeed.textContent='문제를 불러오지 못했습니다.';});}
   function setPaused(p){st.paused=p;oxPauseBtn.textContent=p?'계속':'멈춤';if(p){clearAdv();clearQ();elFeed.textContent='⏸ 멈춤 — 계속을 누르세요.';elFeed.className='game-feed';}else{if(!st.answered&&st.cur)armQ();if(st.answered&&st.revealMode==='auto')scheduleAdvance(1500);}}
@@ -18746,12 +18842,16 @@ section.art.law-subject-article-mode>.pager{display:none}
   panel.querySelector('#oxStop').addEventListener('click',stop);
   oxPauseBtn.addEventListener('click',function(){if(st.active){touch();setPaused(!st.paused);}});
   oxNextBtn.addEventListener('click',skipNext);
+  if(elConf)elConf.addEventListener('click',function(e){var b=e.target.closest('[data-confidence]');if(b)recordConfidence(b.dataset.confidence);});
   if(oxReportBtn)oxReportBtn.addEventListener('click',function(){if(!st.cur)return;if(window.__openProblemReport){window.__openProblemReport({source:'game',mode:'CLAT OX퀴즈',article:st.cur.art||'',question:st.cur.q||'',answer:st.cur.a||'',reference:st.cur.ref||'',detailHint:st.cur.why||'',tags:st.cur.tag||'',grade:st.cur.grade||''});}else alert('신고 기능을 준비 중입니다.');});
   elBtns.addEventListener('click',function(e){var b=e.target.closest('.ox-choice');if(b)answer(b.dataset.ans);});
   document.addEventListener('keydown',function(e){if(!st.active||panel.hidden)return;var k=e.key.toLowerCase();if(k==='o')answer('O');else if(k==='x')answer('X');});
 })();
 </script>
-<aside class="game-panel">
+<aside class="game-panel rank-panel">
+<details>
+<summary>전체 랭킹 보기</summary>
+<div class="rank-panel-body">
 <h2>상위 점수</h2>
 <h3>법학 타자연습</h3>
 <ol class="rank-list" id="typingRanks"></ol>
@@ -18765,6 +18865,8 @@ section.art.law-subject-article-mode>.pager{display:none}
 <ol class="rank-list" id="oxRanks"></ol>
 <h3>변시탐험</h3>
 <ol class="rank-list" id="polarRanks"></ol>
+</div>
+</details>
 </aside>
 </div>
 </div>
@@ -20589,6 +20691,8 @@ async function loadExamTerms(){
     function goodBlankOccurrence(text,term){var i=text.indexOf(term);if(i<0)return false;var left=text.charAt(i-1),right=text.charAt(i+term.length);return !(term.length<=3&&isHangul(left)&&isHangul(right));}
     var examData=await loadExamTerms();
     var objectiveAtoms=await loadObjectiveAtomStatements();
+    var studyTodayCount=document.getElementById('studyTodayCount');
+    if(studyTodayCount)studyTodayCount.textContent=(objectiveAtoms.length||0).toLocaleString('ko-KR')+'개';
     var examAll=unique((examData.all||[]).concat(examData.public||[],examData.criminal||[],examData.civil||[]));
     var examPublic=unique(examData.public||[]),examCriminal=unique(examData.criminal||[]),examCivil=unique(examData.civil||[]);
     function buildBlanks(){
@@ -20840,6 +20944,18 @@ async function loadExamTerms(){
       var mode=btn.dataset.rankMode;
       rankLevel[mode]=Math.min((rankLevel[mode]||0)+1,rankLimits.length-1);
       renderRanks();
+    });
+    root.addEventListener('click',function(e){
+      var action=e.target.closest('[data-game-open]');
+      if(!action)return;
+      var tab=root.querySelector('.game-tab[data-game-tab="'+action.dataset.gameOpen+'"]');
+      if(tab)tab.click();
+      if(action.dataset.typingBank){
+        var typingBank=document.getElementById('typingBank');
+        if(typingBank)typingBank.value=action.dataset.typingBank;
+      }
+      var active=root.querySelector('[data-game-panel="'+action.dataset.gameOpen+'"]');
+      if(active)active.scrollIntoView({behavior:'smooth',block:'start'});
     });
     renderRanks();
     root.querySelectorAll('.game-tab').forEach(function(btn){
