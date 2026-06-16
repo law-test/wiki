@@ -206,6 +206,13 @@ div.paper.flat:hover{background:var(--bg2)}
 .game-feed{font-size:13px;color:var(--txt3);min-height:22px}
 .game-feed.good{color:#216e39}.game-feed.bad{color:#9b1c1c}
 .game-help{font-size:12.5px;color:var(--txt3);line-height:1.65;margin-top:6px}
+.game-help.ox-help{border:1px solid #e5e7eb;border-radius:14px;background:#fff;padding:8px 11px;margin:8px 0 12px}
+.game-help.ox-help summary{cursor:pointer;font-weight:900;color:var(--accent-dark);list-style:none}
+.game-help.ox-help summary::-webkit-details-marker{display:none}
+.game-help.ox-help summary::after{content:"+";float:right;color:var(--txt3);font-weight:900}
+.game-help.ox-help[open] summary::after{content:"-"}
+.game-help.ox-help ul{margin:7px 0 0 16px;padding:0}
+.game-help.ox-help li{margin:2px 0}
 .game-bonus{display:inline-flex;align-items:center;justify-content:center;min-width:44px;border:1px solid var(--line);background:var(--bg2);color:var(--txt2);font-size:13px;font-weight:900;border-radius:18px;padding:3px 10px;margin:4px 0 0}
 .game-bonus.hot{border-color:var(--accent);background:var(--accent-bg);color:var(--accent-dark)}
 .game-bonus.ultra{border-width:2px;letter-spacing:.5px}
@@ -18747,7 +18754,16 @@ section.art.law-subject-article-mode>.pager{display:none}
 </style>
 <div class="game-panel" data-game-panel="ox">
 <h2>CLAT <span style="font-size:14px;font-weight:700;color:var(--txt3)">— 변호사시험 기출 OX퀴즈</span></h2>
-<p class="note">실제 변호사시험 제1회부터 제15회까지 전개년 기출문제를 반영하고, 2026. 6. 16. 시행 법령 기준으로 검증한 OX 문제입니다. 문장이 맞으면 <b>O</b>, 틀리면 <b>X</b>를 누르세요(키보드 O·X 가능). 정답 공개 시 함정유형·해설·관련 조문 링크가 나옵니다. 정답은 가점, 오답은 감점(-10)입니다. 높은 등급 문제일수록 더 자주 출제됩니다. 문제마다 <b>🐯 호랑이의 가호</b> 30%(그중 3%는 <b>호랑이의 대박</b> 정답 ×10) 또는 <b>🦅 독수리의 추락</b> 20%가 서로 겹치지 않게 발동합니다. 전부 맞히고 끝나면 <b>🎯 퍼펙트 보너스 +30%</b>. HP는 5에서 시작해 오답·시간초과마다 1씩 줄고 0이 되면 게임 오버. 각 문제는 <b>20초 안에</b> O/X를 골라야 하며(초과 시 오답 처리), 제한없음 모드는 30초간 입력이 없으면 자동 종료됩니다.</p>
+<p class="note">변호사시험 제1~15회 기출 지문을 2026. 6. 16. 시행 법령 기준으로 검토한 OX입니다. 맞으면 <b>O</b>, 틀리면 <b>X</b>.</p>
+<details class="game-help ox-help">
+<summary>도움말</summary>
+<ul>
+<li>키보드 O·X로도 풀 수 있고, 정답 공개 시 해설과 조문 링크가 나옵니다.</li>
+<li>HP 5에서 시작합니다. 오답·시간초과는 HP -1, 점수 -10입니다.</li>
+<li>각 문제는 20초 제한입니다. 제한없음 모드는 30초 동안 입력이 없으면 종료됩니다.</li>
+<li>높은 등급 문제가 더 자주 나오며, 호랑이·독수리·퍼펙트 보너스가 적용됩니다.</li>
+</ul>
+</details>
 <div class="game-controls">
 <input id="oxNick" maxlength="16" placeholder="닉네임" type="text"/>
 <select id="oxDuration"><option selected="" value="60">60초</option><option value="90">90초</option><option value="120">120초</option><option value="0">제한없음</option></select>
@@ -18772,7 +18788,7 @@ section.art.law-subject-article-mode>.pager{display:none}
 <button class="game-btn ghost" id="oxPause" type="button" hidden="">멈춤</button>
 <button class="game-btn ghost" id="oxNext" type="button" hidden="">넘김 ›</button>
 </div>
-<div class="game-feed" id="oxFeed">변호사시험 제1~15회 전개년 기출 반영 · 2026. 6. 16. 시행 법령 기준 검증 · 빈출 가중 점수 · O·X로 도전</div>
+<div class="game-feed" id="oxFeed">준비되면 시작을 누르세요.</div>
 <div class="ox-reveal" id="oxReveal" hidden=""></div>
 <div class="confidence-row" id="oxConfidence" hidden="">
 <span>이 지문 기억 정도</span>
