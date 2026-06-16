@@ -18628,6 +18628,7 @@ section.art.law-subject-article-mode>.pager{display:none}
 </div>
 <div aria-label="학습 모드 선택" class="game-tabs study-mode-grid" role="tablist">
 <button class="game-tab active" data-game-tab="ox" type="button"><strong>CLAT</strong><span>기출 atom을 O/X로 확인</span></button>
+<button class="game-tab" data-game-tab="ethics" type="button"><strong>윤리게임</strong><span>법조윤리 기출 O/X</span></button>
 <button class="game-tab" data-game-tab="typing" type="button"><strong>타자연습</strong><span>객관식 정지문·중요문구 입력</span></button>
 <button class="game-tab" data-game-tab="blank" type="button"><strong>조문 빈칸</strong><span>조문 핵심어 복습</span></button>
 <button class="game-tab" data-game-tab="caseblank" type="button"><strong>판례 빈칸</strong><span>표준판례 핵심어 복습</span></button>
@@ -18881,6 +18882,150 @@ section.art.law-subject-article-mode>.pager{display:none}
   document.addEventListener('keydown',function(e){if(!st.active||panel.hidden)return;var k=e.key.toLowerCase();if(k==='o')answer('O');else if(k==='x')answer('X');});
 })();
 </script>
+<div class="game-panel" data-game-panel="ethics" hidden="">
+<h2>윤리게임 <span style="font-size:14px;font-weight:700;color:var(--txt3)">— 법조윤리 기출 OX</span></h2>
+<p class="note">법조윤리시험 기출 atom을 따로 풀어보는 O/X 게임입니다. 문장이 맞으면 <b>O</b>, 틀리면 <b>X</b>.</p>
+<div class="game-controls">
+<input id="ethicsNick" maxlength="16" placeholder="닉네임" type="text"/>
+<select id="ethicsDuration"><option selected="" value="60">60초</option><option value="90">90초</option><option value="120">120초</option><option value="0">제한없음</option></select>
+<select id="ethicsRevealMode"><option selected="" value="auto">해설 3초 자동</option><option value="manual">해설 수동 넘김</option><option value="none">해설 안 보기</option></select>
+<button class="game-btn primary ox-start" id="ethicsStart" type="button">시작</button>
+<button class="game-btn ghost" id="ethicsStop" type="button">종료</button>
+</div>
+<div class="game-statgrid">
+<div class="game-stat"><b id="ethicsScore">0</b><span>점수</span></div>
+<div class="game-stat"><b id="ethicsHp">♥5</b><span>HP</span></div>
+<div class="game-stat"><b id="ethicsTime">60</b><span>남은 초</span></div>
+<div class="game-stat"><b id="ethicsCombo">0</b><span>콤보</span></div>
+<div class="game-stat"><b id="ethicsAcc">0/0</b><span>정답</span></div>
+</div>
+<div class="game-target idle" id="ethicsTarget">시작을 누르면 법조윤리 문제가 나옵니다.</div>
+<div class="ox-btns" id="ethicsButtons" hidden="">
+<button class="ox-choice ox-o" data-ans="O" type="button">O</button>
+<button class="ox-choice ox-x" data-ans="X" type="button">X</button>
+</div>
+<div class="ox-flow-controls">
+<button class="game-btn problem-report-btn" id="ethicsReport" type="button" hidden="">오류 신고하기</button>
+<button class="game-btn ghost" id="ethicsPause" type="button" hidden="">멈춤</button>
+<button class="game-btn ghost" id="ethicsNext" type="button" hidden="">넘김 ›</button>
+</div>
+<div class="game-feed" id="ethicsFeed">법조윤리는 CLAT와 분리되어 기록됩니다.</div>
+<div class="ox-reveal" id="ethicsReveal" hidden=""></div>
+</div>
+<script>
+(function(){
+  var panel=document.querySelector('[data-game-panel="ethics"]');
+  if(!panel)return;
+  var bank=null;
+  var st={active:false,paused:false,ended:false,timer:null,advTimer:null,qTimer:null,dur:60,time:60,score:0,combo:0,ok:0,n:0,hp:5,order:[],idx:0,cur:null,answered:false,revealMode:'auto',lastAct:0,idleTimer:null};
+  var elT=panel.querySelector('#ethicsTarget'),elBtns=panel.querySelector('#ethicsButtons'),elFeed=panel.querySelector('#ethicsFeed'),elRev=panel.querySelector('#ethicsReveal');
+  var pauseBtn=panel.querySelector('#ethicsPause'),nextBtn=panel.querySelector('#ethicsNext'),reportBtn=panel.querySelector('#ethicsReport'),nick=panel.querySelector('#ethicsNick');
+  function esc(s){var d=document.createElement('div');d.textContent=(s==null?'':s);return d.innerHTML;}
+  function touch(){st.lastAct=Date.now();}
+  function clearQ(){if(st.qTimer){clearTimeout(st.qTimer);st.qTimer=null;}}
+  function clearAdv(){if(st.advTimer){clearTimeout(st.advTimer);st.advTimer=null;}}
+  function scheduleAdvance(ms){clearAdv();st.advTimer=setTimeout(function(){st.advTimer=null;if(st.active&&!st.paused)next();},ms);}
+  function shuffle(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t;}return a;}
+  function gradeFreq(g){return {'S':8,'A+':7,'A':6,'B+':5,'B':4,'C+':3,'C':2,'D+':1,'D':1}[g]||1;}
+  function weighted(pool){var out=[];(pool||[]).forEach(function(q){for(var i=0,n=gradeFreq(q.grade);i<n;i++)out.push(q);});return shuffle(out.length?out:pool.slice());}
+  function tagsFrom(row,twin){
+    var tags=[];
+    function push(v){if(v&&tags.indexOf(v)<0)tags.push(v);}
+    function scan(v){
+      if(!v)return;
+      if(Array.isArray(v)){v.forEach(scan);return;}
+      var s=String(v),m,re=/법윤\s*([0-9]+)/g;
+      while((m=re.exec(s)))push('법윤'+m[1]);
+    }
+    scan(row&&row.years);scan(row&&row.src);scan(row&&row.ref);scan(twin&&twin.src);scan(twin&&twin.ref);
+    tags.sort(function(a,b){var an=parseInt((a.match(/[0-9]+/)||[0])[0],10)||0;var bn=parseInt((b.match(/[0-9]+/)||[0])[0],10)||0;return bn-an;});
+    return tags.join(' · ');
+  }
+  function load(){
+    if(bank)return Promise.resolve(bank);
+    return fetch('assets/ox_legal_ethics_exam15.json?v=20260617ethics').then(function(r){return r.json();}).then(function(data){
+      var out=[];
+      (data.items||[]).forEach(function(u){
+        if(!u.rep)return;
+        var base={q:u.rep,a:'O',trap:u.topic||'',why:u.why||'',ref:u.ref||'',art:u.art||'',grade:u.grade||'',freq:u.freq||1,rep:u.rep,tag:tagsFrom(u)};
+        out.push(base);
+        (u.twins||[]).forEach(function(t){
+          out.push({q:t.q,a:'X',trap:t.trap||u.topic||'',why:u.why||'',ref:t.ref||u.ref||'',art:u.art||'',grade:t.grade||u.grade||'',freq:u.freq||1,rep:u.rep,tag:tagsFrom(u,t)});
+        });
+      });
+      bank=out.filter(function(x){return x.q&&(x.a==='O'||x.a==='X');});
+      return bank;
+    });
+  }
+  function stats(){
+    panel.querySelector('#ethicsScore').textContent=st.score;
+    panel.querySelector('#ethicsHp').textContent='♥'+Math.max(0,st.hp);
+    panel.querySelector('#ethicsTime').textContent=st.dur?st.time:'∞';
+    panel.querySelector('#ethicsCombo').textContent=st.combo;
+    panel.querySelector('#ethicsAcc').textContent=st.ok+'/'+st.n;
+  }
+  function armQ(){clearQ();st.qTimer=setTimeout(function(){st.qTimer=null;if(st.active&&!st.paused&&!st.answered)answer(null,true);},20000);}
+  function next(){
+    clearAdv();st.answered=false;elRev.hidden=true;elRev.innerHTML='';
+    if(st.idx>=st.order.length){st.order=weighted(st.pool||st.order);st.idx=0;}
+    st.cur=st.order[st.idx++];if(reportBtn)reportBtn.hidden=false;
+    elT.classList.remove('idle','ox-correct','ox-wrong');
+    var gchip=st.cur.grade?(' <span class="ox-tag">'+esc(st.cur.grade)+'급</span>'):'';
+    elT.innerHTML=esc(st.cur.q)+' <span class="ox-tag">'+esc(st.cur.tag||'법윤15')+'</span>'+gchip;
+    elBtns.hidden=false;armQ();
+  }
+  function answer(ans,timedOut){
+    if(!st.active||st.answered||!st.cur)return;
+    clearQ();if(!timedOut)touch();st.answered=true;st.n++;elBtns.hidden=true;
+    var c=st.cur,correct=(ans===c.a);
+    if(correct){
+      st.combo++;var add=12+Math.min(st.combo,10)*2+Math.round((gradeFreq(c.grade)-1)*3);st.score+=add;st.ok++;
+      elT.classList.add('ox-correct');elFeed.textContent='정답! +'+add+' · 콤보 '+st.combo;elFeed.className='game-feed good';
+    }else{
+      st.combo=0;st.hp--;st.score=Math.max(0,st.score-10);
+      elT.classList.add('ox-wrong');elFeed.textContent=(timedOut?'시간초과! ':'오답! ')+'-10 · ♥-1 · 정답은 '+c.a;elFeed.className='game-feed bad';
+      if(st.hp<=0){stats();stop();elFeed.textContent='HP 소진! 최종 점수 '+st.score+' · 정답 '+st.ok+'/'+st.n;elFeed.className='game-feed bad';return;}
+    }
+    stats();
+    if(st.revealMode!=='none'){
+      var corr=(c.a==='X'&&c.rep)?('<div style="margin-top:6px;padding:6px 9px;background:rgba(16,185,129,.12);border-radius:6px">옳은 명제: '+esc(c.rep)+'</div>'):'';
+      elRev.innerHTML='<b>정답 '+esc(c.a)+'</b> <span class="ox-trap">'+esc(c.trap||'')+'</span><br>'+esc(c.why||'')+corr+'<div class="ox-ref">근거: '+esc(c.ref||'')+'</div>';
+      elRev.hidden=false;
+    }
+    if(st.revealMode==='auto')scheduleAdvance(3000);
+  }
+  function tick(){if(st.paused||!st.dur)return;st.time--;stats();if(st.time<=0)stop();}
+  function start(){
+    elFeed.textContent='문제를 불러오는 중...';elFeed.className='game-feed';
+    load().then(function(pool){
+      if(!pool.length){elFeed.textContent='윤리게임 문제가 없습니다.';return;}
+      st={active:true,paused:false,ended:false,timer:null,advTimer:null,qTimer:null,dur:parseInt(panel.querySelector('#ethicsDuration').value,10)||0,time:0,score:0,combo:0,ok:0,n:0,hp:5,order:[],idx:0,cur:null,answered:false,revealMode:panel.querySelector('#ethicsRevealMode').value||'auto',lastAct:Date.now(),idleTimer:null,pool:pool.slice()};
+      st.time=st.dur||0;st.order=weighted(st.pool);clearAdv();clearQ();
+      if(st.dur)st.timer=setInterval(tick,1000);
+      if(!st.dur)st.idleTimer=setInterval(function(){if(st.active&&!st.paused&&Date.now()-st.lastAct>30000){stop();elFeed.textContent='30초 동안 입력이 없어 자동 종료되었습니다.';}},1000);
+      pauseBtn.hidden=false;nextBtn.hidden=false;pauseBtn.textContent='멈춤';stats();next();
+    }).catch(function(){elFeed.textContent='윤리게임 문제를 불러오지 못했습니다.';});
+  }
+  function setPaused(p){st.paused=p;pauseBtn.textContent=p?'계속':'멈춤';if(p){clearAdv();clearQ();elFeed.textContent='멈춤 중입니다.';}else{if(!st.answered&&st.cur)armQ();if(st.answered&&st.revealMode==='auto')scheduleAdvance(1500);}}
+  function stop(){
+    if(st.ended)return;st.ended=true;st.active=false;st.paused=false;clearAdv();clearQ();
+    if(st.timer)clearInterval(st.timer);if(st.idleTimer)clearInterval(st.idleTimer);
+    elBtns.hidden=true;elRev.hidden=true;pauseBtn.hidden=true;nextBtn.hidden=true;if(reportBtn)reportBtn.hidden=true;
+    elT.classList.remove('ox-correct','ox-wrong');elT.classList.add('idle');
+    var perfect=(st.n>0&&st.ok===st.n);if(perfect)st.score=Math.round(st.score*1.3);
+    elT.textContent='종료! 점수 '+st.score+(perfect?' · 퍼펙트 +30%':'')+' · 정답 '+st.ok+'/'+st.n;
+    elFeed.className='game-feed';elFeed.textContent='윤리게임 기록은 CLAT와 따로 저장됩니다.';
+    if(st.dur&&st.n>0&&window.__addGameScore){try{window.__addGameScore('ethics',st.score,(nick&&nick.value)||'익명','정답 '+st.ok+'/'+st.n+(perfect?' · 퍼펙트':''));}catch(e){}}
+  }
+  panel.querySelector('#ethicsStart').addEventListener('click',start);
+  panel.querySelector('#ethicsStop').addEventListener('click',stop);
+  pauseBtn.addEventListener('click',function(){if(st.active){touch();setPaused(!st.paused);}});
+  nextBtn.addEventListener('click',function(){if(st.active){touch();clearAdv();next();}});
+  elBtns.addEventListener('click',function(e){var b=e.target.closest('.ox-choice');if(b)answer(b.dataset.ans);});
+  if(reportBtn)reportBtn.addEventListener('click',function(){if(!st.cur)return;if(window.__openProblemReport){window.__openProblemReport({source:'game',mode:'윤리게임',article:st.cur.art||'',question:st.cur.q||'',answer:st.cur.a||'',reference:st.cur.ref||'',detailHint:st.cur.why||'',tags:st.cur.tag||'',grade:st.cur.grade||''});}else alert('신고 기능을 준비 중입니다.');});
+  document.addEventListener('keydown',function(e){if(!st.active||panel.hidden)return;var k=e.key.toLowerCase();if(k==='o')answer('O');else if(k==='x')answer('X');});
+})();
+</script>
 <aside class="game-panel rank-panel">
 <section class="recent-score-box" aria-label="최근 기록">
 <h2>최근 기록</h2>
@@ -18900,6 +19045,8 @@ section.art.law-subject-article-mode>.pager{display:none}
 <ol class="rank-list" id="caseblankRanks"></ol>
 <h3>CLAT (OX퀴즈)</h3>
 <ol class="rank-list" id="oxRanks"></ol>
+<h3>윤리게임</h3>
+<ol class="rank-list" id="ethicsRanks"></ol>
 <h3>변시탐험</h3>
 <ol class="rank-list" id="polarRanks"></ol>
 </div>
@@ -20946,8 +21093,8 @@ async function loadExamTerms(){
       var income=500*Math.pow(2,level-4);
       return {success:'월 소득 '+income.toLocaleString('ko-KR')+' 달성',fail:'월 소득 '+income.toLocaleString('ko-KR')+' 실패'};
     }
-    var rankLimits=[5,10,50,100,200],rankLevel={typing:0,rain:0,blank:0,caseblank:0,polar:0,ox:0};
-    var rankTitles={typing:'타자왕',rain:'산성비킹',blank:'조문왕',caseblank:'판례왕',polar:'변시킹',ox:'OX왕'};
+    var rankLimits=[5,10,50,100,200],rankLevel={typing:0,rain:0,blank:0,caseblank:0,polar:0,ox:0,ethics:0};
+    var rankTitles={typing:'타자왕',rain:'산성비킹',blank:'조문왕',caseblank:'판례왕',polar:'변시킹',ox:'OX왕',ethics:'윤리왕'};
     function displayRankDetail(mode,detail){
       detail=detail||'';
       if(mode!=='polar')return detail;
@@ -21004,9 +21151,9 @@ async function loadExamTerms(){
       });
       return rank;
     }
-    function modeTitle(mode){return {typing:'법학 타자연습',rain:'법학 산성비',blank:'조문왕',caseblank:'판례왕',polar:'변시탐험',ox:'CLAT OX'}[mode]||mode;}
+    function modeTitle(mode){return {typing:'법학 타자연습',rain:'법학 산성비',blank:'조문왕',caseblank:'판례왕',polar:'변시탐험',ox:'CLAT OX',ethics:'윤리게임'}[mode]||mode;}
     function normalizeScoreGroups(groups){
-      var out={typing:[],rain:[],blank:[],caseblank:[],polar:[],ox:[]};
+      var out={typing:[],rain:[],blank:[],caseblank:[],polar:[],ox:[],ethics:[]};
       Object.keys(out).forEach(function(mode){
         out[mode]=sortScoreRows((groups[mode]||[]).map(function(r){
           var parsed=readStoredScore({score:r.score,detail:r.detail||'',at:r.at||r.created_at});
@@ -21016,7 +21163,7 @@ async function loadExamTerms(){
       return out;
     }
     function trimStoredScoreGroups(groups){
-      var out={typing:[],rain:[],blank:[],caseblank:[],polar:[],ox:[]};
+      var out={typing:[],rain:[],blank:[],caseblank:[],polar:[],ox:[],ethics:[]};
       Object.keys(out).forEach(function(mode){
         out[mode]=(groups[mode]||[]).slice().sort(function(a,b){
           var pa=readStoredScore({score:a.score,detail:a.detail||'',at:a.at||a.created_at});
@@ -21031,7 +21178,7 @@ async function loadExamTerms(){
       var shownScore=Math.round(score),days=gameScoreDays(),adjustedScore=gameAdjustedScore(shownScore),storedScore=adjustedScore<=0?1:adjustedScore,scoreDetail=(shownScore<=0?'표시점수:0 · ':'')+gameScoreAdjustmentPrefix(shownScore,adjustedScore,days)+(detail||''),scoreAt=new Date().toISOString(),scoreName=cleanText(name)||'익명';
       var db=window.LAWINUS_DB,user=db&&db.user;
       if(db&&db.client){
-        var dbMode=(mode==='caseblank'||mode==='ox')?'blank':mode,dbDetail=mode==='caseblank'?('판례왕 · '+scoreDetail):(mode==='ox'?('CLAT · '+scoreDetail):scoreDetail);
+        var dbMode=(mode==='caseblank'||mode==='ox'||mode==='ethics')?'blank':mode,dbDetail=mode==='caseblank'?('판례왕 · '+scoreDetail):(mode==='ox'?('CLAT · '+scoreDetail):(mode==='ethics'?('윤리게임 · '+scoreDetail):scoreDetail));
         var res=await db.client.from('game_scores').insert({user_id:user?user.id:null,author_name:scoreName,mode:dbMode,score:storedScore,detail:dbDetail});
         if(res.error){console.warn(res.error);var fallback=allScores();fallback[mode]=fallback[mode]||[];fallback[mode].push({name:scoreName,score:storedScore,detail:scoreDetail,at:scoreAt});fallback=trimStoredScoreGroups(fallback);setAllScores(fallback);}
         var recent=recentScores();recent.unshift({mode:mode,name:scoreName,score:storedScore,detail:scoreDetail,at:scoreAt});setRecentScores(recent);
@@ -21081,11 +21228,11 @@ async function loadExamTerms(){
       if(!db||!db.client)return normalizeScoreGroups(allScores());
       var res=await db.client.from('game_scores').select('mode,score,detail,author_name,created_at').order('score',{ascending:false}).order('created_at',{ascending:true}).limit(1000);
       if(res.error){console.warn(res.error);return normalizeScoreGroups(allScores());}
-      var grouped={typing:[],rain:[],blank:[],caseblank:[],polar:[],ox:[]};
+      var grouped={typing:[],rain:[],blank:[],caseblank:[],polar:[],ox:[],ethics:[]};
       (res.data||[]).forEach(function(r){
-        var detail=r.detail||'',mode=detail.indexOf('판례왕 · ')===0?'caseblank':(detail.indexOf('CLAT · ')===0?'ox':r.mode);
+        var detail=r.detail||'',mode=detail.indexOf('판례왕 · ')===0?'caseblank':(detail.indexOf('CLAT · ')===0?'ox':(detail.indexOf('윤리게임 · ')===0?'ethics':r.mode));
         if(grouped[mode]){
-          var parsed=readStoredScore({score:r.score,detail:mode==='caseblank'?detail.replace(/^판례왕 ·\s*/,''):(mode==='ox'?detail.replace(/^CLAT ·\s*/,''):detail),at:r.created_at});
+          var parsed=readStoredScore({score:r.score,detail:mode==='caseblank'?detail.replace(/^판례왕 ·\s*/,''):(mode==='ox'?detail.replace(/^CLAT ·\s*/,''):(mode==='ethics'?detail.replace(/^윤리게임 ·\s*/,''):detail)),at:r.created_at});
           grouped[mode].push({name:r.author_name||'회원',score:parsed.score,detail:parsed.detail,at:r.created_at});
         }
       });
@@ -21097,9 +21244,13 @@ async function loadExamTerms(){
       if(!oxRes.error){
         grouped.ox=(oxRes.data||[]).map(function(r){var parsed=readStoredScore({score:r.score,detail:(r.detail||'').replace(/^CLAT ·\s*/,''),at:r.created_at});return {name:r.author_name||'회원',score:parsed.score,detail:parsed.detail,at:r.created_at};});
       }else{console.warn(oxRes.error);}
+      var ethicsRes=await db.client.from('game_scores').select('mode,score,detail,author_name,created_at').eq('mode','blank').like('detail','윤리게임 ·%').order('score',{ascending:false}).order('created_at',{ascending:true}).limit(200);
+      if(!ethicsRes.error){
+        grouped.ethics=(ethicsRes.data||[]).map(function(r){var parsed=readStoredScore({score:r.score,detail:(r.detail||'').replace(/^윤리게임 ·\s*/,''),at:r.created_at});return {name:r.author_name||'회원',score:parsed.score,detail:parsed.detail,at:r.created_at};});
+      }else{console.warn(ethicsRes.error);}
       return normalizeScoreGroups(grouped);
     }
-    async function renderRanks(){var d=await fetchScores();renderRecentScores(d);renderRankList('typingRanks',d.typing||[]);renderRankList('rainRanks',d.rain||[]);renderRankList('blankRanks',d.blank||[]);renderRankList('caseblankRanks',d.caseblank||[]);renderRankList('oxRanks',d.ox||[]);renderRankList('polarRanks',d.polar||[]);}
+    async function renderRanks(){var d=await fetchScores();renderRecentScores(d);renderRankList('typingRanks',d.typing||[]);renderRankList('rainRanks',d.rain||[]);renderRankList('blankRanks',d.blank||[]);renderRankList('caseblankRanks',d.caseblank||[]);renderRankList('oxRanks',d.ox||[]);renderRankList('ethicsRanks',d.ethics||[]);renderRankList('polarRanks',d.polar||[]);}
     document.addEventListener('lawinus-auth-change',renderRanks);
     root.addEventListener('click',function(e){
       var btn=e.target.closest('.rank-more');
