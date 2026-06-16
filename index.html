@@ -801,6 +801,13 @@ section.art.law-subject-article-mode>.pager{display:none}
 .article-atoms .note{margin:0;color:#667085}
 .atom-count-pill{display:inline-flex;align-items:center;border-radius:999px;background:#ede9fe;color:#4c1d95;padding:3px 9px;font-size:12px;font-weight:950}
 .atom-cta{flex:0 0 auto;border:1px solid rgba(109,40,217,.22);border-radius:999px;background:#fff;color:#4c1d95;font-size:12px;font-weight:950;padding:8px 12px;box-shadow:var(--shadow-sm)}
+.problem-report-btn{display:inline-flex;align-items:center;justify-content:center;border:1px solid #b91c1c;border-radius:999px;background:#dc2626;color:#fff;font-size:12px;font-weight:950;padding:7px 12px;line-height:1;box-shadow:0 10px 20px rgba(220,38,38,.22);cursor:pointer}
+.problem-report-btn:hover{background:#b91c1c;color:#fff}
+.clarity-fix .problem-report-btn,.clarity-fix .game-btn.problem-report-btn{border-color:#b91c1c;background:#dc2626;color:#fff}
+.clarity-fix .problem-report-btn:hover,.clarity-fix .game-btn.problem-report-btn:hover{background:#b91c1c;color:#fff}
+.problem-report-btn:disabled{opacity:.58;cursor:not-allowed}
+.problem-report-row{display:flex;justify-content:flex-end;margin:8px 0 0}
+.atom-report{margin-left:8px;padding:4px 9px;font-size:11px;box-shadow:none;vertical-align:middle}
 .atom-list{display:grid;gap:12px}
 .atom-card{display:grid;grid-template-columns:48px minmax(0,1fr);gap:12px;border:1px solid rgba(209,213,219,.92);border-radius:18px;background:#fff;padding:14px 15px;box-shadow:var(--shadow-sm)}
 .atom-card.is-o{border-color:rgba(22,163,74,.28)}
@@ -18598,6 +18605,7 @@ section.art.law-subject-article-mode>.pager{display:none}
 <div class="blank-article" id="blankArticle">조문</div>
 <div class="game-target idle" id="blankQuestion">시작을 누르면 도전! 조문왕 문제가 나옵니다.</div>
 <input autocomplete="off" class="game-input" disabled="" id="blankInput" placeholder="빈칸에 들어갈 말" type="text"/>
+<div class="problem-report-row"><button class="problem-report-btn" id="blankReport" type="button" hidden="">신고하기</button></div>
 <div class="game-feed" id="blankFeed">같은 정답 단어가 반복되지 않도록 문제를 구성했습니다.</div>
 </div>
 <div class="game-panel" data-game-panel="caseblank" hidden="">
@@ -18618,6 +18626,7 @@ section.art.law-subject-article-mode>.pager{display:none}
 <div class="blank-article" id="caseArticle">판례</div>
 <div class="game-target idle" id="caseQuestion">시작을 누르면 도전! 판례왕 문제가 나옵니다.</div>
 <input autocomplete="off" class="game-input" disabled="" id="caseInput" placeholder="빈칸에 들어갈 말" type="text"/>
+<div class="problem-report-row"><button class="problem-report-btn" id="caseReport" type="button" hidden="">신고하기</button></div>
 <div class="game-feed" id="caseFeed">변호사시험 예상판례 문제은행에서 랜덤 출제됩니다.</div>
 </div>
 <div class="game-panel" data-game-panel="polar" hidden="">
@@ -18680,6 +18689,7 @@ section.art.law-subject-article-mode>.pager{display:none}
 <button class="ox-choice ox-x" data-ans="X" type="button">X</button>
 </div>
 <div class="ox-flow-controls">
+<button class="game-btn problem-report-btn" id="oxReport" type="button" hidden="">신고하기</button>
 <button class="game-btn ghost" id="oxPause" type="button" hidden="">멈춤</button>
 <button class="game-btn ghost" id="oxNext" type="button" hidden="">넘김 ›</button>
 </div>
@@ -18698,7 +18708,7 @@ section.art.law-subject-article-mode>.pager{display:none}
   function armQ(){clearQ();st.qTimer=setTimeout(function(){st.qTimer=null;if(st.active&&!st.paused&&!st.answered)answer(null,true);},20000);}
   function rollEvent(){var r=Math.random();if(r<0.03)return 'tigerJackpot';if(r<0.30)return 'tiger';if(r<0.50)return 'eagle';return null;}
   var elT=panel.querySelector('#oxTarget'),elBtns=panel.querySelector('#oxButtons'),elFeed=panel.querySelector('#oxFeed'),elRev=panel.querySelector('#oxReveal');
-  var oxPauseBtn=panel.querySelector('#oxPause'),oxNextBtn=panel.querySelector('#oxNext'),oxNick=panel.querySelector('#oxNick');
+  var oxPauseBtn=panel.querySelector('#oxPause'),oxNextBtn=panel.querySelector('#oxNext'),oxReportBtn=panel.querySelector('#oxReport'),oxNick=panel.querySelector('#oxNick');
   function esc(s){var d=document.createElement('div');d.textContent=(s==null?'':s);return d.innerHTML;}
   function stats(){panel.querySelector('#oxScore').textContent=st.score;panel.querySelector('#oxHp').textContent='♥'+Math.max(0,st.hp);panel.querySelector('#oxTime').textContent=st.dur?st.time:'∞';panel.querySelector('#oxCombo').textContent=st.combo;panel.querySelector('#oxAcc').textContent=st.ok+'/'+st.n;}
   function shuffle(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t;}return a;}
@@ -18723,17 +18733,18 @@ section.art.law-subject-article-mode>.pager{display:none}
   function load(){if(bank)return Promise.resolve(bank);return fetch('assets/ox_msa_unified_v001.json?v=20260616x').then(function(r){return r.json();}).then(function(d){var out=[];(d.items||[]).forEach(function(u){if(!u.rep)return;var f=u.freq||1;var w=u.weight||0;var g=u.grade||'';var sj=u.subject||'민법';var tags=oxSourceTags(u);var yrs=oxTagText(tags);out.push({q:u.rep,a:'O',trap:(u.topic||''),why:u.why,ref:u.ref,art:u.art,freq:f,weight:w,grade:g,subject:sj,rep:u.rep,tag:yrs});(u.twins||[]).forEach(function(t){var tTags=oxSourceTags(u,t);out.push({q:t.q,a:'X',trap:(t.trap||''),why:u.why,ref:u.ref,art:u.art,freq:f,weight:w,grade:g,subject:sj,rep:u.rep,tag:(tTags.length?oxTagText(tTags):yrs)});});});bank=out.filter(function(x){return x.q&&(x.a==='O'||x.a==='X');});return bank;});}
   function clearAdv(){if(st.advTimer){clearTimeout(st.advTimer);st.advTimer=null;}}
   function scheduleAdvance(ms){clearAdv();st.advTimer=setTimeout(function(){st.advTimer=null;if(st.active&&!st.paused)next();},ms);}
-  function next(){clearAdv();st.answered=false;elRev.hidden=true;elRev.innerHTML='';if(st.idx>=st.order.length){st.order=oxWeightedOrder(st.pool||st.order);st.idx=0;}st.cur=st.order[st.idx++];st.event=rollEvent();elT.classList.remove('idle','ox-correct','ox-wrong');var ev='';if(st.event==='tigerJackpot')ev=' <span class="ox-event ox-event-jackpot">🐯 호랑이의 대박 — 정답 ×10 · 오답 감점 없음</span>';else if(st.event==='tiger')ev=' <span class="ox-event ox-event-tiger">🐯 호랑이의 가호 — 정답 ×3 · 오답 감점 없음</span>';else if(st.event==='eagle')ev=' <span class="ox-event ox-event-eagle">🦅 독수리의 추락 — 정답 ÷2 · 오답 감점 ×2</span>';var gcol={'S':'#7c3aed','A+':'#2563eb','A':'#2563eb','B+':'#0891b2','B':'#0891b2','C+':'#b45309','C':'#b45309','D+':'#6b7280','D':'#6b7280'};var gchip=st.cur.grade?(' <span class="ox-tag" style="background:'+(gcol[st.cur.grade]||'#6b7280')+';color:#fff;border-color:transparent;font-weight:800">'+st.cur.grade+'급</span>'):'';elT.innerHTML=esc(st.cur.q)+' <span class="ox-tag">'+esc(st.cur.tag||'변시14')+'</span>'+gchip+ev;elBtns.hidden=false;armQ();}
+  function next(){clearAdv();st.answered=false;elRev.hidden=true;elRev.innerHTML='';if(st.idx>=st.order.length){st.order=oxWeightedOrder(st.pool||st.order);st.idx=0;}st.cur=st.order[st.idx++];st.event=rollEvent();if(oxReportBtn)oxReportBtn.hidden=false;elT.classList.remove('idle','ox-correct','ox-wrong');var ev='';if(st.event==='tigerJackpot')ev=' <span class="ox-event ox-event-jackpot">🐯 호랑이의 대박 — 정답 ×10 · 오답 감점 없음</span>';else if(st.event==='tiger')ev=' <span class="ox-event ox-event-tiger">🐯 호랑이의 가호 — 정답 ×3 · 오답 감점 없음</span>';else if(st.event==='eagle')ev=' <span class="ox-event ox-event-eagle">🦅 독수리의 추락 — 정답 ÷2 · 오답 감점 ×2</span>';var gcol={'S':'#7c3aed','A+':'#2563eb','A':'#2563eb','B+':'#0891b2','B':'#0891b2','C+':'#b45309','C':'#b45309','D+':'#6b7280','D':'#6b7280'};var gchip=st.cur.grade?(' <span class="ox-tag" style="background:'+(gcol[st.cur.grade]||'#6b7280')+';color:#fff;border-color:transparent;font-weight:800">'+st.cur.grade+'급</span>'):'';elT.innerHTML=esc(st.cur.q)+' <span class="ox-tag">'+esc(st.cur.tag||'변시14')+'</span>'+gchip+ev;elBtns.hidden=false;armQ();}
   function answer(ans,timedOut){if(!st.active||st.answered||!st.cur)return;clearQ();if(!timedOut)touch();st.answered=true;st.n++;elBtns.hidden=true;var c=st.cur,correct=(ans===c.a);if(correct){st.combo++;var base=10+Math.min(st.combo,10)*2;var GM={'S':3,'A+':2.6,'A':2.3,'B+':2,'B':1.7,'C+':1.5,'C':1.3,'D+':1.15,'D':1};var fm=GM[c.grade]||1;var add=Math.round(base*fm);var evtxt=c.grade?(' ['+c.grade+'급 ×'+fm+']'):'';if(st.event==='tigerJackpot'){add*=10;evtxt+=' 🐯대박×10';}else if(st.event==='tiger'){add*=3;evtxt+=' 🐯×3';}else if(st.event==='eagle'){add=Math.max(1,Math.floor(add/2));evtxt+=' 🦅÷2';}st.score+=add;st.ok++;elT.classList.add('ox-correct');elFeed.textContent='정답! +'+add+evtxt+' (콤보 '+st.combo+')';elFeed.className='game-feed good';}else{st.combo=0;st.hp--;var pen=10;var ptxt='';if(st.event==='tigerJackpot'){pen=0;ptxt=' (🐯 대박 보호로 감점 없음)';}else if(st.event==='tiger'){pen=0;ptxt=' (🐯 가호로 감점 없음)';}else if(st.event==='eagle'){pen*=2;ptxt=' (🦅 추락 감점 ×2)';}st.score=Math.max(0,st.score-pen);elT.classList.add('ox-wrong');elFeed.textContent=(timedOut?'⏰ 시간초과! ':'오답! ')+(pen?'-'+pen:'±0')+ptxt+' · ♥-1 · 정답은 '+c.a;elFeed.className='game-feed bad';if(st.hp<=0){stats();stop();elFeed.textContent='💀 HP 소진! 최종 점수 '+st.score+' · 정답 '+st.ok+'/'+st.n;elFeed.className='game-feed bad';return;}}stats();if(st.revealMode==='none'){scheduleAdvance(correct?550:1000);return;}var isArt=/^제[0-9]/.test(c.art||'');var link=isArt?(' · <a href="#'+esc(c.art)+'">'+esc(c.art)+' 보기 ›</a>'):'';var gc={'S':'#7c3aed','A+':'#2563eb','A':'#2563eb','B+':'#0891b2','B':'#0891b2','C+':'#b45309','C':'#b45309','D+':'#6b7280','D':'#6b7280'};var hot=(c.grade?(' <span style="font-weight:700;color:'+(gc[c.grade]||'#6b7280')+'">'+c.grade+'급</span>'):'')+((c.freq>1)?(' <span style="color:#b45309">★'+c.freq+'회</span>'):'');var corr=(c.a==='X'&&c.rep)?('<div style="margin-top:6px;padding:6px 9px;background:rgba(16,185,129,.12);border-radius:6px">✓ 옳은 명제: '+esc(c.rep)+'</div>'):'';elRev.innerHTML='<b>정답 '+esc(c.a)+'</b> <span class="ox-trap">'+esc(c.trap||'')+'</span>'+hot+'<br>'+esc(c.why||'')+corr+'<div class="ox-ref">근거: '+esc(c.ref||'')+link+'</div>';elRev.hidden=false;if(st.revealMode==='auto')scheduleAdvance(3000);}
   function tick(){if(st.paused||!st.dur)return;st.time--;stats();if(st.time<=0)stop();}
   function start(){elFeed.textContent='문제를 불러오는 중...';elFeed.className='game-feed';load().then(function(b){if(!b||!b.length){elFeed.textContent='문제를 불러오지 못했습니다.';return;}var subjSel=panel.querySelector('#oxSubject');var subjV=subjSel?subjSel.value:'all';var pool=(subjV&&subjV!=='all')?b.filter(function(x){return x.subject===subjV;}):b;if(!pool.length){elFeed.textContent='해당 과목 문제가 없습니다.';return;}st.dur=parseInt(panel.querySelector('#oxDuration').value,10)||0;st.revealMode=panel.querySelector('#oxRevealMode').value||'auto';st.active=true;st.paused=false;st.ended=false;st.score=0;st.combo=0;st.ok=0;st.n=0;st.hp=5;st.time=st.dur||0;st.pool=pool.slice();st.order=oxWeightedOrder(st.pool);st.idx=0;clearAdv();if(st.timer)clearInterval(st.timer);if(st.dur)st.timer=setInterval(tick,1000);touch();if(st.idleTimer)clearInterval(st.idleTimer);st.idleTimer=null;if(!st.dur)st.idleTimer=setInterval(function(){if(st.active&&!st.paused&&Date.now()-st.lastAct>30000){stop();elFeed.textContent='30초 동안 입력이 없어 자동 종료되었습니다.';}},1000);oxPauseBtn.hidden=false;oxNextBtn.hidden=false;oxPauseBtn.textContent='멈춤';stats();next();}).catch(function(){elFeed.textContent='문제를 불러오지 못했습니다.';});}
   function setPaused(p){st.paused=p;oxPauseBtn.textContent=p?'계속':'멈춤';if(p){clearAdv();clearQ();elFeed.textContent='⏸ 멈춤 — 계속을 누르세요.';elFeed.className='game-feed';}else{if(!st.answered&&st.cur)armQ();if(st.answered&&st.revealMode==='auto')scheduleAdvance(1500);}}
   function skipNext(){if(!st.active)return;touch();clearAdv();next();}
-  function stop(){if(st.ended)return;st.ended=true;st.active=false;st.paused=false;clearAdv();if(st.timer)clearInterval(st.timer);st.timer=null;if(st.idleTimer)clearInterval(st.idleTimer);st.idleTimer=null;clearQ();elBtns.hidden=true;elRev.hidden=true;oxPauseBtn.hidden=true;oxNextBtn.hidden=true;elT.classList.remove('ox-correct','ox-wrong');elT.classList.add('idle');var perfect=(st.n>0&&st.ok===st.n);if(perfect)st.score=Math.round(st.score*1.3);elT.textContent='끝! 점수 '+st.score+(perfect?' 🎯 퍼펙트 +30%!':'')+' · 정답 '+st.ok+'/'+st.n;elFeed.textContent='시작을 눌러 다시 도전하세요.';elFeed.className='game-feed';if(st.dur&&st.n>0&&window.__addGameScore){try{window.__addGameScore('ox',st.score,(oxNick&&oxNick.value)||'익명','정답 '+st.ok+'/'+st.n+(perfect?' · 🎯퍼펙트':''));}catch(e){}}}
+  function stop(){if(st.ended)return;st.ended=true;st.active=false;st.paused=false;clearAdv();if(st.timer)clearInterval(st.timer);st.timer=null;if(st.idleTimer)clearInterval(st.idleTimer);st.idleTimer=null;clearQ();elBtns.hidden=true;elRev.hidden=true;oxPauseBtn.hidden=true;oxNextBtn.hidden=true;if(oxReportBtn)oxReportBtn.hidden=true;elT.classList.remove('ox-correct','ox-wrong');elT.classList.add('idle');var perfect=(st.n>0&&st.ok===st.n);if(perfect)st.score=Math.round(st.score*1.3);elT.textContent='끝! 점수 '+st.score+(perfect?' 🎯 퍼펙트 +30%!':'')+' · 정답 '+st.ok+'/'+st.n;elFeed.textContent='시작을 눌러 다시 도전하세요.';elFeed.className='game-feed';if(st.dur&&st.n>0&&window.__addGameScore){try{window.__addGameScore('ox',st.score,(oxNick&&oxNick.value)||'익명','정답 '+st.ok+'/'+st.n+(perfect?' · 🎯퍼펙트':''));}catch(e){}}}
   panel.querySelector('#oxStart').addEventListener('click',start);
   panel.querySelector('#oxStop').addEventListener('click',stop);
   oxPauseBtn.addEventListener('click',function(){if(st.active){touch();setPaused(!st.paused);}});
   oxNextBtn.addEventListener('click',skipNext);
+  if(oxReportBtn)oxReportBtn.addEventListener('click',function(){if(!st.cur)return;if(window.__openProblemReport){window.__openProblemReport({source:'game',mode:'CLAT OX퀴즈',article:st.cur.art||'',question:st.cur.q||'',answer:st.cur.a||'',reference:st.cur.ref||'',detailHint:st.cur.why||'',tags:st.cur.tag||'',grade:st.cur.grade||''});}else alert('신고 기능을 준비 중입니다.');});
   elBtns.addEventListener('click',function(e){var b=e.target.closest('.ox-choice');if(b)answer(b.dataset.ans);});
   document.addEventListener('keydown',function(e){if(!st.active||panel.hidden)return;var k=e.key.toLowerCase();if(k==='o')answer('O');else if(k==='x')answer('X');});
 })();
@@ -18911,6 +18922,85 @@ window.__KCI_BOOT=function(d){
     }
     client.auth.getUser().then(function(res){setUser(res&&res.data?res.data.user:null);});
     client.auth.onAuthStateChange(function(evt,session){setUser(session?session.user:null);});
+  });
+})();
+</script>
+<script>
+(function(){
+  var LOCAL_KEY='lawinus_problem_reports_v1';
+  document.documentElement.setAttribute('data-problem-report','1');
+  function clean(v,max){
+    var s=String(v==null?'':v).replace(/\s+/g,' ').trim();
+    return max?s.slice(0,max):s;
+  }
+  function localSave(row){
+    try{
+      var list=JSON.parse(localStorage.getItem(LOCAL_KEY)||'[]');
+      list.unshift(row);
+      localStorage.setItem(LOCAL_KEY,JSON.stringify(list.slice(0,200)));
+    }catch(e){}
+  }
+  function buildRow(ctx,detail){
+    var db=window.LAWINUS_DB,user=db&&db.user;
+    var row={
+      user_id:user?user.id:null,
+      author_name:user&&db.displayName?clean(db.displayName(),80):'익명',
+      source:clean(ctx.source||'unknown',60),
+      mode:clean(ctx.mode||'',80),
+      article_key:clean(ctx.article||'',120),
+      question:clean(ctx.question||'',4000),
+      answer:clean(ctx.answer||'',1000),
+      reference_text:clean(ctx.reference||ctx.ref||'',1000),
+      detail:clean(detail,1000),
+      page_url:location.href,
+      context:{
+        tags:clean(ctx.tags||'',300),
+        grade:clean(ctx.grade||'',30),
+        detail_hint:clean(ctx.detailHint||'',1000),
+        title:document.title,
+        created_on_client:new Date().toISOString()
+      },
+      created_at:new Date().toISOString()
+    };
+    if(!row.question)row.question=clean(document.querySelector('h1')?document.querySelector('h1').textContent:'문제 정보 없음',4000);
+    return row;
+  }
+  async function saveReport(row){
+    localSave(row);
+    var db=window.LAWINUS_DB;
+    if(!db||!db.client)return {server:false};
+    var res=await db.client.from('problem_reports').insert(row);
+    if(res.error)return {server:false,error:res.error.message};
+    return {server:true};
+  }
+  window.__openProblemReport=function(ctx){
+    ctx=ctx||{};
+    var detail=prompt('어떤 부분이 이상한가요? 예: 정답 오류, 오타, 해설 의문, 출처 오류');
+    if(detail===null)return;
+    detail=clean(detail,1000);
+    if(!detail){alert('신고 내용을 한 줄 이상 적어주세요.');return;}
+    var row=buildRow(ctx,detail);
+    saveReport(row).then(function(result){
+      if(result.server)alert('신고했습니다. 확인할게요.');
+      else alert('신고 내용을 이 브라우저에 임시 저장했습니다. 서버 신고함 설정도 확인할게요.');
+    }).catch(function(){
+      localSave(row);
+      alert('신고 내용을 이 브라우저에 임시 저장했습니다. 서버 연결을 다시 확인할게요.');
+    });
+  };
+  document.addEventListener('click',function(e){
+    var btn=e.target&&e.target.closest?e.target.closest('.atom-report'):null;
+    if(!btn)return;
+    if(window.__openProblemReport){
+      window.__openProblemReport({
+        source:btn.dataset.reportSource||'atom',
+        mode:btn.dataset.reportMode||'조문별 기출 atom',
+        article:btn.dataset.reportArticle||'',
+        question:btn.dataset.reportQuestion||'',
+        answer:btn.dataset.reportAnswer||'',
+        reference:btn.dataset.reportRef||''
+      });
+    }
   });
 })();
 </script>
@@ -19376,17 +19466,20 @@ window.__KCI_BOOT=function(d){
     if(!groups.length)return '';
     function metaText(r){return [r.tags.join(' · '),r.grade?(r.grade+'급'):'',(r.freq>1?('★'+r.freq+'회'):'')].filter(Boolean).join(' · ');}
     var total=groups.reduce(function(n,g){return n+1+(g.twins?g.twins.length:0);},0);
+    function reportButton(r,answer){
+      return '<button class="problem-report-btn atom-report" type="button" data-report-source="atom" data-report-mode="조문별 기출 atom" data-report-article="'+lawSubjectEsc((lawName||subject||'')+' '+(articleNo||''))+'" data-report-question="'+lawSubjectEsc(r.stmt||'')+'" data-report-answer="'+lawSubjectEsc(answer||'')+'" data-report-ref="'+lawSubjectEsc(r.ref||'')+'">신고하기</button>';
+    }
     var cards=groups.map(function(r){
       var meta=metaText(r);
       var twins=(r.twins||[]).map(function(t){
         var tm=metaText(t);
-        return '<div class="atom-twin"><p class="atom-twin-line"><span class="atom-twin-badge">함정 X</span>'+lawSubjectEsc(t.stmt)+(tm?'<span class="atom-twin-meta">'+lawSubjectEsc(tm)+'</span>':'')+'</p>'
+        return '<div class="atom-twin"><p class="atom-twin-line"><span class="atom-twin-badge">함정 X</span>'+lawSubjectEsc(t.stmt)+(tm?'<span class="atom-twin-meta">'+lawSubjectEsc(tm)+'</span>':'')+reportButton(t,'X')+'</p>'
           +(t.why?'<p class="atom-why">'+lawSubjectEsc(t.why)+'</p>':'')
           +(t.ref?'<p class="atom-ref">근거 · '+lawSubjectEsc(t.ref)+'</p>':'')+'</div>';
       }).join('');
       return '<article class="atom-card atom-family is-o"><div class="atom-mark"><span class="atom-badge o">O</span></div><div class="atom-main">'
         +'<p class="atom-stmt">'+lawSubjectEsc(r.stmt)+'</p>'
-        +'<div class="atom-head">'+(r.topic?'<span class="atom-topic">'+lawSubjectEsc(r.topic)+'</span>':'')+(meta?'<span class="atom-meta">'+lawSubjectEsc(meta)+'</span>':'')+'</div>'
+        +'<div class="atom-head">'+(r.topic?'<span class="atom-topic">'+lawSubjectEsc(r.topic)+'</span>':'')+(meta?'<span class="atom-meta">'+lawSubjectEsc(meta)+'</span>':'')+reportButton(r,'O')+'</div>'
         +(r.why?'<p class="atom-why">'+lawSubjectEsc(r.why)+'</p>':'')
         +(r.ref?'<p class="atom-ref">근거 · '+lawSubjectEsc(r.ref)+'</p>':'')
         +(twins?'<div class="atom-twins">'+twins+'</div>':'')+'</div></article>';
@@ -20781,25 +20874,29 @@ rainStats();
 
     var blank={active:false,timer:null,current:null,score:0,time:30,combo:0,ok:0,bad:0,used:{}};
     var blankInput=document.getElementById('blankInput'),blankQuestion=document.getElementById('blankQuestion'),blankArticle=document.getElementById('blankArticle'),blankFeed=document.getElementById('blankFeed');
+    var blankReportBtn=document.getElementById('blankReport');
     function blankStats(){document.getElementById('blankScore').textContent=Math.round(blank.score);document.getElementById('blankTime').textContent=blank.time;document.getElementById('blankCombo').textContent=blank.combo;document.getElementById('blankSolved').textContent=blank.ok;}
-    function nextBlank(){var b=getBank(),pool=b.blanks.filter(function(q){return !blank.used[q.answer];});if(!pool.length){blank.used={};pool=b.blanks.slice();}blank.current=pick(pool);blank.used[blank.current.answer]=1;blankArticle.textContent=blank.current.article;blankQuestion.classList.remove('idle');blankQuestion.textContent=blank.current.question;blankInput.value='';blankInput.focus();blankStats();}
-    function finishBlank(msg){if(!blank.active&&msg!=='force')return;blank.active=false;clearInterval(blank.timer);blankInput.disabled=true;var total=blank.ok+blank.bad,acc=total?Math.round(blank.ok/total*100):100;var detail=blank.ok+'문항 · 정확도 '+acc+'%',rawScore=blank.score,finalScore=gameAdjustedScore(rawScore);addScore('blank',rawScore,document.getElementById('blankNick').value,detail);blank.score=finalScore;blankQuestion.classList.add('idle');blankQuestion.textContent='종료! 점수 '+finalScore+'점 · '+detail;blankArticle.textContent='조문';blankFeed.className='game-feed good';blankFeed.textContent='상위 점수표를 확인하세요.';blankStats();}
+    function nextBlank(){var b=getBank(),pool=b.blanks.filter(function(q){return !blank.used[q.answer];});if(!pool.length){blank.used={};pool=b.blanks.slice();}blank.current=pick(pool);blank.used[blank.current.answer]=1;blankArticle.textContent=blank.current.article;blankQuestion.classList.remove('idle');blankQuestion.textContent=blank.current.question;if(blankReportBtn)blankReportBtn.hidden=false;blankInput.value='';blankInput.focus();blankStats();}
+    function finishBlank(msg){if(!blank.active&&msg!=='force')return;blank.active=false;clearInterval(blank.timer);blankInput.disabled=true;if(blankReportBtn)blankReportBtn.hidden=true;var total=blank.ok+blank.bad,acc=total?Math.round(blank.ok/total*100):100;var detail=blank.ok+'문항 · 정확도 '+acc+'%',rawScore=blank.score,finalScore=gameAdjustedScore(rawScore);addScore('blank',rawScore,document.getElementById('blankNick').value,detail);blank.score=finalScore;blankQuestion.classList.add('idle');blankQuestion.textContent='종료! 점수 '+finalScore+'점 · '+detail;blankArticle.textContent='조문';blankFeed.className='game-feed good';blankFeed.textContent='상위 점수표를 확인하세요.';blankStats();}
     document.getElementById('blankStart').addEventListener('click',function(){clearInterval(blank.timer);blank={active:true,timer:null,current:null,score:0,time:parseInt(document.getElementById('blankDuration').value,10)||30,combo:0,ok:0,bad:0,used:{}};blankInput.disabled=false;blankFeed.className='game-feed';blankFeed.textContent='빈칸에 들어갈 핵심 단어를 입력하세요.';blankStats();nextBlank();blank.timer=setInterval(function(){blank.time--;blankStats();if(blank.time<=0)finishBlank();},1000);});
     document.getElementById('blankStop').addEventListener('click',function(){finishBlank('force');});
+    if(blankReportBtn)blankReportBtn.addEventListener('click',function(){if(!blank.current)return;if(window.__openProblemReport){window.__openProblemReport({source:'game',mode:'도전! 조문왕',article:blank.current.article||'',question:blank.current.question||'',answer:blank.current.answer||''});}else alert('신고 기능을 준비 중입니다.');});
     function submitBlank(){if(!blank.active||!blank.current)return;var ans=blank.current.answer;if(norm(blankInput.value)===norm(ans)){blank.ok++;blank.combo++;blank.score+=ans.length*18+blank.combo*7;blankFeed.className='game-feed good';blankFeed.textContent='정답! '+ans+' · 콤보 '+blank.combo;nextBlank();}else{blank.bad++;blank.combo=0;blank.score=Math.max(0,blank.score-5);blankFeed.className='game-feed bad';blankFeed.innerHTML='아쉬워요. 정답은 <span class="blank-answer">'+esc(ans)+'</span>입니다.';setTimeout(function(){if(blank.active)nextBlank();},520);}blankStats();}
     blankInput.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();submitBlank();}});
     blankInput.addEventListener('compositionend',function(){if(blank.active&&blank.current&&norm(blankInput.value)===norm(blank.current.answer))submitBlank();});
 
     var caseblank={active:false,timer:null,current:null,score:0,time:30,combo:0,ok:0,bad:0,used:{}};
     var caseInput=document.getElementById('caseInput'),caseQuestion=document.getElementById('caseQuestion'),caseArticle=document.getElementById('caseArticle'),caseFeed=document.getElementById('caseFeed');
+    var caseReportBtn=document.getElementById('caseReport');
     function caseStats(){document.getElementById('caseScore').textContent=Math.round(caseblank.score);document.getElementById('caseTime').textContent=caseblank.time;document.getElementById('caseCombo').textContent=caseblank.combo;document.getElementById('caseSolved').textContent=caseblank.ok;}
     function addCaseTimeBonus(){var sec=1+Math.floor(Math.random()*10);caseblank.time+=sec;var t=document.getElementById('caseTime');if(t){t.classList.remove('time-bump');void t.offsetWidth;t.classList.add('time-bump');}return sec;}
     function renderCaseQuestion(q){caseQuestion.innerHTML=esc(q||'').replace(/\(A\)/g,'<span class="case-blank-mark">빈칸</span>');}
     var caseWrongTimer=null,caseEnterLock=false,casePendingEnter=false;
-    async function nextCaseBlank(){clearTimeout(caseWrongTimer);caseQuestion.classList.add('idle');caseQuestion.textContent='문제를 불러오는 중입니다.';var remote=await fetchCaseQuestion();if(!caseblank.active)return;if(remote){caseblank.current=remote;}else{var b=getBank(),strong=b.caseBlanks.filter(function(q){return (q.question||'').length>=120;}),source=strong.length>=20?strong:b.caseBlanks,pool=source.filter(function(q){return !caseblank.used[q.answer];});if(!pool.length){caseblank.used={};pool=source.slice();}caseblank.current=pick(pool);caseblank.used[caseblank.current.answer]=1;}caseArticle.textContent=caseblank.current.article;caseQuestion.classList.remove('idle');renderCaseQuestion(caseblank.current.question);caseInput.value='';caseInput.focus();caseStats();}
-    function finishCaseBlank(msg){if(!caseblank.active&&msg!=='force')return;caseblank.active=false;clearInterval(caseblank.timer);caseInput.disabled=true;var total=caseblank.ok+caseblank.bad,acc=total?Math.round(caseblank.ok/total*100):100;var detail=caseblank.ok+'문항 · 정확도 '+acc+'%',rawScore=caseblank.score,finalScore=gameAdjustedScore(rawScore);addScore('caseblank',rawScore,document.getElementById('caseNick').value,detail);caseblank.score=finalScore;caseQuestion.classList.add('idle');caseQuestion.textContent='종료! 점수 '+finalScore+'점 · '+detail;caseArticle.textContent='판례';caseFeed.className='game-feed good';caseFeed.textContent='상위 점수표를 확인하세요.';caseStats();}
+    async function nextCaseBlank(){clearTimeout(caseWrongTimer);caseQuestion.classList.add('idle');caseQuestion.textContent='문제를 불러오는 중입니다.';if(caseReportBtn)caseReportBtn.hidden=true;var remote=await fetchCaseQuestion();if(!caseblank.active)return;if(remote){caseblank.current=remote;}else{var b=getBank(),strong=b.caseBlanks.filter(function(q){return (q.question||'').length>=120;}),source=strong.length>=20?strong:b.caseBlanks,pool=source.filter(function(q){return !caseblank.used[q.answer];});if(!pool.length){caseblank.used={};pool=source.slice();}caseblank.current=pick(pool);caseblank.used[caseblank.current.answer]=1;}caseArticle.textContent=caseblank.current.article;caseQuestion.classList.remove('idle');renderCaseQuestion(caseblank.current.question);if(caseReportBtn)caseReportBtn.hidden=false;caseInput.value='';caseInput.focus();caseStats();}
+    function finishCaseBlank(msg){if(!caseblank.active&&msg!=='force')return;caseblank.active=false;clearInterval(caseblank.timer);caseInput.disabled=true;if(caseReportBtn)caseReportBtn.hidden=true;var total=caseblank.ok+caseblank.bad,acc=total?Math.round(caseblank.ok/total*100):100;var detail=caseblank.ok+'문항 · 정확도 '+acc+'%',rawScore=caseblank.score,finalScore=gameAdjustedScore(rawScore);addScore('caseblank',rawScore,document.getElementById('caseNick').value,detail);caseblank.score=finalScore;caseQuestion.classList.add('idle');caseQuestion.textContent='종료! 점수 '+finalScore+'점 · '+detail;caseArticle.textContent='판례';caseFeed.className='game-feed good';caseFeed.textContent='상위 점수표를 확인하세요.';caseStats();}
     document.getElementById('caseStart').addEventListener('click',function(){clearInterval(caseblank.timer);caseblank={active:true,timer:null,current:null,score:0,time:parseInt(document.getElementById('caseDuration').value,10)||30,combo:0,ok:0,bad:0,used:{}};caseInput.disabled=false;caseFeed.className='game-feed';caseFeed.textContent='변호사시험 예상판례 문제은행에서 랜덤으로 출제됩니다.';caseStats();nextCaseBlank();caseblank.timer=setInterval(function(){caseblank.time--;caseStats();if(caseblank.time<=0)finishCaseBlank();},1000);});
     document.getElementById('caseStop').addEventListener('click',function(){finishCaseBlank('force');});
+    if(caseReportBtn)caseReportBtn.addEventListener('click',function(){if(!caseblank.current)return;if(window.__openProblemReport){window.__openProblemReport({source:'game',mode:'도전! 판례왕',article:caseblank.current.article||'',question:caseblank.current.question||'',answer:caseblank.current.answer||'',reference:caseblank.current.source||caseblank.current.ref||''});}else alert('신고 기능을 준비 중입니다.');});
     function scheduleCaseSubmit(){if(caseEnterLock)return;caseEnterLock=true;setTimeout(function(){caseEnterLock=false;submitCaseBlank();},45);}
     function submitCaseBlank(){if(!caseblank.active||!caseblank.current)return;var ans=caseblank.current.answer,inputNorm=norm(caseInput.value);if(!inputNorm){caseFeed.className='game-feed';caseFeed.textContent='빈칸에 들어갈 말을 입력한 뒤 Enter를 누르세요.';return;}clearTimeout(caseWrongTimer);if(inputNorm===norm(ans)){caseblank.ok++;caseblank.combo++;caseblank.score+=ans.length*20+caseblank.combo*8;var bonus=addCaseTimeBonus();caseFeed.className='game-feed good';caseFeed.textContent='정답! '+ans+' · +'+bonus+'초 추가 · 콤보 '+caseblank.combo;nextCaseBlank();}else{caseblank.bad++;caseblank.combo=0;caseblank.score=Math.max(0,caseblank.score-5);caseFeed.className='game-feed bad';caseFeed.innerHTML='아쉬워요. 정답은 <span class="blank-answer">'+esc(ans)+'</span>입니다.';caseWrongTimer=setTimeout(function(){if(caseblank.active)nextCaseBlank();},620);}caseStats();}
     caseInput.addEventListener('keydown',function(e){if(e.key==='Enter'){if(e.isComposing||e.keyCode===229||caseInput.dataset.composing==='1'){casePendingEnter=true;return;}e.preventDefault();scheduleCaseSubmit();}});
