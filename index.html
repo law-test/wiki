@@ -408,7 +408,7 @@ a:hover{color:var(--accent-dark)}
 body.ui-scrolled .ui-top{opacity:1;transform:translateY(0) scale(1);pointer-events:auto}
 .ui-top:hover{transform:translateY(-2px) scale(1.03)}
 header{
-  position:sticky;top:0;z-index:100;
+  position:sticky;top:0;z-index:2000;
   background:rgba(255,255,255,.78);
   border-bottom:1px solid rgba(208,213,221,.75);
   box-shadow:0 10px 30px rgba(16,24,40,.06);
@@ -432,16 +432,18 @@ header{
 .search span{border:1px solid transparent;border-radius:0 999px 999px 0;background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#fff;font-weight:900;padding:10px 17px;transition:transform .16s,filter .16s}
 .search span:hover{filter:brightness(1.03);transform:translateY(-1px)}
 #navtoggle{border-radius:999px!important;background:#fff!important;box-shadow:var(--shadow-sm)}
-.menubar{background:transparent;border:0}
+.menubar{background:transparent;border:0;position:relative;z-index:2100}
 .menubar .mwrap{max-width:1440px;padding:0 24px 13px;gap:7px;align-items:center;overflow:visible}
 .menubar a{font-size:14px;font-weight:850;letter-spacing:-.02em;color:var(--txt2);border-radius:999px;padding:9px 16px;text-decoration:none;transition:background .16s,color .16s,transform .16s,box-shadow .16s}
 .menubar a+a::before{display:none}
 .mitem .mtop{display:block;background:rgba(255,255,255,.58);border:1px solid transparent;color:var(--txt2)!important}
 .mitem .mtop:hover,.mitem:hover>.mtop{background:#fff;color:var(--accent)!important;border-color:rgba(109,40,217,.17);box-shadow:var(--shadow-sm);transform:translateY(-1px)}
 .mitem .mtop[href="#학습게임"],.mitem .mtop[href="#자유게시판"],.mitem .mtop[href="#민법뉴스"]{background:linear-gradient(135deg,rgba(109,40,217,.10),rgba(37,99,235,.08));color:var(--accent-dark)!important;border-color:rgba(109,40,217,.16)}
-.mdrop,.ddrop{border:1px solid rgba(208,213,221,.85)!important;border-radius:18px;background:rgba(255,255,255,.96)!important;box-shadow:var(--shadow-lg)!important;padding:8px!important;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
-.mdrop{top:calc(100% + 8px)}
-.ddrop{top:-8px;left:calc(100% + 8px)}
+.mdrop,.ddrop{border:1px solid rgba(208,213,221,.85)!important;border-radius:18px;background:rgba(255,255,255,.96)!important;box-shadow:var(--shadow-lg)!important;padding:8px!important;overflow:visible!important;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.mdrop{top:calc(100% + 8px);z-index:2300!important}
+.ddrop{top:-8px;left:calc(100% + 8px);max-height:none!important;overflow:visible!important;z-index:2400!important}
+.ddrop:not(:has(.ditem.has)){max-height:min(72vh,calc(100vh - 170px))!important;overflow-y:auto!important;overflow-x:hidden!important}
+.mitem:hover,.mitem.menu-open,.ditem.has:hover,.ditem.has.menu-open{z-index:2500}
 .mdrop a,.ddrop a{border-radius:12px;color:var(--txt2)!important;padding:8px 12px!important;font-weight:700!important}
 .mdrop a:hover,.ddrop a:hover{background:var(--accent-bg)!important;color:var(--accent-dark)!important;text-decoration:none;transform:none;box-shadow:none}
 .mdrop .dis,.ddrop .dis{border-radius:12px;color:#a5adba;background:#f8fafc}
@@ -18914,6 +18916,7 @@ window.__KCI_BOOT=function(d){
         }).join('');
         return '<div class="ditem has"><a href="#'+specialCivilEsc(group.items[0]._id)+'">'+specialCivilEsc(group.name)+' <span class="rng">'+group.items.length+'개</span><span class="arr">›</span></a><div class="ddrop special-ddrop">'+links+'</div></div>';
       }).join('');
+      bindMenuHoverGuards(top);
     }
     var old=document.querySelector('nav details.special-civil-nav');
     if(old)old.remove();
@@ -19022,6 +19025,7 @@ window.__KCI_BOOT=function(d){
       if(before)before.insertAdjacentElement('beforebegin',sec);
       else{var main=document.querySelector('main');if(main)main.appendChild(sec);}
     }
+    bindMenuHoverGuards(document.querySelector('.menubar'));
   }
   ensureCivilProcedureShell();
   function ensureCommercialLawShell(){
@@ -19066,6 +19070,7 @@ window.__KCI_BOOT=function(d){
       if(before)before.insertAdjacentElement('beforebegin',sec);
       else{var main=document.querySelector('main');if(main)main.appendChild(sec);}
     }
+    bindMenuHoverGuards(document.querySelector('.menubar'));
   }
   ensureCommercialLawShell();
   // ---- End civil special laws ----
@@ -19635,6 +19640,7 @@ window.__KCI_BOOT=function(d){
       if(!body)body=lawSubjectArticleLinks(cfg.rows,'law-subject-leaf');
       return '<div class="ditem has law-subject-menu-node"><a href="#'+lawSubjectEsc(first._anchor)+'">'+lawSubjectEsc(cfg.label)+' <span class="rng">'+lawSubjectEsc(range)+'</span><span class="arr">›</span></a><div class="ddrop">'+body+'</div></div>';
     }).join('');
+    bindMenuHoverGuards(item);
   }
   function buildSideLawSubjectNav(summaryText,configs){
     var root=null;
@@ -19835,6 +19841,8 @@ window.__KCI_BOOT=function(d){
 
   // 메뉴바·드롭다운 클릭 이동 보장 (호버 레이어와 무관하게 동작)
   document.querySelectorAll('.mitem,.ditem.has').forEach(function(item){
+    if(item.dataset.menuHoverBound)return;
+    item.dataset.menuHoverBound='1';
     var menuTimer=null;
     function keepOpen(){
       if(menuTimer)clearTimeout(menuTimer);
@@ -19842,13 +19850,36 @@ window.__KCI_BOOT=function(d){
     }
     function closeLater(){
       if(menuTimer)clearTimeout(menuTimer);
-      menuTimer=setTimeout(function(){item.classList.remove('menu-open');},260);
+      menuTimer=setTimeout(function(){item.classList.remove('menu-open');},380);
     }
     item.addEventListener('mouseenter',keepOpen);
     item.addEventListener('mouseleave',closeLater);
     item.addEventListener('focusin',keepOpen);
     item.addEventListener('focusout',closeLater);
   });
+
+  function bindMenuHoverGuards(root){
+    var scope=root||document,nodes=[];
+    if(scope.matches&&scope.matches('.mitem,.ditem.has'))nodes.push(scope);
+    if(scope.querySelectorAll)scope.querySelectorAll('.mitem,.ditem.has').forEach(function(item){nodes.push(item);});
+    nodes.forEach(function(item){
+      if(item.dataset.menuHoverBound)return;
+      item.dataset.menuHoverBound='1';
+      var menuTimer=null;
+      function keepOpen(){
+        if(menuTimer)clearTimeout(menuTimer);
+        item.classList.add('menu-open');
+      }
+      function closeLater(){
+        if(menuTimer)clearTimeout(menuTimer);
+        menuTimer=setTimeout(function(){item.classList.remove('menu-open');},380);
+      }
+      item.addEventListener('mouseenter',keepOpen);
+      item.addEventListener('mouseleave',closeLater);
+      item.addEventListener('focusin',keepOpen);
+      item.addEventListener('focusout',closeLater);
+    });
+  }
 
   document.querySelectorAll('.menubar a[href^="#"]').forEach(function(a){
     a.addEventListener('click',function(e){
@@ -19863,6 +19894,24 @@ window.__KCI_BOOT=function(d){
       });
     });
   });
+  var menuBar=document.querySelector('.menubar');
+  if(menuBar&&!menuBar.dataset.menuClickBound){
+    menuBar.dataset.menuClickBound='1';
+    menuBar.addEventListener('click',function(e){
+      if(e.defaultPrevented)return;
+      var a=e.target.closest&&e.target.closest('a[href^="#"]');
+      if(!a||!menuBar.contains(a))return;
+      e.preventDefault();e.stopPropagation();
+      var k=decodeURIComponent((a.getAttribute('href')||'').slice(1));
+      if(!k)return;
+      if(location.hash!=='#'+a.getAttribute('href').slice(1)){location.hash=a.getAttribute('href').slice(1);}
+      showArt(k);
+      var drop=a.closest('.mdrop'),dd=a.closest('.ddrop');
+      [dd,drop].forEach(function(x){
+        if(x){x.style.display='none';setTimeout(function(){x.style.display='';},400);}
+      });
+    });
+  }
 
   function esc(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML;}
   function fmt(ts){var d=new Date(ts);function z(n){return (n<10?'0':'')+n;}
