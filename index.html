@@ -19034,7 +19034,7 @@ window.__KCI_BOOT=function(d){
         +'<dt>법령</dt><dd>'+specialCivilEsc(item.law)+'</dd>'
         +'<dt>연결 위치</dt><dd>민사소송법 탭 하위</dd>'
         +'</dl><div class="special-law-actions"><a href="'+specialCivilEsc(civilProcedureRelatedLawUrl(item))+'" target="_blank" rel="noopener">국가법령정보센터 원문 보기</a></div></div>'
-        +'<div class="pager"><a href="#민사소송법">‹ 민사소송법으로 돌아가기</a><a href="#형법">형법 ›</a></div>';
+        +'<div class="pager"><a href="#민사소송법">‹ 민사소송법으로 돌아가기</a><a href="#상법">상법 ›</a></div>';
       if(after){after.insertAdjacentElement('afterend',section);after=section;}
       else if(before){before.insertAdjacentElement('beforebegin',section);after=section;}
       else{var main=document.querySelector('main');if(main){main.appendChild(section);after=section;}}
@@ -19073,7 +19073,7 @@ window.__KCI_BOOT=function(d){
       sec.innerHTML='<div class="crumb">민사소송법</div>'
         +'<h1>민사소송법</h1><div class="bar"></div>'
         +'<div class="lawtext"><div class="lbl">핵심</div><p>민사소송법은 민사분쟁을 법원이 심리ㆍ판단하는 절차를 정하는 기본 법률입니다. 관할, 당사자, 소송비용, 변론, 증거, 상소, 재심, 독촉절차, 공시최고절차를 조문별로 확인할 수 있습니다.</p></div>'
-        +'<div class="pager"><a href="#민사특별법-제3조-1">‹ 민사특별법</a><a href="#형법">형법 ›</a></div>';
+        +'<div class="pager"><a href="#민사특별법-제3조-1">‹ 민사특별법</a><a href="#상법">상법 ›</a></div>';
       var before=document.querySelector('section.art[data-art="형법"]');
       if(before)before.insertAdjacentElement('beforebegin',sec);
       else{var main=document.querySelector('main');if(main)main.appendChild(sec);}
@@ -19081,6 +19081,50 @@ window.__KCI_BOOT=function(d){
   }
   ensureCivilProcedureShell();
   insertCivilProcedureRelatedLaws();
+  function ensureCommercialLawShell(){
+    if(!document.querySelector('.menubar .mtop[data-pyeon="상법"]')){
+      var afterTop=null,beforeTop=null;
+      document.querySelectorAll('.menubar .mwrap>.mitem>.mtop').forEach(function(a){
+        if(a.textContent.trim()==='민사소송법')afterTop=a.closest('.mitem');
+        if(a.textContent.trim()==='형사법')beforeTop=a.closest('.mitem');
+      });
+      var topItem=document.createElement('div');
+      topItem.className='mitem';
+      topItem.innerHTML='<a class="mtop" data-pyeon="상법" href="#상법">상법</a>';
+      if(afterTop)afterTop.insertAdjacentElement('afterend',topItem);
+      else if(beforeTop)beforeTop.insertAdjacentElement('beforebegin',topItem);
+      else{var wrap=document.querySelector('.menubar .mwrap');if(wrap)wrap.appendChild(topItem);}
+    }
+    if(!document.querySelector('nav details.pyeon>summary[data-commercial-law-nav]')){
+      var beforeSide=null;
+      document.querySelectorAll('nav details.pyeon').forEach(function(d){
+        var s=d.querySelector(':scope>summary');
+        if(s&&s.textContent.trim()==='형사법')beforeSide=d;
+      });
+      var side=document.createElement('details');
+      side.className='pyeon';
+      side.innerHTML='<summary data-commercial-law-nav="1">상법</summary><div class="arts"><a class="art-link full" data-art="상법" href="#상법">상법</a></div>';
+      if(beforeSide)beforeSide.insertAdjacentElement('beforebegin',side);
+      else{var nav=document.querySelector('nav');if(nav)nav.appendChild(side);}
+    }
+    if(!document.querySelector('section.art[data-art="상법"]')){
+      var sec=document.createElement('section');
+      sec.className='art';
+      sec.dataset.art='상법';
+      sec.dataset.pyeon='상법';
+      sec.id='상법';
+      sec.innerHTML='<div class="crumb">상법</div>'
+        +'<h1>상법</h1><div class="bar"></div>'
+        +'<div class="lawtext"><div class="lbl">핵심</div><p>상법은 기업과 상인의 영업활동, 회사, 보험, 해상ㆍ항공 운송 등 상거래 질서를 정하는 민사법 영역의 기본 법률입니다.</p></div>'
+        +'<div class="law-subject-structure"><span>총칙</span><span>상행위</span><span>회사</span><span>보험</span><span>해상</span><span>항공운송</span></div>'
+        +'<div class="special-law-card"><span class="special-law-badge">상법</span><dl class="special-law-grid"><dt>분류</dt><dd>민사법</dd><dt>위치</dt><dd>민사소송법과 형사법 사이</dd><dt>확장 방향</dt><dd>상법 조문ㆍ판례ㆍ논문 데이터 연결</dd></dl><div class="special-law-actions"><a href="https://www.law.go.kr/LSW/lsSc.do?menuId=1&amp;subMenuId=15&amp;query=%EC%83%81%EB%B2%95" target="_blank" rel="noopener">국가법령정보센터 원문 보기</a></div></div>'
+        +'<div class="pager"><a href="#민사소송법">‹ 민사소송법</a><a href="#형법">형법 ›</a></div>';
+      var before=document.querySelector('section.art[data-art="형법"]');
+      if(before)before.insertAdjacentElement('beforebegin',sec);
+      else{var main=document.querySelector('main');if(main)main.appendChild(sec);}
+    }
+  }
+  ensureCommercialLawShell();
   // ---- End civil special laws ----
   var secs=document.querySelectorAll('section.art');
   var links=document.querySelectorAll('nav .art-link[data-art]');
