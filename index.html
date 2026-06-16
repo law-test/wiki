@@ -18629,12 +18629,12 @@ section.art.law-subject-article-mode>.pager{display:none}
 </div>
 <div aria-label="학습 모드 선택" class="game-tabs study-mode-grid" role="tablist">
 <button class="game-tab active" data-game-tab="ox" type="button"><strong>CLAT</strong><span>기출 atom을 O/X로 확인</span></button>
-<button class="game-tab" data-game-tab="ethics" type="button"><strong>윤리게임</strong><span>법조윤리 기출 O/X</span></button>
 <button class="game-tab" data-game-tab="typing" type="button"><strong>타자연습</strong><span>객관식 정지문·중요문구 입력</span></button>
 <button class="game-tab" data-game-tab="blank" type="button"><strong>조문 빈칸</strong><span>조문 핵심어 복습</span></button>
 <button class="game-tab" data-game-tab="caseblank" type="button"><strong>판례 빈칸</strong><span>표준판례 핵심어 복습</span></button>
 <button class="game-tab is-lab" data-game-tab="rain" type="button"><strong>실험실 · 산성비</strong><span>게임형 타자 모드</span></button>
 <button class="game-tab is-lab" data-game-tab="polar" type="button"><strong>실험실 · 변시탐험</strong><span>보너스 게임</span></button>
+<button class="game-tab" data-game-tab="ethics" type="button"><strong>윤리게임</strong><span>법조윤리 기출 O/X</span></button>
 </div>
 <div class="game-layout">
 <div>
@@ -19046,10 +19046,10 @@ section.art.law-subject-article-mode>.pager{display:none}
 <ol class="rank-list" id="caseblankRanks"></ol>
 <h3>CLAT (OX퀴즈)</h3>
 <ol class="rank-list" id="oxRanks"></ol>
-<h3>윤리게임</h3>
-<ol class="rank-list" id="ethicsRanks"></ol>
 <h3>변시탐험</h3>
 <ol class="rank-list" id="polarRanks"></ol>
+<h3>윤리게임</h3>
+<ol class="rank-list" id="ethicsRanks"></ol>
 </div>
 </details>
 </aside>
@@ -21252,7 +21252,7 @@ async function loadExamTerms(){
       }else{console.warn(ethicsRes.error);}
       return normalizeScoreGroups(grouped);
     }
-    async function renderRanks(){var d=await fetchScores();renderRecentScores(d);renderRankList('typingRanks',d.typing||[]);renderRankList('rainRanks',d.rain||[]);renderRankList('blankRanks',d.blank||[]);renderRankList('caseblankRanks',d.caseblank||[]);renderRankList('oxRanks',d.ox||[]);renderRankList('ethicsRanks',d.ethics||[]);renderRankList('polarRanks',d.polar||[]);}
+    async function renderRanks(){var d=await fetchScores();renderRecentScores(d);renderRankList('typingRanks',d.typing||[]);renderRankList('rainRanks',d.rain||[]);renderRankList('blankRanks',d.blank||[]);renderRankList('caseblankRanks',d.caseblank||[]);renderRankList('oxRanks',d.ox||[]);renderRankList('polarRanks',d.polar||[]);renderRankList('ethicsRanks',d.ethics||[]);}
     document.addEventListener('lawinus-auth-change',renderRanks);
     root.addEventListener('click',function(e){
       var btn=e.target.closest('.rank-more');
