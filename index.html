@@ -867,6 +867,8 @@ section.art.law-subject-article-mode>.pager{display:none}
 .ditem.has::after{content:"";position:absolute;top:-10px;bottom:-10px;left:100%;width:24px;display:none;z-index:59;pointer-events:auto}
 .ditem.has:hover::after,.ditem.has.menu-open::after{display:block}
 .ditem.has.menu-open>.ddrop{display:block!important}
+.menubar .ddrop:has(>.ditem.has){overflow:visible!important;max-height:none!important}
+.menubar .ddrop:not(:has(>.ditem.has)){overflow-x:hidden!important;overflow-y:auto!important;max-height:min(72vh,640px)}
 @media (max-width:900px){.harang-hero,.harang-grid,.harang-topics{grid-template-columns:1fr}}
 
 </style>
