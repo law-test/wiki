@@ -408,7 +408,7 @@ a:hover{color:var(--accent-dark)}
 body.ui-scrolled .ui-top{opacity:1;transform:translateY(0) scale(1);pointer-events:auto}
 .ui-top:hover{transform:translateY(-2px) scale(1.03)}
 header{
-  position:sticky;top:0;z-index:100;
+  position:sticky;top:0;z-index:2000;
   background:rgba(255,255,255,.78);
   border-bottom:1px solid rgba(208,213,221,.75);
   box-shadow:0 10px 30px rgba(16,24,40,.06);
@@ -432,16 +432,17 @@ header{
 .search span{border:1px solid transparent;border-radius:0 999px 999px 0;background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#fff;font-weight:900;padding:10px 17px;transition:transform .16s,filter .16s}
 .search span:hover{filter:brightness(1.03);transform:translateY(-1px)}
 #navtoggle{border-radius:999px!important;background:#fff!important;box-shadow:var(--shadow-sm)}
-.menubar{background:transparent;border:0}
+.menubar{background:transparent;border:0;position:relative;z-index:2100}
 .menubar .mwrap{max-width:1440px;padding:0 24px 13px;gap:7px;align-items:center;overflow:visible}
 .menubar a{font-size:14px;font-weight:850;letter-spacing:-.02em;color:var(--txt2);border-radius:999px;padding:9px 16px;text-decoration:none;transition:background .16s,color .16s,transform .16s,box-shadow .16s}
 .menubar a+a::before{display:none}
 .mitem .mtop{display:block;background:rgba(255,255,255,.58);border:1px solid transparent;color:var(--txt2)!important}
 .mitem .mtop:hover,.mitem:hover>.mtop{background:#fff;color:var(--accent)!important;border-color:rgba(109,40,217,.17);box-shadow:var(--shadow-sm);transform:translateY(-1px)}
 .mitem .mtop[href="#학습게임"],.mitem .mtop[href="#자유게시판"],.mitem .mtop[href="#민법뉴스"]{background:linear-gradient(135deg,rgba(109,40,217,.10),rgba(37,99,235,.08));color:var(--accent-dark)!important;border-color:rgba(109,40,217,.16)}
-.mdrop,.ddrop{border:1px solid rgba(208,213,221,.85)!important;border-radius:18px;background:rgba(255,255,255,.96)!important;box-shadow:var(--shadow-lg)!important;padding:8px!important;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
-.mdrop{top:calc(100% + 8px)}
-.ddrop{top:-8px;left:calc(100% + 8px)}
+.mdrop,.ddrop{border:1px solid rgba(208,213,221,.85)!important;border-radius:18px;background:rgba(255,255,255,.96)!important;box-shadow:var(--shadow-lg)!important;padding:8px!important;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);overflow:visible}
+.mdrop{top:calc(100% + 8px);z-index:2300}
+.ddrop{top:-8px;left:calc(100% + 8px);max-height:none;z-index:2400}
+.ddrop:not(:has(.ditem.has)){max-height:min(72vh,calc(100vh - 170px));overflow-y:auto;overflow-x:hidden}
 .mdrop a,.ddrop a{border-radius:12px;color:var(--txt2)!important;padding:8px 12px!important;font-weight:700!important}
 .mdrop a:hover,.ddrop a:hover{background:var(--accent-bg)!important;color:var(--accent-dark)!important;text-decoration:none;transform:none;box-shadow:none}
 .mdrop .dis,.ddrop .dis{border-radius:12px;color:#a5adba;background:#f8fafc}
@@ -826,10 +827,11 @@ section.art.law-subject-article-mode>.pager{display:none}
 .mitem .mtop[href="#하랑재"],.clarity-fix .mitem .mtop[href="#하랑재"]{background:#fff7ed;border-color:#fed7aa;color:#9a3412!important}
 /* header-backup: <div class="mitem"><a class="mtop" data-pyeon="하랑재" href="#하랑재">하랑재</a></div> */
 .menubar .mitem:has(>.mtop[href="#하랑재"]){display:none!important}
-.mitem::after{content:"";position:absolute;left:-16px;top:100%;width:max(100%,260px);height:24px;display:none;z-index:49;pointer-events:auto}
+.mitem:hover,.mitem.menu-open,.ditem.has:hover,.ditem.has.menu-open{z-index:2500}
+.mitem::after{content:"";position:absolute;left:-16px;top:100%;width:max(100%,260px);height:24px;display:none;z-index:2290;pointer-events:auto}
 .mitem:hover::after,.mitem.menu-open::after{display:block}
 .mitem.menu-open>.mdrop{display:block}
-.ditem.has::after{content:"";position:absolute;top:-10px;bottom:-10px;left:100%;width:24px;display:none;z-index:59;pointer-events:auto}
+.ditem.has::after{content:"";position:absolute;top:-10px;bottom:-10px;left:100%;width:24px;display:none;z-index:2390;pointer-events:auto}
 .ditem.has:hover::after,.ditem.has.menu-open::after{display:block}
 .ditem.has.menu-open>.ddrop{display:block}
 @media (max-width:900px){.harang-hero,.harang-grid,.harang-topics{grid-template-columns:1fr}}
