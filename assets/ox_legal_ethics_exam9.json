@@ -21,7 +21,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q01",
+      "sourceQuestionId": "legal_ethics_r09_q01",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -50,9 +50,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 1,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -68,7 +74,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q01",
+      "sourceQuestionId": "legal_ethics_r09_q01",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -97,9 +103,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조, 변호사윤리장전",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 1,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -115,7 +127,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q01",
+      "sourceQuestionId": "legal_ethics_r09_q01",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -144,9 +156,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 1,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -162,7 +180,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q01",
+      "sourceQuestionId": "legal_ethics_r09_q01",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -191,9 +209,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민사집행법, 판례",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 1,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -209,7 +233,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q02",
+      "sourceQuestionId": "legal_ethics_r09_q02",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -238,9 +262,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "민법, 판례",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 2,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -256,7 +286,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q02",
+      "sourceQuestionId": "legal_ethics_r09_q02",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -285,9 +315,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 판례",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 2,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -303,7 +339,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q02",
+      "sourceQuestionId": "legal_ethics_r09_q02",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -332,9 +368,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제32조, 판례",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 2,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -350,7 +392,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q02",
+      "sourceQuestionId": "legal_ethics_r09_q02",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -379,9 +421,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 판례",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 2,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -397,7 +445,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q03",
+      "sourceQuestionId": "legal_ethics_r09_q03",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -426,9 +474,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제34조, 변호사업무광고규정",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 3,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -444,7 +498,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q03",
+      "sourceQuestionId": "legal_ethics_r09_q03",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -473,9 +527,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사업무광고규정",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 3,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -491,7 +551,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q03",
+      "sourceQuestionId": "legal_ethics_r09_q03",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -520,9 +580,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사업무광고규정",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 3,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -538,7 +604,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q03",
+      "sourceQuestionId": "legal_ethics_r09_q03",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -567,9 +633,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사업무광고규정",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 3,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -585,7 +657,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q04",
+      "sourceQuestionId": "legal_ethics_r09_q04",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -614,9 +686,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 판례",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 4,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -632,7 +710,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q04",
+      "sourceQuestionId": "legal_ethics_r09_q04",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -661,9 +739,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 판례",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 4,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -679,7 +763,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q04",
+      "sourceQuestionId": "legal_ethics_r09_q04",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -708,9 +792,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "대법원 판례, 민법 제103조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 4,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -726,7 +816,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q04",
+      "sourceQuestionId": "legal_ethics_r09_q04",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -755,9 +845,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "대법원 판례, 민법 제103조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 4,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -773,7 +869,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q05",
+      "sourceQuestionId": "legal_ethics_r09_q05",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -802,9 +898,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 판례",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 5,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -820,7 +922,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q05",
+      "sourceQuestionId": "legal_ethics_r09_q05",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -849,9 +951,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 판례",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 5,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -867,7 +975,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q05",
+      "sourceQuestionId": "legal_ethics_r09_q05",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -896,9 +1004,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "민법, 판례",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 5,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -914,7 +1028,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q05",
+      "sourceQuestionId": "legal_ethics_r09_q05",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -943,9 +1057,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사윤리장전",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 5,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -961,7 +1081,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q06",
+      "sourceQuestionId": "legal_ethics_r09_q06",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -990,9 +1110,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사업무광고규정",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 6,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1008,7 +1134,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q06",
+      "sourceQuestionId": "legal_ethics_r09_q06",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -1037,9 +1163,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사업무광고규정",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 6,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1055,7 +1187,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q06",
+      "sourceQuestionId": "legal_ethics_r09_q06",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -1084,9 +1216,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사업무광고규정",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 6,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1102,7 +1240,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q06",
+      "sourceQuestionId": "legal_ethics_r09_q06",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -1131,9 +1269,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제34조, 광고규정",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 6,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1149,7 +1293,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q07",
+      "sourceQuestionId": "legal_ethics_r09_q07",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -1178,9 +1322,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사업무광고규정",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 7,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1196,7 +1346,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q07",
+      "sourceQuestionId": "legal_ethics_r09_q07",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -1225,9 +1375,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사업무광고규정",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 7,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1243,7 +1399,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q07",
+      "sourceQuestionId": "legal_ethics_r09_q07",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -1272,9 +1428,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사업무광고규정",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 7,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1290,7 +1452,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q07",
+      "sourceQuestionId": "legal_ethics_r09_q07",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -1319,9 +1481,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사업무광고규정",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 7,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1337,7 +1505,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q08",
+      "sourceQuestionId": "legal_ethics_r09_q08",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -1366,9 +1534,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사업무광고규정",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 8,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1384,7 +1558,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q08",
+      "sourceQuestionId": "legal_ethics_r09_q08",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -1413,9 +1587,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사업무광고규정",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 8,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1431,7 +1611,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q08",
+      "sourceQuestionId": "legal_ethics_r09_q08",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -1460,9 +1640,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사업무광고규정",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 8,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1478,7 +1664,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q08",
+      "sourceQuestionId": "legal_ethics_r09_q08",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -1507,9 +1693,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사업무광고규정",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 8,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1525,7 +1717,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q09",
+      "sourceQuestionId": "legal_ethics_r09_q09",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -1554,9 +1746,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제26조, 변호사윤리장전",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 9,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1572,7 +1770,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q09",
+      "sourceQuestionId": "legal_ethics_r09_q09",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -1601,9 +1799,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제26조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 9,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1619,7 +1823,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q09",
+      "sourceQuestionId": "legal_ethics_r09_q09",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -1648,9 +1852,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제26조, 변호사윤리장전",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 9,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1666,7 +1876,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q09",
+      "sourceQuestionId": "legal_ethics_r09_q09",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -1695,9 +1905,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제26조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 9,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1713,7 +1929,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q10",
+      "sourceQuestionId": "legal_ethics_r09_q10",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -1742,9 +1958,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "헌법, 형사소송법, 판례",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 10,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1760,7 +1982,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q10",
+      "sourceQuestionId": "legal_ethics_r09_q10",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -1789,9 +2011,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형사소송법, 판례",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 10,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1807,7 +2035,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q10",
+      "sourceQuestionId": "legal_ethics_r09_q10",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -1836,9 +2064,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "형법, 변호사윤리장전",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 10,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1854,7 +2088,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q10",
+      "sourceQuestionId": "legal_ethics_r09_q10",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -1883,9 +2117,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 10,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1901,7 +2141,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q11",
+      "sourceQuestionId": "legal_ethics_r09_q11",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -1930,9 +2170,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제26조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 11,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1948,7 +2194,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q11",
+      "sourceQuestionId": "legal_ethics_r09_q11",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -1977,9 +2223,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 11,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1995,7 +2247,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q11",
+      "sourceQuestionId": "legal_ethics_r09_q11",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -2024,9 +2276,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 11,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2042,7 +2300,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q11",
+      "sourceQuestionId": "legal_ethics_r09_q11",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -2071,9 +2329,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제26조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 11,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2089,7 +2353,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q12",
+      "sourceQuestionId": "legal_ethics_r09_q12",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -2118,9 +2382,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제26조, 변호사윤리장전",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 12,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2136,7 +2406,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q12",
+      "sourceQuestionId": "legal_ethics_r09_q12",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -2165,9 +2435,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제26조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 12,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2183,7 +2459,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q12",
+      "sourceQuestionId": "legal_ethics_r09_q12",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -2212,9 +2488,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "행정심판법, 변호사법 제26조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 12,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2230,7 +2512,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q12",
+      "sourceQuestionId": "legal_ethics_r09_q12",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -2259,9 +2541,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 12,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2277,7 +2565,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q13",
+      "sourceQuestionId": "legal_ethics_r09_q13",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -2306,9 +2594,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 판례",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 13,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2324,7 +2618,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q13",
+      "sourceQuestionId": "legal_ethics_r09_q13",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -2353,9 +2647,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형사소송법",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 13,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2371,7 +2671,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q13",
+      "sourceQuestionId": "legal_ethics_r09_q13",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -2400,9 +2700,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 판례",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 13,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2418,7 +2724,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q13",
+      "sourceQuestionId": "legal_ethics_r09_q13",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -2447,9 +2753,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "민법, 판례",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 13,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2465,7 +2777,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q14",
+      "sourceQuestionId": "legal_ethics_r09_q14",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -2494,9 +2806,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법 제681조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 14,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2512,7 +2830,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q14",
+      "sourceQuestionId": "legal_ethics_r09_q14",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -2541,9 +2859,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "민법, 판례",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 14,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2559,7 +2883,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q14",
+      "sourceQuestionId": "legal_ethics_r09_q14",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -2588,9 +2912,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 판례",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 14,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2606,7 +2936,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q14",
+      "sourceQuestionId": "legal_ethics_r09_q14",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -2635,9 +2965,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법 제682조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 14,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2653,7 +2989,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q15",
+      "sourceQuestionId": "legal_ethics_r09_q15",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -2682,9 +3018,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 15,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2700,7 +3042,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q15",
+      "sourceQuestionId": "legal_ethics_r09_q15",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -2729,9 +3071,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 15,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2747,7 +3095,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q15",
+      "sourceQuestionId": "legal_ethics_r09_q15",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -2776,9 +3124,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 15,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2794,7 +3148,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q15",
+      "sourceQuestionId": "legal_ethics_r09_q15",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -2823,9 +3177,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제31조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 15,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2841,7 +3201,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q16",
+      "sourceQuestionId": "legal_ethics_r09_q16",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -2870,9 +3230,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 16,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2888,7 +3254,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q16",
+      "sourceQuestionId": "legal_ethics_r09_q16",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -2917,9 +3283,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 16,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2935,7 +3307,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q16",
+      "sourceQuestionId": "legal_ethics_r09_q16",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -2964,9 +3336,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민사소송법, 판례",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 16,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2982,7 +3360,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q16",
+      "sourceQuestionId": "legal_ethics_r09_q16",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -3011,9 +3389,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 16,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3029,7 +3413,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q17",
+      "sourceQuestionId": "legal_ethics_r09_q17",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -3058,9 +3442,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 17,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3076,7 +3466,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q17",
+      "sourceQuestionId": "legal_ethics_r09_q17",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -3105,9 +3495,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 17,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3123,7 +3519,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q17",
+      "sourceQuestionId": "legal_ethics_r09_q17",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -3152,9 +3548,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조, 판례",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 17,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3170,7 +3572,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q17",
+      "sourceQuestionId": "legal_ethics_r09_q17",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -3199,9 +3601,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 17,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3217,7 +3625,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q18",
+      "sourceQuestionId": "legal_ethics_r09_q18",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -3246,9 +3654,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민사소송법",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 18,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3264,7 +3678,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q18",
+      "sourceQuestionId": "legal_ethics_r09_q18",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -3293,9 +3707,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 18,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3311,7 +3731,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q18",
+      "sourceQuestionId": "legal_ethics_r09_q18",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -3340,9 +3760,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 18,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3358,7 +3784,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q18",
+      "sourceQuestionId": "legal_ethics_r09_q18",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -3369,7 +3795,7 @@
       "art": "변호사윤리장전",
       "artNo": null,
       "topic": "부당 요구 거절",
-      "rep": "변호사는 의뢰인의 요청이 변호사 품위를 손상시키거나 의뢰인 이익에 배치된다고 인정하면 이유를 설명하고 따르지 않을 수 있다.",
+      "rep": "변호사는 품위손상 또는 의뢰인 이익 침해 우려가 있는 의뢰인 요청을 이유를 설명하고 거절할 수 있다.",
       "a": "O",
       "why": "부당 요구 거절에 관한 최소 원리 atom입니다. 2026-06-17 시행 법령과 제9회 법조윤리시험 정답 기준으로 정리했습니다.",
       "ref": "변호사윤리장전",
@@ -3380,16 +3806,22 @@
           "q": "변호사는 의뢰인의 요청이 품위를 손상시키거나 의뢰인 이익에 배치되어도 위임관계가 있으면 따라야 한다.",
           "trap": "요청 거절",
           "why": "부당 요구 거절에 관한 최소 원리 atom입니다. 2026-06-17 시행 법령과 제9회 법조윤리시험 정답 기준으로 정리했습니다.",
-          "corrected": "변호사는 의뢰인의 요청이 변호사 품위를 손상시키거나 의뢰인 이익에 배치된다고 인정하면 이유를 설명하고 따르지 않을 수 있다.",
+          "corrected": "변호사는 품위손상 또는 의뢰인 이익 침해 우려가 있는 의뢰인 요청을 이유를 설명하고 거절할 수 있다.",
           "src": [
             "법윤9"
           ],
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 18,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3405,7 +3837,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q19",
+      "sourceQuestionId": "legal_ethics_r09_q19",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -3434,9 +3866,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제109조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 19,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3452,7 +3890,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q19",
+      "sourceQuestionId": "legal_ethics_r09_q19",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -3481,9 +3919,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제109조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 19,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3499,7 +3943,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q19",
+      "sourceQuestionId": "legal_ethics_r09_q19",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -3528,9 +3972,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제109조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 19,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3546,7 +3996,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q19",
+      "sourceQuestionId": "legal_ethics_r09_q19",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -3575,9 +4025,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제109조, 형법",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 19,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3593,7 +4049,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q20",
+      "sourceQuestionId": "legal_ethics_r09_q20",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -3622,9 +4078,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사윤리장전",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 20,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3640,7 +4102,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q20",
+      "sourceQuestionId": "legal_ethics_r09_q20",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -3669,9 +4131,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 20,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3687,7 +4155,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q20",
+      "sourceQuestionId": "legal_ethics_r09_q20",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -3716,9 +4184,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사윤리장전",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 20,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3734,7 +4208,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q20",
+      "sourceQuestionId": "legal_ethics_r09_q20",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -3763,9 +4237,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "민법 제689조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 20,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3781,7 +4261,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q21",
+      "sourceQuestionId": "legal_ethics_r09_q21",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -3810,9 +4290,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 21,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3828,7 +4314,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q21",
+      "sourceQuestionId": "legal_ethics_r09_q21",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -3839,7 +4325,7 @@
       "art": "변호사윤리장전",
       "artNo": null,
       "topic": "부적합 지시 변경권고",
-      "rep": "변호사는 의뢰인의 지시가 위임 취지에 맞지 않거나 불리하면 이를 고지하고 지시 변경을 요구 또는 권고할 수 있다.",
+      "rep": "변호사는 위임 취지에 맞지 않거나 불리한 의뢰인 지시에 대해 변경을 요구하거나 권고할 수 있다.",
       "a": "O",
       "why": "부적합 지시 변경권고에 관한 최소 원리 atom입니다. 2026-06-17 시행 법령과 제9회 법조윤리시험 정답 기준으로 정리했습니다.",
       "ref": "변호사윤리장전",
@@ -3850,16 +4336,22 @@
           "q": "변호사는 의뢰인의 지시가 불리하더라도 고지만 할 수 있고 지시 변경을 요구하거나 권고할 수 없다.",
           "trap": "지시 변경",
           "why": "부적합 지시 변경권고에 관한 최소 원리 atom입니다. 2026-06-17 시행 법령과 제9회 법조윤리시험 정답 기준으로 정리했습니다.",
-          "corrected": "변호사는 의뢰인의 지시가 위임 취지에 맞지 않거나 불리하면 이를 고지하고 지시 변경을 요구 또는 권고할 수 있다.",
+          "corrected": "변호사는 위임 취지에 맞지 않거나 불리한 의뢰인 지시에 대해 변경을 요구하거나 권고할 수 있다.",
           "src": [
             "법윤9"
           ],
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 21,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3875,7 +4367,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q21",
+      "sourceQuestionId": "legal_ethics_r09_q21",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -3904,9 +4396,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법 제687조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 21,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3922,7 +4420,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q21",
+      "sourceQuestionId": "legal_ethics_r09_q21",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -3951,9 +4449,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "형사소송법, 변호사윤리장전",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 21,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3969,7 +4473,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q22",
+      "sourceQuestionId": "legal_ethics_r09_q22",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -3998,9 +4502,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 법조윤리협의회 규정",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 22,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4016,7 +4526,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q22",
+      "sourceQuestionId": "legal_ethics_r09_q22",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -4045,9 +4555,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 22,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4063,7 +4579,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q22",
+      "sourceQuestionId": "legal_ethics_r09_q22",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -4092,9 +4608,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법, 법조윤리협의회",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 22,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4110,7 +4632,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q22",
+      "sourceQuestionId": "legal_ethics_r09_q22",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -4139,9 +4661,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 22,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4157,7 +4685,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q23",
+      "sourceQuestionId": "legal_ethics_r09_q23",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -4186,9 +4714,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 23,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4204,7 +4738,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q23",
+      "sourceQuestionId": "legal_ethics_r09_q23",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -4233,9 +4767,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제31조, 변호사윤리장전",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 23,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4251,7 +4791,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q23",
+      "sourceQuestionId": "legal_ethics_r09_q23",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -4280,9 +4820,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 23,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4298,7 +4844,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q23",
+      "sourceQuestionId": "legal_ethics_r09_q23",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -4327,9 +4873,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 23,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4345,7 +4897,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q24",
+      "sourceQuestionId": "legal_ethics_r09_q24",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -4374,9 +4926,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 24,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4392,7 +4950,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q24",
+      "sourceQuestionId": "legal_ethics_r09_q24",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -4421,9 +4979,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 24,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4439,7 +5003,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q24",
+      "sourceQuestionId": "legal_ethics_r09_q24",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -4468,9 +5032,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제31조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 24,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4486,7 +5056,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q24",
+      "sourceQuestionId": "legal_ethics_r09_q24",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -4515,9 +5085,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 24,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4533,7 +5109,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q25",
+      "sourceQuestionId": "legal_ethics_r09_q25",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -4562,9 +5138,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "검사윤리강령",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 25,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4580,7 +5162,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q25",
+      "sourceQuestionId": "legal_ethics_r09_q25",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -4609,9 +5191,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "검사윤리강령",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 25,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4627,7 +5215,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q25",
+      "sourceQuestionId": "legal_ethics_r09_q25",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -4656,9 +5244,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "법관윤리강령",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 25,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4674,7 +5268,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q25",
+      "sourceQuestionId": "legal_ethics_r09_q25",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -4703,9 +5297,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "검사윤리강령",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 25,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4721,7 +5321,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q26",
+      "sourceQuestionId": "legal_ethics_r09_q26",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -4750,9 +5350,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "외국법자문사법",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 26,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4768,7 +5374,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q26",
+      "sourceQuestionId": "legal_ethics_r09_q26",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -4797,9 +5403,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "외국법자문사법",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 26,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4815,7 +5427,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q26",
+      "sourceQuestionId": "legal_ethics_r09_q26",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -4844,9 +5456,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "외국법자문사법",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 26,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4862,7 +5480,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q26",
+      "sourceQuestionId": "legal_ethics_r09_q26",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -4891,9 +5509,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "외국법자문사법",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 26,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4909,7 +5533,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q27",
+      "sourceQuestionId": "legal_ethics_r09_q27",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -4938,9 +5562,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 공인중개사법",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 27,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4956,7 +5586,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q27",
+      "sourceQuestionId": "legal_ethics_r09_q27",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -4985,9 +5615,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변리사법",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 27,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5003,7 +5639,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q27",
+      "sourceQuestionId": "legal_ethics_r09_q27",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -5032,9 +5668,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 세무사법",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 27,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5050,7 +5692,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q27",
+      "sourceQuestionId": "legal_ethics_r09_q27",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -5079,9 +5721,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민사소송법, 변리사법",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 27,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5097,7 +5745,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q28",
+      "sourceQuestionId": "legal_ethics_r09_q28",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -5126,9 +5774,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 28,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5144,7 +5798,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q28",
+      "sourceQuestionId": "legal_ethics_r09_q28",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -5173,9 +5827,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 28,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5191,7 +5851,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q28",
+      "sourceQuestionId": "legal_ethics_r09_q28",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -5220,9 +5880,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 28,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5238,7 +5904,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q28",
+      "sourceQuestionId": "legal_ethics_r09_q28",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -5267,9 +5933,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 28,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5285,7 +5957,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q29",
+      "sourceQuestionId": "legal_ethics_r09_q29",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -5314,9 +5986,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 29,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5332,7 +6010,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q29",
+      "sourceQuestionId": "legal_ethics_r09_q29",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -5361,9 +6039,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 29,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5379,7 +6063,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q29",
+      "sourceQuestionId": "legal_ethics_r09_q29",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -5408,9 +6092,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 29,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5426,7 +6116,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q29",
+      "sourceQuestionId": "legal_ethics_r09_q29",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -5455,9 +6145,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 29,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5473,7 +6169,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q30",
+      "sourceQuestionId": "legal_ethics_r09_q30",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -5502,9 +6198,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조의2",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 30,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5520,7 +6222,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q30",
+      "sourceQuestionId": "legal_ethics_r09_q30",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -5549,9 +6251,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제31조의2",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 30,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5567,7 +6275,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q30",
+      "sourceQuestionId": "legal_ethics_r09_q30",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -5596,9 +6304,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조의2",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 30,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5614,7 +6328,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q30",
+      "sourceQuestionId": "legal_ethics_r09_q30",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -5643,9 +6357,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조의2",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 30,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5661,7 +6381,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q31",
+      "sourceQuestionId": "legal_ethics_r09_q31",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -5690,9 +6410,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "형사소송법, 변호사윤리장전",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 31,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5708,7 +6434,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q31",
+      "sourceQuestionId": "legal_ethics_r09_q31",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -5737,9 +6463,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형법, 변호사윤리장전",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 31,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5755,7 +6487,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q31",
+      "sourceQuestionId": "legal_ethics_r09_q31",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -5784,9 +6516,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형법, 변호사윤리장전",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 31,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5802,7 +6540,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q31",
+      "sourceQuestionId": "legal_ethics_r09_q31",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -5831,9 +6569,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 31,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5849,7 +6593,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q32",
+      "sourceQuestionId": "legal_ethics_r09_q32",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -5878,9 +6622,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사연수규칙",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 32,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5896,7 +6646,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q32",
+      "sourceQuestionId": "legal_ethics_r09_q32",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -5925,9 +6675,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사연수규칙",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 32,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5943,7 +6699,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q32",
+      "sourceQuestionId": "legal_ethics_r09_q32",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -5972,9 +6728,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사연수규칙",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 32,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5990,7 +6752,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q32",
+      "sourceQuestionId": "legal_ethics_r09_q32",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -6019,9 +6781,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사연수규칙",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 32,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6037,7 +6805,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q33",
+      "sourceQuestionId": "legal_ethics_r09_q33",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -6066,9 +6834,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 공익활동 규정",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 33,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6084,7 +6858,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q33",
+      "sourceQuestionId": "legal_ethics_r09_q33",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -6113,9 +6887,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 공익활동 규정",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 33,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6131,7 +6911,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q33",
+      "sourceQuestionId": "legal_ethics_r09_q33",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -6160,9 +6940,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 공익활동 규정",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 33,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6178,7 +6964,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q33",
+      "sourceQuestionId": "legal_ethics_r09_q33",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -6207,9 +6993,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사 공익활동 규정",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 33,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6225,7 +7017,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q34",
+      "sourceQuestionId": "legal_ethics_r09_q34",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -6254,9 +7046,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 겸직 규정",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 34,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6272,7 +7070,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q34",
+      "sourceQuestionId": "legal_ethics_r09_q34",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -6301,9 +7099,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 겸직 규정",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 34,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6319,7 +7123,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q34",
+      "sourceQuestionId": "legal_ethics_r09_q34",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -6348,9 +7152,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법, 변호사윤리장전",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 34,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6366,7 +7176,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q34",
+      "sourceQuestionId": "legal_ethics_r09_q34",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -6395,9 +7205,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 겸직 규정",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 34,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6413,7 +7229,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q35",
+      "sourceQuestionId": "legal_ethics_r09_q35",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -6442,9 +7258,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 35,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6460,7 +7282,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q35",
+      "sourceQuestionId": "legal_ethics_r09_q35",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -6489,9 +7311,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 35,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6507,7 +7335,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q35",
+      "sourceQuestionId": "legal_ethics_r09_q35",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -6536,9 +7364,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제34조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 35,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6554,7 +7388,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q35",
+      "sourceQuestionId": "legal_ethics_r09_q35",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -6583,9 +7417,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제34조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 35,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6601,7 +7441,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q36",
+      "sourceQuestionId": "legal_ethics_r09_q36",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -6630,9 +7470,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전, 형법",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 36,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6648,7 +7494,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q36",
+      "sourceQuestionId": "legal_ethics_r09_q36",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -6677,9 +7523,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 36,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6695,7 +7547,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q36",
+      "sourceQuestionId": "legal_ethics_r09_q36",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -6724,9 +7576,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 36,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6742,7 +7600,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q36",
+      "sourceQuestionId": "legal_ethics_r09_q36",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -6771,9 +7629,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 36,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6789,7 +7653,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q37",
+      "sourceQuestionId": "legal_ethics_r09_q37",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -6818,9 +7682,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 37,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6836,7 +7706,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q37",
+      "sourceQuestionId": "legal_ethics_r09_q37",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -6865,9 +7735,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "헌법, 형사소송법",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 37,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6883,7 +7759,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q37",
+      "sourceQuestionId": "legal_ethics_r09_q37",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -6912,9 +7788,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 37,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6930,7 +7812,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q37",
+      "sourceQuestionId": "legal_ethics_r09_q37",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -6959,9 +7841,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 37,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6977,7 +7865,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q38",
+      "sourceQuestionId": "legal_ethics_r09_q38",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -7006,9 +7894,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 38,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7024,7 +7918,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q38",
+      "sourceQuestionId": "legal_ethics_r09_q38",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -7053,9 +7947,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 38,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7071,7 +7971,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q38",
+      "sourceQuestionId": "legal_ethics_r09_q38",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -7100,9 +8000,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 38,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7118,7 +8024,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q38",
+      "sourceQuestionId": "legal_ethics_r09_q38",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -7147,9 +8053,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 38,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7165,7 +8077,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q39",
+      "sourceQuestionId": "legal_ethics_r09_q39",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -7194,9 +8106,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 39,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7212,7 +8130,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q39",
+      "sourceQuestionId": "legal_ethics_r09_q39",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -7241,9 +8159,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 39,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7259,7 +8183,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q39",
+      "sourceQuestionId": "legal_ethics_r09_q39",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -7288,9 +8212,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 39,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7306,7 +8236,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q39",
+      "sourceQuestionId": "legal_ethics_r09_q39",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -7335,9 +8265,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 39,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7353,7 +8289,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q40",
+      "sourceQuestionId": "legal_ethics_r09_q40",
       "sourcePart": "1",
       "curation": {
         "status": "manual_curated",
@@ -7382,9 +8318,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "형사소송법",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 40,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7400,7 +8342,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q40",
+      "sourceQuestionId": "legal_ethics_r09_q40",
       "sourcePart": "2",
       "curation": {
         "status": "manual_curated",
@@ -7429,9 +8371,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형사소송법",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 40,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7447,7 +8395,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q40",
+      "sourceQuestionId": "legal_ethics_r09_q40",
       "sourcePart": "3",
       "curation": {
         "status": "manual_curated",
@@ -7476,9 +8424,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형사소송법, 변호사윤리장전",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 40,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7494,7 +8448,7 @@
       ],
       "xref": [],
       "subject": "법조윤리",
-      "sourceQuestionId": "legal_ethics_r9_q40",
+      "sourceQuestionId": "legal_ethics_r09_q40",
       "sourcePart": "4",
       "curation": {
         "status": "manual_curated",
@@ -7523,9 +8477,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형사소송법",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 9,
+      "sourceQuestion": 40,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     }
   ]
 }

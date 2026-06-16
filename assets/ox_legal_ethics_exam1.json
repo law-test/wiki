@@ -52,7 +52,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 변호사윤리장전",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -101,7 +103,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "판례",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -150,7 +154,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -199,7 +205,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 변호사윤리장전",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -248,7 +256,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "5"
+          "sourcePart": "5",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -297,7 +307,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "6"
+          "sourcePart": "6",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -346,7 +358,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "7"
+          "sourcePart": "7",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -395,7 +409,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "8"
+          "sourcePart": "8",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -444,7 +460,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "9"
+          "sourcePart": "9",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -493,7 +511,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "10"
+          "sourcePart": "10",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -542,7 +562,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "11"
+          "sourcePart": "11",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -591,7 +613,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "12"
+          "sourcePart": "12",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -640,7 +664,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "13"
+          "sourcePart": "13",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -689,7 +715,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "14"
+          "sourcePart": "14",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -738,7 +766,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "15"
+          "sourcePart": "15",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -787,7 +817,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법, 민법",
-          "sourcePart": "16"
+          "sourcePart": "16",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -836,7 +868,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "17"
+          "sourcePart": "17",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -885,7 +919,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "18"
+          "sourcePart": "18",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -934,7 +970,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "19"
+          "sourcePart": "19",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -983,7 +1021,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "20"
+          "sourcePart": "20",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1032,7 +1072,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "검사윤리강령",
-          "sourcePart": "21"
+          "sourcePart": "21",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1081,7 +1123,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "검사윤리강령",
-          "sourcePart": "22"
+          "sourcePart": "22",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1130,7 +1174,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "검사윤리강령",
-          "sourcePart": "23"
+          "sourcePart": "23",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1179,7 +1225,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "검사윤리강령, 형사소송법",
-          "sourcePart": "24"
+          "sourcePart": "24",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1228,7 +1276,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "외국법자문사법",
-          "sourcePart": "25"
+          "sourcePart": "25",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1277,7 +1327,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "외국법자문사법",
-          "sourcePart": "26"
+          "sourcePart": "26",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1326,7 +1378,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "외국법자문사법",
-          "sourcePart": "27"
+          "sourcePart": "27",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1375,7 +1429,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "외국법자문사법",
-          "sourcePart": "28"
+          "sourcePart": "28",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1424,7 +1480,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "29"
+          "sourcePart": "29",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1473,7 +1531,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "30"
+          "sourcePart": "30",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1522,7 +1582,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민사소송법, 형사소송법",
-          "sourcePart": "31"
+          "sourcePart": "31",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1571,7 +1633,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "32"
+          "sourcePart": "32",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1620,7 +1684,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법, 변호사윤리장전",
-          "sourcePart": "33"
+          "sourcePart": "33",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1669,7 +1735,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "34"
+          "sourcePart": "34",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1718,7 +1786,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "35"
+          "sourcePart": "35",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1767,7 +1837,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "36"
+          "sourcePart": "36",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1816,7 +1888,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "37"
+          "sourcePart": "37",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1865,7 +1939,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사윤리장전",
-          "sourcePart": "38"
+          "sourcePart": "38",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1914,7 +1990,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "39"
+          "sourcePart": "39",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -1963,7 +2041,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사 책임 법리",
-          "sourcePart": "40"
+          "sourcePart": "40",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2012,7 +2092,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 변호사윤리장전",
-          "sourcePart": "41"
+          "sourcePart": "41",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2061,7 +2143,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "42"
+          "sourcePart": "42",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2110,7 +2194,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법, 민사소송법",
-          "sourcePart": "43"
+          "sourcePart": "43",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2159,7 +2245,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "44"
+          "sourcePart": "44",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2208,7 +2296,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사윤리장전",
-          "sourcePart": "45"
+          "sourcePart": "45",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2257,7 +2347,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "46"
+          "sourcePart": "46",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2306,7 +2398,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "민법",
-          "sourcePart": "47"
+          "sourcePart": "47",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2355,7 +2449,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사윤리장전",
-          "sourcePart": "48"
+          "sourcePart": "48",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2404,7 +2500,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "49"
+          "sourcePart": "49",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2453,7 +2551,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "50"
+          "sourcePart": "50",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2502,7 +2602,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 변호사윤리장전",
-          "sourcePart": "51"
+          "sourcePart": "51",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2551,7 +2653,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "52"
+          "sourcePart": "52",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2600,7 +2704,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "53"
+          "sourcePart": "53",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2649,7 +2755,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "54"
+          "sourcePart": "54",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2698,7 +2806,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "55"
+          "sourcePart": "55",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2747,7 +2857,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "56"
+          "sourcePart": "56",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2796,7 +2908,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사업무광고규정",
-          "sourcePart": "57"
+          "sourcePart": "57",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2845,7 +2959,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사업무광고규정",
-          "sourcePart": "58"
+          "sourcePart": "58",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2894,7 +3010,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사업무광고규정",
-          "sourcePart": "59"
+          "sourcePart": "59",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2943,7 +3061,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사업무광고규정",
-          "sourcePart": "60"
+          "sourcePart": "60",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -2992,7 +3112,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전, 변호사 보수 기준",
-          "sourcePart": "61"
+          "sourcePart": "61",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3041,7 +3163,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "62"
+          "sourcePart": "62",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3090,7 +3214,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사윤리장전",
-          "sourcePart": "63"
+          "sourcePart": "63",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3139,7 +3265,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사윤리장전",
-          "sourcePart": "64"
+          "sourcePart": "64",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3188,7 +3316,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법, 변호사윤리장전",
-          "sourcePart": "65"
+          "sourcePart": "65",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3237,7 +3367,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 변호사윤리장전",
-          "sourcePart": "66"
+          "sourcePart": "66",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3286,7 +3418,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "판례",
-          "sourcePart": "67"
+          "sourcePart": "67",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3335,7 +3469,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "68"
+          "sourcePart": "68",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3384,7 +3520,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "69"
+          "sourcePart": "69",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3433,7 +3571,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "70"
+          "sourcePart": "70",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3482,7 +3622,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "71"
+          "sourcePart": "71",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3531,7 +3673,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "72"
+          "sourcePart": "72",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3580,7 +3724,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 변호사윤리장전",
-          "sourcePart": "73"
+          "sourcePart": "73",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3629,7 +3775,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법, 형사소송법",
-          "sourcePart": "74"
+          "sourcePart": "74",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3678,7 +3826,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 형사소송법",
-          "sourcePart": "75"
+          "sourcePart": "75",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3727,7 +3877,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 형사소송법",
-          "sourcePart": "76"
+          "sourcePart": "76",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3776,7 +3928,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사업무광고규정",
-          "sourcePart": "77"
+          "sourcePart": "77",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3825,7 +3979,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사업무광고규정",
-          "sourcePart": "78"
+          "sourcePart": "78",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3874,7 +4030,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사업무광고규정",
-          "sourcePart": "79"
+          "sourcePart": "79",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3923,7 +4081,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사업무광고규정",
-          "sourcePart": "80"
+          "sourcePart": "80",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -3972,7 +4132,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "민법, 판례",
-          "sourcePart": "81"
+          "sourcePart": "81",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4021,7 +4183,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사 보수 법리",
-          "sourcePart": "82"
+          "sourcePart": "82",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4070,7 +4234,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "판례",
-          "sourcePart": "83"
+          "sourcePart": "83",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4119,7 +4285,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "판례",
-          "sourcePart": "84"
+          "sourcePart": "84",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4168,7 +4336,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "85"
+          "sourcePart": "85",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4217,7 +4387,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "86"
+          "sourcePart": "86",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4266,7 +4438,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "87"
+          "sourcePart": "87",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4315,7 +4489,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "88"
+          "sourcePart": "88",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4364,7 +4540,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 변호사윤리장전",
-          "sourcePart": "89"
+          "sourcePart": "89",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4413,7 +4591,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "90"
+          "sourcePart": "90",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4462,7 +4642,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "91"
+          "sourcePart": "91",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4511,7 +4693,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변리사법, 변호사윤리장전",
-          "sourcePart": "92"
+          "sourcePart": "92",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4560,7 +4744,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "93"
+          "sourcePart": "93",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4609,7 +4795,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "94"
+          "sourcePart": "94",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4658,7 +4846,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "95"
+          "sourcePart": "95",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4707,7 +4897,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "96"
+          "sourcePart": "96",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4756,7 +4948,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "97"
+          "sourcePart": "97",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4805,7 +4999,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "98"
+          "sourcePart": "98",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4854,7 +5050,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "99"
+          "sourcePart": "99",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4903,7 +5101,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "100"
+          "sourcePart": "100",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -4952,7 +5152,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "101"
+          "sourcePart": "101",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5001,7 +5203,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사 보수 법리",
-          "sourcePart": "102"
+          "sourcePart": "102",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5050,7 +5254,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "103"
+          "sourcePart": "103",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5099,7 +5305,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전, 민법",
-          "sourcePart": "104"
+          "sourcePart": "104",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5148,7 +5356,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법, 판례",
-          "sourcePart": "105"
+          "sourcePart": "105",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5197,7 +5407,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "판례",
-          "sourcePart": "106"
+          "sourcePart": "106",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5246,7 +5458,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 판례",
-          "sourcePart": "107"
+          "sourcePart": "107",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5295,7 +5509,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 판례",
-          "sourcePart": "108"
+          "sourcePart": "108",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5344,7 +5560,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "109"
+          "sourcePart": "109",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5393,7 +5611,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 민법",
-          "sourcePart": "110"
+          "sourcePart": "110",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5442,7 +5662,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "111"
+          "sourcePart": "111",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5491,7 +5713,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사법",
-          "sourcePart": "112"
+          "sourcePart": "112",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5540,7 +5764,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "113"
+          "sourcePart": "113",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5589,7 +5815,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형사소송법",
-          "sourcePart": "114"
+          "sourcePart": "114",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5638,7 +5866,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형사소송법, 민사소송법",
-          "sourcePart": "115"
+          "sourcePart": "115",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5687,7 +5917,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "116"
+          "sourcePart": "116",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5736,7 +5968,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "117"
+          "sourcePart": "117",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5785,7 +6019,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "118"
+          "sourcePart": "118",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5834,7 +6070,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "119"
+          "sourcePart": "119",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5883,7 +6121,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "120"
+          "sourcePart": "120",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5932,7 +6172,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형사소송법",
-          "sourcePart": "121"
+          "sourcePart": "121",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -5981,7 +6223,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "122"
+          "sourcePart": "122",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6030,7 +6274,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "형사소송법, 변호사윤리장전",
-          "sourcePart": "123"
+          "sourcePart": "123",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6079,7 +6325,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "124"
+          "sourcePart": "124",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6128,7 +6376,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "125"
+          "sourcePart": "125",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6177,7 +6427,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "126"
+          "sourcePart": "126",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6226,7 +6478,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "127"
+          "sourcePart": "127",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6275,7 +6529,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "128"
+          "sourcePart": "128",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6324,7 +6580,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "대한변호사협회 공익활동 등에 관한 규정",
-          "sourcePart": "129"
+          "sourcePart": "129",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6373,7 +6631,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "대한변호사협회 공익활동 등에 관한 규정",
-          "sourcePart": "130"
+          "sourcePart": "130",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6422,7 +6682,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "대한변호사협회 공익활동 등에 관한 규정",
-          "sourcePart": "131"
+          "sourcePart": "131",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6471,7 +6733,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "대한변호사협회 공익활동 등에 관한 규정",
-          "sourcePart": "132"
+          "sourcePart": "132",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6520,7 +6784,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "133"
+          "sourcePart": "133",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6569,7 +6835,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "134"
+          "sourcePart": "134",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6618,7 +6886,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "135"
+          "sourcePart": "135",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6667,7 +6937,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "136"
+          "sourcePart": "136",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6716,7 +6988,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "137"
+          "sourcePart": "137",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6765,7 +7039,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "138"
+          "sourcePart": "138",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6814,7 +7090,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "139"
+          "sourcePart": "139",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6863,7 +7141,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "140"
+          "sourcePart": "140",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6912,7 +7192,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "141"
+          "sourcePart": "141",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -6961,7 +7243,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "142"
+          "sourcePart": "142",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -7010,7 +7294,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "143"
+          "sourcePart": "143",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -7059,7 +7345,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "144"
+          "sourcePart": "144",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -7108,7 +7396,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "145"
+          "sourcePart": "145",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -7157,7 +7447,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "146"
+          "sourcePart": "146",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -7206,7 +7498,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "147"
+          "sourcePart": "147",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -7255,7 +7549,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "148"
+          "sourcePart": "148",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -7304,7 +7600,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "149"
+          "sourcePart": "149",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -7353,7 +7651,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "150"
+          "sourcePart": "150",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -7402,7 +7702,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "151"
+          "sourcePart": "151",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -7451,7 +7753,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "152"
+          "sourcePart": "152",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -7500,7 +7804,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "153"
+          "sourcePart": "153",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -7549,7 +7855,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "판례",
-          "sourcePart": "154"
+          "sourcePart": "154",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -7598,7 +7906,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사 책임 법리",
-          "sourcePart": "155"
+          "sourcePart": "155",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -7647,7 +7957,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법",
-          "sourcePart": "156"
+          "sourcePart": "156",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -7696,7 +8008,9 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "157"
+          "sourcePart": "157",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -7745,7 +8059,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "158"
+          "sourcePart": "158",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -7794,7 +8110,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전, 민법",
-          "sourcePart": "159"
+          "sourcePart": "159",
+          "a": "X",
+          "answer": "X"
         }
       ]
     },
@@ -7843,7 +8161,9 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "160"
+          "sourcePart": "160",
+          "a": "X",
+          "answer": "X"
         }
       ]
     }

@@ -50,9 +50,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전 제14조, 제16조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 1,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -97,9 +103,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전 제14조, 제16조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 1,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -144,9 +156,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형사소송법, 변호사윤리장전 제22조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 1,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -191,9 +209,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제29조의2",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 1,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -238,9 +262,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "형사소송법 제112조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 2,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -285,9 +315,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형사소송법 제149조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 2,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -332,9 +368,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형사소송법 제149조, 변호사법 제26조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 2,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -379,9 +421,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제26조, 제27조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 2,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -426,9 +474,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제33조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 3,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -473,9 +527,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제33조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 3,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -520,9 +580,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전 제38조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 3,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -567,9 +633,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전 제34조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 3,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -614,9 +686,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제50조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 4,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -661,9 +739,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 관련 판례",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 4,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -708,9 +792,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제34조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 4,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -755,9 +845,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전 제21조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 4,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -802,9 +898,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조의2",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 5,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -849,9 +951,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제31조의2",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 5,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -896,9 +1004,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조의2",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 5,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -943,9 +1057,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조의2",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 5,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -990,9 +1110,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제29조의2",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 6,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1037,9 +1163,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형사소송법, 관련 판례",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 6,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1084,9 +1216,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형사소송규칙, 관련 판례",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 6,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1131,9 +1269,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제29조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 6,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1178,9 +1322,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제22조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 7,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1225,9 +1375,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제22조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 7,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1272,9 +1428,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제34조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 7,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1319,9 +1481,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제109조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 7,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1366,9 +1534,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형사소송법, 변호사법 제29조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 8,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1413,9 +1587,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전 제14조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 8,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1460,9 +1640,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "헌법 제12조 제2항, 변호사윤리장전 제14조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 8,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1507,9 +1693,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전 제14조, 제22조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 8,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1554,9 +1746,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제109조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 9,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1601,9 +1799,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제109조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 9,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1648,9 +1852,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제109조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 9,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1695,9 +1905,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제109조, 관련 판례",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 9,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1742,9 +1958,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법 제681조, 변호사윤리장전 제16조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 10,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1789,9 +2011,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법 제681조, 관련 판례",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 10,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1836,9 +2064,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법 제681조, 관련 판례",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 10,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1883,9 +2117,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전 제14조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 10,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1930,9 +2170,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제58조, 관련 판례",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 11,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -1977,9 +2223,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법 제681조, 변호사윤리장전 제16조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 11,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2024,9 +2276,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제97조의3",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 11,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2071,9 +2329,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제97조, 제97조의2",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 11,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2118,9 +2382,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제29조, 제112조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 12,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2165,9 +2435,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제112조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 12,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2212,9 +2488,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제112조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 12,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2259,9 +2541,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제21조의2",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 12,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2306,9 +2594,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전 제18조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 13,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2353,9 +2647,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제26조, 변호사윤리장전 제18조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 13,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2400,9 +2700,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제26조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 13,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2447,9 +2753,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "공익신고자 보호법, 변호사법 제26조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 13,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2494,9 +2806,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제38조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 14,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2541,9 +2859,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제38조, 제109조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 14,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2588,9 +2912,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제109조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 14,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2635,9 +2965,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민사소송법, 변호사법 제29조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 14,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2682,9 +3018,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조의2",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 15,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2729,9 +3071,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조 제1항",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 15,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2776,9 +3124,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조의2",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 15,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2823,9 +3177,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제31조의2",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 15,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2870,9 +3230,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 16,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2917,9 +3283,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민사소송법, 관련 판례",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 16,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -2964,9 +3336,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 16,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3011,9 +3389,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 16,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3058,9 +3442,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 17,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3105,9 +3495,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 17,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3152,9 +3548,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민사소송법, 관련 판례",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 17,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3199,9 +3601,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "행정소송법, 변호사법 제31조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 17,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3246,9 +3654,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제27조, 대한변협 회칙",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 18,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3293,9 +3707,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제27조, 대한변협 회칙",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 18,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3340,9 +3760,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제27조, 대한변협 회칙",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 18,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3387,9 +3813,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "대한변협 회칙",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 18,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3434,9 +3866,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제26조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 19,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3481,9 +3919,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제26조, 변호사윤리장전 제18조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 19,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3528,9 +3972,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제26조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 19,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3575,9 +4025,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제26조, 제112조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 19,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3622,9 +4078,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전 제22조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 20,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3669,9 +4131,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 20,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3716,9 +4184,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전 제22조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 20,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3763,9 +4237,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민사소송법, 관련 판례",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 20,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3810,9 +4290,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제32조, 제109조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 21,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3857,9 +4343,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제32조, 관련 판례",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 21,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3904,9 +4396,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제32조, 관련 판례",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 21,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3951,9 +4449,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제32조, 관련 판례",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 21,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -3998,9 +4502,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "법관윤리강령",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 22,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4045,9 +4555,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "법관윤리강령",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 22,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4092,9 +4608,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "법관윤리강령",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 22,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4139,9 +4661,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민사소송법, 법관윤리강령",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 22,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4186,9 +4714,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "외국법자문사법 제35조의16",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 23,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4233,9 +4767,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "외국법자문사법",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 23,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4280,9 +4820,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "외국법자문사법 제6조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 23,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4327,9 +4873,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "외국법자문사법 제35조의5",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 23,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4374,9 +4926,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법 제690조, 관련 판례",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 24,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4421,9 +4979,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제58조, 관련 판례",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 24,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4468,9 +5032,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법 제684조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 24,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4497,7 +5067,7 @@
       "art": "민법 제681조",
       "artNo": null,
       "topic": "의뢰인 지시 변경권고",
-      "rep": "변호사는 의뢰인의 지시가 위임의 취지에 맞지 않거나 불리하면 그 내용을 알리고 지시 변경을 요구하거나 권고할 수 있다.",
+      "rep": "변호사는 불리한 의뢰인 지시에 대해 내용을 알리고 변경을 요구하거나 권고할 수 있다.",
       "a": "O",
       "why": "의뢰인 지시 변경권고에 관한 최소 원리 atom입니다. 2026-06-17 현행 법령과 제14회 법조윤리시험 정답 기준으로 정리했습니다.",
       "ref": "민법 제681조, 변호사윤리장전 제16조",
@@ -4508,16 +5078,22 @@
           "q": "변호사는 의뢰인의 지시가 불리하다고 판단해도 의뢰인이 지시한 대로만 처리해야 한다.",
           "trap": "지시 절대복종",
           "why": "의뢰인 지시 변경권고에 관한 최소 원리 atom입니다. 2026-06-17 현행 법령과 제14회 법조윤리시험 정답 기준으로 정리했습니다.",
-          "corrected": "변호사는 의뢰인의 지시가 위임의 취지에 맞지 않거나 불리하면 그 내용을 알리고 지시 변경을 요구하거나 권고할 수 있다.",
+          "corrected": "변호사는 불리한 의뢰인 지시에 대해 내용을 알리고 변경을 요구하거나 권고할 수 있다.",
           "src": [
             "법윤14"
           ],
           "weight": 0.78,
           "grade": "A",
           "ref": "민법 제681조, 변호사윤리장전 제16조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 24,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4562,9 +5138,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제109조, 관련 판례",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 25,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4609,9 +5191,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변리사법",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 25,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4656,9 +5244,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제109조, 관련 판례",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 25,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4703,9 +5297,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제109조, 관련 판례",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 25,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4750,9 +5350,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제8조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 26,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4797,9 +5403,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제7조, 관련 판례",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 26,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4844,9 +5456,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "국가배상법, 관련 판례",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 26,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4891,9 +5509,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "국가배상법, 관련 판례",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 26,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4938,9 +5562,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제97조의2",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 27,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -4985,9 +5615,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제90조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 27,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5032,9 +5668,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제98조의5",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 27,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5079,9 +5721,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "행정소송법, 관련 판례",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 27,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5126,9 +5774,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "대한변협 회칙, 변호사연수규칙",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 28,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5173,9 +5827,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사연수규칙",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 28,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5220,9 +5880,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사연수규칙",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 28,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5267,9 +5933,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사연수규칙",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 28,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5314,9 +5986,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "검사윤리강령",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 29,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5361,9 +6039,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "검사윤리강령",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 29,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5408,9 +6092,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "검사윤리강령, 형사소송법",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 29,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5455,9 +6145,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "검찰청법, 검사윤리강령",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 29,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5502,9 +6198,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제24조, 변호사윤리장전 제25조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 30,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5549,9 +6251,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제34조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 30,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5596,9 +6304,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제34조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 30,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5643,9 +6357,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사법, 관련 판례",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 30,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5690,9 +6410,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제5조, 제8조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 31,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5737,9 +6463,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제5조, 제8조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 31,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5784,9 +6516,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제5조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 31,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5831,9 +6569,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제5조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 31,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5878,9 +6622,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사 광고에 관한 규정",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 32,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5925,9 +6675,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 광고에 관한 규정",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 32,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -5972,9 +6728,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 광고에 관한 규정",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 32,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6019,9 +6781,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 광고에 관한 규정",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 32,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6066,9 +6834,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 관련 판례",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 33,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6113,9 +6887,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 관련 판례",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 33,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6160,9 +6940,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법 제2조, 관련 판례",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 33,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6207,9 +6993,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 관련 판례",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 33,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6254,9 +7046,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제18조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 34,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6301,9 +7099,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제26조, 변호사 광고에 관한 규정",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 34,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6348,9 +7152,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제109조, 형법",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 34,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6395,9 +7205,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법 제756조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 34,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6442,9 +7258,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 광고에 관한 규정",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 35,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6489,9 +7311,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 광고에 관한 규정",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 35,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6536,9 +7364,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 광고에 관한 규정",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 35,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6583,9 +7417,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 광고에 관한 규정",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 35,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6630,9 +7470,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 관련 판례",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 36,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6677,9 +7523,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민사소송법, 민법",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 36,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6724,9 +7576,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 관련 판례",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 36,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6771,9 +7629,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법 제163조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 36,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6818,9 +7682,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법 제756조, 관련 판례",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 37,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6865,9 +7735,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 관련 판례",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 37,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6912,9 +7788,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 광고에 관한 규정",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 37,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -6959,9 +7841,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전 제25조, 변호사 광고에 관한 규정",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 37,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7006,9 +7894,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전 제31조",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 38,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7053,9 +7947,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전 제32조, 민법",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 38,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7100,9 +8000,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "민법 제103조, 관련 판례",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 38,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7147,9 +8053,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형사소송법, 변호사윤리장전",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 38,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7194,9 +8106,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "법관윤리강령",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 39,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7241,9 +8159,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제90조, 제91조",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 39,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7288,9 +8212,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제8조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 39,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7335,9 +8265,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "법조윤리협의회 관련 규정",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 39,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7382,9 +8318,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 변호사윤리장전",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 40,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7429,9 +8371,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 변호사윤리장전",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 40,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7476,9 +8424,15 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전 제21조",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 40,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     },
     {
       "src": [
@@ -7523,9 +8477,15 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법 제681조, 변호사법 제26조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "sourceRound": 14,
+      "sourceQuestion": 40,
+      "answer": "O",
+      "type": "legal_ethics_atom"
     }
   ]
 }

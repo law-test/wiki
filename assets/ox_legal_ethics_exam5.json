@@ -37,9 +37,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법, 변호사윤리장전",
-          "sourcePart": "1"
+          "sourcePart": "1",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        1
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q01-002",
@@ -71,9 +88,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 공증인법",
-          "sourcePart": "2"
+          "sourcePart": "2",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        2
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q01-003",
@@ -105,9 +139,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "3"
+          "sourcePart": "3",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        3
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q01-004",
@@ -139,9 +190,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "4"
+          "sourcePart": "4",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        4
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q02-005",
@@ -173,9 +241,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 광고에 관한 규정",
-          "sourcePart": "5"
+          "sourcePart": "5",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        5
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q02-006",
@@ -207,9 +292,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 광고에 관한 규정",
-          "sourcePart": "6"
+          "sourcePart": "6",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        6
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q02-007",
@@ -241,9 +343,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사 광고에 관한 규정",
-          "sourcePart": "7"
+          "sourcePart": "7",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        7
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q02-008",
@@ -275,9 +394,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 광고에 관한 규정",
-          "sourcePart": "8"
+          "sourcePart": "8",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        8
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q03-009",
@@ -309,9 +445,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 광고에 관한 규정",
-          "sourcePart": "9"
+          "sourcePart": "9",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        9
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q03-010",
@@ -343,9 +496,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사 광고에 관한 규정",
-          "sourcePart": "10"
+          "sourcePart": "10",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        10
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q03-011",
@@ -377,9 +547,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 광고에 관한 규정",
-          "sourcePart": "11"
+          "sourcePart": "11",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        11
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q03-012",
@@ -411,9 +598,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 광고에 관한 규정",
-          "sourcePart": "12"
+          "sourcePart": "12",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        12
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q04-013",
@@ -445,9 +649,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "13"
+          "sourcePart": "13",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        13
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q04-014",
@@ -479,9 +700,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제31조",
-          "sourcePart": "14"
+          "sourcePart": "14",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        14
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q04-015",
@@ -513,9 +751,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "15"
+          "sourcePart": "15",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        15
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q04-016",
@@ -547,9 +802,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "16"
+          "sourcePart": "16",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        16
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q05-017",
@@ -581,9 +853,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사 보수 판례",
-          "sourcePart": "17"
+          "sourcePart": "17",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        17
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q05-018",
@@ -615,9 +904,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사 보수 판례",
-          "sourcePart": "18"
+          "sourcePart": "18",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        18
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q05-019",
@@ -649,9 +955,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민사소송법, 민법",
-          "sourcePart": "19"
+          "sourcePart": "19",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        19
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q05-020",
@@ -683,9 +1006,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민사소송비용법",
-          "sourcePart": "20"
+          "sourcePart": "20",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        20
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q06-021",
@@ -717,9 +1057,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "21"
+          "sourcePart": "21",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        21
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q06-022",
@@ -751,9 +1108,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "민법, 변호사 보수 판례",
-          "sourcePart": "22"
+          "sourcePart": "22",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        22
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q06-023",
@@ -785,9 +1159,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 보수 판례",
-          "sourcePart": "23"
+          "sourcePart": "23",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        23
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q06-024",
@@ -819,9 +1210,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사 보수 판례",
-          "sourcePart": "24"
+          "sourcePart": "24",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        24
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q07-025",
@@ -853,9 +1261,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제31조",
-          "sourcePart": "25"
+          "sourcePart": "25",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        25
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q07-026",
@@ -887,9 +1312,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "26"
+          "sourcePart": "26",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        26
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q07-027",
@@ -921,9 +1363,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "27"
+          "sourcePart": "27",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        27
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q07-028",
@@ -955,9 +1414,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "28"
+          "sourcePart": "28",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        28
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q08-029",
@@ -989,9 +1465,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형사소송법, 변호사법",
-          "sourcePart": "29"
+          "sourcePart": "29",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        29
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q08-030",
@@ -1023,9 +1516,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제31조",
-          "sourcePart": "30"
+          "sourcePart": "30",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        30
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q08-031",
@@ -1057,9 +1567,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 형사소송규칙",
-          "sourcePart": "31"
+          "sourcePart": "31",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        31
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q08-032",
@@ -1091,9 +1618,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "32"
+          "sourcePart": "32",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        32
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q09-033",
@@ -1125,9 +1669,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "민법, 변호사 책임 판례",
-          "sourcePart": "33"
+          "sourcePart": "33",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        33
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q09-034",
@@ -1159,9 +1720,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사 책임 판례",
-          "sourcePart": "34"
+          "sourcePart": "34",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        34
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q09-035",
@@ -1193,9 +1771,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사 책임 판례",
-          "sourcePart": "35"
+          "sourcePart": "35",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        35
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q09-036",
@@ -1227,9 +1822,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사 책임 판례",
-          "sourcePart": "36"
+          "sourcePart": "36",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        36
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q10-037",
@@ -1261,9 +1873,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 형사소송법",
-          "sourcePart": "37"
+          "sourcePart": "37",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        37
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q10-038",
@@ -1295,9 +1924,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "형사소송법",
-          "sourcePart": "38"
+          "sourcePart": "38",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        38
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q10-039",
@@ -1329,9 +1975,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사 보수 판례",
-          "sourcePart": "39"
+          "sourcePart": "39",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        39
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q10-040",
@@ -1363,9 +2026,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전, 민법",
-          "sourcePart": "40"
+          "sourcePart": "40",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        40
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q11-041",
@@ -1397,9 +2077,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법",
-          "sourcePart": "41"
+          "sourcePart": "41",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        41
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q11-042",
@@ -1431,9 +2128,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법",
-          "sourcePart": "42"
+          "sourcePart": "42",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        42
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q11-043",
@@ -1465,9 +2179,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "민법, 변호사윤리장전",
-          "sourcePart": "43"
+          "sourcePart": "43",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        43
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q11-044",
@@ -1499,9 +2230,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법",
-          "sourcePart": "44"
+          "sourcePart": "44",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        44
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q12-045",
@@ -1533,9 +2281,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "45"
+          "sourcePart": "45",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        45
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q12-046",
@@ -1567,9 +2332,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "46"
+          "sourcePart": "46",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        46
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q12-047",
@@ -1601,9 +2383,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "47"
+          "sourcePart": "47",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        47
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q12-048",
@@ -1618,26 +2417,43 @@
       "answer": "O",
       "type": "legal_ethics_atom",
       "topic": "사고분석 비용",
-      "rep": "교통사고 분석 전문가가 법률대리가 아니라 사고 원인 분석 보고서를 작성하고 기초 비용만 받는 행위는 변호사법 처벌 대상이 아니다.",
+      "rep": "법률대리가 아닌 교통사고 원인 분석 보고서 작성과 기초 비용 수령은 그 자체로 변호사법 처벌 대상이 아니다.",
       "why": "사고분석 비용에 관한 법조윤리 원칙입니다.",
       "ref": "변호사법",
       "grade": "A+",
       "weight": 0.78,
       "twins": [
         {
-          "q": "교통사고 분석 전문가가 사고 원인 분석 보고서를 작성하고 촬영비 등 기초 비용을 받으면 변호사법 위반이다.",
+          "q": "교통사고 원인 분석 보고서 작성과 기초 비용 수령은 그 자체로 변호사법 위반이다.",
           "trap": "분석 보고서",
           "why": "분석 보고서 부분이 법조윤리 원칙과 다릅니다.",
-          "corrected": "교통사고 분석 전문가가 법률대리가 아니라 사고 원인 분석 보고서를 작성하고 기초 비용만 받는 행위는 변호사법 처벌 대상이 아니다.",
+          "corrected": "법률대리가 아닌 교통사고 원인 분석 보고서 작성과 기초 비용 수령은 그 자체로 변호사법 처벌 대상이 아니다.",
           "src": [
             "법윤5"
           ],
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "48"
+          "sourcePart": "48",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        48
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q13-049",
@@ -1669,9 +2485,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사 보수 판례",
-          "sourcePart": "49"
+          "sourcePart": "49",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        49
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q13-050",
@@ -1703,9 +2536,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사 보수 판례",
-          "sourcePart": "50"
+          "sourcePart": "50",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        50
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q13-051",
@@ -1737,9 +2587,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 보수 판례",
-          "sourcePart": "51"
+          "sourcePart": "51",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        51
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q13-052",
@@ -1771,9 +2638,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사윤리장전",
-          "sourcePart": "52"
+          "sourcePart": "52",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        52
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q14-053",
@@ -1805,9 +2689,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형법, 변호사법",
-          "sourcePart": "53"
+          "sourcePart": "53",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        53
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q14-054",
@@ -1839,9 +2740,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "형법 제317조",
-          "sourcePart": "54"
+          "sourcePart": "54",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        54
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q14-055",
@@ -1873,9 +2791,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "55"
+          "sourcePart": "55",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        55
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q14-056",
@@ -1907,9 +2842,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "56"
+          "sourcePart": "56",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        56
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q15-057",
@@ -1941,9 +2893,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "57"
+          "sourcePart": "57",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        57
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q15-058",
@@ -1975,9 +2944,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "58"
+          "sourcePart": "58",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        58
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q15-059",
@@ -2009,9 +2995,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "59"
+          "sourcePart": "59",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        59
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q15-060",
@@ -2043,9 +3046,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 변호사윤리장전",
-          "sourcePart": "60"
+          "sourcePart": "60",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        60
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q16-061",
@@ -2077,9 +3097,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "61"
+          "sourcePart": "61",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        61
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q16-062",
@@ -2111,9 +3148,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법, 민사소송법, 형사소송법",
-          "sourcePart": "62"
+          "sourcePart": "62",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        62
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q16-063",
@@ -2145,9 +3199,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형사소송법",
-          "sourcePart": "63"
+          "sourcePart": "63",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        63
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q16-064",
@@ -2179,9 +3250,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민사소송법",
-          "sourcePart": "64"
+          "sourcePart": "64",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        64
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q17-065",
@@ -2213,9 +3301,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "65"
+          "sourcePart": "65",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        65
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q17-066",
@@ -2247,9 +3352,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "66"
+          "sourcePart": "66",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        66
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q17-067",
@@ -2281,9 +3403,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "67"
+          "sourcePart": "67",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        67
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q17-068",
@@ -2315,9 +3454,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "68"
+          "sourcePart": "68",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        68
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q18-069",
@@ -2349,9 +3505,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "69"
+          "sourcePart": "69",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        69
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q18-070",
@@ -2383,9 +3556,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "헌법, 변호사법",
-          "sourcePart": "70"
+          "sourcePart": "70",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        70
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q18-071",
@@ -2417,9 +3607,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제31조",
-          "sourcePart": "71"
+          "sourcePart": "71",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        71
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q18-072",
@@ -2451,9 +3658,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "72"
+          "sourcePart": "72",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        72
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q19-073",
@@ -2485,9 +3709,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사 보수 판례",
-          "sourcePart": "73"
+          "sourcePart": "73",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        73
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q19-074",
@@ -2519,9 +3760,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사 보수 판례",
-          "sourcePart": "74"
+          "sourcePart": "74",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        74
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q19-075",
@@ -2553,9 +3811,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "75"
+          "sourcePart": "75",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        75
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q19-076",
@@ -2587,9 +3862,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사 보수 판례",
-          "sourcePart": "76"
+          "sourcePart": "76",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        76
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q20-077",
@@ -2621,9 +3913,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "법관윤리강령",
-          "sourcePart": "77"
+          "sourcePart": "77",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        77
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q20-078",
@@ -2655,9 +3964,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "법관윤리강령",
-          "sourcePart": "78"
+          "sourcePart": "78",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        78
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q20-079",
@@ -2689,9 +4015,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "검사윤리강령",
-          "sourcePart": "79"
+          "sourcePart": "79",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        79
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q20-080",
@@ -2723,9 +4066,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "검사윤리강령",
-          "sourcePart": "80"
+          "sourcePart": "80",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        80
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q21-081",
@@ -2757,9 +4117,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "81"
+          "sourcePart": "81",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        81
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q21-082",
@@ -2791,9 +4168,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "82"
+          "sourcePart": "82",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        82
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q21-083",
@@ -2825,9 +4219,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "83"
+          "sourcePart": "83",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        83
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q21-084",
@@ -2859,9 +4270,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "84"
+          "sourcePart": "84",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        84
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q22-085",
@@ -2893,9 +4321,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "85"
+          "sourcePart": "85",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        85
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q22-086",
@@ -2927,9 +4372,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제31조",
-          "sourcePart": "86"
+          "sourcePart": "86",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        86
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q22-087",
@@ -2961,9 +4423,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "87"
+          "sourcePart": "87",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        87
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q22-088",
@@ -2995,9 +4474,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "88"
+          "sourcePart": "88",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        88
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q23-089",
@@ -3029,9 +4525,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "89"
+          "sourcePart": "89",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        89
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q23-090",
@@ -3063,9 +4576,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전, 형사소송법",
-          "sourcePart": "90"
+          "sourcePart": "90",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        90
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q23-091",
@@ -3097,9 +4627,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형사소송법",
-          "sourcePart": "91"
+          "sourcePart": "91",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        91
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q23-092",
@@ -3131,9 +4678,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 민사소송법",
-          "sourcePart": "92"
+          "sourcePart": "92",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        92
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q24-093",
@@ -3165,9 +4729,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "형사소송법, 변호사윤리장전",
-          "sourcePart": "93"
+          "sourcePart": "93",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        93
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q24-094",
@@ -3199,9 +4780,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "94"
+          "sourcePart": "94",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        94
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q24-095",
@@ -3233,9 +4831,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "형법, 형사변호 판례",
-          "sourcePart": "95"
+          "sourcePart": "95",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        95
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q24-096",
@@ -3267,9 +4882,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전, 형법",
-          "sourcePart": "96"
+          "sourcePart": "96",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        96
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q25-097",
@@ -3301,9 +4933,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "97"
+          "sourcePart": "97",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        97
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q25-098",
@@ -3335,9 +4984,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "98"
+          "sourcePart": "98",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        98
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q25-099",
@@ -3369,9 +5035,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "99"
+          "sourcePart": "99",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        99
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q25-100",
@@ -3403,9 +5086,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "100"
+          "sourcePart": "100",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        100
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q26-101",
@@ -3437,9 +5137,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "형사소송법, 국선변호 규정",
-          "sourcePart": "101"
+          "sourcePart": "101",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        101
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q26-102",
@@ -3471,9 +5188,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "102"
+          "sourcePart": "102",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        102
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q26-103",
@@ -3505,9 +5239,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "103"
+          "sourcePart": "103",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        103
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q26-104",
@@ -3539,9 +5290,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "104"
+          "sourcePart": "104",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        104
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q27-105",
@@ -3573,9 +5341,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사 책임 판례",
-          "sourcePart": "105"
+          "sourcePart": "105",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        105
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q27-106",
@@ -3607,9 +5392,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사 책임 판례",
-          "sourcePart": "106"
+          "sourcePart": "106",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        106
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q27-107",
@@ -3641,9 +5443,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "107"
+          "sourcePart": "107",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        107
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q27-108",
@@ -3675,9 +5494,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "민법, 변호사 책임 판례",
-          "sourcePart": "108"
+          "sourcePart": "108",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        108
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q28-109",
@@ -3709,9 +5545,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "외국법자문사법",
-          "sourcePart": "109"
+          "sourcePart": "109",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        109
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q28-110",
@@ -3743,9 +5596,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "외국법자문사법",
-          "sourcePart": "110"
+          "sourcePart": "110",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        110
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q28-111",
@@ -3777,9 +5647,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "외국법자문사법",
-          "sourcePart": "111"
+          "sourcePart": "111",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        111
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q28-112",
@@ -3811,9 +5698,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "외국법자문사법",
-          "sourcePart": "112"
+          "sourcePart": "112",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        112
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q29-113",
@@ -3845,9 +5749,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "113"
+          "sourcePart": "113",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        113
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q29-114",
@@ -3879,9 +5800,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "114"
+          "sourcePart": "114",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        114
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q29-115",
@@ -3913,9 +5851,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "115"
+          "sourcePart": "115",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        115
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q29-116",
@@ -3947,9 +5902,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "116"
+          "sourcePart": "116",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        116
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q30-117",
@@ -3981,9 +5953,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "117"
+          "sourcePart": "117",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        117
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q30-118",
@@ -4015,9 +6004,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "118"
+          "sourcePart": "118",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        118
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q30-119",
@@ -4049,9 +6055,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "119"
+          "sourcePart": "119",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        119
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q30-120",
@@ -4083,9 +6106,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "120"
+          "sourcePart": "120",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        120
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q31-121",
@@ -4117,9 +6157,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "상법, 변호사법",
-          "sourcePart": "121"
+          "sourcePart": "121",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        121
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q31-122",
@@ -4151,9 +6208,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "소득세법",
-          "sourcePart": "122"
+          "sourcePart": "122",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        122
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q31-123",
@@ -4185,9 +6259,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "상법, 변호사 판례",
-          "sourcePart": "123"
+          "sourcePart": "123",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        123
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q31-124",
@@ -4219,9 +6310,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 상법",
-          "sourcePart": "124"
+          "sourcePart": "124",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        124
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q32-125",
@@ -4253,9 +6361,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "125"
+          "sourcePart": "125",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        125
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q32-126",
@@ -4287,9 +6412,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "126"
+          "sourcePart": "126",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        126
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q32-127",
@@ -4321,9 +6463,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "127"
+          "sourcePart": "127",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        127
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q32-128",
@@ -4355,9 +6514,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "128"
+          "sourcePart": "128",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        128
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q33-129",
@@ -4389,9 +6565,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "129"
+          "sourcePart": "129",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        129
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q33-130",
@@ -4423,9 +6616,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "130"
+          "sourcePart": "130",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        130
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q33-131",
@@ -4457,9 +6667,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "131"
+          "sourcePart": "131",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        131
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q33-132",
@@ -4491,9 +6718,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 변호사윤리장전",
-          "sourcePart": "132"
+          "sourcePart": "132",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        132
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q34-133",
@@ -4525,9 +6769,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "133"
+          "sourcePart": "133",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        133
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q34-134",
@@ -4559,9 +6820,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "134"
+          "sourcePart": "134",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        134
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q34-135",
@@ -4593,9 +6871,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "135"
+          "sourcePart": "135",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        135
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q34-136",
@@ -4627,9 +6922,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "136"
+          "sourcePart": "136",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        136
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q35-137",
@@ -4661,9 +6973,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "137"
+          "sourcePart": "137",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        137
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q35-138",
@@ -4695,9 +7024,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 판례",
-          "sourcePart": "138"
+          "sourcePart": "138",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        138
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q35-139",
@@ -4729,9 +7075,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변리사법, 변호사법",
-          "sourcePart": "139"
+          "sourcePart": "139",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        139
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q35-140",
@@ -4763,9 +7126,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "140"
+          "sourcePart": "140",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        140
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q36-141",
@@ -4797,9 +7177,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "141"
+          "sourcePart": "141",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        141
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q36-142",
@@ -4831,9 +7228,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "142"
+          "sourcePart": "142",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        142
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q36-143",
@@ -4865,9 +7279,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "143"
+          "sourcePart": "143",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        143
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q36-144",
@@ -4899,9 +7330,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "144"
+          "sourcePart": "144",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        144
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q37-145",
@@ -4933,9 +7381,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "145"
+          "sourcePart": "145",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        145
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q37-146",
@@ -4967,9 +7432,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "146"
+          "sourcePart": "146",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        146
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q37-147",
@@ -5001,9 +7483,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "147"
+          "sourcePart": "147",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        147
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q37-148",
@@ -5035,9 +7534,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "148"
+          "sourcePart": "148",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        148
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q38-149",
@@ -5069,9 +7585,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "149"
+          "sourcePart": "149",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        149
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q38-150",
@@ -5103,9 +7636,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "150"
+          "sourcePart": "150",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        150
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q38-151",
@@ -5137,9 +7687,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법 제31조",
-          "sourcePart": "151"
+          "sourcePart": "151",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        151
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q38-152",
@@ -5171,9 +7738,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법 제31조",
-          "sourcePart": "152"
+          "sourcePart": "152",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        152
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q39-153",
@@ -5205,9 +7789,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "153"
+          "sourcePart": "153",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        153
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q39-154",
@@ -5239,9 +7840,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사법",
-          "sourcePart": "154"
+          "sourcePart": "154",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        154
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q39-155",
@@ -5273,9 +7891,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "155"
+          "sourcePart": "155",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        155
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q39-156",
@@ -5307,9 +7942,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법",
-          "sourcePart": "156"
+          "sourcePart": "156",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        156
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q40-157",
@@ -5341,9 +7993,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사법, 변호사윤리장전",
-          "sourcePart": "157"
+          "sourcePart": "157",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        157
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q40-158",
@@ -5375,9 +8044,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "158"
+          "sourcePart": "158",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        158
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q40-159",
@@ -5409,9 +8095,26 @@
           "weight": 0.78,
           "grade": "A",
           "ref": "변호사윤리장전",
-          "sourcePart": "159"
+          "sourcePart": "159",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        159
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     },
     {
       "pid": "legal-ethics-r05-q40-160",
@@ -5443,9 +8146,26 @@
           "weight": 0.78,
           "grade": "A+",
           "ref": "변호사윤리장전",
-          "sourcePart": "160"
+          "sourcePart": "160",
+          "a": "X",
+          "answer": "X"
         }
-      ]
+      ],
+      "years": [
+        "법윤5"
+      ],
+      "freq": 1,
+      "hot": false,
+      "ids": [
+        160
+      ],
+      "xref": [],
+      "a": "O",
+      "curation": {
+        "status": "manual_curated",
+        "date": "2026-06-17",
+        "note": "사례 인물과 복합 사실관계를 제거하고 최소 법리 atom으로 정리함."
+      }
     }
   ]
 }
