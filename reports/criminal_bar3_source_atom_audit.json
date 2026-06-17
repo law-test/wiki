@@ -1,0 +1,44 @@
+{
+  "round": 3,
+  "year": 2014,
+  "source_path": "C:\\cowork\\lex-bank_변호사시험_전체_2026-06-16\\02_export\\mc_questions.csv",
+  "count": 184,
+  "subject_counts": {
+    "형법": 86,
+    "혼합형사법": 47,
+    "형사소송법": 51
+  },
+  "answer_counts": {
+    "X": 84,
+    "O": 100
+  },
+  "source_kind_counts": {
+    "choice_statement_positive": 50,
+    "letter_combination_negative": 17,
+    "explicit_ox_combination": 23,
+    "letter_combination_positive": 24,
+    "choice_statement_negative": 70
+  },
+  "issues": [
+    {
+      "round": 3,
+      "question": 17,
+      "marker": "가",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "가벌성의 근거를 원인설정행위 자체에서 찾는 견해",
+      "selected_choice": "가-C-b, 나-A-a, 다-B-c"
+    },
+    {
+      "round": 3,
+      "question": 17,
+      "marker": "나",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "가벌성의 근거를 원인설정행위와 실행행위의 불가분적 관련에서 찾는 견해",
+      "selected_choice": "가-C-b, 나-A-a, 다-B-c"
+    }
+  ]
+}

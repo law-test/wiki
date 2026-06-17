@@ -1,0 +1,91 @@
+{
+  "round": 1,
+  "year": 2012,
+  "source_path": "C:\\cowork\\lex-bank_변호사시험_전체_2026-06-16\\02_export\\mc_questions.csv",
+  "count": 184,
+  "subject_counts": {
+    "혼합형사법": 25,
+    "형법": 92,
+    "형사소송법": 67
+  },
+  "answer_counts": {
+    "X": 67,
+    "O": 117
+  },
+  "source_kind_counts": {
+    "letter_combination_positive": 26,
+    "choice_statement_positive": 30,
+    "choice_statement_negative": 115,
+    "explicit_ox_combination": 13
+  },
+  "issues": [
+    {
+      "round": 1,
+      "question": 3,
+      "marker": "",
+      "issue": "no_statement_extracted",
+      "source_kind": "choice_cells_too_short",
+      "statement": "甲의 ⓑ행위가 ⓐ행위와 결합하여 실체법상 일죄로 평가받는 관계에 있거나, ⓐ행위에 대한 불가벌적 사후행위로 평가받는 사례를 모두 모아 놓은 것은? (다툼이 있는 경우에는 판례에 의함) + +"
+    },
+    {
+      "round": 1,
+      "question": 17,
+      "marker": "가",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "부인 甲이 그의 아들 乙과 더불어 남편을 살해한 경우",
+      "selected_choice": "가, 나, 다, 라"
+    },
+    {
+      "round": 1,
+      "question": 17,
+      "marker": "나",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "A회사 경리과장 乙의 배임행위를 A회사 직원이 아닌 친구 甲이 함께한 경우",
+      "selected_choice": "가, 나, 다, 라"
+    },
+    {
+      "round": 1,
+      "question": 17,
+      "marker": "다",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "甲이 乙을 사주하여 법정에서 위증하게 한 경우",
+      "selected_choice": "가, 나, 다, 라"
+    },
+    {
+      "round": 1,
+      "question": 17,
+      "marker": "라",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "공무원이 아닌 甲이 공무원인 남편 乙과 함께 뇌물을 수수한 경우",
+      "selected_choice": "가, 나, 다, 라"
+    },
+    {
+      "round": 1,
+      "question": 29,
+      "marker": "가",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "배임죄로 기소된 공소사실에 대하여 횡령죄를 인정한 경우",
+      "selected_choice": "가, 나, 다"
+    },
+    {
+      "round": 1,
+      "question": 29,
+      "marker": "라",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "살인죄로 기소된 공소사실에 대하여 폭행치사죄를 인정한 경우",
+      "selected_choice": "가, 나, 다"
+    }
+  ]
+}

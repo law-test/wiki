@@ -1,0 +1,74 @@
+{
+  "round": 7,
+  "year": 2018,
+  "source_path": "C:\\cowork\\lex-bank_변호사시험_전체_2026-06-16\\02_export\\mc_questions.csv",
+  "count": 192,
+  "subject_counts": {
+    "형법": 90,
+    "형사소송법": 76,
+    "혼합형사법": 26
+  },
+  "answer_counts": {
+    "O": 122,
+    "X": 70
+  },
+  "source_kind_counts": {
+    "explicit_ox_combination": 20,
+    "choice_statement_negative": 115,
+    "choice_statement_positive": 25,
+    "letter_combination_positive": 14,
+    "letter_combination_negative": 18
+  },
+  "issues": [
+    {
+      "round": 7,
+      "question": 25,
+      "marker": "①",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "재정신청기각의 결정",
+      "selected_choice": "특별사면으로 형 선고의 효력이 상실된 유죄의 확정판결"
+    },
+    {
+      "round": 7,
+      "question": 25,
+      "marker": "②",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "항소심에서 파기된 제1심 판결",
+      "selected_choice": "특별사면으로 형 선고의 효력이 상실된 유죄의 확정판결"
+    },
+    {
+      "round": 7,
+      "question": 25,
+      "marker": "③",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "공소기각의 판결",
+      "selected_choice": "특별사면으로 형 선고의 효력이 상실된 유죄의 확정판결"
+    },
+    {
+      "round": 7,
+      "question": 25,
+      "marker": "④",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "특별사면으로 형 선고의 효력이 상실된 유죄의 확정판결",
+      "selected_choice": "특별사면으로 형 선고의 효력이 상실된 유죄의 확정판결"
+    },
+    {
+      "round": 7,
+      "question": 25,
+      "marker": "⑤",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "약식명령에 대한 정식재판청구에 따라 유죄의 판결이 확정된 경우의 약식명령",
+      "selected_choice": "특별사면으로 형 선고의 효력이 상실된 유죄의 확정판결"
+    }
+  ]
+}

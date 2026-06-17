@@ -1,0 +1,34 @@
+{
+  "round": 13,
+  "year": 2024,
+  "source_path": "C:\\cowork\\lex-bank_변호사시험_전체_2026-06-16\\02_export\\mc_questions.csv",
+  "count": 196,
+  "subject_counts": {
+    "형법": 84,
+    "형사소송법": 82,
+    "혼합형사법": 30
+  },
+  "answer_counts": {
+    "O": 105,
+    "X": 91
+  },
+  "source_kind_counts": {
+    "letter_combination_positive": 32,
+    "choice_statement_negative": 65,
+    "letter_combination_negative": 40,
+    "choice_statement_positive": 45,
+    "explicit_ox_combination": 14
+  },
+  "issues": [
+    {
+      "round": 13,
+      "question": 15,
+      "marker": "다",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "사실의 착오 근거규정을 유추적용하려는 견해",
+      "selected_choice": "가-Ⓒ, 나-Ⓑ, 다-Ⓓ, 라-Ⓐ"
+    }
+  ]
+}

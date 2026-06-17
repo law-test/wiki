@@ -1,0 +1,302 @@
+{
+  "source_path": "C:\\cowork\\lex-bank_변호사시험_전체_2026-06-16\\02_export\\mc_questions.csv",
+  "rounds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "count": 2832,
+  "subject_counts": {
+    "혼합형사법": 484,
+    "형법": 1304,
+    "형사소송법": 1044
+  },
+  "answer_counts": {
+    "X": 1221,
+    "O": 1611
+  },
+  "issues": [
+    {
+      "round": 1,
+      "question": 3,
+      "marker": "",
+      "issue": "no_statement_extracted",
+      "source_kind": "choice_cells_too_short",
+      "statement": "甲의 ⓑ행위가 ⓐ행위와 결합하여 실체법상 일죄로 평가받는 관계에 있거나, ⓐ행위에 대한 불가벌적 사후행위로 평가받는 사례를 모두 모아 놓은 것은? (다툼이 있는 경우에는 판례에 의함) + +"
+    },
+    {
+      "round": 1,
+      "question": 17,
+      "marker": "가",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "부인 甲이 그의 아들 乙과 더불어 남편을 살해한 경우",
+      "selected_choice": "가, 나, 다, 라"
+    },
+    {
+      "round": 1,
+      "question": 17,
+      "marker": "나",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "A회사 경리과장 乙의 배임행위를 A회사 직원이 아닌 친구 甲이 함께한 경우",
+      "selected_choice": "가, 나, 다, 라"
+    },
+    {
+      "round": 1,
+      "question": 17,
+      "marker": "다",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "甲이 乙을 사주하여 법정에서 위증하게 한 경우",
+      "selected_choice": "가, 나, 다, 라"
+    },
+    {
+      "round": 1,
+      "question": 17,
+      "marker": "라",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "공무원이 아닌 甲이 공무원인 남편 乙과 함께 뇌물을 수수한 경우",
+      "selected_choice": "가, 나, 다, 라"
+    },
+    {
+      "round": 1,
+      "question": 29,
+      "marker": "가",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "배임죄로 기소된 공소사실에 대하여 횡령죄를 인정한 경우",
+      "selected_choice": "가, 나, 다"
+    },
+    {
+      "round": 1,
+      "question": 29,
+      "marker": "라",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "살인죄로 기소된 공소사실에 대하여 폭행치사죄를 인정한 경우",
+      "selected_choice": "가, 나, 다"
+    },
+    {
+      "round": 2,
+      "question": 10,
+      "marker": "가",
+      "issue": "missing_ox_mapping",
+      "source_kind": "cannot_infer_labeled_statement_ox",
+      "statement_kind": "sub_text_labels",
+      "statement": "엄격책임설에 의하면 乙은 출판물에 의한 허위사실 적시 명예훼손죄(제309조 제2항)의 간접정범으로 처벌된다.",
+      "selected_choice": "없음"
+    },
+    {
+      "round": 2,
+      "question": 10,
+      "marker": "나",
+      "issue": "missing_ox_mapping",
+      "source_kind": "cannot_infer_labeled_statement_ox",
+      "statement_kind": "sub_text_labels",
+      "statement": "제한적 책임설 중 법효과제한적 책임설에 의하면 乙은 진실한 사실 적시 명예훼손죄(제307조 제1항)로 처벌된다.",
+      "selected_choice": "없음"
+    },
+    {
+      "round": 2,
+      "question": 10,
+      "marker": "다",
+      "issue": "missing_ox_mapping",
+      "source_kind": "cannot_infer_labeled_statement_ox",
+      "statement_kind": "sub_text_labels",
+      "statement": "제한적 책임설 중 유추적용설에 의하면 甲은 乙이 범한 진실한 사실 적시 명예훼손죄(제307조 제1항)에 대한 교사범으로 처벌된다.",
+      "selected_choice": "없음"
+    },
+    {
+      "round": 2,
+      "question": 27,
+      "marker": "",
+      "issue": "no_statement_extracted",
+      "source_kind": "choice_cells_too_short",
+      "statement": "다음 <사례>에 관하여 옳은 설명을 한 학생만을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함) +----+ + + | | | | +----+ + + | 사 | | | | 법 | | | | 경 | | | | 찰 | | | | 관 | | | | 甲 | | | | 은 | | | | 강 | | | | 도 | | | | 죄 | | | | 의 | | | | 혐 | | | | 의 | | | | 로 | | | | 乙 | | | | 을 | | | | 긴 | | | | 급 | | | | 체 | | | | 포 | | | | 하 | | | | 면 | | | | 서 | | | | 긴 | | | | 급 | | | | 히 | | | | 압 | | | | 수 | | | | 할 | | | | 필 | | | | 요 | | | | 가 | | | | 있 | | | | 다 | | | | 고 | | | | 판 | | | | 단 | | | | 하 | | | | 여 | | | | 乙 | | | | 이 | | | | 소 | | | | 지 | | | | 하 | | | | 고 | | | | 있 | | | | 는 | | | | 칼 | | | | ( | | | | 이 | | | | 하 | | | | “ | | | | 증 | | | | 거 | | | | 물 | | | | A” | | | | 라 | | | | 함 | | | | ) | | | | 을 | | | | 영 | | | | 장 | | | | 없 | | | | 이 | | | | 압 | | | | 수 | | | | 하 | | | | 였 | | | | 으 | | | | 나 | | | | 압 | | | | 수 | | | | · | | | | 수 | | | | 색 | | | | 영 | | | | 장 | | | | 을 | | | | 발 | | | | 부 | | | | 받 | | | | 지 | | | | 아 | | | | 니 | | | | 하 | | | | 고 | | | | 도 | | | | 즉 | | | | 시 | | | | 乙 | | | | 에 | | | | 게 | | | | 반 | | | | 환 | | | | 하 | | | | 지 | | | | 아 | | | | 니 | | | | 하 | | | | 였 | | | | 다 | | | | . | | | | | | | | 이 | | | | 틀 | | | | 후 | | | | 甲 | | | | 은 | | | | 乙 | | | | 의 | | | | 집 | | | | 에 | | | | 서 | | | | 1 | | | | 0m | | | | 떨 | | | | 어 | | | | 진 | | | | 범 | | | | 행 | | | | 현 | | | | 장 | | | | 인 | | | | 피 | | | | 해 | | | | 자 | | | | 丙 | | | | 이 | | | | 운 | | | | 영 | | | | 하 | | | | 는 | | | | 주 | | | | 점 | | | | 내 | | | | 부 | | | | 를 | | | | 丙 | | | | 의 | | | | 동 | | | | 의 | | | | 를 | | | | 받 | | | | 고 | | | | 조 | | | | 사 | | | | 하 | | | | 다 | | | | 가 | | | | 丙 | | | | 소 | | | | 유 | | | | 의 | | | | 물 | | | | 컵 | | | | 에 | | | | 서 | | | | 乙 | | | | 의 | | | | 지 | | | | 문 | | | | 2 | | | | 점 | | | | ( | | | | 이 | | | | 하 | | | | “ | | | | 증 | | | | 거 | | | | 물 | | | | B” | | | | 라 | | | | 함 | | | | ) | | | | 을 | | | | 채 | | | | 취 | | | | 한 | | | | 다 | | | | 음 | | | | 영 | | | | 장 | | | | 없 | | | | 이 | | | | 그 | | | | 물 | | | | 컵 | | | | ( | | | | 이 | | | | 하 | | | | “ | | | | 증 | | | | 거 | | | | 물 | | | | C” | | | | 라 | | | | 함 | | | | ) | | | | 을 | | | | 수 | | | | 거 | | | | 해 | | | | 갔 | | | | 다 | | | | . | | | | | | | | 한 | | | | 편 | | | | 추 | | | | 가 | | | | 적 | | | | 인 | | | | 증 | | | | 거 | | | | 물 | | | | 을 | | | | 수 | | | | 집 | | | | 하 | | | | 려 | | | | 고 | | | | 乙 | | | | 의 | | | | 집 | | | | 을 | | | | 조 | | | | 사 | | | | 하 | | | | 던 | | | | 甲 | | | | 은 | | | | 乙 | | | | 이 | | | | 거 | | | | 주 | | | | 하 | | | | 는 | | | | 집 | | | | 마 | | | | 당 | | | | 에 | | | | 서 | | | | 乙 | | | | 소 | | | | 유 | | | | 의 | | | | 쇠 | | | | 파 | | | | 이 | | | | 프 | | | | ( | | | | 이 | | | | 하 | | | | “ | | | | 증 | | | | 거 | | | | 물 | | | | D” | | | | 라 | | | | 함 | | | | ) | | | | 를 | | | | 발 | | | | 견 | | | | 한 | | | | 후 | | | | 丙 | | | | 에 | | | | 게 | | | | 서 | | | | 임 | | | | 의 | | | | 로 | | | | 제 | | | | 출 | | | | 받 | | | | 는 | | | | 형 | | | | 식 | | | | 으 | | | | 로 | | | | 쇠 | | | | 파 | | | | 이 | | | | 프 | | | | 를 | | | | 압 | | | | 수 | | | | 하 | | | | 였 | | | | 고 | | | | , | | | | 그 | | | | 후 | | | | 증 | | | | 거 | | | | 물 | | | | D | | | | 를 | | | | 쇠 | | | | 파 | | | | 이 | | | | 프 | | | | 를 | | | | 찍 | | | | 은 | | | | 사 | | | | 진 | | | | ( | | | | 이 | | | | 하 | | | | “ | | | | 증 | | | | 거 | | | | 물 | | | | E” | | | | 라 | | | | 함 | | | | ) | | | | 과 | | | | 함 | | | | 께 | | | | 검 | | | | 사 | | | | 에 | | | | 게 | | | | 송 | | | | 부 | | | | 하 | | | | 였 | | | | 다 | | | | . | | | | | | | | 그 | | | | 리 | | | | 고 | | | | 甲 | | | | 은 | | | | 乙 | | | | 의 | | | | 여 | | | | 죄 | | | | 가 | | | | 더 | | | | 있 | | | | 을 | | | | 것 | | | | 으 | | | | 로 | | | | 생 | | | | 각 | | | | 하 | | | | 고 | | | | 이 | | | | 를 | | | | 수 | | | | 사 | | | | 하 | | | | 면 | | | | 서 | | | | 압 | | | | 수 | | | | · | | | | 수 | | | | 색 | | | | 영 | | | | 장 | | | | ( | | | | 압 | | | | 수 | | | | 장 | | | | 소 | | | | : | | | | 乙 | | | | 이 | | | | 임 | | | | 차 | | | | 하 | | | | 여 | | | | 거 | | | | 주 | | | | 하 | | | | 는 | | | | 丁 | | | | 소 | | | | 유 | | | | 의 | | | | 집 | | | | , | | | | 압 | | | | 수 | | | | 대 | | | | 상 | | | | 물 | | | | : | | | | 위 | | | | 장 | | | | 소 | | | | 에 | | | | 보 | | | | 관 | | | | 중 | | | | 인 | | | | 물 | | | | 건 | | | | ) | | | | 을 | | | | 발 | | | | 부 | | | | 받 | | | | 아 | | | | 丁 | | | | 에 | | | | 게 | | | | 압 | | | | 수 | | | | · | | | | 수 | | | | 색 | | | | 영 | | | | 장 | | | | 을 | | | | 제 | | | | 시 | | | | 한 | | | | 후 | | | | 乙 | | | | 이 | | | | 거 | | | | 주 | | | | 하 | | | | 던 | | | | 집 | | | | 을 | | | | 수 | | | | 색 | | | | 하 | | | | 던 | | | | 중 | | | | 마 | | | | 침 | | | | 乙 | | | | 을 | | | | 찾 | | | | 아 | | | | 온 | | | | 乙 | | | | 의 | | | | 친 | | | | 구 | | | | 인 | |"
+    },
+    {
+      "round": 3,
+      "question": 17,
+      "marker": "가",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "가벌성의 근거를 원인설정행위 자체에서 찾는 견해",
+      "selected_choice": "가-C-b, 나-A-a, 다-B-c"
+    },
+    {
+      "round": 3,
+      "question": 17,
+      "marker": "나",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "가벌성의 근거를 원인설정행위와 실행행위의 불가분적 관련에서 찾는 견해",
+      "selected_choice": "가-C-b, 나-A-a, 다-B-c"
+    },
+    {
+      "round": 4,
+      "question": 15,
+      "marker": "",
+      "issue": "no_statement_extracted",
+      "source_kind": "content_labels_too_short",
+      "statement": "늦은 밤 어두운 골목길을 걸어 귀가하던 甲은 10여 분간 뒤따라오던 乙 때문에 짜증이 나자 갑자기 뒤돌아서서 상해의 고의로 乙을 주먹과 발로 구타하여 4주간의 치료가 필요한 상해를 가하였다. 乙은 평소 원한관계에 있던 甲을 발견하고는 기습적으로 공격하려고 주머니에 칼을 숨긴 채 기회를 엿보며 뒤따라가고 있었고, 甲이 공격하던 그 순간 칼을 꺼내 甲을 찌르려고 하던 중이었다. 객관적 정당화요소만 충족되면 위법성이 조각된다는 입장이나 주관적 정당화요소까지 충족되어야 위법성이 조각된다는 입장에 의할 때 아래의 보기 중 甲에게 해당할 수 없는 것을 모두 고른 것은? [사례] ㄱ. 무죄 ㄴ. 과실치상죄 ㄷ. 상해죄 ㄹ. 상해죄의 불능미수 ㅁ. 상해죄의 예비"
+    },
+    {
+      "round": 4,
+      "question": 17,
+      "marker": "①",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "부진정부작위범의 보증인적 지위",
+      "selected_choice": "원인에 있어서 자유로운 행위"
+    },
+    {
+      "round": 4,
+      "question": 17,
+      "marker": "②",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "정당화적 긴급피난이나 면책적 긴급피난",
+      "selected_choice": "원인에 있어서 자유로운 행위"
+    },
+    {
+      "round": 4,
+      "question": 17,
+      "marker": "③",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "개괄적 고의 또는 인과관계의 착오",
+      "selected_choice": "원인에 있어서 자유로운 행위"
+    },
+    {
+      "round": 4,
+      "question": 17,
+      "marker": "④",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "공범의 종속정도",
+      "selected_choice": "원인에 있어서 자유로운 행위"
+    },
+    {
+      "round": 4,
+      "question": 17,
+      "marker": "⑤",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "원인에 있어서 자유로운 행위",
+      "selected_choice": "원인에 있어서 자유로운 행위"
+    },
+    {
+      "round": 7,
+      "question": 25,
+      "marker": "①",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "재정신청기각의 결정",
+      "selected_choice": "특별사면으로 형 선고의 효력이 상실된 유죄의 확정판결"
+    },
+    {
+      "round": 7,
+      "question": 25,
+      "marker": "②",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "항소심에서 파기된 제1심 판결",
+      "selected_choice": "특별사면으로 형 선고의 효력이 상실된 유죄의 확정판결"
+    },
+    {
+      "round": 7,
+      "question": 25,
+      "marker": "③",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "공소기각의 판결",
+      "selected_choice": "특별사면으로 형 선고의 효력이 상실된 유죄의 확정판결"
+    },
+    {
+      "round": 7,
+      "question": 25,
+      "marker": "④",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "특별사면으로 형 선고의 효력이 상실된 유죄의 확정판결",
+      "selected_choice": "특별사면으로 형 선고의 효력이 상실된 유죄의 확정판결"
+    },
+    {
+      "round": 7,
+      "question": 25,
+      "marker": "⑤",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "약식명령에 대한 정식재판청구에 따라 유죄의 판결이 확정된 경우의 약식명령",
+      "selected_choice": "특별사면으로 형 선고의 효력이 상실된 유죄의 확정판결"
+    },
+    {
+      "round": 8,
+      "question": 22,
+      "marker": "",
+      "issue": "no_statement_extracted",
+      "source_kind": "choice_cells_too_short",
+      "statement": "甲은 변호사 乙을 찾아가 아래와 같이 법률상담을 하였다. 乙의 답변 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은?"
+    },
+    {
+      "round": 8,
+      "question": 33,
+      "marker": "ㅁ",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "F가 한 진술의 내용인 사실이 요증사실인 경우, F의 진술을 내용으로 하는 G의 진술",
+      "selected_choice": "ㄷ, ㅁ"
+    },
+    {
+      "round": 9,
+      "question": 3,
+      "marker": "",
+      "issue": "no_statement_extracted",
+      "source_kind": "choice_cells_too_short",
+      "statement": "2018. 9. 1. 혈중알코올농도 0.123% 상태에서 자동차를 운전하였다는 공소사실로 2019. 2. 1. 불구속 기소된 甲이 변호사 乙을 찾아와 2019. 4. 3. 상담을 하면서 나눈 다음의 대화 내용 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우 판례에 의함)"
+    },
+    {
+      "round": 13,
+      "question": 15,
+      "marker": "다",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "사실의 착오 근거규정을 유추적용하려는 견해",
+      "selected_choice": "가-Ⓒ, 나-Ⓑ, 다-Ⓓ, 라-Ⓐ"
+    }
+  ]
+}

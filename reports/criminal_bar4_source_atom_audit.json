@@ -1,0 +1,82 @@
+{
+  "round": 4,
+  "year": 2015,
+  "source_path": "C:\\cowork\\lex-bank_변호사시험_전체_2026-06-16\\02_export\\mc_questions.csv",
+  "count": 181,
+  "subject_counts": {
+    "형법": 80,
+    "혼합형사법": 35,
+    "형사소송법": 66
+  },
+  "answer_counts": {
+    "X": 58,
+    "O": 123
+  },
+  "source_kind_counts": {
+    "choice_statement_negative": 115,
+    "letter_combination_positive": 28,
+    "letter_combination_negative": 14,
+    "explicit_ox_combination": 4,
+    "choice_statement_positive": 20
+  },
+  "issues": [
+    {
+      "round": 4,
+      "question": 15,
+      "marker": "",
+      "issue": "no_statement_extracted",
+      "source_kind": "content_labels_too_short",
+      "statement": "늦은 밤 어두운 골목길을 걸어 귀가하던 甲은 10여 분간 뒤따라오던 乙 때문에 짜증이 나자 갑자기 뒤돌아서서 상해의 고의로 乙을 주먹과 발로 구타하여 4주간의 치료가 필요한 상해를 가하였다. 乙은 평소 원한관계에 있던 甲을 발견하고는 기습적으로 공격하려고 주머니에 칼을 숨긴 채 기회를 엿보며 뒤따라가고 있었고, 甲이 공격하던 그 순간 칼을 꺼내 甲을 찌르려고 하던 중이었다. 객관적 정당화요소만 충족되면 위법성이 조각된다는 입장이나 주관적 정당화요소까지 충족되어야 위법성이 조각된다는 입장에 의할 때 아래의 보기 중 甲에게 해당할 수 없는 것을 모두 고른 것은? [사례] ㄱ. 무죄 ㄴ. 과실치상죄 ㄷ. 상해죄 ㄹ. 상해죄의 불능미수 ㅁ. 상해죄의 예비"
+    },
+    {
+      "round": 4,
+      "question": 17,
+      "marker": "①",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "부진정부작위범의 보증인적 지위",
+      "selected_choice": "원인에 있어서 자유로운 행위"
+    },
+    {
+      "round": 4,
+      "question": 17,
+      "marker": "②",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "정당화적 긴급피난이나 면책적 긴급피난",
+      "selected_choice": "원인에 있어서 자유로운 행위"
+    },
+    {
+      "round": 4,
+      "question": 17,
+      "marker": "③",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "개괄적 고의 또는 인과관계의 착오",
+      "selected_choice": "원인에 있어서 자유로운 행위"
+    },
+    {
+      "round": 4,
+      "question": 17,
+      "marker": "④",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "공범의 종속정도",
+      "selected_choice": "원인에 있어서 자유로운 행위"
+    },
+    {
+      "round": 4,
+      "question": 17,
+      "marker": "⑤",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "원인에 있어서 자유로운 행위",
+      "selected_choice": "원인에 있어서 자유로운 행위"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "round": 9,
+  "year": 2020,
+  "source_path": "C:\\cowork\\lex-bank_변호사시험_전체_2026-06-16\\02_export\\mc_questions.csv",
+  "count": 192,
+  "subject_counts": {
+    "형법": 78,
+    "혼합형사법": 27,
+    "형사소송법": 87
+  },
+  "answer_counts": {
+    "O": 108,
+    "X": 84
+  },
+  "source_kind_counts": {
+    "explicit_ox_combination": 24,
+    "choice_statement_negative": 80,
+    "choice_statement_positive": 40,
+    "letter_combination_negative": 19,
+    "letter_combination_positive": 29
+  },
+  "issues": [
+    {
+      "round": 9,
+      "question": 3,
+      "marker": "",
+      "issue": "no_statement_extracted",
+      "source_kind": "choice_cells_too_short",
+      "statement": "2018. 9. 1. 혈중알코올농도 0.123% 상태에서 자동차를 운전하였다는 공소사실로 2019. 2. 1. 불구속 기소된 甲이 변호사 乙을 찾아와 2019. 4. 3. 상담을 하면서 나눈 다음의 대화 내용 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우 판례에 의함)"
+    }
+  ]
+}

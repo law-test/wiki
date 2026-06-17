@@ -1,0 +1,5551 @@
+{
+  "source": "lex-bank transformed O/X statement layer; original source kept outside public app assets",
+  "round": 3,
+  "year": 2014,
+  "updatedAt": "2026-06-17T23:38:52.187224+00:00",
+  "count": 184,
+  "items": [
+    {
+      "id": 300101,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 1,
+      "choice": "①",
+      "topic": "결과적 가중범",
+      "q": "부진정 결과적 가중범은 중한 결과를 야기하는 기본범죄가 고의범인 경우뿐만 아니라 과실범인 경우에도 인정되는 개념이다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 1번 ①"
+      ],
+      "refs": [
+        "변시3 1번 ①"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 1번 ① 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "결과적 가중범과 관련된 설명 중에서 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "교사자가 피교사자에 대하여 상해를 교사하였는데 피교사자가 이를 넘어 살인을 실행한 경우, 교사자에게 피해자의 사망이라는 결과에 대하여 과실 내지 예견가능성이 있는 때에는 상해치사죄의 교사범으로서의 죄책을 지울 수 있다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 300102,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 1,
+      "choice": "②",
+      "topic": "결과적 가중범",
+      "q": "피해자를 고의로 살해하기 위해 몽둥이로 내려치자 피해자는 이를 맞고 졸도하였을 뿐인데, 피해자가 죽은 것으로 착각하고 자살로 위장하기 위해 베란다 아래로 떨어뜨려 죽게한 경우에 일련의 행위를 포괄적으로 파악하여 결과적 가중범의 성립을 인정할 수 있다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 1번 ②"
+      ],
+      "refs": [
+        "변시3 1번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 1번 ② 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "결과적 가중범과 관련된 설명 중에서 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "교사자가 피교사자에 대하여 상해를 교사하였는데 피교사자가 이를 넘어 살인을 실행한 경우, 교사자에게 피해자의 사망이라는 결과에 대하여 과실 내지 예견가능성이 있는 때에는 상해치사죄의 교사범으로서의 죄책을 지울 수 있다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 300103,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 1,
+      "choice": "③",
+      "topic": "결과적 가중범",
+      "q": "｢성폭력범죄의 처벌 등에 관한 특례법｣이 규정하고 있는 특수강간치상죄와 관련하여 특수강간이 미수인 상태에서 그 기회에 과실로 상해의 중한 결과가 발생한 경우 결과적 가중범의 미수가 인정될 수 없기 때문에 특수강간미수와 과실치상죄의 상상적 경합으로 처리되어야 한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 1번 ③"
+      ],
+      "refs": [
+        "변시3 1번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 1번 ③ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "결과적 가중범과 관련된 설명 중에서 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "교사자가 피교사자에 대하여 상해를 교사하였는데 피교사자가 이를 넘어 살인을 실행한 경우, 교사자에게 피해자의 사망이라는 결과에 대하여 과실 내지 예견가능성이 있는 때에는 상해치사죄의 교사범으로서의 죄책을 지울 수 있다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 300104,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 1,
+      "choice": "④",
+      "topic": "결과적 가중범",
+      "q": "교사자가 피교사자에 대하여 상해를 교사하였는데 피교사자가 이를 넘어 살인을 실행한 경우, 교사자에게 피해자의 사망이라는 결과에 대하여 과실 내지 예견가능성이 있는 때에는 상해치사죄의 교사범으로서의 죄책을 지울 수 있다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 1번 ④"
+      ],
+      "refs": [
+        "변시3 1번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 1번 ④ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "결과적 가중범과 관련된 설명 중에서 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "교사자가 피교사자에 대하여 상해를 교사하였는데 피교사자가 이를 넘어 살인을 실행한 경우, 교사자에게 피해자의 사망이라는 결과에 대하여 과실 내지 예견가능성이 있는 때에는 상해치사죄의 교사범으로서의 죄책을 지울 수 있다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 300105,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 1,
+      "choice": "⑤",
+      "topic": "결과적 가중범",
+      "q": "결과적 가중범의 공동정범이 성립하기 위해서는 기본범죄를 공모할 것을 요하지는 않으나, 중한 결과를 공동으로 할 의사는 필요하므로 중한 결과를 공동으로 할 의사가 없는 자는 기본범죄의 죄책만 진다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 1번 ⑤"
+      ],
+      "refs": [
+        "변시3 1번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 1번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "결과적 가중범과 관련된 설명 중에서 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "교사자가 피교사자에 대하여 상해를 교사하였는데 피교사자가 이를 넘어 살인을 실행한 경우, 교사자에게 피해자의 사망이라는 결과에 대하여 과실 내지 예견가능성이 있는 때에는 상해치사죄의 교사범으로서의 죄책을 지울 수 있다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 300201,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 2,
+      "choice": "①",
+      "topic": "상해",
+      "q": "절도범이 체포를 면탈할 목적으로 체포하려는 A와 B를 같은 기회에 폭행하여 그중 A에게만 상해를 가한 경우 A에 대한 강도상해죄와 B에 대한 준강도죄가 성립하고 두 죄는 상상적 경합범 관계이다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 2번 ①"
+      ],
+      "refs": [
+        "변시3 2번 ①"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 2번 ① 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "개인적 법익에 관한 죄에 대한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "A회사의 감사인 甲은 경영진과의 불화로 회사를 퇴사한 후 30일이 지나 회사의 승낙 없이 자신이 사용하던 A회사 소유의 컴퓨터 하드디스크를 가지고 가기 위하여 일출 직후인 06:48경 A회사에 갔으나 자신의 출입카드가 정지되어 출입구가 열리지 않자 경비원으로부터 임시 출입증을 받아 감사실에 들어간 경우 甲에게는 방실침입죄가 성립한다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 300202,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 2,
+      "choice": "②",
+      "topic": "상해",
+      "q": "甲이 권한 없이 인터넷뱅킹을 이용하여 타인의 예금계좌에서 자신의 예금계좌로 돈을 이체한 후 그중 일부를 인출하여 그 정을 아는 乙에게 교부한 경우 乙에게는 장물취득죄가 성립한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 2번 ②"
+      ],
+      "refs": [
+        "변시3 2번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 2번 ② 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "개인적 법익에 관한 죄에 대한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "A회사의 감사인 甲은 경영진과의 불화로 회사를 퇴사한 후 30일이 지나 회사의 승낙 없이 자신이 사용하던 A회사 소유의 컴퓨터 하드디스크를 가지고 가기 위하여 일출 직후인 06:48경 A회사에 갔으나 자신의 출입카드가 정지되어 출입구가 열리지 않자 경비원으로부터 임시 출입증을 받아 감사실에 들어간 경우 甲에게는 방실침입죄가 성립한다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 300203,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 2,
+      "choice": "③",
+      "topic": "상해",
+      "q": "폭행죄는 반의사불벌죄로서 개인적 법익에 관한 죄이므로 피해자가 폭행과 무관한 사유로 사망한 경우 그 상속인이 피해자를 대신하여 처벌불원의 의사표시를 할 수 있다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 2번 ③"
+      ],
+      "refs": [
+        "변시3 2번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 2번 ③ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "개인적 법익에 관한 죄에 대한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "A회사의 감사인 甲은 경영진과의 불화로 회사를 퇴사한 후 30일이 지나 회사의 승낙 없이 자신이 사용하던 A회사 소유의 컴퓨터 하드디스크를 가지고 가기 위하여 일출 직후인 06:48경 A회사에 갔으나 자신의 출입카드가 정지되어 출입구가 열리지 않자 경비원으로부터 임시 출입증을 받아 감사실에 들어간 경우 甲에게는 방실침입죄가 성립한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 300204,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 2,
+      "choice": "④",
+      "topic": "상해",
+      "q": "甲이 성인인 A와 술값 문제로 시비가 되어 A를 폭행하여 비골 골절 등의 상해를 가한 다음 A의 가슴을 만지는 등 A를 강제로 추행한 경우 甲에게는 상해죄와 강제추행치상죄가 성립한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 2번 ④"
+      ],
+      "refs": [
+        "변시3 2번 ④"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 2번 ④ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "개인적 법익에 관한 죄에 대한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "A회사의 감사인 甲은 경영진과의 불화로 회사를 퇴사한 후 30일이 지나 회사의 승낙 없이 자신이 사용하던 A회사 소유의 컴퓨터 하드디스크를 가지고 가기 위하여 일출 직후인 06:48경 A회사에 갔으나 자신의 출입카드가 정지되어 출입구가 열리지 않자 경비원으로부터 임시 출입증을 받아 감사실에 들어간 경우 甲에게는 방실침입죄가 성립한다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 300205,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 2,
+      "choice": "⑤",
+      "topic": "상해",
+      "q": "A회사의 감사인 甲은 경영진과의 불화로 회사를 퇴사한 후 30일이 지나 회사의 승낙 없이 자신이 사용하던 A회사 소유의 컴퓨터 하드디스크를 가지고 가기 위하여 일출 직후인 06:48경 A회사에 갔으나 자신의 출입카드가 정지되어 출입구가 열리지 않자 경비원으로부터 임시 출입증을 받아 감사실에 들어간 경우 甲에게는 방실침입죄가 성립한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 2번 ⑤"
+      ],
+      "refs": [
+        "변시3 2번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 2번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "개인적 법익에 관한 죄에 대한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "A회사의 감사인 甲은 경영진과의 불화로 회사를 퇴사한 후 30일이 지나 회사의 승낙 없이 자신이 사용하던 A회사 소유의 컴퓨터 하드디스크를 가지고 가기 위하여 일출 직후인 06:48경 A회사에 갔으나 자신의 출입카드가 정지되어 출입구가 열리지 않자 경비원으로부터 임시 출입증을 받아 감사실에 들어간 경우 甲에게는 방실침입죄가 성립한다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 300301,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 3,
+      "choice": "ㄱ",
+      "topic": "배임",
+      "q": "배임죄에서 ‘재산상 손해를 가한 때’에는 ‘재산상 손해발생의 위험을 초래한 경우’도 포함되는 것이므로, 법인의 대표이사 甲이 회사의 이익이 아닌 자기 또는 제3자의 이익을 도모할 목적으로 권한을 남용하여 회사 명의의 금전소비대차 공정증서를 작성하여 법인 명의의 채무를 부담한 경우에는 상대방이 대표이사의 진의를 알았거나 알 수 있었다고 할지라도 배임죄가 성립한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 3번 ㄱ"
+      ],
+      "refs": [
+        "변시3 3번 ㄱ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 3번 ㄱ 지문은 정답표상 X입니다.",
+      "ref": "형법 제355조",
+      "art": "제355조",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "original_question": "다음 사례들 중 甲과 丙의 죄책에 관한 설명으로 옳지 않은 것을 모두 고른 것은? (다음 사례의 기재 내용 중 ‘배임죄’는 ‘업무상배임죄’로 대신할 수 있고, 다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "ㄱ, ㄷ, ㄹ",
+      "needs_atomization": true
+    },
+    {
+      "id": 300302,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 3,
+      "choice": "ㄴ",
+      "topic": "배임",
+      "q": "甲이 乙로부터 임야를 매수하면서 계약금을 지급하는 즉시 甲 앞으로 소유권을 이전 받되 위 임야를 담보로 대출을 받아 잔금을 지급하기로 약정하고, 甲이 계약금을 지급한 후 임야에 대한 소유권을 이전 받고 이를 담보로 제공하여 자금을 융통하였음에도 乙에게 잔금을 지급하지 않았다고 하더라도 배임죄가 성립하지 않는다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 3번 ㄴ"
+      ],
+      "refs": [
+        "변시3 3번 ㄴ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 3번 ㄴ 지문은 정답표상 O입니다.",
+      "ref": "형법 제355조",
+      "art": "제355조",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "original_question": "다음 사례들 중 甲과 丙의 죄책에 관한 설명으로 옳지 않은 것을 모두 고른 것은? (다음 사례의 기재 내용 중 ‘배임죄’는 ‘업무상배임죄’로 대신할 수 있고, 다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "ㄱ, ㄷ, ㄹ",
+      "needs_atomization": true
+    },
+    {
+      "id": 300303,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 3,
+      "choice": "ㄷ",
+      "topic": "배임",
+      "q": "부동산 소유자인 甲이 乙과 부동산 매매계약을 체결하고 계약금과 중도금을 모두 수령하였는데, 이러한 사실을 모두 알고 있는 丙이 甲에게 부동산의 가격을 더 높게 지불할 테니 자신에게 위 부동산을 매각해 달라는 요청을 하자 위 부동산을 丙에게 이중으로 매도하고 소유권이전등기를 경료해 준 경우, 甲에게는 배임죄가 성립하고, 丙에게는 장물취득죄가 성립한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 3번 ㄷ"
+      ],
+      "refs": [
+        "변시3 3번 ㄷ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 3번 ㄷ 지문은 정답표상 X입니다.",
+      "ref": "형법 제355조",
+      "art": "제355조",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "original_question": "다음 사례들 중 甲과 丙의 죄책에 관한 설명으로 옳지 않은 것을 모두 고른 것은? (다음 사례의 기재 내용 중 ‘배임죄’는 ‘업무상배임죄’로 대신할 수 있고, 다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "ㄱ, ㄷ, ㄹ",
+      "needs_atomization": true
+    },
+    {
+      "id": 300304,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 3,
+      "choice": "ㄹ",
+      "topic": "배임",
+      "q": "아파트 입주자대표회의 회장인 甲이 공공요금의 납부를 위한 지출결의서에 날인을 거부함으로써 아파트 입주자들에게 그에 대한 통상의 연체료를 부담시켰다면, 위 행위로 인하여 아파트 입주민에게 연체료 금액만큼 손해를 가하고 연체료를 받은 공공기관은 그 금액만큼 이익을 취득한 것이므로 배임죄가 성립한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 3번 ㄹ"
+      ],
+      "refs": [
+        "변시3 3번 ㄹ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 3번 ㄹ 지문은 정답표상 X입니다.",
+      "ref": "형법 제355조",
+      "art": "제355조",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "original_question": "다음 사례들 중 甲과 丙의 죄책에 관한 설명으로 옳지 않은 것을 모두 고른 것은? (다음 사례의 기재 내용 중 ‘배임죄’는 ‘업무상배임죄’로 대신할 수 있고, 다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "ㄱ, ㄷ, ㄹ",
+      "needs_atomization": true
+    },
+    {
+      "id": 300305,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 3,
+      "choice": "ㅁ",
+      "topic": "배임",
+      "q": "A 주식회사를 인수하는 甲이 일단 금융기관으로부터 인수자금을 대출받아 회사를 인수한 다음, A 주식회사에 아무런 반대급부를 제공하지 않고 그 회사의 자산을 위 인수자금 대출금의 담보로 제공하도록 하였다면, 甲에게는 배임죄가 성립한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 3번 ㅁ"
+      ],
+      "refs": [
+        "변시3 3번 ㅁ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 3번 ㅁ 지문은 정답표상 O입니다.",
+      "ref": "형법 제355조",
+      "art": "제355조",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "original_question": "다음 사례들 중 甲과 丙의 죄책에 관한 설명으로 옳지 않은 것을 모두 고른 것은? (다음 사례의 기재 내용 중 ‘배임죄’는 ‘업무상배임죄’로 대신할 수 있고, 다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "ㄱ, ㄷ, ㄹ",
+      "needs_atomization": true
+    },
+    {
+      "id": 300401,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 4,
+      "choice": "ㄱ",
+      "topic": "절도",
+      "q": "甲이 야간에 카페에서 업주의 주거로 사용되는 그곳 내실에 침입하여 장식장 안에 들어 있는 정기적금통장을 꺼내 들고 카페로 나오던 중 발각되어 돌려준 경우 야간주거침입절도죄의 기수가 성립한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 4번 ㄱ"
+      ],
+      "refs": [
+        "변시3 4번 ㄱ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 4번 ㄱ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "甲의 죄책에 관한 설명 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ(○), ㄴ(×), ㄷ(×), ㄹ(○), ㅁ(○)",
+      "needs_atomization": true
+    },
+    {
+      "id": 300402,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 4,
+      "choice": "ㄴ",
+      "topic": "절도",
+      "q": "甲이 乙 명의로 구입·등록하여 乙에게 명의신탁한 자동차를 피해자에게 담보로 제공한 후, 甲이 피해자가 점유 중인 자동차를 몰래 가져간 경우 이 자동차는 甲 소유의 재물이어서 권리행사방해죄의 객체가 되므로 자동차에 대한 절도죄가 성립하지 않는다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 4번 ㄴ"
+      ],
+      "refs": [
+        "변시3 4번 ㄴ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 4번 ㄴ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "甲의 죄책에 관한 설명 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ(○), ㄴ(×), ㄷ(×), ㄹ(○), ㅁ(○)",
+      "needs_atomization": true
+    },
+    {
+      "id": 300403,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 4,
+      "choice": "ㄷ",
+      "topic": "절도",
+      "q": "손님인 甲이 PC방에서 다른 손님이 두고 간 휴대전화를 업주 몰래 가지고 간 경우 업주가 휴대전화를 현실적으로 발견하지 않는 한 이에 대한 점유를 개시하였다고 할 수 없으므로 절도죄가 아닌 점유이탈물횡령죄가 성립한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 4번 ㄷ"
+      ],
+      "refs": [
+        "변시3 4번 ㄷ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 4번 ㄷ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "甲의 죄책에 관한 설명 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ(○), ㄴ(×), ㄷ(×), ㄹ(○), ㅁ(○)",
+      "needs_atomization": true
+    },
+    {
+      "id": 300404,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 4,
+      "choice": "ㄹ",
+      "topic": "절도",
+      "q": "甲이 상사와의 의견충돌 끝에 항의의 표시로 사표를 제출한 다음 평소 자신이 전적으로 보관·관리해 오던 비자금관련 서류 및 금품이 든 가방을 가지고 나왔으나 그 이후 계속 정상적으로 근무한 경우 불법영득의사를 인정할 수 없어 절도죄가 성립하지 않는다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 4번 ㄹ"
+      ],
+      "refs": [
+        "변시3 4번 ㄹ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 4번 ㄹ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "甲의 죄책에 관한 설명 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ(○), ㄴ(×), ㄷ(×), ㄹ(○), ㅁ(○)",
+      "needs_atomization": true
+    },
+    {
+      "id": 300405,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 4,
+      "choice": "ㅁ",
+      "topic": "절도",
+      "q": "甲이 피해자의 영업점 내에 있는 피해자 소유의 휴대전화를 허락 없이 가지고 나와 휴대전화를 이용하여 통화하고 문자메시지를 주고받은 다음 2시간 후에 피해자에게 아무런 말을 하지 않고 피해자의 영업점 정문 옆 화분에 놓아두고 간 경우 불법영득의 의사가 인정되기 때문에 절도죄가 성립한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 4번 ㅁ"
+      ],
+      "refs": [
+        "변시3 4번 ㅁ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 4번 ㅁ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "甲의 죄책에 관한 설명 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ(○), ㄴ(×), ㄷ(×), ㄹ(○), ㅁ(○)",
+      "needs_atomization": true
+    },
+    {
+      "id": 300501,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 5,
+      "choice": "ㄱ",
+      "topic": "협박",
+      "q": "골프시설의 운영자가 골프회원에게 불리하게 내용이 변경된 회칙에 대하여 동의한다는 내용의 등록신청서를 제출하지 않으면 회원으로 대우하지 않겠다고 통지하는 것은 강요죄의 협박에 해당한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 5번 ㄱ"
+      ],
+      "refs": [
+        "변시3 5번 ㄱ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 5번 ㄱ 지문은 정답표상 O입니다.",
+      "ref": "형법 제355조",
+      "art": "제355조",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "자유에 관한 죄에 대한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함) + + | ㄹ. A 주식회사 대표이사에게 자신의 횡령행위를 문제 삼으면 A | | 주식회사의 내부비리 등을 금융감독원 등 관계기관에 고발하겠다고 | | 발언하는 경우 대표이사뿐만 아니라 법인에 대하여도 협박죄가 성립한다. | | | | ㅁ. 미성년자의 어머니가 교통사고로 사망하여 아버지가 미성년자의 | | 양육을 외조부에게 맡겼으나 교통사고 배상금 등으로 분쟁이 발생하자, | | 학교에서 귀가하는 미성년자를 아버지가 본인의 의사에 반하여 강제로 | | 차에 태우고 데려간 경우 미성년자약취죄가 성립한다. | + +",
+      "original_answer": "2",
+      "answer_choice": "ㄱ, ㄷ, ㅁ",
+      "needs_atomization": false
+    },
+    {
+      "id": 300502,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 5,
+      "choice": "ㄴ",
+      "topic": "협박",
+      "q": "미성년자가 혼자 머무는 주거에 침입하여 그를 감금한 후 협박에 의하여 부모의 출입을 봉쇄한 경우 미성년자의 장소적 이전이 없었으므로 미성년자약취죄가 성립하지 않는다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 5번 ㄴ"
+      ],
+      "refs": [
+        "변시3 5번 ㄴ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 5번 ㄴ 지문은 정답표상 X입니다.",
+      "ref": "형법 제355조",
+      "art": "제355조",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "자유에 관한 죄에 대한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함) + + | ㄹ. A 주식회사 대표이사에게 자신의 횡령행위를 문제 삼으면 A | | 주식회사의 내부비리 등을 금융감독원 등 관계기관에 고발하겠다고 | | 발언하는 경우 대표이사뿐만 아니라 법인에 대하여도 협박죄가 성립한다. | | | | ㅁ. 미성년자의 어머니가 교통사고로 사망하여 아버지가 미성년자의 | | 양육을 외조부에게 맡겼으나 교통사고 배상금 등으로 분쟁이 발생하자, | | 학교에서 귀가하는 미성년자를 아버지가 본인의 의사에 반하여 강제로 | | 차에 태우고 데려간 경우 미성년자약취죄가 성립한다. | + +",
+      "original_answer": "2",
+      "answer_choice": "ㄱ, ㄷ, ㅁ",
+      "needs_atomization": false
+    },
+    {
+      "id": 300503,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 5,
+      "choice": "ㄷ",
+      "topic": "협박",
+      "q": "재물을 강취하기 위하여 피해자를 강제로 승용차에 태우고 가다가 주먹으로 때려 반항을 억압한 다음 현금 35만 원 등이 들어 있는 가방을 빼앗은 후 약 15km를 계속하여 진행하여 가다가 교통사고를 일으켜 발각된 경우 감금죄와 강도죄는 실체적 경합 관계이다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 5번 ㄷ"
+      ],
+      "refs": [
+        "변시3 5번 ㄷ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 5번 ㄷ 지문은 정답표상 O입니다.",
+      "ref": "형법 제355조",
+      "art": "제355조",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "자유에 관한 죄에 대한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함) + + | ㄹ. A 주식회사 대표이사에게 자신의 횡령행위를 문제 삼으면 A | | 주식회사의 내부비리 등을 금융감독원 등 관계기관에 고발하겠다고 | | 발언하는 경우 대표이사뿐만 아니라 법인에 대하여도 협박죄가 성립한다. | | | | ㅁ. 미성년자의 어머니가 교통사고로 사망하여 아버지가 미성년자의 | | 양육을 외조부에게 맡겼으나 교통사고 배상금 등으로 분쟁이 발생하자, | | 학교에서 귀가하는 미성년자를 아버지가 본인의 의사에 반하여 강제로 | | 차에 태우고 데려간 경우 미성년자약취죄가 성립한다. | + +",
+      "original_answer": "2",
+      "answer_choice": "ㄱ, ㄷ, ㅁ",
+      "needs_atomization": false
+    },
+    {
+      "id": 300601,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 6,
+      "choice": "ㄱ",
+      "topic": "사기",
+      "q": "경찰서 교통계에 근무하는 경찰관 甲은 乙의 관내 도박장 개설 및 도박범행을 묵인하고 편의를 봐주는 대가로 금 150만 원을 교부받고 나아가 그 도박장 개설 및 도박범행사실을 잘 알면서도 이를 단속하지 아니하였다. (사전수뢰죄)",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 6번 ㄱ"
+      ],
+      "refs": [
+        "변시3 6번 ㄱ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 6번 ㄱ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "甲의 행위에 대하여 ( ) 안의 범죄가 성립하는 것(○)과 성립하지 않는 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ(×), ㄴ(×), ㄷ(○), ㄹ(×), ㅁ(○)",
+      "needs_atomization": true
+    },
+    {
+      "id": 300602,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 6,
+      "choice": "ㄴ",
+      "topic": "사기",
+      "q": "기초지방자치단체장 甲은 파업에 참가한 소속 공무원들에 대하여 광역지방자치단체 인사위원회에 징계의결요구를 할 의무가 있음에도 불구하고, 법률 검토 등을 거쳐 그 징계의결요구를 하지 아니하고 자체적으로 가담 정도의 경중을 가려 자체 인사위원회에 징계의결요구를 하거나 훈계처분을 하도록 지시하였다. (직무유기죄)",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 6번 ㄴ"
+      ],
+      "refs": [
+        "변시3 6번 ㄴ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 6번 ㄴ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "甲의 행위에 대하여 ( ) 안의 범죄가 성립하는 것(○)과 성립하지 않는 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ(×), ㄴ(×), ㄷ(○), ㄹ(×), ㅁ(○)",
+      "needs_atomization": true
+    },
+    {
+      "id": 300603,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 6,
+      "choice": "ㄷ",
+      "topic": "사기",
+      "q": "甲은 개인택시운송사업면허 양도제한기간 경과 전에 허위진단서를 첨부하여 甲이 1년 이상의 치료를 요하는 질병에 걸려 직접 운전할 수 없음을 이유로 관할 구청에 개인택시운송사업에 대한 양도·양수 신청을 하였고 담당공무원은 그 진단서 내용을 믿고 인가처분을 하였다. (위계에 의한 공무집행방해죄)",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 6번 ㄷ"
+      ],
+      "refs": [
+        "변시3 6번 ㄷ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 6번 ㄷ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "甲의 행위에 대하여 ( ) 안의 범죄가 성립하는 것(○)과 성립하지 않는 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ(×), ㄴ(×), ㄷ(○), ㄹ(×), ㅁ(○)",
+      "needs_atomization": true
+    },
+    {
+      "id": 300604,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 6,
+      "choice": "ㄹ",
+      "topic": "사기",
+      "q": "甲은 타인의 형사사건과 관련하여 허위의 진술서를 작성하여 수사기관에 제출하였다. (증거위조죄)",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 6번 ㄹ"
+      ],
+      "refs": [
+        "변시3 6번 ㄹ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 6번 ㄹ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "甲의 행위에 대하여 ( ) 안의 범죄가 성립하는 것(○)과 성립하지 않는 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ(×), ㄴ(×), ㄷ(○), ㄹ(×), ㅁ(○)",
+      "needs_atomization": true
+    },
+    {
+      "id": 300605,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 6,
+      "choice": "ㅁ",
+      "topic": "사기",
+      "q": "甲은 乙로부터 피해를 당한 사람들과 乙 사이의 합의를 주선하기 위하여 자신도 피해자인 것처럼 행세하기 위한 방편으로 乙의 승낙을 얻어 乙로부터 차용금 피해를 당한 것처럼 허위사실을 기재하여 乙을 고소하였다. 그러나 甲은 바로 乙에게 합의서를 작성하여 교부해 주는 한편 수사기관의 고소인 출석요구에 응하지 않았다. (무고죄)",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 6번 ㅁ"
+      ],
+      "refs": [
+        "변시3 6번 ㅁ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 6번 ㅁ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "甲의 행위에 대하여 ( ) 안의 범죄가 성립하는 것(○)과 성립하지 않는 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ(×), ㄴ(×), ㄷ(○), ㄹ(×), ㅁ(○)",
+      "needs_atomization": true
+    },
+    {
+      "id": 300701,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 7,
+      "choice": "ㄱ",
+      "topic": "문서위조",
+      "q": "신분을 확인하려는 경찰관에게 자신의 인적 사항을 속이기 위하여 미리 소지하고 있던 타인의 운전면허증을 제시하는 경우",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 7번 ㄱ"
+      ],
+      "refs": [
+        "변시3 7번 ㄱ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 7번 ㄱ 지문은 정답표상 O입니다.",
+      "ref": "형법 제225조",
+      "art": "제225조",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "다음 중 공문서부정행사죄가 성립하는 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "ㄱ",
+      "needs_atomization": false
+    },
+    {
+      "id": 300702,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 7,
+      "choice": "ㄴ",
+      "topic": "문서위조",
+      "q": "타인의 주민등록표등본을 그와 아무런 관련이 없는 사람이 마치 자신의 것인 것처럼 행사한 경우",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 7번 ㄴ"
+      ],
+      "refs": [
+        "변시3 7번 ㄴ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 7번 ㄴ 지문은 정답표상 X입니다.",
+      "ref": "형법 제225조",
+      "art": "제225조",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "다음 중 공문서부정행사죄가 성립하는 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "ㄱ",
+      "needs_atomization": false
+    },
+    {
+      "id": 300703,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 7,
+      "choice": "ㄷ",
+      "topic": "문서위조",
+      "q": "허위로 선박 사고신고를 하면서 그 선박의 국적증명서와 선박검사증서를 함께 제출한 경우",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 7번 ㄷ"
+      ],
+      "refs": [
+        "변시3 7번 ㄷ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 7번 ㄷ 지문은 정답표상 X입니다.",
+      "ref": "형법 제225조",
+      "art": "제225조",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "다음 중 공문서부정행사죄가 성립하는 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "ㄱ",
+      "needs_atomization": false
+    },
+    {
+      "id": 300704,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 7,
+      "choice": "ㄹ",
+      "topic": "문서위조",
+      "q": "기왕에 습득한 타인의 주민등록증을 자신의 가족의 것이라고 제시하면서 그 주민등록증상의 명의로 이동전화 가입신청을 한 경우",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 7번 ㄹ"
+      ],
+      "refs": [
+        "변시3 7번 ㄹ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 7번 ㄹ 지문은 정답표상 X입니다.",
+      "ref": "형법 제225조",
+      "art": "제225조",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "다음 중 공문서부정행사죄가 성립하는 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "ㄱ",
+      "needs_atomization": false
+    },
+    {
+      "id": 300801,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 8,
+      "choice": "ㄱ",
+      "topic": "형벌",
+      "q": "형법 제37조 후단의 경합범 관계에 있는 죄에 대하여 하나의 판결로 두 개의 자유형을 선고하는 경우에 하나의 자유형에 대하여는 실형을, 다른 하나의 자유형에 대하여는 집행유예를 선고하는 것은 허용되지 않는다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 8번 ㄱ"
+      ],
+      "refs": [
+        "변시3 8번 ㄱ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 8번 ㄱ 지문은 정답표상 X입니다.",
+      "ref": "형법 제41조",
+      "art": "제41조",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "original_question": "집행유예·선고유예에 관한 설명 중 옳지 않은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "ㄱ, ㄷ, ㅁ",
+      "needs_atomization": false
+    },
+    {
+      "id": 300802,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 8,
+      "choice": "ㄴ",
+      "topic": "형벌",
+      "q": "집행유예의 선고를 받은 후에 그 선고가 실효 또는 취소됨이 없이 유예기간이 경과하더라도 형의 선고가 있었다는 사실 자체가 없어지는 것은 아니다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 8번 ㄴ"
+      ],
+      "refs": [
+        "변시3 8번 ㄴ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 8번 ㄴ 지문은 정답표상 O입니다.",
+      "ref": "형법 제41조",
+      "art": "제41조",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "original_question": "집행유예·선고유예에 관한 설명 중 옳지 않은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "ㄱ, ㄷ, ㅁ",
+      "needs_atomization": false
+    },
+    {
+      "id": 300803,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 8,
+      "choice": "ㄷ",
+      "topic": "형벌",
+      "q": "‘개전의 정상이 현저한 때’라고 함은 피고인이 죄를 깊이 뉘우치는 경우를 뜻하는 것이므로 피고인이 범죄사실을 자백하지 않고 부인할 경우에는 언제나 선고유예를 할 수 없다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 8번 ㄷ"
+      ],
+      "refs": [
+        "변시3 8번 ㄷ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 8번 ㄷ 지문은 정답표상 X입니다.",
+      "ref": "형법 제41조",
+      "art": "제41조",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "original_question": "집행유예·선고유예에 관한 설명 중 옳지 않은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "ㄱ, ㄷ, ㅁ",
+      "needs_atomization": false
+    },
+    {
+      "id": 300804,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 8,
+      "choice": "ㄹ",
+      "topic": "형벌",
+      "q": "집행유예를 선고하면서 사회봉사명령으로서 일정액의 금전출연을 주된 내용으로 하는 사회공헌계획의 성실한 이행을 명하는 것은 허용될 수 없다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 8번 ㄹ"
+      ],
+      "refs": [
+        "변시3 8번 ㄹ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 8번 ㄹ 지문은 정답표상 O입니다.",
+      "ref": "형법 제41조",
+      "art": "제41조",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "original_question": "집행유예·선고유예에 관한 설명 중 옳지 않은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "ㄱ, ㄷ, ㅁ",
+      "needs_atomization": false
+    },
+    {
+      "id": 300805,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 8,
+      "choice": "ㅁ",
+      "topic": "형벌",
+      "q": "형법 제39조 제1항에 의하여 형법 제37조 후단 경합범 중 판결을 받지 아니한 죄에 대하여 형을 선고하는 경우에, 형법 제37조 후단에 규정된 ‘금고 이상의 형에 처한 판결이 확정된 죄’의 형은 선고유예의 결격사유인 ‘자격정지 이상의 형을 받은 전과’에 포함되지 않는다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 8번 ㅁ"
+      ],
+      "refs": [
+        "변시3 8번 ㅁ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 8번 ㅁ 지문은 정답표상 X입니다.",
+      "ref": "형법 제41조",
+      "art": "제41조",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "original_question": "집행유예·선고유예에 관한 설명 중 옳지 않은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "ㄱ, ㄷ, ㅁ",
+      "needs_atomization": false
+    },
+    {
+      "id": 300901,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 9,
+      "choice": "①",
+      "topic": "명예훼손",
+      "q": "진정서 사본과 고소장 사본을 특정사람들에게만 개별적으로 우송한 경우라도 그 수가 200여 명에 이른 경우에는 명예훼손죄의 요건인 공연성이 인정된다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 9번 ①"
+      ],
+      "refs": [
+        "변시3 9번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 9번 ① 지문은 정답표상 O입니다.",
+      "ref": "형법 제307조",
+      "art": "제307조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "명예훼손죄에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "자신의 아들 등으로부터 폭행을 당하여 입원한 피해자의 병실로 병문안을 간 가해자의 어머니가 피해자의 어머니와 폭행사건에 대하여 대화하던 중 피해자의 어머니의 친척 등 모두 3명이 있는 자리에서 “학교에 알아보니 피해자에게 원래 정신병이 있었다고 하더라”라고 허위사실을 말한 경우, 공연성이 인정되므로 허위사실적시에 의한 명예훼손죄가 성립한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 300902,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 9,
+      "choice": "②",
+      "topic": "명예훼손",
+      "q": "정부 또는 국가기관은 형법상 명예훼손죄의 피해자가 될 수 없으나, 언론보도의 내용이 공직자 개인에 대한 악의적인 공격으로 현저히 상당성을 잃은 것으로 평가되는 경우에는, 그 보도로 인하여 공직자 개인에 대한 명예훼손죄가 성립할 수 있다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 9번 ②"
+      ],
+      "refs": [
+        "변시3 9번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 9번 ② 지문은 정답표상 O입니다.",
+      "ref": "형법 제307조",
+      "art": "제307조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "명예훼손죄에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "자신의 아들 등으로부터 폭행을 당하여 입원한 피해자의 병실로 병문안을 간 가해자의 어머니가 피해자의 어머니와 폭행사건에 대하여 대화하던 중 피해자의 어머니의 친척 등 모두 3명이 있는 자리에서 “학교에 알아보니 피해자에게 원래 정신병이 있었다고 하더라”라고 허위사실을 말한 경우, 공연성이 인정되므로 허위사실적시에 의한 명예훼손죄가 성립한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 300903,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 9,
+      "choice": "③",
+      "topic": "명예훼손",
+      "q": "인터넷 포털사이트의 기사란에 마치 특정 여자연예인이 재벌의 아이를 낳았거나 그 대가를 받은 것처럼 댓글이 달린 상황에서 “지고지순의 뜻이 뭔지나 아나? 모 재벌님하고의 관계는 끝났나?”라는 추가 댓글을 게시한 경우, 허위사실의 적시에 해당하여 ｢정보통신망 이용촉진 및 정보보호 등에 관한 법률｣상의 명예훼손죄가 성립한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 9번 ③"
+      ],
+      "refs": [
+        "변시3 9번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 9번 ③ 지문은 정답표상 O입니다.",
+      "ref": "형법 제307조",
+      "art": "제307조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "명예훼손죄에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "자신의 아들 등으로부터 폭행을 당하여 입원한 피해자의 병실로 병문안을 간 가해자의 어머니가 피해자의 어머니와 폭행사건에 대하여 대화하던 중 피해자의 어머니의 친척 등 모두 3명이 있는 자리에서 “학교에 알아보니 피해자에게 원래 정신병이 있었다고 하더라”라고 허위사실을 말한 경우, 공연성이 인정되므로 허위사실적시에 의한 명예훼손죄가 성립한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 300904,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 9,
+      "choice": "④",
+      "topic": "명예훼손",
+      "q": "인터넷 포털사이트의 지식 검색 질문·답변 게시판에 성형시술 결과가 만족스럽지 못하다는 주관적인 평가를 주된 내용으로 하는 한 줄의 댓글을 게시한 경우, 사실의 적시에는 해당하지만 비방의 목적이 없어서 ｢정보통신망 이용촉진 및 정보보호 등에 관한 법률｣상의 명예훼손죄가 성립하지 않는다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 9번 ④"
+      ],
+      "refs": [
+        "변시3 9번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 9번 ④ 지문은 정답표상 O입니다.",
+      "ref": "형법 제307조",
+      "art": "제307조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "명예훼손죄에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "자신의 아들 등으로부터 폭행을 당하여 입원한 피해자의 병실로 병문안을 간 가해자의 어머니가 피해자의 어머니와 폭행사건에 대하여 대화하던 중 피해자의 어머니의 친척 등 모두 3명이 있는 자리에서 “학교에 알아보니 피해자에게 원래 정신병이 있었다고 하더라”라고 허위사실을 말한 경우, 공연성이 인정되므로 허위사실적시에 의한 명예훼손죄가 성립한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 300905,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 9,
+      "choice": "⑤",
+      "topic": "명예훼손",
+      "q": "자신의 아들 등으로부터 폭행을 당하여 입원한 피해자의 병실로 병문안을 간 가해자의 어머니가 피해자의 어머니와 폭행사건에 대하여 대화하던 중 피해자의 어머니의 친척 등 모두 3명이 있는 자리에서 “학교에 알아보니 피해자에게 원래 정신병이 있었다고 하더라”라고 허위사실을 말한 경우, 공연성이 인정되므로 허위사실적시에 의한 명예훼손죄가 성립한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 9번 ⑤"
+      ],
+      "refs": [
+        "변시3 9번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 9번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "형법 제307조",
+      "art": "제307조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "명예훼손죄에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "자신의 아들 등으로부터 폭행을 당하여 입원한 피해자의 병실로 병문안을 간 가해자의 어머니가 피해자의 어머니와 폭행사건에 대하여 대화하던 중 피해자의 어머니의 친척 등 모두 3명이 있는 자리에서 “학교에 알아보니 피해자에게 원래 정신병이 있었다고 하더라”라고 허위사실을 말한 경우, 공연성이 인정되므로 허위사실적시에 의한 명예훼손죄가 성립한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301001,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 10,
+      "choice": "ㄱ",
+      "topic": "교사범",
+      "q": "甲이 乙에게 A의 자동차를 강취할 것을 교사하였으나 乙이 A의 자동차를 절취한 경우 甲은 절도죄의 교사범으로 처벌된다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 10번 ㄱ"
+      ],
+      "refs": [
+        "변시3 10번 ㄱ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 10번 ㄱ 지문은 정답표상 X입니다.",
+      "ref": "형법 제30조",
+      "art": "제30조",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "교사범에 관한 설명으로 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "ㄱ(×), ㄴ(○), ㄷ(○), ㄹ(○)",
+      "needs_atomization": true
+    },
+    {
+      "id": 301002,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 10,
+      "choice": "ㄴ",
+      "topic": "교사범",
+      "q": "甲이 乙에게 A의 주거에 침입할 것을 교사했는데 乙이 A의 승낙을 얻어 정당하게 주거에 들어간 경우 공범종속성설 중 제한적 종속형식에 의하면 甲은 주거침입죄의 교사범이 성립하지 않는다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 10번 ㄴ"
+      ],
+      "refs": [
+        "변시3 10번 ㄴ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 10번 ㄴ 지문은 정답표상 O입니다.",
+      "ref": "형법 제30조",
+      "art": "제30조",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "교사범에 관한 설명으로 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "ㄱ(×), ㄴ(○), ㄷ(○), ㄹ(○)",
+      "needs_atomization": true
+    },
+    {
+      "id": 301003,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 10,
+      "choice": "ㄷ",
+      "topic": "교사범",
+      "q": "甲은 乙에게 A를 살해하라고 교사했는데 乙은 A가 귀가하는 것을 기다리다가 A로 생각되는 사람을 권총으로 살해하였다. 그러나 乙의 총에 사망한 사람은 B였다. 법정적 부합설에 의하면 甲은 살인죄의 교사범으로 처벌된다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 10번 ㄷ"
+      ],
+      "refs": [
+        "변시3 10번 ㄷ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 10번 ㄷ 지문은 정답표상 O입니다.",
+      "ref": "형법 제30조",
+      "art": "제30조",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "교사범에 관한 설명으로 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "ㄱ(×), ㄴ(○), ㄷ(○), ㄹ(○)",
+      "needs_atomization": true
+    },
+    {
+      "id": 301004,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 10,
+      "choice": "ㄹ",
+      "topic": "교사범",
+      "q": "甲이 남자친구인 乙에게 甲의 부(父)인 A를 살해하도록 교사한 경우 甲에게 형법 제33조 단서가 형법 제31조 제1항에 우선하여 적용되어 甲이 乙보다 중하게 처벌된다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 10번 ㄹ"
+      ],
+      "refs": [
+        "변시3 10번 ㄹ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 10번 ㄹ 지문은 정답표상 O입니다.",
+      "ref": "형법 제30조",
+      "art": "제30조",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "교사범에 관한 설명으로 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "ㄱ(×), ㄴ(○), ㄷ(○), ㄹ(○)",
+      "needs_atomization": true
+    },
+    {
+      "id": 301101,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 11,
+      "choice": "①",
+      "topic": "부작위범",
+      "q": "생존가능성이 있는 환자를 보호자의 요구로 치료를 중단하고 퇴원을 지시하여 사망하게 한 의사의 경우에는 치료중단이라는 부분에 비난의 중점이 있기 때문에 부작위범으로 평가된다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 11번 ①"
+      ],
+      "refs": [
+        "변시3 11번 ①"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 11번 ① 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "부작위범에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "미성년자를 유인하여 포박·감금한 자가 중간에 살해의 고의를 가지고 계속 방치하여 사망케 하였다면 감금 행위자에게도 보증인지위 내지 보증의무가 인정되어 부작위에 의한 살인죄의 성립을 인정하여야 한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301102,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 11,
+      "choice": "②",
+      "topic": "부작위범",
+      "q": "부진정 부작위범의 성립요건과 관련하여 보증인지위와 보증의무의 체계적 지위를 나누는 이분설에 따르면, 부작위 행위자의 보증의무에 관한 착오는 구성요건적 착오에 해당한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 11번 ②"
+      ],
+      "refs": [
+        "변시3 11번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 11번 ② 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "부작위범에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "미성년자를 유인하여 포박·감금한 자가 중간에 살해의 고의를 가지고 계속 방치하여 사망케 하였다면 감금 행위자에게도 보증인지위 내지 보증의무가 인정되어 부작위에 의한 살인죄의 성립을 인정하여야 한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301103,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 11,
+      "choice": "③",
+      "topic": "부작위범",
+      "q": "미성년자를 유인하여 포박·감금한 자가 중간에 살해의 고의를 가지고 계속 방치하여 사망케 하였다면 감금 행위자에게도 보증인지위 내지 보증의무가 인정되어 부작위에 의한 살인죄의 성립을 인정하여야 한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 11번 ③"
+      ],
+      "refs": [
+        "변시3 11번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 11번 ③ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "부작위범에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "미성년자를 유인하여 포박·감금한 자가 중간에 살해의 고의를 가지고 계속 방치하여 사망케 하였다면 감금 행위자에게도 보증인지위 내지 보증의무가 인정되어 부작위에 의한 살인죄의 성립을 인정하여야 한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301104,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 11,
+      "choice": "④",
+      "topic": "부작위범",
+      "q": "과실에 의한 교사와 방조가 모두 불가능하듯이, 부작위에 의한 교사와 방조도 모두 불가능하다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 11번 ④"
+      ],
+      "refs": [
+        "변시3 11번 ④"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 11번 ④ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "부작위범에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "미성년자를 유인하여 포박·감금한 자가 중간에 살해의 고의를 가지고 계속 방치하여 사망케 하였다면 감금 행위자에게도 보증인지위 내지 보증의무가 인정되어 부작위에 의한 살인죄의 성립을 인정하여야 한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301105,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 11,
+      "choice": "⑤",
+      "topic": "부작위범",
+      "q": "매매 대상 토지에 대하여 도시계획이 입안되어 협의 수용될 것을 알고 있는 매도인이 이러한 사실을 모르는 매수인에게 이 같은 사실을 고지하지 아니하고 매도하였더라도 매수인에게 소유권이전등기가 완료되었다면 부작위에 의한 사기죄가 성립하지 않는다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 11번 ⑤"
+      ],
+      "refs": [
+        "변시3 11번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 11번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "부작위범에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "미성년자를 유인하여 포박·감금한 자가 중간에 살해의 고의를 가지고 계속 방치하여 사망케 하였다면 감금 행위자에게도 보증인지위 내지 보증의무가 인정되어 부작위에 의한 살인죄의 성립을 인정하여야 한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301201,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 12,
+      "choice": "ㄱ",
+      "topic": "살인",
+      "q": "甲이 A의 재물을 강취한 뒤, A의 집에 방화하여 A를 살해한 행위는 강도살인죄와 현주건조물방화치사죄의 상상적 경합에 해당한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 12번 ㄱ"
+      ],
+      "refs": [
+        "변시3 12번 ㄱ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 12번 ㄱ 지문은 정답표상 O입니다.",
+      "ref": "형법 제250조",
+      "art": "제250조",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "甲은 A의 재물을 강취한 후 A를 살해할 목적으로 A가 살고 있는 집에 방화하여 A는 사망하였다. 그 후 수사망을 피해 도피 중이던 甲은 자신의 누나 丁에게 도피자금을 부탁하였고, 丁은 甲에게 도피자금을 송금하였다. 한편 사법경찰관 丙은 丁의 동의를 얻은 후 강도살인과 방화와 관련된 甲과 丁 사이의 통화내용을 녹음하여 녹음테이프를 검사에게 증거로 제출하였다. 이에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "ㄱ, ㄴ, ㄷ, ㄹ",
+      "needs_atomization": true
+    },
+    {
+      "id": 301202,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 12,
+      "choice": "ㄴ",
+      "topic": "살인",
+      "q": "甲이 자신을 위하여 丁으로 하여금 도피자금을 송금하도록 하는 행위는 방어권의 남용으로 범인도피교사죄에 해당한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 12번 ㄴ"
+      ],
+      "refs": [
+        "변시3 12번 ㄴ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 12번 ㄴ 지문은 정답표상 O입니다.",
+      "ref": "형법 제250조",
+      "art": "제250조",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "甲은 A의 재물을 강취한 후 A를 살해할 목적으로 A가 살고 있는 집에 방화하여 A는 사망하였다. 그 후 수사망을 피해 도피 중이던 甲은 자신의 누나 丁에게 도피자금을 부탁하였고, 丁은 甲에게 도피자금을 송금하였다. 한편 사법경찰관 丙은 丁의 동의를 얻은 후 강도살인과 방화와 관련된 甲과 丁 사이의 통화내용을 녹음하여 녹음테이프를 검사에게 증거로 제출하였다. 이에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "ㄱ, ㄴ, ㄷ, ㄹ",
+      "needs_atomization": true
+    },
+    {
+      "id": 301203,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 12,
+      "choice": "ㄷ",
+      "topic": "살인",
+      "q": "丙이 증거로 제출한 녹음테이프에 대해서는 丙이 공판정에서 성립의 진정을 인정하더라도 증거능력이 인정되지 않는다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 12번 ㄷ"
+      ],
+      "refs": [
+        "변시3 12번 ㄷ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 12번 ㄷ 지문은 정답표상 O입니다.",
+      "ref": "형법 제250조",
+      "art": "제250조",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "甲은 A의 재물을 강취한 후 A를 살해할 목적으로 A가 살고 있는 집에 방화하여 A는 사망하였다. 그 후 수사망을 피해 도피 중이던 甲은 자신의 누나 丁에게 도피자금을 부탁하였고, 丁은 甲에게 도피자금을 송금하였다. 한편 사법경찰관 丙은 丁의 동의를 얻은 후 강도살인과 방화와 관련된 甲과 丁 사이의 통화내용을 녹음하여 녹음테이프를 검사에게 증거로 제출하였다. 이에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "ㄱ, ㄴ, ㄷ, ㄹ",
+      "needs_atomization": true
+    },
+    {
+      "id": 301204,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 12,
+      "choice": "ㄹ",
+      "topic": "살인",
+      "q": "甲의 재판에 증인으로 출석한 丁은 증언거부권을 행사할 수 있다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 12번 ㄹ"
+      ],
+      "refs": [
+        "변시3 12번 ㄹ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 12번 ㄹ 지문은 정답표상 O입니다.",
+      "ref": "형법 제250조",
+      "art": "제250조",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "甲은 A의 재물을 강취한 후 A를 살해할 목적으로 A가 살고 있는 집에 방화하여 A는 사망하였다. 그 후 수사망을 피해 도피 중이던 甲은 자신의 누나 丁에게 도피자금을 부탁하였고, 丁은 甲에게 도피자금을 송금하였다. 한편 사법경찰관 丙은 丁의 동의를 얻은 후 강도살인과 방화와 관련된 甲과 丁 사이의 통화내용을 녹음하여 녹음테이프를 검사에게 증거로 제출하였다. 이에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "ㄱ, ㄴ, ㄷ, ㄹ",
+      "needs_atomization": true
+    },
+    {
+      "id": 301301,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 13,
+      "choice": "①",
+      "topic": "구성요건",
+      "q": "계속범의 경우 실행행위가 종료되는 시점의 법률이 적용되어야 하므로, 법률이 개정되면서 그 부칙에 ‘개정된 법 시행 전의 행위에 대한 벌칙의 적용에 있어서는 종전의 규정에 의한다’는 경과규정을 두고 있는 경우에도 행위 전체에 대해 개정된 법을 적용하여야 한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 13번 ①"
+      ],
+      "refs": [
+        "변시3 13번 ①"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 13번 ① 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "계속범에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "계속범의 경우 실행행위가 종료되는 시점의 법률이 적용되어야 하므로, 법률이 개정되면서 그 부칙에 ‘개정된 법 시행 전의 행위에 대한 벌칙의 적용에 있어서는 종전의 규정에 의한다’는 경과규정을 두고 있는 경우에도 행위 전체에 대해 개정된 법을 적용하여야 한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301302,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 13,
+      "choice": "②",
+      "topic": "구성요건",
+      "q": "내란죄는 국토를 참절하거나 국헌을 문란할 목적으로 폭동한 행위로서, 다수인이 결합하여 위와 같은 목적으로 한 지방의 평온을 해할 정도의 폭행·협박 행위를 하면 기수가 되고, 그 목적의 달성 여부는 이와 무관한 것으로 해석되므로, 다수인이 한 지방의 평온을 해할 정도의 폭동을 하였을 때 이미 내란의 구성요건은 완전히 충족된다고 할 것이어서 계속범이 아니라 상태범에 해당한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 13번 ②"
+      ],
+      "refs": [
+        "변시3 13번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 13번 ② 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "계속범에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "계속범의 경우 실행행위가 종료되는 시점의 법률이 적용되어야 하므로, 법률이 개정되면서 그 부칙에 ‘개정된 법 시행 전의 행위에 대한 벌칙의 적용에 있어서는 종전의 규정에 의한다’는 경과규정을 두고 있는 경우에도 행위 전체에 대해 개정된 법을 적용하여야 한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301303,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 13,
+      "choice": "③",
+      "topic": "구성요건",
+      "q": "부설주차장을 주차장 외의 용도로 사용하여 주차장법을 위반한 죄는 계속범이므로, 종전에 용도 외 사용행위에 대하여 처벌받은 일이 있다고 하더라도, 그 후에도 계속하여 용도 외로 사용하고 있는 이상 종전 재판 후의 사용에 대하여 다시 처벌할 수 있다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 13번 ③"
+      ],
+      "refs": [
+        "변시3 13번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 13번 ③ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "계속범에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "계속범의 경우 실행행위가 종료되는 시점의 법률이 적용되어야 하므로, 법률이 개정되면서 그 부칙에 ‘개정된 법 시행 전의 행위에 대한 벌칙의 적용에 있어서는 종전의 규정에 의한다’는 경과규정을 두고 있는 경우에도 행위 전체에 대해 개정된 법을 적용하여야 한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301304,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 13,
+      "choice": "④",
+      "topic": "구성요건",
+      "q": "공익법인이 주무관청의 승인을 받지 않은 채 수익사업을 하는 행위는 시간적 계속성이 구성요건적 행위의 요소로 되어 있다는 점에서 계속범에 해당한다고 보아야 할 것이므로, 승인을 받지 않은 수익사업이 계속되고 있는 동안에는 아직 공소시효가 진행하지 않는다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 13번 ④"
+      ],
+      "refs": [
+        "변시3 13번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 13번 ④ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "계속범에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "계속범의 경우 실행행위가 종료되는 시점의 법률이 적용되어야 하므로, 법률이 개정되면서 그 부칙에 ‘개정된 법 시행 전의 행위에 대한 벌칙의 적용에 있어서는 종전의 규정에 의한다’는 경과규정을 두고 있는 경우에도 행위 전체에 대해 개정된 법을 적용하여야 한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301305,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 13,
+      "choice": "⑤",
+      "topic": "구성요건",
+      "q": "허가받지 아니한 업체와 건설폐기물의 처리를 위한 도급계약을 체결한 자가 무허가 건설폐기물 처리업체에 위탁하여 건설폐기물을 처리하는 행위를 처벌하는 법률이 신설된 후에도 그 도급계약에 따른 건설폐기물의 처리행위를 계속하였다면, 처벌규정 신설 후에 이루어진 무허가 처리업체에 의한 건설폐기물의 위탁처리에 대하여 위 법률 조항이 적용된다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 13번 ⑤"
+      ],
+      "refs": [
+        "변시3 13번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 13번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "계속범에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "계속범의 경우 실행행위가 종료되는 시점의 법률이 적용되어야 하므로, 법률이 개정되면서 그 부칙에 ‘개정된 법 시행 전의 행위에 대한 벌칙의 적용에 있어서는 종전의 규정에 의한다’는 경과규정을 두고 있는 경우에도 행위 전체에 대해 개정된 법을 적용하여야 한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301401,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 14,
+      "choice": "①",
+      "topic": "미수",
+      "q": "예비죄에 대해서는 공동정범만 인정될 수 있고 방조범은 성립될 수 없다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 14번 ①"
+      ],
+      "refs": [
+        "변시3 14번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 14번 ① 지문은 정답표상 O입니다.",
+      "ref": "형법 제25조",
+      "art": "제25조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "예비와 미수에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "예비죄에 대해서는 공동정범만 인정될 수 있고 방조범은 성립될 수 없다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301402,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 14,
+      "choice": "②",
+      "topic": "미수",
+      "q": "예비와 미수는 각각 형법각칙에 처벌규정이 있는 경우에만 처벌할 수 있지만, 구체적인 법정형까지 규정될 필요는 없다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 14번 ②"
+      ],
+      "refs": [
+        "변시3 14번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 14번 ② 지문은 정답표상 X입니다.",
+      "ref": "형법 제25조",
+      "art": "제25조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "예비와 미수에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "예비죄에 대해서는 공동정범만 인정될 수 있고 방조범은 성립될 수 없다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301403,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 14,
+      "choice": "③",
+      "topic": "미수",
+      "q": "일반적으로 공범이 자신의 행위를 중지한 것만으로는 중지미수가 성립하지 않지만, 다른 공범 또는 정범의 행위를 중단시키기 위하거나 결과 발생을 저지하기 위한 진지한 노력이 있었을 경우에는 비록 결과가 발생하였다고 할지라도 그 공범에게는 예외적으로 중지미수가 성립될 수 있다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 14번 ③"
+      ],
+      "refs": [
+        "변시3 14번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 14번 ③ 지문은 정답표상 X입니다.",
+      "ref": "형법 제25조",
+      "art": "제25조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "예비와 미수에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "예비죄에 대해서는 공동정범만 인정될 수 있고 방조범은 성립될 수 없다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301404,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 14,
+      "choice": "④",
+      "topic": "미수",
+      "q": "불능미수는 행위자가 결과발생이 불가능하다는 것을 알면서 실행에 착수하여 결과는 발생하지 않았지만 위험성이 있는 경우에 성립한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 14번 ④"
+      ],
+      "refs": [
+        "변시3 14번 ④"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 14번 ④ 지문은 정답표상 X입니다.",
+      "ref": "형법 제25조",
+      "art": "제25조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "예비와 미수에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "예비죄에 대해서는 공동정범만 인정될 수 있고 방조범은 성립될 수 없다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301405,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 14,
+      "choice": "⑤",
+      "topic": "미수",
+      "q": "피고인이 신고하지 않은 외화 400만 엔이 들어 있는 휴대용 가방을 보안검색대에 올려놓거나 이를 휴대하고 통과하지 않더라도 공항 내에서 탑승을 기다리고 있던 중에 체포된 경우라면 이미 외국환거래법이 규정한 국외반출죄의 실행의 착수는 인정된다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 14번 ⑤"
+      ],
+      "refs": [
+        "변시3 14번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 14번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "형법 제25조",
+      "art": "제25조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "예비와 미수에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "예비죄에 대해서는 공동정범만 인정될 수 있고 방조범은 성립될 수 없다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301501,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 15,
+      "choice": "①",
+      "topic": "위법성",
+      "q": "인근 상가의 통행로로 이용되고 있는 토지의 사실상 지배권자가 위 토지에 철주와 철망을 설치하고 포장된 아스팔트를 걷어냄으로써 통행로로 이용하지 못하게 한 경우 자구행위에 해당하지 않는다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 15번 ①"
+      ],
+      "refs": [
+        "변시3 15번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 15번 ① 지문은 정답표상 O입니다.",
+      "ref": "형법 제20조",
+      "art": "제20조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "위법성조각사유에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲이 자신의 부(父) 乙에게서 乙 소유의 부동산 매매에 관한 권한 일체를 위임받아 이를 매도하였는데, 그 후 乙이 갑자기 사망하자 소유권 이전에 사용할 목적으로 乙이 甲에게 인감증명서 발급을 위임한다는 취지의 인감증명 위임장을 작성한 경우 乙의 추정적 승낙이 인정되므로 사문서위조죄가 성립하지 않는다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301502,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 15,
+      "choice": "②",
+      "topic": "위법성",
+      "q": "甲이 자신의 부(父) 乙에게서 乙 소유의 부동산 매매에 관한 권한 일체를 위임받아 이를 매도하였는데, 그 후 乙이 갑자기 사망하자 소유권 이전에 사용할 목적으로 乙이 甲에게 인감증명서 발급을 위임한다는 취지의 인감증명 위임장을 작성한 경우 乙의 추정적 승낙이 인정되므로 사문서위조죄가 성립하지 않는다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 15번 ②"
+      ],
+      "refs": [
+        "변시3 15번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 15번 ② 지문은 정답표상 X입니다.",
+      "ref": "형법 제20조",
+      "art": "제20조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "위법성조각사유에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲이 자신의 부(父) 乙에게서 乙 소유의 부동산 매매에 관한 권한 일체를 위임받아 이를 매도하였는데, 그 후 乙이 갑자기 사망하자 소유권 이전에 사용할 목적으로 乙이 甲에게 인감증명서 발급을 위임한다는 취지의 인감증명 위임장을 작성한 경우 乙의 추정적 승낙이 인정되므로 사문서위조죄가 성립하지 않는다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 301503,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 15,
+      "choice": "③",
+      "topic": "위법성",
+      "q": "자신의 남편과 甲이 불륜을 저지른 것으로 의심한 乙이 이를 따지기 위해 乙의 아들 등과 함께 甲의 집 안으로 들어와 서로 합세하여 甲을 구타하자, 그로부터 벗어나기 위해 손을 휘저으며 발버둥치는 과정에서 乙에게 상해를 가한 甲의 행위는 위법성이 조각된다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 15번 ③"
+      ],
+      "refs": [
+        "변시3 15번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 15번 ③ 지문은 정답표상 O입니다.",
+      "ref": "형법 제20조",
+      "art": "제20조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "위법성조각사유에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲이 자신의 부(父) 乙에게서 乙 소유의 부동산 매매에 관한 권한 일체를 위임받아 이를 매도하였는데, 그 후 乙이 갑자기 사망하자 소유권 이전에 사용할 목적으로 乙이 甲에게 인감증명서 발급을 위임한다는 취지의 인감증명 위임장을 작성한 경우 乙의 추정적 승낙이 인정되므로 사문서위조죄가 성립하지 않는다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 301504,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 15,
+      "choice": "④",
+      "topic": "위법성",
+      "q": "가해자의 행위가 피해자의 부당한 공격을 방위하기 위한 것이라기보다는 서로 공격할 의사로 싸우다가 먼저 공격을 받고 이에 대항하여 가해하게 된 경우, 그 가해행위는 방어행위인 동시에 공격행위의 성격을 가지므로 정당방위라고 볼 수 없다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 15번 ④"
+      ],
+      "refs": [
+        "변시3 15번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 15번 ④ 지문은 정답표상 O입니다.",
+      "ref": "형법 제20조",
+      "art": "제20조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "위법성조각사유에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲이 자신의 부(父) 乙에게서 乙 소유의 부동산 매매에 관한 권한 일체를 위임받아 이를 매도하였는데, 그 후 乙이 갑자기 사망하자 소유권 이전에 사용할 목적으로 乙이 甲에게 인감증명서 발급을 위임한다는 취지의 인감증명 위임장을 작성한 경우 乙의 추정적 승낙이 인정되므로 사문서위조죄가 성립하지 않는다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301505,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 15,
+      "choice": "⑤",
+      "topic": "위법성",
+      "q": "선박의 이동에도 새로운 공유수면점용허가가 있어야 하고 휴지선을 이동하는 데는 예인선이 따로 필요한 관계로 비용이 많이 들어 다른 해상으로 이동을 하지 못하고 있는 사이에 태풍을 만나게 되고, 그와 같은 위급한 상황에서 선박과 선원들의 안전을 위한 조치를 취한 결과 인근 양식장에 피해를 준 경우 긴급피난에 해당한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 15번 ⑤"
+      ],
+      "refs": [
+        "변시3 15번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 15번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "형법 제20조",
+      "art": "제20조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "위법성조각사유에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲이 자신의 부(父) 乙에게서 乙 소유의 부동산 매매에 관한 권한 일체를 위임받아 이를 매도하였는데, 그 후 乙이 갑자기 사망하자 소유권 이전에 사용할 목적으로 乙이 甲에게 인감증명서 발급을 위임한다는 취지의 인감증명 위임장을 작성한 경우 乙의 추정적 승낙이 인정되므로 사문서위조죄가 성립하지 않는다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301601,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 16,
+      "choice": "①",
+      "topic": "횡령",
+      "q": "조합장이 조합으로부터 공무원에게 뇌물로 전달하여 달라고 금원을 교부 받고도, 이를 뇌물로 전달하지 않고 개인적으로 소비한 경우에 횡령죄가 성립한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 16번 ①"
+      ],
+      "refs": [
+        "변시3 16번 ①"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 16번 ① 지문은 정답표상 X입니다.",
+      "ref": "형법 제355조",
+      "art": "제355조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "횡령죄에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "임차토지에 동업계약에 기해 식재되어 있는 수목을 관리·보관하던 동업자 일방이 다른 동업자의 허락을 받지 않고 함부로 제3자에게 수목을 매도하기로 계약을 체결한 후 계약금을 수령·소비하였으나, 다른 동업자의 저지로 계약의 추가적인 이행이 진행되지 아니한 경우 횡령죄 미수가 성립한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301602,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 16,
+      "choice": "②",
+      "topic": "횡령",
+      "q": "타인이 착오로 피고인 명의의 홍콩H은행 계좌로 잘못 송금한 300만 홍콩달러를 피고인이 임의로 인출하여 사용하였더라도, 피고인과 송금인 사이에 별다른 거래관계가 없는 경우에는 횡령죄가 성립하지 않는다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 16번 ②"
+      ],
+      "refs": [
+        "변시3 16번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 16번 ② 지문은 정답표상 X입니다.",
+      "ref": "형법 제355조",
+      "art": "제355조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "횡령죄에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "임차토지에 동업계약에 기해 식재되어 있는 수목을 관리·보관하던 동업자 일방이 다른 동업자의 허락을 받지 않고 함부로 제3자에게 수목을 매도하기로 계약을 체결한 후 계약금을 수령·소비하였으나, 다른 동업자의 저지로 계약의 추가적인 이행이 진행되지 아니한 경우 횡령죄 미수가 성립한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301603,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 16,
+      "choice": "③",
+      "topic": "횡령",
+      "q": "지명채권의 양도인이 채무자에 대한 양도의 통지 전에 채무자로부터 채권을 추심하여 금전을 수령한 경우 그 금전은 양도인의 소유에 속하므로 이를 양도인이 임의로 소비하더라도 횡령죄가 성립하지 않는다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 16번 ③"
+      ],
+      "refs": [
+        "변시3 16번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 16번 ③ 지문은 정답표상 X입니다.",
+      "ref": "형법 제355조",
+      "art": "제355조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "횡령죄에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "임차토지에 동업계약에 기해 식재되어 있는 수목을 관리·보관하던 동업자 일방이 다른 동업자의 허락을 받지 않고 함부로 제3자에게 수목을 매도하기로 계약을 체결한 후 계약금을 수령·소비하였으나, 다른 동업자의 저지로 계약의 추가적인 이행이 진행되지 아니한 경우 횡령죄 미수가 성립한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301604,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 16,
+      "choice": "④",
+      "topic": "횡령",
+      "q": "임차토지에 동업계약에 기해 식재되어 있는 수목을 관리·보관하던 동업자 일방이 다른 동업자의 허락을 받지 않고 함부로 제3자에게 수목을 매도하기로 계약을 체결한 후 계약금을 수령·소비하였으나, 다른 동업자의 저지로 계약의 추가적인 이행이 진행되지 아니한 경우 횡령죄 미수가 성립한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 16번 ④"
+      ],
+      "refs": [
+        "변시3 16번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 16번 ④ 지문은 정답표상 O입니다.",
+      "ref": "형법 제355조",
+      "art": "제355조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "횡령죄에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "임차토지에 동업계약에 기해 식재되어 있는 수목을 관리·보관하던 동업자 일방이 다른 동업자의 허락을 받지 않고 함부로 제3자에게 수목을 매도하기로 계약을 체결한 후 계약금을 수령·소비하였으나, 다른 동업자의 저지로 계약의 추가적인 이행이 진행되지 아니한 경우 횡령죄 미수가 성립한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301605,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 16,
+      "choice": "⑤",
+      "topic": "횡령",
+      "q": "주주나 대표이사 또는 그에 준하여 회사 자금의 보관이나 운용에 관한 사실상의 사무를 처리하는 자가 회사 소유의 재산을 제3자의 자금 조달을 위하여 담보로 제공하는 등 사적인 용도로 임의 처분하였더라도, 그 처분에 관하여 주주총회나 이사회의 결의가 있었던 경우에는 횡령죄가 성립하지 않는다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 16번 ⑤"
+      ],
+      "refs": [
+        "변시3 16번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 16번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "형법 제355조",
+      "art": "제355조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "횡령죄에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "임차토지에 동업계약에 기해 식재되어 있는 수목을 관리·보관하던 동업자 일방이 다른 동업자의 허락을 받지 않고 함부로 제3자에게 수목을 매도하기로 계약을 체결한 후 계약금을 수령·소비하였으나, 다른 동업자의 저지로 계약의 추가적인 이행이 진행되지 아니한 경우 횡령죄 미수가 성립한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 301703,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 17,
+      "choice": "다",
+      "topic": "구성요건",
+      "q": "가벌성의 근거를 책임능력 결함상태에서의 실행행위에서 찾는 견해 <보기2> A. 책임능력 결함상태에서 구성요건 해당행위를 시작한 때에 실행의 착수가 있는 것으로 본다. B. 일종의 ‘반무의식상태’에서 실행행위가 이루어지는 한 그 주관적 요소를 인정할 수 있다. C. 원인에 있어서 자유로운 행위를 자신을 책임능력 없는 도구로 이용하는 간접정범으로 이해한다. <보기3> a. 행위와 책임의 동시존재 원칙의 예외를 인정하는 결과가 되어 책임주의에 반할 위험이 있다. b. 실행의 착수에 구성요건적 행위정형성이 결여되어 죄형법정주의에 반할 위험이 있다. c. 대부분의 경우에 행위자의 책임능력이 인정되어 법적 안정성을 해하는 결과를 초래한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 17번 다"
+      ],
+      "refs": [
+        "변시3 17번 다"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 17번 다 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "원인에 있어서 자유로운 행위의 가벌성 근거에 관한 견해 <보기1>과 그 내용 <보기2> 및 이에 대한 비판 <보기3>이 바르게 연결된 것은?",
+      "original_answer": "4",
+      "answer_choice": "가-C-b, 나-A-a, 다-B-c",
+      "needs_atomization": true
+    },
+    {
+      "id": 301801,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 18,
+      "choice": "①",
+      "topic": "구성요건",
+      "q": "甲이 지하철에서 옆 사람이 손잡이를 잡기 위해 팔을 올리는 것을 성추행하는 것으로 경솔하게 오인하여 그 손을 쳐서 전치 4주의 상해를 입힌 경우, 甲의 착오에 대한 엄격책임설과 제한적 책임설의 결론은 동일하다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 18번 ①"
+      ],
+      "refs": [
+        "변시3 18번 ①"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 18번 ① 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "착오에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "변호사 자격을 가진 국회의원 甲이 선거에 영향을 미칠 수 있는 내용이 포함된 의정보고서를 발간하는 과정에서 보좌관을 통해 관할 선거관리위원회 직원에게 구두로 문의하여 답변을 받은 결과 그 의정보고서를 발간하는 것이 선거법규에 저촉되지 않는다고 오인한 경우, 형법 제16조의 정당한 이유가 인정되지 않는다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 301802,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 18,
+      "choice": "②",
+      "topic": "구성요건",
+      "q": "변호사 자격을 가진 국회의원 甲이 선거에 영향을 미칠 수 있는 내용이 포함된 의정보고서를 발간하는 과정에서 보좌관을 통해 관할 선거관리위원회 직원에게 구두로 문의하여 답변을 받은 결과 그 의정보고서를 발간하는 것이 선거법규에 저촉되지 않는다고 오인한 경우, 형법 제16조의 정당한 이유가 인정되지 않는다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 18번 ②"
+      ],
+      "refs": [
+        "변시3 18번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 18번 ② 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "착오에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "변호사 자격을 가진 국회의원 甲이 선거에 영향을 미칠 수 있는 내용이 포함된 의정보고서를 발간하는 과정에서 보좌관을 통해 관할 선거관리위원회 직원에게 구두로 문의하여 답변을 받은 결과 그 의정보고서를 발간하는 것이 선거법규에 저촉되지 않는다고 오인한 경우, 형법 제16조의 정당한 이유가 인정되지 않는다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 301803,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 18,
+      "choice": "③",
+      "topic": "구성요건",
+      "q": "사인인 甲이 현행범인을 체포하면서 그 범인을 자기 집 안에 감금까지 할 수 있다고 생각하고 감금한 경우, 소극적 구성요건요소이론에 따르면 甲의 착오는 법률의 착오에 해당한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 18번 ③"
+      ],
+      "refs": [
+        "변시3 18번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 18번 ③ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "착오에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "변호사 자격을 가진 국회의원 甲이 선거에 영향을 미칠 수 있는 내용이 포함된 의정보고서를 발간하는 과정에서 보좌관을 통해 관할 선거관리위원회 직원에게 구두로 문의하여 답변을 받은 결과 그 의정보고서를 발간하는 것이 선거법규에 저촉되지 않는다고 오인한 경우, 형법 제16조의 정당한 이유가 인정되지 않는다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 301804,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 18,
+      "choice": "④",
+      "topic": "구성요건",
+      "q": "甲이 자신의 아들이 물에 빠졌는데도 그를 타인의 아들이라고 잘못 생각하여 구조행위를 하지 않아 사망하게 한 경우, 이분설에 따르면 甲의 착오는 형법 제16조의 법률의 착오에 해당한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 18번 ④"
+      ],
+      "refs": [
+        "변시3 18번 ④"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 18번 ④ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "착오에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "변호사 자격을 가진 국회의원 甲이 선거에 영향을 미칠 수 있는 내용이 포함된 의정보고서를 발간하는 과정에서 보좌관을 통해 관할 선거관리위원회 직원에게 구두로 문의하여 답변을 받은 결과 그 의정보고서를 발간하는 것이 선거법규에 저촉되지 않는다고 오인한 경우, 형법 제16조의 정당한 이유가 인정되지 않는다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 301805,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 18,
+      "choice": "⑤",
+      "topic": "구성요건",
+      "q": "甲이 마당에 있는 乙의 도자기를 손괴하려고 돌을 던졌으나 빗나가 옆에 있던 乙에게 상해를 입힌 경우, 법정적 부합설에 따르면 甲은 상해죄로 처벌된다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 18번 ⑤"
+      ],
+      "refs": [
+        "변시3 18번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 18번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "착오에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "변호사 자격을 가진 국회의원 甲이 선거에 영향을 미칠 수 있는 내용이 포함된 의정보고서를 발간하는 과정에서 보좌관을 통해 관할 선거관리위원회 직원에게 구두로 문의하여 답변을 받은 결과 그 의정보고서를 발간하는 것이 선거법규에 저촉되지 않는다고 오인한 경우, 형법 제16조의 정당한 이유가 인정되지 않는다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 301901,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 19,
+      "choice": "ㄱ",
+      "topic": "죄수",
+      "q": "저작재산권 침해행위는 각각의 저작물에 대한 침해행위가 있더라도 저작권자가 같다면 별개의 죄를 구성하지 않는다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 19번 ㄱ"
+      ],
+      "refs": [
+        "변시3 19번 ㄱ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 19번 ㄱ 지문은 정답표상 X입니다.",
+      "ref": "형법 제37조",
+      "art": "제37조",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "original_question": "인터넷 파일공유 사이트를 운영하는 甲은 사이트를 통해 저작재산권 대상인 디지털 콘텐츠가 불법 유통되고 있음을 알면서도 저작재산권의 침해를 방지할 조치를 취하지 않고 회원들로 하여금 불법 디지털 콘텐츠를 업로드하게 한 후 이를 다운로드하게 하면서 일부 이익을 취득하였다. 甲의 죄책과 관련된 죄수 설명 중 옳지 않은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "ㄱ, ㄴ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 301902,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 19,
+      "choice": "ㄴ",
+      "topic": "죄수",
+      "q": "동일 죄명에 해당하는 수개의 행위 또는 연속된 행위는 범의가 단일하지 않아도 포괄일죄로 처단된다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 19번 ㄴ"
+      ],
+      "refs": [
+        "변시3 19번 ㄴ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 19번 ㄴ 지문은 정답표상 X입니다.",
+      "ref": "형법 제37조",
+      "art": "제37조",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "original_question": "인터넷 파일공유 사이트를 운영하는 甲은 사이트를 통해 저작재산권 대상인 디지털 콘텐츠가 불법 유통되고 있음을 알면서도 저작재산권의 침해를 방지할 조치를 취하지 않고 회원들로 하여금 불법 디지털 콘텐츠를 업로드하게 한 후 이를 다운로드하게 하면서 일부 이익을 취득하였다. 甲의 죄책과 관련된 죄수 설명 중 옳지 않은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "ㄱ, ㄴ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 301903,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 19,
+      "choice": "ㄷ",
+      "topic": "죄수",
+      "q": "상습범을 별도로 처벌하는 규정이 없다면 수회에 걸쳐 죄를 범한 것이 상습성의 발현에 따른 것이라도 원칙적으로 경합범으로 보아야 한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 19번 ㄷ"
+      ],
+      "refs": [
+        "변시3 19번 ㄷ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 19번 ㄷ 지문은 정답표상 O입니다.",
+      "ref": "형법 제37조",
+      "art": "제37조",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "original_question": "인터넷 파일공유 사이트를 운영하는 甲은 사이트를 통해 저작재산권 대상인 디지털 콘텐츠가 불법 유통되고 있음을 알면서도 저작재산권의 침해를 방지할 조치를 취하지 않고 회원들로 하여금 불법 디지털 콘텐츠를 업로드하게 한 후 이를 다운로드하게 하면서 일부 이익을 취득하였다. 甲의 죄책과 관련된 죄수 설명 중 옳지 않은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "ㄱ, ㄴ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 301904,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 19,
+      "choice": "ㄹ",
+      "topic": "죄수",
+      "q": "상습성을 이유로 포괄일죄가 되는 범행의 중간에 동종의 상습범에 대한 확정판결이 있을 때에도 포괄일죄는 확정판결 전후의 죄로 분리되지 않는다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 19번 ㄹ"
+      ],
+      "refs": [
+        "변시3 19번 ㄹ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 19번 ㄹ 지문은 정답표상 X입니다.",
+      "ref": "형법 제37조",
+      "art": "제37조",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "original_question": "인터넷 파일공유 사이트를 운영하는 甲은 사이트를 통해 저작재산권 대상인 디지털 콘텐츠가 불법 유통되고 있음을 알면서도 저작재산권의 침해를 방지할 조치를 취하지 않고 회원들로 하여금 불법 디지털 콘텐츠를 업로드하게 한 후 이를 다운로드하게 하면서 일부 이익을 취득하였다. 甲의 죄책과 관련된 죄수 설명 중 옳지 않은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "ㄱ, ㄴ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 302001,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 20,
+      "choice": "①",
+      "topic": "폭행",
+      "q": "乙과 丙은 2인 이상이 합동하여 범행한 경우로서 특수강도죄의 죄책을 진다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 20번 ①"
+      ],
+      "refs": [
+        "변시3 20번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 20번 ① 지문은 정답표상 O입니다.",
+      "ref": "형법 제250조",
+      "art": "제250조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 乙, 丙과 함께 지나가는 행인을 대상으로 강도를 하기로 모의한 뒤(甲은 모의과정에서 모의를 주도하였다), 함께 범행 대상을 물색하다가 乙, 丙이 행인 A를 강도 대상으로 지목하고 뒤쫓아 가자 甲은 단지 “어?”라고만 하고 비대한 체격 때문에 뒤따라가지 못한 채 범행현장에서 200m 정도 떨어진 곳에 앉아 있었다. 乙, 丙은 A를 쫓아가 A를 폭행하고 지갑과 현금 30만 원을 빼앗았다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "만일 甲이 먼저 붙잡혀 공판과정에서 일관되게 범행을 부인하였지만 유죄판결이 확정되고, 그 후 별건으로 기소된 乙, 丙의 형사사건에서 자신의 범행을 부인하는 증언을 하였더라도 사실대로 진술할 기대가능성이 없어 위증죄는 성립하지 않는다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302002,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 20,
+      "choice": "②",
+      "topic": "폭행",
+      "q": "甲은 강도죄의 공모관계에서 이탈하였다고 볼 수 없으므로 특수강도죄의 공동정범의 죄책을 진다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 20번 ②"
+      ],
+      "refs": [
+        "변시3 20번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 20번 ② 지문은 정답표상 O입니다.",
+      "ref": "형법 제250조",
+      "art": "제250조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 乙, 丙과 함께 지나가는 행인을 대상으로 강도를 하기로 모의한 뒤(甲은 모의과정에서 모의를 주도하였다), 함께 범행 대상을 물색하다가 乙, 丙이 행인 A를 강도 대상으로 지목하고 뒤쫓아 가자 甲은 단지 “어?”라고만 하고 비대한 체격 때문에 뒤따라가지 못한 채 범행현장에서 200m 정도 떨어진 곳에 앉아 있었다. 乙, 丙은 A를 쫓아가 A를 폭행하고 지갑과 현금 30만 원을 빼앗았다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "만일 甲이 먼저 붙잡혀 공판과정에서 일관되게 범행을 부인하였지만 유죄판결이 확정되고, 그 후 별건으로 기소된 乙, 丙의 형사사건에서 자신의 범행을 부인하는 증언을 하였더라도 사실대로 진술할 기대가능성이 없어 위증죄는 성립하지 않는다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302003,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 20,
+      "choice": "③",
+      "topic": "폭행",
+      "q": "만일 甲, 乙, 丙이 위의 범죄사실로 기소되었을 경우, 甲에 대한 변론을 분리한 후라면 甲을 乙, 丙 사건에 대한 증인으로 신문할 수 있다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 20번 ③"
+      ],
+      "refs": [
+        "변시3 20번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 20번 ③ 지문은 정답표상 O입니다.",
+      "ref": "형법 제250조",
+      "art": "제250조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 乙, 丙과 함께 지나가는 행인을 대상으로 강도를 하기로 모의한 뒤(甲은 모의과정에서 모의를 주도하였다), 함께 범행 대상을 물색하다가 乙, 丙이 행인 A를 강도 대상으로 지목하고 뒤쫓아 가자 甲은 단지 “어?”라고만 하고 비대한 체격 때문에 뒤따라가지 못한 채 범행현장에서 200m 정도 떨어진 곳에 앉아 있었다. 乙, 丙은 A를 쫓아가 A를 폭행하고 지갑과 현금 30만 원을 빼앗았다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "만일 甲이 먼저 붙잡혀 공판과정에서 일관되게 범행을 부인하였지만 유죄판결이 확정되고, 그 후 별건으로 기소된 乙, 丙의 형사사건에서 자신의 범행을 부인하는 증언을 하였더라도 사실대로 진술할 기대가능성이 없어 위증죄는 성립하지 않는다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302004,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 20,
+      "choice": "④",
+      "topic": "폭행",
+      "q": "만일 乙, 丙이 강취과정에서 A를 고의로 살해하였더라도 甲이 이를 예견할 수 없었다면, 甲은 강도치사죄의 죄책을 지지 않는다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 20번 ④"
+      ],
+      "refs": [
+        "변시3 20번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 20번 ④ 지문은 정답표상 O입니다.",
+      "ref": "형법 제250조",
+      "art": "제250조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 乙, 丙과 함께 지나가는 행인을 대상으로 강도를 하기로 모의한 뒤(甲은 모의과정에서 모의를 주도하였다), 함께 범행 대상을 물색하다가 乙, 丙이 행인 A를 강도 대상으로 지목하고 뒤쫓아 가자 甲은 단지 “어?”라고만 하고 비대한 체격 때문에 뒤따라가지 못한 채 범행현장에서 200m 정도 떨어진 곳에 앉아 있었다. 乙, 丙은 A를 쫓아가 A를 폭행하고 지갑과 현금 30만 원을 빼앗았다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "만일 甲이 먼저 붙잡혀 공판과정에서 일관되게 범행을 부인하였지만 유죄판결이 확정되고, 그 후 별건으로 기소된 乙, 丙의 형사사건에서 자신의 범행을 부인하는 증언을 하였더라도 사실대로 진술할 기대가능성이 없어 위증죄는 성립하지 않는다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302005,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 20,
+      "choice": "⑤",
+      "topic": "폭행",
+      "q": "만일 甲이 먼저 붙잡혀 공판과정에서 일관되게 범행을 부인하였지만 유죄판결이 확정되고, 그 후 별건으로 기소된 乙, 丙의 형사사건에서 자신의 범행을 부인하는 증언을 하였더라도 사실대로 진술할 기대가능성이 없어 위증죄는 성립하지 않는다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 20번 ⑤"
+      ],
+      "refs": [
+        "변시3 20번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 20번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "형법 제250조",
+      "art": "제250조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 乙, 丙과 함께 지나가는 행인을 대상으로 강도를 하기로 모의한 뒤(甲은 모의과정에서 모의를 주도하였다), 함께 범행 대상을 물색하다가 乙, 丙이 행인 A를 강도 대상으로 지목하고 뒤쫓아 가자 甲은 단지 “어?”라고만 하고 비대한 체격 때문에 뒤따라가지 못한 채 범행현장에서 200m 정도 떨어진 곳에 앉아 있었다. 乙, 丙은 A를 쫓아가 A를 폭행하고 지갑과 현금 30만 원을 빼앗았다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "만일 甲이 먼저 붙잡혀 공판과정에서 일관되게 범행을 부인하였지만 유죄판결이 확정되고, 그 후 별건으로 기소된 乙, 丙의 형사사건에서 자신의 범행을 부인하는 증언을 하였더라도 사실대로 진술할 기대가능성이 없어 위증죄는 성립하지 않는다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302101,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 21,
+      "choice": "①",
+      "topic": "감금",
+      "q": "음란물유포 혐의로 발부받은 압수·수색영장에 의하여 압수·수색을 할 때에는 A에게 영장을 제시하여야 한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 21번 ①"
+      ],
+      "refs": [
+        "변시3 21번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 21번 ① 지문은 정답표상 O입니다.",
+      "ref": "형사소송법 제195조",
+      "art": "제195조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "사법경찰관 甲은 검사의 지휘를 받아 정보통신망이용촉진및정보보호등에관한법률위반(음란물유포)의 범죄 혐의를 이유로 발부받은 압수·수색영장에 기하여 피의자 A의 주거지를 수색하는 과정에서 대마가 발견되자, A를 체포하지 않으면 도망하거나 증거를 인멸할 염려가 있어 A를 대마소지로 인한 마약류관리에관한법률위반(대마)죄의 현행범인으로 체포하면서 이 대마를 압수하였다. 그러나 다음 날 甲은 체포된 A에 대하여 검사에게 구속영장을 신청하지 않고 A를 석방하였고, 대마의 압수에 대하여는 사후 압수·수색영장을 받지 아니하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "압수한 대마와 그 압수조서의 기재는 위법하게 수집한 증거가 아니므로 대마소지의 점에 관하여 증거로 할 수 있다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302102,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 21,
+      "choice": "②",
+      "topic": "감금",
+      "q": "A를 체포하는 과정에 甲은 피의사실의 요지와 체포의 이유, 그리고 변호인을 선임할 수 있음을 말하고 변명할 기회를 주어야 한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 21번 ②"
+      ],
+      "refs": [
+        "변시3 21번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 21번 ② 지문은 정답표상 O입니다.",
+      "ref": "형사소송법 제195조",
+      "art": "제195조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "사법경찰관 甲은 검사의 지휘를 받아 정보통신망이용촉진및정보보호등에관한법률위반(음란물유포)의 범죄 혐의를 이유로 발부받은 압수·수색영장에 기하여 피의자 A의 주거지를 수색하는 과정에서 대마가 발견되자, A를 체포하지 않으면 도망하거나 증거를 인멸할 염려가 있어 A를 대마소지로 인한 마약류관리에관한법률위반(대마)죄의 현행범인으로 체포하면서 이 대마를 압수하였다. 그러나 다음 날 甲은 체포된 A에 대하여 검사에게 구속영장을 신청하지 않고 A를 석방하였고, 대마의 압수에 대하여는 사후 압수·수색영장을 받지 아니하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "압수한 대마와 그 압수조서의 기재는 위법하게 수집한 증거가 아니므로 대마소지의 점에 관하여 증거로 할 수 있다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302103,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 21,
+      "choice": "③",
+      "topic": "감금",
+      "q": "甲이 대마를 압수한 것은 사전영장 없이 압수할 수 있는 경우에 해당한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 21번 ③"
+      ],
+      "refs": [
+        "변시3 21번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 21번 ③ 지문은 정답표상 O입니다.",
+      "ref": "형사소송법 제195조",
+      "art": "제195조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "사법경찰관 甲은 검사의 지휘를 받아 정보통신망이용촉진및정보보호등에관한법률위반(음란물유포)의 범죄 혐의를 이유로 발부받은 압수·수색영장에 기하여 피의자 A의 주거지를 수색하는 과정에서 대마가 발견되자, A를 체포하지 않으면 도망하거나 증거를 인멸할 염려가 있어 A를 대마소지로 인한 마약류관리에관한법률위반(대마)죄의 현행범인으로 체포하면서 이 대마를 압수하였다. 그러나 다음 날 甲은 체포된 A에 대하여 검사에게 구속영장을 신청하지 않고 A를 석방하였고, 대마의 압수에 대하여는 사후 압수·수색영장을 받지 아니하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "압수한 대마와 그 압수조서의 기재는 위법하게 수집한 증거가 아니므로 대마소지의 점에 관하여 증거로 할 수 있다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302104,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 21,
+      "choice": "④",
+      "topic": "감금",
+      "q": "甲이 A를 체포영장 없이 체포한 행위는 적법하다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 21번 ④"
+      ],
+      "refs": [
+        "변시3 21번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 21번 ④ 지문은 정답표상 O입니다.",
+      "ref": "형사소송법 제195조",
+      "art": "제195조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "사법경찰관 甲은 검사의 지휘를 받아 정보통신망이용촉진및정보보호등에관한법률위반(음란물유포)의 범죄 혐의를 이유로 발부받은 압수·수색영장에 기하여 피의자 A의 주거지를 수색하는 과정에서 대마가 발견되자, A를 체포하지 않으면 도망하거나 증거를 인멸할 염려가 있어 A를 대마소지로 인한 마약류관리에관한법률위반(대마)죄의 현행범인으로 체포하면서 이 대마를 압수하였다. 그러나 다음 날 甲은 체포된 A에 대하여 검사에게 구속영장을 신청하지 않고 A를 석방하였고, 대마의 압수에 대하여는 사후 압수·수색영장을 받지 아니하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "압수한 대마와 그 압수조서의 기재는 위법하게 수집한 증거가 아니므로 대마소지의 점에 관하여 증거로 할 수 있다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302105,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 21,
+      "choice": "⑤",
+      "topic": "감금",
+      "q": "압수한 대마와 그 압수조서의 기재는 위법하게 수집한 증거가 아니므로 대마소지의 점에 관하여 증거로 할 수 있다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 21번 ⑤"
+      ],
+      "refs": [
+        "변시3 21번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 21번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "형사소송법 제195조",
+      "art": "제195조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "사법경찰관 甲은 검사의 지휘를 받아 정보통신망이용촉진및정보보호등에관한법률위반(음란물유포)의 범죄 혐의를 이유로 발부받은 압수·수색영장에 기하여 피의자 A의 주거지를 수색하는 과정에서 대마가 발견되자, A를 체포하지 않으면 도망하거나 증거를 인멸할 염려가 있어 A를 대마소지로 인한 마약류관리에관한법률위반(대마)죄의 현행범인으로 체포하면서 이 대마를 압수하였다. 그러나 다음 날 甲은 체포된 A에 대하여 검사에게 구속영장을 신청하지 않고 A를 석방하였고, 대마의 압수에 대하여는 사후 압수·수색영장을 받지 아니하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "압수한 대마와 그 압수조서의 기재는 위법하게 수집한 증거가 아니므로 대마소지의 점에 관하여 증거로 할 수 있다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 302201,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 22,
+      "choice": "①",
+      "topic": "진술거부권",
+      "q": "피고인 또는 피의자는 진술거부권을 포기하고 피고사건 또는 피의사건에 관하여 진술할 수 있으며, 더 나아가 피고인의 경우에는 진술거부권을 포기하고 증인적격을 취득할 수 있다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 22번 ①"
+      ],
+      "refs": [
+        "변시3 22번 ①"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 22번 ① 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "진술거부권에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "피고인 또는 피의자는 진술거부권을 포기하고 피고사건 또는 피의사건에 관하여 진술할 수 있으며, 더 나아가 피고인의 경우에는 진술거부권을 포기하고 증인적격을 취득할 수 있다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 302202,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 22,
+      "choice": "②",
+      "topic": "진술거부권",
+      "q": "변호인이 적극적으로 피고인 또는 피의자로 하여금 허위진술을 하도록 하는 것이 아니라 단순히 헌법상 권리인 진술거부권이 있음을 알려 주고 그 행사를 권고하는 것은 허용된다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 22번 ②"
+      ],
+      "refs": [
+        "변시3 22번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 22번 ② 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "진술거부권에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "피고인 또는 피의자는 진술거부권을 포기하고 피고사건 또는 피의사건에 관하여 진술할 수 있으며, 더 나아가 피고인의 경우에는 진술거부권을 포기하고 증인적격을 취득할 수 있다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 302203,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 22,
+      "choice": "③",
+      "topic": "진술거부권",
+      "q": "수사기관이 피의자를 신문함에 있어서 피의자에게 미리 진술거부권을 고지하지 않은 경우 그 피의자의 진술은 위법하게 수집된 증거로서 진술의 임의성이 인정되는 경우라도 증거능력이 부정된다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 22번 ③"
+      ],
+      "refs": [
+        "변시3 22번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 22번 ③ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "진술거부권에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "피고인 또는 피의자는 진술거부권을 포기하고 피고사건 또는 피의사건에 관하여 진술할 수 있으며, 더 나아가 피고인의 경우에는 진술거부권을 포기하고 증인적격을 취득할 수 있다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 302204,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 22,
+      "choice": "④",
+      "topic": "진술거부권",
+      "q": "피의자의 지위는 수사기관이 조사대상자에 대한 범죄 혐의를 인정하여 수사를 개시하는 행위를 한 때 인정되므로, 이러한 피의자 지위에 이르지 아니한 자에 대하여는 수사기관이 진술거부권을 고지하지 아니하였더라도 진술의 증거능력이 부정되지 아니한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 22번 ④"
+      ],
+      "refs": [
+        "변시3 22번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 22번 ④ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "진술거부권에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "피고인 또는 피의자는 진술거부권을 포기하고 피고사건 또는 피의사건에 관하여 진술할 수 있으며, 더 나아가 피고인의 경우에는 진술거부권을 포기하고 증인적격을 취득할 수 있다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 302205,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 22,
+      "choice": "⑤",
+      "topic": "진술거부권",
+      "q": "검사가 피의자에게 진술거부권을 고지하였으나, 검사 작성의 피의자신문조서에 진술거부권 행사 여부에 대한 피의자의 답변이 자필로 기재되어 있지 아니하거나 그 답변 부분에 피의자의 기명날인 또는 서명이 되어 있지 아니하였다면 그 피의자신문조서는 ‘적법한 절차와 방식’에 따라 작성된 것이라고 할 수 없다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 22번 ⑤"
+      ],
+      "refs": [
+        "변시3 22번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 22번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "진술거부권에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "피고인 또는 피의자는 진술거부권을 포기하고 피고사건 또는 피의사건에 관하여 진술할 수 있으며, 더 나아가 피고인의 경우에는 진술거부권을 포기하고 증인적격을 취득할 수 있다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 302301,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 23,
+      "choice": "①",
+      "topic": "절도",
+      "q": "A가 목격자 X의 진술을 확보하였다고 하더라도 더 이상 위 절도 혐의로 甲을 긴급체포할 수 없다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 23번 ①"
+      ],
+      "refs": [
+        "변시3 23번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 23번 ① 지문은 정답표상 O입니다.",
+      "ref": "형법 제329조",
+      "art": "제329조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "사법경찰관 A는 피의자 甲을 절도 혐의로 긴급체포한 후 조사하였으나, 甲의 혐의를 입증할 증거가 부족하다고 판단하여 석방하였다. A는 이후 이 절도 사건에 관한 증거를 찾던 중 절도 현장을 목격한 X의 진술을 확보하게 되었다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "수사기관이 위 절도 혐의에 관한 X의 진술조서 등 소명자료를 갖추더라도 법원으로부터 체포영장을 발부받을 수 없다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302302,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 23,
+      "choice": "②",
+      "topic": "절도",
+      "q": "A는 甲의 위 절도 범행과 다른 별개의 범죄인 모욕죄 혐의에 관하여는 甲을 긴급체포할 수 없다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 23번 ②"
+      ],
+      "refs": [
+        "변시3 23번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 23번 ② 지문은 정답표상 O입니다.",
+      "ref": "형법 제329조",
+      "art": "제329조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "사법경찰관 A는 피의자 甲을 절도 혐의로 긴급체포한 후 조사하였으나, 甲의 혐의를 입증할 증거가 부족하다고 판단하여 석방하였다. A는 이후 이 절도 사건에 관한 증거를 찾던 중 절도 현장을 목격한 X의 진술을 확보하게 되었다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "수사기관이 위 절도 혐의에 관한 X의 진술조서 등 소명자료를 갖추더라도 법원으로부터 체포영장을 발부받을 수 없다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302303,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 23,
+      "choice": "③",
+      "topic": "절도",
+      "q": "A가 甲의 위 절도 범행과 다른 별개의 범죄인 강간치상 혐의에 관하여 甲을 긴급체포한 경우에는 즉시 검사의 승인을 얻어야 한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 23번 ③"
+      ],
+      "refs": [
+        "변시3 23번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 23번 ③ 지문은 정답표상 O입니다.",
+      "ref": "형법 제329조",
+      "art": "제329조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "사법경찰관 A는 피의자 甲을 절도 혐의로 긴급체포한 후 조사하였으나, 甲의 혐의를 입증할 증거가 부족하다고 판단하여 석방하였다. A는 이후 이 절도 사건에 관한 증거를 찾던 중 절도 현장을 목격한 X의 진술을 확보하게 되었다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "수사기관이 위 절도 혐의에 관한 X의 진술조서 등 소명자료를 갖추더라도 법원으로부터 체포영장을 발부받을 수 없다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302304,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 23,
+      "choice": "④",
+      "topic": "절도",
+      "q": "수사기관이 위 절도 혐의에 관한 X의 진술조서 등 소명자료를 갖추더라도 법원으로부터 체포영장을 발부받을 수 없다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 23번 ④"
+      ],
+      "refs": [
+        "변시3 23번 ④"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 23번 ④ 지문은 정답표상 X입니다.",
+      "ref": "형법 제329조",
+      "art": "제329조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "사법경찰관 A는 피의자 甲을 절도 혐의로 긴급체포한 후 조사하였으나, 甲의 혐의를 입증할 증거가 부족하다고 판단하여 석방하였다. A는 이후 이 절도 사건에 관한 증거를 찾던 중 절도 현장을 목격한 X의 진술을 확보하게 되었다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "수사기관이 위 절도 혐의에 관한 X의 진술조서 등 소명자료를 갖추더라도 법원으로부터 체포영장을 발부받을 수 없다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302305,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 23,
+      "choice": "⑤",
+      "topic": "절도",
+      "q": "수사기관이 甲의 위 절도 혐의에 관한 X의 진술조서 등 소명자료를 갖춘 다음 법원으로부터 사전 구속영장을 발부받으면 위 절도 혐의로 甲을 구속할 수 있다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 23번 ⑤"
+      ],
+      "refs": [
+        "변시3 23번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 23번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "형법 제329조",
+      "art": "제329조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "사법경찰관 A는 피의자 甲을 절도 혐의로 긴급체포한 후 조사하였으나, 甲의 혐의를 입증할 증거가 부족하다고 판단하여 석방하였다. A는 이후 이 절도 사건에 관한 증거를 찾던 중 절도 현장을 목격한 X의 진술을 확보하게 되었다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "수사기관이 위 절도 혐의에 관한 X의 진술조서 등 소명자료를 갖추더라도 법원으로부터 체포영장을 발부받을 수 없다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302401,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 24,
+      "choice": "ㄱ",
+      "topic": "공소장변경",
+      "q": "피고인 甲의 A사건은 지방법원 본원 항소부에, 甲의 B사건은 고등법원에 각각 계속되어 있는 경우 甲은 대법원의 결정에 의하여 고등법원에서 병합심리를 받을 수 있다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 24번 ㄱ"
+      ],
+      "refs": [
+        "변시3 24번 ㄱ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 24번 ㄱ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "법원의 관할에 관한 설명 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "ㄱ(×), ㄴ(○), ㄷ(○), ㄹ(×), ㅁ(○)",
+      "needs_atomization": true
+    },
+    {
+      "id": 302402,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 24,
+      "choice": "ㄴ",
+      "topic": "공소장변경",
+      "q": "피고인이 국민참여재판을 원하는 의사를 표시한 경우 지방법원 지원 합의부가 배제결정을 하지 아니하는 경우에는 지방법원 지원 합의부는 국민참여재판절차 회부결정을 하여 사건을 지방법원 본원 합의부로 이송하여야 한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 24번 ㄴ"
+      ],
+      "refs": [
+        "변시3 24번 ㄴ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 24번 ㄴ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "법원의 관할에 관한 설명 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "ㄱ(×), ㄴ(○), ㄷ(○), ㄹ(×), ㅁ(○)",
+      "needs_atomization": false
+    },
+    {
+      "id": 302403,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 24,
+      "choice": "ㄷ",
+      "topic": "공소장변경",
+      "q": "법원은 소년에 대한 피고사건을 심리한 결과 보호처분에 해당할 사유가 있다고 인정하면 결정으로써 사건을 관할 소년부에 송치하여야 한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 24번 ㄷ"
+      ],
+      "refs": [
+        "변시3 24번 ㄷ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 24번 ㄷ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "법원의 관할에 관한 설명 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "ㄱ(×), ㄴ(○), ㄷ(○), ㄹ(×), ㅁ(○)",
+      "needs_atomization": false
+    },
+    {
+      "id": 302404,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 24,
+      "choice": "ㄹ",
+      "topic": "공소장변경",
+      "q": "단독판사의 관할사건이 공소장변경에 의하여 합의부 관할사건으로 변경된 경우에는 단독판사는 관할위반의 판결을 선고하고 사건을 관할권이 있는 합의부에 이송해야 한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 24번 ㄹ"
+      ],
+      "refs": [
+        "변시3 24번 ㄹ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 24번 ㄹ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "법원의 관할에 관한 설명 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "ㄱ(×), ㄴ(○), ㄷ(○), ㄹ(×), ㅁ(○)",
+      "needs_atomization": false
+    },
+    {
+      "id": 302405,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 24,
+      "choice": "ㅁ",
+      "topic": "공소장변경",
+      "q": "관할이전의 사유가 존재하는 경우 검사는 직근상급법원에 관할의 이전을 신청할 의무가 있지만, 피고인은 관할의 이전을 신청할 권리만 있다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 24번 ㅁ"
+      ],
+      "refs": [
+        "변시3 24번 ㅁ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 24번 ㅁ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "법원의 관할에 관한 설명 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "ㄱ(×), ㄴ(○), ㄷ(○), ㄹ(×), ㅁ(○)",
+      "needs_atomization": false
+    },
+    {
+      "id": 302501,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 25,
+      "choice": "①",
+      "topic": "공범",
+      "q": "친고죄의 공범인 甲, 乙 중 甲에 대하여 제1심판결이 선고되었더라도 제1심판결선고전의 乙에 대하여는 고소를 취소할 수 있고, 그 효력은 제1심판결선고전의 乙에게만 미친다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 25번 ①"
+      ],
+      "refs": [
+        "변시3 25번 ①"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 25번 ① 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "다음 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "세무공무원 등의 고발이 있어야 공소를 제기할 수 있는 조세범처벌법위반죄에 대하여 고발을 받아 수사한 검사가 불기소처분을 하였다가 나중에 공소를 제기하는 경우에는 세무공무원 등의 새로운 고발이 있어야 하는 것은 아니다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302502,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 25,
+      "choice": "②",
+      "topic": "공범",
+      "q": "고소의 주관적 불가분의 원칙은 조세범처벌법위반죄에서 소추조건으로 되어 있는 세무공무원의 고발에도 적용된다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 25번 ②"
+      ],
+      "refs": [
+        "변시3 25번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 25번 ② 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "다음 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "세무공무원 등의 고발이 있어야 공소를 제기할 수 있는 조세범처벌법위반죄에 대하여 고발을 받아 수사한 검사가 불기소처분을 하였다가 나중에 공소를 제기하는 경우에는 세무공무원 등의 새로운 고발이 있어야 하는 것은 아니다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 302503,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 25,
+      "choice": "③",
+      "topic": "공범",
+      "q": "세무공무원 등의 고발이 있어야 공소를 제기할 수 있는 조세범처벌법위반죄에 대하여 고발을 받아 수사한 검사가 불기소처분을 하였다가 나중에 공소를 제기하는 경우에는 세무공무원 등의 새로운 고발이 있어야 하는 것은 아니다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 25번 ③"
+      ],
+      "refs": [
+        "변시3 25번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 25번 ③ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "다음 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "세무공무원 등의 고발이 있어야 공소를 제기할 수 있는 조세범처벌법위반죄에 대하여 고발을 받아 수사한 검사가 불기소처분을 하였다가 나중에 공소를 제기하는 경우에는 세무공무원 등의 새로운 고발이 있어야 하는 것은 아니다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 302504,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 25,
+      "choice": "④",
+      "topic": "공범",
+      "q": "반의사불벌죄에서 의사능력 있는 미성년자인 피해자가 처벌 희망 여부에 관한 의사표시를 함에는 법정대리인의 동의가 필요하다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 25번 ④"
+      ],
+      "refs": [
+        "변시3 25번 ④"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 25번 ④ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "다음 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "세무공무원 등의 고발이 있어야 공소를 제기할 수 있는 조세범처벌법위반죄에 대하여 고발을 받아 수사한 검사가 불기소처분을 하였다가 나중에 공소를 제기하는 경우에는 세무공무원 등의 새로운 고발이 있어야 하는 것은 아니다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 302505,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 25,
+      "choice": "⑤",
+      "topic": "공범",
+      "q": "비친고죄에 해당하는 죄로 기소되어 항소심에서 친고죄에 해당하는 죄로 공소장이 변경된 후 공소제기 전에 행하여진 고소가 취소되었다면 항소심법원은 공소기각의 판결을 선고하여야 한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 25번 ⑤"
+      ],
+      "refs": [
+        "변시3 25번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 25번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "다음 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "세무공무원 등의 고발이 있어야 공소를 제기할 수 있는 조세범처벌법위반죄에 대하여 고발을 받아 수사한 검사가 불기소처분을 하였다가 나중에 공소를 제기하는 경우에는 세무공무원 등의 새로운 고발이 있어야 하는 것은 아니다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 302601,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 26,
+      "choice": "①",
+      "topic": "교사범",
+      "q": "포괄일죄에 있어서는 그 일죄의 일부를 구성하는 개개의 행위에 대하여 구체적으로 특정하지 않더라도 전체 범행의 시기와 종기, 범행방법, 피해자나 상대방, 범행횟수, 피해액의 합계 등을 명시하면 공소사실이 특정된 것으로 본다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 26번 ①"
+      ],
+      "refs": [
+        "변시3 26번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 26번 ① 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공소사실의 특정에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "간통죄의 공소사실을 “피고인들이 2011. 5. 중순경부터 2012. 4. 3.경까지 사이에 부산시 동구 수정4동 984 및 그들의 셋방 등지에서 횟수불상 간음하여 간통하였다.”라고 기재한 경우 공소사실이 특정되었다고 볼 수 있다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 302602,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 26,
+      "choice": "②",
+      "topic": "교사범",
+      "q": "교사범이나 방조범의 경우 교사나 방조의 사실뿐만 아니라 정범의 범죄사실도 특정하여야 한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 26번 ②"
+      ],
+      "refs": [
+        "변시3 26번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 26번 ② 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공소사실의 특정에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "간통죄의 공소사실을 “피고인들이 2011. 5. 중순경부터 2012. 4. 3.경까지 사이에 부산시 동구 수정4동 984 및 그들의 셋방 등지에서 횟수불상 간음하여 간통하였다.”라고 기재한 경우 공소사실이 특정되었다고 볼 수 있다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 302603,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 26,
+      "choice": "③",
+      "topic": "교사범",
+      "q": "간통죄의 공소사실을 “피고인들이 2011. 5. 중순경부터 2012. 4. 3.경까지 사이에 부산시 동구 수정4동 984 및 그들의 셋방 등지에서 횟수불상 간음하여 간통하였다.”라고 기재한 경우 공소사실이 특정되었다고 볼 수 있다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 26번 ③"
+      ],
+      "refs": [
+        "변시3 26번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 26번 ③ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공소사실의 특정에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "간통죄의 공소사실을 “피고인들이 2011. 5. 중순경부터 2012. 4. 3.경까지 사이에 부산시 동구 수정4동 984 및 그들의 셋방 등지에서 횟수불상 간음하여 간통하였다.”라고 기재한 경우 공소사실이 특정되었다고 볼 수 있다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 302604,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 26,
+      "choice": "④",
+      "topic": "교사범",
+      "q": "유가증권변조 사건의 공소사실이 범행일자를 ‘2005. 1. 말경에서 같은 해 2. 4. 사이’로, 범행장소를 ‘서울 불상지’로, 범행방법을 ‘불상의 방법으로 수취인의 기재를 삭제’로 되어 있는 경우, 변조된 유가증권이 압수되어 현존하고 있는 이상 공소사실이 특정되었다고 볼 수 있다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 26번 ④"
+      ],
+      "refs": [
+        "변시3 26번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 26번 ④ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공소사실의 특정에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "간통죄의 공소사실을 “피고인들이 2011. 5. 중순경부터 2012. 4. 3.경까지 사이에 부산시 동구 수정4동 984 및 그들의 셋방 등지에서 횟수불상 간음하여 간통하였다.”라고 기재한 경우 공소사실이 특정되었다고 볼 수 있다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 302605,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 26,
+      "choice": "⑤",
+      "topic": "교사범",
+      "q": "공소장의 기재사실 중 일부가 명확하지 아니한 경우 법원이 검사에게 석명을 구하지 않고 곧바로 공소기각판결을 하면 심리미진의 위법이 될 수 있다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 26번 ⑤"
+      ],
+      "refs": [
+        "변시3 26번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 26번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공소사실의 특정에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "간통죄의 공소사실을 “피고인들이 2011. 5. 중순경부터 2012. 4. 3.경까지 사이에 부산시 동구 수정4동 984 및 그들의 셋방 등지에서 횟수불상 간음하여 간통하였다.”라고 기재한 경우 공소사실이 특정되었다고 볼 수 있다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 302701,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 27,
+      "choice": "①",
+      "topic": "뇌물",
+      "q": "甲이 사법경찰관 작성의 乙에 대한 피의자신문조서에 대하여 내용을 부인하면, 乙이 법정에서 그 조서에 대하여 진정성립을 인정하고 甲이 乙을 반대신문하였더라도 그 피의자신문조서는 甲의 공소사실에 대한 증거로 사용할 수 없다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 27번 ①"
+      ],
+      "refs": [
+        "변시3 27번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 27번 ① 지문은 정답표상 O입니다.",
+      "ref": "형법 제129조",
+      "art": "제129조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "피고인 甲은 피고인 乙로부터 뇌물을 수수하였다는 공소사실로, 피고인 乙은 피고인 甲에게 뇌물을 공여하였다는 공소사실로 기소되어 공동피고인으로 재판을 받고 있다. 법정에서 甲은 공소사실을 부인하였으나 乙은 공소사실을 자백하였다. 이에 관한 설명 중 옳지 않은 것은? (다만, 조서는 모두 적법한 절차와 방식에 따라 작성되었고, 임의성과 특신상태가 인정됨을 전제로 하며, 다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "甲이 법정에서 乙로부터 뇌물을 수수한 사실을 부인하면서 공소사실 기재 일시경에 乙을 만났던 사실과 공무에 관한 청탁을 받은 사실만을 시인하였다면 이것만으로는 乙의 자백에 대한 보강증거가 될 수 없다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302702,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 27,
+      "choice": "②",
+      "topic": "뇌물",
+      "q": "검사 작성의 乙에 대한 피의자신문조서는 乙이 법정에서 그 조서에 대하여 진정성립을 인정하고 甲이 乙을 반대신문하였다면 甲이 증거로 함에 부동의하였더라도 甲의 공소사실에 대한 증거로 사용할 수 있다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 27번 ②"
+      ],
+      "refs": [
+        "변시3 27번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 27번 ② 지문은 정답표상 O입니다.",
+      "ref": "형법 제129조",
+      "art": "제129조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "피고인 甲은 피고인 乙로부터 뇌물을 수수하였다는 공소사실로, 피고인 乙은 피고인 甲에게 뇌물을 공여하였다는 공소사실로 기소되어 공동피고인으로 재판을 받고 있다. 법정에서 甲은 공소사실을 부인하였으나 乙은 공소사실을 자백하였다. 이에 관한 설명 중 옳지 않은 것은? (다만, 조서는 모두 적법한 절차와 방식에 따라 작성되었고, 임의성과 특신상태가 인정됨을 전제로 하며, 다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "甲이 법정에서 乙로부터 뇌물을 수수한 사실을 부인하면서 공소사실 기재 일시경에 乙을 만났던 사실과 공무에 관한 청탁을 받은 사실만을 시인하였다면 이것만으로는 乙의 자백에 대한 보강증거가 될 수 없다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302703,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 27,
+      "choice": "③",
+      "topic": "뇌물",
+      "q": "乙이 피고인신문에서 甲에게 뇌물공여사실을 자백한 진술은 甲의 乙에 대한 반대신문권이 보장되어 있어 甲의 공소사실에 대한 증거로 쓸 수 있지만 乙이 기억에 반하는 허위의 진술을 하더라도 위증죄가 성립하지 않는다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 27번 ③"
+      ],
+      "refs": [
+        "변시3 27번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 27번 ③ 지문은 정답표상 O입니다.",
+      "ref": "형법 제129조",
+      "art": "제129조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "피고인 甲은 피고인 乙로부터 뇌물을 수수하였다는 공소사실로, 피고인 乙은 피고인 甲에게 뇌물을 공여하였다는 공소사실로 기소되어 공동피고인으로 재판을 받고 있다. 법정에서 甲은 공소사실을 부인하였으나 乙은 공소사실을 자백하였다. 이에 관한 설명 중 옳지 않은 것은? (다만, 조서는 모두 적법한 절차와 방식에 따라 작성되었고, 임의성과 특신상태가 인정됨을 전제로 하며, 다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "甲이 법정에서 乙로부터 뇌물을 수수한 사실을 부인하면서 공소사실 기재 일시경에 乙을 만났던 사실과 공무에 관한 청탁을 받은 사실만을 시인하였다면 이것만으로는 乙의 자백에 대한 보강증거가 될 수 없다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302704,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 27,
+      "choice": "④",
+      "topic": "뇌물",
+      "q": "乙이 자신의 사업과 관련하여 그때그때의 수입과 지출을 기재해 놓은 금전출납부가 적법하게 압수되어 증거로 제출된 경우, 그 금전출납부에 甲에 대한 뇌물공여로 지출된 금액의 기재가 있는 경우에 이는 乙의 자백에 대한 보강증거가 될 수 있다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 27번 ④"
+      ],
+      "refs": [
+        "변시3 27번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 27번 ④ 지문은 정답표상 O입니다.",
+      "ref": "형법 제129조",
+      "art": "제129조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "피고인 甲은 피고인 乙로부터 뇌물을 수수하였다는 공소사실로, 피고인 乙은 피고인 甲에게 뇌물을 공여하였다는 공소사실로 기소되어 공동피고인으로 재판을 받고 있다. 법정에서 甲은 공소사실을 부인하였으나 乙은 공소사실을 자백하였다. 이에 관한 설명 중 옳지 않은 것은? (다만, 조서는 모두 적법한 절차와 방식에 따라 작성되었고, 임의성과 특신상태가 인정됨을 전제로 하며, 다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "甲이 법정에서 乙로부터 뇌물을 수수한 사실을 부인하면서 공소사실 기재 일시경에 乙을 만났던 사실과 공무에 관한 청탁을 받은 사실만을 시인하였다면 이것만으로는 乙의 자백에 대한 보강증거가 될 수 없다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302705,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 27,
+      "choice": "⑤",
+      "topic": "뇌물",
+      "q": "甲이 법정에서 乙로부터 뇌물을 수수한 사실을 부인하면서 공소사실 기재 일시경에 乙을 만났던 사실과 공무에 관한 청탁을 받은 사실만을 시인하였다면 이것만으로는 乙의 자백에 대한 보강증거가 될 수 없다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 27번 ⑤"
+      ],
+      "refs": [
+        "변시3 27번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 27번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "형법 제129조",
+      "art": "제129조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "피고인 甲은 피고인 乙로부터 뇌물을 수수하였다는 공소사실로, 피고인 乙은 피고인 甲에게 뇌물을 공여하였다는 공소사실로 기소되어 공동피고인으로 재판을 받고 있다. 법정에서 甲은 공소사실을 부인하였으나 乙은 공소사실을 자백하였다. 이에 관한 설명 중 옳지 않은 것은? (다만, 조서는 모두 적법한 절차와 방식에 따라 작성되었고, 임의성과 특신상태가 인정됨을 전제로 하며, 다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "甲이 법정에서 乙로부터 뇌물을 수수한 사실을 부인하면서 공소사실 기재 일시경에 乙을 만났던 사실과 공무에 관한 청탁을 받은 사실만을 시인하였다면 이것만으로는 乙의 자백에 대한 보강증거가 될 수 없다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 302801,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 28,
+      "choice": "ㄱ",
+      "topic": "사기",
+      "q": "교도관이 재소자가 맡긴 비망록을 수사기관에 임의로 제출한 경우 그 비망록의 증거사용에 대하여 재소자의 사생활의 비밀 기타 인격적 법익이 침해되는 등의 특별한 사정이 없는 한 반드시 그 재소자의 동의를 받아야 하는 것은 아니다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 28번 ㄱ"
+      ],
+      "refs": [
+        "변시3 28번 ㄱ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 28번 ㄱ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "다음 설명 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ(○), ㄴ(×), ㄷ(×), ㄹ(○)",
+      "needs_atomization": false
+    },
+    {
+      "id": 302802,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 28,
+      "choice": "ㄴ",
+      "topic": "사기",
+      "q": "음주운전 중 교통사고를 야기한 직후 병원 응급실로 후송된 의식불명 피의자에 대하여 수사기관이 그의 혈액을 채취하여 이를 취득하기 위해서는 반드시 사전영장 또는 감정처분허가장을 발부받아야 한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 28번 ㄴ"
+      ],
+      "refs": [
+        "변시3 28번 ㄴ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 28번 ㄴ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "다음 설명 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ(○), ㄴ(×), ㄷ(×), ㄹ(○)",
+      "needs_atomization": false
+    },
+    {
+      "id": 302803,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 28,
+      "choice": "ㄷ",
+      "topic": "사기",
+      "q": "위법한 강제연행 상태에서 호흡측정 방법에 의한 음주측정을 한 직후 피의자가 호흡측정 결과에 대한 탄핵을 하기 위하여 스스로 혈액채취 방법에 의한 측정을 요구하여 혈액채취가 이루어졌다면 특별한 사정이 없는 한 그러한 혈액채취에 의한 측정 결과는 유죄의 증거로 쓸 수 있다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 28번 ㄷ"
+      ],
+      "refs": [
+        "변시3 28번 ㄷ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 28번 ㄷ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "다음 설명 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ(○), ㄴ(×), ㄷ(×), ㄹ(○)",
+      "needs_atomization": false
+    },
+    {
+      "id": 302804,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 28,
+      "choice": "ㄹ",
+      "topic": "사기",
+      "q": "유인자가 수사기관과 직접적인 관련을 맺지 아니한 상태에서 피유인자를 상대로 단순히 수차례 반복적으로 범행을 부탁하였을 뿐 수사기관이 사술이나 계략 등을 사용하였다고 볼 수 없는 경우에는 그로 인하여 피유인자의 범의가 유발되었고, 유인자의 제보로 수사가 개시되었더라도 이는 위법한 함정수사에 해당하지 아니한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 28번 ㄹ"
+      ],
+      "refs": [
+        "변시3 28번 ㄹ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 28번 ㄹ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "다음 설명 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ(○), ㄴ(×), ㄷ(×), ㄹ(○)",
+      "needs_atomization": false
+    },
+    {
+      "id": 302901,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 29,
+      "choice": "①",
+      "topic": "구성요건",
+      "q": "공소기각과 관할위반의 형식재판에 대하여는 일사부재리의 효력이 인정되지 아니한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 29번 ①"
+      ],
+      "refs": [
+        "변시3 29번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 29번 ① 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "재판의 효력에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "피고인이 수회의 공갈행위로 ｢폭력행위 등 처벌에 관한 법률｣ 제2조 제1항 제3호, 형법 제350조(상습공갈)가 적용되어 상습범으로 유죄 판결이 확정된 경우 그 사실심판결 선고 전에 저질러진 재물손괴 범죄에 대하여는 동일한 폭력행위의 습벽이 인정되더라도 그 확정판결의 기판력이 미치지 아니한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 302902,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 29,
+      "choice": "②",
+      "topic": "구성요건",
+      "q": "상습범의 일부에 대하여 유죄판결이 확정된 경우 기판력이 그 사실심판결 선고 전에 저질러진 나머지 범죄에 미치기 위해서는 그 확정판결에서 당해 피고인이 상습범으로 기소되어 처단되었을 것이 필요하고, 상습범이 아닌 기본 구성요건의 범죄로 처단되는 데 그친 경우에는 기판력이 미치지 아니한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 29번 ②"
+      ],
+      "refs": [
+        "변시3 29번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 29번 ② 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "재판의 효력에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "피고인이 수회의 공갈행위로 ｢폭력행위 등 처벌에 관한 법률｣ 제2조 제1항 제3호, 형법 제350조(상습공갈)가 적용되어 상습범으로 유죄 판결이 확정된 경우 그 사실심판결 선고 전에 저질러진 재물손괴 범죄에 대하여는 동일한 폭력행위의 습벽이 인정되더라도 그 확정판결의 기판력이 미치지 아니한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 302903,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 29,
+      "choice": "③",
+      "topic": "구성요건",
+      "q": "피고인이 수회의 공갈행위로 ｢폭력행위 등 처벌에 관한 법률｣ 제2조 제1항 제3호, 형법 제350조(상습공갈)가 적용되어 상습범으로 유죄 판결이 확정된 경우 그 사실심판결 선고 전에 저질러진 재물손괴 범죄에 대하여는 동일한 폭력행위의 습벽이 인정되더라도 그 확정판결의 기판력이 미치지 아니한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 29번 ③"
+      ],
+      "refs": [
+        "변시3 29번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 29번 ③ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "재판의 효력에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "피고인이 수회의 공갈행위로 ｢폭력행위 등 처벌에 관한 법률｣ 제2조 제1항 제3호, 형법 제350조(상습공갈)가 적용되어 상습범으로 유죄 판결이 확정된 경우 그 사실심판결 선고 전에 저질러진 재물손괴 범죄에 대하여는 동일한 폭력행위의 습벽이 인정되더라도 그 확정판결의 기판력이 미치지 아니한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 302904,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 29,
+      "choice": "④",
+      "topic": "구성요건",
+      "q": "일사부재리의 효력이 미치는 객관적 범위는 공소사실과 단일하고 동일한 관계에 있는 모든 사실에 미치므로, 그 물적 범위는 현실적 심판대상인 사실에 한정되지 아니한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 29번 ④"
+      ],
+      "refs": [
+        "변시3 29번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 29번 ④ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "재판의 효력에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "피고인이 수회의 공갈행위로 ｢폭력행위 등 처벌에 관한 법률｣ 제2조 제1항 제3호, 형법 제350조(상습공갈)가 적용되어 상습범으로 유죄 판결이 확정된 경우 그 사실심판결 선고 전에 저질러진 재물손괴 범죄에 대하여는 동일한 폭력행위의 습벽이 인정되더라도 그 확정판결의 기판력이 미치지 아니한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 302905,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 29,
+      "choice": "⑤",
+      "topic": "구성요건",
+      "q": "약식명령의 기판력이 미치는 시간적 범위는 약식명령의 송달시가 아닌 발령시를 기준으로 한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 29번 ⑤"
+      ],
+      "refs": [
+        "변시3 29번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 29번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "재판의 효력에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "피고인이 수회의 공갈행위로 ｢폭력행위 등 처벌에 관한 법률｣ 제2조 제1항 제3호, 형법 제350조(상습공갈)가 적용되어 상습범으로 유죄 판결이 확정된 경우 그 사실심판결 선고 전에 저질러진 재물손괴 범죄에 대하여는 동일한 폭력행위의 습벽이 인정되더라도 그 확정판결의 기판력이 미치지 아니한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 303001,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 30,
+      "choice": "ㄱ",
+      "topic": "전문법칙",
+      "q": "“甲이 乙을 살해하는 것을 목격했다.”라는 丙의 말을 들은 丁이 丙의 진술내용을 증언하는 경우, 甲의 살인 사건에 대하여는 전문증거이지만, 丙의 명예훼손 사건에 대하여는 전문증거가 아니다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 30번 ㄱ"
+      ],
+      "refs": [
+        "변시3 30번 ㄱ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 30번 ㄱ 지문은 정답표상 O입니다.",
+      "ref": "형사소송법 제310조의2",
+      "art": "제310조의2",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "전문법칙에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ, ㄹ",
+      "needs_atomization": true
+    },
+    {
+      "id": 303002,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 30,
+      "choice": "ㄴ",
+      "topic": "전문법칙",
+      "q": "사인(私人)이 피고인 아닌 자의 진술을 녹음한 녹음테이프에 대하여 법원이 실시한 검증의 내용이, 녹음테이프에 녹음된 대화내용이 검증조서에 첨부된 녹취서에 기재된 내용과 같다는 것에 불과한 경우, 그 검증조서는 형사소송법 제311조의 ‘법원의 검증의 결과를 기재한 조서’에 해당하여 그 조서 중 위 진술내용은 위 제311조에 의하여 증거능력이 인정된다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 30번 ㄴ"
+      ],
+      "refs": [
+        "변시3 30번 ㄴ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 30번 ㄴ 지문은 정답표상 X입니다.",
+      "ref": "형사소송법 제310조의2",
+      "art": "제310조의2",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "전문법칙에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 303003,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 30,
+      "choice": "ㄷ",
+      "topic": "전문법칙",
+      "q": "증거보전절차에서 이루어진 甲에 대한 증인신문조서 중 당시 피의자였던 피고인 乙이 당사자로 참여하여 자신의 범행사실을 시인하는 전제하에 甲에게 반대신문을 하는 과정에서 乙이 행한 진술기재 부분은, 형사소송법 제184조에 의한 증인신문조서에 해당하므로 형사소송법 제311조에 의하여 증거능력이 인정된다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 30번 ㄷ"
+      ],
+      "refs": [
+        "변시3 30번 ㄷ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 30번 ㄷ 지문은 정답표상 X입니다.",
+      "ref": "형사소송법 제310조의2",
+      "art": "제310조의2",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "전문법칙에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ, ㄹ",
+      "needs_atomization": true
+    },
+    {
+      "id": 303004,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 30,
+      "choice": "ㄹ",
+      "topic": "전문법칙",
+      "q": "공범자가 당해 피고인과 별개의 공판절차에서 피고인으로서 공동범행에 관하여 한 진술이 기재된 공판조서가 당해 피고인의 공판에서 증거로 제출된 경우 이는 형사소송법 제311조에서 규정한 ‘법원 또는 법관의 조서’에 해당되지는 않지만, 특히 신용할 만한 정황에 의하여 작성된 문서이므로 그 증거능력이 인정된다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 30번 ㄹ"
+      ],
+      "refs": [
+        "변시3 30번 ㄹ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 30번 ㄹ 지문은 정답표상 O입니다.",
+      "ref": "형사소송법 제310조의2",
+      "art": "제310조의2",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "전문법칙에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 303005,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 30,
+      "choice": "ㅁ",
+      "topic": "전문법칙",
+      "q": "감정인이 법원의 명에 의하여 감정을 하고 그 감정결과를 기재한 감정서는 직무상 증명할 수 있는 사항에 관하여 작성한 문서이므로 피고인이 증거로 함에 부동의하더라도 당연히 증거능력이 있다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 30번 ㅁ"
+      ],
+      "refs": [
+        "변시3 30번 ㅁ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 30번 ㅁ 지문은 정답표상 X입니다.",
+      "ref": "형사소송법 제310조의2",
+      "art": "제310조의2",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "전문법칙에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 303101,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 31,
+      "choice": "①",
+      "topic": "재심",
+      "q": "‘무죄 등을 인정할 명백한 증거’에 해당하는지 여부는 새로 발견된 증거만을 독립적·고립적으로 고찰하여 그 증거가치만으로 판단하여야 한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 31번 ①"
+      ],
+      "refs": [
+        "변시3 31번 ①"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 31번 ① 지문은 정답표상 X입니다.",
+      "ref": "형사소송법 제420조",
+      "art": "제420조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "재심사유에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "재심사유 해당 여부를 판단함에 있어 ‘사법경찰관 등이 범한 직무에 관한 죄’가 사건의 실체관계에 관계된 것인지 여부나 당해 사법경찰관이 직접 피의자에 대한 조사를 담당하였는지 여부는 고려할 사정이 아니다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 303102,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 31,
+      "choice": "②",
+      "topic": "재심",
+      "q": "‘형의 면제를 인정할 명백한 증거가 새로 발견된 때’에서 ‘형의 면제’라 함은 형의 필요적 면제뿐만 아니라 임의적 면제도 포함한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 31번 ②"
+      ],
+      "refs": [
+        "변시3 31번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 31번 ② 지문은 정답표상 X입니다.",
+      "ref": "형사소송법 제420조",
+      "art": "제420조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "재심사유에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "재심사유 해당 여부를 판단함에 있어 ‘사법경찰관 등이 범한 직무에 관한 죄’가 사건의 실체관계에 관계된 것인지 여부나 당해 사법경찰관이 직접 피의자에 대한 조사를 담당하였는지 여부는 고려할 사정이 아니다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 303103,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 31,
+      "choice": "③",
+      "topic": "재심",
+      "q": "재심사유 해당 여부를 판단함에 있어 ‘사법경찰관 등이 범한 직무에 관한 죄’가 사건의 실체관계에 관계된 것인지 여부나 당해 사법경찰관이 직접 피의자에 대한 조사를 담당하였는지 여부는 고려할 사정이 아니다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 31번 ③"
+      ],
+      "refs": [
+        "변시3 31번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 31번 ③ 지문은 정답표상 O입니다.",
+      "ref": "형사소송법 제420조",
+      "art": "제420조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "재심사유에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "재심사유 해당 여부를 판단함에 있어 ‘사법경찰관 등이 범한 직무에 관한 죄’가 사건의 실체관계에 관계된 것인지 여부나 당해 사법경찰관이 직접 피의자에 대한 조사를 담당하였는지 여부는 고려할 사정이 아니다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 303104,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 31,
+      "choice": "④",
+      "topic": "재심",
+      "q": "‘원판결의 증거된 증언’이 나중에 확정판결에 의하여 허위인 것이 증명되었더라도, 그 허위증언 부분을 제외하고서도 다른 증거에 의하여 유죄로 인정될 경우에는 재심사유에 해당하지 아니한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 31번 ④"
+      ],
+      "refs": [
+        "변시3 31번 ④"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 31번 ④ 지문은 정답표상 X입니다.",
+      "ref": "형사소송법 제420조",
+      "art": "제420조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "재심사유에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "재심사유 해당 여부를 판단함에 있어 ‘사법경찰관 등이 범한 직무에 관한 죄’가 사건의 실체관계에 관계된 것인지 여부나 당해 사법경찰관이 직접 피의자에 대한 조사를 담당하였는지 여부는 고려할 사정이 아니다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 303105,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 31,
+      "choice": "⑤",
+      "topic": "재심",
+      "q": "피고인이 새로운 증거를 발견하였다고 하여 재심을 청구한 경우 재심대상판결의 소송절차 중에 그러한 증거를 제출하지 못한 데에 피고인의 과실이 있더라도 그 증거는 ‘증거가 새로 발견된 때’에 해당한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 31번 ⑤"
+      ],
+      "refs": [
+        "변시3 31번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 31번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "형사소송법 제420조",
+      "art": "제420조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "재심사유에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "재심사유 해당 여부를 판단함에 있어 ‘사법경찰관 등이 범한 직무에 관한 죄’가 사건의 실체관계에 관계된 것인지 여부나 당해 사법경찰관이 직접 피의자에 대한 조사를 담당하였는지 여부는 고려할 사정이 아니다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 303201,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 32,
+      "choice": "ㄱ",
+      "topic": "사기",
+      "q": "증인에 대한 소재탐지촉탁을 하여 소재수사를 하였으나 그 소재를 확인할 수 없었는데, 진술조서에 기재된 증인의 전화번호로 연락하여 보지 아니하는 등 증인의 법정 출석을 위한 가능하고도 충분한 노력을 다하지 않은 경우",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 32번 ㄱ"
+      ],
+      "refs": [
+        "변시3 32번 ㄱ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 32번 ㄱ 지문은 정답표상 O입니다.",
+      "ref": "형사소송법 제314조",
+      "art": "제314조",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "형사소송법 제314조에서 규정한 ‘진술을 요하는 자가 사망·질병·외국거주·소재불명, 그 밖에 이에 준하는 사유로 인하여 진술할 수 없는 때’에 해당하지 않는 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "ㄱ, ㄴ, ㄷ",
+      "needs_atomization": false
+    },
+    {
+      "id": 303202,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 32,
+      "choice": "ㄴ",
+      "topic": "사기",
+      "q": "증인이 형사소송법에서 정한 바에 따라 정당하게 증언거부권을 행사하여 증언을 거부한 경우",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 32번 ㄴ"
+      ],
+      "refs": [
+        "변시3 32번 ㄴ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 32번 ㄴ 지문은 정답표상 O입니다.",
+      "ref": "형사소송법 제314조",
+      "art": "제314조",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "형사소송법 제314조에서 규정한 ‘진술을 요하는 자가 사망·질병·외국거주·소재불명, 그 밖에 이에 준하는 사유로 인하여 진술할 수 없는 때’에 해당하지 않는 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "ㄱ, ㄴ, ㄷ",
+      "needs_atomization": false
+    },
+    {
+      "id": 303203,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 32,
+      "choice": "ㄷ",
+      "topic": "사기",
+      "q": "피고인이 증거서류의 진정성립을 묻는 검사의 질문에 대하여 진술거부권을 행사하여 진술을 거부한 경우",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 32번 ㄷ"
+      ],
+      "refs": [
+        "변시3 32번 ㄷ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 32번 ㄷ 지문은 정답표상 O입니다.",
+      "ref": "형사소송법 제314조",
+      "art": "제314조",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "형사소송법 제314조에서 규정한 ‘진술을 요하는 자가 사망·질병·외국거주·소재불명, 그 밖에 이에 준하는 사유로 인하여 진술할 수 없는 때’에 해당하지 않는 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "ㄱ, ㄴ, ㄷ",
+      "needs_atomization": false
+    },
+    {
+      "id": 303204,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 32,
+      "choice": "ㄹ",
+      "topic": "사기",
+      "q": "수사기관에서 진술한 피해자인 유아가 공판정에서 진술을 하였으나 증인신문 당시 대부분의 사항에 관하여 기억이 나지 않는다는 취지로 진술하여 수사기관에서 행한 진술이 재현 불가능하게 된 경우",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 32번 ㄹ"
+      ],
+      "refs": [
+        "변시3 32번 ㄹ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 32번 ㄹ 지문은 정답표상 X입니다.",
+      "ref": "형사소송법 제314조",
+      "art": "제314조",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "형사소송법 제314조에서 규정한 ‘진술을 요하는 자가 사망·질병·외국거주·소재불명, 그 밖에 이에 준하는 사유로 인하여 진술할 수 없는 때’에 해당하지 않는 것을 모두 고른 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "ㄱ, ㄴ, ㄷ",
+      "needs_atomization": false
+    },
+    {
+      "id": 303301,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 33,
+      "choice": "①",
+      "topic": "뇌물",
+      "q": "뇌물죄에서 말하는 ‘직무’에는 법령에 정하여진 직무뿐만 아니라 그와 관련 있는 직무, 과거에 담당하였거나 장래에 담당할 직무도 포함될 수 있다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 33번 ①"
+      ],
+      "refs": [
+        "변시3 33번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 33번 ① 지문은 정답표상 O입니다.",
+      "ref": "형법 제136조",
+      "art": "제136조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공정거래위원회 소속 공무원 甲은 乙로부터 불공정거래행위 신고나 관련 처리업무를 할 경우 잘 봐 달라는 취지로 건네주는 액면금 100만 원짜리 자기앞수표 3장을 교부받았다. 검사 丙은 이 사실을 수사한 후 甲을 뇌물수수죄로 기소하였다. 丙은 이 사건 공소제기 후 공판절차가 진행 중 수소법원이 아닌 영장전담 판사 A로부터 압수·수색영장을 발부받아 그 집행을 통하여 확보한 위 자기앞수표 사본 3장과 이를 기초로 작성한 수사보고서를 증거로 제출하였다. 한편, 甲은 공판관여 참여주사 丁에게 형량을 감경하여 달라는 청탁과 함께 현금 100만 원을 교부하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲으로부터 현금 100만 원을 수령한 법원주사 丁에게 뇌물수수죄가 성립한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 303302,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 33,
+      "choice": "②",
+      "topic": "뇌물",
+      "q": "甲으로부터 현금 100만 원을 수령한 법원주사 丁에게 뇌물수수죄가 성립한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 33번 ②"
+      ],
+      "refs": [
+        "변시3 33번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 33번 ② 지문은 정답표상 X입니다.",
+      "ref": "형법 제136조",
+      "art": "제136조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공정거래위원회 소속 공무원 甲은 乙로부터 불공정거래행위 신고나 관련 처리업무를 할 경우 잘 봐 달라는 취지로 건네주는 액면금 100만 원짜리 자기앞수표 3장을 교부받았다. 검사 丙은 이 사실을 수사한 후 甲을 뇌물수수죄로 기소하였다. 丙은 이 사건 공소제기 후 공판절차가 진행 중 수소법원이 아닌 영장전담 판사 A로부터 압수·수색영장을 발부받아 그 집행을 통하여 확보한 위 자기앞수표 사본 3장과 이를 기초로 작성한 수사보고서를 증거로 제출하였다. 한편, 甲은 공판관여 참여주사 丁에게 형량을 감경하여 달라는 청탁과 함께 현금 100만 원을 교부하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲으로부터 현금 100만 원을 수령한 법원주사 丁에게 뇌물수수죄가 성립한다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303303,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 33,
+      "choice": "③",
+      "topic": "뇌물",
+      "q": "甲이 유죄로 인정되면, 甲이 乙로부터 받은 자기앞수표를 소비한 후 현금 300만 원을 乙에게 반환한 경우에 甲으로부터 그 가액을 추징해야 한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 33번 ③"
+      ],
+      "refs": [
+        "변시3 33번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 33번 ③ 지문은 정답표상 O입니다.",
+      "ref": "형법 제136조",
+      "art": "제136조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공정거래위원회 소속 공무원 甲은 乙로부터 불공정거래행위 신고나 관련 처리업무를 할 경우 잘 봐 달라는 취지로 건네주는 액면금 100만 원짜리 자기앞수표 3장을 교부받았다. 검사 丙은 이 사실을 수사한 후 甲을 뇌물수수죄로 기소하였다. 丙은 이 사건 공소제기 후 공판절차가 진행 중 수소법원이 아닌 영장전담 판사 A로부터 압수·수색영장을 발부받아 그 집행을 통하여 확보한 위 자기앞수표 사본 3장과 이를 기초로 작성한 수사보고서를 증거로 제출하였다. 한편, 甲은 공판관여 참여주사 丁에게 형량을 감경하여 달라는 청탁과 함께 현금 100만 원을 교부하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲으로부터 현금 100만 원을 수령한 법원주사 丁에게 뇌물수수죄가 성립한다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303304,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 33,
+      "choice": "④",
+      "topic": "뇌물",
+      "q": "甲이 유죄로 인정되면, 甲이 乙로부터 받은 자기앞수표를 그대로 보관하고 있다가 乙에게 반환한 경우에 乙로부터 몰수 또는 추징을 해야 한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 33번 ④"
+      ],
+      "refs": [
+        "변시3 33번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 33번 ④ 지문은 정답표상 O입니다.",
+      "ref": "형법 제136조",
+      "art": "제136조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공정거래위원회 소속 공무원 甲은 乙로부터 불공정거래행위 신고나 관련 처리업무를 할 경우 잘 봐 달라는 취지로 건네주는 액면금 100만 원짜리 자기앞수표 3장을 교부받았다. 검사 丙은 이 사실을 수사한 후 甲을 뇌물수수죄로 기소하였다. 丙은 이 사건 공소제기 후 공판절차가 진행 중 수소법원이 아닌 영장전담 판사 A로부터 압수·수색영장을 발부받아 그 집행을 통하여 확보한 위 자기앞수표 사본 3장과 이를 기초로 작성한 수사보고서를 증거로 제출하였다. 한편, 甲은 공판관여 참여주사 丁에게 형량을 감경하여 달라는 청탁과 함께 현금 100만 원을 교부하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲으로부터 현금 100만 원을 수령한 법원주사 丁에게 뇌물수수죄가 성립한다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303305,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 33,
+      "choice": "⑤",
+      "topic": "뇌물",
+      "q": "丙이 영장전담 판사로부터 발부받은 압수·수색영장에 의하여 압수한 자기앞수표 사본 3장과 위 수사보고서는 증거능력이 없다. ※ 다음 사례에 관한 아래 각 문항(문 34. ~ 문 35.)에 답하시오.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 33번 ⑤"
+      ],
+      "refs": [
+        "변시3 33번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 33번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "형법 제136조",
+      "art": "제136조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공정거래위원회 소속 공무원 甲은 乙로부터 불공정거래행위 신고나 관련 처리업무를 할 경우 잘 봐 달라는 취지로 건네주는 액면금 100만 원짜리 자기앞수표 3장을 교부받았다. 검사 丙은 이 사실을 수사한 후 甲을 뇌물수수죄로 기소하였다. 丙은 이 사건 공소제기 후 공판절차가 진행 중 수소법원이 아닌 영장전담 판사 A로부터 압수·수색영장을 발부받아 그 집행을 통하여 확보한 위 자기앞수표 사본 3장과 이를 기초로 작성한 수사보고서를 증거로 제출하였다. 한편, 甲은 공판관여 참여주사 丁에게 형량을 감경하여 달라는 청탁과 함께 현금 100만 원을 교부하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲으로부터 현금 100만 원을 수령한 법원주사 丁에게 뇌물수수죄가 성립한다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303401,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 34,
+      "choice": "①",
+      "topic": "미수",
+      "q": "甲이 손가방을 낚아채어 달아나면서 피해자에게 상해를 입힌 것은 강도치상죄에 해당하지 아니한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 34번 ①"
+      ],
+      "refs": [
+        "변시3 34번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 34번 ① 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "위 사례에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "강도예비의 공소사실과 「폭력행위 등 처벌에 관한 법률」 제7조 위반의 공소사실은 그 동일성의 범위를 벗어나므로 제1심법원은 공소장변경을 허가하여서는 아니 된다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303402,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 34,
+      "choice": "②",
+      "topic": "미수",
+      "q": "만일 피해자가 넘어진 상태에서 손가방을 빼앗기지 않으려고 계속 붙잡고 매달리자 甲이 이 상태로 피해자를 10여m 끌고 가 피해자에게 상해를 입힌 경우라면 甲은 강도치상죄로 처벌될 수 있다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 34번 ②"
+      ],
+      "refs": [
+        "변시3 34번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 34번 ② 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "위 사례에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "강도예비의 공소사실과 「폭력행위 등 처벌에 관한 법률」 제7조 위반의 공소사실은 그 동일성의 범위를 벗어나므로 제1심법원은 공소장변경을 허가하여서는 아니 된다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303403,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 34,
+      "choice": "③",
+      "topic": "미수",
+      "q": "甲의 절도미수의 점은 무죄이다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 34번 ③"
+      ],
+      "refs": [
+        "변시3 34번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 34번 ③ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "위 사례에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "강도예비의 공소사실과 「폭력행위 등 처벌에 관한 법률」 제7조 위반의 공소사실은 그 동일성의 범위를 벗어나므로 제1심법원은 공소장변경을 허가하여서는 아니 된다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303404,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 34,
+      "choice": "④",
+      "topic": "미수",
+      "q": "강도예비 공소사실에 대하여는 甲에게 단순히 ‘준강도’할 목적이 있음에 그쳤으므로 강도예비죄로 처벌할 수 없다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 34번 ④"
+      ],
+      "refs": [
+        "변시3 34번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 34번 ④ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "위 사례에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "강도예비의 공소사실과 「폭력행위 등 처벌에 관한 법률」 제7조 위반의 공소사실은 그 동일성의 범위를 벗어나므로 제1심법원은 공소장변경을 허가하여서는 아니 된다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303405,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 34,
+      "choice": "⑤",
+      "topic": "미수",
+      "q": "강도예비의 공소사실과 「폭력행위 등 처벌에 관한 법률」 제7조 위반의 공소사실은 그 동일성의 범위를 벗어나므로 제1심법원은 공소장변경을 허가하여서는 아니 된다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 34번 ⑤"
+      ],
+      "refs": [
+        "변시3 34번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 34번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "위 사례에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "강도예비의 공소사실과 「폭력행위 등 처벌에 관한 법률」 제7조 위반의 공소사실은 그 동일성의 범위를 벗어나므로 제1심법원은 공소장변경을 허가하여서는 아니 된다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 303501,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 35,
+      "choice": "①",
+      "topic": "절도",
+      "q": "부정기형의 선고 대상인 소년인지 여부는 행위시가 아니라 재판시를 기준으로 하므로 항소심법원은 甲에게 정기형을 선고하여야 한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 35번 ①"
+      ],
+      "refs": [
+        "변시3 35번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 35번 ① 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "위 사례에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "항소심법원이 甲에게 정기형을 선고하여야 한다는 결론이 맞다면 제1심법원에서 선고된 장기형보다 낮은 징역 3년을 선고하는 것은 불이익변경금지의 원칙에 반하지 않는다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303502,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 35,
+      "choice": "②",
+      "topic": "절도",
+      "q": "항소심법원이 甲에게 정기형을 선고하여야 한다는 결론이 맞다면 제1심법원에서 선고된 장기형보다 낮은 징역 3년을 선고하는 것은 불이익변경금지의 원칙에 반하지 않는다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 35번 ②"
+      ],
+      "refs": [
+        "변시3 35번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 35번 ② 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "위 사례에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "항소심법원이 甲에게 정기형을 선고하여야 한다는 결론이 맞다면 제1심법원에서 선고된 장기형보다 낮은 징역 3년을 선고하는 것은 불이익변경금지의 원칙에 반하지 않는다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303503,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 35,
+      "choice": "③",
+      "topic": "절도",
+      "q": "법원은 공소장변경이 없어도 강도치상죄의 공소사실을 절도죄로 처벌할 수 있다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 35번 ③"
+      ],
+      "refs": [
+        "변시3 35번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 35번 ③ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "위 사례에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "항소심법원이 甲에게 정기형을 선고하여야 한다는 결론이 맞다면 제1심법원에서 선고된 장기형보다 낮은 징역 3년을 선고하는 것은 불이익변경금지의 원칙에 반하지 않는다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 303504,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 35,
+      "choice": "④",
+      "topic": "절도",
+      "q": "甲에게 강도치상죄를 인정하지 않고 절도죄를 인정한 법원의 결론이 맞다면 법원은 판결이유에서 강도치상의 점이 무죄임을 판단하여야 한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 35번 ④"
+      ],
+      "refs": [
+        "변시3 35번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 35번 ④ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "위 사례에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "항소심법원이 甲에게 정기형을 선고하여야 한다는 결론이 맞다면 제1심법원에서 선고된 장기형보다 낮은 징역 3년을 선고하는 것은 불이익변경금지의 원칙에 반하지 않는다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303505,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 35,
+      "choice": "⑤",
+      "topic": "절도",
+      "q": "甲은 항소심판결 선고시 집행유예기간이 경과하였으므로 항소심법원이 다시 집행유예를 선고하더라도 위법하지 않다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 35번 ⑤"
+      ],
+      "refs": [
+        "변시3 35번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 35번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "위 사례에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "항소심법원이 甲에게 정기형을 선고하여야 한다는 결론이 맞다면 제1심법원에서 선고된 장기형보다 낮은 징역 3년을 선고하는 것은 불이익변경금지의 원칙에 반하지 않는다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303601,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 36,
+      "choice": "①",
+      "topic": "수사",
+      "q": "甲이 허위 주장을 하거나 허위 증거를 제출하여 가압류결정을 받은 것은 법원의 구체적이고 현실적인 직무집행을 방해한 것이므로 위계에 의한 공무집행방해죄가 성립한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 36번 ①"
+      ],
+      "refs": [
+        "변시3 36번 ①"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 36번 ① 지문은 정답표상 X입니다.",
+      "ref": "형법 제225조",
+      "art": "제225조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 乙 명의의 차용증을 위조한 후 乙 소유 부동산에 대한 가압류신청을 하여 법원으로부터 가압류결정을 받았다. 이에 대하여 乙의 고소로 개시된 수사절차에서, 乙이 미국에 거주하는 A로부터 위 부동산을 1억 원에 매수하였으나 차후 양도소득세를 적게 낼 목적으로 1억 5,000만 원에 매수한 것인 양 신고하여 부동산등기부에 매매가액이 1억 5,000만 원으로 기재되게 하고 소유권이전등기를 마친 사실이 확인되었다. 미국에 있는 A와의 전화통화 내용을 문답 형식으로 기재하고 검찰주사만 기명날인한 수사보고서를 검사는 공소제기 후 증거로 제출하였다. 한편, 甲의 범행을 알고 있는 B가 법정에서 허위증언을 하자 검사가 B를 소환하여 추궁 끝에 법정증언을 번복하는 취지의 진술조서를 작성하여 이를 증거로 제출하였다. 이에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲이 본안소송을 제기하지 아니한 채 가압류를 신청한 것만으로는 사기죄의 실행에 착수하였다고 할 수 없다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303602,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 36,
+      "choice": "②",
+      "topic": "수사",
+      "q": "甲이 본안소송을 제기하지 아니한 채 가압류를 신청한 것만으로는 사기죄의 실행에 착수하였다고 할 수 없다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 36번 ②"
+      ],
+      "refs": [
+        "변시3 36번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 36번 ② 지문은 정답표상 O입니다.",
+      "ref": "형법 제225조",
+      "art": "제225조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 乙 명의의 차용증을 위조한 후 乙 소유 부동산에 대한 가압류신청을 하여 법원으로부터 가압류결정을 받았다. 이에 대하여 乙의 고소로 개시된 수사절차에서, 乙이 미국에 거주하는 A로부터 위 부동산을 1억 원에 매수하였으나 차후 양도소득세를 적게 낼 목적으로 1억 5,000만 원에 매수한 것인 양 신고하여 부동산등기부에 매매가액이 1억 5,000만 원으로 기재되게 하고 소유권이전등기를 마친 사실이 확인되었다. 미국에 있는 A와의 전화통화 내용을 문답 형식으로 기재하고 검찰주사만 기명날인한 수사보고서를 검사는 공소제기 후 증거로 제출하였다. 한편, 甲의 범행을 알고 있는 B가 법정에서 허위증언을 하자 검사가 B를 소환하여 추궁 끝에 법정증언을 번복하는 취지의 진술조서를 작성하여 이를 증거로 제출하였다. 이에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲이 본안소송을 제기하지 아니한 채 가압류를 신청한 것만으로는 사기죄의 실행에 착수하였다고 할 수 없다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303603,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 36,
+      "choice": "③",
+      "topic": "수사",
+      "q": "乙이 행정기관에 거래가액을 거짓으로 신고하여 신고필증을 받은 뒤 이를 기초로 사실과 다른 내용의 거래가액이 부동산등기부에 등재되도록 한 것은 공전자기록등불실기재죄 및 불실기재공전자기록등행사죄에 해당한다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 36번 ③"
+      ],
+      "refs": [
+        "변시3 36번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 36번 ③ 지문은 정답표상 X입니다.",
+      "ref": "형법 제225조",
+      "art": "제225조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 乙 명의의 차용증을 위조한 후 乙 소유 부동산에 대한 가압류신청을 하여 법원으로부터 가압류결정을 받았다. 이에 대하여 乙의 고소로 개시된 수사절차에서, 乙이 미국에 거주하는 A로부터 위 부동산을 1억 원에 매수하였으나 차후 양도소득세를 적게 낼 목적으로 1억 5,000만 원에 매수한 것인 양 신고하여 부동산등기부에 매매가액이 1억 5,000만 원으로 기재되게 하고 소유권이전등기를 마친 사실이 확인되었다. 미국에 있는 A와의 전화통화 내용을 문답 형식으로 기재하고 검찰주사만 기명날인한 수사보고서를 검사는 공소제기 후 증거로 제출하였다. 한편, 甲의 범행을 알고 있는 B가 법정에서 허위증언을 하자 검사가 B를 소환하여 추궁 끝에 법정증언을 번복하는 취지의 진술조서를 작성하여 이를 증거로 제출하였다. 이에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲이 본안소송을 제기하지 아니한 채 가압류를 신청한 것만으로는 사기죄의 실행에 착수하였다고 할 수 없다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303604,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 36,
+      "choice": "④",
+      "topic": "수사",
+      "q": "위 수사보고서는 A가 외국거주로 인하여 공판기일에 진술할 수 없으므로 수사보고서를 작성한 검찰주사가 특히 신빙할 수 있는 상태하에서 작성한 것임을 증명하면 증거로 할 수 있다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 36번 ④"
+      ],
+      "refs": [
+        "변시3 36번 ④"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 36번 ④ 지문은 정답표상 X입니다.",
+      "ref": "형법 제225조",
+      "art": "제225조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 乙 명의의 차용증을 위조한 후 乙 소유 부동산에 대한 가압류신청을 하여 법원으로부터 가압류결정을 받았다. 이에 대하여 乙의 고소로 개시된 수사절차에서, 乙이 미국에 거주하는 A로부터 위 부동산을 1억 원에 매수하였으나 차후 양도소득세를 적게 낼 목적으로 1억 5,000만 원에 매수한 것인 양 신고하여 부동산등기부에 매매가액이 1억 5,000만 원으로 기재되게 하고 소유권이전등기를 마친 사실이 확인되었다. 미국에 있는 A와의 전화통화 내용을 문답 형식으로 기재하고 검찰주사만 기명날인한 수사보고서를 검사는 공소제기 후 증거로 제출하였다. 한편, 甲의 범행을 알고 있는 B가 법정에서 허위증언을 하자 검사가 B를 소환하여 추궁 끝에 법정증언을 번복하는 취지의 진술조서를 작성하여 이를 증거로 제출하였다. 이에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲이 본안소송을 제기하지 아니한 채 가압류를 신청한 것만으로는 사기죄의 실행에 착수하였다고 할 수 없다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303605,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 36,
+      "choice": "⑤",
+      "topic": "수사",
+      "q": "B가 다시 법정에 출석하여 위 진술조서의 진정성립을 인정하고 甲에게 반대신문의 기회가 부여되었다면 그 진술조서는 증거능력이 있다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 36번 ⑤"
+      ],
+      "refs": [
+        "변시3 36번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 36번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "형법 제225조",
+      "art": "제225조",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 乙 명의의 차용증을 위조한 후 乙 소유 부동산에 대한 가압류신청을 하여 법원으로부터 가압류결정을 받았다. 이에 대하여 乙의 고소로 개시된 수사절차에서, 乙이 미국에 거주하는 A로부터 위 부동산을 1억 원에 매수하였으나 차후 양도소득세를 적게 낼 목적으로 1억 5,000만 원에 매수한 것인 양 신고하여 부동산등기부에 매매가액이 1억 5,000만 원으로 기재되게 하고 소유권이전등기를 마친 사실이 확인되었다. 미국에 있는 A와의 전화통화 내용을 문답 형식으로 기재하고 검찰주사만 기명날인한 수사보고서를 검사는 공소제기 후 증거로 제출하였다. 한편, 甲의 범행을 알고 있는 B가 법정에서 허위증언을 하자 검사가 B를 소환하여 추궁 끝에 법정증언을 번복하는 취지의 진술조서를 작성하여 이를 증거로 제출하였다. 이에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲이 본안소송을 제기하지 아니한 채 가압류를 신청한 것만으로는 사기죄의 실행에 착수하였다고 할 수 없다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303701,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 37,
+      "choice": "①",
+      "topic": "문서위조",
+      "q": "컴퓨터 모니터 화면에 나타난 B 명의의 주민등록증 이미지는 계속적으로 화면에 고정된 것으로 볼 수 없어 문서에 관한 죄의 객체인 문서에 해당하지 않는다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 37번 ①"
+      ],
+      "refs": [
+        "변시3 37번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 37번 ① 지문은 정답표상 O입니다.",
+      "ref": "형법 제225조",
+      "art": "제225조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 A로부터 B 명의의 주민등록증을 만들어 달라는 의뢰를 받고, 인터넷 포털사이트, 포토샵 프로그램 등을 이용하여 발행인이 서울 X구청장으로 된 주민등록증 이미지 파일을 만들어 A가 요청한 이메일에 첨부하여 전송하는 등 월 10회 이상 주민등록증 등 공문서를 위조해 오고 있다. 한편, 甲이 위와 같이 공문서를 위조한다는 제보를 듣고 수사를 개시한 경찰관 乙은 甲의 컴퓨터에 저장된 문서위조와 관련된 증거를 입수하기 위하여 법원으로부터 압수·수색영장을 발부받아 영장 유효기간 내에 영장을 집행하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "乙이 영장집행 결과 甲의 컴퓨터 하드디스크에서 문서위조 외에 관세법위반에 관한 자료를 새로 발견하여 출력하고 이를 甲에게 제시하여 甲으로부터 자백을 받았다면, 이 출력물과 자백은 위법하게 수집한 증거로서 증거능력이 없으므로, 피고인이 법정에서 변호인의 조력을 받아 다른 증거관계를 고려하여 관세법위반 사실을 자백하더라도 이 역시 위법수집증거로서 증거능력을 가질 수 없다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303702,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 37,
+      "choice": "②",
+      "topic": "문서위조",
+      "q": "甲이 A에게 전송한 B 명의의 주민등록증 이미지 파일은 시각적 방법에 의하여 이해할 수 있는 것이 아니므로 문서에 관한 죄의 객체인 문서에 해당하지 않는다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 37번 ②"
+      ],
+      "refs": [
+        "변시3 37번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 37번 ② 지문은 정답표상 O입니다.",
+      "ref": "형법 제225조",
+      "art": "제225조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 A로부터 B 명의의 주민등록증을 만들어 달라는 의뢰를 받고, 인터넷 포털사이트, 포토샵 프로그램 등을 이용하여 발행인이 서울 X구청장으로 된 주민등록증 이미지 파일을 만들어 A가 요청한 이메일에 첨부하여 전송하는 등 월 10회 이상 주민등록증 등 공문서를 위조해 오고 있다. 한편, 甲이 위와 같이 공문서를 위조한다는 제보를 듣고 수사를 개시한 경찰관 乙은 甲의 컴퓨터에 저장된 문서위조와 관련된 증거를 입수하기 위하여 법원으로부터 압수·수색영장을 발부받아 영장 유효기간 내에 영장을 집행하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "乙이 영장집행 결과 甲의 컴퓨터 하드디스크에서 문서위조 외에 관세법위반에 관한 자료를 새로 발견하여 출력하고 이를 甲에게 제시하여 甲으로부터 자백을 받았다면, 이 출력물과 자백은 위법하게 수집한 증거로서 증거능력이 없으므로, 피고인이 법정에서 변호인의 조력을 받아 다른 증거관계를 고려하여 관세법위반 사실을 자백하더라도 이 역시 위법수집증거로서 증거능력을 가질 수 없다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303703,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 37,
+      "choice": "③",
+      "topic": "문서위조",
+      "q": "만일 甲이 C의 의뢰로 미리 주워 가지고 있던 D의 공무원신분증에 E의 사진을 정교하게 붙이는 방법으로 일반인이 공무원신분증이라고 믿을만한 외관을 갖춘 다음 이를 스캐너로 읽어 들여 이미지화하고, 그 파일을 의뢰인 C에게 전송하여 C로 하여금 컴퓨터 화면상에서 그 이미지를 보게 하였다면 그 행위는 위조공문서행사죄에 해당하지 않는다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 37번 ③"
+      ],
+      "refs": [
+        "변시3 37번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 37번 ③ 지문은 정답표상 O입니다.",
+      "ref": "형법 제225조",
+      "art": "제225조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 A로부터 B 명의의 주민등록증을 만들어 달라는 의뢰를 받고, 인터넷 포털사이트, 포토샵 프로그램 등을 이용하여 발행인이 서울 X구청장으로 된 주민등록증 이미지 파일을 만들어 A가 요청한 이메일에 첨부하여 전송하는 등 월 10회 이상 주민등록증 등 공문서를 위조해 오고 있다. 한편, 甲이 위와 같이 공문서를 위조한다는 제보를 듣고 수사를 개시한 경찰관 乙은 甲의 컴퓨터에 저장된 문서위조와 관련된 증거를 입수하기 위하여 법원으로부터 압수·수색영장을 발부받아 영장 유효기간 내에 영장을 집행하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "乙이 영장집행 결과 甲의 컴퓨터 하드디스크에서 문서위조 외에 관세법위반에 관한 자료를 새로 발견하여 출력하고 이를 甲에게 제시하여 甲으로부터 자백을 받았다면, 이 출력물과 자백은 위법하게 수집한 증거로서 증거능력이 없으므로, 피고인이 법정에서 변호인의 조력을 받아 다른 증거관계를 고려하여 관세법위반 사실을 자백하더라도 이 역시 위법수집증거로서 증거능력을 가질 수 없다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303704,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 37,
+      "choice": "④",
+      "topic": "문서위조",
+      "q": "전자정보에 대한 압수·수색영장의 집행에 있어서는 원칙적으로 영장발부의 사유로 된 혐의사실과 관련된 부분만을 문서 출력물로 수집하거나 수사기관이 휴대한 저장매체에 해당 파일을 복제하는 방식으로 이루어져야 한다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 37번 ④"
+      ],
+      "refs": [
+        "변시3 37번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 37번 ④ 지문은 정답표상 O입니다.",
+      "ref": "형법 제225조",
+      "art": "제225조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 A로부터 B 명의의 주민등록증을 만들어 달라는 의뢰를 받고, 인터넷 포털사이트, 포토샵 프로그램 등을 이용하여 발행인이 서울 X구청장으로 된 주민등록증 이미지 파일을 만들어 A가 요청한 이메일에 첨부하여 전송하는 등 월 10회 이상 주민등록증 등 공문서를 위조해 오고 있다. 한편, 甲이 위와 같이 공문서를 위조한다는 제보를 듣고 수사를 개시한 경찰관 乙은 甲의 컴퓨터에 저장된 문서위조와 관련된 증거를 입수하기 위하여 법원으로부터 압수·수색영장을 발부받아 영장 유효기간 내에 영장을 집행하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "乙이 영장집행 결과 甲의 컴퓨터 하드디스크에서 문서위조 외에 관세법위반에 관한 자료를 새로 발견하여 출력하고 이를 甲에게 제시하여 甲으로부터 자백을 받았다면, 이 출력물과 자백은 위법하게 수집한 증거로서 증거능력이 없으므로, 피고인이 법정에서 변호인의 조력을 받아 다른 증거관계를 고려하여 관세법위반 사실을 자백하더라도 이 역시 위법수집증거로서 증거능력을 가질 수 없다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 303705,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형사소송법",
+      "question_no": 37,
+      "choice": "⑤",
+      "topic": "문서위조",
+      "q": "乙이 영장집행 결과 甲의 컴퓨터 하드디스크에서 문서위조 외에 관세법위반에 관한 자료를 새로 발견하여 출력하고 이를 甲에게 제시하여 甲으로부터 자백을 받았다면, 이 출력물과 자백은 위법하게 수집한 증거로서 증거능력이 없으므로, 피고인이 법정에서 변호인의 조력을 받아 다른 증거관계를 고려하여 관세법위반 사실을 자백하더라도 이 역시 위법수집증거로서 증거능력을 가질 수 없다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 37번 ⑤"
+      ],
+      "refs": [
+        "변시3 37번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 37번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "형법 제225조",
+      "art": "제225조",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 A로부터 B 명의의 주민등록증을 만들어 달라는 의뢰를 받고, 인터넷 포털사이트, 포토샵 프로그램 등을 이용하여 발행인이 서울 X구청장으로 된 주민등록증 이미지 파일을 만들어 A가 요청한 이메일에 첨부하여 전송하는 등 월 10회 이상 주민등록증 등 공문서를 위조해 오고 있다. 한편, 甲이 위와 같이 공문서를 위조한다는 제보를 듣고 수사를 개시한 경찰관 乙은 甲의 컴퓨터에 저장된 문서위조와 관련된 증거를 입수하기 위하여 법원으로부터 압수·수색영장을 발부받아 영장 유효기간 내에 영장을 집행하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "乙이 영장집행 결과 甲의 컴퓨터 하드디스크에서 문서위조 외에 관세법위반에 관한 자료를 새로 발견하여 출력하고 이를 甲에게 제시하여 甲으로부터 자백을 받았다면, 이 출력물과 자백은 위법하게 수집한 증거로서 증거능력이 없으므로, 피고인이 법정에서 변호인의 조력을 받아 다른 증거관계를 고려하여 관세법위반 사실을 자백하더라도 이 역시 위법수집증거로서 증거능력을 가질 수 없다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303801,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 38,
+      "choice": "①",
+      "topic": "폭행",
+      "q": "甲이 차용금에 대한 변제의사 및 능력이 없고, 처음부터 채권양도통지를 할 생각 없이 乙을 속이기 위하여 담보로 채권양도를 하겠다고 한 경우라면 사기죄와 횡령죄의 양 죄가 성립하고, 양 죄는 상상적 경합범의 관계에 있다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 38번 ①"
+      ],
+      "refs": [
+        "변시3 38번 ①"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 38번 ① 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 乙로부터 5,000만 원을 차용하면서 그 담보로 甲의 丙에 대한 5,000만 원 임대차보증금 반환채권을 乙에게 양도하기로 하고 乙과 채권양도계약을 체결하였다. 그런데 甲은 丙에게 채권양도통지를 하지 않고 있다가 채권양도 사실을 모르고 있던 丙으로부터 5,000만 원을 지급받아 이를 임의로 소비하였다. 이를 알게 된 乙은 甲이 운영하는 성매매업소에 찾아가 자신이 휴대한 회칼로 甲과 손님들을 위협한 후 야구방망이로 甲을 폭행하였다. 사법경찰관은 “乙의 주거지인 3층 옥탑방에 보관 중인 야구방망이 등 범행도구”가 압수·수색할 장소와 물건으로 기재된 압수·수색영장을 집행하여 1층 주인집 거실에서 발견된 주인 소유의 야구방망이를 압수하였다. 며칠 후 사법경찰관은 乙의 자동차에서 위 회칼을 발견하여 甲으로부터 범행도구임을 확인 받고 甲으로부터 임의제출을 받은 것으로 압수조서를 작성하고 이를 압수하였다. 이에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "사법경찰관이 위 압수·수색영장에 의하여 야구방망이를 압수한 것은 위법하다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303802,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 38,
+      "choice": "②",
+      "topic": "폭행",
+      "q": "乙에게는 甲에 대한 업무방해죄를 인정할 수 있다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 38번 ②"
+      ],
+      "refs": [
+        "변시3 38번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 38번 ② 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 乙로부터 5,000만 원을 차용하면서 그 담보로 甲의 丙에 대한 5,000만 원 임대차보증금 반환채권을 乙에게 양도하기로 하고 乙과 채권양도계약을 체결하였다. 그런데 甲은 丙에게 채권양도통지를 하지 않고 있다가 채권양도 사실을 모르고 있던 丙으로부터 5,000만 원을 지급받아 이를 임의로 소비하였다. 이를 알게 된 乙은 甲이 운영하는 성매매업소에 찾아가 자신이 휴대한 회칼로 甲과 손님들을 위협한 후 야구방망이로 甲을 폭행하였다. 사법경찰관은 “乙의 주거지인 3층 옥탑방에 보관 중인 야구방망이 등 범행도구”가 압수·수색할 장소와 물건으로 기재된 압수·수색영장을 집행하여 1층 주인집 거실에서 발견된 주인 소유의 야구방망이를 압수하였다. 며칠 후 사법경찰관은 乙의 자동차에서 위 회칼을 발견하여 甲으로부터 범행도구임을 확인 받고 甲으로부터 임의제출을 받은 것으로 압수조서를 작성하고 이를 압수하였다. 이에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "사법경찰관이 위 압수·수색영장에 의하여 야구방망이를 압수한 것은 위법하다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303803,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 38,
+      "choice": "③",
+      "topic": "폭행",
+      "q": "乙이 甲과 손님을 위협, 폭행한 행위는 甲에 대한 업무방해의 수단이 되었으므로 이 폭행, 협박은 업무방해죄의 불가벌적 수반행위로 업무방해죄에 흡수된다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 38번 ③"
+      ],
+      "refs": [
+        "변시3 38번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 38번 ③ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 乙로부터 5,000만 원을 차용하면서 그 담보로 甲의 丙에 대한 5,000만 원 임대차보증금 반환채권을 乙에게 양도하기로 하고 乙과 채권양도계약을 체결하였다. 그런데 甲은 丙에게 채권양도통지를 하지 않고 있다가 채권양도 사실을 모르고 있던 丙으로부터 5,000만 원을 지급받아 이를 임의로 소비하였다. 이를 알게 된 乙은 甲이 운영하는 성매매업소에 찾아가 자신이 휴대한 회칼로 甲과 손님들을 위협한 후 야구방망이로 甲을 폭행하였다. 사법경찰관은 “乙의 주거지인 3층 옥탑방에 보관 중인 야구방망이 등 범행도구”가 압수·수색할 장소와 물건으로 기재된 압수·수색영장을 집행하여 1층 주인집 거실에서 발견된 주인 소유의 야구방망이를 압수하였다. 며칠 후 사법경찰관은 乙의 자동차에서 위 회칼을 발견하여 甲으로부터 범행도구임을 확인 받고 甲으로부터 임의제출을 받은 것으로 압수조서를 작성하고 이를 압수하였다. 이에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "사법경찰관이 위 압수·수색영장에 의하여 야구방망이를 압수한 것은 위법하다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303804,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 38,
+      "choice": "④",
+      "topic": "폭행",
+      "q": "사법경찰관이 위 압수·수색영장에 의하여 야구방망이를 압수한 것은 위법하다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 38번 ④"
+      ],
+      "refs": [
+        "변시3 38번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 38번 ④ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 乙로부터 5,000만 원을 차용하면서 그 담보로 甲의 丙에 대한 5,000만 원 임대차보증금 반환채권을 乙에게 양도하기로 하고 乙과 채권양도계약을 체결하였다. 그런데 甲은 丙에게 채권양도통지를 하지 않고 있다가 채권양도 사실을 모르고 있던 丙으로부터 5,000만 원을 지급받아 이를 임의로 소비하였다. 이를 알게 된 乙은 甲이 운영하는 성매매업소에 찾아가 자신이 휴대한 회칼로 甲과 손님들을 위협한 후 야구방망이로 甲을 폭행하였다. 사법경찰관은 “乙의 주거지인 3층 옥탑방에 보관 중인 야구방망이 등 범행도구”가 압수·수색할 장소와 물건으로 기재된 압수·수색영장을 집행하여 1층 주인집 거실에서 발견된 주인 소유의 야구방망이를 압수하였다. 며칠 후 사법경찰관은 乙의 자동차에서 위 회칼을 발견하여 甲으로부터 범행도구임을 확인 받고 甲으로부터 임의제출을 받은 것으로 압수조서를 작성하고 이를 압수하였다. 이에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "사법경찰관이 위 압수·수색영장에 의하여 야구방망이를 압수한 것은 위법하다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 303805,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "형법",
+      "question_no": 38,
+      "choice": "⑤",
+      "topic": "폭행",
+      "q": "회칼은 甲이 임의로 제출한 물건이므로 사법경찰관이 영장없이 이를 압수한 것은 적법하다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 38번 ⑤"
+      ],
+      "refs": [
+        "변시3 38번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 38번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 乙로부터 5,000만 원을 차용하면서 그 담보로 甲의 丙에 대한 5,000만 원 임대차보증금 반환채권을 乙에게 양도하기로 하고 乙과 채권양도계약을 체결하였다. 그런데 甲은 丙에게 채권양도통지를 하지 않고 있다가 채권양도 사실을 모르고 있던 丙으로부터 5,000만 원을 지급받아 이를 임의로 소비하였다. 이를 알게 된 乙은 甲이 운영하는 성매매업소에 찾아가 자신이 휴대한 회칼로 甲과 손님들을 위협한 후 야구방망이로 甲을 폭행하였다. 사법경찰관은 “乙의 주거지인 3층 옥탑방에 보관 중인 야구방망이 등 범행도구”가 압수·수색할 장소와 물건으로 기재된 압수·수색영장을 집행하여 1층 주인집 거실에서 발견된 주인 소유의 야구방망이를 압수하였다. 며칠 후 사법경찰관은 乙의 자동차에서 위 회칼을 발견하여 甲으로부터 범행도구임을 확인 받고 甲으로부터 임의제출을 받은 것으로 압수조서를 작성하고 이를 압수하였다. 이에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "사법경찰관이 위 압수·수색영장에 의하여 야구방망이를 압수한 것은 위법하다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303901,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 39,
+      "choice": "ㄱ",
+      "topic": "명의신탁",
+      "q": "甲은 발행일이 백지인 수표 1장을 위조하여 乙에게 교부하였다. 그런데 이 수표가 위조된 사실을 알고 있는 乙은 이를 자신의 채무를 변제하기 위하여 사용하였다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 39번 ㄱ"
+      ],
+      "refs": [
+        "변시3 39번 ㄱ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 39번 ㄱ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "다음 사례에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "사안 ㄷ.에서 위 자동차에 대한 실질적인 소유권은 A에게 있으므로 戊와 己는 절도죄의 공동정범의 죄책을 진다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303902,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 39,
+      "choice": "ㄴ",
+      "topic": "명의신탁",
+      "q": "양도담보권설정자인 채무자가 점유개정의 방식으로 담보목적물인 동산을 점유하고 있는 상태에서 양도담보권자인 채권자 丙이 丁에게 담보목적물을 매각하고 목적물반환청구권을 양도하여 丁이 임의로 이를 가져가게 하였다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 39번 ㄴ"
+      ],
+      "refs": [
+        "변시3 39번 ㄴ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 39번 ㄴ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "다음 사례에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "사안 ㄷ.에서 위 자동차에 대한 실질적인 소유권은 A에게 있으므로 戊와 己는 절도죄의 공동정범의 죄책을 진다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 303903,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 39,
+      "choice": "ㄷ",
+      "topic": "명의신탁",
+      "q": "A가 자동차를 구입하여 장애인에 대한 면세 혜택 등의 적용을 받기 위해 戊의 명의를 빌려 등록하였다. 명의수탁자 戊와 그의 딸 己는 공모하여, 戊는 己에게 자동차이전등록서류를 교부하고, 己는 그 자동차를 명의신탁자 A 몰래 가져와 이를 다른 사람에게 처분하였다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 39번 ㄷ"
+      ],
+      "refs": [
+        "변시3 39번 ㄷ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 39번 ㄷ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "다음 사례에 관한 설명 중 옳은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "사안 ㄷ.에서 위 자동차에 대한 실질적인 소유권은 A에게 있으므로 戊와 己는 절도죄의 공동정범의 죄책을 진다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 304001,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 40,
+      "choice": "ㄱ",
+      "topic": "국민참여재판",
+      "q": "甲은 A로부터 직접 소유권이전등기를 받는 형식으로 7억 원 상당의 A 소유 아파트를 명의수탁받아 보관하던 중 명의신탁 사실을 알고 있는 乙에게 매도하였다.",
+      "a": "X",
+      "tag": "변시3",
+      "src": [
+        "변시3 40번 ㄱ"
+      ],
+      "refs": [
+        "변시3 40번 ㄱ"
+      ],
+      "trap": "함정지문",
+      "why": "제3회 변호사시험 형사법 선택형 40번 ㄱ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "original_question": "검사는 甲, 乙에 대하여 아래 ㄱ, ㄴ 사실로 공소를 제기하였고, 甲과 乙은 국민참여재판을 원하고 있다. 아래 사례에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ. 사실과 관련하여 甲에 대하여 특정경제범죄가중처벌등에관한법률위반(횡령)죄가 성립한다면 乙도 甲의 범죄에 대한 공동정범이 성립한다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 304002,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 40,
+      "choice": "ㄴ",
+      "topic": "국민참여재판",
+      "q": "甲은 A가 사기에 이용하려고 한다는 사정을 알고서도 A의 부탁에 따라 자신의 명의로 농협은행 예금계좌를 개설하여 예금통장을 A에게 양도하였고, A는 X를 속여 X로 하여금 5,000만 원을 위 계좌로 송금하게 하였는데, 甲은 위 계좌로 송금된 돈 전액을 인출하였다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 40번 ㄴ"
+      ],
+      "refs": [
+        "변시3 40번 ㄴ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 40번 ㄴ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "original_question": "검사는 甲, 乙에 대하여 아래 ㄱ, ㄴ 사실로 공소를 제기하였고, 甲과 乙은 국민참여재판을 원하고 있다. 아래 사례에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ. 사실과 관련하여 甲에 대하여 특정경제범죄가중처벌등에관한법률위반(횡령)죄가 성립한다면 乙도 甲의 범죄에 대한 공동정범이 성립한다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 304003,
+      "round": 3,
+      "year": 2014,
+      "exam": "변호사시험",
+      "subject_group": "형사법",
+      "subject": "혼합형사법",
+      "question_no": 40,
+      "choice": "ㄷ",
+      "topic": "국민참여재판",
+      "q": "｢국민의 형사재판 참여에 관한 법률｣ 제8조는 피고인이 공소장 부본을 송달받은 날부터 7일 이내에 국민참여재판을 원하는지 여부에 관한 의사가 기재된 서면을 제출하도록 하고 있다. 그런데 甲, 乙은 공소장 부본을 송달받은 날부터 7일 이내에 국민참여재판을 원하는지 여부에 관한 의사확인서를 제출하지 못하였으나 그 후 제1회 공판기일 전에 국민참여재판 신청을 하였다.",
+      "a": "O",
+      "tag": "변시3",
+      "src": [
+        "변시3 40번 ㄷ"
+      ],
+      "refs": [
+        "변시3 40번 ㄷ"
+      ],
+      "trap": "정지문",
+      "why": "제3회 변호사시험 형사법 선택형 40번 ㄷ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "original_question": "검사는 甲, 乙에 대하여 아래 ㄱ, ㄴ 사실로 공소를 제기하였고, 甲과 乙은 국민참여재판을 원하고 있다. 아래 사례에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우에는 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "ㄱ. 사실과 관련하여 甲에 대하여 특정경제범죄가중처벌등에관한법률위반(횡령)죄가 성립한다면 乙도 甲의 범죄에 대한 공동정범이 성립한다.",
+      "needs_atomization": true
+    }
+  ],
+  "issues": [
+    {
+      "round": 3,
+      "question": 17,
+      "marker": "가",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "가벌성의 근거를 원인설정행위 자체에서 찾는 견해",
+      "selected_choice": "가-C-b, 나-A-a, 다-B-c"
+    },
+    {
+      "round": 3,
+      "question": 17,
+      "marker": "나",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "가벌성의 근거를 원인설정행위와 실행행위의 불가분적 관련에서 찾는 견해",
+      "selected_choice": "가-C-b, 나-A-a, 다-B-c"
+    }
+  ]
+}
