@@ -1,0 +1,32 @@
+{
+  "round": 6,
+  "year": 2017,
+  "source_path": "C:\\cowork\\lex-bank_변호사시험_전체_2026-06-16\\02_export\\mc_questions.csv",
+  "count": 183,
+  "subject_counts": {
+    "헌법": 91,
+    "혼합공법": 12,
+    "행정법": 80
+  },
+  "answer_counts": {
+    "O": 116,
+    "X": 67
+  },
+  "source_kind_counts": {
+    "choice_statement_negative": 85,
+    "choice_statement_positive": 20,
+    "explicit_ox_combination": 30,
+    "letter_combination_negative": 13,
+    "letter_combination_positive": 35
+  },
+  "issues": [
+    {
+      "round": 6,
+      "question": 28,
+      "marker": "",
+      "issue": "no_statement_extracted",
+      "source_kind": "no_statements",
+      "statement": "행정법상 신고에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "round": 7,
+  "year": 2018,
+  "source_path": "C:\\cowork\\lex-bank_변호사시험_전체_2026-06-16\\02_export\\mc_questions.csv",
+  "count": 194,
+  "subject_counts": {
+    "헌법": 94,
+    "혼합공법": 18,
+    "행정법": 82
+  },
+  "answer_counts": {
+    "X": 65,
+    "O": 129
+  },
+  "source_kind_counts": {
+    "letter_combination_positive": 38,
+    "choice_statement_negative": 105,
+    "explicit_ox_combination": 26,
+    "choice_statement_positive": 25
+  },
+  "issues": [
+    {
+      "round": 7,
+      "question": 22,
+      "marker": "ㄱ",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "동종사건에 관하여 이미 행정심판의 기각재결이 있은 때",
+      "selected_choice": "ㄱ, ㄹ, ㅁ, ㅂ"
+    },
+    {
+      "round": 7,
+      "question": 22,
+      "marker": "ㄷ",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "법령의 규정에 의한 행정심판기관이 의결 또는 재결을 하지 못할 사유가 있는 때",
+      "selected_choice": "ㄱ, ㄹ, ㅁ, ㅂ"
+    }
+  ]
+}

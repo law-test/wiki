@@ -1,0 +1,54 @@
+{
+  "round": 1,
+  "year": 2012,
+  "source_path": "C:\\cowork\\lex-bank_변호사시험_전체_2026-06-16\\02_export\\mc_questions.csv",
+  "count": 195,
+  "subject_counts": {
+    "헌법": 112,
+    "혼합공법": 18,
+    "행정법": 65
+  },
+  "answer_counts": {
+    "O": 127,
+    "X": 68
+  },
+  "source_kind_counts": {
+    "choice_statement_negative": 125,
+    "choice_statement_positive": 30,
+    "letter_combination_negative": 9,
+    "letter_combination_positive": 25,
+    "explicit_ox_combination": 6
+  },
+  "issues": [
+    {
+      "round": 1,
+      "question": 25,
+      "marker": "ㄴ",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "건축물대장 소관 행정청이 건축물대장의 용도변경신청을 거부하는 행위",
+      "selected_choice": "ㄱ, ㄴ, ㄷ, ㅁ"
+    },
+    {
+      "round": 1,
+      "question": 25,
+      "marker": "ㄷ",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "건축물대장 소관 행정청이 건축물에 관한 건축물대장을 직권말소한 행위",
+      "selected_choice": "ㄱ, ㄴ, ㄷ, ㅁ"
+    },
+    {
+      "round": 1,
+      "question": 25,
+      "marker": "ㄹ",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "과세관청이 행한 국세환급금결정 또는 이 결정을 구하는 신청에 대한 환급거부결정",
+      "selected_choice": "ㄱ, ㄴ, ㄷ, ㅁ"
+    }
+  ]
+}

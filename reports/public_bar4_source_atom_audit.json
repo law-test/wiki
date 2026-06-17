@@ -1,0 +1,74 @@
+{
+  "round": 4,
+  "year": 2015,
+  "source_path": "C:\\cowork\\lex-bank_변호사시험_전체_2026-06-16\\02_export\\mc_questions.csv",
+  "count": 175,
+  "subject_counts": {
+    "헌법": 89,
+    "혼합공법": 5,
+    "행정법": 81
+  },
+  "answer_counts": {
+    "X": 63,
+    "O": 112
+  },
+  "source_kind_counts": {
+    "letter_combination_positive": 40,
+    "choice_statement_positive": 25,
+    "choice_statement_negative": 85,
+    "explicit_ox_combination": 22,
+    "letter_combination_negative": 3
+  },
+  "issues": [
+    {
+      "round": 4,
+      "question": 14,
+      "marker": "①",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "국회의장 선거권자총수 중앙선거관리위원회위원장",
+      "selected_choice": "국회의장 선거권자총수 중앙선거관리위원회위원장"
+    },
+    {
+      "round": 4,
+      "question": 14,
+      "marker": "②",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "국회의장 선거권자총수 국회의장",
+      "selected_choice": "국회의장 선거권자총수 중앙선거관리위원회위원장"
+    },
+    {
+      "round": 4,
+      "question": 14,
+      "marker": "③",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "국회의장 유효투표총수 국회의장",
+      "selected_choice": "국회의장 선거권자총수 중앙선거관리위원회위원장"
+    },
+    {
+      "round": 4,
+      "question": 14,
+      "marker": "④",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "당선인 유효투표총수 중앙선거관리위원회위원장",
+      "selected_choice": "국회의장 선거권자총수 중앙선거관리위원회위원장"
+    },
+    {
+      "round": 4,
+      "question": 14,
+      "marker": "⑤",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "당선인 선거권자총수 국회의장",
+      "selected_choice": "국회의장 선거권자총수 중앙선거관리위원회위원장"
+    }
+  ]
+}

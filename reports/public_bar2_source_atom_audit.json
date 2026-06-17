@@ -1,0 +1,53 @@
+{
+  "round": 2,
+  "year": 2013,
+  "source_path": "C:\\cowork\\lex-bank_변호사시험_전체_2026-06-16\\02_export\\mc_questions.csv",
+  "count": 193,
+  "subject_counts": {
+    "헌법": 94,
+    "혼합공법": 25,
+    "행정법": 74
+  },
+  "answer_counts": {
+    "X": 59,
+    "O": 134
+  },
+  "source_kind_counts": {
+    "choice_statement_negative": 135,
+    "choice_statement_positive": 17,
+    "explicit_ox_combination": 5,
+    "letter_combination_positive": 36
+  },
+  "issues": [
+    {
+      "round": 2,
+      "question": 36,
+      "marker": "①",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "시장에 대하여 직접 주민소환을 하는 것",
+      "selected_choice": "시의회 의원 10명에 대하여 직접 부당이득의 반환을 청구하는 주민소송을 제기하는 것"
+    },
+    {
+      "round": 2,
+      "question": 36,
+      "marker": "②",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "시의회의 의회운영공동경비 사용 등에 관하여 주민감사청구를 하는 것",
+      "selected_choice": "시의회 의원 10명에 대하여 직접 부당이득의 반환을 청구하는 주민소송을 제기하는 것"
+    },
+    {
+      "round": 2,
+      "question": 36,
+      "marker": "⑤",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "광역화장장의 유치 여부에 관하여 주민투표를 청구하는 것",
+      "selected_choice": "시의회 의원 10명에 대하여 직접 부당이득의 반환을 청구하는 주민소송을 제기하는 것"
+    }
+  ]
+}

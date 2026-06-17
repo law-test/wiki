@@ -1,0 +1,2081 @@
+{
+  "source": "lex-bank transformed O/X statement layer; original source kept outside public app assets",
+  "round": 5,
+  "year": 2016,
+  "updatedAt": "2026-06-17T23:46:56.365876+00:00",
+  "count": 69,
+  "subject": "행정법",
+  "items": [
+    {
+      "id": 501001,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 10,
+      "choice": "ㄱ",
+      "topic": "권한쟁의심판",
+      "q": "｢행정소송법｣ 제45조는 법률이 정한 경우에 법률에 정한 자가 기관소송을 제기할 수 있도록 규정하고 있는바, 만약 乙군의 권한쟁의심판청구가 기관소송을 거치지 않고 제기되었다면 권한쟁의심판의 보충성에 위배되어 부적법하다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 10번 ㄱ"
+      ],
+      "refs": [
+        "변시5 10번 ㄱ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 10번 ㄱ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "甲군(郡)과 乙군(郡) 사이에 있는 공유수면인 A만(灣)의 일부 해역을 대상으로 甲군의 군수가 어업면허처분을 하였고, 乙군은 “위 어업면허처분의 대상해역이 乙군의 관할구역에 속한다.”라고 주장하면서 甲군과 甲군의 군수를 상대로 권한쟁의심판을 청구하였다. 이 사례 및 권한쟁의심판의 요건에 관한 설명 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "ㄱ(×), ㄴ(×), ㄷ(×), ㄹ(×), ㅁ(×)",
+      "needs_atomization": true
+    },
+    {
+      "id": 502101,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 21,
+      "choice": "ㄱ",
+      "topic": "행정소송",
+      "q": "｢공익사업을 위한 토지 등의 취득 및 보상에 관한 법률｣상 환매권의 존부에 관한 확인을 구하는 소송은 당사자소송이다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 21번 ㄱ"
+      ],
+      "refs": [
+        "변시5 21번 ㄱ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 21번 ㄱ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "｢행정소송법｣상 당사자소송에 관한 판례의 입장과 부합하는 것을 모두 고른 것은?",
+      "original_answer": "4",
+      "answer_choice": "ㄴ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 502102,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 21,
+      "choice": "ㄴ",
+      "topic": "행정소송",
+      "q": "공무원연금법령상 퇴직수당 등의 급여를 받으려고 하는 자는 우선 공무원연금관리공단에 급여지급을 신청하여 공단의 급여지급결정을 받아야 하고, 공단의 급여지급결정 없이 바로 당사자소송으로 급여의 지급을 구하는 것은 허용되지 아니한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 21번 ㄴ"
+      ],
+      "refs": [
+        "변시5 21번 ㄴ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 21번 ㄴ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "｢행정소송법｣상 당사자소송에 관한 판례의 입장과 부합하는 것을 모두 고른 것은?",
+      "original_answer": "4",
+      "answer_choice": "ㄴ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 502103,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 21,
+      "choice": "ㄷ",
+      "topic": "행정소송",
+      "q": "지방전문직공무원 채용계약 해지의 의사표시는 지방자치단체장의 처분에 해당하므로 지방자치단체를 상대로 당사자소송으로 해지 의사표시의 무효확인을 청구할 수 없다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 21번 ㄷ"
+      ],
+      "refs": [
+        "변시5 21번 ㄷ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 21번 ㄷ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "｢행정소송법｣상 당사자소송에 관한 판례의 입장과 부합하는 것을 모두 고른 것은?",
+      "original_answer": "4",
+      "answer_choice": "ㄴ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 502104,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 21,
+      "choice": "ㄹ",
+      "topic": "행정소송",
+      "q": "국가의 부가가치세 환급세액 지급의무는 정의와 공평의 관념에서 수익자와 손실자 사이의 재산상태 조정을 위해 인정되는 부당이득 반환의무가 아니라 조세 정책적 관점에서 인정되는 공법상 의무이므로 국가에 대한 납세의무자의 부가가치세 환급세액 지급청구는 당사자소송에 의한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 21번 ㄹ"
+      ],
+      "refs": [
+        "변시5 21번 ㄹ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 21번 ㄹ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "｢행정소송법｣상 당사자소송에 관한 판례의 입장과 부합하는 것을 모두 고른 것은?",
+      "original_answer": "4",
+      "answer_choice": "ㄴ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 502201,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 22,
+      "choice": "①",
+      "topic": "행정행위",
+      "q": "甲에 대한 관할청의 취임승인은 학교법인의 이사선임행위를 보충하여 그 법률상의 효력을 완성시켜 주는 행정행위이다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 22번 ①"
+      ],
+      "refs": [
+        "변시5 22번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 22번 ① 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 사립학교법인 이사회에서 이사로 선임되어 관할청의 취임승인을 받았다. 그러나 해당 이사회의 전임 이사였던 乙은 甲에 대한 학교법인의 이사선임행위에 하자가 있음을 주장하며 이를 다투고자 한다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "乙은 甲에 대한 학교법인의 이사선임행위에 하자가 있는 경우 이를 이유로 취소소송을 통해 관할청의 취임승인처분의 취소를 구할 수 있다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 502202,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 22,
+      "choice": "②",
+      "topic": "행정행위",
+      "q": "관할청은 학교법인의 이사선임행위의 내용을 수정하여 승인할 수 없다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 22번 ②"
+      ],
+      "refs": [
+        "변시5 22번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 22번 ② 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 사립학교법인 이사회에서 이사로 선임되어 관할청의 취임승인을 받았다. 그러나 해당 이사회의 전임 이사였던 乙은 甲에 대한 학교법인의 이사선임행위에 하자가 있음을 주장하며 이를 다투고자 한다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "乙은 甲에 대한 학교법인의 이사선임행위에 하자가 있는 경우 이를 이유로 취소소송을 통해 관할청의 취임승인처분의 취소를 구할 수 있다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502203,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 22,
+      "choice": "③",
+      "topic": "행정행위",
+      "q": "乙은 甲에 대한 학교법인의 이사선임행위에 하자가 있는 경우 이를 이유로 취소소송을 통해 관할청의 취임승인처분의 취소를 구할 수 있다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 22번 ③"
+      ],
+      "refs": [
+        "변시5 22번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 22번 ③ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 사립학교법인 이사회에서 이사로 선임되어 관할청의 취임승인을 받았다. 그러나 해당 이사회의 전임 이사였던 乙은 甲에 대한 학교법인의 이사선임행위에 하자가 있음을 주장하며 이를 다투고자 한다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "乙은 甲에 대한 학교법인의 이사선임행위에 하자가 있는 경우 이를 이유로 취소소송을 통해 관할청의 취임승인처분의 취소를 구할 수 있다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 502204,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 22,
+      "choice": "④",
+      "topic": "행정행위",
+      "q": "학교법인의 이사선임행위가 무효인 경우에는 관할청의 취임승인이 있더라도 그 선임행위가 유효한 것으로 되지 아니한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 22번 ④"
+      ],
+      "refs": [
+        "변시5 22번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 22번 ④ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 사립학교법인 이사회에서 이사로 선임되어 관할청의 취임승인을 받았다. 그러나 해당 이사회의 전임 이사였던 乙은 甲에 대한 학교법인의 이사선임행위에 하자가 있음을 주장하며 이를 다투고자 한다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "乙은 甲에 대한 학교법인의 이사선임행위에 하자가 있는 경우 이를 이유로 취소소송을 통해 관할청의 취임승인처분의 취소를 구할 수 있다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502205,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 22,
+      "choice": "⑤",
+      "topic": "행정행위",
+      "q": "만일 관할청이 甲에 대한 학교법인의 이사취임승인 신청을 거부하는 경우 甲에게는 당해 거부처분을 취소소송으로 다툴 수 있는 원고적격이 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 22번 ⑤"
+      ],
+      "refs": [
+        "변시5 22번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 22번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 사립학교법인 이사회에서 이사로 선임되어 관할청의 취임승인을 받았다. 그러나 해당 이사회의 전임 이사였던 乙은 甲에 대한 학교법인의 이사선임행위에 하자가 있음을 주장하며 이를 다투고자 한다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "乙은 甲에 대한 학교법인의 이사선임행위에 하자가 있는 경우 이를 이유로 취소소송을 통해 관할청의 취임승인처분의 취소를 구할 수 있다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 502401,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 24,
+      "choice": "①",
+      "topic": "대집행",
+      "q": "위 부관이 위법한 경우 甲은 부관만을 대상으로 하여 취소소송을 제기할 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 24번 ①"
+      ],
+      "refs": [
+        "변시5 24번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 24번 ① 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 아파트를 건설하고자 乙시장에게 ｢주택법｣상 사업계획승인신청을 하였는데, 乙시장은 아파트단지 인근에 개설되는 자동차전용도로의 부지로 사용할 목적으로 甲 소유 토지의 일부를 아파트 사용검사 시까지 기부채납할 것을 조건으로 하여 사업계획을 승인하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲이 위 부관을 불이행하였다면 乙시장은 이를 이유로 사업계획승인을 철회하거나, 위 부관 상의 의무 불이행에 대해 행정대집행을 할 수 있다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 502402,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 24,
+      "choice": "②",
+      "topic": "대집행",
+      "q": "甲이 위 부관을 불이행하였다면 乙시장은 이를 이유로 사업계획승인을 철회하거나, 위 부관 상의 의무 불이행에 대해 행정대집행을 할 수 있다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 24번 ②"
+      ],
+      "refs": [
+        "변시5 24번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 24번 ② 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 아파트를 건설하고자 乙시장에게 ｢주택법｣상 사업계획승인신청을 하였는데, 乙시장은 아파트단지 인근에 개설되는 자동차전용도로의 부지로 사용할 목적으로 甲 소유 토지의 일부를 아파트 사용검사 시까지 기부채납할 것을 조건으로 하여 사업계획을 승인하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲이 위 부관을 불이행하였다면 乙시장은 이를 이유로 사업계획승인을 철회하거나, 위 부관 상의 의무 불이행에 대해 행정대집행을 할 수 있다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 502403,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 24,
+      "choice": "③",
+      "topic": "대집행",
+      "q": "甲이 위 부관을 이행하지 아니하더라도 乙시장의 사업계획승인이 당연히 효력을 상실하는 것은 아니다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 24번 ③"
+      ],
+      "refs": [
+        "변시5 24번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 24번 ③ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 아파트를 건설하고자 乙시장에게 ｢주택법｣상 사업계획승인신청을 하였는데, 乙시장은 아파트단지 인근에 개설되는 자동차전용도로의 부지로 사용할 목적으로 甲 소유 토지의 일부를 아파트 사용검사 시까지 기부채납할 것을 조건으로 하여 사업계획을 승인하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲이 위 부관을 불이행하였다면 乙시장은 이를 이유로 사업계획승인을 철회하거나, 위 부관 상의 의무 불이행에 대해 행정대집행을 할 수 있다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 502404,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 24,
+      "choice": "④",
+      "topic": "대집행",
+      "q": "乙시장은 기부채납의 내용을 甲과 사전에 협의하여 협약의 형식으로 미리 정한 다음, 사업계획승인을 하면서 위 부관을 부가할 수도 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 24번 ④"
+      ],
+      "refs": [
+        "변시5 24번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 24번 ④ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 아파트를 건설하고자 乙시장에게 ｢주택법｣상 사업계획승인신청을 하였는데, 乙시장은 아파트단지 인근에 개설되는 자동차전용도로의 부지로 사용할 목적으로 甲 소유 토지의 일부를 아파트 사용검사 시까지 기부채납할 것을 조건으로 하여 사업계획을 승인하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲이 위 부관을 불이행하였다면 乙시장은 이를 이유로 사업계획승인을 철회하거나, 위 부관 상의 의무 불이행에 대해 행정대집행을 할 수 있다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 502405,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 24,
+      "choice": "⑤",
+      "topic": "대집행",
+      "q": "만일 甲이 ｢건축법｣상 기속행위에 해당하는 건축허가를 신청하였고, 乙시장이 건축허가를 하면서 기부채납 부관을 붙였다면 그 부관은 무효이다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 24번 ⑤"
+      ],
+      "refs": [
+        "변시5 24번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 24번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "甲은 아파트를 건설하고자 乙시장에게 ｢주택법｣상 사업계획승인신청을 하였는데, 乙시장은 아파트단지 인근에 개설되는 자동차전용도로의 부지로 사용할 목적으로 甲 소유 토지의 일부를 아파트 사용검사 시까지 기부채납할 것을 조건으로 하여 사업계획을 승인하였다. 이에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "2",
+      "answer_choice": "甲이 위 부관을 불이행하였다면 乙시장은 이를 이유로 사업계획승인을 철회하거나, 위 부관 상의 의무 불이행에 대해 행정대집행을 할 수 있다.",
+      "needs_atomization": true
+    },
+    {
+      "id": 502501,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 25,
+      "choice": "①",
+      "topic": "공영방송",
+      "q": "위 제9호에 따른 허가취소의 경우 취소의 상대방에 대한 보상을 요하지 않는다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 25번 ①"
+      ],
+      "refs": [
+        "변시5 25번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 25번 ① 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "다음 ｢방송법｣ 규정에 따른 허가취소에 관한 설명 중 옳은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "위 제9호에 따른 허가취소의 경우 취소의 상대방에 대한 보상을 요하지 않는다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502502,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 25,
+      "choice": "②",
+      "topic": "공영방송",
+      "q": "위 제9호에 따른 허가취소의 경우 행정절차상 사전통지 및 의견제출절차를 거칠 필요가 없다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 25번 ②"
+      ],
+      "refs": [
+        "변시5 25번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 25번 ② 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "다음 ｢방송법｣ 규정에 따른 허가취소에 관한 설명 중 옳은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "위 제9호에 따른 허가취소의 경우 취소의 상대방에 대한 보상을 요하지 않는다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502503,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 25,
+      "choice": "③",
+      "topic": "공영방송",
+      "q": "위 제9호에 따른 허가취소는 원칙적으로 소급효를 가진다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 25번 ③"
+      ],
+      "refs": [
+        "변시5 25번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 25번 ③ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "다음 ｢방송법｣ 규정에 따른 허가취소에 관한 설명 중 옳은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "위 제9호에 따른 허가취소의 경우 취소의 상대방에 대한 보상을 요하지 않는다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502504,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 25,
+      "choice": "④",
+      "topic": "공영방송",
+      "q": "위 제9호에 따라 허가를 취소하는 경우 허가를 취소할 공익상 필요와 허가취소로 인하여 상대방에게 가해지는 불이익을 형량할 필요는 없다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 25번 ④"
+      ],
+      "refs": [
+        "변시5 25번 ④"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 25번 ④ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "다음 ｢방송법｣ 규정에 따른 허가취소에 관한 설명 중 옳은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "위 제9호에 따른 허가취소의 경우 취소의 상대방에 대한 보상을 요하지 않는다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502505,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 25,
+      "choice": "⑤",
+      "topic": "공영방송",
+      "q": "위 제1호에 따른 허가취소의 경우 사업자는 허가의 존속에 관한 신뢰이익을 원용할 수 있고, 주무관청은 이러한 신뢰이익을 보호하여야 한다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 25번 ⑤"
+      ],
+      "refs": [
+        "변시5 25번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 25번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "다음 ｢방송법｣ 규정에 따른 허가취소에 관한 설명 중 옳은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "위 제9호에 따른 허가취소의 경우 취소의 상대방에 대한 보상을 요하지 않는다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502601,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 26,
+      "choice": "①",
+      "topic": "행정절차",
+      "q": "신청에 대한 거부처분은 특별한 사정이 없는 한 ｢행정절차법｣ 제21조 제1항의 ‘당사자에게 의무를 부과하거나 권익을 제한하는 처분’에 해당하지 않으므로 사전통지의 대상이 아니다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 26번 ①"
+      ],
+      "refs": [
+        "변시5 26번 ①"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 26번 ① 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "행정절차에 관한 설명 중 판례의 입장과 부합하지 않는 것은?",
+      "original_answer": "2",
+      "answer_choice": "청문을 실시하지 않아도 되는 예외적인 경우에 해당하지 않는 한 행정청은 침익적 행정처분을 할 때 반드시 청문을 실시하여야 하고 그 절차를 결여한 처분은 위법한 처분으로서 당연무효에 해당한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502602,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 26,
+      "choice": "②",
+      "topic": "행정절차",
+      "q": "청문을 실시하지 않아도 되는 예외적인 경우에 해당하지 않는 한 행정청은 침익적 행정처분을 할 때 반드시 청문을 실시하여야 하고 그 절차를 결여한 처분은 위법한 처분으로서 당연무효에 해당한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 26번 ②"
+      ],
+      "refs": [
+        "변시5 26번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 26번 ② 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "행정절차에 관한 설명 중 판례의 입장과 부합하지 않는 것은?",
+      "original_answer": "2",
+      "answer_choice": "청문을 실시하지 않아도 되는 예외적인 경우에 해당하지 않는 한 행정청은 침익적 행정처분을 할 때 반드시 청문을 실시하여야 하고 그 절차를 결여한 처분은 위법한 처분으로서 당연무효에 해당한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502603,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 26,
+      "choice": "③",
+      "topic": "행정절차",
+      "q": "행정청과 당사자가 청문절차를 배제하는 협약을 체결하였다 하더라도, 협약의 체결로 청문 실시 관련 규정의 적용을 배제할 수 있다고 볼 만한 법령상의 규정이 없는 한 청문의 실시에 관한 규정의 적용이 배제되지 않는다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 26번 ③"
+      ],
+      "refs": [
+        "변시5 26번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 26번 ③ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "행정절차에 관한 설명 중 판례의 입장과 부합하지 않는 것은?",
+      "original_answer": "2",
+      "answer_choice": "청문을 실시하지 않아도 되는 예외적인 경우에 해당하지 않는 한 행정청은 침익적 행정처분을 할 때 반드시 청문을 실시하여야 하고 그 절차를 결여한 처분은 위법한 처분으로서 당연무효에 해당한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502604,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 26,
+      "choice": "④",
+      "topic": "행정절차",
+      "q": "행정처분의 상대방에 대한 청문통지서가 반송되었다거나 행정처분의 상대방이 청문일시에 불출석하였다는 이유로 청문을 실시하지 아니하고 한 침익적 행정처분은 위법하다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 26번 ④"
+      ],
+      "refs": [
+        "변시5 26번 ④"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 26번 ④ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "행정절차에 관한 설명 중 판례의 입장과 부합하지 않는 것은?",
+      "original_answer": "2",
+      "answer_choice": "청문을 실시하지 않아도 되는 예외적인 경우에 해당하지 않는 한 행정청은 침익적 행정처분을 할 때 반드시 청문을 실시하여야 하고 그 절차를 결여한 처분은 위법한 처분으로서 당연무효에 해당한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502605,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 26,
+      "choice": "⑤",
+      "topic": "행정절차",
+      "q": "환경영향평가를 실시하여야 할 사업에 대하여 환경영향평가를 거치지 아니하였음에도 사업승인 등 처분을 한 경우 그 하자는 중대하고 명백하여 무효사유에 해당한다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 26번 ⑤"
+      ],
+      "refs": [
+        "변시5 26번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 26번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "original_question": "행정절차에 관한 설명 중 판례의 입장과 부합하지 않는 것은?",
+      "original_answer": "2",
+      "answer_choice": "청문을 실시하지 않아도 되는 예외적인 경우에 해당하지 않는 한 행정청은 침익적 행정처분을 할 때 반드시 청문을 실시하여야 하고 그 절차를 결여한 처분은 위법한 처분으로서 당연무효에 해당한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502701,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 27,
+      "choice": "①",
+      "topic": "계획재량",
+      "q": "도시·군관리계획 구역 내에 토지 등을 소유하고 있는 주민의 봉안시설(구 납골시설)에 대한 도시·군관리계획 입안제안을 입안권자인 군수가 반려한 행위는 사실의 통지에 불과하여 항고소송의 대상이 될 수 없다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 27번 ①"
+      ],
+      "refs": [
+        "변시5 27번 ①"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 27번 ① 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "행정계획에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "도시·군관리계획 구역 내에 토지 등을 소유하고 있는 주민의 봉안시설(구 납골시설)에 대한 도시·군관리계획 입안제안을 입안권자인 군수가 반려한 행위는 사실의 통지에 불과하여 항고소송의 대상이 될 수 없다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502702,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 27,
+      "choice": "②",
+      "topic": "계획재량",
+      "q": "광범위한 형성의 자유가 인정되는 계획재량에 대한 통제법리는 도시·군관리계획 구역 내 토지소유자의 도시·군계획시설 변경신청에 대해 행정청이 해당 도시·군계획시설의 변경 여부를 결정하는 경우에도 적용된다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 27번 ②"
+      ],
+      "refs": [
+        "변시5 27번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 27번 ② 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "행정계획에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "도시·군관리계획 구역 내에 토지 등을 소유하고 있는 주민의 봉안시설(구 납골시설)에 대한 도시·군관리계획 입안제안을 입안권자인 군수가 반려한 행위는 사실의 통지에 불과하여 항고소송의 대상이 될 수 없다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502703,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 27,
+      "choice": "③",
+      "topic": "계획재량",
+      "q": "장기성·종합성이 요구되는 행정계획에 있어서는 원칙적으로 그 계획이 확정된 후에 어떤 사정의 변동이 있다고 하여 지역주민에게 일일이 그 계획의 변경을 청구할 권리를 인정해 줄 수 없다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 27번 ③"
+      ],
+      "refs": [
+        "변시5 27번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 27번 ③ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "행정계획에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "도시·군관리계획 구역 내에 토지 등을 소유하고 있는 주민의 봉안시설(구 납골시설)에 대한 도시·군관리계획 입안제안을 입안권자인 군수가 반려한 행위는 사실의 통지에 불과하여 항고소송의 대상이 될 수 없다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502704,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 27,
+      "choice": "④",
+      "topic": "계획재량",
+      "q": "문화재보호구역 내에 있는 토지의 소유자에게는 해당 보호구역의 지정해제를 요구할 수 있는 법규상 또는 조리상의 신청권이 있으며, 그 신청에 대한 거부행위는 항고소송의 대상이 되는 행정처분에 해당된다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 27번 ④"
+      ],
+      "refs": [
+        "변시5 27번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 27번 ④ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "행정계획에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "도시·군관리계획 구역 내에 토지 등을 소유하고 있는 주민의 봉안시설(구 납골시설)에 대한 도시·군관리계획 입안제안을 입안권자인 군수가 반려한 행위는 사실의 통지에 불과하여 항고소송의 대상이 될 수 없다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502705,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 27,
+      "choice": "⑤",
+      "topic": "계획재량",
+      "q": "일정한 행정처분을 구하는 신청을 할 수 있는 법률상 지위에 있는 자의 (구)국토이용계획 변경신청을 거부하는 것이 실질적으로 당해 행정처분 자체를 거부하는 결과가 되는 경우에는 예외적으로 그 신청인에게 당해 계획의 변경을 신청할 권리가 인정된다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 27번 ⑤"
+      ],
+      "refs": [
+        "변시5 27번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 27번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "행정계획에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "도시·군관리계획 구역 내에 토지 등을 소유하고 있는 주민의 봉안시설(구 납골시설)에 대한 도시·군관리계획 입안제안을 입안권자인 군수가 반려한 행위는 사실의 통지에 불과하여 항고소송의 대상이 될 수 없다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502801,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 28,
+      "choice": "①",
+      "topic": "지방자치",
+      "q": "지방자치단체장이 공장시설을 신축하는 회사에 대하여 사업승인 당시 부가하였던 조건을 이행할 때까지 신축공사를 중지하라는 명령을 한 경우, 위 회사에게는 중지명령의 원인사유가 해소되었다고 하여 이를 이유로 당해 공사중지명령의 해제를 요구할 수 있는 권리가 인정되는 것은 아니다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 28번 ①"
+      ],
+      "refs": [
+        "변시5 28번 ①"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 28번 ① 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "개인적 공권에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "지방자치단체장이 공장시설을 신축하는 회사에 대하여 사업승인 당시 부가하였던 조건을 이행할 때까지 신축공사를 중지하라는 명령을 한 경우, 위 회사에게는 중지명령의 원인사유가 해소되었다고 하여 이를 이유로 당해 공사중지명령의 해제를 요구할 수 있는 권리가 인정되는 것은 아니다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502802,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 28,
+      "choice": "②",
+      "topic": "지방자치",
+      "q": "법규가 일정한 행위의 발령에 대해 행정청에게 재량권을 부여한 경우, 재량의 일탈·남용 등 재량행사에 하자가 있다는 사정만으로 사인(私人)이 바로 행정청에 대하여 하자 없는 재량행사를 청구할 수 있는 권리가 인정되는 것은 아니다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 28번 ②"
+      ],
+      "refs": [
+        "변시5 28번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 28번 ② 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "개인적 공권에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "지방자치단체장이 공장시설을 신축하는 회사에 대하여 사업승인 당시 부가하였던 조건을 이행할 때까지 신축공사를 중지하라는 명령을 한 경우, 위 회사에게는 중지명령의 원인사유가 해소되었다고 하여 이를 이유로 당해 공사중지명령의 해제를 요구할 수 있는 권리가 인정되는 것은 아니다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502803,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 28,
+      "choice": "③",
+      "topic": "지방자치",
+      "q": "기간제로 임용되어 임용기간이 만료된 국립대학 조교수는 심사기준에 부합되면 특별한 사정이 없는 한 재임용되리라는 기대를 가지고 재임용 여부에 관하여 합리적인 기준에 의한 공정한 심사를 요구할 법규상 또는 조리상 신청권을 가진다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 28번 ③"
+      ],
+      "refs": [
+        "변시5 28번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 28번 ③ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "개인적 공권에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "지방자치단체장이 공장시설을 신축하는 회사에 대하여 사업승인 당시 부가하였던 조건을 이행할 때까지 신축공사를 중지하라는 명령을 한 경우, 위 회사에게는 중지명령의 원인사유가 해소되었다고 하여 이를 이유로 당해 공사중지명령의 해제를 요구할 수 있는 권리가 인정되는 것은 아니다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502804,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 28,
+      "choice": "④",
+      "topic": "지방자치",
+      "q": "경찰관에게 권한을 부여한 법규의 취지와 목적에 비추어 볼 때 구체적인 사정에 따라 경찰관이 그 권한을 행사하여 필요한 조치를 취하지 아니하는 것이 현저하게 불합리하다고 인정되는 경우에는 권한의 불행사는 직무상의 의무를 위반한 것이 되어 위법하게 된다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 28번 ④"
+      ],
+      "refs": [
+        "변시5 28번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 28번 ④ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "개인적 공권에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "지방자치단체장이 공장시설을 신축하는 회사에 대하여 사업승인 당시 부가하였던 조건을 이행할 때까지 신축공사를 중지하라는 명령을 한 경우, 위 회사에게는 중지명령의 원인사유가 해소되었다고 하여 이를 이유로 당해 공사중지명령의 해제를 요구할 수 있는 권리가 인정되는 것은 아니다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 502805,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 28,
+      "choice": "⑤",
+      "topic": "지방자치",
+      "q": "한의사들이 가지는 한약조제권을 한약조제시험을 통하여 약사에게도 인정함으로써 감소하게 되는 한의사들의 영업상 이익은 법률에 의하여 보호되는 이익이라 볼 수 없다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 28번 ⑤"
+      ],
+      "refs": [
+        "변시5 28번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 28번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "개인적 공권에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "1",
+      "answer_choice": "지방자치단체장이 공장시설을 신축하는 회사에 대하여 사업승인 당시 부가하였던 조건을 이행할 때까지 신축공사를 중지하라는 명령을 한 경우, 위 회사에게는 중지명령의 원인사유가 해소되었다고 하여 이를 이유로 당해 공사중지명령의 해제를 요구할 수 있는 권리가 인정되는 것은 아니다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 503101,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 31,
+      "choice": "ㄱ",
+      "topic": "정보공개",
+      "q": "甲이 청구한 공개대상정보가 공소장 원본일 필요는 없다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 31번 ㄱ"
+      ],
+      "refs": [
+        "변시5 31번 ㄱ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 31번 ㄱ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "甲은 A를 강간죄로 고소하였고, 관할 검찰청 검사는 사건을 수사한 후 ｢성폭력범죄의 처벌 등에 관한 특례법｣ 위반으로 A를 기소하였다. 그 후 甲은 관할 검찰청 검사장 乙에게 이 사건 공소장의 공개를 요구하는 정보공개청구서를 제출하였다. 이에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "ㄱ, ㄷ, ㄹ",
+      "needs_atomization": true
+    },
+    {
+      "id": 503102,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 31,
+      "choice": "ㄴ",
+      "topic": "정보공개",
+      "q": "위 공소장의 내용을 인터넷 검색 등을 통하여 쉽게 알 수 있다면, 乙은 그 이유를 들어 甲의 정보공개청구를 거부할 수 있다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 31번 ㄴ"
+      ],
+      "refs": [
+        "변시5 31번 ㄴ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 31번 ㄴ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "甲은 A를 강간죄로 고소하였고, 관할 검찰청 검사는 사건을 수사한 후 ｢성폭력범죄의 처벌 등에 관한 특례법｣ 위반으로 A를 기소하였다. 그 후 甲은 관할 검찰청 검사장 乙에게 이 사건 공소장의 공개를 요구하는 정보공개청구서를 제출하였다. 이에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "ㄱ, ㄷ, ㄹ",
+      "needs_atomization": true
+    },
+    {
+      "id": 503103,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 31,
+      "choice": "ㄷ",
+      "topic": "정보공개",
+      "q": "위 공소장이 폐기되어 존재하지 않게 되었다면, 공소장을 더 이상 보유·관리하고 있지 아니하다는 점에 대한 입증책임은 乙에게 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 31번 ㄷ"
+      ],
+      "refs": [
+        "변시5 31번 ㄷ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 31번 ㄷ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "甲은 A를 강간죄로 고소하였고, 관할 검찰청 검사는 사건을 수사한 후 ｢성폭력범죄의 처벌 등에 관한 특례법｣ 위반으로 A를 기소하였다. 그 후 甲은 관할 검찰청 검사장 乙에게 이 사건 공소장의 공개를 요구하는 정보공개청구서를 제출하였다. 이에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "ㄱ, ㄷ, ㄹ",
+      "needs_atomization": true
+    },
+    {
+      "id": 503104,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 31,
+      "choice": "ㄹ",
+      "topic": "정보공개",
+      "q": "乙이 甲의 정보공개청구를 거부한 경우 甲은 ｢공공기관의 정보공개에 관한 법률｣에 따른 이의신청 절차를 거치지 아니하고 행정심판을 청구할 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 31번 ㄹ"
+      ],
+      "refs": [
+        "변시5 31번 ㄹ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 31번 ㄹ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "甲은 A를 강간죄로 고소하였고, 관할 검찰청 검사는 사건을 수사한 후 ｢성폭력범죄의 처벌 등에 관한 특례법｣ 위반으로 A를 기소하였다. 그 후 甲은 관할 검찰청 검사장 乙에게 이 사건 공소장의 공개를 요구하는 정보공개청구서를 제출하였다. 이에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "ㄱ, ㄷ, ㄹ",
+      "needs_atomization": true
+    },
+    {
+      "id": 503203,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 32,
+      "choice": "ㄷ",
+      "topic": "지방자치",
+      "q": "지방자치단체의 자치사무에 해당하더라도 특별한 규정이 없는 한 ｢지방자치법｣이 규정하고 있는 지방자치단체의 집행기관과 지방의회의 고유권한에 관하여는 조례로 이를 제한할 수 없고, 나아가 지방자치단체장의 고유권한이 아닌 사항에 대하여도 그 사무집행에 관한 권한을 본질적으로 제한하는 조례제정은 허용되지 아니한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 32번 ㄷ"
+      ],
+      "refs": [
+        "변시5 32번 ㄷ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 32번 ㄷ 지문은 정답표상 O입니다.",
+      "ref": "헌법 제117조",
+      "art": "제117조",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "지방자치단체의 조례제정권에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "ㄷ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 503204,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 32,
+      "choice": "ㄹ",
+      "topic": "지방자치",
+      "q": "지방자치단체장이 지방의회가 재의결한 조례안이 법령에 위반된다는 이유로 대법원에 제소하는 경우, 재의결된 조례안의 일부 조항만이 위법하더라도 그 재의결 전부의 효력이 부인된다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 32번 ㄹ"
+      ],
+      "refs": [
+        "변시5 32번 ㄹ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 32번 ㄹ 지문은 정답표상 O입니다.",
+      "ref": "헌법 제117조",
+      "art": "제117조",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "지방자치단체의 조례제정권에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "ㄷ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 503301,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 33,
+      "choice": "①",
+      "topic": "행정처분",
+      "q": "임용 당시 공무원임용 결격사유가 있었다면 비록 임용권자의 과실에 의하여 임용 결격자임을 밝혀내지 못하였다 하더라도 그 임용행위는 당연무효이다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 33번 ①"
+      ],
+      "refs": [
+        "변시5 33번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 33번 ① 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공무원의 신분에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "직위해제처분은 공무원에 대한 불이익한 처분이기 때문에 동일한 사유에 대하여 직위해제처분이 있은 후 다시 해임처분이 있었다면 일사부재리의 법리에 위반된다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 503302,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 33,
+      "choice": "②",
+      "topic": "행정처분",
+      "q": "지방공무원의 동의 없는 전출명령은 위법하여 취소되어야 하므로, 전출명령이 적법함을 전제로 내린 당해 지방공무원에 대한 징계처분은 징계양정에 있어 재량권을 일탈하여 위법하다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 33번 ②"
+      ],
+      "refs": [
+        "변시5 33번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 33번 ② 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공무원의 신분에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "직위해제처분은 공무원에 대한 불이익한 처분이기 때문에 동일한 사유에 대하여 직위해제처분이 있은 후 다시 해임처분이 있었다면 일사부재리의 법리에 위반된다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 503303,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 33,
+      "choice": "③",
+      "topic": "행정처분",
+      "q": "직위해제처분은 공무원에 대한 불이익한 처분이기 때문에 동일한 사유에 대하여 직위해제처분이 있은 후 다시 해임처분이 있었다면 일사부재리의 법리에 위반된다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 33번 ③"
+      ],
+      "refs": [
+        "변시5 33번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 33번 ③ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공무원의 신분에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "직위해제처분은 공무원에 대한 불이익한 처분이기 때문에 동일한 사유에 대하여 직위해제처분이 있은 후 다시 해임처분이 있었다면 일사부재리의 법리에 위반된다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 503304,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 33,
+      "choice": "④",
+      "topic": "행정처분",
+      "q": "국가공무원이 그 법정 연가일수의 범위 내에서 연가를 신청하였다고 할지라도 그에 대한 소속 행정기관장의 허가가 있기 이전에 근무지를 이탈한 행위는 특단의 사정이 없는 한 ｢국가공무원법｣에 위반되는 행위로서 징계사유가 된다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 33번 ④"
+      ],
+      "refs": [
+        "변시5 33번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 33번 ④ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공무원의 신분에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "직위해제처분은 공무원에 대한 불이익한 처분이기 때문에 동일한 사유에 대하여 직위해제처분이 있은 후 다시 해임처분이 있었다면 일사부재리의 법리에 위반된다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 503305,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 33,
+      "choice": "⑤",
+      "topic": "행정처분",
+      "q": "행정규칙에 의한 ‘불문경고조치’는 법률상의 징계처분은 아니지만, 이로 인하여 차후 다른 징계처분이나 경고를 받게 될 경우 징계감경사유로 사용될 수 있었던 표창공적의 사용가능성이 소멸되는 등의 효과가 있으면 항고소송의 대상이 되는 행정처분에 해당한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 33번 ⑤"
+      ],
+      "refs": [
+        "변시5 33번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 33번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공무원의 신분에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "직위해제처분은 공무원에 대한 불이익한 처분이기 때문에 동일한 사유에 대하여 직위해제처분이 있은 후 다시 해임처분이 있었다면 일사부재리의 법리에 위반된다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 503501,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 35,
+      "choice": "ㄱ",
+      "topic": "행정처분",
+      "q": "위 판결은 취소소송에서만 허용되고 무효등확인소송에는 허용되지 | | 않는다. | | | |",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 35번 ㄱ"
+      ],
+      "refs": [
+        "변시5 35번 ㄱ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 35번 ㄱ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "content_labels",
+      "original_question": "취소소송에 대한 다음과 같은 판결주문이 있다. 이러한 판결에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함) + + | ㄱ. 위 판결은 취소소송에서만 허용되고 무효등확인소송에는 허용되지 | | 않는다. | | | | ㄴ. 원고는 피고 행정청이 속하는 국가 또는 공공단체를 상대로 | | 손해배상의 청구를 당해 취소소송이 계속된 법원에 병합하여 제기할 수 | | 있다. | | | | ㄷ. 소송비용은 패소자 부담이 원칙이므로 판결주문 3.의 ( )에 들어가는 | | 것은 원고이다. | | | | ㄹ. 위 판결주문에서 ○○처분의 위법 여부의 판단은 처분시를 기준으로 | | 하지만, 청구기각판결을 하여야 할 공공복리 적합성의 판단시점은 | | 변론종결시이다. | | | | ㅁ. 위 판결은 기각판결의 일종이므로 원고는 상소할 수 있지만, 피고는 | | 상소할 수 없다. | + +",
+      "original_answer": "3",
+      "answer_choice": "ㄱ, ㄴ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 503502,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 35,
+      "choice": "ㄴ",
+      "topic": "행정처분",
+      "q": "원고는 피고 행정청이 속하는 국가 또는 공공단체를 상대로 | | 손해배상의 청구를 당해 취소소송이 계속된 법원에 병합하여 제기할 수 | | 있다. | | | |",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 35번 ㄴ"
+      ],
+      "refs": [
+        "변시5 35번 ㄴ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 35번 ㄴ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "content_labels",
+      "original_question": "취소소송에 대한 다음과 같은 판결주문이 있다. 이러한 판결에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함) + + | ㄱ. 위 판결은 취소소송에서만 허용되고 무효등확인소송에는 허용되지 | | 않는다. | | | | ㄴ. 원고는 피고 행정청이 속하는 국가 또는 공공단체를 상대로 | | 손해배상의 청구를 당해 취소소송이 계속된 법원에 병합하여 제기할 수 | | 있다. | | | | ㄷ. 소송비용은 패소자 부담이 원칙이므로 판결주문 3.의 ( )에 들어가는 | | 것은 원고이다. | | | | ㄹ. 위 판결주문에서 ○○처분의 위법 여부의 판단은 처분시를 기준으로 | | 하지만, 청구기각판결을 하여야 할 공공복리 적합성의 판단시점은 | | 변론종결시이다. | | | | ㅁ. 위 판결은 기각판결의 일종이므로 원고는 상소할 수 있지만, 피고는 | | 상소할 수 없다. | + +",
+      "original_answer": "3",
+      "answer_choice": "ㄱ, ㄴ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 503503,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 35,
+      "choice": "ㄷ",
+      "topic": "행정처분",
+      "q": "소송비용은 패소자 부담이 원칙이므로 판결주문 3.의 ( )에 들어가는 | | 것은 원고이다. | | | |",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 35번 ㄷ"
+      ],
+      "refs": [
+        "변시5 35번 ㄷ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 35번 ㄷ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "content_labels",
+      "original_question": "취소소송에 대한 다음과 같은 판결주문이 있다. 이러한 판결에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함) + + | ㄱ. 위 판결은 취소소송에서만 허용되고 무효등확인소송에는 허용되지 | | 않는다. | | | | ㄴ. 원고는 피고 행정청이 속하는 국가 또는 공공단체를 상대로 | | 손해배상의 청구를 당해 취소소송이 계속된 법원에 병합하여 제기할 수 | | 있다. | | | | ㄷ. 소송비용은 패소자 부담이 원칙이므로 판결주문 3.의 ( )에 들어가는 | | 것은 원고이다. | | | | ㄹ. 위 판결주문에서 ○○처분의 위법 여부의 판단은 처분시를 기준으로 | | 하지만, 청구기각판결을 하여야 할 공공복리 적합성의 판단시점은 | | 변론종결시이다. | | | | ㅁ. 위 판결은 기각판결의 일종이므로 원고는 상소할 수 있지만, 피고는 | | 상소할 수 없다. | + +",
+      "original_answer": "3",
+      "answer_choice": "ㄱ, ㄴ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 503504,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 35,
+      "choice": "ㄹ",
+      "topic": "행정처분",
+      "q": "위 판결주문에서 ○○처분의 위법 여부의 판단은 처분시를 기준으로 | | 하지만, 청구기각판결을 하여야 할 공공복리 적합성의 판단시점은 | | 변론종결시이다. | | | |",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 35번 ㄹ"
+      ],
+      "refs": [
+        "변시5 35번 ㄹ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 35번 ㄹ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "content_labels",
+      "original_question": "취소소송에 대한 다음과 같은 판결주문이 있다. 이러한 판결에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함) + + | ㄱ. 위 판결은 취소소송에서만 허용되고 무효등확인소송에는 허용되지 | | 않는다. | | | | ㄴ. 원고는 피고 행정청이 속하는 국가 또는 공공단체를 상대로 | | 손해배상의 청구를 당해 취소소송이 계속된 법원에 병합하여 제기할 수 | | 있다. | | | | ㄷ. 소송비용은 패소자 부담이 원칙이므로 판결주문 3.의 ( )에 들어가는 | | 것은 원고이다. | | | | ㄹ. 위 판결주문에서 ○○처분의 위법 여부의 판단은 처분시를 기준으로 | | 하지만, 청구기각판결을 하여야 할 공공복리 적합성의 판단시점은 | | 변론종결시이다. | | | | ㅁ. 위 판결은 기각판결의 일종이므로 원고는 상소할 수 있지만, 피고는 | | 상소할 수 없다. | + +",
+      "original_answer": "3",
+      "answer_choice": "ㄱ, ㄴ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 503505,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 35,
+      "choice": "ㅁ",
+      "topic": "행정처분",
+      "q": "위 판결은 기각판결의 일종이므로 원고는 상소할 수 있지만, 피고는 | | 상소할 수 없다. | + +",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 35번 ㅁ"
+      ],
+      "refs": [
+        "변시5 35번 ㅁ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 35번 ㅁ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "content_labels",
+      "original_question": "취소소송에 대한 다음과 같은 판결주문이 있다. 이러한 판결에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함) + + | ㄱ. 위 판결은 취소소송에서만 허용되고 무효등확인소송에는 허용되지 | | 않는다. | | | | ㄴ. 원고는 피고 행정청이 속하는 국가 또는 공공단체를 상대로 | | 손해배상의 청구를 당해 취소소송이 계속된 법원에 병합하여 제기할 수 | | 있다. | | | | ㄷ. 소송비용은 패소자 부담이 원칙이므로 판결주문 3.의 ( )에 들어가는 | | 것은 원고이다. | | | | ㄹ. 위 판결주문에서 ○○처분의 위법 여부의 판단은 처분시를 기준으로 | | 하지만, 청구기각판결을 하여야 할 공공복리 적합성의 판단시점은 | | 변론종결시이다. | | | | ㅁ. 위 판결은 기각판결의 일종이므로 원고는 상소할 수 있지만, 피고는 | | 상소할 수 없다. | + +",
+      "original_answer": "3",
+      "answer_choice": "ㄱ, ㄴ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 503601,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 36,
+      "choice": "ㄱ",
+      "topic": "청구권",
+      "q": "지방자치단체장의 변상금부과처분에 취소사유가 있는 경우 이 처분에 의하여 납부자가 납부하거나 징수당한 오납금에 대한 부당이득반환청구권은 변상금부과처분의 취소 여부에 상관없이 납부 또는 징수시에 발생하여 확정된다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 36번 ㄱ"
+      ],
+      "refs": [
+        "변시5 36번 ㄱ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 36번 ㄱ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "공법상 부당이득에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "ㄴ, ㄷ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 503602,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 36,
+      "choice": "ㄴ",
+      "topic": "청구권",
+      "q": "환급가산금의 내용에 대한 세법상의 규정은 부당이득 반환범위에 관한 ｢민법｣ 규정에 대하여 특칙으로서의 성질을 가지므로 환급가산금은 수익자인 국가의 선의·악의를 불문하고 각각의 세법 규정에서 정한대로 확정된다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 36번 ㄴ"
+      ],
+      "refs": [
+        "변시5 36번 ㄴ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 36번 ㄴ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "공법상 부당이득에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "ㄴ, ㄷ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 503603,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 36,
+      "choice": "ㄷ",
+      "topic": "청구권",
+      "q": "국세 과오납금의 환급 여부에 관한 과세관청의 결정은 항고소송의 대상이 되는 처분이 아니므로 설사 과세관청이 환급거부결정을 하더라도 거부처분취소소송으로 다툴 수 없다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 36번 ㄷ"
+      ],
+      "refs": [
+        "변시5 36번 ㄷ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 36번 ㄷ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "공법상 부당이득에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "ㄴ, ㄷ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 503604,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 36,
+      "choice": "ㄹ",
+      "topic": "청구권",
+      "q": "토지수용의 재결에 대하여 불복절차를 취하지 아니함으로써 그 재결에 대하여 더 이상 다툴 수 없게 된 경우, 사업시행자는 그 재결이 당연무효이거나 취소되지 않는 한 이미 보상금을 지급받은 자에 대하여 그 보상금을 부당이득이라 하여 반환을 구할 수 없다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 36번 ㄹ"
+      ],
+      "refs": [
+        "변시5 36번 ㄹ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 36번 ㄹ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "공법상 부당이득에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "ㄴ, ㄷ, ㄹ",
+      "needs_atomization": false
+    },
+    {
+      "id": 503701,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 37,
+      "choice": "ㄱ",
+      "topic": "실효성확보",
+      "q": "지방자치단체가 자치사무를 처리하는 경우 당해 지방자치단체는 국가기관과는 별도의 독립한 공법인이지만, 양벌규정에 의한 처벌대상이 되는 법인에 해당하지는 않는다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 37번 ㄱ"
+      ],
+      "refs": [
+        "변시5 37번 ㄱ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 37번 ㄱ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "행정의 실효성확보수단에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "ㄴ, ㄹ, ㅁ",
+      "needs_atomization": false
+    },
+    {
+      "id": 503702,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 37,
+      "choice": "ㄴ",
+      "topic": "실효성확보",
+      "q": "통고처분은 통고이행을 강제하거나 상대방에게 권리의무를 형성하지 않으므로 행정소송의 대상으로서의 처분에 해당하지 아니한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 37번 ㄴ"
+      ],
+      "refs": [
+        "변시5 37번 ㄴ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 37번 ㄴ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "행정의 실효성확보수단에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "ㄴ, ㄹ, ㅁ",
+      "needs_atomization": false
+    },
+    {
+      "id": 503703,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 37,
+      "choice": "ㄷ",
+      "topic": "실효성확보",
+      "q": "건물철거 대집행 계고처분을 제1차로 고지한 후 이에 불응하자 다시 제2차, 제3차 계고서를 발송한 경우 ｢행정대집행법｣상의 건물철거의무는 각 회차마다 발생하고, 각 회차의 계고처분이 모두 행정처분에 해당한다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 37번 ㄷ"
+      ],
+      "refs": [
+        "변시5 37번 ㄷ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 37번 ㄷ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "행정의 실효성확보수단에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "ㄴ, ㄹ, ㅁ",
+      "needs_atomization": false
+    },
+    {
+      "id": 503704,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 37,
+      "choice": "ㄹ",
+      "topic": "실효성확보",
+      "q": "행정법규 위반에 대한 제재로서 가하는 영업정지처분은 반드시 현실적인 행위자가 아니라도 법령상 책임자로 규정된 자에게 부과되고, 특별한 사정이 없는 한 위반자에게 고의나 과실이 없더라도 부과할 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 37번 ㄹ"
+      ],
+      "refs": [
+        "변시5 37번 ㄹ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 37번 ㄹ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "행정의 실효성확보수단에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "ㄴ, ㄹ, ㅁ",
+      "needs_atomization": false
+    },
+    {
+      "id": 503705,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 37,
+      "choice": "ㅁ",
+      "topic": "실효성확보",
+      "q": "행정대집행의 대상이 되는 대체적 작위의무는 공법상 의무이어야 하고, 이때의 작위의무는 행정처분뿐만 아니라 법령에 의해 직접 부과될 수도 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 37번 ㅁ"
+      ],
+      "refs": [
+        "변시5 37번 ㅁ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 37번 ㅁ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "original_question": "행정의 실효성확보수단에 관한 설명 중 옳은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "5",
+      "answer_choice": "ㄴ, ㄹ, ㅁ",
+      "needs_atomization": false
+    },
+    {
+      "id": 503901,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 39,
+      "choice": "ㄱ",
+      "topic": "교원소청심사",
+      "q": "교원소청심사위원회의 결정은 행정심판의 재결의 성격을 가진다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 39번 ㄱ"
+      ],
+      "refs": [
+        "변시5 39번 ㄱ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 39번 ㄱ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "A국립대학교 교원인 甲은 소속 대학교의 총장으로부터 해임처분을 받았다. 甲은 이에 불복하여 ｢교원지위향상을 위한 특별법｣에 따라 교원소청심사위원회에 소청심사를 청구하였으나 동 청구는 기각되었다. 이에 甲은 교원소청심사위원회의 결정에 불복하여 취소소송을 제기하려고 한다. 이에 관한 설명 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "ㄱ(○), ㄴ(○), ㄷ(○), ㄹ(×)",
+      "needs_atomization": false
+    },
+    {
+      "id": 503902,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 39,
+      "choice": "ㄴ",
+      "topic": "교원소청심사",
+      "q": "甲이 소청심사결정의 취소를 구하는 소송을 제기하는 경우에는 교원소청심사위원회를 피고로 하여야 한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 39번 ㄴ"
+      ],
+      "refs": [
+        "변시5 39번 ㄴ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 39번 ㄴ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "A국립대학교 교원인 甲은 소속 대학교의 총장으로부터 해임처분을 받았다. 甲은 이에 불복하여 ｢교원지위향상을 위한 특별법｣에 따라 교원소청심사위원회에 소청심사를 청구하였으나 동 청구는 기각되었다. 이에 甲은 교원소청심사위원회의 결정에 불복하여 취소소송을 제기하려고 한다. 이에 관한 설명 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "ㄱ(○), ㄴ(○), ㄷ(○), ㄹ(×)",
+      "needs_atomization": true
+    },
+    {
+      "id": 503903,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 39,
+      "choice": "ㄷ",
+      "topic": "교원소청심사",
+      "q": "소청심사결정의 취소를 구하는 소송에서는 원처분인 A국립대학교 총장의 해임처분의 하자를 주장할 수 없다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 39번 ㄷ"
+      ],
+      "refs": [
+        "변시5 39번 ㄷ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 39번 ㄷ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "A국립대학교 교원인 甲은 소속 대학교의 총장으로부터 해임처분을 받았다. 甲은 이에 불복하여 ｢교원지위향상을 위한 특별법｣에 따라 교원소청심사위원회에 소청심사를 청구하였으나 동 청구는 기각되었다. 이에 甲은 교원소청심사위원회의 결정에 불복하여 취소소송을 제기하려고 한다. 이에 관한 설명 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "ㄱ(○), ㄴ(○), ㄷ(○), ㄹ(×)",
+      "needs_atomization": true
+    },
+    {
+      "id": 503904,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 39,
+      "choice": "ㄹ",
+      "topic": "교원소청심사",
+      "q": "甲이 소청심사결정의 취소를 구하는 소송을 통해 교원소청심사위원회의 기각결정에 사실오인이나 재량권 일탈·남용의 위법이 있다고 주장하는 경우, 이는 소청심사결정 자체의 고유한 위법을 주장하는 것으로 볼 수 있다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 39번 ㄹ"
+      ],
+      "refs": [
+        "변시5 39번 ㄹ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 39번 ㄹ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "original_question": "A국립대학교 교원인 甲은 소속 대학교의 총장으로부터 해임처분을 받았다. 甲은 이에 불복하여 ｢교원지위향상을 위한 특별법｣에 따라 교원소청심사위원회에 소청심사를 청구하였으나 동 청구는 기각되었다. 이에 甲은 교원소청심사위원회의 결정에 불복하여 취소소송을 제기하려고 한다. 이에 관한 설명 중 옳은 것(○)과 옳지 않은 것(×)을 올바르게 조합한 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "4",
+      "answer_choice": "ㄱ(○), ㄴ(○), ㄷ(○), ㄹ(×)",
+      "needs_atomization": true
+    },
+    {
+      "id": 504001,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 40,
+      "choice": "①",
+      "topic": "공물",
+      "q": "도로구역의 결정·고시는 있었지만 아직 도로의 형태를 갖추지는 못한 국유토지도 그 토지를 포함한 일단의 토지에 대하여 도로확장공사 실시계획이 수립되어 일부 공사가 진행 중인 경우에는 시효취득의 대상이 될 수 없다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 40번 ①"
+      ],
+      "refs": [
+        "변시5 40번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 40번 ① 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공물의 성립과 소멸에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "공유수면의 일부가 매립되어 사실상 대지화되었다고 하면, 관리청이 공용폐지를 하지 아니하더라도 법적으로 더 이상 공유수면으로서의 성질을 보유하지 못한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 504002,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 40,
+      "choice": "②",
+      "topic": "공물",
+      "q": "토지의 지목이 도로이고 국유재산대장에 등재되어 있다는 사정만으로 바로 그 토지가 도로로서 행정재산에 해당한다고 할 수는 없다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 40번 ②"
+      ],
+      "refs": [
+        "변시5 40번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 40번 ② 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공물의 성립과 소멸에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "공유수면의 일부가 매립되어 사실상 대지화되었다고 하면, 관리청이 공용폐지를 하지 아니하더라도 법적으로 더 이상 공유수면으로서의 성질을 보유하지 못한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 504003,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 40,
+      "choice": "③",
+      "topic": "공물",
+      "q": "공유수면의 일부가 매립되어 사실상 대지화되었다고 하면, 관리청이 공용폐지를 하지 아니하더라도 법적으로 더 이상 공유수면으로서의 성질을 보유하지 못한다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 40번 ③"
+      ],
+      "refs": [
+        "변시5 40번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 공법 선택형 40번 ③ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공물의 성립과 소멸에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "공유수면의 일부가 매립되어 사실상 대지화되었다고 하면, 관리청이 공용폐지를 하지 아니하더라도 법적으로 더 이상 공유수면으로서의 성질을 보유하지 못한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 504004,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 40,
+      "choice": "④",
+      "topic": "공물",
+      "q": "관리청이 착오로 행정재산을 다른 재산과 교환하였더라도 그러한 사정만으로 적법한 공용폐지의 의사표시가 있다고 볼 수 없다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 40번 ④"
+      ],
+      "refs": [
+        "변시5 40번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 40번 ④ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공물의 성립과 소멸에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "공유수면의 일부가 매립되어 사실상 대지화되었다고 하면, 관리청이 공용폐지를 하지 아니하더라도 법적으로 더 이상 공유수면으로서의 성질을 보유하지 못한다.",
+      "needs_atomization": false
+    },
+    {
+      "id": 504005,
+      "round": 5,
+      "year": 2016,
+      "exam": "변호사시험",
+      "subject_group": "공법",
+      "subject": "행정법",
+      "question_no": 40,
+      "choice": "⑤",
+      "topic": "공물",
+      "q": "행정재산이 공용폐지되어 시효취득의 대상이 된다는 입증책임은 시효취득을 주장하는 자에게 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 40번 ⑤"
+      ],
+      "refs": [
+        "변시5 40번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 공법 선택형 40번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "original_question": "공물의 성립과 소멸에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)",
+      "original_answer": "3",
+      "answer_choice": "공유수면의 일부가 매립되어 사실상 대지화되었다고 하면, 관리청이 공용폐지를 하지 아니하더라도 법적으로 더 이상 공유수면으로서의 성질을 보유하지 못한다.",
+      "needs_atomization": false
+    }
+  ],
+  "issues": []
+}

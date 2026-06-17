@@ -1,0 +1,23 @@
+{
+  "round": 5,
+  "year": 2016,
+  "source_path": "C:\\cowork\\lex-bank_변호사시험_전체_2026-06-16\\02_export\\mc_questions.csv",
+  "count": 189,
+  "subject_counts": {
+    "헌법": 101,
+    "행정법": 69,
+    "혼합공법": 19
+  },
+  "answer_counts": {
+    "X": 74,
+    "O": 115
+  },
+  "source_kind_counts": {
+    "explicit_ox_combination": 17,
+    "choice_statement_negative": 100,
+    "choice_statement_positive": 35,
+    "letter_combination_positive": 33,
+    "letter_combination_negative": 4
+  },
+  "issues": []
+}

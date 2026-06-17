@@ -1,0 +1,198 @@
+{
+  "source_path": "C:\\cowork\\lex-bank_변호사시험_전체_2026-06-16\\02_export\\mc_questions.csv",
+  "rounds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "count": 2803,
+  "subject_counts": {
+    "헌법": 1437,
+    "혼합공법": 267,
+    "행정법": 1099
+  },
+  "answer_counts": {
+    "O": 1760,
+    "X": 1043
+  },
+  "issues": [
+    {
+      "round": 1,
+      "question": 25,
+      "marker": "ㄴ",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "건축물대장 소관 행정청이 건축물대장의 용도변경신청을 거부하는 행위",
+      "selected_choice": "ㄱ, ㄴ, ㄷ, ㅁ"
+    },
+    {
+      "round": 1,
+      "question": 25,
+      "marker": "ㄷ",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "건축물대장 소관 행정청이 건축물에 관한 건축물대장을 직권말소한 행위",
+      "selected_choice": "ㄱ, ㄴ, ㄷ, ㅁ"
+    },
+    {
+      "round": 1,
+      "question": 25,
+      "marker": "ㄹ",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "과세관청이 행한 국세환급금결정 또는 이 결정을 구하는 신청에 대한 환급거부결정",
+      "selected_choice": "ㄱ, ㄴ, ㄷ, ㅁ"
+    },
+    {
+      "round": 2,
+      "question": 36,
+      "marker": "①",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "시장에 대하여 직접 주민소환을 하는 것",
+      "selected_choice": "시의회 의원 10명에 대하여 직접 부당이득의 반환을 청구하는 주민소송을 제기하는 것"
+    },
+    {
+      "round": 2,
+      "question": 36,
+      "marker": "②",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "시의회의 의회운영공동경비 사용 등에 관하여 주민감사청구를 하는 것",
+      "selected_choice": "시의회 의원 10명에 대하여 직접 부당이득의 반환을 청구하는 주민소송을 제기하는 것"
+    },
+    {
+      "round": 2,
+      "question": 36,
+      "marker": "⑤",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "광역화장장의 유치 여부에 관하여 주민투표를 청구하는 것",
+      "selected_choice": "시의회 의원 10명에 대하여 직접 부당이득의 반환을 청구하는 주민소송을 제기하는 것"
+    },
+    {
+      "round": 3,
+      "question": 38,
+      "marker": "ㄱ",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "여신전문금융회사의 임원에 대한 금융감독원장의 문책경고",
+      "selected_choice": "ㄱ, ㄹ ㄷ"
+    },
+    {
+      "round": 3,
+      "question": 39,
+      "marker": "가",
+      "issue": "missing_ox_mapping",
+      "source_kind": "cannot_infer_labeled_statement_ox",
+      "statement_kind": "content_labels",
+      "statement": "식품접객업자의 준수사항(별표 17 제6호 자목·파목·머목 및 | | | | 별도의 개별처분기준이 있는 경우는 제외한다)의 위반으로서 | | | | | | | | 1)-2) <생략> | | | | | | | | 3) 별표 17 제6호 타목 2)·거목 또는 서목을 1차 위반한 경우 | | | | 영업정지 1개월 | | | | | | | | 4) 별표 17 제6호 나목, 카목, 타목 3)·4), 하목 또는 어목을 1차 | | | | 위반한 경우 영업정지 15일 | | | | | + + | + +",
+      "selected_choice": "헌법재판소 판례에 따르면, 식품위생법은 다른 법률에 비해 전문적이고 기술적일 뿐 아니라, 영업형태와 고객의 이용형태 등 현실의 변화에 따른 신속하고 탄력적인 입법적 대응이 필요한 분야의 법률이므로, 그 세부적이고 기술적인 규율을 국회에 맡기기 보다는 전체적인 기준 및 개요를 법률에 대강만 정한 뒤 구체적이고 세부적인 사항은 전문적·기술적 능력을 갖춘 행정부에서 상황의 변동에 따라 탄력적으로 대응할 수 있도록 하위 법령에 위임할 필요가 있다."
+    },
+    {
+      "round": 4,
+      "question": 14,
+      "marker": "①",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "국회의장 선거권자총수 중앙선거관리위원회위원장",
+      "selected_choice": "국회의장 선거권자총수 중앙선거관리위원회위원장"
+    },
+    {
+      "round": 4,
+      "question": 14,
+      "marker": "②",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "국회의장 선거권자총수 국회의장",
+      "selected_choice": "국회의장 선거권자총수 중앙선거관리위원회위원장"
+    },
+    {
+      "round": 4,
+      "question": 14,
+      "marker": "③",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "국회의장 유효투표총수 국회의장",
+      "selected_choice": "국회의장 선거권자총수 중앙선거관리위원회위원장"
+    },
+    {
+      "round": 4,
+      "question": 14,
+      "marker": "④",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "당선인 유효투표총수 중앙선거관리위원회위원장",
+      "selected_choice": "국회의장 선거권자총수 중앙선거관리위원회위원장"
+    },
+    {
+      "round": 4,
+      "question": 14,
+      "marker": "⑤",
+      "issue": "non_sentence_statement",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "statement": "당선인 선거권자총수 국회의장",
+      "selected_choice": "국회의장 선거권자총수 중앙선거관리위원회위원장"
+    },
+    {
+      "round": 6,
+      "question": 28,
+      "marker": "",
+      "issue": "no_statement_extracted",
+      "source_kind": "no_statements",
+      "statement": "행정법상 신고에 관한 설명 중 옳지 않은 것은? (다툼이 있는 경우 판례에 의함)"
+    },
+    {
+      "round": 7,
+      "question": 22,
+      "marker": "ㄱ",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "동종사건에 관하여 이미 행정심판의 기각재결이 있은 때",
+      "selected_choice": "ㄱ, ㄹ, ㅁ, ㅂ"
+    },
+    {
+      "round": 7,
+      "question": 22,
+      "marker": "ㄷ",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "법령의 규정에 의한 행정심판기관이 의결 또는 재결을 하지 못할 사유가 있는 때",
+      "selected_choice": "ㄱ, ㄹ, ㅁ, ㅂ"
+    },
+    {
+      "round": 10,
+      "question": 28,
+      "marker": "",
+      "issue": "no_statement_extracted",
+      "source_kind": "choice_cells_too_short",
+      "statement": "아래 사례의 밑줄 친 부분 중 위법하여 허용되지 않거나 옳지 않은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함)"
+    }
+  ]
+}

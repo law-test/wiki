@@ -1,0 +1,32 @@
+{
+  "round": 10,
+  "year": 2021,
+  "source_path": "C:\\cowork\\lex-bank_변호사시험_전체_2026-06-16\\02_export\\mc_questions.csv",
+  "count": 182,
+  "subject_counts": {
+    "헌법": 117,
+    "혼합공법": 5,
+    "행정법": 60
+  },
+  "answer_counts": {
+    "X": 62,
+    "O": 120
+  },
+  "source_kind_counts": {
+    "explicit_ox_combination": 38,
+    "choice_statement_negative": 80,
+    "choice_statement_positive": 20,
+    "letter_combination_positive": 35,
+    "letter_combination_negative": 9
+  },
+  "issues": [
+    {
+      "round": 10,
+      "question": 28,
+      "marker": "",
+      "issue": "no_statement_extracted",
+      "source_kind": "choice_cells_too_short",
+      "statement": "아래 사례의 밑줄 친 부분 중 위법하여 허용되지 않거나 옳지 않은 것을 모두 고른 것은? (다툼이 있는 경우 판례에 의함)"
+    }
+  ]
+}

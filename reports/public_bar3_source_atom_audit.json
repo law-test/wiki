@@ -1,0 +1,44 @@
+{
+  "round": 3,
+  "year": 2014,
+  "source_path": "C:\\cowork\\lex-bank_변호사시험_전체_2026-06-16\\02_export\\mc_questions.csv",
+  "count": 185,
+  "subject_counts": {
+    "헌법": 99,
+    "혼합공법": 8,
+    "행정법": 78
+  },
+  "answer_counts": {
+    "X": 72,
+    "O": 113
+  },
+  "source_kind_counts": {
+    "choice_statement_negative": 90,
+    "choice_statement_positive": 20,
+    "letter_combination_negative": 17,
+    "letter_combination_positive": 47,
+    "explicit_ox_combination": 11
+  },
+  "issues": [
+    {
+      "round": 3,
+      "question": 38,
+      "marker": "ㄱ",
+      "issue": "non_sentence_statement",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "statement": "여신전문금융회사의 임원에 대한 금융감독원장의 문책경고",
+      "selected_choice": "ㄱ, ㄹ ㄷ"
+    },
+    {
+      "round": 3,
+      "question": 39,
+      "marker": "가",
+      "issue": "missing_ox_mapping",
+      "source_kind": "cannot_infer_labeled_statement_ox",
+      "statement_kind": "content_labels",
+      "statement": "식품접객업자의 준수사항(별표 17 제6호 자목·파목·머목 및 | | | | 별도의 개별처분기준이 있는 경우는 제외한다)의 위반으로서 | | | | | | | | 1)-2) <생략> | | | | | | | | 3) 별표 17 제6호 타목 2)·거목 또는 서목을 1차 위반한 경우 | | | | 영업정지 1개월 | | | | | | | | 4) 별표 17 제6호 나목, 카목, 타목 3)·4), 하목 또는 어목을 1차 | | | | 위반한 경우 영업정지 15일 | | | | | + + | + +",
+      "selected_choice": "헌법재판소 판례에 따르면, 식품위생법은 다른 법률에 비해 전문적이고 기술적일 뿐 아니라, 영업형태와 고객의 이용형태 등 현실의 변화에 따른 신속하고 탄력적인 입법적 대응이 필요한 분야의 법률이므로, 그 세부적이고 기술적인 규율을 국회에 맡기기 보다는 전체적인 기준 및 개요를 법률에 대강만 정한 뒤 구체적이고 세부적인 사항은 전문적·기술적 능력을 갖춘 행정부에서 상황의 변동에 따라 탄력적으로 대응할 수 있도록 하위 법령에 위임할 필요가 있다."
+    }
+  ]
+}
