@@ -1,0 +1,364 @@
+{
+  "count": 327,
+  "subjectCounts": {
+    "민법": 157,
+    "상법": 85,
+    "민사소송법": 85
+  },
+  "flagCounts": {},
+  "infoTagCounts": {
+    "manual_override": 27
+  },
+  "highConfidenceCount": 327,
+  "needsReviewCount": 0,
+  "needsReviewBySubject": {},
+  "remainingCaseParty": [],
+  "samples": [
+    {
+      "pid": "civil-bar13-q01-①",
+      "round": 13,
+      "year": 2024,
+      "subject": "민법",
+      "topic": "소멸시효",
+      "rep": "본래 채권 시효 소멸 → 손해배상채권 함께 소멸.",
+      "a": "O",
+      "why": "본래 채권 시효 소멸 → 손해배상채권 함께 소멸.",
+      "ref": "민법 제168조, 민법 제666조, 민법 제163조, 대법원 2018. 2. 28. 선고 2016다45779, 대법원 2019. 8. 29. 선고 2017다276679, 대법원 2016. 10. 27. 선고 2014다211978",
+      "art": "제168조",
+      "src": [
+        "변시13 1번 ①"
+      ],
+      "refs": [
+        "변시13 1번 ①"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "채무불이행으로 인한 손해배상채권은 본래의 채권이 시효로 소멸하더라도 함께 소멸하지 않는다.",
+      "source_basis": "본래 채권 시효 소멸 → 손해배상채권 함께 소멸",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar13-q01-②",
+      "round": 13,
+      "year": 2024,
+      "subject": "민법",
+      "topic": "소멸시효",
+      "rep": "수급인의 저당권설정청구권도 도급에 관한 채권 = 3년 단기시효.",
+      "a": "O",
+      "why": "수급인의 저당권설정청구권도 도급에 관한 채권 = 3년 단기시효.",
+      "ref": "민법 제168조, 민법 제666조, 민법 제163조, 대법원 2018. 2. 28. 선고 2016다45779, 대법원 2019. 8. 29. 선고 2017다276679, 대법원 2016. 10. 27. 선고 2014다211978",
+      "art": "제168조",
+      "src": [
+        "변시13 1번 ②"
+      ],
+      "refs": [
+        "변시13 1번 ②"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "3년의 단기소멸시효가 적용되는 도급을 받은 자의 공사에 관한 채권은 공사대금채권만을 의미하고 그 공사에 부수되는 채권으로서 수급인의 저당권설정청구권은 도급을 받은 자의 공사에 관한 채권에 해당되지 않는다.",
+      "source_basis": "수급인의 저당권설정청구권도 도급에 관한 채권 = 3년 단기시효",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar13-q01-③",
+      "round": 13,
+      "year": 2024,
+      "subject": "민법",
+      "topic": "소멸시효",
+      "rep": "후순위담보권자는 선순위담보권의 피담보채권 시효 원용권 ✗.",
+      "a": "O",
+      "why": "후순위담보권자는 선순위담보권의 피담보채권 시효 원용권 ✗.",
+      "ref": "민법 제168조, 민법 제666조, 민법 제163조, 대법원 2018. 2. 28. 선고 2016다45779, 대법원 2019. 8. 29. 선고 2017다276679, 대법원 2016. 10. 27. 선고 2014다211978",
+      "art": "제168조",
+      "src": [
+        "변시13 1번 ③"
+      ],
+      "refs": [
+        "변시13 1번 ③"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "후순위담보권자는 선순위담보권의 피담보채권의 소멸로 직접 이익을 받는 자이므로 선순위담보권의 피담보채권에 관한 소멸시효의 완성을 원용할 수 있다.",
+      "source_basis": "후순위담보권자는 선순위담보권의 피담보채권 시효 원용권 ✗",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar13-q01-④",
+      "round": 13,
+      "year": 2024,
+      "subject": "민법",
+      "topic": "소멸시효",
+      "rep": "(정답) — 물상보증인 저당권말소소송에서 채권자의 응소 = 재판상 청구 ✗.",
+      "a": "O",
+      "why": "(정답) — 물상보증인 저당권말소소송에서 채권자의 응소 = 재판상 청구 ✗.",
+      "ref": "민법 제168조, 민법 제666조, 민법 제163조, 대법원 2018. 2. 28. 선고 2016다45779, 대법원 2019. 8. 29. 선고 2017다276679, 대법원 2016. 10. 27. 선고 2014다211978",
+      "art": "제168조",
+      "src": [
+        "변시13 1번 ④"
+      ],
+      "refs": [
+        "변시13 1번 ④"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "물상보증인이 그 피담보채무의 부존재 또는 소멸을 이유로 제기한 저당권설정등기 말소등기절차이행청구소송에서, 채권자 겸 저당권자가 청구기각의 판결을 구하고 피담보채권의 존재를 주장하여 승소하더라도 채권자의 위 응소행위는 피담보채권에 대한 시효중단 사유인 ‘재판상 청구’에 해당하지 않는다.",
+      "source_basis": "옳음 (정답) — 물상보증인 저당권말소소송에서 채권자의 응소 = 재판상 청구 ✗",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar13-q01-⑤",
+      "round": 13,
+      "year": 2024,
+      "subject": "민법",
+      "topic": "소멸시효",
+      "rep": "압류·가압류의 시효중단은 피보전권리에만 미침.",
+      "a": "O",
+      "why": "압류·가압류의 시효중단은 피보전권리에만 미침.",
+      "ref": "민법 제168조, 민법 제666조, 민법 제163조, 대법원 2018. 2. 28. 선고 2016다45779, 대법원 2019. 8. 29. 선고 2017다276679, 대법원 2016. 10. 27. 선고 2014다211978",
+      "art": "제168조",
+      "src": [
+        "변시13 1번 ⑤"
+      ],
+      "refs": [
+        "변시13 1번 ⑤"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "채권자가 채무자의 제3채무자에 대한 채권을 압류 또는 가압류한 경우, 채무자의 제3채무자에 대한 채권에 확정적 시효중단의 효력이 생긴다.",
+      "source_basis": "압류·가압류의 시효중단은 피보전권리에만 미침",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar13-q02-①",
+      "round": 13,
+      "year": 2024,
+      "subject": "민법",
+      "topic": "소멸시효",
+      "rep": "대부업자의 영업상 대여금 원금채권에는 상법 제64조의 5년 상사소멸시효가 적용된다.",
+      "a": "O",
+      "why": "대부업자의 영업상 대여금 원금채권에는 상법 제64조의 5년 상사소멸시효가 적용된다.",
+      "ref": "민법 제163조, 상법 제64조, 대법원 1981. 7. 7. 80다1684, 대법원 2018. 2. 28. 2016다45779",
+      "art": "제163조",
+      "src": [
+        "변시13 2번 ①"
+      ],
+      "refs": [
+        "변시13 2번 ①"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "4억 7,400만 원",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "manual_override"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar13-q02-②",
+      "round": 13,
+      "year": 2024,
+      "subject": "민법",
+      "topic": "소멸시효",
+      "rep": "1년 이내 기간으로 정한 변제기 전 약정이자채권에는 민법 제163조의 3년 단기소멸시효가 적용된다.",
+      "a": "O",
+      "why": "1년 이내 기간으로 정한 변제기 전 약정이자채권에는 민법 제163조의 3년 단기소멸시효가 적용된다.",
+      "ref": "민법 제163조, 상법 제64조, 대법원 1981. 7. 7. 80다1684, 대법원 2018. 2. 28. 2016다45779",
+      "art": "제163조",
+      "src": [
+        "변시13 2번 ②"
+      ],
+      "refs": [
+        "변시13 2번 ②"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "3억 200만 원",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "manual_override"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar13-q02-③",
+      "round": 13,
+      "year": 2024,
+      "subject": "민법",
+      "topic": "소멸시효",
+      "rep": "변제기 이후의 지연손해금채권은 원본채권의 변형물로서 원본채권의 소멸시효기간을 따른다.",
+      "a": "O",
+      "why": "변제기 이후의 지연손해금채권은 원본채권의 변형물로서 원본채권의 소멸시효기간을 따른다.",
+      "ref": "민법 제163조, 상법 제64조, 대법원 1981. 7. 7. 80다1684, 대법원 2018. 2. 28. 2016다45779",
+      "art": "제163조",
+      "src": [
+        "변시13 2번 ③"
+      ],
+      "refs": [
+        "변시13 2번 ③"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "2억 8,400만 원",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "manual_override"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar13-q02-④",
+      "round": 13,
+      "year": 2024,
+      "subject": "민법",
+      "topic": "소멸시효",
+      "rep": "원본채권이 소멸시효 완성으로 소멸하면 그 부수채권인 약정이자와 지연손해금도 함께 소멸한다.",
+      "a": "O",
+      "why": "원본채권이 소멸시효 완성으로 소멸하면 그 부수채권인 약정이자와 지연손해금도 함께 소멸한다.",
+      "ref": "민법 제163조, 상법 제64조, 대법원 1981. 7. 7. 80다1684, 대법원 2018. 2. 28. 2016다45779",
+      "art": "제163조",
+      "src": [
+        "변시13 2번 ④"
+      ],
+      "refs": [
+        "변시13 2번 ④"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "2억 7,200만 원",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "manual_override"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar13-q02-⑤",
+      "round": 13,
+      "year": 2024,
+      "subject": "민법",
+      "topic": "소멸시효",
+      "rep": "소멸시효가 완성된 대여금과 시효가 완성되지 않은 대여금을 구별하여 원금, 약정이자, 지연손해금을 각각 산정하여야 한다.",
+      "a": "O",
+      "why": "소멸시효가 완성된 대여금과 시효가 완성되지 않은 대여금을 구별하여 원금, 약정이자, 지연손해금을 각각 산정하여야 한다.",
+      "ref": "민법 제163조, 상법 제64조, 대법원 1981. 7. 7. 80다1684, 대법원 2018. 2. 28. 2016다45779",
+      "art": "제163조",
+      "src": [
+        "변시13 2번 ⑤"
+      ],
+      "refs": [
+        "변시13 2번 ⑤"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "1억 4,200만 원",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "manual_override"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar13-q03-①",
+      "round": 13,
+      "year": 2024,
+      "subject": "민법",
+      "topic": "친권",
+      "rep": "공동친권 단독행위, 상대방 선의면 효력 ○.",
+      "a": "O",
+      "why": "공동친권 단독행위, 상대방 선의면 효력 ○.",
+      "ref": "민법 제5조, 민법 제17조, 민법 제921조, 민법 제921조 제2항, 대법원 2007. 11. 16. 선고 2005다71659, 대법원 1971. 12. 14. 선고 71다2045",
+      "art": "제5조",
+      "src": [
+        "변시13 3번 ①"
+      ],
+      "refs": [
+        "변시13 3번 ①"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "甲이 乙의 의사에 반함에도 불구하고 乙과의 공동명의로 丙을 대리하는 법률행위를 하였다면, 그 법률행위는 상대방의 선의 여부를 불문하고 효력이 없다.",
+      "source_basis": "공동친권 단독행위, 상대방 선의면 효력 ○",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar13-q03-②",
+      "round": 13,
+      "year": 2024,
+      "subject": "민법",
+      "topic": "친권",
+      "rep": "신용카드 매매계약을 취소하지 않은 채 물품 소비 → 부당이득반환 의무 ○.",
+      "a": "O",
+      "why": "신용카드 매매계약을 취소하지 않은 채 물품 소비 → 부당이득반환 의무 ○.",
+      "ref": "민법 제5조, 민법 제17조, 민법 제921조, 민법 제921조 제2항, 대법원 2007. 11. 16. 선고 2005다71659, 대법원 1971. 12. 14. 선고 71다2045",
+      "art": "제5조",
+      "src": [
+        "변시13 3번 ②"
+      ],
+      "refs": [
+        "변시13 3번 ②"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "丙이 甲과 乙의 동의 없이 신용카드회사 戊와 신용카드 이용계약을 체결하고 발급받은 카드를 이용하여 己로부터 구입한 물품의 대금을 戊가 지급한 이후에, 甲과 乙이 戊와의 신용카드 이용계약을 취소하였으나 己와의 매매계약은 취소하지 않고 구입한 물품을 丙이 모두 소비하였다면, 丙은 戊에게 부당이득반환의무를 부담하지 않는다.",
+      "source_basis": "신용카드 매매계약을 취소하지 않은 채 물품 소비 → 부당이득반환 의무 ○",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    }
+  ]
+}

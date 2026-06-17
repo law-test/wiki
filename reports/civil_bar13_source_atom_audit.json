@@ -1,0 +1,23 @@
+{
+  "round": 13,
+  "year": 2024,
+  "source_path": "C:\\cowork\\lex-bank_변호사시험_전체_2026-06-16\\02_export\\mc_questions.csv",
+  "count": 327,
+  "subject_counts": {
+    "민법": 157,
+    "상법": 85,
+    "민사소송법": 85
+  },
+  "answer_counts": {
+    "X": 130,
+    "O": 197
+  },
+  "source_kind_counts": {
+    "choice_statement_positive": 45,
+    "letter_combination_positive": 77,
+    "choice_statement_negative": 165,
+    "letter_combination_negative": 40
+  },
+  "needs_atomization": 166,
+  "issues": []
+}
