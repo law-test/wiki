@@ -1,0 +1,379 @@
+{
+  "count": 323,
+  "subjectCounts": {
+    "민법": 171,
+    "상법": 98,
+    "민사소송법": 54
+  },
+  "flagCounts": {},
+  "infoTagCounts": {
+    "source_statement_fallback": 323,
+    "manual_source_cleanup": 5
+  },
+  "highConfidenceCount": 323,
+  "needsReviewCount": 0,
+  "needsReviewBySubject": {},
+  "remainingCaseParty": [],
+  "samples": [
+    {
+      "pid": "civil-bar4-q01-①",
+      "round": 4,
+      "year": 2015,
+      "subject": "민법",
+      "topic": "임대차",
+      "rep": "주택임대차보호법은 임대주택의 소유자가 아니더라도 그 주택에 관하여 적법하게 임대차계약을 체결할 수 있는 권한을 가진 임대인과 체결한 임대차계약에 적용된다.",
+      "a": "O",
+      "why": "주택임대차보호법은 임대주택의 소유자가 아니더라도 그 주택에 관하여 적법하게 임대차계약을 체결할 수 있는 권한을 가진 임대인과 체결한 임대차계약에 적용된다.",
+      "ref": "민법 제618조",
+      "art": "제618조",
+      "src": [
+        "변시4 1번 ①"
+      ],
+      "refs": [
+        "변시4 1번 ①"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "｢주택임대차보호법｣은 임대주택의 소유자가 아니더라도 그 주택에 관하여 적법하게 임대차계약을 체결할 수 있는 권한을 가진 임대인과 체결한 임대차계약에 적용된다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar4-q01-②",
+      "round": 4,
+      "year": 2015,
+      "subject": "민법",
+      "topic": "임대차",
+      "rep": "임차인이 임차주택에 대하여 보증금반환 청구소송의 확정판결이나 그 밖에 이에 준하는 집행권원에.",
+      "a": "O",
+      "why": "임차인이 임차주택에 대하여 보증금반환 청구소송의 확정판결이나 그 밖에 이에 준하는 집행권원에.",
+      "ref": "민법 제618조",
+      "art": "제618조",
+      "src": [
+        "변시4 1번 ②"
+      ],
+      "refs": [
+        "변시4 1번 ②"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "임차인이 임차주택에 대하여 보증금반환 청구소송의 확정판결이나 그 밖에 이에 준하는 집행권원에 따라서 경매를 신청하는 경우에는 반대의무의 이행이나 이행의 제공을 집행개시의 요건으로 하지 아니한다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar4-q01-③",
+      "round": 4,
+      "year": 2015,
+      "subject": "민법",
+      "topic": "임대차",
+      "rep": "임차인이 임대차계약을 체결한 주된 목적이 주택을 사용·수익하려는 것에 있는 것이 아니고, 소액임차인으로 보호받아 선순위 담보권자에 우선하여 채권을 회수하려는 것에 있는 경우에는 주택임대차보호법상 소액임차인으로 보호받을 수 없다.",
+      "a": "O",
+      "why": "임차인이 임대차계약을 체결한 주된 목적이 주택을 사용·수익하려는 것에 있는 것이 아니고, 소액임차인으로 보호받아 선순위 담보권자에 우선하여 채권을 회수하려는 것에 있는 경우에는 주택임대차보호법상 소액임차인으로 보호받을 수 없다.",
+      "ref": "민법 제618조",
+      "art": "제618조",
+      "src": [
+        "변시4 1번 ③"
+      ],
+      "refs": [
+        "변시4 1번 ③"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "임차인이 임대차계약을 체결한 주된 목적이 주택을 사용·수익하려는 것에 있는 것이 아니고, 소액임차인으로 보호받아 선순위 담보권자에 우선하여 채권을 회수하려는 것에 있는 경우에는 ｢주택임대차보호법｣상 소액임차인으로 보호받을 수 없다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar4-q01-④",
+      "round": 4,
+      "year": 2015,
+      "subject": "민법",
+      "topic": "임대차",
+      "rep": "임대인의 임대차보증금 반환의무와 임차인의 임차권등기 말소의무는 동시이행관계에 있다.",
+      "a": "X",
+      "why": "임대인의 임대차보증금 반환의무와 임차인의 임차권등기 말소의무는 동시이행관계에 있다.",
+      "ref": "민법 제618조",
+      "art": "제618조",
+      "src": [
+        "변시4 1번 ④"
+      ],
+      "refs": [
+        "변시4 1번 ④"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "임대인의 임대차보증금 반환의무와 임차인의 임차권등기 말소의무는 동시이행관계에 있다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar4-q01-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject": "민법",
+      "topic": "임대차",
+      "rep": "임차인이 임차주택을 직접 점유하여 거주하지 않고 그곳에 주민등록을 하지 아니하였더라도, 임차인이 임대인의 승낙을 받아 적법하게 임차주택을 전대하고 그 전차인이 주택을 인도받아 자신의 주민등록을 마쳤다면 임차인은 적법한 대항요건을 갖추었다고 주장할 수 있다.",
+      "a": "O",
+      "why": "임차인이 임차주택을 직접 점유하여 거주하지 않고 그곳에 주민등록을 하지 아니하였더라도, 임차인이 임대인의 승낙을 받아 적법하게 임차주택을 전대하고 그 전차인이 주택을 인도받아 자신의 주민등록을 마쳤다면 임차인은 적법한 대항요건을 갖추었다고 주장할 수 있다.",
+      "ref": "민법 제618조",
+      "art": "제618조",
+      "src": [
+        "변시4 1번 ⑤"
+      ],
+      "refs": [
+        "변시4 1번 ⑤"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "임차인이 임차주택을 직접 점유하여 거주하지 않고 그곳에 주민등록을 하지 아니하였더라도, 임차인이 임대인의 승낙을 받아 적법하게 임차주택을 전대하고 그 전차인이 주택을 인도받아 자신의 주민등록을 마쳤다면 임차인은 적법한 대항요건을 갖추었다고 주장할 수 있다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar4-q02-①",
+      "round": 4,
+      "year": 2015,
+      "subject": "민법",
+      "topic": "소유권",
+      "rep": "제3자가 제1자와 제2자 사이의 명의신탁약정을 알지 못하였다면, 제2자는X 부동산에 대한 소유권을 유효하게 취득한다.",
+      "a": "O",
+      "why": "제3자가 제1자와 제2자 사이의 명의신탁약정을 알지 못하였다면, 제2자는X 부동산에 대한 소유권을 유효하게 취득한다.",
+      "ref": "민법 제185조",
+      "art": "제185조",
+      "src": [
+        "변시4 2번 ①"
+      ],
+      "refs": [
+        "변시4 2번 ①"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "丙이 甲과 乙 사이의 명의신탁약정을 알지 못하였다면, 乙은X 부동산에 대한 소유권을 유효하게 취득한다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar4-q02-②",
+      "round": 4,
+      "year": 2015,
+      "subject": "민법",
+      "topic": "소유권",
+      "rep": "제3자가 제1자와 제2자 사이의 명의신탁약정을 알았더라도, 제1자가 X 부동산을 제4자에게 매도하고 제2자로부터 제4자에게 소유권이전등기가 경료되면 제4자는 유효하게 소유권을 취득한다.",
+      "a": "X",
+      "why": "제3자가 제1자와 제2자 사이의 명의신탁약정을 알았더라도, 제1자가 X 부동산을 제4자에게 매도하고 제2자로부터 제4자에게 소유권이전등기가 경료되면 제4자는 유효하게 소유권을 취득한다.",
+      "ref": "민법 제185조",
+      "art": "제185조",
+      "src": [
+        "변시4 2번 ②"
+      ],
+      "refs": [
+        "변시4 2번 ②"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "丙이 甲과 乙 사이의 명의신탁약정을 알았더라도, 甲이 X 부동산을 丁에게 매도하고 乙로부터 丁에게 소유권이전등기가 경료되면 丁은 유효하게 소유권을 취득한다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar4-q02-③",
+      "round": 4,
+      "year": 2015,
+      "subject": "민법",
+      "topic": "소유권",
+      "rep": "제2자가 X 부동산을 제4자에게 매도하고 제4자 명의로 소유권이전등기가 경료되면, 제4자는 위 명의신탁약정에 대한 선의·악의를 불문하고 유효하게 소유권을 취득한다.",
+      "a": "O",
+      "why": "제2자가 X 부동산을 제4자에게 매도하고 제4자 명의로 소유권이전등기가 경료되면, 제4자는 위 명의신탁약정에 대한 선의·악의를 불문하고 유효하게 소유권을 취득한다.",
+      "ref": "민법 제185조",
+      "art": "제185조",
+      "src": [
+        "변시4 2번 ③"
+      ],
+      "refs": [
+        "변시4 2번 ③"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "乙이 X 부동산을 丁에게 매도하고 丁 명의로 소유권이전등기가 경료되면, 丁은 위 명의신탁약정에 대한 선의·악의를 불문하고 유효하게 소유권을 취득한다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar4-q02-④",
+      "round": 4,
+      "year": 2015,
+      "subject": "민법",
+      "topic": "소유권",
+      "rep": "제3자가 매매계약 체결 당시 제1자와 제2자 사이의 명의신탁약정을 안 경우, 제1자는 제2자에 대하여 부당이득으로서 부동산 자체의 반환을 구할 수 없다.",
+      "a": "O",
+      "why": "제3자가 매매계약 체결 당시 제1자와 제2자 사이의 명의신탁약정을 안 경우, 제1자는 제2자에 대하여 부당이득으로서 부동산 자체의 반환을 구할 수 없다.",
+      "ref": "민법 제185조",
+      "art": "제185조",
+      "src": [
+        "변시4 2번 ④"
+      ],
+      "refs": [
+        "변시4 2번 ④"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "丙이 매매계약 체결 당시 甲과 乙 사이의 명의신탁약정을 안 경우, 甲은 乙에 대하여 부당이득으로서 부동산 자체의 반환을 구할 수 없다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar4-q02-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject": "민법",
+      "topic": "소유권",
+      "rep": "제3자가 제2자 명의로 소유권이전등기가 경료되기 전에 제1자와 제2자 사이의 명의신탁약정이 무효인 사실을 알고 제1자가 매매계약의 매수인으로 되는 것에 동의하였다면, 제1자는 제3자에 대하여 소유권이전등기를 청구할 수 있다.",
+      "a": "O",
+      "why": "제3자가 제2자 명의로 소유권이전등기가 경료되기 전에 제1자와 제2자 사이의 명의신탁약정이 무효인 사실을 알고 제1자가 매매계약의 매수인으로 되는 것에 동의하였다면, 제1자는 제3자에 대하여 소유권이전등기를 청구할 수 있다.",
+      "ref": "민법 제185조",
+      "art": "제185조",
+      "src": [
+        "변시4 2번 ⑤"
+      ],
+      "refs": [
+        "변시4 2번 ⑤"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "丙이 乙 명의로 소유권이전등기가 경료되기 전에 甲과 乙 사이의 명의신탁약정이 무효인 사실을 알고 甲이 매매계약의 매수인으로 되는 것에 동의하였다면, 甲은 丙에 대하여 소유권이전등기를 청구할 수 있다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar4-q03-ㄱ",
+      "round": 4,
+      "year": 2015,
+      "subject": "민법",
+      "topic": "상속",
+      "rep": "공동상속인 중 1인이 상속재산인 수 개의 부동산 중 하나의 부동산에 대한 자신의 상속지분을 양도한 것은 민법 제1011조 제1항에 규정된 ‘상속분의 양도’에 해당하지 않으므로, 이에 대하여는 다른 상속인들이 상속분의 양수권을 행사할 수 없다.",
+      "a": "O",
+      "why": "공동상속인 중 1인이 상속재산인 수 개의 부동산 중 하나의 부동산에 대한 자신의 상속지분을 양도한 것은 민법 제1011조 제1항에 규정된 ‘상속분의 양도’에 해당하지 않으므로, 이에 대하여는 다른 상속인들이 상속분의 양수권을 행사할 수 없다.",
+      "ref": "민법 제997조",
+      "art": "제997조",
+      "src": [
+        "변시4 3번 ㄱ"
+      ],
+      "refs": [
+        "변시4 3번 ㄱ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "공동상속인 중 1인이 상속재산인 수 개의 부동산 중 하나의 부동산에 대한 자신의 상속지분을 양도한 것은 ｢민법｣ 제1011조 제1항에 규정된 ‘상속분의 양도’에 해당하지 않으므로, 이에 대하여는 다른 상속인들이 상속분의 양수권을 행사할 수 없다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar4-q03-ㄴ",
+      "round": 4,
+      "year": 2015,
+      "subject": "민법",
+      "topic": "상속",
+      "rep": "공동상속인들이 상속재산을 분할한 후 피상속인의 혼인외의 출생자로서 인지된 사람이 다른 공동상속인에게 그 상속분에 상당한 가액의 지급을 청구한 경우, 공동상속인이 분할받은 상속재산으로부터 발생한 과실을 취득하는 것은 피인지자에 대한 관계에서 부당이득이 되므로 이를 반환하여야 한다.",
+      "a": "X",
+      "why": "공동상속인들이 상속재산을 분할한 후 피상속인의 혼인외의 출생자로서 인지된 사람이 다른 공동상속인에게 그 상속분에 상당한 가액의 지급을 청구한 경우, 공동상속인이 분할받은 상속재산으로부터 발생한 과실을 취득하는 것은 피인지자에 대한 관계에서 부당이득이 되므로 이를 반환하여야 한다.",
+      "ref": "민법 제997조",
+      "art": "제997조",
+      "src": [
+        "변시4 3번 ㄴ"
+      ],
+      "refs": [
+        "변시4 3번 ㄴ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "공동상속인들이 상속재산을 분할한 후 피상속인의 혼인외의 출생자로서 인지된 사람이 다른 공동상속인에게 그 상속분에 상당한 가액의 지급을 청구한 경우, 공동상속인이 분할받은 상속재산으로부터 발생한 과실을 취득하는 것은 피인지자에 대한 관계에서 부당이득이 되므로 이를 반환하여야 한다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    }
+  ]
+}
