@@ -1,0 +1,1825 @@
+{
+  "title": "변호사시험 민사법 atom 유사 병합 후보",
+  "builtAt": "2026-06-17T12:01:28.788858+00:00",
+  "source": "assets/ox_msa_bar_exam_integrated_draft_v001.json",
+  "sourceCount": 4891,
+  "mergeCandidateCount": 26,
+  "conflictCandidateCount": 3,
+  "clusterCount": 25,
+  "mergeCandidates": [
+    {
+      "kind": "possible_merge",
+      "score": 0.9199,
+      "sequence": 0.9692,
+      "jaccard": 0.8596,
+      "modes": [
+        "topic"
+      ],
+      "sameArticle": false,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-0585",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제482조",
+        "topic": "저당권",
+        "src": [
+          "변시15 20번 ㄴ"
+        ],
+        "sourceText": "변시15 20번 ㄴ",
+        "rep": "공동저당의 목적물 중 채무자 소유 부동산과 물상보증인 소유 부동산이 섞여 있는 경우, 채무자 소유 부동산이 그 가액 한도에서 피담보채권 전액을 먼저 부담한다."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-0586",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제368조",
+        "topic": "저당권",
+        "src": [
+          "변시15 10번 ㄱ"
+        ],
+        "sourceText": "변시15 10번 ㄱ",
+        "rep": "공동저당의 목적물 중 채무자 소유 부동산과 물상보증인 소유 부동산이 함께 있는 경우, 채무자 소유 부동산이 그 가액 한도에서 피담보채권 전액을 먼저 부담한다."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.8734,
+      "sequence": 0.9744,
+      "jaccard": 0.75,
+      "modes": [
+        "topic"
+      ],
+      "sameArticle": false,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-2664",
+        "subject": "민사소송법",
+        "answer": "O",
+        "art": "",
+        "topic": "소유권",
+        "src": [
+          "변시11 57번 ④"
+        ],
+        "sourceText": "변시11 57번 ④",
+        "rep": "근저당권 말소 후 → 피담보채무 부존재확인의 이익 ✗."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-2665",
+        "subject": "민사소송법",
+        "answer": "O",
+        "art": "제487조",
+        "topic": "소유권",
+        "src": [
+          "변시9 54번 ③"
+        ],
+        "sourceText": "변시9 54번 ③",
+        "rep": "근저당권 말소 후 피담보채무 부존재확인 = 이익 ✗."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.8538,
+      "sequence": 0.9388,
+      "jaccard": 0.75,
+      "modes": [
+        "topic"
+      ],
+      "sameArticle": false,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-2637",
+        "subject": "민사소송법",
+        "answer": "O",
+        "art": "제76조",
+        "topic": "보조참가",
+        "src": [
+          "변시12 57번 ③"
+        ],
+        "sourceText": "변시12 57번 ③",
+        "rep": "공동소송적 보조참가 + 피참가인 재심 취하 → 참가인 동의 必."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-2640",
+        "subject": "민사소송법",
+        "answer": "O",
+        "art": "제77조",
+        "topic": "보조참가",
+        "src": [
+          "변시11 56번 ④"
+        ],
+        "sourceText": "변시11 56번 ④",
+        "rep": "공동소송적 보조참가인 참여 + 피참가인 재심 취하 → 참가인 동의 必 (정답)."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.8215,
+      "sequence": 0.88,
+      "jaccard": 0.75,
+      "modes": [
+        "art"
+      ],
+      "sameArticle": true,
+      "sameTopic": false,
+      "left": {
+        "pid": "civil-bar-integrated-2603",
+        "subject": "민사소송법",
+        "answer": "O",
+        "art": "제30조",
+        "topic": "계약",
+        "src": [
+          "변시10 54번 ㄹ"
+        ],
+        "sourceText": "변시10 54번 ㄹ",
+        "rep": "✗ — 진술간주만으로 변론관할 ✗*."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-2685",
+        "subject": "민사소송법",
+        "answer": "O",
+        "art": "제30조",
+        "topic": "관할",
+        "src": [
+          "변시11 67번 ②"
+        ],
+        "sourceText": "변시11 67번 ②",
+        "rep": "답변서 진술간주만으로 변론관할 ✗ (정답)."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.7871,
+      "sequence": 0.9143,
+      "jaccard": 0.6316,
+      "modes": [
+        "art",
+        "topic"
+      ],
+      "sameArticle": true,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-0459",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제741조",
+        "topic": "부당이득",
+        "src": [
+          "변시11 19번 ㄴ"
+        ],
+        "sourceText": "변시11 19번 ㄴ",
+        "rep": "✗ — 횡령금 변제 + 채권자 악의 → 부당이득반환의무 ○."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-2127",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제741조",
+        "topic": "부당이득",
+        "src": [
+          "변시9 28번 ⑤"
+        ],
+        "sourceText": "변시9 28번 ⑤",
+        "rep": "횡령금 변제 + 채권자 악의 시 부당이득반환 ○."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.7648,
+      "sequence": 0.9231,
+      "jaccard": 0.5714,
+      "modes": [
+        "topic"
+      ],
+      "sameArticle": false,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-4074",
+        "subject": "상법",
+        "answer": "O",
+        "art": "",
+        "topic": "어음·수표",
+        "src": [
+          "변시13 32번 ①"
+        ],
+        "sourceText": "변시13 32번 ①",
+        "rep": "어음 교부는 \"지급을 위하여\" 추정."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-4075",
+        "subject": "상법",
+        "answer": "O",
+        "art": "제17조",
+        "topic": "어음·수표",
+        "src": [
+          "변시9 36번 ②"
+        ],
+        "sourceText": "변시9 36번 ②",
+        "rep": "어음 교부 시 ‘지급을 위하여’ 추정 (‘지급에 갈음하여’ ✗)."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.7179,
+      "sequence": 0.8302,
+      "jaccard": 0.5806,
+      "modes": [
+        "topic"
+      ],
+      "sameArticle": false,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-0256",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제428조",
+        "topic": "보증",
+        "src": [
+          "변시10 1번 ㄴ"
+        ],
+        "sourceText": "변시10 1번 ㄴ",
+        "rep": "○ — 보증채무 이행지체 지연손해금은 보증한도액과 별도."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-0257",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제428조의2",
+        "topic": "보증",
+        "src": [
+          "변시9 22번 ㄴ"
+        ],
+        "sourceText": "변시9 22번 ㄴ",
+        "rep": "○ — 보증채무 자체의 이행지체 지연손해금은 보증한도액과 별도, 법정이율 적용."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.6861,
+      "sequence": 0.8205,
+      "jaccard": 0.5217,
+      "modes": [
+        "art"
+      ],
+      "sameArticle": true,
+      "sameTopic": false,
+      "left": {
+        "pid": "civil-bar-integrated-0318",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제387조",
+        "topic": "조합",
+        "src": [
+          "변시11 24번 ㄷ"
+        ],
+        "sourceText": "변시11 24번 ㄷ",
+        "rep": "○ — 지연손해금 약정 = 손해배상액 예정 추정 + 과다 시 감액."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-0440",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제387조",
+        "topic": "계약",
+        "src": [
+          "변시10 23번 ㄷ"
+        ],
+        "sourceText": "변시10 23번 ㄷ",
+        "rep": "✗ — 지연손해금 약정 = 손해배상액 예정 → 감액 대상."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.6767,
+      "sequence": 0.7832,
+      "jaccard": 0.5465,
+      "modes": [
+        "art"
+      ],
+      "sameArticle": true,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-3825",
+        "subject": "상법",
+        "answer": "O",
+        "art": "제288조",
+        "topic": "회사",
+        "src": [
+          "변시2 46번 ③"
+        ],
+        "sourceText": "변시2 46번 ③",
+        "rep": "무액면주식을 발행하는 경우 회사의 자본금은 주식 발행가액의 2분의 1 이상의 금액으로서 이사회(또는 신주발행을 주주총회 결의로 정하는 경우에는 주주총회)에서 자본금으로 계상하기로 한 금액의 총액으로 한다."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-4458",
+        "subject": "상법",
+        "answer": "O",
+        "art": "제288조",
+        "topic": "회사",
+        "src": [
+          "변시5 36번 ①"
+        ],
+        "sourceText": "변시5 36번 ①",
+        "rep": "주식 발행사항의 결정권이 이사회에 있는 회사가 무액면주식을 발행한 경우 그 회사의 자본금은 주식 발행가액의 2분의 1 이상의 금액으로서 이사회가 자본금으로 계상하기로 한 금액의 총액이다."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.6689,
+      "sequence": 0.8421,
+      "jaccard": 0.4571,
+      "modes": [
+        "topic"
+      ],
+      "sameArticle": false,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-0373",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제406조",
+        "topic": "채권자취소",
+        "src": [
+          "변시9 15번 ㄴ"
+        ],
+        "sourceText": "변시9 15번 ㄴ",
+        "rep": "✗ — 매매예약완결권 제척기간 연장을 위한 새 매매예약은 사해행위가 될 수 있음."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-1188",
+        "subject": "민법",
+        "answer": "O",
+        "art": "",
+        "topic": "채권자취소",
+        "src": [
+          "변시13 30번 ③"
+        ],
+        "sourceText": "변시13 30번 ③",
+        "rep": "예약완결권 제척기간 연장 위한 새 매매예약 = 사해행위할 수 있다."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.6661,
+      "sequence": 0.8235,
+      "jaccard": 0.4737,
+      "modes": [
+        "topic"
+      ],
+      "sameArticle": false,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-0580",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제406조",
+        "topic": "저당권",
+        "src": [
+          "변시14 23번 ㄷ"
+        ],
+        "sourceText": "변시14 23번 ㄷ",
+        "rep": "공동저당 목적물 중 채무자 소유 부동산과 물상보증인 소유 부동산이 섞여 있는 경우, 채무자 소유 부동산이 그 피담보채권을 먼저 부담하는 것으로 보아 가액배상액을 산정한다."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-0585",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제482조",
+        "topic": "저당권",
+        "src": [
+          "변시15 20번 ㄴ"
+        ],
+        "sourceText": "변시15 20번 ㄴ",
+        "rep": "공동저당의 목적물 중 채무자 소유 부동산과 물상보증인 소유 부동산이 섞여 있는 경우, 채무자 소유 부동산이 그 가액 한도에서 피담보채권 전액을 먼저 부담한다."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.645,
+      "sequence": 0.8148,
+      "jaccard": 0.4375,
+      "modes": [
+        "art",
+        "topic"
+      ],
+      "sameArticle": true,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-3784",
+        "subject": "상법",
+        "answer": "O",
+        "art": "제10조",
+        "topic": "백지어음",
+        "src": [
+          "변시12 45번 ④"
+        ],
+        "sourceText": "변시12 45번 ④",
+        "rep": "만기 백지 보충권 소멸시효 = 3년 (어음 자체의 시효)."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-3785",
+        "subject": "상법",
+        "answer": "O",
+        "art": "제10조",
+        "topic": "백지어음",
+        "src": [
+          "변시7 52번 ①"
+        ],
+        "sourceText": "변시7 52번 ①",
+        "rep": "만기 백지어음의 보충권 소멸시효 (옳음)."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.6381,
+      "sequence": 0.8485,
+      "jaccard": 0.381,
+      "modes": [
+        "topic"
+      ],
+      "sameArticle": false,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-4096",
+        "subject": "상법",
+        "answer": "O",
+        "art": "제79조",
+        "topic": "어음·수표",
+        "src": [
+          "변시10 47번 ③"
+        ],
+        "sourceText": "변시10 47번 ③",
+        "rep": "어음채권 압류에 의한 원인채권 시효중단."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-4097",
+        "subject": "상법",
+        "answer": "O",
+        "art": "제70조",
+        "topic": "어음·수표",
+        "src": [
+          "변시9 48번 ④"
+        ],
+        "sourceText": "변시9 48번 ④",
+        "rep": "어음채권으로 압류 → 원인채권 시효 중단 ○."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.6375,
+      "sequence": 0.75,
+      "jaccard": 0.5,
+      "modes": [
+        "art"
+      ],
+      "sameArticle": true,
+      "sameTopic": false,
+      "left": {
+        "pid": "civil-bar-integrated-0313",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제168조",
+        "topic": "소멸시효",
+        "src": [
+          "변시11 7번 ㄹ"
+        ],
+        "sourceText": "변시11 7번 ㄹ",
+        "rep": "○ — 주임법 임차권등기명령에는 시효중단 효력 ✗."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-1532",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제168조",
+        "topic": "주임법 임차권등기명령",
+        "src": [
+          "변시13 10번 ㄷ"
+        ],
+        "sourceText": "변시13 10번 ㄷ",
+        "rep": "임차권등기명령에 의한 임차권등기는 시효중단 효력 ✗."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.6358,
+      "sequence": 0.7879,
+      "jaccard": 0.45,
+      "modes": [
+        "art"
+      ],
+      "sameArticle": true,
+      "sameTopic": false,
+      "left": {
+        "pid": "civil-bar-integrated-0454",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제548조",
+        "topic": "소유권",
+        "src": [
+          "변시11 9번 ㄱ"
+        ],
+        "sourceText": "변시11 9번 ㄱ",
+        "rep": "✗ — 해제로 인한 원상회복 — 과실상계 적용 ✗."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-2101",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제548조",
+        "topic": "계약",
+        "src": [
+          "변시9 27번 ④"
+        ],
+        "sourceText": "변시9 27번 ④",
+        "rep": "해제로 인한 원상회복청구권에는 과실상계 ✗."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.6274,
+      "sequence": 0.8169,
+      "jaccard": 0.3958,
+      "modes": [
+        "topic"
+      ],
+      "sameArticle": false,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-0055",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제166조",
+        "topic": "소멸시효",
+        "src": [
+          "변시9 11번 ③"
+        ],
+        "sourceText": "변시9 11번 ③",
+        "rep": "3자간 등기명의신탁에서 신탁자가 점유 중이면 매도인에 대한 등기청구권 시효 진행 ✗."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-0056",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제162조",
+        "topic": "소멸시효",
+        "src": [
+          "변시10 4번 ②"
+        ],
+        "sourceText": "변시10 4번 ②",
+        "rep": "3자간 등기명의신탁에서 점유하는 신탁자의 매도인에 대한 등기청구권은 시효 미진행."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.6087,
+      "sequence": 0.6977,
+      "jaccard": 0.5,
+      "modes": [
+        "art"
+      ],
+      "sameArticle": true,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-3603",
+        "subject": "상법",
+        "answer": "O",
+        "art": "제403조",
+        "topic": "회사",
+        "src": [
+          "변시12 60번 ㄴ"
+        ],
+        "sourceText": "변시12 60번 ㄴ",
+        "rep": "○ — 책임발생 원인사실 동일 + 법적 평가만 달리한 청구 추가 ○."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-4573",
+        "subject": "상법",
+        "answer": "O",
+        "art": "제403조",
+        "topic": "회사",
+        "src": [
+          "변시14 50번 ㄴ"
+        ],
+        "sourceText": "변시14 50번 ㄴ",
+        "rep": "책임 발생원인 사실 동일 + 법적 평가만 차이 = 적법 대표소송(대법원 2017다247282)."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.6082,
+      "sequence": 0.7391,
+      "jaccard": 0.4483,
+      "modes": [
+        "art"
+      ],
+      "sameArticle": true,
+      "sameTopic": false,
+      "left": {
+        "pid": "civil-bar-integrated-0320",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제387조",
+        "topic": "계약",
+        "src": [
+          "변시10 23번 ㅁ"
+        ],
+        "sourceText": "변시10 23번 ㅁ",
+        "rep": "○ — 채권양도통지 도달 다음 날부터 채무자의 이행지체 책임."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-0406",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제387조",
+        "topic": "조합",
+        "src": [
+          "변시11 24번 ㄱ"
+        ],
+        "sourceText": "변시11 24번 ㄱ",
+        "rep": "✗ — 소제기 후 채권양도 통지 → 통지 도달 다음날부터 이행지체 (소장 송달 다음날 ✗)."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.5929,
+      "sequence": 0.7143,
+      "jaccard": 0.4444,
+      "modes": [
+        "art"
+      ],
+      "sameArticle": true,
+      "sameTopic": false,
+      "left": {
+        "pid": "civil-bar-integrated-0767",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제449조",
+        "topic": "소유권",
+        "src": [
+          "변시13 24번 ㄱ"
+        ],
+        "sourceText": "변시13 24번 ㄱ",
+        "rep": "매매 소유권이전등기청구권 양도 = 매도인 동의·승낙 필요."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-0911",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제449조",
+        "topic": "채권양도",
+        "src": [
+          "변시9 32번 ④"
+        ],
+        "sourceText": "변시9 32번 ④",
+        "rep": "부동산매매 소유권이전등기청구권 양도 → 통지만으로 대항 ✗, 채무자 동의·승낙 필요."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.5788,
+      "sequence": 0.7692,
+      "jaccard": 0.3462,
+      "modes": [
+        "art",
+        "topic"
+      ],
+      "sameArticle": true,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-1802",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제390조",
+        "topic": "이행불능",
+        "src": [
+          "변시9 21번 ③"
+        ],
+        "sourceText": "변시9 21번 ③",
+        "rep": "제3자의 처분금지가처분 등기로는 곧바로 이행불능 ✗."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-1972",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제390조",
+        "topic": "이행불능",
+        "src": [
+          "변시12 17번 ①"
+        ],
+        "sourceText": "변시12 17번 ①",
+        "rep": "처분금지가처분등기만으로는 이행불능 ✗."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.5731,
+      "sequence": 0.7692,
+      "jaccard": 0.3333,
+      "modes": [
+        "art",
+        "topic"
+      ],
+      "sameArticle": true,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-3304",
+        "subject": "민사소송법",
+        "answer": "O",
+        "art": "제67조",
+        "topic": "필수적 공동소송",
+        "src": [
+          "변시13 64번 ㄱ"
+        ],
+        "sourceText": "변시13 64번 ㄱ",
+        "rep": "합유 부동산 + 명의신탁 해지 + 소유권이전등기 = 고유필수적."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-3306",
+        "subject": "민사소송법",
+        "answer": "O",
+        "art": "제67조",
+        "topic": "필수적 공동소송",
+        "src": [
+          "변시10 60번 ⑤"
+        ],
+        "sourceText": "변시10 60번 ⑤",
+        "rep": "합유 부동산에 대한 명의신탁해지 이전등기청구 — 고유필수적 공동소송."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.5669,
+      "sequence": 0.7356,
+      "jaccard": 0.3607,
+      "modes": [
+        "art"
+      ],
+      "sameArticle": true,
+      "sameTopic": false,
+      "left": {
+        "pid": "civil-bar-integrated-2564",
+        "subject": "민사소송법",
+        "answer": "O",
+        "art": "제288조",
+        "topic": "변론주의",
+        "src": [
+          "변시7 58번 ㄷ"
+        ],
+        "sourceText": "변시7 58번 ㄷ",
+        "rep": "○ — 어떤 소멸시효 기간이 적용되는지는 법률 적용의 문제로 법원이 직권으로 판단할 수 있다."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-2599",
+        "subject": "민사소송법",
+        "answer": "O",
+        "art": "제288조",
+        "topic": "회사",
+        "src": [
+          "변시8 58번 ㄷ"
+        ],
+        "sourceText": "변시8 58번 ㄷ",
+        "rep": "✗ — 어떤 시효기간이 적용되는지는 법률의 해석·적용 문제로서 법원이 직권으로 판단하므로 당사자의 주장과 달리 판단할 수 있음 (옳지 않음)."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.5558,
+      "sequence": 0.7027,
+      "jaccard": 0.3763,
+      "modes": [
+        "art",
+        "topic"
+      ],
+      "sameArticle": true,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-4845",
+        "subject": "상법",
+        "answer": "X",
+        "art": "제563조",
+        "topic": "매매",
+        "src": [
+          "변시5 39번 ㄷ"
+        ],
+        "sourceText": "변시5 39번 ㄷ",
+        "rep": "제3자가 매매대금채무를 이행하지 아니하는 경우 제2자에게 귀책사유가 없다면, 제2자는 제1자에게 그 매매대금채무를 이행할 책임이 없다."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-4846",
+        "subject": "상법",
+        "answer": "X",
+        "art": "제563조",
+        "topic": "매매",
+        "src": [
+          "변시2 36번 ㄴ"
+        ],
+        "sourceText": "변시2 36번 ㄴ",
+        "rep": "제3자가 제2자와 매매계약을 체결한 후 매매대금채무를 이행하지 아니하는 경우, 이에 대하여 제2자의 귀책사유가 없다면, 특별한 약정이나 관습이 없는 한 제2자는 그 매매대금채무를 제1자에게 이행할 책임이 없다."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.5539,
+      "sequence": 0.7442,
+      "jaccard": 0.3214,
+      "modes": [
+        "art",
+        "topic"
+      ],
+      "sameArticle": true,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-2608",
+        "subject": "민사소송법",
+        "answer": "O",
+        "art": "제216조",
+        "topic": "기판력",
+        "src": [
+          "변시11 59번 ④"
+        ],
+        "sourceText": "변시11 59번 ④",
+        "rep": "가등기 본등기 이행 판결 → 가등기 말소 청구에 기판력 미치지 ✗."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-2609",
+        "subject": "민사소송법",
+        "answer": "O",
+        "art": "제216조",
+        "topic": "기판력",
+        "src": [
+          "변시14 41번 ②"
+        ],
+        "sourceText": "변시14 41번 ②",
+        "rep": "가등기 본등기 인용 후 가등기 말소 청구 = 기판력 ✗(대법원 2010다37936)."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.5536,
+      "sequence": 0.7143,
+      "jaccard": 0.3571,
+      "modes": [
+        "art"
+      ],
+      "sameArticle": true,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-4399",
+        "subject": "상법",
+        "answer": "O",
+        "art": "제288조",
+        "topic": "회사",
+        "src": [
+          "변시4 49번 ㄴ"
+        ],
+        "sourceText": "변시4 49번 ㄴ",
+        "rep": "제1자회사는 감사를 선임하지 않을 수 있다."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-4400",
+        "subject": "상법",
+        "answer": "O",
+        "art": "제288조",
+        "topic": "회사",
+        "src": [
+          "변시3 48번 ③"
+        ],
+        "sourceText": "변시3 48번 ③",
+        "rep": "제1자회사는 감사와 감사위원회 모두를 두지 않을 수 있다."
+      }
+    },
+    {
+      "kind": "possible_merge",
+      "score": 0.5526,
+      "sequence": 0.7191,
+      "jaccard": 0.3492,
+      "modes": [
+        "art"
+      ],
+      "sameArticle": true,
+      "sameTopic": false,
+      "left": {
+        "pid": "civil-bar-integrated-2858",
+        "subject": "민사소송법",
+        "answer": "O",
+        "art": "제216조",
+        "topic": "소멸시효",
+        "src": [
+          "변시8 63번 ②"
+        ],
+        "sourceText": "변시8 63번 ②",
+        "rep": "상계항변이 받아들여져 청구기각된 경우, 피고도 자동채권 소멸의 기판력을 받으므로 항소이익이 있음 (옳지 않음, 정답)."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-2859",
+        "subject": "민사소송법",
+        "answer": "O",
+        "art": "제216조",
+        "topic": "계약",
+        "src": [
+          "변시9 69번 ①"
+        ],
+        "sourceText": "변시9 69번 ①",
+        "rep": "상계항변이 받아들여져 청구 기각된 경우 피고는 대등액의 자신의 채권이 소멸한 만큼 불이익을 입으므로 항소이익 ○."
+      }
+    }
+  ],
+  "conflictCandidates": [
+    {
+      "kind": "possible_ox_conflict",
+      "score": 0.6393,
+      "sequence": 0.7609,
+      "jaccard": 0.4907,
+      "modes": [
+        "art",
+        "topic"
+      ],
+      "sameArticle": true,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-1521",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제449조",
+        "topic": "채권양도",
+        "src": [
+          "변시4 14번 ㄴ"
+        ],
+        "sourceText": "변시4 14번 ㄴ",
+        "rep": "임대인이 임대차보증금반환채권의 양도통지를 받은 후에는 임대인과 임차인 사이에 임대차계약의 갱신이나 계약기간 연장에 관하여 명시적 또는 묵시적 합의가 있더라도 그 합의의 효과는 임대차보증금반환채권의 양수인에 대하여는 미칠 수 없다."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-2286",
+        "subject": "민법",
+        "answer": "X",
+        "art": "제449조",
+        "topic": "채권양도",
+        "src": [
+          "변시5 55번 ②"
+        ],
+        "sourceText": "변시5 55번 ②",
+        "rep": "임대인이 임차인으로부터 임대차보증금반환채권의 양도통지를 받은 후에 임대인과 임차인 사이에 임대차 계약기간 연장에 관하여 합의가 있을 경우 그 합의의 효과는 그 채권의 양수인에 대하여도 미친다."
+      }
+    },
+    {
+      "kind": "possible_ox_conflict",
+      "score": 0.5576,
+      "sequence": 0.7193,
+      "jaccard": 0.36,
+      "modes": [
+        "art",
+        "topic"
+      ],
+      "sameArticle": true,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-1646",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제262조",
+        "topic": "공유",
+        "src": [
+          "변시4 23번 ㄱ"
+        ],
+        "sourceText": "변시4 23번 ㄱ",
+        "rep": "제1자가 제2자, 제3자와 협의 없이 X 토지를 제4자에게 임대한 경우, 제2자는 제4자에게 X 토지의 인도를 청구할 수 없다."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-2325",
+        "subject": "민법",
+        "answer": "X",
+        "art": "제262조",
+        "topic": "공유",
+        "src": [
+          "변시2 15번 ④"
+        ],
+        "sourceText": "변시2 15번 ④",
+        "rep": "제1자가 제2자, 제3자의 동의 없이 X 토지 전체를 제4자에게 임대한 경우, 제2자는 제4자에게 사용이익의 2/9에 상당하는 부당이득의 반환을 청구할 수 있다."
+      }
+    },
+    {
+      "kind": "possible_ox_conflict",
+      "score": 0.5481,
+      "sequence": 0.6667,
+      "jaccard": 0.4032,
+      "modes": [
+        "art"
+      ],
+      "sameArticle": true,
+      "sameTopic": true,
+      "left": {
+        "pid": "civil-bar-integrated-1775",
+        "subject": "민법",
+        "answer": "O",
+        "art": "제185조",
+        "topic": "소유권",
+        "src": [
+          "변시4 2번 ①"
+        ],
+        "sourceText": "변시4 2번 ①",
+        "rep": "제3자가 제1자와 제2자 사이의 명의신탁약정을 알지 못하였다면, 제2자는X 부동산에 대한 소유권을 유효하게 취득한다."
+      },
+      "right": {
+        "pid": "civil-bar-integrated-2432",
+        "subject": "민법",
+        "answer": "X",
+        "art": "제185조",
+        "topic": "소유권",
+        "src": [
+          "변시3 21번 ①"
+        ],
+        "sourceText": "변시3 21번 ①",
+        "rep": "제3자가 제1자와 제2자 사이의 명의신탁약정이 있다는 사실을 알지 못하였다면, 위 명의신탁약정은 유효하다."
+      }
+    }
+  ],
+  "clusters": [
+    {
+      "size": 3,
+      "pairCount": 2,
+      "maxScore": 0.9199,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-0580",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제406조",
+          "topic": "저당권",
+          "src": [
+            "변시14 23번 ㄷ"
+          ],
+          "sourceText": "변시14 23번 ㄷ",
+          "rep": "공동저당 목적물 중 채무자 소유 부동산과 물상보증인 소유 부동산이 섞여 있는 경우, 채무자 소유 부동산이 그 피담보채권을 먼저 부담하는 것으로 보아 가액배상액을 산정한다."
+        },
+        {
+          "pid": "civil-bar-integrated-0585",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제482조",
+          "topic": "저당권",
+          "src": [
+            "변시15 20번 ㄴ"
+          ],
+          "sourceText": "변시15 20번 ㄴ",
+          "rep": "공동저당의 목적물 중 채무자 소유 부동산과 물상보증인 소유 부동산이 섞여 있는 경우, 채무자 소유 부동산이 그 가액 한도에서 피담보채권 전액을 먼저 부담한다."
+        },
+        {
+          "pid": "civil-bar-integrated-0586",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제368조",
+          "topic": "저당권",
+          "src": [
+            "변시15 10번 ㄱ"
+          ],
+          "sourceText": "변시15 10번 ㄱ",
+          "rep": "공동저당의 목적물 중 채무자 소유 부동산과 물상보증인 소유 부동산이 함께 있는 경우, 채무자 소유 부동산이 그 가액 한도에서 피담보채권 전액을 먼저 부담한다."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.8734,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-2664",
+          "subject": "민사소송법",
+          "answer": "O",
+          "art": "",
+          "topic": "소유권",
+          "src": [
+            "변시11 57번 ④"
+          ],
+          "sourceText": "변시11 57번 ④",
+          "rep": "근저당권 말소 후 → 피담보채무 부존재확인의 이익 ✗."
+        },
+        {
+          "pid": "civil-bar-integrated-2665",
+          "subject": "민사소송법",
+          "answer": "O",
+          "art": "제487조",
+          "topic": "소유권",
+          "src": [
+            "변시9 54번 ③"
+          ],
+          "sourceText": "변시9 54번 ③",
+          "rep": "근저당권 말소 후 피담보채무 부존재확인 = 이익 ✗."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.8538,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-2637",
+          "subject": "민사소송법",
+          "answer": "O",
+          "art": "제76조",
+          "topic": "보조참가",
+          "src": [
+            "변시12 57번 ③"
+          ],
+          "sourceText": "변시12 57번 ③",
+          "rep": "공동소송적 보조참가 + 피참가인 재심 취하 → 참가인 동의 必."
+        },
+        {
+          "pid": "civil-bar-integrated-2640",
+          "subject": "민사소송법",
+          "answer": "O",
+          "art": "제77조",
+          "topic": "보조참가",
+          "src": [
+            "변시11 56번 ④"
+          ],
+          "sourceText": "변시11 56번 ④",
+          "rep": "공동소송적 보조참가인 참여 + 피참가인 재심 취하 → 참가인 동의 必 (정답)."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.8215,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-2603",
+          "subject": "민사소송법",
+          "answer": "O",
+          "art": "제30조",
+          "topic": "계약",
+          "src": [
+            "변시10 54번 ㄹ"
+          ],
+          "sourceText": "변시10 54번 ㄹ",
+          "rep": "✗ — 진술간주만으로 변론관할 ✗*."
+        },
+        {
+          "pid": "civil-bar-integrated-2685",
+          "subject": "민사소송법",
+          "answer": "O",
+          "art": "제30조",
+          "topic": "관할",
+          "src": [
+            "변시11 67번 ②"
+          ],
+          "sourceText": "변시11 67번 ②",
+          "rep": "답변서 진술간주만으로 변론관할 ✗ (정답)."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.7871,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-0459",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제741조",
+          "topic": "부당이득",
+          "src": [
+            "변시11 19번 ㄴ"
+          ],
+          "sourceText": "변시11 19번 ㄴ",
+          "rep": "✗ — 횡령금 변제 + 채권자 악의 → 부당이득반환의무 ○."
+        },
+        {
+          "pid": "civil-bar-integrated-2127",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제741조",
+          "topic": "부당이득",
+          "src": [
+            "변시9 28번 ⑤"
+          ],
+          "sourceText": "변시9 28번 ⑤",
+          "rep": "횡령금 변제 + 채권자 악의 시 부당이득반환 ○."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.7648,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-4074",
+          "subject": "상법",
+          "answer": "O",
+          "art": "",
+          "topic": "어음·수표",
+          "src": [
+            "변시13 32번 ①"
+          ],
+          "sourceText": "변시13 32번 ①",
+          "rep": "어음 교부는 \"지급을 위하여\" 추정."
+        },
+        {
+          "pid": "civil-bar-integrated-4075",
+          "subject": "상법",
+          "answer": "O",
+          "art": "제17조",
+          "topic": "어음·수표",
+          "src": [
+            "변시9 36번 ②"
+          ],
+          "sourceText": "변시9 36번 ②",
+          "rep": "어음 교부 시 ‘지급을 위하여’ 추정 (‘지급에 갈음하여’ ✗)."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.7179,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-0256",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제428조",
+          "topic": "보증",
+          "src": [
+            "변시10 1번 ㄴ"
+          ],
+          "sourceText": "변시10 1번 ㄴ",
+          "rep": "○ — 보증채무 이행지체 지연손해금은 보증한도액과 별도."
+        },
+        {
+          "pid": "civil-bar-integrated-0257",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제428조의2",
+          "topic": "보증",
+          "src": [
+            "변시9 22번 ㄴ"
+          ],
+          "sourceText": "변시9 22번 ㄴ",
+          "rep": "○ — 보증채무 자체의 이행지체 지연손해금은 보증한도액과 별도, 법정이율 적용."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.6861,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-0318",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제387조",
+          "topic": "조합",
+          "src": [
+            "변시11 24번 ㄷ"
+          ],
+          "sourceText": "변시11 24번 ㄷ",
+          "rep": "○ — 지연손해금 약정 = 손해배상액 예정 추정 + 과다 시 감액."
+        },
+        {
+          "pid": "civil-bar-integrated-0440",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제387조",
+          "topic": "계약",
+          "src": [
+            "변시10 23번 ㄷ"
+          ],
+          "sourceText": "변시10 23번 ㄷ",
+          "rep": "✗ — 지연손해금 약정 = 손해배상액 예정 → 감액 대상."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.6767,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-3825",
+          "subject": "상법",
+          "answer": "O",
+          "art": "제288조",
+          "topic": "회사",
+          "src": [
+            "변시2 46번 ③"
+          ],
+          "sourceText": "변시2 46번 ③",
+          "rep": "무액면주식을 발행하는 경우 회사의 자본금은 주식 발행가액의 2분의 1 이상의 금액으로서 이사회(또는 신주발행을 주주총회 결의로 정하는 경우에는 주주총회)에서 자본금으로 계상하기로 한 금액의 총액으로 한다."
+        },
+        {
+          "pid": "civil-bar-integrated-4458",
+          "subject": "상법",
+          "answer": "O",
+          "art": "제288조",
+          "topic": "회사",
+          "src": [
+            "변시5 36번 ①"
+          ],
+          "sourceText": "변시5 36번 ①",
+          "rep": "주식 발행사항의 결정권이 이사회에 있는 회사가 무액면주식을 발행한 경우 그 회사의 자본금은 주식 발행가액의 2분의 1 이상의 금액으로서 이사회가 자본금으로 계상하기로 한 금액의 총액이다."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.6689,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-0373",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제406조",
+          "topic": "채권자취소",
+          "src": [
+            "변시9 15번 ㄴ"
+          ],
+          "sourceText": "변시9 15번 ㄴ",
+          "rep": "✗ — 매매예약완결권 제척기간 연장을 위한 새 매매예약은 사해행위가 될 수 있음."
+        },
+        {
+          "pid": "civil-bar-integrated-1188",
+          "subject": "민법",
+          "answer": "O",
+          "art": "",
+          "topic": "채권자취소",
+          "src": [
+            "변시13 30번 ③"
+          ],
+          "sourceText": "변시13 30번 ③",
+          "rep": "예약완결권 제척기간 연장 위한 새 매매예약 = 사해행위할 수 있다."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.645,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-3784",
+          "subject": "상법",
+          "answer": "O",
+          "art": "제10조",
+          "topic": "백지어음",
+          "src": [
+            "변시12 45번 ④"
+          ],
+          "sourceText": "변시12 45번 ④",
+          "rep": "만기 백지 보충권 소멸시효 = 3년 (어음 자체의 시효)."
+        },
+        {
+          "pid": "civil-bar-integrated-3785",
+          "subject": "상법",
+          "answer": "O",
+          "art": "제10조",
+          "topic": "백지어음",
+          "src": [
+            "변시7 52번 ①"
+          ],
+          "sourceText": "변시7 52번 ①",
+          "rep": "만기 백지어음의 보충권 소멸시효 (옳음)."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.6381,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-4096",
+          "subject": "상법",
+          "answer": "O",
+          "art": "제79조",
+          "topic": "어음·수표",
+          "src": [
+            "변시10 47번 ③"
+          ],
+          "sourceText": "변시10 47번 ③",
+          "rep": "어음채권 압류에 의한 원인채권 시효중단."
+        },
+        {
+          "pid": "civil-bar-integrated-4097",
+          "subject": "상법",
+          "answer": "O",
+          "art": "제70조",
+          "topic": "어음·수표",
+          "src": [
+            "변시9 48번 ④"
+          ],
+          "sourceText": "변시9 48번 ④",
+          "rep": "어음채권으로 압류 → 원인채권 시효 중단 ○."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.6375,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-0313",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제168조",
+          "topic": "소멸시효",
+          "src": [
+            "변시11 7번 ㄹ"
+          ],
+          "sourceText": "변시11 7번 ㄹ",
+          "rep": "○ — 주임법 임차권등기명령에는 시효중단 효력 ✗."
+        },
+        {
+          "pid": "civil-bar-integrated-1532",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제168조",
+          "topic": "주임법 임차권등기명령",
+          "src": [
+            "변시13 10번 ㄷ"
+          ],
+          "sourceText": "변시13 10번 ㄷ",
+          "rep": "임차권등기명령에 의한 임차권등기는 시효중단 효력 ✗."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.6358,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-0454",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제548조",
+          "topic": "소유권",
+          "src": [
+            "변시11 9번 ㄱ"
+          ],
+          "sourceText": "변시11 9번 ㄱ",
+          "rep": "✗ — 해제로 인한 원상회복 — 과실상계 적용 ✗."
+        },
+        {
+          "pid": "civil-bar-integrated-2101",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제548조",
+          "topic": "계약",
+          "src": [
+            "변시9 27번 ④"
+          ],
+          "sourceText": "변시9 27번 ④",
+          "rep": "해제로 인한 원상회복청구권에는 과실상계 ✗."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.6274,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-0055",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제166조",
+          "topic": "소멸시효",
+          "src": [
+            "변시9 11번 ③"
+          ],
+          "sourceText": "변시9 11번 ③",
+          "rep": "3자간 등기명의신탁에서 신탁자가 점유 중이면 매도인에 대한 등기청구권 시효 진행 ✗."
+        },
+        {
+          "pid": "civil-bar-integrated-0056",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제162조",
+          "topic": "소멸시효",
+          "src": [
+            "변시10 4번 ②"
+          ],
+          "sourceText": "변시10 4번 ②",
+          "rep": "3자간 등기명의신탁에서 점유하는 신탁자의 매도인에 대한 등기청구권은 시효 미진행."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.6087,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-3603",
+          "subject": "상법",
+          "answer": "O",
+          "art": "제403조",
+          "topic": "회사",
+          "src": [
+            "변시12 60번 ㄴ"
+          ],
+          "sourceText": "변시12 60번 ㄴ",
+          "rep": "○ — 책임발생 원인사실 동일 + 법적 평가만 달리한 청구 추가 ○."
+        },
+        {
+          "pid": "civil-bar-integrated-4573",
+          "subject": "상법",
+          "answer": "O",
+          "art": "제403조",
+          "topic": "회사",
+          "src": [
+            "변시14 50번 ㄴ"
+          ],
+          "sourceText": "변시14 50번 ㄴ",
+          "rep": "책임 발생원인 사실 동일 + 법적 평가만 차이 = 적법 대표소송(대법원 2017다247282)."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.6082,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-0320",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제387조",
+          "topic": "계약",
+          "src": [
+            "변시10 23번 ㅁ"
+          ],
+          "sourceText": "변시10 23번 ㅁ",
+          "rep": "○ — 채권양도통지 도달 다음 날부터 채무자의 이행지체 책임."
+        },
+        {
+          "pid": "civil-bar-integrated-0406",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제387조",
+          "topic": "조합",
+          "src": [
+            "변시11 24번 ㄱ"
+          ],
+          "sourceText": "변시11 24번 ㄱ",
+          "rep": "✗ — 소제기 후 채권양도 통지 → 통지 도달 다음날부터 이행지체 (소장 송달 다음날 ✗)."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.5929,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-0767",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제449조",
+          "topic": "소유권",
+          "src": [
+            "변시13 24번 ㄱ"
+          ],
+          "sourceText": "변시13 24번 ㄱ",
+          "rep": "매매 소유권이전등기청구권 양도 = 매도인 동의·승낙 필요."
+        },
+        {
+          "pid": "civil-bar-integrated-0911",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제449조",
+          "topic": "채권양도",
+          "src": [
+            "변시9 32번 ④"
+          ],
+          "sourceText": "변시9 32번 ④",
+          "rep": "부동산매매 소유권이전등기청구권 양도 → 통지만으로 대항 ✗, 채무자 동의·승낙 필요."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.5788,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-1802",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제390조",
+          "topic": "이행불능",
+          "src": [
+            "변시9 21번 ③"
+          ],
+          "sourceText": "변시9 21번 ③",
+          "rep": "제3자의 처분금지가처분 등기로는 곧바로 이행불능 ✗."
+        },
+        {
+          "pid": "civil-bar-integrated-1972",
+          "subject": "민법",
+          "answer": "O",
+          "art": "제390조",
+          "topic": "이행불능",
+          "src": [
+            "변시12 17번 ①"
+          ],
+          "sourceText": "변시12 17번 ①",
+          "rep": "처분금지가처분등기만으로는 이행불능 ✗."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.5731,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-3304",
+          "subject": "민사소송법",
+          "answer": "O",
+          "art": "제67조",
+          "topic": "필수적 공동소송",
+          "src": [
+            "변시13 64번 ㄱ"
+          ],
+          "sourceText": "변시13 64번 ㄱ",
+          "rep": "합유 부동산 + 명의신탁 해지 + 소유권이전등기 = 고유필수적."
+        },
+        {
+          "pid": "civil-bar-integrated-3306",
+          "subject": "민사소송법",
+          "answer": "O",
+          "art": "제67조",
+          "topic": "필수적 공동소송",
+          "src": [
+            "변시10 60번 ⑤"
+          ],
+          "sourceText": "변시10 60번 ⑤",
+          "rep": "합유 부동산에 대한 명의신탁해지 이전등기청구 — 고유필수적 공동소송."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.5669,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-2564",
+          "subject": "민사소송법",
+          "answer": "O",
+          "art": "제288조",
+          "topic": "변론주의",
+          "src": [
+            "변시7 58번 ㄷ"
+          ],
+          "sourceText": "변시7 58번 ㄷ",
+          "rep": "○ — 어떤 소멸시효 기간이 적용되는지는 법률 적용의 문제로 법원이 직권으로 판단할 수 있다."
+        },
+        {
+          "pid": "civil-bar-integrated-2599",
+          "subject": "민사소송법",
+          "answer": "O",
+          "art": "제288조",
+          "topic": "회사",
+          "src": [
+            "변시8 58번 ㄷ"
+          ],
+          "sourceText": "변시8 58번 ㄷ",
+          "rep": "✗ — 어떤 시효기간이 적용되는지는 법률의 해석·적용 문제로서 법원이 직권으로 판단하므로 당사자의 주장과 달리 판단할 수 있음 (옳지 않음)."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.5558,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-4845",
+          "subject": "상법",
+          "answer": "X",
+          "art": "제563조",
+          "topic": "매매",
+          "src": [
+            "변시5 39번 ㄷ"
+          ],
+          "sourceText": "변시5 39번 ㄷ",
+          "rep": "제3자가 매매대금채무를 이행하지 아니하는 경우 제2자에게 귀책사유가 없다면, 제2자는 제1자에게 그 매매대금채무를 이행할 책임이 없다."
+        },
+        {
+          "pid": "civil-bar-integrated-4846",
+          "subject": "상법",
+          "answer": "X",
+          "art": "제563조",
+          "topic": "매매",
+          "src": [
+            "변시2 36번 ㄴ"
+          ],
+          "sourceText": "변시2 36번 ㄴ",
+          "rep": "제3자가 제2자와 매매계약을 체결한 후 매매대금채무를 이행하지 아니하는 경우, 이에 대하여 제2자의 귀책사유가 없다면, 특별한 약정이나 관습이 없는 한 제2자는 그 매매대금채무를 제1자에게 이행할 책임이 없다."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.5539,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-2608",
+          "subject": "민사소송법",
+          "answer": "O",
+          "art": "제216조",
+          "topic": "기판력",
+          "src": [
+            "변시11 59번 ④"
+          ],
+          "sourceText": "변시11 59번 ④",
+          "rep": "가등기 본등기 이행 판결 → 가등기 말소 청구에 기판력 미치지 ✗."
+        },
+        {
+          "pid": "civil-bar-integrated-2609",
+          "subject": "민사소송법",
+          "answer": "O",
+          "art": "제216조",
+          "topic": "기판력",
+          "src": [
+            "변시14 41번 ②"
+          ],
+          "sourceText": "변시14 41번 ②",
+          "rep": "가등기 본등기 인용 후 가등기 말소 청구 = 기판력 ✗(대법원 2010다37936)."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.5536,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-4399",
+          "subject": "상법",
+          "answer": "O",
+          "art": "제288조",
+          "topic": "회사",
+          "src": [
+            "변시4 49번 ㄴ"
+          ],
+          "sourceText": "변시4 49번 ㄴ",
+          "rep": "제1자회사는 감사를 선임하지 않을 수 있다."
+        },
+        {
+          "pid": "civil-bar-integrated-4400",
+          "subject": "상법",
+          "answer": "O",
+          "art": "제288조",
+          "topic": "회사",
+          "src": [
+            "변시3 48번 ③"
+          ],
+          "sourceText": "변시3 48번 ③",
+          "rep": "제1자회사는 감사와 감사위원회 모두를 두지 않을 수 있다."
+        }
+      ]
+    },
+    {
+      "size": 2,
+      "pairCount": 1,
+      "maxScore": 0.5526,
+      "items": [
+        {
+          "pid": "civil-bar-integrated-2858",
+          "subject": "민사소송법",
+          "answer": "O",
+          "art": "제216조",
+          "topic": "소멸시효",
+          "src": [
+            "변시8 63번 ②"
+          ],
+          "sourceText": "변시8 63번 ②",
+          "rep": "상계항변이 받아들여져 청구기각된 경우, 피고도 자동채권 소멸의 기판력을 받으므로 항소이익이 있음 (옳지 않음, 정답)."
+        },
+        {
+          "pid": "civil-bar-integrated-2859",
+          "subject": "민사소송법",
+          "answer": "O",
+          "art": "제216조",
+          "topic": "계약",
+          "src": [
+            "변시9 69번 ①"
+          ],
+          "sourceText": "변시9 69번 ①",
+          "rep": "상계항변이 받아들여져 청구 기각된 경우 피고는 대등액의 자신의 채권이 소멸한 만큼 불이익을 입으므로 항소이익 ○."
+        }
+      ]
+    }
+  ]
+}
