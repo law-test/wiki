@@ -1,0 +1,2511 @@
+{
+  "source": "lex-bank transformed O/X statement layer; original source kept outside public app assets",
+  "round": 5,
+  "year": 2016,
+  "updatedAt": "2026-06-17T01:46:51.124850+00:00",
+  "count": 100,
+  "subject": "상법",
+  "items": [
+    {
+      "id": 503601,
+      "round": 5,
+      "year": 2016,
+      "question_no": 36,
+      "choice": "①",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "주식 발행사항의 결정권이 이사회에 있는 회사가 무액면주식을 발행한 경우 그 회사의 자본금은 주식 발행가액의 2분의 1 이상의 금액으로서 이사회가 자본금으로 계상하기로 한 금액의 총액이다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 36번 ①"
+      ],
+      "refs": [
+        "변시5 36번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 36번 ① 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 503602,
+      "round": 5,
+      "year": 2016,
+      "question_no": 36,
+      "choice": "②",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "액면주식을 무액면주식으로 전환하는 경우 자본금을 변경할 수 없다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 36번 ②"
+      ],
+      "refs": [
+        "변시5 36번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 36번 ② 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 503603,
+      "round": 5,
+      "year": 2016,
+      "question_no": 36,
+      "choice": "③",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "자본금 감소의 무효는 자본금 감소로 인한 변경등기가 된 날부터 6개월 내에 소(訴)만으로 주장할 수 있고, 이 기간이 경과한 후에는 새로운 무효사유를 추가하여 주장할 수 없다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 36번 ③"
+      ],
+      "refs": [
+        "변시5 36번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 36번 ③ 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 503604,
+      "round": 5,
+      "year": 2016,
+      "question_no": 36,
+      "choice": "④",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "액면주식의 병합에 의하여 자본금을 감소하는 경우 자본금 감소는 ｢상법｣ 제440조의 주권제출기간이 만료한 때에 그 효력이 생기지만, 채권자이의절차가 종료되지 아니한 때에는 그 종료한 때에 자본금 감소의 효력이 발생한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 36번 ④"
+      ],
+      "refs": [
+        "변시5 36번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 36번 ④ 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 503605,
+      "round": 5,
+      "year": 2016,
+      "question_no": 36,
+      "choice": "⑤",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "결손의 보전을 위하여 자본금을 감소시키려면 주주총회의 특별결의와 채권자이의절차를 거쳐야 한다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 36번 ⑤"
+      ],
+      "refs": [
+        "변시5 36번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 36번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 503701,
+      "round": 5,
+      "year": 2016,
+      "question_no": 37,
+      "choice": "ㄱ",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "회사는 자기주식을 가지고 의결권을 행사할 수 없다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 37번 ㄱ"
+      ],
+      "refs": [
+        "변시5 37번 ㄱ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 37번 ㄱ 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 503702,
+      "round": 5,
+      "year": 2016,
+      "question_no": 37,
+      "choice": "ㄴ",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "회사는 발행주식총수의 20분의 1을 초과하여 자기주식을 질권의 목적으로 받지 못하나, 회사가 권리를 실행함에 있어서 그 목적을 달성하기 위하여 필요한 경우에는 그 한도를 초과하여 질권의 목적으로 할 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 37번 ㄴ"
+      ],
+      "refs": [
+        "변시5 37번 ㄴ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 37번 ㄴ 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 503703,
+      "round": 5,
+      "year": 2016,
+      "question_no": 37,
+      "choice": "ㄷ",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "회사가 보유하는 자기주식을 처분하는 경우에 주식을 처분할 상대방 및 처분방법에 관하여 정관에 규정이 없는 것은 이사회가 결정한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 37번 ㄷ"
+      ],
+      "refs": [
+        "변시5 37번 ㄷ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 37번 ㄷ 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 503704,
+      "round": 5,
+      "year": 2016,
+      "question_no": 37,
+      "choice": "ㄹ",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "단주를 처리하기 위하여 자기주식을 취득하는 때에도 배당가능한 이익의 존재를 요한다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 37번 ㄹ"
+      ],
+      "refs": [
+        "변시5 37번 ㄹ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 37번 ㄹ 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 503801,
+      "round": 5,
+      "year": 2016,
+      "question_no": 38,
+      "choice": "①",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "甲: 2015. 1. 29., 乙: 2015. 2. 14.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 38번 ①"
+      ],
+      "refs": [
+        "변시5 38번 ①"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 38번 ① 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 503802,
+      "round": 5,
+      "year": 2016,
+      "question_no": 38,
+      "choice": "②",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "甲: 2015. 1. 29., 乙: 2015. 3. 20.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 38번 ②"
+      ],
+      "refs": [
+        "변시5 38번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 38번 ② 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 503803,
+      "round": 5,
+      "year": 2016,
+      "question_no": 38,
+      "choice": "③",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "甲: 2015. 3. 20., 乙: 2015. 2. 14.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 38번 ③"
+      ],
+      "refs": [
+        "변시5 38번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 38번 ③ 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 503804,
+      "round": 5,
+      "year": 2016,
+      "question_no": 38,
+      "choice": "④",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "甲: 2015. 3. 20., 乙: 2015. 3. 20.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 38번 ④"
+      ],
+      "refs": [
+        "변시5 38번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 38번 ④ 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 503805,
+      "round": 5,
+      "year": 2016,
+      "question_no": 38,
+      "choice": "⑤",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "甲: 2015. 1. 29., 乙: 2016. 2. 14.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 38번 ⑤"
+      ],
+      "refs": [
+        "변시5 38번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 38번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 503901,
+      "round": 5,
+      "year": 2016,
+      "question_no": 39,
+      "choice": "ㄱ",
+      "subject": "상법",
+      "topic": "매매",
+      "q": "乙이 丙으로부터 받을 판매대금채권을 甲에게 알리지 않고 자신의 채권자 丁에게 양도하였다면, 丁이 그 채권을 선의취득했다는 등의 특별한 사정이 없는 한 위 채권양도는 甲에 대하여 효력이 없다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 39번 ㄱ"
+      ],
+      "refs": [
+        "변시5 39번 ㄱ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 39번 ㄱ 지문은 정답표상 X입니다.",
+      "ref": "민법 제563조",
+      "art": "제563조",
+      "needs_atomization": true,
+      "source_kind": "letter_combination_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 503902,
+      "round": 5,
+      "year": 2016,
+      "question_no": 39,
+      "choice": "ㄴ",
+      "subject": "상법",
+      "topic": "매매",
+      "q": "乙이 甲으로부터 대추를 인도받은 후 가격이 폭락하는 상황임을 안 때에는 즉시 甲에게 통지를 발송해야 하고, 甲의 지시를 받을 수 없는 경우 적절한 보관을 할 수는 있지만 이를 처분할 수는 없다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 39번 ㄴ"
+      ],
+      "refs": [
+        "변시5 39번 ㄴ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 39번 ㄴ 지문은 정답표상 X입니다.",
+      "ref": "민법 제563조",
+      "art": "제563조",
+      "needs_atomization": true,
+      "source_kind": "letter_combination_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 503903,
+      "round": 5,
+      "year": 2016,
+      "question_no": 39,
+      "choice": "ㄷ",
+      "subject": "상법",
+      "topic": "매매",
+      "q": "丙이 매매대금채무를 이행하지 아니하는 경우 乙에게 귀책사유가 없다면, 乙은 甲에게 그 매매대금채무를 이행할 책임이 없다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 39번 ㄷ"
+      ],
+      "refs": [
+        "변시5 39번 ㄷ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 39번 ㄷ 지문은 정답표상 X입니다.",
+      "ref": "민법 제563조",
+      "art": "제563조",
+      "needs_atomization": true,
+      "source_kind": "letter_combination_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 503904,
+      "round": 5,
+      "year": 2016,
+      "question_no": 39,
+      "choice": "ㄹ",
+      "subject": "상법",
+      "topic": "매매",
+      "q": "甲이 乙에게 1kg당 1만 원에 매도할 것을 위탁하였으나 乙이 이를 1kg당 1만 5천 원에 매도했다면, 1kg당 차익 5천 원은 甲의 이익으로 한다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 39번 ㄹ"
+      ],
+      "refs": [
+        "변시5 39번 ㄹ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 39번 ㄹ 지문은 정답표상 X입니다.",
+      "ref": "민법 제563조",
+      "art": "제563조",
+      "needs_atomization": true,
+      "source_kind": "letter_combination_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 503905,
+      "round": 5,
+      "year": 2016,
+      "question_no": 39,
+      "choice": "ㅁ",
+      "subject": "상법",
+      "topic": "매매",
+      "q": "乙이 丙으로부터 판매대금을 받아 보유하던 중 이를 임의로 사용ㆍ소비한 때에는 특별한 사정이 없는 한 횡령죄가 성립한다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 39번 ㅁ"
+      ],
+      "refs": [
+        "변시5 39번 ㅁ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 39번 ㅁ 지문은 정답표상 X입니다.",
+      "ref": "민법 제563조",
+      "art": "제563조",
+      "needs_atomization": true,
+      "source_kind": "letter_combination_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504001,
+      "round": 5,
+      "year": 2016,
+      "question_no": 40,
+      "choice": "①",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "A주식회사의 채권자이의절차",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 40번 ①"
+      ],
+      "refs": [
+        "변시5 40번 ①"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 40번 ① 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504002,
+      "round": 5,
+      "year": 2016,
+      "question_no": 40,
+      "choice": "②",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "A주식회사의 주주총회 특별결의",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 40번 ②"
+      ],
+      "refs": [
+        "변시5 40번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 40번 ② 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504003,
+      "round": 5,
+      "year": 2016,
+      "question_no": 40,
+      "choice": "③",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "B주식회사의 채권자이의절차",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 40번 ③"
+      ],
+      "refs": [
+        "변시5 40번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 40번 ③ 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504004,
+      "round": 5,
+      "year": 2016,
+      "question_no": 40,
+      "choice": "④",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "B주식회사의 주주총회 특별결의",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 40번 ④"
+      ],
+      "refs": [
+        "변시5 40번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 40번 ④ 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504005,
+      "round": 5,
+      "year": 2016,
+      "question_no": 40,
+      "choice": "⑤",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "생략할 수 있는 절차 없음",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 40번 ⑤"
+      ],
+      "refs": [
+        "변시5 40번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 40번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504101,
+      "round": 5,
+      "year": 2016,
+      "question_no": 41,
+      "choice": "ㄱ",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "법정준비금의 자본금 전입은 주주총회에서 결정한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 41번 ㄱ"
+      ],
+      "refs": [
+        "변시5 41번 ㄱ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 41번 ㄱ 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504102,
+      "round": 5,
+      "year": 2016,
+      "question_no": 41,
+      "choice": "ㄴ",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "최대주주가 보유하고 있는 주식 1주에 대해서는 2개의 의결권을 부여한다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 41번 ㄴ"
+      ],
+      "refs": [
+        "변시5 41번 ㄴ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 41번 ㄴ 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504103,
+      "round": 5,
+      "year": 2016,
+      "question_no": 41,
+      "choice": "ㄷ",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "대표이사는 이사 전원의 과반수의 승인을 얻어 회사와 거래할 수 있다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 41번 ㄷ"
+      ],
+      "refs": [
+        "변시5 41번 ㄷ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 41번 ㄷ 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504104,
+      "round": 5,
+      "year": 2016,
+      "question_no": 41,
+      "choice": "ㄹ",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "이사의 임기는 3년 이내로 하고, 각 이사별 임기를 다르게 할 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 41번 ㄹ"
+      ],
+      "refs": [
+        "변시5 41번 ㄹ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 41번 ㄹ 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504105,
+      "round": 5,
+      "year": 2016,
+      "question_no": 41,
+      "choice": "ㅁ",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "회사경영에 공로가 지대한 대주주가 인수하는 주식에 대해서는 납입책임을 면제할 수 있다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 41번 ㅁ"
+      ],
+      "refs": [
+        "변시5 41번 ㅁ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 41번 ㅁ 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504201,
+      "round": 5,
+      "year": 2016,
+      "question_no": 42,
+      "choice": "①",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "위 주권의 효력이 발생하는 시기는 회사가 주권을 작성하여 회사의 의사에 기하여 누구에게라도 주권을 교부한 때이다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 42번 ①"
+      ],
+      "refs": [
+        "변시5 42번 ①"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 42번 ① 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504202,
+      "round": 5,
+      "year": 2016,
+      "question_no": 42,
+      "choice": "②",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "회사성립일인 2015. 7. 7. 이전에 위 주권을 발행했더라도 주권이 무효로 되는 것은 아니다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 42번 ②"
+      ],
+      "refs": [
+        "변시5 42번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 42번 ② 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504203,
+      "round": 5,
+      "year": 2016,
+      "question_no": 42,
+      "choice": "③",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "회사설립 당시 납입된 위 회사의 자본금은 반드시 5,000만 원이어야 한다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 42번 ③"
+      ],
+      "refs": [
+        "변시5 42번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 42번 ③ 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504204,
+      "round": 5,
+      "year": 2016,
+      "question_no": 42,
+      "choice": "④",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "위 주식은 기명주식이므로 주식을 양도하기 위해서는 주권에 배서하고 주권을 교부하여야 양도의 효력이 생긴다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 42번 ④"
+      ],
+      "refs": [
+        "변시5 42번 ④"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 42번 ④ 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504205,
+      "round": 5,
+      "year": 2016,
+      "question_no": 42,
+      "choice": "⑤",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "위 회사는 주주총회의 특별결의를 거쳐 주식을 분할할 수 있고, 이 경우 1주의 액면가는 100원 이상이고 균일하여야 한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 42번 ⑤"
+      ],
+      "refs": [
+        "변시5 42번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 42번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504301,
+      "round": 5,
+      "year": 2016,
+      "question_no": 43,
+      "choice": "①",
+      "subject": "상법",
+      "topic": "질권",
+      "q": "甲이 주권불소지의 신고를 하면 A주식회사는 주권불소지에 관하여 정관에 아무런 근거규정이 없다는 이유로는 이를 거절할 수 없다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 43번 ①"
+      ],
+      "refs": [
+        "변시5 43번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 43번 ① 지문은 정답표상 O입니다.",
+      "ref": "민법 제320조",
+      "art": "제320조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504302,
+      "round": 5,
+      "year": 2016,
+      "question_no": 43,
+      "choice": "②",
+      "subject": "상법",
+      "topic": "질권",
+      "q": "甲이 주권불소지의 신고를 하면 A주식회사는 지체없이 주권을 발행하지 아니한다는 뜻을 주주명부와 그 복본에 기재하고 그 사실을 주주에게 통지하여야 한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 43번 ②"
+      ],
+      "refs": [
+        "변시5 43번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 43번 ② 지문은 정답표상 O입니다.",
+      "ref": "민법 제320조",
+      "art": "제320조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504303,
+      "round": 5,
+      "year": 2016,
+      "question_no": 43,
+      "choice": "③",
+      "subject": "상법",
+      "topic": "질권",
+      "q": "甲이 주권불소지의 신고를 하려면 주권을 A주식회사에 제출하여야 하고, A주식회사는 제출받은 주권을 무효로 하거나 명의개서대리인에게 임치하여야 한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 43번 ③"
+      ],
+      "refs": [
+        "변시5 43번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 43번 ③ 지문은 정답표상 O입니다.",
+      "ref": "민법 제320조",
+      "art": "제320조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504304,
+      "round": 5,
+      "year": 2016,
+      "question_no": 43,
+      "choice": "④",
+      "subject": "상법",
+      "topic": "질권",
+      "q": "甲이 주권불소지의 신고를 하였다면, 甲의 乙에 대한 주식양도는 주권교부 없이 甲과 乙간의 주식양도에 관한 의사의 합치로 할 수 있다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 43번 ④"
+      ],
+      "refs": [
+        "변시5 43번 ④"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 43번 ④ 지문은 정답표상 X입니다.",
+      "ref": "민법 제320조",
+      "art": "제320조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504305,
+      "round": 5,
+      "year": 2016,
+      "question_no": 43,
+      "choice": "⑤",
+      "subject": "상법",
+      "topic": "질권",
+      "q": "甲은 주권불소지의 신고를 한 경우에도 언제든지 A주식회사에 대하여 주권의 발행 또는 반환을 청구할 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 43번 ⑤"
+      ],
+      "refs": [
+        "변시5 43번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 43번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "민법 제320조",
+      "art": "제320조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504401,
+      "round": 5,
+      "year": 2016,
+      "question_no": 44,
+      "choice": "①",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "상장회사의 경우 이사와 감사의 보수액을 합하여 주주총회의 단일 의안으로 상정하여 의결할 수 있다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 44번 ①"
+      ],
+      "refs": [
+        "변시5 44번 ①"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 44번 ① 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504402,
+      "round": 5,
+      "year": 2016,
+      "question_no": 44,
+      "choice": "②",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "감사의 재직 중 직무수행 대가로서의 퇴직금에 관하여 정관에 그 액을 정하지 아니한 때에는 주주총회의 결의로 이를 정한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 44번 ②"
+      ],
+      "refs": [
+        "변시5 44번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 44번 ② 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504403,
+      "round": 5,
+      "year": 2016,
+      "question_no": 44,
+      "choice": "③",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "이사의 보수를 정한 주주총회의 결의에 대하여 주주총회 결의 무효확인의 소가 제기되어 무효의 판결이 확정된 경우, 그 주주총회 결의에 기한 보수청구권의 효력은 부인된다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 44번 ③"
+      ],
+      "refs": [
+        "변시5 44번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 44번 ③ 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504404,
+      "round": 5,
+      "year": 2016,
+      "question_no": 44,
+      "choice": "④",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "임기의 정함이 있는 이사가 정당한 이유 없이 임기만료 전에 해임된 경우 회사에 대하여 해임으로 인한 손해배상을 청구하려면, 그 이사는 정당한 이유의 부존재에 관한 증명책임을 진다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 44번 ④"
+      ],
+      "refs": [
+        "변시5 44번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 44번 ④ 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504405,
+      "round": 5,
+      "year": 2016,
+      "question_no": 44,
+      "choice": "⑤",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "1인 주주인 회사의 임원퇴직금규정에 관하여 주주총회의 결의가 없더라도 실질적으로 1인 주주의 결재ㆍ승인을 거쳐 관행적으로 퇴직금을 지급하여 왔다면, 위 규정에 대하여 주주총회의 결의가 있었던 것으로 볼 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 44번 ⑤"
+      ],
+      "refs": [
+        "변시5 44번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 44번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504501,
+      "round": 5,
+      "year": 2016,
+      "question_no": 45,
+      "choice": "①",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "甲이 주식매수청구권을 행사하기 위해서는 합병 주주총회일 전에 A주식회사에 합병에 반대한다는 의사를 서면으로 통지하여야 한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 45번 ①"
+      ],
+      "refs": [
+        "변시5 45번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 45번 ① 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504502,
+      "round": 5,
+      "year": 2016,
+      "question_no": 45,
+      "choice": "②",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "甲이 주식매수청구권을 행사하기 위해서는 합병을 승인하는 주주총회의 결의일로부터 20일 이내에 주식의 종류와 수를 기재한 서면으로 A주식회사에 청구하여야 한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 45번 ②"
+      ],
+      "refs": [
+        "변시5 45번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 45번 ② 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504503,
+      "round": 5,
+      "year": 2016,
+      "question_no": 45,
+      "choice": "③",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "甲이 주식매수청구권을 행사하는 경우 A주식회사가 주식매수청구를 받은 날로부터 2개월 이내에 주식매수가액이 확정되지 않았다면, 그 2개월이 경과한 후에도 A주식회사는 이행지체책임을 지지 않는다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 45번 ③"
+      ],
+      "refs": [
+        "변시5 45번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 45번 ③ 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504504,
+      "round": 5,
+      "year": 2016,
+      "question_no": 45,
+      "choice": "④",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "주식의 매수가액은 A주식회사와 甲의 협의에 의하되, 만일 A주식회사가 주식매수청구를 받은 날부터 30일 이내에 협의가 이루어지지 아니하면, 甲 또는 A주식회사는 법원에 매수가액의 결정을 청구할 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 45번 ④"
+      ],
+      "refs": [
+        "변시5 45번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 45번 ④ 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504505,
+      "round": 5,
+      "year": 2016,
+      "question_no": 45,
+      "choice": "⑤",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "법원이 주식의 매수가액을 결정하는 경우, 법원은 위 주식에 관하여 객관적 교환가치가 적정하게 반영된 정상적인 거래의 실례가 있으면 그 거래가격을 시가로 보아 주식의 매수가액을 정한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 45번 ⑤"
+      ],
+      "refs": [
+        "변시5 45번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 45번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504601,
+      "round": 5,
+      "year": 2016,
+      "question_no": 46,
+      "choice": "ㄱ",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "동업관계가 종결된 이후에도 甲이 ‘반도나이트클럽’이라는 상호를 계속 사용하는 것에 대하여 乙이 아무런 이의를 제기하지 않았고, 乙이 동업관계로부터 탈퇴한 사실을 丁이 알지 못한 데에 중대한 과실이 없다면, 丁은 위 주류대금채권에 관하여 乙에게 명의대여자의 책임을 물을 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 46번 ㄱ"
+      ],
+      "refs": [
+        "변시5 46번 ㄱ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 46번 ㄱ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "needs_atomization": true,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504602,
+      "round": 5,
+      "year": 2016,
+      "question_no": 46,
+      "choice": "ㄴ",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "甲과 丙이 ‘반도나이트클럽’을 운영하는 것으로 丁이 중대한 과실 없이 믿은 경우, 丁의 甲에 대한 위 주류대금채무의 이행청구에 대하여 甲이 채무승인을 한 경우에도 그것만으로는 丙의 丁에 대한 명의대여자로서의 책임은 시효중단되지 않는다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 46번 ㄴ"
+      ],
+      "refs": [
+        "변시5 46번 ㄴ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 46번 ㄴ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "needs_atomization": true,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504603,
+      "round": 5,
+      "year": 2016,
+      "question_no": 46,
+      "choice": "ㄷ",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "戊는 丁의 위 주류대금채권에 대하여 영업양수인으로서 변제할 책임을 진다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 46번 ㄷ"
+      ],
+      "refs": [
+        "변시5 46번 ㄷ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 46번 ㄷ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "needs_atomization": true,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504604,
+      "round": 5,
+      "year": 2016,
+      "question_no": 46,
+      "choice": "ㄹ",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "甲이 2015. 6. 6. ‘반도나이트클럽’ 인근에서 종전 영업과 동일한 내용으로 나이트클럽을 개업하여 운영하고 있는 경우라면, 戊는 甲을 상대로 ｢상법｣상의 경업금지의무 위반을 이유로 영업금지를 구하거나 손해배상을 청구할 수 있는 권리를 갖는다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 46번 ㄹ"
+      ],
+      "refs": [
+        "변시5 46번 ㄹ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 46번 ㄹ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "needs_atomization": true,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504701,
+      "round": 5,
+      "year": 2016,
+      "question_no": 47,
+      "choice": "①",
+      "subject": "상법",
+      "topic": "주식",
+      "q": "발행주식 중 일부는 액면주식으로, 나머지는 무액면주식으로 하여 발행할 수 없다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 47번 ①"
+      ],
+      "refs": [
+        "변시5 47번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 47번 ① 지문은 정답표상 O입니다.",
+      "ref": "상법 제329조",
+      "art": "제329조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504702,
+      "round": 5,
+      "year": 2016,
+      "question_no": 47,
+      "choice": "②",
+      "subject": "상법",
+      "topic": "주식",
+      "q": "주주의 상환청구권을 배제하고 회사만이 상환권을 갖는 상환주식을 발행할 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 47번 ②"
+      ],
+      "refs": [
+        "변시5 47번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 47번 ② 지문은 정답표상 O입니다.",
+      "ref": "상법 제329조",
+      "art": "제329조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504703,
+      "round": 5,
+      "year": 2016,
+      "question_no": 47,
+      "choice": "③",
+      "subject": "상법",
+      "topic": "주식",
+      "q": "상환의 대가를 배당가능이익의 범위 내에서 발행회사의 사채(社債)로 지급하는 상환주식을 발행할 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 47번 ③"
+      ],
+      "refs": [
+        "변시5 47번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 47번 ③ 지문은 정답표상 O입니다.",
+      "ref": "상법 제329조",
+      "art": "제329조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504704,
+      "round": 5,
+      "year": 2016,
+      "question_no": 47,
+      "choice": "④",
+      "subject": "상법",
+      "topic": "주식",
+      "q": "회사의 이익으로써 소각할 수 있는 조건이 붙은 의결권 없는 이익배당우선주를 발행할 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 47번 ④"
+      ],
+      "refs": [
+        "변시5 47번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 47번 ④ 지문은 정답표상 O입니다.",
+      "ref": "상법 제329조",
+      "art": "제329조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504705,
+      "round": 5,
+      "year": 2016,
+      "question_no": 47,
+      "choice": "⑤",
+      "subject": "상법",
+      "topic": "주식",
+      "q": "사채(社債)로의 전환청구권을 행사할 수 있는 전환주식을 발행할 수 있다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 47번 ⑤"
+      ],
+      "refs": [
+        "변시5 47번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 47번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "상법 제329조",
+      "art": "제329조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504801,
+      "round": 5,
+      "year": 2016,
+      "question_no": 48,
+      "choice": "①",
+      "subject": "상법",
+      "topic": "어음·수표",
+      "q": "어음발행인란에 수인이 공동으로 기명날인 또는 서명을 한 경우, 어음상의 권리자는 공동발행인 전원뿐만 아니라 공동발행인 각자에게도 어음금 전액을 청구할 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 48번 ①"
+      ],
+      "refs": [
+        "변시5 48번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 48번 ① 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504802,
+      "round": 5,
+      "year": 2016,
+      "question_no": 48,
+      "choice": "②",
+      "subject": "상법",
+      "topic": "어음·수표",
+      "q": "어음에서의 기한 후 배서는 지명채권 양도의 효력을 가지므로 ｢민법｣상 지명채권 양도의 대항요건을 구비하여야 한다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 48번 ②"
+      ],
+      "refs": [
+        "변시5 48번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 48번 ② 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504803,
+      "round": 5,
+      "year": 2016,
+      "question_no": 48,
+      "choice": "③",
+      "subject": "상법",
+      "topic": "어음·수표",
+      "q": "어음에 대한 일부의 배서는 그 부분에 한하여 유효하다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 48번 ③"
+      ],
+      "refs": [
+        "변시5 48번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 48번 ③ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504804,
+      "round": 5,
+      "year": 2016,
+      "question_no": 48,
+      "choice": "④",
+      "subject": "상법",
+      "topic": "어음·수표",
+      "q": "어음에 있어서 배서의 연속은 어음 기재상 형식적으로 연속되어 있어야 할 뿐만 아니라 실질적으로도 연속되어 있을 것을 요한다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 48번 ④"
+      ],
+      "refs": [
+        "변시5 48번 ④"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 48번 ④ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504805,
+      "round": 5,
+      "year": 2016,
+      "question_no": 48,
+      "choice": "⑤",
+      "subject": "상법",
+      "topic": "어음·수표",
+      "q": "수표에 기재되어야 할 수표행위자의 명칭은 반드시 수표행위자의 본명에 한한다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 48번 ⑤"
+      ],
+      "refs": [
+        "변시5 48번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 48번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504901,
+      "round": 5,
+      "year": 2016,
+      "question_no": 49,
+      "choice": "①",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "보험계약 당시에 보험계약자 또는 피보험자가 고의 또는 중대한 과실로 중요한 사항에 대하여 고지하지 않거나 부실의 고지를 하는 경우 고지의무 위반이 된다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 49번 ①"
+      ],
+      "refs": [
+        "변시5 49번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 49번 ① 지문은 정답표상 O입니다.",
+      "ref": "상법 제638조",
+      "art": "제638조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504902,
+      "round": 5,
+      "year": 2016,
+      "question_no": 49,
+      "choice": "②",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "냉동창고에 대한 화재보험계약 체결시에 보험의 목적인 냉동창고 건물이 완성되지 않아 완성된 냉동창고에 비하여 현저히 높은 화재위험에 노출되어 있었던 경우에 잔여공사를 계속하여야 한다는 사정은 고지의무의 대상이 된다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 49번 ②"
+      ],
+      "refs": [
+        "변시5 49번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 49번 ② 지문은 정답표상 O입니다.",
+      "ref": "상법 제638조",
+      "art": "제638조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504903,
+      "round": 5,
+      "year": 2016,
+      "question_no": 49,
+      "choice": "③",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "생명보험계약에 있어서 고지의무 위반이 있는 경우 보험자는 그 위반사실을 증명하여 보험계약자나 그의 상속인(또는 그들의 대리인)에 대하여 해지의 의사표시를 할 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 49번 ③"
+      ],
+      "refs": [
+        "변시5 49번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 49번 ③ 지문은 정답표상 O입니다.",
+      "ref": "상법 제638조",
+      "art": "제638조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504904,
+      "round": 5,
+      "year": 2016,
+      "question_no": 49,
+      "choice": "④",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "고지의무 위반시 보험자는 보험사고 발생 후라도 그 위반사실을 안 날로부터 1월 내에, 보험계약 체결시로부터 3년 내에 한하여 보험계약을 해지할 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 49번 ④"
+      ],
+      "refs": [
+        "변시5 49번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 49번 ④ 지문은 정답표상 O입니다.",
+      "ref": "상법 제638조",
+      "art": "제638조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 504905,
+      "round": 5,
+      "year": 2016,
+      "question_no": 49,
+      "choice": "⑤",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "고지의무를 위반한 사실이 보험사고 발생에 영향을 미치지 아니하였음이 증명된 경우라 하더라도 보험자는 보험계약을 해지할 수 있을 뿐만 아니라 보험금지급책임도 면한다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 49번 ⑤"
+      ],
+      "refs": [
+        "변시5 49번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 49번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "상법 제638조",
+      "art": "제638조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 505001,
+      "round": 5,
+      "year": 2016,
+      "question_no": 50,
+      "choice": "①",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "｢민법｣에 의하면 청약을 받은 상대방이 계약체결을 원하지 않는 경우 원칙적으로 거절의 의사를 청약자에게 통지할 필요가 없다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 50번 ①"
+      ],
+      "refs": [
+        "변시5 50번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 50번 ① 지문은 정답표상 O입니다.",
+      "ref": "민사소송법 제51조",
+      "art": "제51조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 505002,
+      "round": 5,
+      "year": 2016,
+      "question_no": 50,
+      "choice": "②",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "상인이 그 영업부류에 속한 계약의 청약을 받은 경우 견품 기타의 물건을 받은 때에는 청약을 거절한 때에도 청약수령자의 비용으로 그 물건을 보관하여야 한다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 50번 ②"
+      ],
+      "refs": [
+        "변시5 50번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 50번 ② 지문은 정답표상 X입니다.",
+      "ref": "민사소송법 제51조",
+      "art": "제51조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 505003,
+      "round": 5,
+      "year": 2016,
+      "question_no": 50,
+      "choice": "③",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "상인이 상시 거래관계에 있는 자로부터 그 영업부류에 속한 계약의 청약을 받은 때에는 지체없이 낙부의 통지를 발송하여야 하고 이를 해태한 때에는 승낙한 것으로 본다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 50번 ③"
+      ],
+      "refs": [
+        "변시5 50번 ③"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 50번 ③ 지문은 정답표상 O입니다.",
+      "ref": "민사소송법 제51조",
+      "art": "제51조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 505004,
+      "round": 5,
+      "year": 2016,
+      "question_no": 50,
+      "choice": "④",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "상인이 아닌 당사자 간의 계약에서 계약의 성질 또는 당사자의 의사표시에 의하여 일정한 시일 또는 일정한 기간 내에 이행하지 아니하면 계약의 목적을 달성할 수 없을 경우, 당사자 일방이 그 시기에 이행하지 아니한 때에는 상대방은 이행의 최고 없이도 계약을 해제할 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 50번 ④"
+      ],
+      "refs": [
+        "변시5 50번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 50번 ④ 지문은 정답표상 O입니다.",
+      "ref": "민사소송법 제51조",
+      "art": "제51조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 505005,
+      "round": 5,
+      "year": 2016,
+      "question_no": 50,
+      "choice": "⑤",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "상인간의 매매에 있어서 매매의 성질 또는 당사자의 의사표시에 의하여 일정한 일시 또는 일정한 기간 내에 이행하지 아니하면 계약의 목적을 달성할 수 없는 경우, 당사자의 일방이 이행시기를 경과한 때에는 상대방은 즉시 그 이행을 청구하지 아니하면 계약을 해제한 것으로 본다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 50번 ⑤"
+      ],
+      "refs": [
+        "변시5 50번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 50번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "민사소송법 제51조",
+      "art": "제51조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 505101,
+      "round": 5,
+      "year": 2016,
+      "question_no": 51,
+      "choice": "①",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "A보험회사가 甲에 대해 차량보험금을 전액 지급하였다면, A보험회사는 그 지급한 금액의 한도에서 甲의 乙에 대한 손해배상청구권을 대위할 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 51번 ①"
+      ],
+      "refs": [
+        "변시5 51번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 51번 ① 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 505102,
+      "round": 5,
+      "year": 2016,
+      "question_no": 51,
+      "choice": "②",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "甲이 보험금을 지급받은 후 乙에 대한 손해배상청구권을 포기한 경우라 하더라도 A보험회사는 여전히 甲의 乙에 대한 손해배상청구권을 대위할 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 51번 ②"
+      ],
+      "refs": [
+        "변시5 51번 ②"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 51번 ② 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 505103,
+      "round": 5,
+      "year": 2016,
+      "question_no": 51,
+      "choice": "③",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "甲에게 보험금을 지급한 A보험회사가 乙에 대해 대위할 수 있는 손해배상청구권은 甲의 A보험회사에 대한 보험금청구권과 같이 위 사고발생일로부터 3년의 시효로 소멸한다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 51번 ③"
+      ],
+      "refs": [
+        "변시5 51번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 51번 ③ 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 505104,
+      "round": 5,
+      "year": 2016,
+      "question_no": 51,
+      "choice": "④",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "甲이 A보험회사로부터 보험금을 지급받은 후, 乙이 A보험회사의 대위권 취득의 사실을 모르고 과실 없이 甲에게 손해배상금을 지급한 때에는 A보험회사는 乙에 대해 대위권을 행사할 수 없다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 51번 ④"
+      ],
+      "refs": [
+        "변시5 51번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 51번 ④ 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 505105,
+      "round": 5,
+      "year": 2016,
+      "question_no": 51,
+      "choice": "⑤",
+      "subject": "상법",
+      "topic": "계약",
+      "q": "乙이 생계를 같이하는 甲의 배우자인 경우 A보험회사는 甲 의 손해배상청구권을 대위할 수 없지만, 만일 乙이 고의로 위 사고를 일으켰다면 A보험회사는 乙에 대해 대위할 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 51번 ⑤"
+      ],
+      "refs": [
+        "변시5 51번 ⑤"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 51번 ⑤ 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "choice_statement_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 505201,
+      "round": 5,
+      "year": 2016,
+      "question_no": 52,
+      "choice": "①",
+      "subject": "상법",
+      "topic": "어음·수표",
+      "q": "위조된 배서를 진정한 것으로 믿고 어음을 유상취득한 경우의 손해액은 그 어음을 취득하기 위하여 지급한 금원이 아니라 해당 어음액면 상당액이다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 52번 ①"
+      ],
+      "refs": [
+        "변시5 52번 ①"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 52번 ① 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 505202,
+      "round": 5,
+      "year": 2016,
+      "question_no": 52,
+      "choice": "②",
+      "subject": "상법",
+      "topic": "어음·수표",
+      "q": "어음상의 피위조자는 귀책사유를 불문하고 선의의 어음소지인에게 어음상의 책임을 진다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 52번 ②"
+      ],
+      "refs": [
+        "변시5 52번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 52번 ② 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 505203,
+      "round": 5,
+      "year": 2016,
+      "question_no": 52,
+      "choice": "③",
+      "subject": "상법",
+      "topic": "어음·수표",
+      "q": "어음상의 피위조자는 위조 사실을 증명하지 못하면 어음상의 책임을 면하지 못한다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 52번 ③"
+      ],
+      "refs": [
+        "변시5 52번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 52번 ③ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 505204,
+      "round": 5,
+      "year": 2016,
+      "question_no": 52,
+      "choice": "④",
+      "subject": "상법",
+      "topic": "어음·수표",
+      "q": "어음이 위조된 후 그 어음을 취득하여 배서양도한 자는 위조된 문언대로 어음상의 책임을 진다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 52번 ④"
+      ],
+      "refs": [
+        "변시5 52번 ④"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 52번 ④ 지문은 정답표상 O입니다.",
+      "ref": "",
+      "art": "",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 505205,
+      "round": 5,
+      "year": 2016,
+      "question_no": 52,
+      "choice": "⑤",
+      "subject": "상법",
+      "topic": "어음·수표",
+      "q": "변조 후에 그 어음에 기명날인하여 어음행위를 한 자는 원칙적으로 원래 문구에 따라 어음상의 책임을 진다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 52번 ⑤"
+      ],
+      "refs": [
+        "변시5 52번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 52번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "",
+      "art": "",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 506301,
+      "round": 5,
+      "year": 2016,
+      "question_no": 63,
+      "choice": "ㄱ",
+      "subject": "상법",
+      "topic": "주주대표소송",
+      "q": "주주가 대표소송을 제기할 수 있는 주식보유요건을 갖추고 적법하게 소를 제기하였다면 소송계속 중에 주식을 모두 양도하여 주주의 지위를 상실하였더라도 그가 제기한 소가 부적법하게 되는 것은 아니다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 63번 ㄱ"
+      ],
+      "refs": [
+        "변시5 63번 ㄱ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 63번 ㄱ 지문은 정답표상 X입니다.",
+      "ref": "상법 제329조",
+      "art": "제329조",
+      "needs_atomization": false,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 506302,
+      "round": 5,
+      "year": 2016,
+      "question_no": 63,
+      "choice": "ㄴ",
+      "subject": "상법",
+      "topic": "주주대표소송",
+      "q": "소를 제기한 주주가 패소한 때에는 악의인 경우 외에는 회사에 대하여 손해를 배상할 책임이 없다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 63번 ㄴ"
+      ],
+      "refs": [
+        "변시5 63번 ㄴ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 63번 ㄴ 지문은 정답표상 O입니다.",
+      "ref": "상법 제329조",
+      "art": "제329조",
+      "needs_atomization": false,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 506303,
+      "round": 5,
+      "year": 2016,
+      "question_no": 63,
+      "choice": "ㄷ",
+      "subject": "상법",
+      "topic": "주주대표소송",
+      "q": "주주대표소송에서 승소확정판결을 받은 주주는 위 확정판결을 집행권원으로 한 집행에 있어 집행채권자가 될 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 63번 ㄷ"
+      ],
+      "refs": [
+        "변시5 63번 ㄷ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 63번 ㄷ 지문은 정답표상 O입니다.",
+      "ref": "상법 제329조",
+      "art": "제329조",
+      "needs_atomization": false,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 506304,
+      "round": 5,
+      "year": 2016,
+      "question_no": 63,
+      "choice": "ㄹ",
+      "subject": "상법",
+      "topic": "주주대표소송",
+      "q": "원고적격요건을 갖추어 대표소송을 제기한 주주가 그 소송의 사실심 변론종결 시까지 원고적격요건을 유지하지 못하여 종국적으로 소가 각하되는 운명에 있다면, 사실심 변론종결 이전에 회사가 원고 측에 공동소송참가를 신청하더라도 그 참가는 부적법하다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 63번 ㄹ"
+      ],
+      "refs": [
+        "변시5 63번 ㄹ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 63번 ㄹ 지문은 정답표상 X입니다.",
+      "ref": "상법 제329조",
+      "art": "제329조",
+      "needs_atomization": false,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 506501,
+      "round": 5,
+      "year": 2016,
+      "question_no": 65,
+      "choice": "ㄱ",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "위 소송에서 피고가 될 수 있는 자는 甲회사에 한정된다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 65번 ㄱ"
+      ],
+      "refs": [
+        "변시5 65번 ㄱ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 65번 ㄱ 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 506502,
+      "round": 5,
+      "year": 2016,
+      "question_no": 65,
+      "choice": "ㄴ",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "A를 대표이사로 선임한 위 임시주주총회결의에 대하여 부존재확인판결이 확정되면, 그 판결에는 소급효가 없으므로 장래를 향해서만 그 효력이 있다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 65번 ㄴ"
+      ],
+      "refs": [
+        "변시5 65번 ㄴ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 65번 ㄴ 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 506503,
+      "round": 5,
+      "year": 2016,
+      "question_no": 65,
+      "choice": "ㄷ",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "위 부존재확인의 소가 A를 대표이사로 선임한 주주총회의 결의일로부터 2월 이내에 제기되었더라도, 그 결의일로부터 2월이 경과한 후에 乙이 위 소를 주주총회결의취소의 소로 변경하였다면 그 취소의 소는 제소기간을 도과한 것으로 부적법하다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 65번 ㄷ"
+      ],
+      "refs": [
+        "변시5 65번 ㄷ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 65번 ㄷ 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 506504,
+      "round": 5,
+      "year": 2016,
+      "question_no": 65,
+      "choice": "ㄹ",
+      "subject": "상법",
+      "topic": "회사",
+      "q": "위 임시주주총회를 종전 대표이사 B가 소집하였는데, B를 대표이사로 선임하였던 2014. 3. 1. 정기주주총회결의가 부존재하는 것으로 확정되었다면 특별한 사정이 없는 한 위 임시주주총회에서 A를 대표이사로 선임한 결의는 부존재 사유에 해당한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 65번 ㄹ"
+      ],
+      "refs": [
+        "변시5 65번 ㄹ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 65번 ㄹ 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": true,
+      "source_kind": "letter_combination_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 506601,
+      "round": 5,
+      "year": 2016,
+      "question_no": 66,
+      "choice": "ㄱ",
+      "subject": "상법",
+      "topic": "신주발행",
+      "q": "회사의 감사가 제기한 신주발행무효의 소가 신주발행일로부터 2개월이 지나 제기된 것이라면 그 소는 부적법하다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 66번 ㄱ"
+      ],
+      "refs": [
+        "변시5 66번 ㄱ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 66번 ㄱ 지문은 정답표상 X입니다.",
+      "ref": "상법 제329조",
+      "art": "제329조",
+      "needs_atomization": false,
+      "source_kind": "letter_combination_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 506602,
+      "round": 5,
+      "year": 2016,
+      "question_no": 66,
+      "choice": "ㄴ",
+      "subject": "상법",
+      "topic": "신주발행",
+      "q": "신주발행무효의 소가 제기된 경우, 회사는 지체 없이 소가 제기되었음을 공고하여야 한다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 66번 ㄴ"
+      ],
+      "refs": [
+        "변시5 66번 ㄴ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 66번 ㄴ 지문은 정답표상 O입니다.",
+      "ref": "상법 제329조",
+      "art": "제329조",
+      "needs_atomization": false,
+      "source_kind": "letter_combination_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 506603,
+      "round": 5,
+      "year": 2016,
+      "question_no": 66,
+      "choice": "ㄷ",
+      "subject": "상법",
+      "topic": "신주발행",
+      "q": "신주의 질권자는 신주발행무효판결 확정으로 인하여 신주의 주주가 회사로부터 반환받을 납입금액에 대하여 물상대위할 수 있다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 66번 ㄷ"
+      ],
+      "refs": [
+        "변시5 66번 ㄷ"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 66번 ㄷ 지문은 정답표상 O입니다.",
+      "ref": "상법 제329조",
+      "art": "제329조",
+      "needs_atomization": false,
+      "source_kind": "letter_combination_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 506604,
+      "round": 5,
+      "year": 2016,
+      "question_no": 66,
+      "choice": "ㄹ",
+      "subject": "상법",
+      "topic": "신주발행",
+      "q": "신주발행무효의 판결이 확정되면 그 신주는 소급하여 효력을 잃으며, 그 효력은 제3자에게도 미친다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 66번 ㄹ"
+      ],
+      "refs": [
+        "변시5 66번 ㄹ"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 66번 ㄹ 지문은 정답표상 X입니다.",
+      "ref": "상법 제329조",
+      "art": "제329조",
+      "needs_atomization": false,
+      "source_kind": "letter_combination_negative",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 506701,
+      "round": 5,
+      "year": 2016,
+      "question_no": 67,
+      "choice": "①",
+      "subject": "상법",
+      "topic": "이사",
+      "q": "이사해임의 소를 본안의 소로 하는 이사의 직무집행정지 가처분신청은 반드시 본안의 소를 제기하였음을 전제로 하는 것은 아니다.",
+      "a": "O",
+      "tag": "변시5",
+      "src": [
+        "변시5 67번 ①"
+      ],
+      "refs": [
+        "변시5 67번 ①"
+      ],
+      "trap": "정지문",
+      "why": "제5회 변호사시험 민사법 선택형 67번 ① 지문은 정답표상 O입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 506702,
+      "round": 5,
+      "year": 2016,
+      "question_no": 67,
+      "choice": "②",
+      "subject": "상법",
+      "topic": "이사",
+      "q": "이사를 선임한 주주총회결의에 대한 취소의 소를 제기한 주주는 이를 본안의 소로 하여 그 이사에 대한 직무집행정지 가처분신청을 할 수 없다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 67번 ②"
+      ],
+      "refs": [
+        "변시5 67번 ②"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 67번 ② 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 506703,
+      "round": 5,
+      "year": 2016,
+      "question_no": 67,
+      "choice": "③",
+      "subject": "상법",
+      "topic": "이사",
+      "q": "이사직무집행정지 가처분결정에는 대세적 효력이 있으므로 그 직무집행정지 가처분신청의 피신청인은 당해 이사가 아닌 회사이다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 67번 ③"
+      ],
+      "refs": [
+        "변시5 67번 ③"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 67번 ③ 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 506704,
+      "round": 5,
+      "year": 2016,
+      "question_no": 67,
+      "choice": "④",
+      "subject": "상법",
+      "topic": "이사",
+      "q": "대표이사와 이사의 직무집행정지 및 직무대행자를 선임하는 법원의 가처분결정이 있더라도, 그 이사가 위 결정 이전에 새로운 대표이사로 선임되었고 그 선임결의에 하자가 없다면 대표이사로서의 권한을 행사할 수 있다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 67번 ④"
+      ],
+      "refs": [
+        "변시5 67번 ④"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 67번 ④ 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    },
+    {
+      "id": 506705,
+      "round": 5,
+      "year": 2016,
+      "question_no": 67,
+      "choice": "⑤",
+      "subject": "상법",
+      "topic": "이사",
+      "q": "이사직무집행정지 및 직무대행자선임 가처분결정은 이를 등기하지 아니하면 위 결정으로 제3자의 선의·악의를 불문하고 그에게 대항하지 못한다.",
+      "a": "X",
+      "tag": "변시5",
+      "src": [
+        "변시5 67번 ⑤"
+      ],
+      "refs": [
+        "변시5 67번 ⑤"
+      ],
+      "trap": "함정지문",
+      "why": "제5회 변호사시험 민사법 선택형 67번 ⑤ 지문은 정답표상 X입니다.",
+      "ref": "상법 제288조",
+      "art": "제288조",
+      "needs_atomization": false,
+      "source_kind": "choice_statement_positive",
+      "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다."
+    }
+  ],
+  "issues": []
+}

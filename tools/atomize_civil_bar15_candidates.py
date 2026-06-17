@@ -20,7 +20,7 @@ SOURCE_ASSET_NAME = "ox_civil_bar15.json"
 OUTPUT_ASSET_NAME = "ox_civil_bar15_minimal_atoms_draft.json"
 REPORT_PREFIX = "civil_bar15_minimal_atom_audit"
 
-CASE_PARTY_RE = re.compile(r"[甲乙丙丁戊己庚辛壬癸]|(?<![A-Za-z])[A-E](?![A-Za-z])|(?<![A-Za-z])[X-Z](?![A-Za-z])")
+CASE_PARTY_RE = re.compile(r"[甲乙丙丁戊己庚辛壬癸]|(?<![A-Za-z])[A-E](?![A-Za-z])")
 QUESTION_RE = re.compile(r"[?？]|\?$")
 MARKER_RE = re.compile(r"\|\s*\*\*(?P<marker>[ㄱ-ㅎ①-⑤])\.?\*\*.*?\|\s*(?P<ox>[✅❌○×OX])[^|]*\|\s*(?P<basis>.*?)\s*\|")
 BULLET_RE = re.compile(
@@ -183,6 +183,22 @@ MANUAL_REP_OVERRIDES = {
         "\uacf5\ub3d9\uc73c\ub85c \uc18c\uc1a1\uc744 \uc218\ud589\ud558\uc600\ub2e4\uba74 "
         "\ucc38\uac00\uc801 \ud6a8\ub825\uc774 \ubc1c\uc0dd\ud560 \uc218 \uc788\ub2e4."
     ),
+}
+
+
+SOURCE_REP_CLEANUPS_BY_ROUND = {
+    5: {
+        (1, "④"): "주채무자에 대한 채권을 보전하기 위한 가압류가 이루어진 경우, 그 가압류에 의한 시효중단의 효력은 연대보증인에게도 미친다.",
+        (3, "ㄴ"): "대리인이 본인을 위하여 계약을 체결하고 상대방으로부터 대금을 수령한 경우에도, 대리인이 그 대금을 본인에게 전달하지 않았다는 이유로 본인이 상대방에게 이행을 거절할 수 있다.",
+        (5, "ㄱ"): "양도담보권자가 청산절차 없이 선의의 제3자에게 담보목적물을 처분한 경우, 채무자는 채무액을 변제하고 제3자 명의 등기의 말소를 구할 수 없다.",
+        (5, "ㄴ"): "가등기담보권자가 적법한 청산통지와 청산금 지급 후 본등기를 마친 뒤 청산기간이 지나면, 채무자는 채무액을 변제하고 본등기의 말소를 구할 수 없다.",
+        (5, "ㄷ"): "가등기담보 목적물에 선순위 근저당권 실행경매가 개시된 후 가등기담보권자가 청산통지와 청산금 지급을 하고 본등기를 마치면, 그 본등기는 유효하다.",
+        (40, "①"): "합병에서 소멸회사가 거쳐야 할 필수 절차는 채권자이의절차이다.",
+        (40, "②"): "합병에서 소멸회사가 거쳐야 할 필수 절차는 주주총회 특별결의이다.",
+        (40, "③"): "합병에서 존속회사가 거쳐야 할 필수 절차는 채권자이의절차이다.",
+        (40, "④"): "합병에서 존속회사가 거쳐야 할 필수 절차는 주주총회 특별결의이다.",
+        (40, "⑤"): "간이합병·소규모합병 상황에서도 생략할 수 있는 회사법상 절차는 없다.",
+    },
 }
 
 
@@ -524,8 +540,6 @@ def normalize_principle(raw_basis: str, fallback: str, answer: str) -> tuple[str
     if not text:
         text = clean_text(fallback)
         info_tags.append("source_statement_fallback")
-        if answer == "X":
-            flags.append("false_source_without_basis")
 
     text = re.sub(r"^(?:틀림|맞음|옳음|정답)\.?\s*", "", text)
     text = re.sub(r"^\*\*틀림\.\*\*\s*", "", text)
@@ -552,9 +566,38 @@ def normalize_principle(raw_basis: str, fallback: str, answer: str) -> tuple[str
     for before, after in replacements.items():
         text = text.replace(before, after)
 
-    # Remove obvious case party labels that remain in source explanations.
-    text = re.sub(r"[甲乙丙丁戊己庚辛壬癸]\s*(?:은|는|이|가|에게|을|를|의|과|와)", "", text)
-    text = re.sub(r"\b[A-E]\s*(?:회사|주식회사|은행|조합|공사|토지|건물|채권|주식)?", lambda m: m.group(0).replace(m.group(0)[0], "").strip(), text)
+    party_names = {
+        "甲": "제1자",
+        "乙": "제2자",
+        "丙": "제3자",
+        "丁": "제4자",
+        "戊": "제5자",
+        "己": "제6자",
+        "庚": "제7자",
+        "辛": "제8자",
+        "壬": "제9자",
+        "癸": "제10자",
+    }
+    for before, after in party_names.items():
+        text = text.replace(before, after)
+    latin_party_names = {
+        "A": "제1자",
+        "B": "제2자",
+        "C": "제3자",
+        "D": "제4자",
+        "E": "제5자",
+    }
+    for before, after in latin_party_names.items():
+        text = re.sub(fr"(?<![A-Za-z]){before}(?![A-Za-z])", after, text)
+    for idx in range(1, 11):
+        text = text.replace(f"제{idx}자은", f"제{idx}자는")
+        text = text.replace(f"제{idx}자이", f"제{idx}자가")
+        text = text.replace(f"제{idx}자을", f"제{idx}자를")
+        text = text.replace(f"제{idx}자와", f"제{idx}자와")
+        text = text.replace(f"제{idx}자과", f"제{idx}자와")
+    text = re.sub(r"제(\d+)자주식회사", r"제\1회사", text)
+    text = re.sub(r"제(\d+)자보험회사", r"제\1보험회사", text)
+    text = re.sub(r"제(\d+)자은행", r"제\1은행", text)
     text = re.sub(r"\s+", " ", text).strip(" .")
 
     if text and not text.endswith(("다", "다.", "된다", "된다.", "없다", "없다.", "있다", "있다.")):
@@ -596,12 +639,19 @@ def build_candidates() -> tuple[dict[str, Any], dict[str, Any]]:
         q_no = int(item["question_no"])
         marker = item["choice"]
         basis = basis_by_question.get(q_no, {}).get(marker, "")
+        has_basis = bool(clean_text(basis))
         principle, flags, info_tags = normalize_principle(basis, item["q"], item["a"])
         manual_rep = MANUAL_REP_OVERRIDES_BY_ROUND.get(ROUND_NO, {}).get((q_no, marker))
+        cleanup_rep = SOURCE_REP_CLEANUPS_BY_ROUND.get(ROUND_NO, {}).get((q_no, marker))
         if manual_rep:
             principle = manual_rep
             flags = []
             info_tags.append("manual_override")
+        elif cleanup_rep:
+            principle = cleanup_rep
+            flags = []
+            info_tags.append("manual_source_cleanup")
+        answer = "O" if manual_rep or has_basis else item["a"]
         pid = f"civil-bar{ROUND_NO}-q{q_no:02d}-{marker}"
         candidates.append(
             {
@@ -611,7 +661,7 @@ def build_candidates() -> tuple[dict[str, Any], dict[str, Any]]:
                 "subject": item["subject"],
                 "topic": item.get("topic") or "",
                 "rep": principle,
-                "a": "O",
+                "a": answer,
                 "why": principle,
                 "ref": item.get("ref") or "",
                 "art": item.get("art") or "",
