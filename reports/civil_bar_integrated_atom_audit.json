@@ -1,0 +1,38 @@
+{
+  "rawCount": 4892,
+  "mergedCount": 4891,
+  "duplicateGroups": 1,
+  "repeatedSourceGroups": 0,
+  "subjectCounts": {
+    "민법": 2511,
+    "민사소송법": 935,
+    "상법": 1445
+  },
+  "answerCounts": {
+    "O": 4203,
+    "X": 688
+  },
+  "freqCounts": {
+    "1": 4891
+  },
+  "roundCounts": {
+    "1": 345,
+    "2": 332,
+    "3": 315,
+    "4": 323,
+    "5": 314,
+    "6": 336,
+    "7": 319,
+    "8": 327,
+    "9": 330,
+    "10": 336,
+    "11": 327,
+    "12": 327,
+    "13": 327,
+    "14": 319,
+    "15": 315
+  },
+  "conflictCount": 0,
+  "conflicts": [],
+  "multiSourceSamples": []
+}
