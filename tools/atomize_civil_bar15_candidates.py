@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import csv
+import argparse
 import json
 import re
 from collections import Counter, defaultdict
@@ -15,8 +16,11 @@ REPORTS = ROOT / "reports"
 LEXBANK_PATTERN = "lex-bank_*_2026-06-16/02_export/mc_questions.csv"
 ROUND_NO = 15
 CIVIL_SUBJECT = "민사법"
+SOURCE_ASSET_NAME = "ox_civil_bar15.json"
+OUTPUT_ASSET_NAME = "ox_civil_bar15_minimal_atoms_draft.json"
+REPORT_PREFIX = "civil_bar15_minimal_atom_audit"
 
-CASE_PARTY_RE = re.compile(r"[甲乙丙丁戊己庚辛壬癸]|(?<![A-Za-z])[A-E](?![A-Za-z])")
+CASE_PARTY_RE = re.compile(r"[甲乙丙丁戊己庚辛壬癸]|(?<![A-Za-z])[A-E](?![A-Za-z])|(?<![A-Za-z])[X-Z](?![A-Za-z])")
 QUESTION_RE = re.compile(r"[?？]|\?$")
 MARKER_RE = re.compile(r"\|\s*\*\*(?P<marker>[ㄱ-ㅎ①-⑤])\.?\*\*.*?\|\s*(?P<ox>[✅❌○×OX])[^|]*\|\s*(?P<basis>.*?)\s*\|")
 BULLET_RE = re.compile(
@@ -179,6 +183,64 @@ MANUAL_REP_OVERRIDES = {
 }
 
 
+MANUAL_REP_OVERRIDES_BY_ROUND = {
+    14: {
+        (11, "ㄷ"): (
+            "사해행위취소와 원상회복으로 등기가 회복된 뒤 채무자가 다시 부동산을 제3자에게 양도한 경우, "
+            "사해행위 이후에 채무자에 대한 채권을 취득한 채권자는 그 제3자 명의 등기의 말소를 청구할 수 없다."
+        ),
+        (14, "ㄴ"): (
+            "유치권자가 유치물을 점유하기 위하여 건물에 거주하는 경우, 그 거주로 인한 토지 사용은 "
+            "건물 점유에 따른 것이므로 토지 소유자에게 별도의 차임 상당 부당이득반환의무를 부담하지 않는다."
+        ),
+        (20, "④"): (
+            "가등기 유용 합의가 가압류등기 등 이해관계인의 권리를 침해하는 경우, "
+            "가등기 유용 합의의 당사자는 가압류권자에게 그 가등기의 유효를 주장할 수 없다."
+        ),
+        (23, "ㄱ"): (
+            "공동저당 목적 부동산 중 일부만 사해행위로 이전된 경우, 가액배상액은 이전된 부동산 가액에서 "
+            "그 부동산이 가액비율에 따라 부담하는 피담보채권액을 공제하여 산정한다."
+        ),
+        (23, "ㄴ"): (
+            "공동저당 목적 부동산 전부가 일괄로 사해행위 이전된 경우, 가액배상액은 이전된 부동산 전체 가액에서 "
+            "공동저당 피담보채권액을 공제하여 산정한다."
+        ),
+        (23, "ㄷ"): (
+            "공동저당 목적물 중 채무자 소유 부동산과 물상보증인 소유 부동산이 섞여 있는 경우, "
+            "채무자 소유 부동산이 그 피담보채권을 먼저 부담하는 것으로 보아 가액배상액을 산정한다."
+        ),
+        (29, "ㄱ"): (
+            "면책적 채무인수인은 특별한 사정이 없는 한 본래 채무자에게 구상권을 행사할 수 없다."
+        ),
+        (29, "ㄹ"): (
+            "여러 물상보증인 중 한 사람이 변제한 뒤 다른 물상보증인 소유 부동산의 제3취득자에게 "
+            "채권자를 대위하려면 대위의 부기등기가 필요하다."
+        ),
+        (33, "ㄱ"): (
+            "한정승인 후 상속인이 상속재산에 고유채권자 앞으로 근저당권을 설정한 경우, "
+            "그 부동산의 경매절차에서 상속채권자가 그 근저당권자보다 당연히 선순위로 배당받는 것은 아니다."
+        ),
+        (34, "ㄴ"): (
+            "상속개시 후 인지로 공동상속인이 된 자는 이미 처분된 상속재산 자체를 되찾을 수 없고, "
+            "인지판결 확정일부터 3년 내에 다른 공동상속인에게 상속분 상당 가액의 지급을 청구할 수 있다."
+        ),
+        (35, "ㄷ"): (
+            "상속회복청구권은 상속권 침해행위가 있은 날부터 10년이 지나면 소멸하므로, "
+            "그 기간이 지난 뒤 후행 양수인에게도 상속회복청구를 할 수 없다."
+        ),
+        (41, "③"): (
+            "채권자대위소송의 확정판결 후 채무자로부터 목적물을 양수한 사람이라도, "
+            "전소 소송물과 후소 청구가 다르면 변론종결 후 승계인으로서 전소 기판력을 받지 않을 수 있다."
+        ),
+        (64, "ㄴ"): (
+            "대주주와 투자자 사이의 약정에는 주주평등 원칙이 직접 적용되지는 않지만, "
+            "회사와 투자자 사이의 약정과 결합되어 유효성이 판단될 수 있다."
+        ),
+    },
+    15: MANUAL_REP_OVERRIDES,
+}
+
+
 def clean_text(value: str) -> str:
     value = value or ""
     value = re.sub(r"<[^>]+>", "", value)
@@ -304,7 +366,7 @@ def first_ref(value: str) -> str:
 
 
 def build_candidates() -> tuple[dict[str, Any], dict[str, Any]]:
-    source = json.loads((ASSETS / "ox_civil_bar15.json").read_text(encoding="utf-8"))
+    source = json.loads((ASSETS / SOURCE_ASSET_NAME).read_text(encoding="utf-8"))
     rows = load_lexbank_rows()
     basis_by_question = {
         number: extract_basis_map(row.get("ai_explanation") or "")
@@ -317,12 +379,12 @@ def build_candidates() -> tuple[dict[str, Any], dict[str, Any]]:
         marker = item["choice"]
         basis = basis_by_question.get(q_no, {}).get(marker, "")
         principle, flags, info_tags = normalize_principle(basis, item["q"], item["a"])
-        manual_rep = MANUAL_REP_OVERRIDES.get((q_no, marker))
+        manual_rep = MANUAL_REP_OVERRIDES_BY_ROUND.get(ROUND_NO, {}).get((q_no, marker))
         if manual_rep:
             principle = manual_rep
             flags = []
             info_tags.append("manual_override")
-        pid = f"civil-bar15-q{q_no:02d}-{marker}"
+        pid = f"civil-bar{ROUND_NO}-q{q_no:02d}-{marker}"
         candidates.append(
             {
                 "pid": pid,
@@ -357,10 +419,10 @@ def build_candidates() -> tuple[dict[str, Any], dict[str, Any]]:
     needs_review = [item for item in candidates if item["quality_flags"]]
 
     payload = {
-        "title": "제15회 변호사시험 민사법 최소 원리 atom 초안",
+        "title": f"제{ROUND_NO}회 변호사시험 민사법 최소 원리 atom 초안",
         "round": ROUND_NO,
-        "year": 2026,
-        "source": "assets/ox_civil_bar15.json + lex-bank explanation basis transformed into principle candidates",
+        "year": source.get("year") or (2011 + ROUND_NO),
+        "source": f"assets/{SOURCE_ASSET_NAME} + lex-bank explanation basis transformed into principle candidates",
         "updatedAt": datetime.now(timezone.utc).isoformat(),
         "count": len(candidates),
         "highConfidenceCount": len(high_confidence),
@@ -394,9 +456,9 @@ def write_json(path: Path, data: Any) -> None:
 
 def render_report(payload: dict[str, Any], audit: dict[str, Any]) -> str:
     lines: list[str] = []
-    lines.append("# 제15회 민사법 최소 원리 atom 초안 검증")
+    lines.append(f"# 제{payload['round']}회 민사법 최소 원리 atom 초안 검증")
     lines.append("")
-    lines.append("- 기준: `assets/ox_civil_bar15.json` + lex-bank 해설의 각 지문 검토")
+    lines.append(f"- 기준: `assets/{SOURCE_ASSET_NAME}` + lex-bank 해설의 각 지문 검토")
     lines.append("- 작성일: 2026-06-17")
     lines.append("")
     lines.append("## 결론")
@@ -448,11 +510,24 @@ def render_report(payload: dict[str, Any], audit: dict[str, Any]) -> str:
 
 
 def main() -> None:
+    global ROUND_NO, SOURCE_ASSET_NAME, OUTPUT_ASSET_NAME, REPORT_PREFIX
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--round", type=int, default=ROUND_NO)
+    parser.add_argument("--source", default=None)
+    parser.add_argument("--output", default=None)
+    args = parser.parse_args()
+
+    ROUND_NO = args.round
+    SOURCE_ASSET_NAME = args.source or f"ox_civil_bar{ROUND_NO}.json"
+    OUTPUT_ASSET_NAME = args.output or f"ox_civil_bar{ROUND_NO}_minimal_atoms_draft.json"
+    REPORT_PREFIX = f"civil_bar{ROUND_NO}_minimal_atom_audit"
+
     payload, audit = build_candidates()
-    write_json(ASSETS / "ox_civil_bar15_minimal_atoms_draft.json", payload)
+    write_json(ASSETS / OUTPUT_ASSET_NAME, payload)
     REPORTS.mkdir(exist_ok=True)
-    write_json(REPORTS / "civil_bar15_minimal_atom_audit.json", audit)
-    (REPORTS / "civil_bar15_minimal_atom_audit.md").write_text(
+    write_json(REPORTS / f"{REPORT_PREFIX}.json", audit)
+    (REPORTS / f"{REPORT_PREFIX}.md").write_text(
         render_report(payload, audit),
         encoding="utf-8",
     )
