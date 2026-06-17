@@ -65,6 +65,14 @@ def year_for_round(round_no: int) -> int:
 
 
 def classify_subject(round_no: int, question_no: int) -> str:
+    if round_no == 3:
+        commercial = {*range(36, 53), 69, 70}
+        civil_procedure = set(range(53, 69))
+        if question_no in commercial:
+            return "\uc0c1\ubc95"
+        if question_no in civil_procedure:
+            return "\ubbfc\uc0ac\uc18c\uc1a1\ubc95"
+        return "\ubbfc\ubc95"
     if round_no == 4:
         commercial = {*range(36, 53), 57, 66, 68, 70}
         civil_procedure = {53, 54, 56, 59, 60, 61, 62, 63, 64, 65, 69}

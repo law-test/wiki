@@ -1,0 +1,379 @@
+{
+  "count": 315,
+  "subjectCounts": {
+    "민법": 144,
+    "상법": 91,
+    "민사소송법": 80
+  },
+  "flagCounts": {},
+  "infoTagCounts": {
+    "source_statement_fallback": 315,
+    "manual_source_cleanup": 16
+  },
+  "highConfidenceCount": 315,
+  "needsReviewCount": 0,
+  "needsReviewBySubject": {},
+  "remainingCaseParty": [],
+  "samples": [
+    {
+      "pid": "civil-bar3-q01-①",
+      "round": 3,
+      "year": 2014,
+      "subject": "민법",
+      "topic": "소유권",
+      "rep": "제1자가 송전선의 철거를 구하는 것은 소유권에 기한 물권적 청구권을 행사하는 것이므로 소멸시효에 걸리지 않는다.",
+      "a": "O",
+      "why": "제1자가 송전선의 철거를 구하는 것은 소유권에 기한 물권적 청구권을 행사하는 것이므로 소멸시효에 걸리지 않는다.",
+      "ref": "민법 제185조",
+      "art": "제185조",
+      "src": [
+        "변시3 1번 ①"
+      ],
+      "refs": [
+        "변시3 1번 ①"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "甲이 송전선의 철거를 구하는 것은 소유권에 기한 물권적 청구권을 행사하는 것이므로 소멸시효에 걸리지 않는다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar3-q01-②",
+      "round": 3,
+      "year": 2014,
+      "subject": "민법",
+      "topic": "소유권",
+      "rep": "제1자가 송전선이 토지 위를 통과하고 있다는 점을 알고서 토지를 취득하였다고 하여 그 토지에 대한 소유권의 행사가 제한된 상태를 용인하였다고 할 수 없으므로, 제1자가 송전선 철거를 구하는 것은 신의성실의 원칙에 반하지 않는다.",
+      "a": "O",
+      "why": "제1자가 송전선이 토지 위를 통과하고 있다는 점을 알고서 토지를 취득하였다고 하여 그 토지에 대한 소유권의 행사가 제한된 상태를 용인하였다고 할 수 없으므로, 제1자가 송전선 철거를 구하는 것은 신의성실의 원칙에 반하지 않는다.",
+      "ref": "민법 제185조",
+      "art": "제185조",
+      "src": [
+        "변시3 1번 ②"
+      ],
+      "refs": [
+        "변시3 1번 ②"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "甲이 송전선이 토지 위를 통과하고 있다는 점을 알고서 토지를 취득하였다고 하여 그 토지에 대한 소유권의 행사가 제한된 상태를 용인하였다고 할 수 없으므로, 甲이 송전선 철거를 구하는 것은 신의성실의 원칙에 반하지 않는다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar3-q01-③",
+      "round": 3,
+      "year": 2014,
+      "subject": "민법",
+      "topic": "소유권",
+      "rep": "제1자의 권리행사에 실효의 법리를 적용하기 위해서는 종전 토지 소유자인 제2자가 자신의 권리를 행사하지 아니하였다는 사정을 고려하여 판단하여야 한다.",
+      "a": "X",
+      "why": "제1자의 권리행사에 실효의 법리를 적용하기 위해서는 종전 토지 소유자인 제2자가 자신의 권리를 행사하지 아니하였다는 사정을 고려하여 판단하여야 한다.",
+      "ref": "민법 제185조",
+      "art": "제185조",
+      "src": [
+        "변시3 1번 ③"
+      ],
+      "refs": [
+        "변시3 1번 ③"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "甲의 권리행사에 실효의 법리를 적용하기 위해서는 종전 토지 소유자인 乙이 자신의 권리를 행사하지 아니하였다는 사정을 고려하여 판단하여야 한다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar3-q01-④",
+      "round": 3,
+      "year": 2014,
+      "subject": "민법",
+      "topic": "소유권",
+      "rep": "제1자의 권리행사가 권리남용에 해당하기 위해서는 그러한 권리행사가 주관적으로는 그 목적이 오로지 상대방에게 고통을 주고 손해를 입히려는 데 있을 뿐만 아니라 객관적으로는 사회질서에 위반된 것으로 인정되어야 한다.",
+      "a": "O",
+      "why": "제1자의 권리행사가 권리남용에 해당하기 위해서는 그러한 권리행사가 주관적으로는 그 목적이 오로지 상대방에게 고통을 주고 손해를 입히려는 데 있을 뿐만 아니라 객관적으로는 사회질서에 위반된 것으로 인정되어야 한다.",
+      "ref": "민법 제185조",
+      "art": "제185조",
+      "src": [
+        "변시3 1번 ④"
+      ],
+      "refs": [
+        "변시3 1번 ④"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "甲의 권리행사가 권리남용에 해당하기 위해서는 그러한 권리행사가 주관적으로는 그 목적이 오로지 상대방에게 고통을 주고 손해를 입히려는 데 있을 뿐만 아니라 객관적으로는 사회질서에 위반된 것으로 인정되어야 한다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar3-q01-⑤",
+      "round": 3,
+      "year": 2014,
+      "subject": "민법",
+      "topic": "소유권",
+      "rep": "제1자가 송전선의 철거를 구하는 소송을 제기한 경우, 법원은 제1자 회사의 주장이 없더라도 제1자의 청구가 권리남용에 해당하는지 여부를 직권으로 판단할 수 있다.",
+      "a": "O",
+      "why": "제1자가 송전선의 철거를 구하는 소송을 제기한 경우, 법원은 제1자 회사의 주장이 없더라도 제1자의 청구가 권리남용에 해당하는지 여부를 직권으로 판단할 수 있다.",
+      "ref": "민법 제185조",
+      "art": "제185조",
+      "src": [
+        "변시3 1번 ⑤"
+      ],
+      "refs": [
+        "변시3 1번 ⑤"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "甲이 송전선의 철거를 구하는 소송을 제기한 경우, 법원은 A 회사의 주장이 없더라도 甲의 청구가 권리남용에 해당하는지 여부를 직권으로 판단할 수 있다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar3-q02-ㄱ",
+      "round": 3,
+      "year": 2014,
+      "subject": "민법",
+      "topic": "통정허위표시",
+      "rep": "제1자와 제2자 사이의 허위의 의사표시에 기한 채무를 보증하고 그에 따라 보증채무자로서 그 채무를 이행한 경우, 보증인 제3자.",
+      "a": "X",
+      "why": "제1자와 제2자 사이의 허위의 의사표시에 기한 채무를 보증하고 그에 따라 보증채무자로서 그 채무를 이행한 경우, 보증인 제3자.",
+      "ref": "민법 제108조 제2항",
+      "art": "제108조",
+      "src": [
+        "변시3 2번 ㄱ"
+      ],
+      "refs": [
+        "변시3 2번 ㄱ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "甲과 乙 사이의 허위의 의사표시에 기한 채무를 보증하고 그에 따라 보증채무자로서 그 채무를 이행한 경우, 보증인 丙",
+      "source_basis": "",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar3-q02-ㄴ",
+      "round": 3,
+      "year": 2014,
+      "subject": "민법",
+      "topic": "통정허위표시",
+      "rep": "근로자 제1자가 제2자 회사에 대한 퇴직금채권을 제3자에게 가장양도하였으나, 제2자 회사가 아직 퇴직금을 가장양수인 제3자에게 지급하지 않고 있던 중, 위 퇴직금채권이 법원의 전부명령에 의하여 제4자에게 이전된 경우, 퇴직금채무자 제2자 회사.",
+      "a": "O",
+      "why": "근로자 제1자가 제2자 회사에 대한 퇴직금채권을 제3자에게 가장양도하였으나, 제2자 회사가 아직 퇴직금을 가장양수인 제3자에게 지급하지 않고 있던 중, 위 퇴직금채권이 법원의 전부명령에 의하여 제4자에게 이전된 경우, 퇴직금채무자 제2자 회사.",
+      "ref": "민법 제108조 제2항",
+      "art": "제108조",
+      "src": [
+        "변시3 2번 ㄴ"
+      ],
+      "refs": [
+        "변시3 2번 ㄴ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "근로자 甲이 乙 회사에 대한 퇴직금채권을 丙에게 가장양도하였으나, 乙 회사가 아직 퇴직금을 가장양수인 丙에게 지급하지 않고 있던 중, 위 퇴직금채권이 법원의 전부명령에 의하여 丁에게 이전된 경우, 퇴직금채무자 乙 회사",
+      "source_basis": "",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar3-q02-ㄷ",
+      "round": 3,
+      "year": 2014,
+      "subject": "민법",
+      "topic": "통정허위표시",
+      "rep": "제1자 금융기관과 제2자 사이의 통정한 허위표시에 따라 제1자가 제2자에 대하여 취득한 외형상의 채권을 한국자산관리공사 제3자가 인수한 경우, 채권양수인 제3자.",
+      "a": "X",
+      "why": "제1자 금융기관과 제2자 사이의 통정한 허위표시에 따라 제1자가 제2자에 대하여 취득한 외형상의 채권을 한국자산관리공사 제3자가 인수한 경우, 채권양수인 제3자.",
+      "ref": "민법 제108조 제2항",
+      "art": "제108조",
+      "src": [
+        "변시3 2번 ㄷ"
+      ],
+      "refs": [
+        "변시3 2번 ㄷ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "甲 금융기관과 乙 사이의 통정한 허위표시에 따라 甲이 乙에 대하여 취득한 외형상의 채권을 한국자산관리공사 丙이 인수한 경우, 채권양수인 丙",
+      "source_basis": "",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar3-q02-ㄹ",
+      "round": 3,
+      "year": 2014,
+      "subject": "민법",
+      "topic": "통정허위표시",
+      "rep": "제1자가 상대방 제2자와 통정한 허위의 의사표시를 통하여 가장채권을 보유하고 있다가 파산선고를 받은 경우, 파산관재인 제3자.",
+      "a": "X",
+      "why": "제1자가 상대방 제2자와 통정한 허위의 의사표시를 통하여 가장채권을 보유하고 있다가 파산선고를 받은 경우, 파산관재인 제3자.",
+      "ref": "민법 제108조 제2항",
+      "art": "제108조",
+      "src": [
+        "변시3 2번 ㄹ"
+      ],
+      "refs": [
+        "변시3 2번 ㄹ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "甲이 상대방 乙과 통정한 허위의 의사표시를 통하여 가장채권을 보유하고 있다가 파산선고를 받은 경우, 파산관재인 丙",
+      "source_basis": "",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar3-q02-ㅁ",
+      "round": 3,
+      "year": 2014,
+      "subject": "민법",
+      "topic": "통정허위표시",
+      "rep": "제1자가 자신의 소유인 X 토지에 관하여 채권자 제2자에게 담보가등기를 경료하기로 약정한 상태에서 그 토지를 제3자에게 가장양도하고 소유권이전등기를 마친 다음 제3자에게 지시하여 제2자에게 가등기를 경료케 하여 준 경우, 채권자 제2자.",
+      "a": "O",
+      "why": "제1자가 자신의 소유인 X 토지에 관하여 채권자 제2자에게 담보가등기를 경료하기로 약정한 상태에서 그 토지를 제3자에게 가장양도하고 소유권이전등기를 마친 다음 제3자에게 지시하여 제2자에게 가등기를 경료케 하여 준 경우, 채권자 제2자.",
+      "ref": "민법 제108조 제2항",
+      "art": "제108조",
+      "src": [
+        "변시3 2번 ㅁ"
+      ],
+      "refs": [
+        "변시3 2번 ㅁ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "甲이 자신의 소유인 X 토지에 관하여 채권자 乙에게 담보가등기를 경료하기로 약정한 상태에서 그 토지를 丙에게 가장양도하고 소유권이전등기를 마친 다음 丙에게 지시하여 乙에게 가등기를 경료케 하여 준 경우, 채권자 乙",
+      "source_basis": "",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar3-q03-ㄱ",
+      "round": 3,
+      "year": 2014,
+      "subject": "민법",
+      "topic": "위임",
+      "rep": "제1자 법인의 대표자가 행한 제2자에 대한 업무의 포괄적 위임과 포괄적 수임인 제2자의 대행행위는 원칙적으로 제1자 법인에 효력이 미친다.",
+      "a": "X",
+      "why": "제1자 법인의 대표자가 행한 제2자에 대한 업무의 포괄적 위임과 포괄적 수임인 제2자의 대행행위는 원칙적으로 제1자 법인에 효력이 미친다.",
+      "ref": "",
+      "art": "",
+      "src": [
+        "변시3 3번 ㄱ"
+      ],
+      "refs": [
+        "변시3 3번 ㄱ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "甲 법인의 대표자가 행한 乙에 대한 업무의 포괄적 위임과 포괄적 수임인 乙의 대행행위는 원칙적으로 甲 법인에 효력이 미친다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar3-q03-ㄴ",
+      "round": 3,
+      "year": 2014,
+      "subject": "민법",
+      "topic": "위임",
+      "rep": "만약 제2자가 대표자로 등기되어 있지 않았다면, 제3자는 제1자 법인을 상대로 민법 제35조에서 정한 법인의 불법행위책임에 따른 손해배상을 청구할 수 없다.",
+      "a": "X",
+      "why": "만약 제2자가 대표자로 등기되어 있지 않았다면, 제3자는 제1자 법인을 상대로 민법 제35조에서 정한 법인의 불법행위책임에 따른 손해배상을 청구할 수 없다.",
+      "ref": "",
+      "art": "",
+      "src": [
+        "변시3 3번 ㄴ"
+      ],
+      "refs": [
+        "변시3 3번 ㄴ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "만약 乙이 대표자로 등기되어 있지 않았다면, 丙은 甲 법인을 상대로 민법 제35조에서 정한 법인의 불법행위책임에 따른 손해배상을 청구할 수 없다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    }
+  ]
+}
