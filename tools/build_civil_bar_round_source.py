@@ -65,6 +65,14 @@ def year_for_round(round_no: int) -> int:
 
 
 def classify_subject(round_no: int, question_no: int) -> str:
+    if round_no == 9:
+        commercial = {*range(36, 53), 56, 58, 67, 70}
+        civil_procedure = {53, 54, 55, 59, 61, 62, 63, 64, 65, 66, 68, 69}
+        if question_no in commercial:
+            return "상법"
+        if question_no in civil_procedure:
+            return "민사소송법"
+        return "민법"
     if round_no == 10:
         commercial = {*range(37, 53), 58, 61, 68, 69}
         civil_procedure = {53, 54, 55, 56, 57, 59, 60, 62, 63, 66, 67, 70}

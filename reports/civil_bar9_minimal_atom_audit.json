@@ -1,0 +1,354 @@
+{
+  "count": 330,
+  "subjectCounts": {
+    "민법": 168,
+    "상법": 102,
+    "민사소송법": 60
+  },
+  "flagCounts": {},
+  "infoTagCounts": {
+    "manual_override": 11
+  },
+  "highConfidenceCount": 330,
+  "needsReviewCount": 0,
+  "needsReviewBySubject": {},
+  "remainingCaseParty": [],
+  "samples": [
+    {
+      "pid": "civil-bar9-q01-ㄱ",
+      "round": 9,
+      "year": 2020,
+      "subject": "민법",
+      "topic": "법률행위",
+      "rep": "○ — 정관상 대표권 제한은 등기하지 않으면 선·악의 불문 제3자에게 대항할 수 없다.",
+      "a": "O",
+      "why": "○ — 정관상 대표권 제한은 등기하지 않으면 선·악의 불문 제3자에게 대항할 수 없다.",
+      "ref": "민법 제60조, 민법 제104조, 민법 제110조, 민법 제133조, 민법 제141조, 민법 제138조",
+      "art": "제60조",
+      "src": [
+        "변시9 1번 ㄱ"
+      ],
+      "refs": [
+        "변시9 1번 ㄱ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "정관에 의한 법인 이사에 대한 대표권 제한 규정은 등기하지 아니하면 정관 규정에 대한 선의, 악의에 관계없이 제3자에게 대항할 수 없다.",
+      "source_basis": ". ○ — 정관상 대표권 제한은 등기하지 않으면 선·악의 불문 제3자에게 대항할 수 없다",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar9-q01-ㄴ",
+      "round": 9,
+      "year": 2020,
+      "subject": "민법",
+      "topic": "법률행위",
+      "rep": "✗ — 제한능력 취소는 절대적 효력이므로 선의 제3자에게도 대항할 수 있다.",
+      "a": "O",
+      "why": "✗ — 제한능력 취소는 절대적 효력이므로 선의 제3자에게도 대항할 수 있다.",
+      "ref": "민법 제60조, 민법 제104조, 민법 제110조, 민법 제133조, 민법 제141조, 민법 제138조",
+      "art": "제60조",
+      "src": [
+        "변시9 1번 ㄴ"
+      ],
+      "refs": [
+        "변시9 1번 ㄴ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "제한능력으로 인한 의사표시의 취소는 선의의 제3자에게 대항할 수 없다.",
+      "source_basis": ". ✗ — 제한능력 취소는 절대적 효력이므로 선의 제3자에게도 대항할 수 있다",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar9-q01-ㄷ",
+      "round": 9,
+      "year": 2020,
+      "subject": "민법",
+      "topic": "법률행위",
+      "rep": "✗ — 불공정 법률행위의 무효는 절대적 무효이므로 선의 제3자에게도 대항할 수 있다.",
+      "a": "O",
+      "why": "✗ — 불공정 법률행위의 무효는 절대적 무효이므로 선의 제3자에게도 대항할 수 있다.",
+      "ref": "민법 제60조, 민법 제104조, 민법 제110조, 민법 제133조, 민법 제141조, 민법 제138조",
+      "art": "제60조",
+      "src": [
+        "변시9 1번 ㄷ"
+      ],
+      "refs": [
+        "변시9 1번 ㄷ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "당사자의 궁박, 경솔, 무경험으로 인하여 현저하게 공정을 잃은 법률행위의 무효는 선의의 제3자에게 대항할 수 없다.",
+      "source_basis": ". ✗ — 불공정 법률행위의 무효는 절대적 무효이므로 선의 제3자에게도 대항할 수 있다",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar9-q01-ㄹ",
+      "round": 9,
+      "year": 2020,
+      "subject": "민법",
+      "topic": "법률행위",
+      "rep": "✗ — 무권대리행위 추인의 소급효는 제3자의 권리를 해하지 못한다 (제133조 단서).",
+      "a": "O",
+      "why": "✗ — 무권대리행위 추인의 소급효는 제3자의 권리를 해하지 못한다 (제133조 단서).",
+      "ref": "민법 제60조, 민법 제104조, 민법 제110조, 민법 제133조, 민법 제141조, 민법 제138조",
+      "art": "제60조",
+      "src": [
+        "변시9 1번 ㄹ"
+      ],
+      "refs": [
+        "변시9 1번 ㄹ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "무권대리행위의 추인에 따른 계약의 소급효는 배타적 권리를 취득한 제3자에게도 미친다.",
+      "source_basis": ". ✗ — 무권대리행위 추인의 소급효는 제3자의 권리를 해하지 못한다 (제133조 단서)",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar9-q01-ㅁ",
+      "round": 9,
+      "year": 2020,
+      "subject": "민법",
+      "topic": "법률행위",
+      "rep": "○ — 제3자의 강박 취소는 선의의 제3자에게 대항할 수 없다 (제110조 ③).",
+      "a": "O",
+      "why": "○ — 제3자의 강박 취소는 선의의 제3자에게 대항할 수 없다 (제110조 ③).",
+      "ref": "민법 제60조, 민법 제104조, 민법 제110조, 민법 제133조, 민법 제141조, 민법 제138조",
+      "art": "제60조",
+      "src": [
+        "변시9 1번 ㅁ"
+      ],
+      "refs": [
+        "변시9 1번 ㅁ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "상대방 있는 의사표시에 관하여 제3자 甲이 강박을 행한 경우 그 의사표시의 취소는 그 의사표시를 기초로 새로운 이해관계를 맺은 선의의 제3자 乙에게 대항할 수 없다.",
+      "source_basis": ". ○ — 제3자의 강박 취소는 선의의 제3자에게 대항할 수 없다 (제110조 ③)",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar9-q02-ㄱ",
+      "round": 9,
+      "year": 2020,
+      "subject": "민법",
+      "topic": "법률행위",
+      "rep": "○ — 임차권양도계약과 권리금계약이 일체로 행해진 경우, 하나의 기망 취소는 전체 계약에 효력.",
+      "a": "O",
+      "why": "○ — 임차권양도계약과 권리금계약이 일체로 행해진 경우, 하나의 기망 취소는 전체 계약에 효력.",
+      "ref": "민법 제137조, 민법 제139조, 민법 제141조, 민법 제143조, 민법 제565조, 대법원 2013. 5. 9. 선고 2012다115120",
+      "art": "제137조",
+      "src": [
+        "변시9 2번 ㄱ"
+      ],
+      "refs": [
+        "변시9 2번 ㄱ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "임차권양도계약과 권리금계약이 결합하여 전체가 경제적·사실적으로 일체로서 행하여져 그 계약 전부가 불가분의 관계에 있는 경우, 하나의 계약에 대한 기망 취소의 의사표시는 전체 계약에 대한 취소의 효력이 있다.",
+      "source_basis": ". ○ — 임차권양도계약과 권리금계약이 일체로 행해진 경우, 하나의 기망 취소는 전체 계약에 효력",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar9-q02-ㄴ",
+      "round": 9,
+      "year": 2020,
+      "subject": "민법",
+      "topic": "법률행위",
+      "rep": "✗ — 무권리자 처분의 추인은 원칙적으로 소급효가 인정된다.",
+      "a": "O",
+      "why": "✗ — 무권리자 처분의 추인은 원칙적으로 소급효가 인정된다.",
+      "ref": "민법 제137조, 민법 제139조, 민법 제141조, 민법 제143조, 민법 제565조, 대법원 2013. 5. 9. 선고 2012다115120",
+      "art": "제137조",
+      "src": [
+        "변시9 2번 ㄴ"
+      ],
+      "refs": [
+        "변시9 2번 ㄴ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "무권리자의 처분 행위가 계약으로 이루어진 경우, 그에 대한 권리자의 추인에는 원칙적으로 소급효가 인정되지 않는다.",
+      "source_basis": ". ✗ — 무권리자 처분의 추인은 원칙적으로 소급효가 인정된다",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar9-q02-ㄷ",
+      "round": 9,
+      "year": 2020,
+      "subject": "민법",
+      "topic": "법률행위",
+      "rep": "✗ — 무효행위의 추인은 묵시적으로도 가능하다.",
+      "a": "O",
+      "why": "✗ — 무효행위의 추인은 묵시적으로도 가능하다.",
+      "ref": "민법 제137조, 민법 제139조, 민법 제141조, 민법 제143조, 민법 제565조, 대법원 2013. 5. 9. 선고 2012다115120",
+      "art": "제137조",
+      "src": [
+        "변시9 2번 ㄷ"
+      ],
+      "refs": [
+        "변시9 2번 ㄷ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "무효행위의 추인은 법률행위가 무효임을 알고 그 행위의 효과를 자기에게 귀속시키도록 하는 단독행위로서 묵시적인 방법으로는 할 수 없다.",
+      "source_basis": ". ✗ — 무효행위의 추인은 묵시적으로도 가능하다",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar9-q02-ㄹ",
+      "round": 9,
+      "year": 2020,
+      "subject": "민법",
+      "topic": "법률행위",
+      "rep": "✗ — 유동적 무효 상태에서도 매도인은 계약금 배액 상환으로 해제할 수 있다.",
+      "a": "O",
+      "why": "✗ — 유동적 무효 상태에서도 매도인은 계약금 배액 상환으로 해제할 수 있다.",
+      "ref": "민법 제137조, 민법 제139조, 민법 제141조, 민법 제143조, 민법 제565조, 대법원 2013. 5. 9. 선고 2012다115120",
+      "art": "제137조",
+      "src": [
+        "변시9 2번 ㄹ"
+      ],
+      "refs": [
+        "변시9 2번 ㄹ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "토지거래허가구역 내의 토지매매가 아직 관할청의 허가를 받지 못하여 유동적 무효 상태에 있는 경우라면, 매도인은 계약금의 배액을 상환하고 매매계약을 해제할 수 없다.",
+      "source_basis": ". ✗ — 유동적 무효 상태에서도 매도인은 계약금 배액 상환으로 해제할 수 있다",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar9-q02-ㅁ",
+      "round": 9,
+      "year": 2020,
+      "subject": "민법",
+      "topic": "법률행위",
+      "rep": "○ — 취소로 무효가 된 법률행위는 추인으로 다시 확정적으로 유효하게 할 수 없다.",
+      "a": "O",
+      "why": "○ — 취소로 무효가 된 법률행위는 추인으로 다시 확정적으로 유효하게 할 수 없다.",
+      "ref": "민법 제137조, 민법 제139조, 민법 제141조, 민법 제143조, 민법 제565조, 대법원 2013. 5. 9. 선고 2012다115120",
+      "art": "제137조",
+      "src": [
+        "변시9 2번 ㅁ"
+      ],
+      "refs": [
+        "변시9 2번 ㅁ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "취소할 수 있는 법률행위가 취소되면 무효인 것으로 간주되므로 그 후 취소할 수 있는 법률행위의 추인에 의하여는 당초의 의사표시를 다시 확정적으로 유효하게 할 수 없다.",
+      "source_basis": ". ○ — 취소로 무효가 된 법률행위는 추인으로 다시 확정적으로 유효하게 할 수 없다",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar9-q03-①",
+      "round": 9,
+      "year": 2020,
+      "subject": "민법",
+      "topic": "계약",
+      "rep": "비법인사단은 자기 명의로 보존등기를 할 수 있다.",
+      "a": "O",
+      "why": "비법인사단은 자기 명의로 보존등기를 할 수 있다.",
+      "ref": "민법 제35조, 민법 제275조, 민법 제276조, 민사소송법 제52조, 대법원 2014. 2. 13. 선고 2012다112299, 대법원 2009. 1. 30. 선고 2008다15438",
+      "art": "제35조",
+      "src": [
+        "변시9 3번 ①"
+      ],
+      "refs": [
+        "변시9 3번 ①"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "甲은 자기 명의로 신축건물의 소유권보존등기를 마칠 수 있다.",
+      "source_basis": "비법인사단은 자기 명의로 보존등기를 할 수 있다",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar9-q03-②",
+      "round": 9,
+      "year": 2020,
+      "subject": "민법",
+      "topic": "계약",
+      "rep": "단순한 채무부담행위는 총유물의 관리·처분에 해당하지 않는다.",
+      "a": "O",
+      "why": "단순한 채무부담행위는 총유물의 관리·처분에 해당하지 않는다.",
+      "ref": "민법 제35조, 민법 제275조, 민법 제276조, 민사소송법 제52조, 대법원 2014. 2. 13. 선고 2012다112299, 대법원 2009. 1. 30. 선고 2008다15438",
+      "art": "제35조",
+      "src": [
+        "변시9 3번 ②"
+      ],
+      "refs": [
+        "변시9 3번 ②"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "丙이 甲의 대표자로서 乙의 제3자에 대한 채무를 보증하는 행위는 甲의 재산 그 자체의 관리·처분이 따르지 아니하는 단순한 채무부담행위에 불과하므로 종중총회의 결의가 필요한 총유물의 관리·처분행위라고 할 수 없다.",
+      "source_basis": "단순한 채무부담행위는 총유물의 관리·처분에 해당하지 않는다",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    }
+  ]
+}
