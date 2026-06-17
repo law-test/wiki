@@ -1,0 +1,378 @@
+{
+  "count": 345,
+  "subjectCounts": {
+    "민법": 179,
+    "상법": 109,
+    "민사소송법": 57
+  },
+  "flagCounts": {},
+  "infoTagCounts": {
+    "source_statement_fallback": 345
+  },
+  "highConfidenceCount": 345,
+  "needsReviewCount": 0,
+  "needsReviewBySubject": {},
+  "remainingCaseParty": [],
+  "samples": [
+    {
+      "pid": "civil-bar1-q01-①",
+      "round": 1,
+      "year": 2012,
+      "subject": "민법",
+      "topic": "불법행위",
+      "rep": "고의의 불법행위로 인한 손해배상채권을 자동채권으로 하는 상계는 허용되지 않는다.",
+      "a": "X",
+      "why": "고의의 불법행위로 인한 손해배상채권을 자동채권으로 하는 상계는 허용되지 않는다.",
+      "ref": "",
+      "art": "",
+      "src": [
+        "변시1 1번 ①"
+      ],
+      "refs": [
+        "변시1 1번 ①"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "고의의 불법행위로 인한 손해배상채권을 자동채권으로 하는 상계는 허용되지 않는다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar1-q01-②",
+      "round": 1,
+      "year": 2012,
+      "subject": "민법",
+      "topic": "불법행위",
+      "rep": "피용자의 고의의 불법행위로 인하여 사용자책임이 성립하는 경우, 사용자는 피해자의 사용자에 대한 손해배상채권을 수동채권으로 하여 상계할 수 있다.",
+      "a": "X",
+      "why": "피용자의 고의의 불법행위로 인하여 사용자책임이 성립하는 경우, 사용자는 피해자의 사용자에 대한 손해배상채권을 수동채권으로 하여 상계할 수 있다.",
+      "ref": "",
+      "art": "",
+      "src": [
+        "변시1 1번 ②"
+      ],
+      "refs": [
+        "변시1 1번 ②"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "피용자의 고의의 불법행위로 인하여 사용자책임이 성립하는 경우, 사용자는 피해자의 사용자에 대한 손해배상채권을 수동채권으로 하여 상계할 수 있다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar1-q01-③",
+      "round": 1,
+      "year": 2012,
+      "subject": "민법",
+      "topic": "불법행위",
+      "rep": "채권의 일부양도가 이루어진 경우, 그 분할된 채권에 대하여 양도인에 대한 반대채권으로 상계하고자 하는 채무자는 양도인을 비롯한 각 분할채권자 중 어느 누구라도 상계의 상대방으로 지정하여 상계할 수 있다.",
+      "a": "O",
+      "why": "채권의 일부양도가 이루어진 경우, 그 분할된 채권에 대하여 양도인에 대한 반대채권으로 상계하고자 하는 채무자는 양도인을 비롯한 각 분할채권자 중 어느 누구라도 상계의 상대방으로 지정하여 상계할 수 있다.",
+      "ref": "",
+      "art": "",
+      "src": [
+        "변시1 1번 ③"
+      ],
+      "refs": [
+        "변시1 1번 ③"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "채권의 일부양도가 이루어진 경우, 그 분할된 채권에 대하여 양도인에 대한 반대채권으로 상계하고자 하는 채무자는 양도인을 비롯한 각 분할채권자 중 어느 누구라도 상계의 상대방으로 지정하여 상계할 수 있다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar1-q01-④",
+      "round": 1,
+      "year": 2012,
+      "subject": "민법",
+      "topic": "불법행위",
+      "rep": "상대방이 제3자에 대하여 가지는 채권을 수동채권으로 하여 상계할 수 있다.",
+      "a": "X",
+      "why": "상대방이 제3자에 대하여 가지는 채권을 수동채권으로 하여 상계할 수 있다.",
+      "ref": "",
+      "art": "",
+      "src": [
+        "변시1 1번 ④"
+      ],
+      "refs": [
+        "변시1 1번 ④"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "상대방이 제3자에 대하여 가지는 채권을 수동채권으로 하여 상계할 수 있다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar1-q01-⑤",
+      "round": 1,
+      "year": 2012,
+      "subject": "민법",
+      "topic": "불법행위",
+      "rep": "상계의 대상이 될 수 있는 자동채권과 수동채권이 서로 동시이행관계에 있다면 특별한 사정이 없는 한 상계가 허용되지 않는다.",
+      "a": "X",
+      "why": "상계의 대상이 될 수 있는 자동채권과 수동채권이 서로 동시이행관계에 있다면 특별한 사정이 없는 한 상계가 허용되지 않는다.",
+      "ref": "",
+      "art": "",
+      "src": [
+        "변시1 1번 ⑤"
+      ],
+      "refs": [
+        "변시1 1번 ⑤"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "상계의 대상이 될 수 있는 자동채권과 수동채권이 서로 동시이행관계에 있다면 특별한 사정이 없는 한 상계가 허용되지 않는다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar1-q02-①",
+      "round": 1,
+      "year": 2012,
+      "subject": "민법",
+      "topic": "혼인",
+      "rep": "비밀증서에 의한 유언이 방식을 갖추지 못하였더라도 그 증서가 자필증서의 방식에 적합한 때에는 자필증서에 의한 유언으로 본다.",
+      "a": "O",
+      "why": "비밀증서에 의한 유언이 방식을 갖추지 못하였더라도 그 증서가 자필증서의 방식에 적합한 때에는 자필증서에 의한 유언으로 본다.",
+      "ref": "",
+      "art": "",
+      "src": [
+        "변시1 2번 ①"
+      ],
+      "refs": [
+        "변시1 2번 ①"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "비밀증서에 의한 유언이 방식을 갖추지 못하였더라도 그 증서가 자필증서의 방식에 적합한 때에는 자필증서에 의한 유언으로 본다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar1-q02-②",
+      "round": 1,
+      "year": 2012,
+      "subject": "민법",
+      "topic": "혼인",
+      "rep": "혼인외의 자를 혼인 중의 친생자로 출생신고한 경우, 그 출생신고는 무효이지만 인지신고로서의 효력은 인정할 수 있다.",
+      "a": "O",
+      "why": "혼인외의 자를 혼인 중의 친생자로 출생신고한 경우, 그 출생신고는 무효이지만 인지신고로서의 효력은 인정할 수 있다.",
+      "ref": "",
+      "art": "",
+      "src": [
+        "변시1 2번 ②"
+      ],
+      "refs": [
+        "변시1 2번 ②"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "혼인외의 자를 혼인 중의 친생자로 출생신고한 경우, 그 출생신고는 무효이지만 인지신고로서의 효력은 인정할 수 있다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar1-q02-③",
+      "round": 1,
+      "year": 2012,
+      "subject": "민법",
+      "topic": "혼인",
+      "rep": "타인의 자를 자기의 자로 출생신고한 경우, 그 출생신고는 무효이나, 입양의 실질적 요건을 갖추었다면 입양신고로서의 효력은 인정할 수 있다.",
+      "a": "O",
+      "why": "타인의 자를 자기의 자로 출생신고한 경우, 그 출생신고는 무효이나, 입양의 실질적 요건을 갖추었다면 입양신고로서의 효력은 인정할 수 있다.",
+      "ref": "",
+      "art": "",
+      "src": [
+        "변시1 2번 ③"
+      ],
+      "refs": [
+        "변시1 2번 ③"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "타인의 자를 자기의 자로 출생신고한 경우, 그 출생신고는 무효이나, 입양의 실질적 요건을 갖추었다면 입양신고로서의 효력은 인정할 수 있다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar1-q02-④",
+      "round": 1,
+      "year": 2012,
+      "subject": "민법",
+      "topic": "혼인",
+      "rep": "공동상속인 전원의 협의에 따라 상속재산 전부를 상속인 중 일부에게 상속시킬 방편으로 나머지 상속인들이 한 상속포기가 법정기간을 경과한 후에 신고된 것이어서 상속포기로서의 효력이 없더라도, 상속인들 사이에 상속재산의 협의분할이 이루어진 것이라고 볼 수 있다.",
+      "a": "O",
+      "why": "공동상속인 전원의 협의에 따라 상속재산 전부를 상속인 중 일부에게 상속시킬 방편으로 나머지 상속인들이 한 상속포기가 법정기간을 경과한 후에 신고된 것이어서 상속포기로서의 효력이 없더라도, 상속인들 사이에 상속재산의 협의분할이 이루어진 것이라고 볼 수 있다.",
+      "ref": "",
+      "art": "",
+      "src": [
+        "변시1 2번 ④"
+      ],
+      "refs": [
+        "변시1 2번 ④"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "공동상속인 전원의 협의에 따라 상속재산 전부를 상속인 중 일부에게 상속시킬 방편으로 나머지 상속인들이 한 상속포기가 법정기간을 경과한 후에 신고된 것이어서 상속포기로서의 효력이 없더라도, 상속인들 사이에 상속재산의 협의분할이 이루어진 것이라고 볼 수 있다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar1-q02-⑤",
+      "round": 1,
+      "year": 2012,
+      "subject": "민법",
+      "topic": "혼인",
+      "rep": "혼인 중에 부부 일방이 사망하여 상대방이 배우자로서 망인의 재산을 상속받은 후에 그 혼인이 중혼을 이유로 취소되었다면, 그 상속재산은 법률상 원인 없이 취득한 것이 된다.",
+      "a": "X",
+      "why": "혼인 중에 부부 일방이 사망하여 상대방이 배우자로서 망인의 재산을 상속받은 후에 그 혼인이 중혼을 이유로 취소되었다면, 그 상속재산은 법률상 원인 없이 취득한 것이 된다.",
+      "ref": "",
+      "art": "",
+      "src": [
+        "변시1 2번 ⑤"
+      ],
+      "refs": [
+        "변시1 2번 ⑤"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "혼인 중에 부부 일방이 사망하여 상대방이 배우자로서 망인의 재산을 상속받은 후에 그 혼인이 중혼을 이유로 취소되었다면, 그 상속재산은 법률상 원인 없이 취득한 것이 된다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar1-q03-①",
+      "round": 1,
+      "year": 2012,
+      "subject": "민법",
+      "topic": "법률행위",
+      "rep": "대가관계 없는 일방적 급부행위에 대해서는 민법 제104조가 적용되지 않는다.",
+      "a": "O",
+      "why": "대가관계 없는 일방적 급부행위에 대해서는 민법 제104조가 적용되지 않는다.",
+      "ref": "민법 제104조, 민법 제103조",
+      "art": "제104조",
+      "src": [
+        "변시1 3번 ①"
+      ],
+      "refs": [
+        "변시1 3번 ①"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "대가관계 없는 일방적 급부행위에 대해서는 민법 제104조가 적용되지 않는다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar1-q03-②",
+      "round": 1,
+      "year": 2012,
+      "subject": "민법",
+      "topic": "법률행위",
+      "rep": "경매에 의한 재산권의 이전에 대해서는 민법 제104조가 적용된다.",
+      "a": "X",
+      "why": "경매에 의한 재산권의 이전에 대해서는 민법 제104조가 적용된다.",
+      "ref": "민법 제104조, 민법 제103조",
+      "art": "제104조",
+      "src": [
+        "변시1 3번 ②"
+      ],
+      "refs": [
+        "변시1 3번 ②"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "경매에 의한 재산권의 이전에 대해서는 민법 제104조가 적용된다.",
+      "source_basis": "",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [
+        "source_statement_fallback"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    }
+  ]
+}

@@ -65,6 +65,14 @@ def year_for_round(round_no: int) -> int:
 
 
 def classify_subject(round_no: int, question_no: int) -> str:
+    if round_no == 1:
+        commercial = {*range(36, 51), 62, 63, 65, 66, 67, 68, 69}
+        civil_procedure = {*range(51, 61), 64, 70}
+        if question_no in commercial:
+            return "\uc0c1\ubc95"
+        if question_no in civil_procedure:
+            return "\ubbfc\uc0ac\uc18c\uc1a1\ubc95"
+        return "\ubbfc\ubc95"
     if round_no == 2:
         commercial = {*range(36, 53), 67, 68, 70}
         civil_procedure = {*range(53, 67), 69}
@@ -288,6 +296,56 @@ def extract_refs(row: dict[str, str]) -> list[str]:
     return refs
 
 
+def repair_known_statement_splits(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    repaired: list[dict[str, Any]] = []
+    skip_next = False
+    for index, item in enumerate(items):
+        if skip_next:
+            skip_next = False
+            continue
+        if (
+            item["round"] == 1
+            and item["question_no"] == 69
+            and item["choice"] == "\u3134"
+            and clean_text(item["q"]) == "\uac00\ub839 \uc704"
+            and index + 1 < len(items)
+        ):
+            next_item = items[index + 1]
+            next_text = clean_text(next_item["q"])
+            if (
+                next_item["round"] == 1
+                and next_item["question_no"] == 69
+                and next_item["choice"] == "\u3131"
+                and next_text.startswith("\uc5d0\uc11c ")
+            ):
+                merged = "\uac00\ub839 \uc704 \u3131\uc5d0\uc11c " + next_text[len("\uc5d0\uc11c ") :]
+                item = {
+                    **item,
+                    "q": merged,
+                    "needs_atomization": bool(CASE_PARTY_RE.search(merged)),
+                }
+                skip_next = True
+        repaired.append(item)
+
+    counters: defaultdict[tuple[int, int], int] = defaultdict(int)
+    for item in repaired:
+        round_no = int(item["round"])
+        question_no = int(item["question_no"])
+        counters[(round_no, question_no)] += 1
+        offset = counters[(round_no, question_no)]
+        source_label = f"\ubcc0\uc2dc{round_no} {question_no}\ubc88 {item['choice']}"
+        item["id"] = round_no * 100000 + question_no * 100 + offset
+        item["src"] = [source_label]
+        item["refs"] = [source_label]
+        item["tag"] = f"\ubcc0\uc2dc{round_no}"
+        item["why"] = (
+            f"\uc81c{round_no}\ud68c \ubcc0\ud638\uc0ac\uc2dc\ud5d8 \ubbfc\uc0ac\ubc95 "
+            f"\uc120\ud0dd\ud615 {question_no}\ubc88 {item['choice']} "
+            f"\uc9c0\ubb38\uc740 \uc815\ub2f5\ud45c\uc0c1 {item['a']}\uc785\ub2c8\ub2e4."
+        )
+    return repaired
+
+
 def first_article(refs: list[str]) -> str:
     for ref in refs:
         match = ARTICLE_RE.search(ref)
@@ -361,7 +419,7 @@ def build_items(rows: list[dict[str, str]], round_no: int) -> tuple[list[dict[st
                     "note": "원문 지문 O/X 추출층입니다. 서비스 반영 전 최소 원리 atom으로 다시 정리해야 합니다.",
                 }
             )
-    return items, issues
+    return repair_known_statement_splits(items), issues
 
 
 def write_json(path: Path, data: Any) -> None:
