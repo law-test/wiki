@@ -1,0 +1,360 @@
+{
+  "count": 315,
+  "subjectCounts": {
+    "민법": 158,
+    "민사소송법": 66,
+    "상법": 91
+  },
+  "flagCounts": {},
+  "infoTagCounts": {
+    "manual_override": 27,
+    "corrected_from_false_source": 27
+  },
+  "highConfidenceCount": 315,
+  "needsReviewCount": 0,
+  "needsReviewBySubject": {},
+  "remainingCaseParty": [],
+  "samples": [
+    {
+      "pid": "civil-bar15-q01-ㄱ",
+      "round": 15,
+      "year": 2026,
+      "subject": "민법",
+      "topic": "대리",
+      "rep": "대법원 2017다3499 판결 등의 일관된 입장. 모용+ 기본대리권+ 정당한 사유 3요건 충족 시 본인에게 책임을 묻는다.",
+      "a": "O",
+      "why": "대법원 2017다3499 판결 등의 일관된 입장. 모용+ 기본대리권+ 정당한 사유 3요건 충족 시 본인에게 책임을 묻는다.",
+      "ref": "민법 제126조, 민법 제125조, 민법 제130조, 민법 제275조",
+      "art": "제126조",
+      "src": [
+        "변시15 1번 ㄱ"
+      ],
+      "refs": [
+        "변시15 1번 ㄱ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "타인의 성명을 모용한 사람이 자기가 그 타인인 것처럼 상대방을 기망해 그 명의로 직접 법률행위를 한 경우, 모용자에게 명의자를 대리할 기본대리권이 있었고 상대방이 위 모용자가 명의자 자신으로서 명의자의 권한을 행사하는 것으로 믿은 데 정당한 사유가 있었던 때에는 ｢민법｣ 제126조의 표현대리 법리가 유추적용된다.",
+      "source_basis": "대법원 2017다3499 판결 등의 일관된 입장. 모용+ 기본대리권+ 정당한 사유 3요건 충족 시 본인에게 책임을 묻는다.",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar15-q01-ㄴ",
+      "round": 15,
+      "year": 2026,
+      "subject": "민법",
+      "topic": "대리",
+      "rep": "정당한 이유 판단의 기준 시점은 대리행위 시(=계약 체결 시)이지 그 이후가 아니다.",
+      "a": "O",
+      "why": "정당한 이유 판단의 기준 시점은 대리행위 시(=계약 체결 시)이지 그 이후가 아니다.",
+      "ref": "민법 제126조, 민법 제125조, 민법 제130조, 민법 제275조",
+      "art": "제126조",
+      "src": [
+        "변시15 1번 ㄴ"
+      ],
+      "refs": [
+        "변시15 1번 ㄴ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "무권대리인이 매매계약 체결 이후 잔대금 수령 시에 가서야 비로소 본인 명의의 등기권리증, 인감증명서, 위임장, 매도증서 등을 상대방에게 제시한 사정만으로는 상대방이 무권대리인에게 매매계약 체결에 관한 권한이 있다고 믿을 만한 정당한 이유가 될 수 없다.",
+      "source_basis": "대법원 2024다214297 판결 — 정당한 이유 판단의 기준 시점은 대리행위 시(=계약 체결 시)이지 그 이후가 아니다.",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar15-q01-ㄷ",
+      "round": 15,
+      "year": 2026,
+      "subject": "민법",
+      "topic": "대리",
+      "rep": "수권행위는 불요식·낙성행위로서 묵시적·사실상의 용태로도 성립한다.",
+      "a": "O",
+      "why": "수권행위는 불요식·낙성행위로서 묵시적·사실상의 용태로도 성립한다.",
+      "ref": "민법 제126조, 민법 제125조, 민법 제130조, 민법 제275조",
+      "art": "제126조",
+      "src": [
+        "변시15 1번 ㄷ"
+      ],
+      "refs": [
+        "변시15 1번 ㄷ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "어떤 사람이 대리인의 외양을 가지고 행위하는 것을 본인이 알면서 이의를 하지 아니하고 방임하는 등 사실상의 용태에 의하여 대리권의 수여는 추단될 수 있다.",
+      "source_basis": "대법원 2016다203315 판결 — 수권행위는 불요식·낙성행위로서 묵시적·사실상의 용태로도 성립한다.",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar15-q01-ㄹ",
+      "round": 15,
+      "year": 2026,
+      "subject": "민법",
+      "topic": "대리",
+      "rep": "총유재산 처분은 사원총회 결의가 본질적 요건(제275·276조)이므로 결의 흠결을 표현대리 법리로 치유할 수 없다.",
+      "a": "O",
+      "why": "총유재산 처분은 사원총회 결의가 본질적 요건(제275·276조)이므로 결의 흠결을 표현대리 법리로 치유할 수 없다.",
+      "ref": "민법 제126조, 민법 제125조, 민법 제130조, 민법 제275조",
+      "art": "제126조",
+      "src": [
+        "변시15 1번 ㄹ"
+      ],
+      "refs": [
+        "변시15 1번 ㄹ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "비법인사단인 교회의 대표자가 총유물인 교회 재산의 처분에 관하여 교인총회의 결의를 거치지 않아 이를 대표하여 행할 권한이 없는 경우에도, 상대방이 교회의 대표자에게 그러한 권한이 있다고 믿을 만한 정당한 이유가 있는 때에는 ｢민법｣ 제126조의 표현대리 법리가 유추적용된다.",
+      "source_basis": "대법원 2009. 2. 12. 선고 2006다23312 판결 — 총유재산 처분은 사원총회 결의가 본질적 요건(제275·276조)이므로 결의 흠결을 표현대리 법리로 치유할 수 없다.",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar15-q02-①",
+      "round": 15,
+      "year": 2026,
+      "subject": "민법",
+      "topic": "소유권",
+      "rep": "미등기건물 매수·점유자는 부지의 사실상 점유자로서 토지소유자에게 부당이득 반환의무를 진다.",
+      "a": "O",
+      "why": "미등기건물 매수·점유자는 부지의 사실상 점유자로서 토지소유자에게 부당이득 반환의무를 진다.",
+      "ref": "민법 제186조, 민법 제213조, 민법 제214조, 민법 제741조",
+      "art": "제186조",
+      "src": [
+        "변시15 2번 ①"
+      ],
+      "refs": [
+        "변시15 2번 ①"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "甲은 丙에게 Y 건물의 부지인 X 토지의 점유·사용으로 인한 부당이득의 반환을 청구할 수 있다.",
+      "source_basis": "대법원 92다36274 — 미등기건물 매수·점유자(丙)는 부지의 사실상 점유자로서 토지소유자에게 부당이득 반환의무를 진다.",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar15-q02-②",
+      "round": 15,
+      "year": 2026,
+      "subject": "민법",
+      "topic": "소유권",
+      "rep": "철거의무자는 처분할 수 있는 지위에 있는 자이고, 미등기건물의 매수인이 그에 해당한다.",
+      "a": "O",
+      "why": "철거의무자는 처분할 수 있는 지위에 있는 자이고, 미등기건물의 매수인이 그에 해당한다.",
+      "ref": "민법 제186조, 민법 제213조, 민법 제214조, 민법 제741조",
+      "art": "제186조",
+      "src": [
+        "변시15 2번 ②"
+      ],
+      "refs": [
+        "변시15 2번 ②"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "甲이 Y 건물로 인하여 X 토지 소유권을 침해받는 경우, 丙을 상대로 Y 건물 철거를 청구할 수 있다.",
+      "source_basis": "대법원 95다23200 — 철거의무자는 처분할 수 있는 지위에 있는 자이고, 미등기건물의 매수인이 그에 해당한다.",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar15-q02-③",
+      "round": 15,
+      "year": 2026,
+      "subject": "민법",
+      "topic": "소유권",
+      "rep": "형식주의(제186조)에 따라 등기 없이는 소유권 취득할 수 없다. 사실상 소유권 같은 개념도 부정.",
+      "a": "O",
+      "why": "형식주의(제186조)에 따라 등기 없이는 소유권 취득할 수 없다. 사실상 소유권 같은 개념도 부정.",
+      "ref": "민법 제186조, 민법 제213조, 민법 제214조, 민법 제741조",
+      "art": "제186조",
+      "src": [
+        "변시15 2번 ③"
+      ],
+      "refs": [
+        "변시15 2번 ③"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "丙은 현재 Y 건물에 대하여 소유권은 물론 사실상 소유권이나 소유권에 준하는 관습상의 물권을 인정받을 수 없다.",
+      "source_basis": "대법원 2005다9685 — 형식주의(제186조)에 따라 등기 없이는 소유권 취득 불가. 사실상 소유권 같은 개념도 부정.",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar15-q02-④",
+      "round": 15,
+      "year": 2026,
+      "subject": "민법",
+      "topic": "소유권",
+      "rep": "미등기건물 매수인은 등기를 마치지 않은 이상 소유권자가 아니므로 소유권에 기한 물권적 청구권을 행사할 수 없지만, 점유자라면 점유보호청구권은 행사할 수 있다.",
+      "a": "O",
+      "why": "미등기건물 매수인은 등기를 마치지 않은 이상 소유권자가 아니므로 소유권에 기한 물권적 청구권을 행사할 수 없지만, 점유자라면 점유보호청구권은 행사할 수 있다.",
+      "ref": "민법 제186조, 민법 제213조, 민법 제214조, 민법 제741조",
+      "art": "제186조",
+      "src": [
+        "변시15 2번 ④"
+      ],
+      "refs": [
+        "변시15 2번 ④"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "Y 건물에 불법점유자 丁이 있어 丙의 점유가 방해받는 경우, 丙은 丁에 대하여 소유권에 기한 방해배제를 청구할 수 없다.",
+      "source_basis": "丙은 미등기로 소유권자가 아니므로 소유권에 기한 청구권(제213·214조) 행사 불가. 다만 점유보호청구권(제204·205조)은 가능.",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [
+        "manual_override"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar15-q02-⑤",
+      "round": 15,
+      "year": 2026,
+      "subject": "민법",
+      "topic": "소유권",
+      "rep": "미등기건물 신축자가 토지를 점유·사용하다가 건물을 매도한 경우, 그 신축자는 매도 후 점유를 상실하기 전까지의 기간에 대하여 토지소유자에게 부당이득반환의무를 부담할 수 있다.",
+      "a": "O",
+      "why": "미등기건물 신축자가 토지를 점유·사용하다가 건물을 매도한 경우, 그 신축자는 매도 후 점유를 상실하기 전까지의 기간에 대하여 토지소유자에게 부당이득반환의무를 부담할 수 있다.",
+      "ref": "민법 제186조, 민법 제213조, 민법 제214조, 민법 제741조",
+      "art": "제186조",
+      "src": [
+        "변시15 2번 ⑤"
+      ],
+      "refs": [
+        "변시15 2번 ⑤"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "X",
+      "source_statement": "甲은 乙에게 Y 건물의 부지인 X 토지의 점유·사용에 따른 부당이득의 반환을 청구할 수 없다.",
+      "source_basis": "틀림. 乙은 신축 당시(점유 시)에는 X 토지의 점유·사용자였고, 매도 후 점유를 상실하기 전까지의 기간에 대해서는 부당이득 반환의무가 있다. 전혀 청구할 수 없다는 단정은 잘못.",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "info_tags": [
+        "corrected_from_false_source",
+        "manual_override"
+      ],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar15-q03-ㄱ",
+      "round": 15,
+      "year": 2026,
+      "subject": "민법",
+      "topic": "불법행위",
+      "rep": "공동불법행위(제760조 1항)의 일반 법리.",
+      "a": "O",
+      "why": "공동불법행위(제760조 1항)의 일반 법리.",
+      "ref": "민법 제35조, 민법 제750조, 민법 제760조, 상법 제401조",
+      "art": "제35조",
+      "src": [
+        "변시15 3번 ㄱ"
+      ],
+      "refs": [
+        "변시15 3번 ㄱ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "법인의 대표자가 그 직무에 관하여 타인에게 손해를 가함으로써 법인의 손해배상책임이 인정되고 대표자의 행위가 그 타인에 대한 불법행위를 구성하는 경우, 사원이 이에 가담하였다면 그 타인에 대하여 대표자와 연대하여 손해배상책임을 진다.",
+      "source_basis": "대법원 2006다37465 등 — 공동불법행위(제760조 1항)의 일반 법리.",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar15-q03-ㄴ",
+      "round": 15,
+      "year": 2026,
+      "subject": "민법",
+      "topic": "불법행위",
+      "rep": "외형이론의 한계. 외형상 직무행위로 보여도 피해자가 사실상 알았거나 중과실 시 법인 면책.",
+      "a": "O",
+      "why": "외형이론의 한계. 외형상 직무행위로 보여도 피해자가 사실상 알았거나 중과실 시 법인 면책.",
+      "ref": "민법 제35조, 민법 제750조, 민법 제760조, 상법 제401조",
+      "art": "제35조",
+      "src": [
+        "변시15 3번 ㄴ"
+      ],
+      "refs": [
+        "변시15 3번 ㄴ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "피해자가 법인 대표자의 행위가 직무 외의 행위임을 알았거나 또는 중대한 과실로 인하여 알지 못한 경우, 법인에 대하여 손해배상책임을 물을 수 없다.",
+      "source_basis": "대법원 2002다27088 — 외형이론의 한계. 외형상 직무행위로 보여도 피해자가 사실상 알았거나 중과실 시 법인 면책.",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "civil-bar15-q03-ㄷ",
+      "round": 15,
+      "year": 2026,
+      "subject": "민법",
+      "topic": "불법행위",
+      "rep": "외형이론의 정면 표현. 직무에 관하여를 객관적·외형적으로 판단.",
+      "a": "O",
+      "why": "외형이론의 정면 표현. 직무에 관하여를 객관적·외형적으로 판단.",
+      "ref": "민법 제35조, 민법 제750조, 민법 제760조, 상법 제401조",
+      "art": "제35조",
+      "src": [
+        "변시15 3번 ㄷ"
+      ],
+      "refs": [
+        "변시15 3번 ㄷ"
+      ],
+      "grade": "A",
+      "weight": 0.8,
+      "source_answer": "O",
+      "source_statement": "행위의 외형상 법인 대표자의 직무행위라고 인정될 수 있는 것이라면 대표자 개인의 사리를 도모하기 위한 것이거나 법령에 위배된 것이더라도 ｢민법｣ 제35조 제1항의 직무에 관한 행위에 해당한다.",
+      "source_basis": "대법원 2003다15280 — 외형이론의 정면 표현. 직무에 관하여를 객관적·외형적으로 판단.",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "info_tags": [],
+      "twins": [],
+      "type": "civil_bar_minimal_atom_draft"
+    }
+  ]
+}
