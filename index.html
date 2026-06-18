@@ -18806,7 +18806,6 @@ section.art.law-subject-article-mode>.pager{display:none}
 <button data-confidence="4" type="button">확실함</button>
 </div>
 </div>
-</div>
 <script>
 (function(){
   var panel=document.querySelector('[data-game-panel="ox"]');
@@ -19004,6 +19003,7 @@ function gradePrivate(c,ans){if(!c||!c.id)return Promise.reject(new Error('missi
   document.addEventListener('keydown',function(e){if(!st.active||panel.hidden)return;var k=e.key.toLowerCase();if(k==='o')answer('O');else if(k==='x')answer('X');});
 })();
 </script>
+</div>
 <aside class="game-panel rank-panel">
 <section class="recent-score-box" aria-label="최근 기록">
 <h2>최근 기록</h2>
@@ -20942,6 +20942,25 @@ async function loadExamTerms(){
     var root=document.getElementById('gameCenter');
     if(!root||root.dataset.ready)return;
     root.dataset.ready='1';
+    function activateGameMode(mode,scroll){
+      if(!mode)return;
+      root.querySelectorAll('.game-tab').forEach(function(b){b.classList.toggle('active',b.dataset.gameTab===mode);});
+      root.querySelectorAll('[data-game-panel]').forEach(function(p){p.hidden=p.dataset.gamePanel!==mode;});
+      var active=root.querySelector('[data-game-panel="'+mode+'"]');
+      if(scroll&&active)active.scrollIntoView({behavior:'smooth',block:'start'});
+    }
+    root.querySelectorAll('.game-tab').forEach(function(btn){
+      btn.addEventListener('click',function(){activateGameMode(btn.dataset.gameTab);});
+    });
+    root.addEventListener('click',function(e){
+      var action=e.target.closest('[data-game-open]');
+      if(!action)return;
+      if(action.dataset.typingBank){
+        var typingBank=document.getElementById('typingBank');
+        if(typingBank)typingBank.value=action.dataset.typingBank;
+      }
+      activateGameMode(action.dataset.gameOpen,true);
+    });
     function cleanText(s){return (s||'').replace(/\s+/g,' ').replace(/[“”"'「」]/g,'').trim();}
     function unique(a){var m={},r=[];(a||[]).forEach(function(x){x=cleanText(x);if(!x||m[x])return;m[x]=1;r.push(x);});return r;}
     function countTerm(text,term){var c=0,i=0;if(!term)return 0;while((i=text.indexOf(term,i))>-1){c++;i+=term.length;}return c;}
@@ -21232,26 +21251,7 @@ async function loadExamTerms(){
       rankLevel[mode]=Math.min((rankLevel[mode]||0)+1,rankLimits.length-1);
       renderRanks();
     });
-    root.addEventListener('click',function(e){
-      var action=e.target.closest('[data-game-open]');
-      if(!action)return;
-      var tab=root.querySelector('.game-tab[data-game-tab="'+action.dataset.gameOpen+'"]');
-      if(tab)tab.click();
-      if(action.dataset.typingBank){
-        var typingBank=document.getElementById('typingBank');
-        if(typingBank)typingBank.value=action.dataset.typingBank;
-      }
-      var active=root.querySelector('[data-game-panel="'+action.dataset.gameOpen+'"]');
-      if(active)active.scrollIntoView({behavior:'smooth',block:'start'});
-    });
     renderRanks();
-    root.querySelectorAll('.game-tab').forEach(function(btn){
-      btn.addEventListener('click',function(){
-        var mode=btn.dataset.gameTab;
-        root.querySelectorAll('.game-tab').forEach(function(b){b.classList.toggle('active',b===btn);});
-        root.querySelectorAll('[data-game-panel]').forEach(function(p){p.hidden=p.dataset.gamePanel!==mode;});
-      });
-    });
 
     var typing={active:false,timer:null,target:'',last:'',mode:'terms',score:0,time:30,combo:0,perfect:0,ok:0,bad:0,mult:1,event:null};
     var typingInput=document.getElementById('typingInput'),typingTarget=document.getElementById('typingTarget'),typingFeed=document.getElementById('typingFeed'),typingBonus=document.getElementById('typingBonus'),typingDot=document.getElementById('typingDot');
