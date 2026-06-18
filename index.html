@@ -18807,6 +18807,25 @@ section.art.law-subject-article-mode>.pager{display:none}
 </div>
 </div>
 <script>
+window.__lawinusCleanQuizQuestion=window.__lawinusCleanQuizQuestion||function(value){
+  var s=String(value||'').replace(/\s+/g,' ').trim();
+  if(!s)return '';
+  var law='(?:헌법재판소법|형사소송법|민사소송법|행정소송법|국가배상법|정보통신망법|외국법자문사법|법관징계법|변호사법|상법|민법|형법|헌법|[가-힣A-Za-z0-9·]+법)';
+  var article=law+'\\s*제\\s*\\d+\\s*(?:조의\\s*\\d+|의\\s*\\d+\\s*조|조)(?:\\s*제\\s*\\d+\\s*항)?';
+  var caseNo='[0-9]{2,4}[가-힣]+[0-9]+(?:\\s*,\\s*[0-9]+)*';
+  var caseDate='\\d{4}\\.\\s*\\d{1,2}\\.\\s*\\d{1,2}\\.';
+  var caseRef='(?:(?:대법원|헌법재판소)\\s*'+caseDate+'\\s*(?:선고|자)\\s*'+caseNo+'|대판\\s*'+caseDate+'\\s*'+caseNo+')';
+  s=s.replace(new RegExp(caseRef+'\\s*(에 따르면|에 의하면)','g'),'판례에 따르면');
+  s=s.replace(new RegExp(caseRef+'\\s*(?:에 따라|에 의하여|에 의한|에서|상|에)?','g'),'');
+  s=s.replace(new RegExp(caseDate+'\\s*(?:선고|자)\\s*'+caseNo,'g'),'');
+  s=s.replace(new RegExp(article+'\\s*\\(([^)]+)\\)','g'),'$1');
+  s=s.replace(new RegExp(article+'\\s*(본문|단서)?\\s*의\\s*','g'),function(_,tail){return tail?tail+' ':'';});
+  s=s.replace(new RegExp(article+'\\s*(본문|단서)?\\s*(에 따라|에 의하여|에 의한|에 반하지|에서|상|에)','g'),function(_,tail,particle){return '해당 조문'+(tail?' '+tail:'')+particle;});
+  s=s.replace(new RegExp(article+'\\s*(본문|단서)?','g'),function(_,tail){return tail?('해당 조문 '+tail):'해당 조문';});
+  s=s.replace(/(?:해당 조문\s*[,;·]\s*){1,}해당 조문/g,'해당 조문');
+  s=s.replace(/^(?:해당 조문\s*[,;·]\s*)+/,'').replace(/\(\s*해당 조문\s*\)/g,'').replace(/\s*[,;·]\s*([,;·])/g,'$1').replace(/\s*[,;·]\s*([.。])/g,'$1').replace(/^[\s,;·]+/,'').replace(/\(\s*\)/g,'').replace(/\s{2,}/g,' ').trim();
+  return s||String(value||'');
+};
 (function(){
   var panel=document.querySelector('[data-game-panel="ox"]');
   if(!panel)return;
@@ -18820,6 +18839,7 @@ section.art.law-subject-article-mode>.pager{display:none}
   var oxPauseBtn=panel.querySelector('#oxPause'),oxNextBtn=panel.querySelector('#oxNext'),oxReportBtn=panel.querySelector('#oxReport'),oxNick=panel.querySelector('#oxNick');
   var wrongKey='lawinus_wrong_atoms_v1',confidenceKey='lawinus_atom_confidence_v1';
   function esc(s){var d=document.createElement('div');d.textContent=(s==null?'':s);return d.innerHTML;}
+  function cleanQ(s){return window.__lawinusCleanQuizQuestion?window.__lawinusCleanQuizQuestion(s):String(s||'');}
   function readJson(key,fallback){try{return JSON.parse(localStorage.getItem(key))||fallback;}catch(e){return fallback;}}
   function writeJson(key,value){try{localStorage.setItem(key,JSON.stringify(value));}catch(e){}}
   function updateWrongCount(){var el=document.getElementById('studyWrongCount');if(el)el.textContent=readJson(wrongKey,[]).length+'개';}
@@ -18874,8 +18894,8 @@ section.art.law-subject-article-mode>.pager{display:none}
   function oxCleanTagText(raw){return oxTagText(oxSourceTags({ref:raw},null))||'기출';}
   function oxIsTrapTwin(t){var trap=String(t&&t.trap||'').trim();return !!trap&&!/^(?:-|—|없음)$/.test(trap);}
   function oxDb(){var db=window.LAWINUS_DB;return db&&db.client?db.client:null;}
-  function load(subject){subject=subject||'all';if(bankCache[subject])return Promise.resolve(bankCache[subject]);var db=oxDb();if(!db)return Promise.reject(new Error('db unavailable'));return db.rpc('get_private_game_questions',{p_bank:'clat',p_subject:subject,p_limit:300}).then(function(res){if(res.error)throw res.error;var out=(res.data||[]).map(function(r){return {id:r.question_id,q:r.prompt,a:null,trap:r.topic||'',why:'',ref:'',art:r.article||'',freq:r.freq||1,weight:r.weight||0,grade:r.grade||'',subject:r.subject||'',rep:'',tag:oxCleanTagText(r.tags)};}).filter(function(x){return x.id&&x.q;});bankCache[subject]=out;return out;});}
-  function gradePrivate(c,ans){if(!c||!c.id)return Promise.reject(new Error('missing question id'));var db=oxDb();if(!db)return Promise.reject(new Error('db unavailable'));return db.rpc('grade_private_game_question',{p_question_id:c.id,p_answer:ans||''}).then(function(res){if(res.error)throw res.error;var row=Array.isArray(res.data)?res.data[0]:res.data;if(!row)throw new Error('empty grading result');c.a=row.answer;c.why=row.explanation||'';c.ref=row.reference_text||'';c.art=row.article||c.art||'';c.rep=row.corrected_prompt||'';c.trap=row.topic||c.trap||'';c.grade=row.grade||c.grade||'';c.tag=oxCleanTagText(row.tags||c.tag||'');c.freq=row.freq||c.freq||1;return row;});}
+  function load(subject){subject=subject||'all';if(bankCache[subject])return Promise.resolve(bankCache[subject]);var db=oxDb();if(!db)return Promise.reject(new Error('db unavailable'));return db.rpc('get_private_game_questions',{p_bank:'clat',p_subject:subject,p_limit:300}).then(function(res){if(res.error)throw res.error;var out=(res.data||[]).map(function(r){return {id:r.question_id,q:cleanQ(r.prompt),rawQ:r.prompt||'',a:null,trap:r.topic||'',why:'',ref:'',art:r.article||'',freq:r.freq||1,weight:r.weight||0,grade:r.grade||'',subject:r.subject||'',rep:'',tag:oxCleanTagText(r.tags)};}).filter(function(x){return x.id&&x.q;});bankCache[subject]=out;return out;});}
+  function gradePrivate(c,ans){if(!c||!c.id)return Promise.reject(new Error('missing question id'));var db=oxDb();if(!db)return Promise.reject(new Error('db unavailable'));return db.rpc('grade_private_game_question',{p_question_id:c.id,p_answer:ans||''}).then(function(res){if(res.error)throw res.error;var row=Array.isArray(res.data)?res.data[0]:res.data;if(!row)throw new Error('empty grading result');c.a=row.answer;c.why=row.explanation||'';c.ref=row.reference_text||'';c.art=row.article||c.art||'';c.rep=cleanQ(row.corrected_prompt||'');c.rawRep=row.corrected_prompt||'';c.trap=row.topic||c.trap||'';c.grade=row.grade||c.grade||'';c.tag=oxCleanTagText(row.tags||c.tag||'');c.freq=row.freq||c.freq||1;return row;});}
   function clearAdv(){if(st.advTimer){clearTimeout(st.advTimer);st.advTimer=null;}}
   function scheduleAdvance(ms){clearAdv();st.advTimer=setTimeout(function(){st.advTimer=null;if(st.active&&!st.paused)next();},ms);}
   function next(){clearAdv();st.answered=false;elRev.hidden=true;elRev.innerHTML='';if(elConf)elConf.hidden=true;if(st.idx>=st.order.length){st.order=oxWeightedOrder(st.pool||st.order);st.idx=0;}st.cur=st.order[st.idx++];st.event=rollEvent();if(oxReportBtn)oxReportBtn.hidden=false;elT.classList.remove('idle','ox-correct','ox-wrong');var ev='';if(st.event==='tigerJackpot')ev=' <span class="ox-event ox-event-jackpot">🐯 호랑이의 대박 — 정답 ×10 · 오답 감점 없음</span>';else if(st.event==='tiger')ev=' <span class="ox-event ox-event-tiger">🐯 호랑이의 가호 — 정답 ×3 · 오답 감점 없음</span>';else if(st.event==='eagle')ev=' <span class="ox-event ox-event-eagle">🦅 독수리의 추락 — 정답 ÷2 · 오답 감점 ×2</span>';var gcol={'S':'#7c3aed','A+':'#2563eb','A':'#2563eb','B+':'#0891b2','B':'#0891b2','C+':'#b45309','C':'#b45309','D+':'#6b7280','D':'#6b7280'};var gchip=st.cur.grade?(' <span class="ox-tag" style="background:'+(gcol[st.cur.grade]||'#6b7280')+';color:#fff;border-color:transparent;font-weight:800">'+st.cur.grade+'급</span>'):'';elT.innerHTML=esc(st.cur.q)+' <span class="ox-tag">'+esc(st.cur.tag||'기출')+'</span>'+gchip+ev;elBtns.hidden=false;armQ();}
@@ -18934,6 +18954,7 @@ section.art.law-subject-article-mode>.pager{display:none}
   var elT=panel.querySelector('#ethicsTarget'),elBtns=panel.querySelector('#ethicsButtons'),elFeed=panel.querySelector('#ethicsFeed'),elRev=panel.querySelector('#ethicsReveal');
   var pauseBtn=panel.querySelector('#ethicsPause'),nextBtn=panel.querySelector('#ethicsNext'),reportBtn=panel.querySelector('#ethicsReport'),nick=panel.querySelector('#ethicsNick');
   function esc(s){var d=document.createElement('div');d.textContent=(s==null?'':s);return d.innerHTML;}
+  function cleanQ(s){return window.__lawinusCleanQuizQuestion?window.__lawinusCleanQuizQuestion(s):String(s||'');}
   function touch(){st.lastAct=Date.now();}
   function clearQ(){if(st.qTimer){clearTimeout(st.qTimer);st.qTimer=null;}}
   function clearAdv(){if(st.advTimer){clearTimeout(st.advTimer);st.advTimer=null;}}
@@ -18955,8 +18976,8 @@ section.art.law-subject-article-mode>.pager{display:none}
     return tags.join(' · ');
   }
   function ethicsDb(){var db=window.LAWINUS_DB;return db&&db.client?db.client:null;}
-function load(){if(bankCache.all)return Promise.resolve(bankCache.all);var db=ethicsDb();if(!db)return Promise.reject(new Error('db unavailable'));return db.rpc('get_private_game_questions',{p_bank:'ethics',p_subject:null,p_limit:300}).then(function(res){if(res.error)throw res.error;var out=(res.data||[]).map(function(r){return {id:r.question_id,q:r.prompt,a:null,trap:r.topic||'',why:'',ref:'',art:r.article||'',grade:r.grade||'',freq:r.freq||1,rep:'',tag:r.tags||'\ubc95\uc724'};}).filter(function(x){return x.id&&x.q;});bankCache.all=out;return out;});}
-function gradePrivate(c,ans){if(!c||!c.id)return Promise.reject(new Error('missing question id'));var db=ethicsDb();if(!db)return Promise.reject(new Error('db unavailable'));return db.rpc('grade_private_game_question',{p_question_id:c.id,p_answer:ans||''}).then(function(res){if(res.error)throw res.error;var row=Array.isArray(res.data)?res.data[0]:res.data;if(!row)throw new Error('empty grading result');c.a=row.answer;c.why=row.explanation||'';c.ref=row.reference_text||'';c.art=row.article||c.art||'';c.rep=row.corrected_prompt||'';c.trap=row.topic||c.trap||'';c.grade=row.grade||c.grade||'';c.tag=row.tags||c.tag||'';c.freq=row.freq||c.freq||1;return row;});}
+function load(){if(bankCache.all)return Promise.resolve(bankCache.all);var db=ethicsDb();if(!db)return Promise.reject(new Error('db unavailable'));return db.rpc('get_private_game_questions',{p_bank:'ethics',p_subject:null,p_limit:300}).then(function(res){if(res.error)throw res.error;var out=(res.data||[]).map(function(r){return {id:r.question_id,q:cleanQ(r.prompt),rawQ:r.prompt||'',a:null,trap:r.topic||'',why:'',ref:'',art:r.article||'',grade:r.grade||'',freq:r.freq||1,rep:'',tag:r.tags||'\ubc95\uc724'};}).filter(function(x){return x.id&&x.q;});bankCache.all=out;return out;});}
+function gradePrivate(c,ans){if(!c||!c.id)return Promise.reject(new Error('missing question id'));var db=ethicsDb();if(!db)return Promise.reject(new Error('db unavailable'));return db.rpc('grade_private_game_question',{p_question_id:c.id,p_answer:ans||''}).then(function(res){if(res.error)throw res.error;var row=Array.isArray(res.data)?res.data[0]:res.data;if(!row)throw new Error('empty grading result');c.a=row.answer;c.why=row.explanation||'';c.ref=row.reference_text||'';c.art=row.article||c.art||'';c.rep=cleanQ(row.corrected_prompt||'');c.rawRep=row.corrected_prompt||'';c.trap=row.topic||c.trap||'';c.grade=row.grade||c.grade||'';c.tag=row.tags||c.tag||'';c.freq=row.freq||c.freq||1;return row;});}
   function stats(){
     panel.querySelector('#ethicsScore').textContent=st.score;
     panel.querySelector('#ethicsHp').textContent='♥'+Math.max(0,st.hp);
