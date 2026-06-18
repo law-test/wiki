@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-r"""Build local-only CLAT atoms from 2025 mock bar-exam source JSON.
+r"""Build local-only CLAT atoms from mock bar-exam source JSON.
 
 The generated JSON files stay under C:\cowork\law-test-private.  They keep
 month/round/question metadata locally, while public labels are reduced to
-"변호사시험 15회 예상" for upload.
+"변호사시험 N회 예상" for upload.
 """
 
 from __future__ import annotations
@@ -25,11 +25,25 @@ DEFAULT_CURRENT = PRIVATE_ROOT / "current"
 DEFAULT_OUT = PRIVATE_ROOT / "mock15"
 CURRENT_CLAT = DEFAULT_CURRENT / "ox_clat_unified_v001.json"
 PUBLIC_LABEL = "변호사시험 15회 예상"
+ID_PREFIX = "mock15"
+MOCK_YEAR = 2025
+OUTPUT_PREFIX = "ox_mock15_2025_expected_atoms"
+VERSION = "mock15-expected-v001"
 
 CIRCLED = "①②③④⑤"
 CIRCLED_TO_NO = {ch: idx + 1 for idx, ch in enumerate(CIRCLED)}
 NO_TO_CIRCLED = {idx + 1: ch for idx, ch in enumerate(CIRCLED)}
 LETTER_MARKS = "ㄱㄴㄷㄹㅁㅂ"
+JAMO_TRANSLATION = str.maketrans(
+    {
+        "\u1100": "\u3131",
+        "\u1102": "\u3134",
+        "\u1103": "\u3137",
+        "\u1105": "\u3139",
+        "\u1106": "\u3141",
+        "\u1107": "\u3142",
+    }
+)
 
 SUBJECT_ORDER = ["민법", "민사소송법", "상법", "형법", "형사소송법", "헌법", "행정법"]
 SUBJECT_AREA_BY_LAW = {
@@ -141,6 +155,7 @@ PARTICLE_FIXES = {
 
 def clean_text(value: Any) -> str:
     text = str(value or "")
+    text = text.translate(JAMO_TRANSLATION)
     text = text.replace("\u00a0", " ").replace("･", "·").replace("ㆍ", "·")
     text = text.replace("｢", "").replace("｣", "")
     text = re.sub(r"\s+", " ", text).strip()
@@ -294,7 +309,7 @@ def split_letter_statements(text: str) -> tuple[str, dict[str, str]]:
     # Use the area before the first circled answer option as the statement block.
     first_choice = re.search(r"[①②③④⑤]", text)
     head = text[: first_choice.start()] if first_choice else text
-    matches = list(re.finditer(r"(?:^|\n|\s)([ㄱㄴㄷㄹㅁㅂ])\s*[.]\s*", head))
+    matches = list(re.finditer(r"(?:^|\n)\s*([ㄱㄴㄷㄹㅁㅂ])\s*[.]\s*", head))
     if not matches:
         return head, {}
     stem = head[: matches[0].start()]
@@ -385,9 +400,9 @@ def make_atom(item: dict[str, Any], *, unit: str, raw: str, answer: str, stem: s
         return None
     article, art_no, article_refs, ref_text = extract_article(raw, subject)
     grade = GRADE_BY_SUBJECT.get(subject, "A")
-    pid = "mock15-" + sha_id(subject, prompt, answer)
+    pid = f"{ID_PREFIX}-" + sha_id(subject, prompt, answer)
     topic = topic_from_stem(stem)
-    explanation = "2025년 변호사시험 모의시험 지문을 공개용 법리 문장으로 정리한 예상 atom입니다."
+    explanation = f"{MOCK_YEAR}년 변호사시험 모의시험 지문을 공개용 법리 문장으로 정리한 예상 atom입니다."
     if ref_text:
         explanation += f" 근거 단서: {ref_text}."
     return {
@@ -411,7 +426,7 @@ def make_atom(item: dict[str, Any], *, unit: str, raw: str, answer: str, stem: s
         "weight": WEIGHT_BY_GRADE[grade],
         "grade": grade,
         "sourceLayer": "mock_expected_atom",
-        "mockYear": 2025,
+        "mockYear": MOCK_YEAR,
         "mockRound": (item.get("source") or {}).get("mockRound"),
         "mockMonth": (item.get("source") or {}).get("sourceMonth"),
         "mockPublicLabel": PUBLIC_LABEL,
@@ -513,7 +528,7 @@ def payload_for_atoms(title: str, atoms: list[dict[str, Any]], extra: dict[str, 
     answers = Counter(atom.get("a") for atom in atoms)
     payload = {
         "title": title,
-        "version": "mock15-expected-v001",
+        "version": VERSION,
         "publicSourceLabel": PUBLIC_LABEL,
         "updatedAt": datetime.now().isoformat(timespec="seconds"),
         "count": len(atoms),
@@ -572,8 +587,8 @@ def merge_into_current(current_path: Path, atoms: list[dict[str, Any]], *, backu
 
 
 def write_outputs(atoms: list[dict[str, Any]], audit: dict[str, Any], out_dir: Path) -> None:
-    all_payload = payload_for_atoms("2025년 변호사시험 모의시험 예상 atom", atoms, {"audit": audit})
-    write_json(out_dir / "ox_mock15_2025_expected_atoms_v001.json", all_payload)
+    all_payload = payload_for_atoms(f"{MOCK_YEAR}년 변호사시험 모의시험 예상 atom", atoms, {"audit": audit})
+    write_json(out_dir / f"{OUTPUT_PREFIX}_v001.json", all_payload)
     by_subject: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for atom in atoms:
         by_subject[atom["subject"]].append(atom)
@@ -581,15 +596,15 @@ def write_outputs(atoms: list[dict[str, Any]], audit: dict[str, Any], out_dir: P
         subject_atoms = by_subject.get(subject, [])
         if subject_atoms:
             write_json(
-                out_dir / f"ox_mock15_2025_expected_atoms_{subject}_v001.json",
-                payload_for_atoms(f"2025년 변호사시험 모의시험 {subject} 예상 atom", subject_atoms),
+                out_dir / f"{OUTPUT_PREFIX}_{subject}_v001.json",
+                payload_for_atoms(f"{MOCK_YEAR}년 변호사시험 모의시험 {subject} 예상 atom", subject_atoms),
             )
-    write_json(out_dir / "ox_mock15_2025_expected_atoms_audit_v001.json", audit)
+    write_json(out_dir / f"{OUTPUT_PREFIX}_audit_v001.json", audit)
 
 
 def render_md(audit: dict[str, Any], merge_result: dict[str, Any] | None) -> str:
     lines = [
-        "# 2025년 변호사시험 모의시험 예상 atom 생성 보고",
+        f"# {MOCK_YEAR}년 변호사시험 모의시험 예상 atom 생성 보고",
         "",
         f"- 원본 문항: {audit['sourceQuestions']:,}개",
         f"- 생성 atom: {audit['atomCount']:,}개",
@@ -615,13 +630,26 @@ def render_md(audit: dict[str, Any], merge_result: dict[str, Any] | None) -> str
 
 
 def main() -> None:
+    global PUBLIC_LABEL, ID_PREFIX, MOCK_YEAR, OUTPUT_PREFIX, VERSION
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", type=Path, default=DEFAULT_SOURCE)
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
     parser.add_argument("--current-clat", type=Path, default=CURRENT_CLAT)
     parser.add_argument("--merge-current", action="store_true")
     parser.add_argument("--no-backup", action="store_true")
+    parser.add_argument("--public-label", default=PUBLIC_LABEL)
+    parser.add_argument("--id-prefix", default=ID_PREFIX)
+    parser.add_argument("--mock-year", type=int, default=MOCK_YEAR)
+    parser.add_argument("--output-prefix", default=OUTPUT_PREFIX)
+    parser.add_argument("--version", default=VERSION)
     args = parser.parse_args()
+
+    PUBLIC_LABEL = args.public_label
+    ID_PREFIX = args.id_prefix
+    MOCK_YEAR = args.mock_year
+    OUTPUT_PREFIX = args.output_prefix
+    VERSION = args.version
 
     atoms, audit = build_atoms(args.source)
     write_outputs(atoms, audit, args.out)
@@ -629,8 +657,8 @@ def main() -> None:
     if args.merge_current:
         merge_result = merge_into_current(args.current_clat, atoms, backup=not args.no_backup)
         audit["mergeResult"] = merge_result
-        write_json(args.out / "ox_mock15_2025_expected_atoms_audit_v001.json", audit)
-    (args.out / "ox_mock15_2025_expected_atoms_report_v001.md").write_text(render_md(audit, merge_result), encoding="utf-8")
+        write_json(args.out / f"{OUTPUT_PREFIX}_audit_v001.json", audit)
+    (args.out / f"{OUTPUT_PREFIX}_report_v001.md").write_text(render_md(audit, merge_result), encoding="utf-8")
 
     print(f"source={args.source}")
     print(f"out={args.out}")
