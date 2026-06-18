@@ -1,3 +1,5 @@
 __pycache__/
 migration_out/
 *.local.sql
+assets/ox_*.json
+assets/legal_ethics_exam_questions.json
