@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
 REPORTS = ROOT / "reports"
 
-CIVIL_BANK = ASSETS / "ox_msa_unified_v001.json"
+CIVIL_BANK = ASSETS / "ox_msa_unified_refined_v001.json"
 CRIMINAL_SOURCE = ASSETS / "ox_criminal_bar_all_source.json"
 PUBLIC_SOURCE = ASSETS / "ox_public_bar_all_source.json"
 CRIMINAL_MINIMAL = ASSETS / "ox_criminal_bar_all_minimal_atoms_draft.json"
@@ -316,7 +316,7 @@ def render_audit(payload: dict[str, Any], skipped_duplicates: int) -> str:
     lines.extend(["", "## 출처층", ""])
     for layer, count in layer_counts.most_common():
         lines.append(f"- {layer}: {count}개")
-    lines.extend(["", "## 비고", "", "- 민사법은 기존 최소 atom 통합본을 사용했습니다.", "- 형사법·공법은 회차별 최소 atom 정제본을 사용했습니다.", ""])
+    lines.extend(["", "## 비고", "", "- 민사법은 긴·복합 문장을 나눈 정제본을 사용했습니다.", "- 형사법·공법은 회차별 최소 atom 정제본을 사용했습니다.", ""])
     return "\n".join(lines)
 
 
