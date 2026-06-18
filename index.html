@@ -763,7 +763,7 @@ nav .art-link.special-law-link{margin-left:18px;padding-left:30px;color:#0f766e;
 nav .art-link.special-law-link::before{content:"§";position:absolute;left:12px;color:#0ea5a4;font-weight:900}
 nav .art-link.special-law-link.active{background:linear-gradient(135deg,#0ea5a4,#2563eb);color:#fff;box-shadow:0 10px 22px rgba(14,165,164,.18)}
 nav .special-civil-nav .special-law-link{margin-left:0}
-nav .art-link .atom-nav-badge{display:inline-flex;align-items:center;border:1px solid rgba(124,58,237,.22);background:#ede9fe;color:#4c1d95;border-radius:999px;padding:1px 6px;margin-left:6px;font-size:10px;font-weight:950;line-height:1.45;vertical-align:1px;white-space:nowrap}
+nav .art-link .atom-nav-badge{display:inline-flex;align-items:center;justify-content:center;min-width:16px;border:1px solid rgba(124,58,237,.22);background:#ede9fe;color:#4c1d95;border-radius:999px;padding:1px 5px;margin-left:6px;font-size:10px;font-weight:950;line-height:1.45;vertical-align:1px;white-space:nowrap}
 nav .art-link.active .atom-nav-badge{border-color:rgba(255,255,255,.5);background:rgba(255,255,255,.22);color:#fff}
 @media (max-width:640px){.special-law-grid{grid-template-columns:1fr}.special-law-card{padding:18px}}
 .law-subject-slot{margin-top:22px}
@@ -19706,6 +19706,8 @@ window.__KCI_BOOT=function(d){
   };
   var LAW_SUBJECT_COMMENTARY_CACHE={},LAW_SUBJECT_COMMENTARY_PROMISES={};
   var LAW_SUBJECT_RESOURCE_CACHE={},LAW_SUBJECT_RESOURCE_PROMISES={};
+  var LAW_ATOM_COUNT_FILE='assets/article_atom_counts.json?v=20260618a';
+  var LAW_ATOM_COUNT_CACHE=null,LAW_ATOM_COUNT_PROMISE=null;
   function lawSubjectEsc(v){return String(v==null?'':v).replace(/[&<>"']/g,function(ch){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch];});}
   function lawSubjectLawName(name){return LAW_SUBJECT_LABELS[name]||name;}
   function lawAtomDb(){var db=window.LAWINUS_DB;return db&&db.client?db.client:null;}
@@ -19840,10 +19842,45 @@ function lawAtomRowsToItems(rows){var groups={},order=[];(rows||[]).forEach(func
       badge.className='atom-nav-badge';
       link.appendChild(badge);
     }
-    badge.textContent='atom '+count;
+    badge.textContent=count>99?'99+':String(count);
     badge.title='이 조문에 기출 atom '+count+'개';
+    badge.setAttribute('aria-label','기출 atom '+count+'개');
     link.classList.add('has-atom');
     link.dataset.atomCount=String(count);
+  }
+  function lawAtomCountKey(subject,lawName,articleNo){
+    return [subject||'',lawName||'',lawAtomNormArticleNo(articleNo)].join('|');
+  }
+  function lawAtomLoadCountMap(){
+    if(LAW_ATOM_COUNT_CACHE)return Promise.resolve(LAW_ATOM_COUNT_CACHE);
+    if(LAW_ATOM_COUNT_PROMISE)return LAW_ATOM_COUNT_PROMISE;
+    LAW_ATOM_COUNT_PROMISE=fetch(LAW_ATOM_COUNT_FILE).then(function(res){
+      if(!res.ok)throw new Error('atom count index unavailable');
+      return res.json();
+    }).then(function(data){
+      var map={};
+      (data.items||[]).forEach(function(row){
+        var count=parseInt(row.count,10)||0;
+        if(!count)return;
+        map[lawAtomCountKey(row.subject,row.law_name,row.article_no)]=count;
+      });
+      LAW_ATOM_COUNT_CACHE=map;
+      return map;
+    });
+    return LAW_ATOM_COUNT_PROMISE;
+  }
+  function lawAtomLookupNavCount(target,map){
+    if(!target||!map)return 0;
+    var article=lawAtomNormArticleNo(target.articleNo);
+    var keys=[
+      lawAtomCountKey(target.subject,target.lawName,article),
+      lawAtomCountKey(target.lawName,target.lawName,article),
+      lawAtomCountKey(target.subject,target.subject,article)
+    ];
+    for(var i=0;i<keys.length;i++){
+      if(map[keys[i]])return map[keys[i]];
+    }
+    return 0;
   }
   function lawAtomApplyNavBadges(root,items){
     (root||document).querySelectorAll('nav .art-link[data-art]').forEach(function(link){
@@ -19852,7 +19889,17 @@ function lawAtomRowsToItems(rows){var groups={},order=[];(rows||[]).forEach(func
       lawAtomSetNavBadge(link,lawAtomCountFor(target.subject,target.lawName,target.articleNo,items));
     });
   }
-  function lawAtomRefreshNavBadges(root){}
+  function lawAtomRefreshNavBadges(root){
+    var scope=root||document;
+    var links=Array.prototype.slice.call(scope.querySelectorAll('nav .art-link[data-art]'));
+    if(!links.length)return;
+    lawAtomLoadCountMap().then(function(map){
+      links.forEach(function(link){
+        var target=lawAtomNavTarget(link);
+        lawAtomSetNavBadge(link,target?lawAtomLookupNavCount(target,map):0);
+      });
+    }).catch(function(){});
+  }
   function lawAtomRender(subject,lawName,articleNo,items){
     var groups=lawAtomEntries(subject,lawName,articleNo,items);
     if(!groups.length)return '';

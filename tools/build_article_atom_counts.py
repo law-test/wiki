@@ -1,0 +1,121 @@
+#!/usr/bin/env python3
+"""Build a public article-to-atom count index from the private CLAT bank.
+
+The output intentionally contains only subject, law name, article number, and
+counts. It must not include prompts, answers, explanations, or references.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import re
+from collections import Counter
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Any
+
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_SOURCE = Path(r"C:\cowork\law-test-private\private_problem_banks\current\ox_clat_unified_v001.json")
+DEFAULT_OUT = REPO_ROOT / "assets" / "article_atom_counts.json"
+ARTICLE_RE = re.compile(r"\uc81c\s*(\d+)\s*\uc870(?:\s*\uc758\s*(\d+)|\uc758\s*(\d+))?")
+
+
+def clean_text(value: Any) -> str:
+    return re.sub(r"\s+", " ", str(value or "")).strip()
+
+
+def normalize_article_no(value: str) -> str:
+    value = re.sub(r"\s+", "", value or "")
+    match = ARTICLE_RE.search(value)
+    if not match:
+        return ""
+    sub = match.group(2) or match.group(3)
+    return f"\uc81c{match.group(1)}\uc870\uc758{sub}" if sub else f"\uc81c{match.group(1)}\uc870"
+
+
+def article_norms(*values: Any) -> list[str]:
+    out: list[str] = []
+    for value in values:
+        text = clean_text(value)
+        for match in ARTICLE_RE.finditer(text):
+            sub = match.group(2) or match.group(3)
+            norm = f"\uc81c{match.group(1)}\uc870\uc758{sub}" if sub else f"\uc81c{match.group(1)}\uc870"
+            if norm not in out:
+                out.append(norm)
+    return out
+
+
+def law_name_from_article(article: str, subject: str) -> str:
+    article = clean_text(article)
+    subject = clean_text(subject)
+    split = ARTICLE_RE.split(article, maxsplit=1)
+    prefix = clean_text(split[0] if split else "")
+    prefix = re.sub(r"[\u00b7,;:>\-]\s*$", "", prefix).strip()
+    return prefix or subject
+
+
+def atom_weight(item: dict[str, Any]) -> int:
+    count = 1 if clean_text(item.get("rep")) else 0
+    for twin in item.get("twins") or []:
+        if clean_text(twin.get("q")):
+            count += 1
+    return max(count, 1)
+
+
+def build_counts(source: Path) -> dict[str, Any]:
+    data = json.loads(source.read_text(encoding="utf-8"))
+    counts: Counter[tuple[str, str, str]] = Counter()
+    skipped = 0
+
+    for item in data.get("items") or []:
+        subject = clean_text(item.get("subject"))
+        article = clean_text(item.get("art") or item.get("article"))
+        norms = article_norms(article, item.get("ref"), item.get("topic"))
+        if not subject or not norms:
+            skipped += 1
+            continue
+        law_name = law_name_from_article(article, subject)
+        weight = atom_weight(item)
+        for article_no in norms:
+            counts[(subject, law_name, article_no)] += weight
+
+    rows = [
+        {
+            "subject": subject,
+            "law_name": law_name,
+            "article_no": article_no,
+            "count": count,
+        }
+        for (subject, law_name, article_no), count in counts.items()
+    ]
+    rows.sort(key=lambda r: (r["subject"], r["law_name"], int(re.search(r"\d+", r["article_no"]).group(0)), r["article_no"]))
+
+    return {
+        "schemaVersion": 1,
+        "source": source.name,
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "sourceUpdatedAt": data.get("updatedAt"),
+        "itemCount": len(data.get("items") or []),
+        "mappedArticleCount": len(rows),
+        "skippedItemCount": skipped,
+        "totalAtomRefs": sum(r["count"] for r in rows),
+        "items": rows,
+    }
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--source", type=Path, default=DEFAULT_SOURCE)
+    parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
+    args = parser.parse_args()
+
+    payload = build_counts(args.source)
+    args.out.parent.mkdir(parents=True, exist_ok=True)
+    args.out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps({k: payload[k] for k in ["itemCount", "mappedArticleCount", "skippedItemCount", "totalAtomRefs"]}, ensure_ascii=False))
+
+
+if __name__ == "__main__":
+    main()
