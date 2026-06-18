@@ -20,12 +20,122 @@ OUT_AUDIT_JSON = REPORTS / "clat_ox_bank_audit.json"
 OUT_AUDIT_MD = REPORTS / "clat_ox_bank_audit.md"
 
 
+MANUAL_SOURCE_OVERRIDES: dict[tuple[str, int, int, str], dict[str, str]] = {
+    (
+        "criminal",
+        3,
+        9,
+        "③",
+    ): {
+        "rep": "인터넷 기사 댓글란에서 특정 연예인의 출산ㆍ대가수수 등 사생활에 관한 허위사실을 추가 댓글로 게시하면 정보통신망법상 명예훼손죄가 성립한다.",
+        "why": "대화체와 인용문을 제거하고 명예훼손 성립 여부라는 최소 원리 문장으로 정리했습니다.",
+    },
+    (
+        "public",
+        4,
+        9,
+        "①",
+    ): {
+        "rep": "국무총리에 대한 탄핵소추 발의에는 국회재적의원 과반수의 발의가 필요하다.",
+        "why": "국무총리에 대한 탄핵소추 발의정족수는 국회재적의원 3분의 1 이상이므로, 과반수 발의가 필요하다는 문장은 틀립니다.",
+    },
+    (
+        "public",
+        4,
+        9,
+        "②",
+    ): {
+        "rep": "탄핵소추의 의결을 받은 자는 탄핵심판이 있을 때까지 권한행사가 정지된다.",
+        "why": "헌법상 탄핵소추 의결의 효과를 대화체 없이 정리했습니다.",
+    },
+    (
+        "public",
+        4,
+        9,
+        "③",
+    ): {
+        "rep": "국회는 탄핵대상자가 직무상 헌법이나 법률을 위반한 경우 탄핵소추를 의결할 헌법상 작위의무를 부담한다.",
+        "why": "탄핵소추권은 국회의 권한이지 개별 사안에서 곧바로 헌법상 작위의무가 되는 것은 아닙니다.",
+    },
+    (
+        "public",
+        4,
+        9,
+        "④",
+    ): {
+        "rep": "대통령의 정치적 무능력이나 정책결정상 잘못 등 직책을 성실히 수행하지 않은 사정은 그 자체로 탄핵사유가 된다.",
+        "why": "대통령의 성실한 직책수행의무 위반은 그 자체만으로 탄핵사유가 되지 않습니다.",
+    },
+    (
+        "public",
+        4,
+        9,
+        "⑤",
+    ): {
+        "rep": "탄핵결정은 피청구인의 민사상ㆍ형사상 책임을 면제한다.",
+        "why": "탄핵결정은 공직 파면의 효과를 가질 뿐, 민사상ㆍ형사상 책임을 면제하지 않습니다.",
+    },
+}
+
+
+def source_key(layer: str, item: dict[str, Any]) -> tuple[str, int, int, str]:
+    return (
+        layer,
+        int(item.get("round") or 0),
+        int(item.get("question_no") or 0),
+        clean_text(item.get("choice")),
+    )
+
+
+def reject_source_item(text: str) -> bool:
+    if len(text) > 230:
+        return True
+    if "<보기" in text or " | |" in text or "교수 :" in text:
+        return True
+    if any(marker in text for marker in ("?", "？", "할 수 있는가", "되는가")):
+        return True
+    if starts_with_orphan_label(text):
+        return True
+    if sentence_count(text) >= 2:
+        return True
+    return False
+
+
 def load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
 def clean_text(value: Any) -> str:
     return re.sub(r"\s+", " ", str(value or "")).strip()
+
+
+def sentence_count(text: str) -> int:
+    return len(re.findall(r"(?:다|이다|한다|된다|없다|있다)\.", text))
+
+
+def has_case_label(text: str) -> bool:
+    if any(char in text for char in "甲乙丙丁戊己庚辛"):
+        return True
+    case_targets = "토지|건물|회사|은행|채권|채무|주식|부동산|원고|피고|매수인|매도인"
+    return bool(re.search(rf"(?<![가-힣])(?:갑|을|병|정)\s*(?:{case_targets})", text))
+
+
+def starts_with_orphan_label(text: str) -> bool:
+    return text.strip().startswith(("①", "②", "③", "④", "⑤"))
+
+
+def reject_clat_atom_text(text: str) -> bool:
+    if len(text) > 230:
+        return True
+    if any(marker in text for marker in ("?", "？", "교수 :", "학생 :", "할 수 있는가", "되는가")):
+        return True
+    if "<보기" in text or " | |" in text:
+        return True
+    if has_case_label(text) or starts_with_orphan_label(text):
+        return True
+    if sentence_count(text) >= 2:
+        return True
+    return False
 
 
 def parse_article(value: Any) -> tuple[str, int | None]:
@@ -77,11 +187,18 @@ def years_from_source(item: dict[str, Any]) -> list[str]:
 def normalize_existing_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
     for item in items:
-        if not clean_text(item.get("rep")):
+        rep = clean_text(item.get("rep"))
+        if not rep or reject_clat_atom_text(rep):
             continue
         copied = dict(item)
+        copied["rep"] = rep
         copied["a"] = "X" if item.get("a") == "X" else "O"
         copied["sourceLayer"] = copied.get("sourceLayer") or "curated_atom"
+        copied["twins"] = [
+            twin
+            for twin in (copied.get("twins") or [])
+            if clean_text(twin.get("q")) and not reject_clat_atom_text(clean_text(twin.get("q")))
+        ]
         out.append(copied)
     return out
 
@@ -89,7 +206,14 @@ def normalize_existing_items(items: list[dict[str, Any]]) -> list[dict[str, Any]
 def transform_source_items(items: list[dict[str, Any]], layer: str) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
     for item in items:
+        override = MANUAL_SOURCE_OVERRIDES.get(source_key(layer, item))
         question = clean_text(item.get("q"))
+        if override:
+            question = clean_text(override.get("rep"))
+        if item.get("needs_atomization") and not override:
+            continue
+        if reject_source_item(question) and not override:
+            continue
         answer = item.get("a")
         if not question or answer not in {"O", "X"}:
             continue
@@ -108,7 +232,8 @@ def transform_source_items(items: list[dict[str, Any]], layer: str) -> list[dict
                 "topic": clean_text(item.get("topic")) or layer_prefix,
                 "rep": question,
                 "a": answer,
-                "why": clean_text(item.get("why")) or f"{layer_prefix} 원문 지문층에서 추출한 {answer} 지문입니다.",
+                "why": clean_text(override.get("why") if override else item.get("why"))
+                or f"{layer_prefix} 원문 지문층에서 추출한 {answer} 지문입니다.",
                 "ref": clean_text(item.get("ref")),
                 "src": src,
                 "years": years_from_source(item),

@@ -1,24 +1,24 @@
 {
-  "count": 8135,
+  "count": 6244,
   "subjects": {
-    "민법": 1063,
-    "상법": 774,
-    "민사소송법": 669,
-    "혼합형사법": 484,
-    "형법": 1303,
-    "형사소송법": 1044,
-    "헌법": 1433,
-    "혼합공법": 267,
-    "행정법": 1098
+    "민법": 1062,
+    "상법": 749,
+    "민사소송법": 662,
+    "혼합형사법": 196,
+    "형법": 803,
+    "형사소송법": 572,
+    "헌법": 1211,
+    "혼합공법": 212,
+    "행정법": 777
   },
   "answers": {
-    "O": 5872,
-    "X": 2263
+    "O": 4851,
+    "X": 1393
   },
   "layers": {
-    "curated_atom": 2506,
-    "criminal_source_statement": 2831,
-    "public_source_statement": 2798
+    "curated_atom": 2473,
+    "criminal_source_statement": 1571,
+    "public_source_statement": 2200
   },
   "skippedDuplicates": 6
 }
