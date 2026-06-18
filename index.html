@@ -21040,7 +21040,8 @@ async function loadExamTerms(){
     function unique(a){var m={},r=[];(a||[]).forEach(function(x){x=cleanText(x);if(!x||m[x])return;m[x]=1;r.push(x);});return r;}
     function countTerm(text,term){var c=0,i=0;if(!term)return 0;while((i=text.indexOf(term,i))>-1){c++;i+=term.length;}return c;}
     function isHangul(ch){return !!ch&&/[가-힣]/.test(ch);}
-    function goodBlankOccurrence(text,term){var i=text.indexOf(term);if(i<0)return false;var left=text.charAt(i-1),right=text.charAt(i+term.length);return !(term.length<=3&&isHangul(left)&&isHangul(right));}
+    function isParticleTail(tail){return /^(은|는|이|가|을|를|의|에|에게|에서|으로|로|와|과|도|만|부터|까지|마다|처럼|보다|조차|라도|이나|나|든지)/.test(tail||'');}
+    function goodBlankOccurrence(text,term){var i=text.indexOf(term);if(i<0)return false;var left=text.charAt(i-1),right=text.charAt(i+term.length),tail=text.slice(i+term.length,i+term.length+4),first=term.charAt(0),last=term.charAt(term.length-1);return !((isHangul(first)&&isHangul(left))||(isHangul(last)&&isHangul(right)&&!isParticleTail(tail)));}
     var examData=await loadExamTerms();
     var objectiveAtoms=await loadObjectiveAtomStatements();
     var studyTodayCount=document.getElementById('studyTodayCount');
@@ -21144,6 +21145,7 @@ async function loadExamTerms(){
         .trim();
     }
     function answerContains(input,target){var a=norm(input),b=norm(target);return !!(a&&b&&a.indexOf(b)>-1);}
+    function answerMatches(input,target){return answerContains(input,target);}
     function randomMultiplier(){var r=Math.random();if(r<0.03)return 5;if(r<0.10)return 3;if(r<0.30)return 2;return 1;}
     function setBonus(el,m){if(!el)return;el.textContent='x'+m;el.className='game-bonus'+(m>1?' hot':'')+(m>=5?' ultra':'');}
     function typingRollEvent(){var r=Math.random();if(r<0.03)return {key:'jackpot',mult:10,label:'호랑이의 대박'};if(r<0.30)return {key:'tiger',mult:3,label:'호랑이의 가호'};return {key:'normal',mult:1,label:''};}
@@ -21473,9 +21475,12 @@ rainStats();
     document.getElementById('blankStart').addEventListener('click',function(){clearInterval(blank.timer);blank={active:true,timer:null,current:null,score:0,time:parseInt(document.getElementById('blankDuration').value,10)||30,combo:0,ok:0,bad:0,used:{}};blankInput.disabled=false;blankFeed.className='game-feed';blankFeed.textContent='빈칸에 들어갈 핵심 단어를 입력하세요.';blankStats();nextBlank();blank.timer=setInterval(function(){blank.time--;blankStats();if(blank.time<=0)finishBlank();},1000);});
     document.getElementById('blankStop').addEventListener('click',function(){finishBlank('force');});
     if(blankReportBtn)blankReportBtn.addEventListener('click',function(){if(!blank.current)return;if(window.__openProblemReport){window.__openProblemReport({source:'game',mode:'도전! 조문왕',article:blank.current.article||'',question:blank.current.question||'',answer:blank.current.answer||''});}else alert('신고 기능을 준비 중입니다.');});
-    function submitBlank(){if(!blank.active||!blank.current)return;var ans=blank.current.answer;if(norm(blankInput.value)===norm(ans)){blank.ok++;blank.combo++;blank.score+=ans.length*18+blank.combo*7;blankFeed.className='game-feed good';blankFeed.textContent='정답! '+ans+' · 콤보 '+blank.combo;nextBlank();}else{blank.bad++;blank.combo=0;blank.score=Math.max(0,blank.score-5);blankFeed.className='game-feed bad';blankFeed.innerHTML='아쉬워요. 정답은 <span class="blank-answer">'+esc(ans)+'</span>입니다.';setTimeout(function(){if(blank.active)nextBlank();},520);}blankStats();}
-    blankInput.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();submitBlank();}});
-    blankInput.addEventListener('compositionend',function(){if(blank.active&&blank.current&&norm(blankInput.value)===norm(blank.current.answer))submitBlank();});
+    var blankEnterLock=false,blankPendingEnter=false;
+    function scheduleBlankSubmit(){if(blankEnterLock)return;blankEnterLock=true;setTimeout(function(){blankEnterLock=false;submitBlank();},45);}
+    function submitBlank(){if(!blank.active||!blank.current)return;var ans=blank.current.answer,raw=blankInput.value||'';if(!norm(raw)){blankFeed.className='game-feed';blankFeed.textContent='빈칸에 들어갈 말을 입력하고 Enter를 누르세요.';return;}if(answerMatches(raw,ans)){blank.ok++;blank.combo++;blank.score+=ans.length*18+blank.combo*7;blankFeed.className='game-feed good';blankFeed.textContent='정답! '+ans+' · 콤보 '+blank.combo;nextBlank();}else{blank.bad++;blank.combo=0;blank.score=Math.max(0,blank.score-5);blankFeed.className='game-feed bad';blankFeed.innerHTML='아쉬워요. 정답은 <span class="blank-answer">'+esc(ans)+'</span>입니다.';setTimeout(function(){if(blank.active)nextBlank();},520);}blankStats();}
+    blankInput.addEventListener('keydown',function(e){if(e.key==='Enter'){if(e.isComposing||e.keyCode===229||blankInput.dataset.composing==='1'){blankPendingEnter=true;return;}e.preventDefault();scheduleBlankSubmit();}});
+    blankInput.addEventListener('compositionstart',function(){blankInput.dataset.composing='1';});
+    blankInput.addEventListener('compositionend',function(){blankInput.dataset.composing='0';if(blankPendingEnter){blankPendingEnter=false;scheduleBlankSubmit();}else if(blank.active&&blank.current&&answerMatches(blankInput.value,blank.current.answer)){scheduleBlankSubmit();}});
 
     var caseblank={active:false,timer:null,current:null,score:0,time:30,combo:0,ok:0,bad:0,used:{}};
     var caseInput=document.getElementById('caseInput'),caseQuestion=document.getElementById('caseQuestion'),caseArticle=document.getElementById('caseArticle'),caseFeed=document.getElementById('caseFeed');
@@ -21490,7 +21495,7 @@ rainStats();
     document.getElementById('caseStop').addEventListener('click',function(){finishCaseBlank('force');});
     if(caseReportBtn)caseReportBtn.addEventListener('click',function(){if(!caseblank.current)return;if(window.__openProblemReport){window.__openProblemReport({source:'game',mode:'도전! 판례왕',article:caseblank.current.article||'',question:caseblank.current.question||'',answer:caseblank.current.answer||'',reference:caseblank.current.source||caseblank.current.ref||''});}else alert('신고 기능을 준비 중입니다.');});
     function scheduleCaseSubmit(){if(caseEnterLock)return;caseEnterLock=true;setTimeout(function(){caseEnterLock=false;submitCaseBlank();},45);}
-    function submitCaseBlank(){if(!caseblank.active||!caseblank.current)return;var ans=caseblank.current.answer,inputNorm=norm(caseInput.value);if(!inputNorm){caseFeed.className='game-feed';caseFeed.textContent='빈칸에 들어갈 말을 입력한 뒤 Enter를 누르세요.';return;}clearTimeout(caseWrongTimer);if(inputNorm===norm(ans)){caseblank.ok++;caseblank.combo++;caseblank.score+=ans.length*20+caseblank.combo*8;var bonus=addCaseTimeBonus();caseFeed.className='game-feed good';caseFeed.textContent='정답! '+ans+' · +'+bonus+'초 추가 · 콤보 '+caseblank.combo;nextCaseBlank();}else{caseblank.bad++;caseblank.combo=0;caseblank.score=Math.max(0,caseblank.score-5);caseFeed.className='game-feed bad';caseFeed.innerHTML='아쉬워요. 정답은 <span class="blank-answer">'+esc(ans)+'</span>입니다.';caseWrongTimer=setTimeout(function(){if(caseblank.active)nextCaseBlank();},620);}caseStats();}
+    function submitCaseBlank(){if(!caseblank.active||!caseblank.current)return;var ans=caseblank.current.answer,raw=caseInput.value||'',inputNorm=norm(raw);if(!inputNorm){caseFeed.className='game-feed';caseFeed.textContent='빈칸에 들어갈 말을 입력한 뒤 Enter를 누르세요.';return;}clearTimeout(caseWrongTimer);if(answerMatches(raw,ans)){caseblank.ok++;caseblank.combo++;caseblank.score+=ans.length*20+caseblank.combo*8;var bonus=addCaseTimeBonus();caseFeed.className='game-feed good';caseFeed.textContent='정답! '+ans+' · +'+bonus+'초 추가 · 콤보 '+caseblank.combo;nextCaseBlank();}else{caseblank.bad++;caseblank.combo=0;caseblank.score=Math.max(0,caseblank.score-5);caseFeed.className='game-feed bad';caseFeed.innerHTML='아쉬워요. 정답은 <span class="blank-answer">'+esc(ans)+'</span>입니다.';caseWrongTimer=setTimeout(function(){if(caseblank.active)nextCaseBlank();},620);}caseStats();}
     caseInput.addEventListener('keydown',function(e){if(e.key==='Enter'){if(e.isComposing||e.keyCode===229||caseInput.dataset.composing==='1'){casePendingEnter=true;return;}e.preventDefault();scheduleCaseSubmit();}});
     caseInput.addEventListener('compositionstart',function(){caseInput.dataset.composing='1';});
     caseInput.addEventListener('compositionend',function(){caseInput.dataset.composing='0';if(casePendingEnter){casePendingEnter=false;scheduleCaseSubmit();}});
