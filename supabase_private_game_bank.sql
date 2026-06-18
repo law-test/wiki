@@ -54,6 +54,7 @@ execute function public.set_private_game_questions_updated_at();
 
 alter table public.private_game_questions enable row level security;
 revoke all on public.private_game_questions from anon, authenticated;
+grant select, insert, update, delete on public.private_game_questions to service_role;
 
 create or replace function public.get_private_game_questions(
   p_bank text,
