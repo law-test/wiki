@@ -826,6 +826,7 @@ section.art.law-subject-article-mode>.pager{display:none}
 .atom-card.is-o{border-color:rgba(22,163,74,.28)}
 .atom-card.is-x{border-color:rgba(220,38,38,.25);background:linear-gradient(135deg,#fff,#fff7f7)}
 .atom-card.atom-family{border-color:rgba(22,163,74,.24);background:linear-gradient(180deg,#fff,#fcfffd)}
+.atom-card.atom-family.is-x{border-color:rgba(220,38,38,.25);background:linear-gradient(135deg,#fff,#fff7f7)}
 .atom-mark{display:flex;align-items:flex-start;justify-content:center;padding-top:2px}
 .atom-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:7px}
 .atom-family .atom-head{margin:8px 0 0}
@@ -19738,14 +19739,68 @@ window.__KCI_BOOT=function(d){
   function lawAtomDb(){var db=window.LAWINUS_DB;return db&&db.client?db.client:null;}
 function lawAtomFetch(){return Promise.resolve([]);}
 window.__lawinusLoadAtomItems=function(){return Promise.resolve([]);};
-function lawAtomFetchArticle(subject,lawName,articleNo){var db=lawAtomDb();if(!db)return Promise.reject(new Error('db unavailable'));return db.rpc('get_private_article_atoms',{p_subject:subject||null,p_law_name:lawName||null,p_article:lawAtomNormArticleNo(articleNo),p_limit:14}).then(function(res){if(res.error)throw res.error;return res.data||[];});}
-function lawAtomRowsToItems(rows){var groups={},order=[];(rows||[]).forEach(function(r){var fid=r.family_id||r.question_id;if(!groups[fid]){groups[fid]={subject:r.subject||'',art:r.article||'',topic:r.topic||'',rep:'',a:'O',why:r.explanation||'',ref:r.reference_text||'',grade:r.grade||'',freq:r.freq||1,weight:r.weight||0,src:r.tags?[r.tags]:[],years:[],twins:[]};order.push(fid);}var g=groups[fid];if(r.answer==='O'&&!g.rep){g.rep=r.prompt||'';g.topic=r.topic||g.topic;g.why=r.explanation||g.why;g.ref=r.reference_text||g.ref;g.grade=r.grade||g.grade;g.freq=r.freq||g.freq;g.weight=r.weight||g.weight;g.src=r.tags?[r.tags]:g.src;}else if(r.answer==='X'){if(!g.rep&&r.corrected_prompt)g.rep=r.corrected_prompt;g.twins.push({q:r.prompt||'',trap:r.topic||'',why:r.explanation||'',corrected:r.corrected_prompt||'',ref:r.reference_text||'',grade:r.grade||'',freq:r.freq||1,weight:r.weight||0,src:r.tags?[r.tags]:[]});}});return order.map(function(k){return groups[k];}).filter(function(g){return g.rep;});}
+function lawAtomFetchArticle(subject,lawName,articleNo){var db=lawAtomDb();if(!db)return Promise.reject(new Error('db unavailable'));return db.rpc('get_private_article_atoms',{p_subject:subject||null,p_law_name:lawName||null,p_article:lawAtomNormArticleNo(articleNo),p_limit:30}).then(function(res){if(res.error)throw res.error;return res.data||[];});}
+function lawAtomRowsToItems(rows){
+  var groups={},order=[];
+  (rows||[]).forEach(function(r){
+    var fid=r.family_id||r.question_id;
+    if(!groups[fid]){
+      groups[fid]={subject:r.subject||'',law:r.law_name||'',art:r.article||'',topic:r.topic||'',rep:'',answer:'O',why:r.explanation||'',ref:r.reference_text||'',grade:r.grade||'',freq:r.freq||1,weight:r.weight||0,src:r.tags?[r.tags]:[],years:[],twins:[]};
+      order.push(fid);
+    }
+    var g=groups[fid],answer=String(r.answer||'').toUpperCase();
+    if(answer==='O'&&!g.rep){
+      g.rep=r.prompt||'';g.answer='O';g.topic=r.topic||g.topic;g.why=r.explanation||g.why;g.ref=r.reference_text||g.ref;g.grade=r.grade||g.grade;g.freq=r.freq||g.freq;g.weight=r.weight||g.weight;g.src=r.tags?[r.tags]:g.src;
+    }else if(answer==='X'){
+      if(!g.rep){
+        g.rep=r.corrected_prompt||r.prompt||'';
+        g.answer=r.corrected_prompt?'O':'X';
+        g.topic=r.topic||g.topic;g.why=r.explanation||g.why;g.ref=r.reference_text||g.ref;g.grade=r.grade||g.grade;g.freq=r.freq||g.freq;g.weight=r.weight||g.weight;g.src=r.tags?[r.tags]:g.src;
+      }
+      if(String(r.prompt||'').trim()&&String(r.prompt||'').trim()!==String(g.rep||'').trim()){
+        g.twins.push({q:r.prompt||'',trap:r.topic||'',why:r.explanation||'',corrected:r.corrected_prompt||'',ref:r.reference_text||'',grade:r.grade||'',freq:r.freq||1,weight:r.weight||0,src:r.tags?[r.tags]:[]});
+      }
+    }
+  });
+  return order.map(function(k){return groups[k];}).filter(function(g){return g.rep;});
+}
   function lawAtomArticleNos(text){
     var out=[],m,re=/제\s*[0-9]+(?:조의\s*[0-9]+|의\s*[0-9]+조|조)/g;
     while((m=re.exec(String(text||''))))out.push(lawAtomNormArticleNo(m[0]));
     return out;
   }
   function lawAtomNormArticleNo(v){return String(v||'').replace(/\s+/g,'').replace(/^제([0-9]+)의([0-9]+)조$/,'제$1조의$2');}
+  function lawAtomLawAliases(subject,lawName){
+    var list=[lawName,lawSubjectLawName(lawName||''),subject,lawSubjectLawName(subject||'')],out=[];
+    list.forEach(function(v){v=String(v||'').trim();if(v&&out.indexOf(v)<0)out.push(v);});
+    return out;
+  }
+  function lawAtomArticlePrefix(text){
+    return String(text||'').split(/제\s*[0-9]/)[0].trim().replace(/[·,;]$/,'');
+  }
+  function lawAtomPrefixMatchesLaw(prefix,subject,lawName){
+    prefix=String(prefix||'').trim();
+    if(!prefix)return true;
+    return lawAtomLawAliases(subject,lawName).some(function(law){return law&&prefix.indexOf(law)>=0;});
+  }
+  function lawAtomArticleTextMatchesLaw(text,subject,lawName,articleNo,rowSubject){
+    var article=lawAtomNormArticleNo(articleNo),raw=String(text||'').trim();
+    if(!article||lawAtomArticleNos(raw).indexOf(article)<0)return false;
+    var parts=raw.split(/[;,·]/).map(function(v){return v.trim();}).filter(Boolean);
+    if(!parts.length)parts=[raw];
+    for(var i=0;i<parts.length;i++){
+      if(lawAtomArticleNos(parts[i]).indexOf(article)<0)continue;
+      var prefix=lawAtomArticlePrefix(parts[i]);
+      if(lawAtomPrefixMatchesLaw(prefix,subject,lawName))return true;
+      if(!prefix&&lawAtomLawAliases(subject,lawName).indexOf(String(rowSubject||'').trim())>=0)return true;
+    }
+    return false;
+  }
+  function lawAtomStrictRows(rows,subject,lawName,articleNo){
+    return (rows||[]).filter(function(row){
+      return lawAtomArticleTextMatchesLaw(row&&row.article,subject,lawName,articleNo,row&&row.subject);
+    });
+  }
   function lawAtomSourceTags(u,t){
     var tags=[];
     function shortYear(y){y=String(y||'');return y.length===4&&y.indexOf('20')===0?y.slice(2):y;}
@@ -19776,12 +19831,7 @@ function lawAtomRowsToItems(rows){var groups={},order=[];(rows||[]).forEach(func
   function lawAtomIsTrapTwin(t){var trap=String(t&&t.trap||'').trim();return !!trap&&!/^(?:-|—|없음)$/.test(trap);}
   function lawAtomMatches(item,subject,lawName,articleNo){
     if(!item||!articleNo)return false;
-    if(subject&&item.subject&&item.subject!==subject)return false;
-    var art=String(item.art||''),article=lawAtomNormArticleNo(articleNo);
-    if(lawAtomArticleNos(art).indexOf(article)<0)return false;
-    var law=lawSubjectLawName(lawName||subject||''),prefix=art.split(/제\s*[0-9]/)[0].trim().replace(/[·,;]$/,'');
-    if(prefix&&law&&prefix.indexOf(law)<0)return false;
-    return true;
+    return lawAtomArticleTextMatchesLaw(item.art,subject,lawName,articleNo,item.subject);
   }
   function lawAtomEntries(subject,lawName,articleNo,items){
     var groups=[],byStmt={};
@@ -19792,7 +19842,7 @@ function lawAtomRowsToItems(rows){var groups={},order=[];(rows||[]).forEach(func
     }
     (items||[]).forEach(function(u){
       if(!lawAtomMatches(u,subject,lawName,articleNo))return;
-      var base=entry(u.rep,'O',u,null);
+      var base=entry(u.rep,u.answer||'O',u,null);
       if(!base)return;
       var key=base.stmt;
       var group=byStmt[key];
@@ -19928,6 +19978,18 @@ function lawAtomRowsToItems(rows){var groups={},order=[];(rows||[]).forEach(func
       });
     }).catch(function(){});
   }
+  function lawAtomTargetMatches(target,subject,lawName,articleNo){
+    if(!target)return false;
+    if(lawAtomNormArticleNo(target.articleNo)!==lawAtomNormArticleNo(articleNo))return false;
+    var targetAliases=lawAtomLawAliases(target.subject,target.lawName),aliases=lawAtomLawAliases(subject,lawName);
+    return aliases.some(function(v){return targetAliases.indexOf(v)>=0;});
+  }
+  function lawAtomUpdateNavBadgeFor(subject,lawName,articleNo,count){
+    document.querySelectorAll('nav .art-link[data-art]').forEach(function(link){
+      var target=lawAtomNavTarget(link);
+      if(lawAtomTargetMatches(target,subject,lawName,articleNo))lawAtomSetNavBadge(link,count);
+    });
+  }
   function lawAtomRender(subject,lawName,articleNo,items){
     var groups=lawAtomEntries(subject,lawName,articleNo,items);
     if(!groups.length)return '';
@@ -19938,6 +20000,8 @@ function lawAtomRowsToItems(rows){var groups={},order=[];(rows||[]).forEach(func
     }
     var cards=groups.map(function(r){
       var meta=metaText(r);
+      var answer=String(r.answer||'O').toUpperCase()==='X'?'X':'O';
+      var answerClass=answer.toLowerCase();
       var twins=(r.twins||[]).map(function(t){
         var tm=metaText(t);
         return '<div class="atom-twin"><p class="atom-twin-line"><span class="atom-twin-badge">함정 X</span>'+lawSubjectEsc(t.stmt)+(tm?'<span class="atom-twin-meta">'+lawSubjectEsc(tm)+'</span>':'')+reportButton(t,'X')+'</p>'
@@ -19945,9 +20009,9 @@ function lawAtomRowsToItems(rows){var groups={},order=[];(rows||[]).forEach(func
           +(t.corrected?'<p class="atom-correction"><b>옳은 문장 · </b>'+lawSubjectEsc(t.corrected)+'</p>':'')
           +(t.ref?'<p class="atom-ref">근거 · '+lawSubjectEsc(t.ref)+'</p>':'')+'</div>';
       }).join('');
-      return '<article class="atom-card atom-family is-o"><div class="atom-mark"><span class="atom-badge o">O</span></div><div class="atom-main">'
+      return '<article class="atom-card atom-family is-'+answerClass+'"><div class="atom-mark"><span class="atom-badge '+answerClass+'">'+answer+'</span></div><div class="atom-main">'
         +'<p class="atom-stmt">'+lawSubjectEsc(r.stmt)+'</p>'
-        +'<div class="atom-head">'+(r.topic?'<span class="atom-topic">'+lawSubjectEsc(r.topic)+'</span>':'')+(meta?'<span class="atom-meta">'+lawSubjectEsc(meta)+'</span>':'')+reportButton(r,'O')+'</div>'
+        +'<div class="atom-head">'+(r.topic?'<span class="atom-topic">'+lawSubjectEsc(r.topic)+'</span>':'')+(meta?'<span class="atom-meta">'+lawSubjectEsc(meta)+'</span>':'')+reportButton(r,answer)+'</div>'
         +(r.why?'<p class="atom-why">'+lawSubjectEsc(r.why)+'</p>':'')
         +(r.ref?'<p class="atom-ref">근거 · '+lawSubjectEsc(r.ref)+'</p>':'')
         +(twins?'<div class="atom-twins">'+twins+'</div>':'')+'</div></article>';
@@ -19962,8 +20026,10 @@ function lawAtomRowsToItems(rows){var groups={},order=[];(rows||[]).forEach(func
     box.dataset.atomReady='1';
     box.innerHTML='<div class="atom-empty">\uae30\ucd9c atom\uc744 \ubd88\ub7ec\uc624\ub294 \uc911...</div>';
     lawAtomFetchArticle(box.dataset.atomSubject,box.dataset.atomLaw,box.dataset.atomArticle).then(function(rows){
-      var items=lawAtomRowsToItems(rows);
-      var html=lawAtomRender(box.dataset.atomSubject,box.dataset.atomLaw,box.dataset.atomArticle,items);
+      var subject=box.dataset.atomSubject,lawName=box.dataset.atomLaw,articleNo=box.dataset.atomArticle;
+      var items=lawAtomRowsToItems(lawAtomStrictRows(rows,subject,lawName,articleNo));
+      lawAtomUpdateNavBadgeFor(subject,lawName,articleNo,lawAtomCountFor(subject,lawName,articleNo,items));
+      var html=lawAtomRender(subject,lawName,articleNo,items);
       if(html)box.innerHTML=html;else box.remove();
     }).catch(function(){box.innerHTML='<div class="atom-empty">\uae30\ucd9c atom\uc744 \ubd88\ub7ec\uc624\uc9c0 \ubabb\ud588\uc2b5\ub2c8\ub2e4.</div>';});
   }

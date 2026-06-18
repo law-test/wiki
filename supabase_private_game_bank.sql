@@ -203,11 +203,15 @@ as $$
         p_subject is null
         or p_subject = ''
         or q.subject = p_subject
+        or q.subject = p_law_name
         or q.law_name = p_law_name
       )
       and (
-        q.article_norms @> array[p_article]
-        or q.article ilike '%' || p_article || '%'
+        q.article = p_article
+        or (
+          coalesce(nullif(p_law_name, ''), nullif(p_subject, ''), '') <> ''
+          and q.article ilike '%' || coalesce(nullif(p_law_name, ''), nullif(p_subject, ''), '') || '%' || p_article || '%'
+        )
       )
     order by q.freq desc, q.weight desc, q.source_pid, q.source_variant
     limit least(greatest(coalesce(p_limit, 8), 1), 30)
