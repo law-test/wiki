@@ -1,0 +1,6130 @@
+{
+  "title": "변호사시험 공법 4회 최소 atom 정제본",
+  "version": "public_bar4_minimal_v001",
+  "updatedAt": "2026-06-18T00:25:38.190424+00:00",
+  "count": 170,
+  "sourceCount": 175,
+  "rejectedCount": 5,
+  "items": [
+    {
+      "pid": "public-bar04-q01-ㄱ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "헌법재판",
+      "rep": "강제노동의 폐지에 관한 국제노동기구(ILO)의 105호 조약은 일반적으로 승인된 국제법규성이 인정된다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 1번 ㄱ 지문에서 확인한 X입니다.",
+      "ref": "헌법재판소법 제68조 제1항",
+      "art": "제68조",
+      "artNo": 68,
+      "src": [
+        "변시4 1번 ㄱ"
+      ],
+      "refs": [
+        "변시4 1번 ㄱ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "강제노동의 폐지에 관한 국제노동기구(ILO)의 105호 조약은 일반적으로 승인된 국제법규성이 인정된다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 1번 ㄱ 지문은 정답표상 X입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q01-ㄴ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "헌법재판",
+      "rep": "국제연합(UN)의 ‘인권에 관한 세계선언’ 및 국제연합교육과학문화기구와 국제노동기구가 채택한 ‘교원의 지위에 관한 권고’는 일반적으로 승인된 국제법규성이 인정되므로 국내법적 효력이 인정된다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 1번 ㄴ 지문에서 확인한 X입니다.",
+      "ref": "헌법재판소법 제68조 제1항",
+      "art": "제68조",
+      "artNo": 68,
+      "src": [
+        "변시4 1번 ㄴ"
+      ],
+      "refs": [
+        "변시4 1번 ㄴ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "국제연합(UN)의 ‘인권에 관한 세계선언’ 및 국제연합교육과학문화기구와 국제노동기구가 채택한 ‘교원의 지위에 관한 권고’는 일반적으로 승인된 국제법규성이 인정되므로 국내법적 효력이 인정된다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 1번 ㄴ 지문은 정답표상 X입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q01-ㄷ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "헌법재판",
+      "rep": "국제노동기구 산하 ‘결사의 자유위원회’의 권고는 국내법과 같은 효력이 있거나 일반적으로 승인된 국제법규라고 볼 수 없다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 1번 ㄷ 지문에서 확인한 O입니다.",
+      "ref": "헌법재판소법 제68조 제1항",
+      "art": "제68조",
+      "artNo": 68,
+      "src": [
+        "변시4 1번 ㄷ"
+      ],
+      "refs": [
+        "변시4 1번 ㄷ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "국제노동기구 산하 ‘결사의 자유위원회’의 권고는 국내법과 같은 효력이 있거나 일반적으로 승인된 국제법규라고 볼 수 없다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 1번 ㄷ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q01-ㄹ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "헌법재판",
+      "rep": "마라케쉬협정은 적법하게 체결되어 공포된 조약이므로 국내법과 같은 효력을 갖는 것이어서, 마라케쉬협정에 의하여 관세법위반자의 처벌이 가중된다고 하더라도 이를 들어 법률에 의하지 아니한 형사처벌이라고 할 수 없다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 1번 ㄹ 지문에서 확인한 O입니다.",
+      "ref": "헌법재판소법 제68조 제1항",
+      "art": "제68조",
+      "artNo": 68,
+      "src": [
+        "변시4 1번 ㄹ"
+      ],
+      "refs": [
+        "변시4 1번 ㄹ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "마라케쉬협정은 적법하게 체결되어 공포된 조약이므로 국내법과 같은 효력을 갖는 것이어서, 마라케쉬협정에 의하여 관세법위반자의 처벌이 가중된다고 하더라도 이를 들어 법률에 의하지 아니한 형사처벌이라고 할 수 없다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 1번 ㄹ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q02-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "선거",
+      "rep": "시각장애선거인을 위한 점자형 선거공보의 작성 여부를 후보자의 임의사항으로 규정하고 그 면수를 책자형 선거공보의 면수 이내로 한정한 공직선거법 조항은 시각장애인의 선거권과 평등권을 침해한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 2번 ① 지문에서 확인한 O입니다.",
+      "ref": "헌법재판소법 제68조 제1항",
+      "art": "제68조",
+      "artNo": 68,
+      "src": [
+        "변시4 2번 ①"
+      ],
+      "refs": [
+        "변시4 2번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "시각장애선거인을 위한 점자형 선거공보의 작성 여부를 후보자의 임의사항으로 규정하고 그 면수를 책자형 선거공보의 면수 이내로 한정한 ｢공직선거법｣ 조항은 시각장애인의 선거권과 평등권을 침해한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 2번 ① 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q02-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "선거",
+      "rep": "대한민국 국외의 구역을 항해하는 선박에 장기 기거하는 선원들이 선거권을 행사할 수 있는 방법을 마련하지 않은 공직선거법 조항은 위와 같은 선원들의 선거권을 침해한다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 2번 ② 지문에서 확인한 X입니다.",
+      "ref": "헌법재판소법 제68조 제1항",
+      "art": "제68조",
+      "artNo": 68,
+      "src": [
+        "변시4 2번 ②"
+      ],
+      "refs": [
+        "변시4 2번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "대한민국 국외의 구역을 항해하는 선박에 장기 기거하는 선원들이 선거권을 행사할 수 있는 방법을 마련하지 않은 ｢공직선거법｣ 조항은 위와 같은 선원들의 선거권을 침해한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 2번 ② 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q02-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "선거",
+      "rep": "대통령선거경선후보자가 당내경선 후보자로 등록을 하고 당내경선 과정에서 탈퇴함으로써 후원회를 둘 수 있는 자격을 상실한 때에는 후원회로부터 후원받은 후원금 전액을 국고에 귀속하도록 하는 것은 경선에 참여하여 낙선한 대통령선거경선후보자와의 관계에서 합리적인 이유가 있는 차별이라고 하기 어렵다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 2번 ③ 지문에서 확인한 X입니다.",
+      "ref": "헌법재판소법 제68조 제1항",
+      "art": "제68조",
+      "artNo": 68,
+      "src": [
+        "변시4 2번 ③"
+      ],
+      "refs": [
+        "변시4 2번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "대통령선거경선후보자가 당내경선 후보자로 등록을 하고 당내경선 과정에서 탈퇴함으로써 후원회를 둘 수 있는 자격을 상실한 때에는 후원회로부터 후원받은 후원금 전액을 국고에 귀속하도록 하는 것은 경선에 참여하여 낙선한 대통령선거경선후보자와의 관계에서 합리적인 이유가 있는 차별이라고 하기 어렵다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 2번 ③ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q02-④",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "선거",
+      "rep": "주민투표권 행사를 위한 요건으로 그 지방자치단체의 관할 구역에 주민등록이 되어 있을 것을 요구함으로써 국내거소신고만 할 수 있고 주민등록을 할 수 없는 국내거주 재외국민에 대하여 주민투표권을 인정하지 않은 주민투표법 조항은 위와 같은 국내거주 재외국민의 평등권을 침해한다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 2번 ④ 지문에서 확인한 X입니다.",
+      "ref": "헌법재판소법 제68조 제1항",
+      "art": "제68조",
+      "artNo": 68,
+      "src": [
+        "변시4 2번 ④"
+      ],
+      "refs": [
+        "변시4 2번 ④"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "주민투표권 행사를 위한 요건으로 그 지방자치단체의 관할 구역에 주민등록이 되어 있을 것을 요구함으로써 국내거소신고만 할 수 있고 주민등록을 할 수 없는 국내거주 재외국민에 대하여 주민투표권을 인정하지 않은 ｢주민투표법｣ 조항은 위와 같은 국내거주 재외국민의 평등권을 침해한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 2번 ④ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q02-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "선거",
+      "rep": "유기징역 또는 유기금고의 선고를 받고 그 집행유예기간 중인 자에 대하여 전면적·획일적으로 선거권을 제한한 공직선거법 조항은 위와 같이 집행유예기간 중인 자의 선거권을 침해하고 보통선거원칙에 위반된다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 2번 ⑤ 지문에서 확인한 X입니다.",
+      "ref": "헌법재판소법 제68조 제1항",
+      "art": "제68조",
+      "artNo": 68,
+      "src": [
+        "변시4 2번 ⑤"
+      ],
+      "refs": [
+        "변시4 2번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "유기징역 또는 유기금고의 선고를 받고 그 집행유예기간 중인 자에 대하여 전면적·획일적으로 선거권을 제한한 ｢공직선거법｣ 조항은 위와 같이 집행유예기간 중인 자의 선거권을 침해하고 보통선거원칙에 위반된다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 2번 ⑤ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q03-ㄱ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "신뢰보호",
+      "rep": "법률에 따른 개인의 행위가 단지 법률이 반사적으로 부여하는 기회의 활용을 넘어서 국가에 의하여 일정 방향으로 유인된 것이라면 특별히 보호가치가 있는 신뢰이익이 인정될 수 있고, 이러한 경우 원칙적으로 개인의 신뢰보호가 국가의 법률개정이익에 우선된다고 볼 여지가 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 3번 ㄱ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 3번 ㄱ"
+      ],
+      "refs": [
+        "변시4 3번 ㄱ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "법률에 따른 개인의 행위가 단지 법률이 반사적으로 부여하는 기회의 활용을 넘어서 국가에 의하여 일정 방향으로 유인된 것이라면 특별히 보호가치가 있는 신뢰이익이 인정될 수 있고, 이러한 경우 원칙적으로 개인의 신뢰보호가 국가의 법률개정이익에 우선된다고 볼 여지가 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 3번 ㄱ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q03-ㄴ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "신뢰보호",
+      "rep": "신뢰보호원칙은 법률이나 그 하위법규뿐만 아니라 국가관리의 입시제도와 같이 국·공립대학의 입시전형을 구속하여 국민의 권리에 직접 영향을 미치는 제도운영지침의 개폐에도 적용되는 것이다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 3번 ㄴ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 3번 ㄴ"
+      ],
+      "refs": [
+        "변시4 3번 ㄴ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "신뢰보호원칙은 법률이나 그 하위법규뿐만 아니라 국가관리의 입시제도와 같이 국·공립대학의 입시전형을 구속하여 국민의 권리에 직접 영향을 미치는 제도운영지침의 개폐에도 적용되는 것이다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 3번 ㄴ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q03-ㄷ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "신뢰보호",
+      "rep": "헌법재판소는 수급권자 자신이 종전에 지급받던 평균임금을 기초로 산정된 장해보상연금을 수령하고 있던 수급권자에게, 실제의 평균임금이 노동부장관이 고시한 한도금액 이상일 경우 그 한도금액을 실제임금으로 의제하는 내용으로 신설된 최고보상제도를, 2년 6개월의 유예기간 후 적용하는 산업재해보상보험법 부칙 조항이 신뢰보호원칙에 위배된다고 판시하였다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 3번 ㄷ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 3번 ㄷ"
+      ],
+      "refs": [
+        "변시4 3번 ㄷ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "헌법재판소는 수급권자 자신이 종전에 지급받던 평균임금을 기초로 산정된 장해보상연금을 수령하고 있던 수급권자에게, 실제의 평균임금이 노동부장관이 고시한 한도금액 이상일 경우 그 한도금액을 실제임금으로 의제하는 내용으로 신설된 최고보상제도를, 2년 6개월의 유예기간 후 적용하는 ｢산업재해보상보험법｣ 부칙 조항이 신뢰보호원칙에 위배된다고 판시하였다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 3번 ㄷ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q03-ㄹ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "신뢰보호",
+      "rep": "헌법재판소는 기존에 자유업종이었던 인터넷컴퓨터게임시설제공업에 대하여 등록제를 도입하면서 1년 이상의 유예기간을 둔 게임산업진흥에 관한 법률 조항은 신뢰보호원칙에 위배되지 않는다고 판시하였다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 3번 ㄹ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 3번 ㄹ"
+      ],
+      "refs": [
+        "변시4 3번 ㄹ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "헌법재판소는 기존에 자유업종이었던 인터넷컴퓨터게임시설제공업에 대하여 등록제를 도입하면서 1년 이상의 유예기간을 둔 ｢게임산업진흥에 관한 법률｣ 조항은 신뢰보호원칙에 위배되지 않는다고 판시하였다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 3번 ㄹ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q04-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "권한쟁의심판",
+      "rep": "국가 또는 공공단체의 기관 상호간에 있어서의 권한의 존부 또는 그 행사에 관한 다툼이 있을 때에는 기관소송을 제기할 수 있으나, 헌법재판소법 제2조의 규정에 의하여 헌법재판소의 관장사항으로 되는 소송은 기관소송의 대상에서 제외된다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 4번 ① 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 4번 ①"
+      ],
+      "refs": [
+        "변시4 4번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "국가 또는 공공단체의 기관 상호간에 있어서의 권한의 존부 또는 그 행사에 관한 다툼이 있을 때에는 기관소송을 제기할 수 있으나, ｢헌법재판소법｣ 제2조의 규정에 의하여 헌법재판소의 관장사항으로 되는 소송은 기관소송의 대상에서 제외된다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 4번 ① 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q04-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "권한쟁의심판",
+      "rep": "정부가 법률안을 제출하는 행위는 입법을 위한 하나의 사전 준비행위에 불과하고, 권한쟁의심판의 독자적 대상이 되기 위한 법적 중요성을 지닌 행위로 볼 수 없으므로, 정부가 개정법률안을 국회에 제출한 행위를 다투는 권한쟁의심판 청구는 부적법하다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 4번 ② 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 4번 ②"
+      ],
+      "refs": [
+        "변시4 4번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "정부가 법률안을 제출하는 행위는 입법을 위한 하나의 사전 준비행위에 불과하고, 권한쟁의심판의 독자적 대상이 되기 위한 법적 중요성을 지닌 행위로 볼 수 없으므로, 정부가 개정법률안을 국회에 제출한 행위를 다투는 권한쟁의심판 청구는 부적법하다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 4번 ② 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q04-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "권한쟁의심판",
+      "rep": "예산 외에 국가의 부담이 될 계약체결에 대한 동의권은 국회에 속하나, 국회의원에게도 국회의 예산 외에 국가의 부담이 될 계약의 체결에 있어 동의권의 침해를 주장하는 권한쟁의심판의 청구인적격이 인정된다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 4번 ③ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 4번 ③"
+      ],
+      "refs": [
+        "변시4 4번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "예산 외에 국가의 부담이 될 계약체결에 대한 동의권은 국회에 속하나, 국회의원에게도 국회의 예산 외에 국가의 부담이 될 계약의 체결에 있어 동의권의 침해를 주장하는 권한쟁의심판의 청구인적격이 인정된다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 4번 ③ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q04-④",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "권한쟁의심판",
+      "rep": "지방자치단체는 기관위임사무의 집행에 관한 권한의 유무 및 범위에 관한 분쟁을 이유로 기관위임사무를 집행하는 국가기관 또는 다른 지방자치단체의 장을 상대로 권한쟁의심판을 청구할 수 없다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 4번 ④ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 4번 ④"
+      ],
+      "refs": [
+        "변시4 4번 ④"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "지방자치단체는 기관위임사무의 집행에 관한 권한의 유무 및 범위에 관한 분쟁을 이유로 기관위임사무를 집행하는 국가기관 또는 다른 지방자치단체의 장을 상대로 권한쟁의심판을 청구할 수 없다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 4번 ④ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q04-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "권한쟁의심판",
+      "rep": "지방자치단체는 국회의 법률제정행위가 자신의 자치권한을 침해했다고 주장하면서 권한쟁의심판을 청구할 수 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 4번 ⑤ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 4번 ⑤"
+      ],
+      "refs": [
+        "변시4 4번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "지방자치단체는 국회의 법률제정행위가 자신의 자치권한을 침해했다고 주장하면서 권한쟁의심판을 청구할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 4번 ⑤ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q05-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "기본권",
+      "rep": "기본권의 본질적 내용은 만약 이를 제한하는 경우에는 기본권 그 자체가 무의미하여지는 경우에 그 본질적인 요소를 말하는 것으로서, 이는 개별 기본권마다 다를 수 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 5번 ① 지문에서 확인한 O입니다.",
+      "ref": "헌법 제37조 제2항, 헌법 제37조",
+      "art": "제37조",
+      "artNo": 37,
+      "src": [
+        "변시4 5번 ①"
+      ],
+      "refs": [
+        "변시4 5번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "기본권의 본질적 내용은 만약 이를 제한하는 경우에는 기본권 그 자체가 무의미하여지는 경우에 그 본질적인 요소를 말하는 것으로서, 이는 개별 기본권마다 다를 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 5번 ① 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q05-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "기본권",
+      "rep": "흡연권은 사생활의 자유를 실질적 핵으로 하는 것이고 혐연권은 사생활의 자유뿐만 아니라 생명권에까지 연결되는 것이므로 혐연권이 흡연권보다 상위의 기본권이라고 할 수 있는바, 이처럼 상하의 위계질서가 있는 기본권끼리 충돌하는 경우 상위기본권우선의 원칙에 따라 흡연권은 혐연권을 침해하지 않는 한도 내에서 인정된다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 5번 ② 지문에서 확인한 O입니다.",
+      "ref": "헌법 제37조 제2항, 헌법 제37조",
+      "art": "제37조",
+      "artNo": 37,
+      "src": [
+        "변시4 5번 ②"
+      ],
+      "refs": [
+        "변시4 5번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "흡연권은 사생활의 자유를 실질적 핵으로 하는 것이고 혐연권은 사생활의 자유뿐만 아니라 생명권에까지 연결되는 것이므로 혐연권이 흡연권보다 상위의 기본권이라고 할 수 있는바, 이처럼 상하의 위계질서가 있는 기본권끼리 충돌하는 경우 상위기본권우선의 원칙에 따라 흡연권은 혐연권을 침해하지 않는 한도 내에서 인정된다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 5번 ② 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q05-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "기본권",
+      "rep": "침해의 최소성의 관점에서, 입법자는 그가 의도하는 공익을 달성하기 위하여 우선 기본권을 보다 적게 제한하는 단계인 기본권 행사의 ‘방법’에 관한 규제로써 공익을 실현할 수 있는지를 검토하고, 이러한 방법으로는 공익달성이 어렵다고 판단되는 경우에 비로소 그 다음 단계인 기본권 행사의 ‘여부’에 관한 규제를 선택해야 한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 5번 ③ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제37조 제2항, 헌법 제37조",
+      "art": "제37조",
+      "artNo": 37,
+      "src": [
+        "변시4 5번 ③"
+      ],
+      "refs": [
+        "변시4 5번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "침해의 최소성의 관점에서, 입법자는 그가 의도하는 공익을 달성하기 위하여 우선 기본권을 보다 적게 제한하는 단계인 기본권 행사의 ‘방법’에 관한 규제로써 공익을 실현할 수 있는가를 시도하고, 이러한 방법으로는 공익달성이 어렵다고 판단되는 경우에 비로소 그 다음 단계인 기본권 행사의 ‘여부’에 관한 규제를 선택해야 한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 5번 ③ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q05-④",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "기본권",
+      "rep": "헌법 제37조 제2항에 기본권의 제한은 법률로써 가능하도록 규정되어 있는바, 이는 기본권의 제한이 원칙적으로 국회에서 제정한 형식적 의미의 법률에 의해서만 가능하다는 것과, 직접 법률에 의하지 아니하는 예외적인 경우라 하더라도 엄격히 법률에 근거하여야 한다는 것을 의미한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 5번 ④ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제37조 제2항, 헌법 제37조",
+      "art": "제37조",
+      "artNo": 37,
+      "src": [
+        "변시4 5번 ④"
+      ],
+      "refs": [
+        "변시4 5번 ④"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "헌법 제37조 제2항에 기본권의 제한은 법률로써 가능하도록 규정되어 있는바, 이는 기본권의 제한이 원칙적으로 국회에서 제정한 형식적 의미의 법률에 의해서만 가능하다는 것과, 직접 법률에 의하지 아니하는 예외적인 경우라 하더라도 엄격히 법률에 근거하여야 한다는 것을 의미한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 5번 ④ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q05-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "기본권",
+      "rep": "국가작용에 있어서 선택하는 수단은 목적을 달성함에 있어서 필요하고 효과적이며 상대방에게 최소한의 피해를 줄 때에 한해서 정당성을 가지게 되고 상대방은 그 침해를 감수하게 되는 것인바, 국가작용에 있어서 취해지는 어떠한 조치나 선택된 수단은 그것이 달성하려는 사안의 목적에 적합하여야 함은 물론이고, 그 조치나 수단이 목적달성을 위하여 유일무이한 것이어야 한다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 5번 ⑤ 지문에서 확인한 X입니다.",
+      "ref": "헌법 제37조 제2항, 헌법 제37조",
+      "art": "제37조",
+      "artNo": 37,
+      "src": [
+        "변시4 5번 ⑤"
+      ],
+      "refs": [
+        "변시4 5번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "국가작용에 있어서 선택하는 수단은 목적을 달성함에 있어서 필요하고 효과적이며 상대방에게 최소한의 피해를 줄 때에 한해서 정당성을 가지게 되고 상대방은 그 침해를 감수하게 되는 것인바, 국가작용에 있어서 취해지는 어떠한 조치나 선택된 수단은 그것이 달성하려는 사안의 목적에 적합하여야 함은 물론이고, 그 조치나 수단이 목적달성을 위하여 유일무이한 것이어야 한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 5번 ⑤ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q06-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "표현의 자유",
+      "rep": "구체적인 전달이나 전파의 상대방이 없는 집필행위도 표현의 자유의 보호영역에 포함된다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 6번 ① 지문에서 확인한 O입니다.",
+      "ref": "헌법 제21조",
+      "art": "제21조",
+      "artNo": 21,
+      "src": [
+        "변시4 6번 ①"
+      ],
+      "refs": [
+        "변시4 6번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "구체적인 전달이나 전파의 상대방이 없는 집필행위도 표현의 자유의 보호영역에 포함된다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 6번 ① 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q06-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "표현의 자유",
+      "rep": "헌법 제21조 제2항의 검열금지조항은 절대적 금지를 의미하므로 국가안전보장·질서유지·공공복리를 위하여 필요한 경우라도 사전검열이 허용되지 않는다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 6번 ② 지문에서 확인한 O입니다.",
+      "ref": "헌법 제21조",
+      "art": "제21조",
+      "artNo": 21,
+      "src": [
+        "변시4 6번 ②"
+      ],
+      "refs": [
+        "변시4 6번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "헌법 제21조 제2항의 검열금지조항은 절대적 금지를 의미하므로 국가안전보장·질서유지·공공복리를 위하여 필요한 경우라도 사전검열이 허용되지 않는다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 6번 ② 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q06-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "표현의 자유",
+      "rep": "의사의 자유로운 표명과 전파의 자유에는 책임이 따르므로 자신의 신원을 밝히지 아니한 채 익명 또는 가명으로 자신의 사상이나 견해를 표명하고 전파할 익명표현의 자유는 보장되지 않는다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 6번 ③ 지문에서 확인한 X입니다.",
+      "ref": "헌법 제21조",
+      "art": "제21조",
+      "artNo": 21,
+      "src": [
+        "변시4 6번 ③"
+      ],
+      "refs": [
+        "변시4 6번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "의사의 자유로운 표명과 전파의 자유에는 책임이 따르므로 자신의 신원을 밝히지 아니한 채 익명 또는 가명으로 자신의 사상이나 견해를 표명하고 전파할 익명표현의 자유는 보장되지 않는다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 6번 ③ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q06-④",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "표현의 자유",
+      "rep": "정보 등을 불특정 다수인에게 전파하는 광고물도 헌법 제21조가 보장하는 언론·출판의 자유의 보호대상이 된다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 6번 ④ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제21조",
+      "art": "제21조",
+      "artNo": 21,
+      "src": [
+        "변시4 6번 ④"
+      ],
+      "refs": [
+        "변시4 6번 ④"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "정보 등을 불특정 다수인에게 전파하는 광고물도 헌법 제21조가 보장하는 언론·출판의 자유의 보호대상이 된다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 6번 ④ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q06-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "표현의 자유",
+      "rep": "음란표현도 헌법 제21조가 규정하는 언론·출판의 자유의 보호영역에 포함된다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 6번 ⑤ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제21조",
+      "art": "제21조",
+      "artNo": 21,
+      "src": [
+        "변시4 6번 ⑤"
+      ],
+      "refs": [
+        "변시4 6번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "음란표현도 헌법 제21조가 규정하는 언론·출판의 자유의 보호영역에 포함된다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 6번 ⑤ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q07-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "헌법재판",
+      "rep": "헌법재판소법은 헌법소원심판에 대해서만 국선대리인제도를 직접 규정하고 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 7번 ① 지문에서 확인한 O입니다.",
+      "ref": "헌법재판소법 제68조 제1항",
+      "art": "제68조",
+      "artNo": 68,
+      "src": [
+        "변시4 7번 ①"
+      ],
+      "refs": [
+        "변시4 7번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "｢헌법재판소법｣은 헌법소원심판에 대해서만 국선대리인제도를 직접 규정하고 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 7번 ① 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q07-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "헌법재판",
+      "rep": "심판에 관여한 재판관은 결정서에 의견을 표시하여야 하나, 탄핵심판과 정당해산심판의 경우 예외가 허용된다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 7번 ② 지문에서 확인한 X입니다.",
+      "ref": "헌법재판소법 제68조 제1항",
+      "art": "제68조",
+      "artNo": 68,
+      "src": [
+        "변시4 7번 ②"
+      ],
+      "refs": [
+        "변시4 7번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "심판에 관여한 재판관은 결정서에 의견을 표시하여야 하나, 탄핵심판과 정당해산심판의 경우 예외가 허용된다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 7번 ② 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q07-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "헌법재판",
+      "rep": "탄핵심판, 권한쟁의심판, 헌법소원심판은 반드시 구두변론을 거쳐야 한다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 7번 ③ 지문에서 확인한 X입니다.",
+      "ref": "헌법재판소법 제68조 제1항",
+      "art": "제68조",
+      "artNo": 68,
+      "src": [
+        "변시4 7번 ③"
+      ],
+      "refs": [
+        "변시4 7번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "탄핵심판, 권한쟁의심판, 헌법소원심판은 반드시 구두변론을 거쳐야 한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 7번 ③ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q07-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "헌법재판",
+      "rep": "헌법재판소는 한정위헌청구는 원칙적으로 적법하므로, 개별·구체적 사건에서 단순히 법률조항의 포섭이나 적용문제를 다투는 헌법소원심판 청구도 허용된다고 판시하였다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 7번 ⑤ 지문에서 확인한 X입니다.",
+      "ref": "헌법재판소법 제68조 제1항",
+      "art": "제68조",
+      "artNo": 68,
+      "src": [
+        "변시4 7번 ⑤"
+      ],
+      "refs": [
+        "변시4 7번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "헌법재판소는 한정위헌청구는 원칙적으로 적법하므로, 개별·구체적 사건에서 단순히 법률조항의 포섭이나 적용문제를 다투는 헌법소원심판 청구도 허용된다고 판시하였다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 7번 ⑤ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q08-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "기본권",
+      "rep": "행위자에게 변호사의 자격이 있는 경우가 아닌 한, 변호사를 대리인으로 선임하지 아니하면 행위자는 헌법소원심판 청구를 하거나 그 심판 수행을 하지 못한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 8번 ① 지문에서 확인한 O입니다.",
+      "ref": "헌법 제66조",
+      "art": "제66조",
+      "artNo": 66,
+      "src": [
+        "변시4 8번 ①"
+      ],
+      "refs": [
+        "변시4 8번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "甲에게 변호사의 자격이 있는 경우가 아닌 한, 변호사를 대리인으로 선임하지 아니하면 甲은 헌법소원심판 청구를 하거나 그 심판 수행을 하지 못한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 8번 ① 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q08-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "기본권",
+      "rep": "위 사법시험령 자체의 효력을 직접 다투는 것을 소송물로 하여 일반법원에 소를 제기하는 길이 없어 구제절차가 있는 경우가 아니므로, 행위자는 다른 구제절차를 거치지 않고 바로 헌법소원심판을 청구할 수 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 8번 ② 지문에서 확인한 O입니다.",
+      "ref": "헌법 제66조",
+      "art": "제66조",
+      "artNo": 66,
+      "src": [
+        "변시4 8번 ②"
+      ],
+      "refs": [
+        "변시4 8번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "위 ｢사법시험령｣ 자체의 효력을 직접 다투는 것을 소송물로 하여 일반법원에 소를 제기하는 길이 없어 구제절차가 있는 경우가 아니므로, 甲은 다른 구제절차를 거치지 않고 바로 헌법소원심판을 청구할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 8번 ② 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q08-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "기본권",
+      "rep": "기본권침해의 자기관련성이란 심판대상규정에 의하여 청구인의 기본권이 침해될 가능성이 있는가에 관한 것이고, 헌법소원은 주관적 기본권보장과 객관적 헌법보장 기능을 함께 가지고 있으므로 권리귀속에 대한 소명만으로써 자기관련성 구비 여부를 판단할 수 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 8번 ③ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제66조",
+      "art": "제66조",
+      "artNo": 66,
+      "src": [
+        "변시4 8번 ③"
+      ],
+      "refs": [
+        "변시4 8번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "기본권침해의 자기관련성이란 심판대상규정에 의하여 청구인의 기본권이 침해될 가능성이 있는가에 관한 것이고, 헌법소원은 주관적 기본권보장과 객관적 헌법보장 기능을 함께 가지고 있으므로 권리귀속에 대한 소명만으로써 자기관련성 구비 여부를 판단할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 8번 ③ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q08-④",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "기본권",
+      "rep": "헌법재판소법은 정당해산심판과 권한쟁의심판에 관해서만 가처분에 관한 규정을 두고 있으므로, 행위자는 위 사법시험령 제4조에 대하여 헌법소원심판 청구를 할 수 있을 뿐 이를 본안으로 하여 위 사법시험령 제4조의 효력정지를 구하는 가처분을 헌법재판소에 신청할 수 없다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 8번 ④ 지문에서 확인한 X입니다.",
+      "ref": "헌법 제66조",
+      "art": "제66조",
+      "artNo": 66,
+      "src": [
+        "변시4 8번 ④"
+      ],
+      "refs": [
+        "변시4 8번 ④"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "｢헌법재판소법｣은 정당해산심판과 권한쟁의심판에 관해서만 가처분에 관한 규정을 두고 있으므로, 甲은 위 ｢사법시험령｣ 제4조에 대하여 헌법소원심판 청구를 할 수 있을 뿐 이를 본안으로 하여 위 ｢사법시험령｣ 제4조의 효력정지를 구하는 가처분을 헌법재판소에 신청할 수 없다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 8번 ④ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q08-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "기본권",
+      "rep": "행위자의 헌법소원심판 청구 당시 권리보호이익이 인정되더라도 심판계속 중에 위 사법시험령 제4조가 폐지되어 더 이상 응시횟수의 제한이 없게 되는 등 사실관계 또는 법률관계의 변동으로 말미암아 행위자가 주장하는 기본권침해가 종료된 경우에는 원칙적으로 권리보호이익이 없다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 8번 ⑤ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제66조",
+      "art": "제66조",
+      "artNo": 66,
+      "src": [
+        "변시4 8번 ⑤"
+      ],
+      "refs": [
+        "변시4 8번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "甲의 헌법소원심판 청구 당시 권리보호이익이 인정되더라도 심판계속 중에 위 ｢사법시험령｣ 제4조가 폐지되어 더 이상 응시횟수의 제한이 없게 되는 등 사실관계 또는 법률관계의 변동으로 말미암아 甲이 주장하는 기본권침해가 종료된 경우에는 원칙적으로 권리보호이익이 없다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 8번 ⑤ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q09-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "국회",
+      "rep": "국무총리에 대한 탄핵소추 발의에는 국회재적의원 과반수의 발의가 필요하다.",
+      "a": "X",
+      "why": "국무총리에 대한 탄핵소추 발의정족수는 국회재적의원 3분의 1 이상이므로, 과반수 발의가 필요하다는 문장은 틀립니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 9번 ①"
+      ],
+      "refs": [
+        "변시4 9번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "교수 : 국무총리에 대한 탄핵소추의 발의에 필요한 최소한의 국회의원 수는 몇 명인가요? 학생 : 국회재적의원 과반수입니다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 9번 ① 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q09-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "국회",
+      "rep": "탄핵소추의 의결을 받은 자는 탄핵심판이 있을 때까지 권한행사가 정지된다.",
+      "a": "O",
+      "why": "탄핵소추 의결의 효과를 대화체 없이 정리했습니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 9번 ②"
+      ],
+      "refs": [
+        "변시4 9번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "교수 : 헌법은 탄핵소추의 의결을 받은 자의 권한행사에 관한 조항을 두고 있나요? 학생 : 네. 헌법은 탄핵소추의 의결을 받은 자는 탄핵심판이 있을 때까지 그 권한행사가 정지된다고 규정하고 있습니다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 9번 ② 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q09-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "국회",
+      "rep": "국회는 탄핵대상자가 직무상 헌법이나 법률을 위반한 경우 탄핵소추를 의결할 헌법상 작위의무를 부담한다.",
+      "a": "X",
+      "why": "탄핵소추권은 국회의 권한이지 개별 사안에서 곧바로 헌법상 작위의무가 되는 것은 아닙니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 9번 ③"
+      ],
+      "refs": [
+        "변시4 9번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "교수 : 국회는 탄핵소추의결을 하여야 할 헌법상 작위의무가 있나요? 학생 : 네. 국회는 헌법수호의무가 있기 때문에 탄핵대상자가 그 직무에 관하여 헌법이나 법률을 위반한 경우에는 탄핵소추를 의결할 헌법상의 의무가 있습니다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 9번 ③ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q09-④",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "국회",
+      "rep": "대통령의 정치적 무능력이나 정책결정상 잘못 등 직책을 성실히 수행하지 않은 사정은 그 자체로 탄핵사유가 된다.",
+      "a": "X",
+      "why": "대통령의 성실한 직책수행의무 위반은 그 자체만으로 탄핵사유가 되지 않습니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 9번 ④"
+      ],
+      "refs": [
+        "변시4 9번 ④"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "교수 : 대통령이 직책을 성실하게 수행하지 아니한 것도 탄핵사유가 되나요? 학생 : 대통령의 정치적 무능력이나 정책결정상의 잘못 등 직책을 성실하게 수행하지 아니한 것은 헌법이나 법률을 위배한 것과 같기 때문에 탄핵사유가 됩니다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 9번 ④ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q09-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "국회",
+      "rep": "탄핵결정은 피청구인의 민사상ㆍ형사상 책임을 면제한다.",
+      "a": "X",
+      "why": "탄핵결정은 공직 파면의 효과를 가질 뿐, 민사상ㆍ형사상 책임을 면제하지 않습니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 9번 ⑤"
+      ],
+      "refs": [
+        "변시4 9번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "교수 : 탄핵결정이 있을 경우 피청구인은 민사상 또는 형사상의 책임을 지나요? 학생 : 아닙니다. 탄핵결정으로 피청구인의 모든 책임이 면제됩니다. 탄핵결정으로 공직에서 파면된 피청구인에게 민·형사상의 책임을 또 지게 하는 것은 너무 가혹합니다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 9번 ⑤ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q10-ㄱ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "국회",
+      "rep": "구 법원조직법이 법관의 정년을 직위에 따라 대법원장 70세, 대법관 65세, 그 이외의 법관 63세로 정한 것은 법관 업무의 성격과 특수성, 평균수명, 조직체 내의 질서 등을 고려하여 정한 것으로 그 차별에 합리적인 이유가 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 10번 ㄱ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제101조",
+      "art": "제101조",
+      "artNo": 101,
+      "src": [
+        "변시4 10번 ㄱ"
+      ],
+      "refs": [
+        "변시4 10번 ㄱ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "구 ｢법원조직법｣이 법관의 정년을 직위에 따라 대법원장 70세, 대법관 65세, 그 이외의 법관 63세로 정한 것은 법관 업무의 성격과 특수성, 평균수명, 조직체 내의 질서 등을 고려하여 정한 것으로 그 차별에 합리적인 이유가 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 10번 ㄱ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q10-ㄴ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "국회",
+      "rep": "형법 조항이 집행유예의 요건을 ‘3년 이하의 징역 또는 금고의 형을 선고할 경우’로 한정하고 있는 것은 법관의 양형판단권을 근본적으로 제한하거나 사법권의 본질을 침해하지 아니한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 10번 ㄴ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제101조",
+      "art": "제101조",
+      "artNo": 101,
+      "src": [
+        "변시4 10번 ㄴ"
+      ],
+      "refs": [
+        "변시4 10번 ㄴ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "｢형법｣ 조항이 집행유예의 요건을 ‘3년 이하의 징역 또는 금고의 형을 선고할 경우’로 한정하고 있는 것은 법관의 양형판단권을 근본적으로 제한하거나 사법권의 본질을 침해하지 아니한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 10번 ㄴ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q10-ㄷ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "국회",
+      "rep": "국회의원선거에 있어서 선거의 효력에 관하여 이의가 있는 선거인·정당 또는 후보자는 선거일부터 30일 이내에 당해 선거구선거관리위원회위원장을 피고로 하여 관할 고등법원에 소를 제기할 수 있다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 10번 ㄷ 지문에서 확인한 X입니다.",
+      "ref": "헌법 제101조",
+      "art": "제101조",
+      "artNo": 101,
+      "src": [
+        "변시4 10번 ㄷ"
+      ],
+      "refs": [
+        "변시4 10번 ㄷ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "국회의원선거에 있어서 선거의 효력에 관하여 이의가 있는 선거인·정당 또는 후보자는 선거일부터 30일 이내에 당해 선거구선거관리위원회위원장을 피고로 하여 관할 고등법원에 소를 제기할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 10번 ㄷ 지문은 정답표상 X입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q10-ㄹ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "국회",
+      "rep": "법관은 징역 이상의 형의 선고에 의하지 아니하고는 파면되지 아니한다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 10번 ㄹ 지문에서 확인한 X입니다.",
+      "ref": "헌법 제101조",
+      "art": "제101조",
+      "artNo": 101,
+      "src": [
+        "변시4 10번 ㄹ"
+      ],
+      "refs": [
+        "변시4 10번 ㄹ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "법관은 징역 이상의 형의 선고에 의하지 아니하고는 파면되지 아니한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 10번 ㄹ 지문은 정답표상 X입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q11-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "대통령",
+      "rep": "정부조직법은 행정각부의 장이 아닌 국무위원을 인정하고 있지 않다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 11번 ① 지문에서 확인한 X입니다.",
+      "ref": "헌법 제66조",
+      "art": "제66조",
+      "artNo": 66,
+      "src": [
+        "변시4 11번 ①"
+      ],
+      "refs": [
+        "변시4 11번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "｢정부조직법｣은 행정각부의 장이 아닌 국무위원을 인정하고 있지 않다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 11번 ① 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q11-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "대통령",
+      "rep": "비상계엄이 선포된 때에는 법률이 정하는 바에 의하여 영장제도, 언론·출판·집회·결사의 자유, 정부나 법원의 권한에 관하여 특별한 조치를 할 수 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 11번 ② 지문에서 확인한 O입니다.",
+      "ref": "헌법 제66조",
+      "art": "제66조",
+      "artNo": 66,
+      "src": [
+        "변시4 11번 ②"
+      ],
+      "refs": [
+        "변시4 11번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "비상계엄이 선포된 때에는 법률이 정하는 바에 의하여 영장제도, 언론·출판·집회·결사의 자유, 정부나 법원의 권한에 관하여 특별한 조치를 할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 11번 ② 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q11-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "대통령",
+      "rep": "대통령은 법률안의 일부에 대하여 또는 법률안을 수정하여 국회에 재의를 요구할 수 없다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 11번 ③ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제66조",
+      "art": "제66조",
+      "artNo": 66,
+      "src": [
+        "변시4 11번 ③"
+      ],
+      "refs": [
+        "변시4 11번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "대통령은 법률안의 일부에 대하여 또는 법률안을 수정하여 국회에 재의를 요구할 수 없다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 11번 ③ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q11-④",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "대통령",
+      "rep": "입법권자는 헌법 제96조에 의하여 법률로써 행정을 담당하는 행정기관을 설치함에 있어, 국무총리가 대통령의 명을 받아 통할하는 기관 외에도 대통령이 직접 통할하는 기관을 설치할 수 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 11번 ④ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제66조",
+      "art": "제66조",
+      "artNo": 66,
+      "src": [
+        "변시4 11번 ④"
+      ],
+      "refs": [
+        "변시4 11번 ④"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "입법권자는 헌법 제96조에 의하여 법률로써 행정을 담당하는 행정기관을 설치함에 있어, 국무총리가 대통령의 명을 받아 통할하는 기관 외에도 대통령이 직접 통할하는 기관을 설치할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 11번 ④ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q11-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "대통령",
+      "rep": "국무회의는 대통령·국무총리와 15인 이상 30인 이하의 국무위원으로 구성하며, 행정각부간의 권한의 획정을 심의한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 11번 ⑤ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제66조",
+      "art": "제66조",
+      "artNo": 66,
+      "src": [
+        "변시4 11번 ⑤"
+      ],
+      "refs": [
+        "변시4 11번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "국무회의는 대통령·국무총리와 15인 이상 30인 이하의 국무위원으로 구성하며, 행정각부간의 권한의 획정을 심의한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 11번 ⑤ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q12-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "재산권",
+      "rep": "헌법 제23조의 재산권은 민법상의 소유권뿐만 아니라, 재산적 가치 있는 사법상의 물권·채권 등 모든 권리를 포함하며, 국가로부터의 일방적인 급부가 아닌 자기 노력의 대가나 자본의 투자 등 특별한 희생을 통하여 얻은 공법상의 권리도 포함한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 12번 ① 지문에서 확인한 O입니다.",
+      "ref": "헌법 제23조",
+      "art": "제23조",
+      "artNo": 23,
+      "src": [
+        "변시4 12번 ①"
+      ],
+      "refs": [
+        "변시4 12번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "헌법 제23조의 재산권은 ｢민법｣상의 소유권뿐만 아니라, 재산적 가치 있는 사법상의 물권·채권 등 모든 권리를 포함하며, 국가로부터의 일방적인 급부가 아닌 자기 노력의 대가나 자본의 투자 등 특별한 희생을 통하여 얻은 공법상의 권리도 포함한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 12번 ① 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q12-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "재산권",
+      "rep": "헌법재판소는 도로의 지표 지하 50미터 이내의 장소에서는 관할 관청의 허가나 소유자 또는 이해관계인의 승낙이 없으면 광물을 채굴할 수 없도록 규정한 구 광업법 조항에 대하여, 다른 권리와의 충돌가능성이 내재되어 있는 광업권의 특성을 감안하더라도 위와 같은 제한은 광업권자가 수인하여야 하는 사회적 제약의 범주를 벗어나 광업권자의 재산권을 침해한다고 판시하였다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 12번 ② 지문에서 확인한 X입니다.",
+      "ref": "헌법 제23조",
+      "art": "제23조",
+      "artNo": 23,
+      "src": [
+        "변시4 12번 ②"
+      ],
+      "refs": [
+        "변시4 12번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "헌법재판소는 도로의 지표 지하 50미터 이내의 장소에서는 관할 관청의 허가나 소유자 또는 이해관계인의 승낙이 없으면 광물을 채굴할 수 없도록 규정한 구 ｢광업법｣ 조항에 대하여, 다른 권리와의 충돌가능성이 내재되어 있는 광업권의 특성을 감안하더라도 위와 같은 제한은 광업권자가 수인하여야 하는 사회적 제약의 범주를 벗어나 광업권자의 재산권을 침해한다고 판시하였다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 12번 ② 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q12-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "재산권",
+      "rep": "군인연금법상 퇴역연금수급권과 같이 연금수급인 자신이 기여금의 납부를 통해 연금의 재원 형성에 일부 기여하는 경우에는 이러한 연금수급권은 사회적 기본권의 하나인 사회보장 수급권의 성격을 지니면서도 재산권으로서의 성격을 아울러 지닌다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 12번 ③ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제23조",
+      "art": "제23조",
+      "artNo": 23,
+      "src": [
+        "변시4 12번 ③"
+      ],
+      "refs": [
+        "변시4 12번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "｢군인연금법｣상 퇴역연금수급권과 같이 연금수급인 자신이 기여금의 납부를 통해 연금의 재원 형성에 일부 기여하는 경우에는 이러한 연금수급권은 사회적 기본권의 하나인 사회보장 수급권의 성격을 지니면서도 재산권으로서의 성격을 아울러 지닌다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 12번 ③ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q12-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "재산권",
+      "rep": "헌법재판소는 개인파산절차에서 면책을 받은 채무자가 악의로 채권자목록에 기재하지 않은 청구권에 대해서만 면책의 예외를 인정하고, 파산채권자에게 채무자의 악의를 입증하도록 규정한 채무자 회생 및 파산에 관한 법률 조항은 파산채권자의 재산권을 침해하지 않는다고 판시하였다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 12번 ⑤ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제23조",
+      "art": "제23조",
+      "artNo": 23,
+      "src": [
+        "변시4 12번 ⑤"
+      ],
+      "refs": [
+        "변시4 12번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "헌법재판소는 개인파산절차에서 면책을 받은 채무자가 악의로 채권자목록에 기재하지 않은 청구권에 대해서만 면책의 예외를 인정하고, 파산채권자에게 채무자의 악의를 입증하도록 규정한 ｢채무자 회생 및 파산에 관한 법률｣ 조항은 파산채권자의 재산권을 침해하지 않는다고 판시하였다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 12번 ⑤ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q13-ㄱ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "재산권",
+      "rep": "헌법재판소는 유사석유제품 제조자와 석유제품 제조자 모두에게 교통·에너지·환경세를 부과하면서 동일하게 제조량을 과세표준으로 삼은 것은 조세평등주의에 위반되지 않는다고 판시하였다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 13번 ㄱ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 13번 ㄱ"
+      ],
+      "refs": [
+        "변시4 13번 ㄱ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "헌법재판소는 유사석유제품 제조자와 석유제품 제조자 모두에게 교통·에너지·환경세를 부과하면서 동일하게 제조량을 과세표준으로 삼은 것은 조세평등주의에 위반되지 않는다고 판시하였다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 13번 ㄱ 지문은 정답표상 O입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q13-ㄴ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "재산권",
+      "rep": "특정인이나 특정계층에 대하여 조세감면조치를 취하는 것은 국민의 재산권에 대한 제한이 아니기 때문에 법률로 규정하지 않더라도 언제나 가능하다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 13번 ㄴ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 13번 ㄴ"
+      ],
+      "refs": [
+        "변시4 13번 ㄴ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "특정인이나 특정계층에 대하여 조세감면조치를 취하는 것은 국민의 재산권에 대한 제한이 아니기 때문에 법률로 규정하지 않더라도 언제나 가능하다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 13번 ㄴ 지문은 정답표상 X입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q13-ㄷ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "재산권",
+      "rep": "헌법재판소는 사회보험료인 구 국민건강보험법상의 보험료는 특정의 반대급부 없이 금전납부의무를 부담하는 세금과는 달리, 반대급부인 보험급여를 전제로 하고 있고, 부과주체가 국가 또는 지방자치단체가 아니며, 그 징수절차가 조세와 다르므로 조세법률주의가 적용되지 않는다고 판시하였다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 13번 ㄷ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 13번 ㄷ"
+      ],
+      "refs": [
+        "변시4 13번 ㄷ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "헌법재판소는 사회보험료인 구 ｢국민건강보험법｣상의 보험료는 특정의 반대급부 없이 금전납부의무를 부담하는 세금과는 달리, 반대급부인 보험급여를 전제로 하고 있고, 부과주체가 국가 또는 지방자치단체가 아니며, 그 징수절차가 조세와 다르므로 조세법률주의가 적용되지 않는다고 판시하였다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 13번 ㄷ 지문은 정답표상 O입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q13-ㄹ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "재산권",
+      "rep": "어떤 공적 과제에 관한 재정조달을 조세로 할 것인지 아니면 부담금으로 할 것인지에 관하여 입법자의 자유로운 선택권이 허용된다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 13번 ㄹ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 13번 ㄹ"
+      ],
+      "refs": [
+        "변시4 13번 ㄹ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "어떤 공적 과제에 관한 재정조달을 조세로 할 것인지 아니면 부담금으로 할 것인지에 관하여 입법자의 자유로운 선택권이 허용된다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 13번 ㄹ 지문은 정답표상 X입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q15-ㄱ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "국회",
+      "rep": "1960년 제3차 개정헌법은 처음으로 정당에 대한 보호조항을 두었다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 15번 ㄱ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제40조",
+      "art": "제40조",
+      "artNo": 40,
+      "src": [
+        "변시4 15번 ㄱ"
+      ],
+      "refs": [
+        "변시4 15번 ㄱ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "1960년 제3차 개정헌법은 처음으로 정당에 대한 보호조항을 두었다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 15번 ㄱ 지문은 정답표상 O입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q15-ㄴ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "국회",
+      "rep": "1962년 제5차 개정헌법은 법률에 대한 최종적 위헌심사권을 대법원에 부여하였다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 15번 ㄴ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제40조",
+      "art": "제40조",
+      "artNo": 40,
+      "src": [
+        "변시4 15번 ㄴ"
+      ],
+      "refs": [
+        "변시4 15번 ㄴ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "1962년 제5차 개정헌법은 법률에 대한 최종적 위헌심사권을 대법원에 부여하였다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 15번 ㄴ 지문은 정답표상 O입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q15-ㄷ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "국회",
+      "rep": "대한민국임시정부의 법통계승은 현행헌법 전문에 처음으로 명문화되었다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 15번 ㄷ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제40조",
+      "art": "제40조",
+      "artNo": 40,
+      "src": [
+        "변시4 15번 ㄷ"
+      ],
+      "refs": [
+        "변시4 15번 ㄷ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "대한민국임시정부의 법통계승은 현행헌법 전문에 처음으로 명문화되었다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 15번 ㄷ 지문은 정답표상 O입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q15-ㄹ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "국회",
+      "rep": "제헌헌법은 대통령간선제를 채택하였다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 15번 ㄹ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제40조",
+      "art": "제40조",
+      "artNo": 40,
+      "src": [
+        "변시4 15번 ㄹ"
+      ],
+      "refs": [
+        "변시4 15번 ㄹ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "제헌헌법은 대통령간선제를 채택하였다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 15번 ㄹ 지문은 정답표상 O입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q16-ㄱ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "혼합공법",
+      "topic": "국회",
+      "rep": "국회의원은 2 이상의 상임위원회의 위원이 될 수 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 16번 ㄱ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제40조",
+      "art": "제40조",
+      "artNo": 40,
+      "src": [
+        "변시4 16번 ㄱ"
+      ],
+      "refs": [
+        "변시4 16번 ㄱ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "국회의원은 2 이상의 상임위원회의 위원이 될 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 16번 ㄱ 지문은 정답표상 O입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q16-ㄴ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "혼합공법",
+      "topic": "국회",
+      "rep": "국회법상 상설특별위원회로는 예산결산특별위원회와 국정조사특별위원회가 있고, 윤리특별위원회와 인사청문특별위원회는 한시적 특별위원회에 속한다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 16번 ㄴ 지문에서 확인한 X입니다.",
+      "ref": "헌법 제40조",
+      "art": "제40조",
+      "artNo": 40,
+      "src": [
+        "변시4 16번 ㄴ"
+      ],
+      "refs": [
+        "변시4 16번 ㄴ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "｢국회법｣상 상설특별위원회로는 예산결산특별위원회와 국정조사특별위원회가 있고, 윤리특별위원회와 인사청문특별위원회는 한시적 특별위원회에 속한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 16번 ㄴ 지문은 정답표상 X입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q16-ㄷ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "혼합공법",
+      "topic": "국회",
+      "rep": "교섭단체소속 국회의원만 국회 정보위원회 위원이 될 수 있도록 한 국회법 조항은 교섭단체소속이 아닌 국회의원의 평등권을 제한한다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 16번 ㄷ 지문에서 확인한 X입니다.",
+      "ref": "헌법 제40조",
+      "art": "제40조",
+      "artNo": 40,
+      "src": [
+        "변시4 16번 ㄷ"
+      ],
+      "refs": [
+        "변시4 16번 ㄷ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "교섭단체소속 국회의원만 국회 정보위원회 위원이 될 수 있도록 한 ｢국회법｣ 조항은 교섭단체소속이 아닌 국회의원의 평등권을 제한한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 16번 ㄷ 지문은 정답표상 X입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q17-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "기본권",
+      "rep": "기본권에 대한 국가의 적극적 보호의무는 궁극적으로 입법자의 입법행위를 통하여 비로소 실현될 수 있는 것이기 때문에, 입법자의 입법행위를 매개로 하지 아니하고 단순히 기본권이 존재한다는 것만으로 헌법상 광범위한 방어적 기능을 갖게 되는 기본권의 소극적 방어권으로서의 측면과 근본적인 차이가 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 17번 ② 지문에서 확인한 O입니다.",
+      "ref": "헌법 제37조 제2항, 헌법 제37조",
+      "art": "제37조",
+      "artNo": 37,
+      "src": [
+        "변시4 17번 ②"
+      ],
+      "refs": [
+        "변시4 17번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "기본권에 대한 국가의 적극적 보호의무는 궁극적으로 입법자의 입법행위를 통하여 비로소 실현될 수 있는 것이기 때문에, 입법자의 입법행위를 매개로 하지 아니하고 단순히 기본권이 존재한다는 것만으로 헌법상 광범위한 방어적 기능을 갖게 되는 기본권의 소극적 방어권으로서의 측면과 근본적인 차이가 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 17번 ② 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q17-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "기본권",
+      "rep": "헌법재판소는 업무상과실 또는 중대한 과실로 인한 교통사고로 말미암아 피해자로 하여금 중상해에 이르게 한 경우, 교통사고를 일으킨 차가 종합보험 등에 가입되었다면 당해 차의 운전자에 대하여 공소를 제기할 수 없도록 한 교통사고처리특례법 조항은 교통사고 피해자에 대한 국가의 기본권 보호의무를 위반한다고 판시하였다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 17번 ③ 지문에서 확인한 X입니다.",
+      "ref": "헌법 제37조 제2항, 헌법 제37조",
+      "art": "제37조",
+      "artNo": 37,
+      "src": [
+        "변시4 17번 ③"
+      ],
+      "refs": [
+        "변시4 17번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "헌법재판소는 업무상과실 또는 중대한 과실로 인한 교통사고로 말미암아 피해자로 하여금 중상해에 이르게 한 경우, 교통사고를 일으킨 차가 종합보험 등에 가입되었다면 당해 차의 운전자에 대하여 공소를 제기할 수 없도록 한 ｢교통사고처리특례법｣ 조항은 교통사고 피해자에 대한 국가의 기본권 보호의무를 위반한다고 판시하였다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 17번 ③ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q17-④",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "기본권",
+      "rep": "국가가 기본권 보호의무를 어떻게 어느 정도로 이행할 것인지는 입법자가 제반사정을 고려하여 입법정책적으로 판단하여야 하는 입법재량의 범위에 속하는 것이다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 17번 ④ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제37조 제2항, 헌법 제37조",
+      "art": "제37조",
+      "artNo": 37,
+      "src": [
+        "변시4 17번 ④"
+      ],
+      "refs": [
+        "변시4 17번 ④"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "국가가 기본권 보호의무를 어떻게 어느 정도로 이행할 것인지는 입법자가 제반사정을 고려하여 입법정책적으로 판단하여야 하는 입법재량의 범위에 속하는 것이다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 17번 ④ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q17-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "기본권",
+      "rep": "헌법재판소는 국가의 기본권 보호의무 위반 여부를 심사함에 있어 권력분립의 관점에서 과소보호금지원칙을, 즉 국가가 국민의 기본권 보호를 위하여 적어도 적절하고 효율적인 최소한의 보호조치를 취했는가를 기준으로 심사한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 17번 ⑤ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제37조 제2항, 헌법 제37조",
+      "art": "제37조",
+      "artNo": 37,
+      "src": [
+        "변시4 17번 ⑤"
+      ],
+      "refs": [
+        "변시4 17번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "헌법재판소는 국가의 기본권 보호의무 위반 여부를 심사함에 있어 권력분립의 관점에서 과소보호금지원칙을, 즉 국가가 국민의 기본권 보호를 위하여 적어도 적절하고 효율적인 최소한의 보호조치를 취했는가를 기준으로 심사한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 17번 ⑤ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q18-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "혼합공법",
+      "topic": "행정입법",
+      "rep": "법률조항의 위임에 따라 대통령령으로 규정한 내용이 헌법에 위반되는 경우에는 그로 인하여 모법인 해당 수권(授權) 법률조항도 위헌으로 된다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 18번 ① 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 18번 ①"
+      ],
+      "refs": [
+        "변시4 18번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "법률조항의 위임에 따라 대통령령으로 규정한 내용이 헌법에 위반되는 경우에는 그로 인하여 모법인 해당 수권(授權) 법률조항도 위헌으로 된다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 18번 ① 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q18-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정입법",
+      "rep": "조례에 대한 법률의 위임은 법규명령에 대한 법률의 위임과 같이 반드시 구체적으로 범위를 정하여 할 필요가 없으며 포괄적인 것으로 족하다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 18번 ② 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 18번 ②"
+      ],
+      "refs": [
+        "변시4 18번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "조례에 대한 법률의 위임은 법규명령에 대한 법률의 위임과 같이 반드시 구체적으로 범위를 정하여 할 필요가 없으며 포괄적인 것으로 족하다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 18번 ② 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q18-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "혼합공법",
+      "topic": "행정입법",
+      "rep": "헌법이 인정하고 있는 위임입법의 형식은 예시적인 것으로 보아야 할 것인바, 입법자에게 상세한 규율이 불가능한 것으로 보이는 영역이라면 행정부에 필요한 보충을 할 책임이 인정되고 극히 전문적인 식견에 좌우되는 영역에서는 행정규칙에 대한 위임입법이 제한적으로 인정될 수 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 18번 ③ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 18번 ③"
+      ],
+      "refs": [
+        "변시4 18번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "헌법이 인정하고 있는 위임입법의 형식은 예시적인 것으로 보아야 할 것인바, 입법자에게 상세한 규율이 불가능한 것으로 보이는 영역이라면 행정부에 필요한 보충을 할 책임이 인정되고 극히 전문적인 식견에 좌우되는 영역에서는 행정규칙에 대한 위임입법이 제한적으로 인정될 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 18번 ③ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q18-④",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정입법",
+      "rep": "위임조항에서 위임의 구체적 범위를 명확히 규정하고 있지 않다고 하더라도 당해 법률의 전반적 체계와 관련규정에 비추어 위임조항의 내재적인 위임의 범위나 한계를 객관적으로 분명히 확정할 수 있다면 이를 포괄적인 백지위임에 해당하는 것으로 볼 수 없다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 18번 ④ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 18번 ④"
+      ],
+      "refs": [
+        "변시4 18번 ④"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "위임조항에서 위임의 구체적 범위를 명확히 규정하고 있지 않다고 하더라도 당해 법률의 전반적 체계와 관련규정에 비추어 위임조항의 내재적인 위임의 범위나 한계를 객관적으로 분명히 확정할 수 있다면 이를 포괄적인 백지위임에 해당하는 것으로 볼 수 없다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 18번 ④ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q18-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정입법",
+      "rep": "법률에서 위임받은 사항을 전혀 규정하지 아니하고 그대로 재위임하는 것은 허용되지 않으며, 위임받은 사항에 관하여 대강을 정하고 그 중의 특정사항을 범위를 정하여 하위법령에 다시 위임하는 경우에만 재위임이 허용된다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 18번 ⑤ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 18번 ⑤"
+      ],
+      "refs": [
+        "변시4 18번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "법률에서 위임받은 사항을 전혀 규정하지 아니하고 그대로 재위임하는 것은 허용되지 않으며, 위임받은 사항에 관하여 대강을 정하고 그 중의 특정사항을 범위를 정하여 하위법령에 다시 위임하는 경우에만 재위임이 허용된다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 18번 ⑤ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q19-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "식품위생법",
+      "rep": "A시장이 행위자의 지위승계신고를 수리하는 행위는 실질적으로 상대방의 영업허가를 취소함과 아울러 행위자에게 적법하게 영업을 할 수 있는 권리를 설정하여 주는 행위이다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 19번 ① 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 19번 ①"
+      ],
+      "refs": [
+        "변시4 19번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "A시장이 甲의 지위승계신고를 수리하는 행위는 실질적으로 乙의 영업허가를 취소함과 아울러 甲에게 적법하게 영업을 할 수 있는 권리를 설정하여 주는 행위이다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 19번 ① 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q19-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "식품위생법",
+      "rep": "A시장의 상대방에 대한 영업허가는 대물적 허가이지만, 만일 상대방에 대한 영업정지처분이 내려졌다면 그 효과는 행위자에게 승계되지 않음이 원칙이다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 19번 ② 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 19번 ②"
+      ],
+      "refs": [
+        "변시4 19번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "A시장의 乙에 대한 영업허가는 대물적 허가이지만, 만일 乙에 대한 영업정지처분이 내려졌다면 그 효과는 甲에게 승계되지 않음이 원칙이다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 19번 ② 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q19-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "식품위생법",
+      "rep": "만일 A시장이 2013. 11. 27. 상대방에 대한 허가취소처분을 하였다면, 행위자는 지위승계신고 수리 이전이라도 사실상 양수인으로서 이를 소송상 다툴 법률상 이익이 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 19번 ③ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 19번 ③"
+      ],
+      "refs": [
+        "변시4 19번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "만일 A시장이 2013. 11. 27. 乙에 대한 허가취소처분을 하였다면, 甲은 지위승계신고 수리 이전이라도 사실상 양수인으로서 이를 소송상 다툴 법률상 이익이 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 19번 ③ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q19-④",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "식품위생법",
+      "rep": "A시장은 지위승계신고를 수리할 경우 상대방에게 사전통지하여야 한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 19번 ④ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 19번 ④"
+      ],
+      "refs": [
+        "변시4 19번 ④"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "A시장은 지위승계신고를 수리할 경우 乙에게 사전통지하여야 한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 19번 ④ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q19-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "식품위생법",
+      "rep": "영업양도가 무효이면 지위승계신고 수리가 있었더라도 그 수리는 무효이므로 상대방은 민사쟁송으로 양도·양수행위의 무효를 구함이 없이 막바로 허가관청을 상대로 신고수리처분의 무효확인을 구할 법률상 이익이 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 19번 ⑤ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 19번 ⑤"
+      ],
+      "refs": [
+        "변시4 19번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "영업양도가 무효이면 지위승계신고 수리가 있었더라도 그 수리는 무효이므로 乙은 민사쟁송으로 양도·양수행위의 무효를 구함이 없이 막바로 허가관청을 상대로 신고수리처분의 무효확인을 구할 법률상 이익이 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 19번 ⑤ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q20-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "거부처분",
+      "rep": "A시장의 건축허가거부처분은 사전통지의 대상이 아니므로, 허가거부에 앞서 미리 행위자에게 그 내용을 통지하지 않았다고 하더라도 이로써 위 거부처분이 위법하게 되는 것은 아니다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 20번 ① 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 20번 ①"
+      ],
+      "refs": [
+        "변시4 20번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "A시장의 건축허가거부처분은 사전통지의 대상이 아니므로, 허가거부에 앞서 미리 甲에게 그 내용을 통지하지 않았다고 하더라도 이로써 위 거부처분이 위법하게 되는 것은 아니다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 20번 ① 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q20-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "거부처분",
+      "rep": "행위자의 건축허가신청 후 건축허가기준에 관한 관계 법령의 규정이 개정된 경우, A시장은 새로이 개정된 법령의 경과규정에서 달리 정하는 경우 등을 제외하고는 처분 당시에 시행되는 개정 법령과 그에서 정한 기준에 의하여 허가 여부를 결정하는 것이 원칙이다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 20번 ② 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 20번 ②"
+      ],
+      "refs": [
+        "변시4 20번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "甲의 건축허가신청 후 건축허가기준에 관한 관계 법령의 규정이 개정된 경우, A시장은 새로이 개정된 법령의 경과규정에서 달리 정하는 경우 등을 제외하고는 처분 당시에 시행되는 개정 법령과 그에서 정한 기준에 의하여 허가 여부를 결정하는 것이 원칙이다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 20번 ② 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q20-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "거부처분",
+      "rep": "만일 A시장이 행위자의 건축허가신청에 대한 거부에 앞서 건축위원회의 심의를 거치지 않았다면 이는 절차상 하자에 해당하므로 법원은 이를 이유로 건축허가거부처분을 취소할 수 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 20번 ③ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 20번 ③"
+      ],
+      "refs": [
+        "변시4 20번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "만일 A시장이 甲의 건축허가신청에 대한 거부에 앞서 건축위원회의 심의를 거치지 않았다면 이는 절차상 하자에 해당하므로 법원은 이를 이유로 건축허가거부처분을 취소할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 20번 ③ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q20-④",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "거부처분",
+      "rep": "주변 환경에 대한 고려는 비대체적 결정영역 또는 예측결정으로서 판단여지가 인정되는 영역이므로, 주변 환경과 조화되지 않는다는 A시장의 판단에 대해서 법원은 사법심사를 할 수 없다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 20번 ④ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 20번 ④"
+      ],
+      "refs": [
+        "변시4 20번 ④"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "주변 환경에 대한 고려는 비대체적 결정영역 또는 예측결정으로서 판단여지가 인정되는 영역이므로, 주변 환경과 조화되지 않는다는 A시장의 판단에 대해서 법원은 사법심사를 할 수 없다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 20번 ④ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q20-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "거부처분",
+      "rep": "행위자가 A시장의 건축허가거부처분에 대해 취소소송을 제기하여 인용판결을 받아 확정된 경우에도, A시장은 위 소송의 계속 중에 개정된 관계 법령에 따라 강화된 건축허가기준의 미비를 이유로 행위자에게 재차 건축허가거부처분을 할 수 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 20번 ⑤ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 20번 ⑤"
+      ],
+      "refs": [
+        "변시4 20번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "甲이 A시장의 건축허가거부처분에 대해 취소소송을 제기하여 인용판결을 받아 확정된 경우에도, A시장은 위 소송의 계속 중에 개정된 관계 법령에 따라 강화된 건축허가기준의 미비를 이유로 甲에게 재차 건축허가거부처분을 할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 20번 ⑤ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q21-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정소송",
+      "rep": "합의제행정기관이 한 처분에 대하여는 그 기관 자체가 피고가 되는 것이 원칙이므로 중앙노동위원회의 처분에 대한 소는 중앙노동위원회를 피고로 하여야 한다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 21번 ① 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 21번 ①"
+      ],
+      "refs": [
+        "변시4 21번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "합의제행정기관이 한 처분에 대하여는 그 기관 자체가 피고가 되는 것이 원칙이므로 중앙노동위원회의 처분에 대한 소는 중앙노동위원회를 피고로 하여야 한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 21번 ① 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q21-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정소송",
+      "rep": "당사자소송의 원고가 피고를 잘못 지정하여 피고경정신청을 한 경우 법원은 결정으로써 피고의 경정을 허가할 수 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 21번 ② 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 21번 ②"
+      ],
+      "refs": [
+        "변시4 21번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "당사자소송의 원고가 피고를 잘못 지정하여 피고경정신청을 한 경우 법원은 결정으로써 피고의 경정을 허가할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 21번 ② 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q21-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정소송",
+      "rep": "행정소송법은 취소소송에서 원고가 피고를 잘못 지정한 경우 피고가 본안에서 변론을 한 이후에는 피고의 동의를 얻어야 피고경정이 가능하다고 규정하고 있다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 21번 ③ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 21번 ③"
+      ],
+      "refs": [
+        "변시4 21번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "｢행정소송법｣은 취소소송에서 원고가 피고를 잘못 지정한 경우 피고가 본안에서 변론을 한 이후에는 피고의 동의를 얻어야 피고경정이 가능하다고 규정하고 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 21번 ③ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q21-④",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정소송",
+      "rep": "피고경정으로 인한 피고의 변경은 당사자의 동일성을 바꾸는 것이므로 피고를 경정하는 경우 제소기간의 준수 여부는 피고를 경정한 때를 기준으로 한다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 21번 ④ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 21번 ④"
+      ],
+      "refs": [
+        "변시4 21번 ④"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "피고경정으로 인한 피고의 변경은 당사자의 동일성을 바꾸는 것이므로 피고를 경정하는 경우 제소기간의 준수 여부는 피고를 경정한 때를 기준으로 한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 21번 ④ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q21-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정소송",
+      "rep": "지방의회의원에 대한 징계의결 취소소송과 지방의회 의장선임의결의 무효확인을 구하는 소송의 피고는 모두 지방의회 의장이다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 21번 ⑤ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 21번 ⑤"
+      ],
+      "refs": [
+        "변시4 21번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "지방의회의원에 대한 징계의결 취소소송과 지방의회 의장선임의결의 무효확인을 구하는 소송의 피고는 모두 지방의회 의장이다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 21번 ⑤ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q22-ㄱ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "도지사로부터 대리권을 수여받은 시장이 대리관계를 밝히지 않고 자신의 명의로 행정처분을 한 경우에도 항고소송의 피고는 도지사가 되어야 하는 것이 원칙이다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 22번 ㄱ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 22번 ㄱ"
+      ],
+      "refs": [
+        "변시4 22번 ㄱ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "도지사로부터 대리권을 수여받은 시장이 대리관계를 밝히지 않고 자신의 명의로 행정처분을 한 경우에도 항고소송의 피고는 도지사가 되어야 하는 것이 원칙이다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 22번 ㄱ 지문은 정답표상 X입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q22-ㄴ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "광역시장의 권한을 사실상 행사하도록 내부위임 받은 구청장은 광역시장의 이름으로 권한을 행사하여야 한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 22번 ㄴ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 22번 ㄴ"
+      ],
+      "refs": [
+        "변시4 22번 ㄴ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "광역시장의 권한을 사실상 행사하도록 내부위임 받은 구청장은 광역시장의 이름으로 권한을 행사하여야 한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 22번 ㄴ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q22-ㄷ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "내부위임에 따라 수임관청이 위임관청의 이름으로 처분을 한 경우 그 처분의 취소나 무효확인을 구하는 소송의 피고는 위임관청으로 삼아야 한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 22번 ㄷ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 22번 ㄷ"
+      ],
+      "refs": [
+        "변시4 22번 ㄷ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "내부위임에 따라 수임관청이 위임관청의 이름으로 처분을 한 경우 그 처분의 취소나 무효확인을 구하는 소송의 피고는 위임관청으로 삼아야 한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 22번 ㄷ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q22-ㄹ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "행정관청 내부의 사무처리규정인 전결규정을 위반하여 원래의 전결권자가 아닌 보조기관 등이 처분권자인 행정관청의 이름으로 행정처분을 하였다면, 그 처분은 권한 없는 자에 의하여 행하여진 것으로서 무효이다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 22번 ㄹ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 22번 ㄹ"
+      ],
+      "refs": [
+        "변시4 22번 ㄹ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "행정관청 내부의 사무처리규정인 전결규정을 위반하여 원래의 전결권자가 아닌 보조기관 등이 처분권자인 행정관청의 이름으로 행정처분을 하였다면, 그 처분은 권한 없는 자에 의하여 행하여진 것으로서 무효이다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 22번 ㄹ 지문은 정답표상 X입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q23-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "행위자는 상대방에게 발령된 담배소매인 신규지정처분에 대한 취소소송을 제기하면서 그 신규지정처분의 위법을 이유로 하는 손해배상청구소송을 그 취소소송에 병합하여 제기할 수 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 23번 ① 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 23번 ①"
+      ],
+      "refs": [
+        "변시4 23번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "甲은 乙에게 발령된 담배소매인 신규지정처분에 대한 취소소송을 제기하면서 그 신규지정처분의 위법을 이유로 하는 손해배상청구소송을 그 취소소송에 병합하여 제기할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 23번 ① 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q23-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "행위자가 자신에 대한 담배소매인지정처분을 통하여 기존에 누렸던 이익은 상대방 등 제3자에 대한 신규지정처분이 발령되지 않음으로 인한 사실상의 이익에 해당한다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 23번 ② 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 23번 ②"
+      ],
+      "refs": [
+        "변시4 23번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "甲이 자신에 대한 담배소매인지정처분을 통하여 기존에 누렸던 이익은 乙 등 제3자에 대한 신규지정처분이 발령되지 않음으로 인한 사실상의 이익에 해당한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 23번 ② 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q23-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "제3자가 자신에 대한 담배소매인 지정거부를 취소소송으로 다투면서 집행정지를 신청한다면 법원은 이를 인용하게 될 것이다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 23번 ③ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 23번 ③"
+      ],
+      "refs": [
+        "변시4 23번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "丙이 자신에 대한 담배소매인 지정거부를 취소소송으로 다투면서 집행정지를 신청한다면 법원은 이를 인용하게 될 것이다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 23번 ③ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q23-④",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "다른 제3자에 대한 담배소매인지정처분을 대상으로 제3자가 제기한 취소소송에서 다른 제3자가 행정소송법상 소송참가를 하였으나 본안에서 제3자가 승소판결을 받아 확정되었다면, 다른 제3자는 행정소송법 제31조에 의한 재심을 통해 이를 다툴 수 있다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 23번 ④ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 23번 ④"
+      ],
+      "refs": [
+        "변시4 23번 ④"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "丁에 대한 담배소매인지정처분을 대상으로 丙이 제기한 취소소송에서 丁이 ｢행정소송법｣상 소송참가를 하였으나 본안에서 丙이 승소판결을 받아 확정되었다면, 丁은 ｢행정소송법｣ 제31조에 의한 재심을 통해 이를 다툴 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 23번 ④ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q23-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "제3자가 다른 제3자에 대한 담배소매인지정처분 취소심판을 제기하여 취소재결을 받은 후 상대가 다른 제3자에게 담배소매인지정처분의 취소를 통지하였다면, 다른 제3자는 취소소송을 제기할 경우 취소재결이 아니라 상대가 행한 담배소매인 지정취소처분을 소의 대상으로 하여야 한다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 23번 ⑤ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 23번 ⑤"
+      ],
+      "refs": [
+        "변시4 23번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "丙이 丁에 대한 담배소매인지정처분 취소심판을 제기하여 취소재결을 받은 후 B가 丁에게 담배소매인지정처분의 취소를 통지하였다면, 丁은 취소소송을 제기할 경우 취소재결이 아니라 B가 행한 담배소매인 지정취소처분을 소의 대상으로 하여야 한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 23번 ⑤ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_positive",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q24-ㄱ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정행위",
+      "rep": "행위자가 국세부과처분이 당연 무효임을 전제로 하여 이미 납부한 세액의 반환을 구하는 부당이득반환청구소송을 제기한 경우, 법원은 부과처분의 하자가 단순한 취소사유에 그칠 때에도 부당이득반환청구를 인용하는 판결을 할 수 있다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 24번 ㄱ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 24번 ㄱ"
+      ],
+      "refs": [
+        "변시4 24번 ㄱ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "甲이 국세부과처분이 당연 무효임을 전제로 하여 이미 납부한 세액의 반환을 구하는 부당이득반환청구소송을 제기한 경우, 법원은 부과처분의 하자가 단순한 취소사유에 그칠 때에도 부당이득반환청구를 인용하는 판결을 할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 24번 ㄱ 지문은 정답표상 X입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q24-ㄴ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정행위",
+      "rep": "상대방이 주택법상 공사중지명령을 위반하였다는 이유로 상대방을 주택법위반죄로 처벌하기 위해서는 주택법에 의한 공사중지명령이 적법한 것이어야 하므로 그 공사중지명령이 위법하다고 인정되는 한 상대방의 주택법위반죄는 성립하지 않는다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 24번 ㄴ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 24번 ㄴ"
+      ],
+      "refs": [
+        "변시4 24번 ㄴ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "乙이 ｢주택법｣상 공사중지명령을 위반하였다는 이유로 乙을 주택법위반죄로 처벌하기 위해서는 ｢주택법｣에 의한 공사중지명령이 적법한 것이어야 하므로 그 공사중지명령이 위법하다고 인정되는 한 乙의 주택법위반죄는 성립하지 않는다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 24번 ㄴ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q24-ㄷ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정행위",
+      "rep": "연령미달의 결격자인 제3자가 타인의 이름으로 운전면허를 발급받아 운전을 한 경우 그러한 운전면허에 의한 제3자의 운전행위는 무면허운전죄가 성립한다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 24번 ㄷ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 24번 ㄷ"
+      ],
+      "refs": [
+        "변시4 24번 ㄷ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "연령미달의 결격자인 丙이 타인의 이름으로 운전면허를 발급받아 운전을 한 경우 그러한 운전면허에 의한 丙의 운전행위는 무면허운전죄가 성립한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 24번 ㄷ 지문은 정답표상 X입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q24-ㄹ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정행위",
+      "rep": "다른 제3자가 자신의 건물에 대한 대집행이 완료된 후 건물철거가 위법임을 이유로 손해배상청구소송을 제기한 경우, 법원은 대집행실행행위에 대한 취소판결이 없어도 손해배상청구를 인용할 수 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 24번 ㄹ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 24번 ㄹ"
+      ],
+      "refs": [
+        "변시4 24번 ㄹ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "丁이 자신의 건물에 대한 대집행이 완료된 후 건물철거가 위법임을 이유로 손해배상청구소송을 제기한 경우, 법원은 대집행실행행위에 대한 취소판결이 없어도 손해배상청구를 인용할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 24번 ㄹ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q25-ㄱ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "청문",
+      "rep": "행위자가 이의를 제기하지 아니하고 청문일에 출석하여 그 의견을 진술하고 변명하는 등 방어의 기회를 충분히 가졌다면 절차상 하자는 치유되었다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 25번 ㄱ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 25번 ㄱ"
+      ],
+      "refs": [
+        "변시4 25번 ㄱ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "甲이 이의를 제기하지 아니하고 청문일에 출석하여 그 의견을 진술하고 변명하는 등 방어의 기회를 충분히 가졌다면 절차상 하자는 치유되었다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 25번 ㄱ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q25-ㄴ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "청문",
+      "rep": "행위자는 노래연습장 등록취소처분취소소송의 제소기간을 준수하였다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 25번 ㄴ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 25번 ㄴ"
+      ],
+      "refs": [
+        "변시4 25번 ㄴ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "甲은 노래연습장 등록취소처분취소소송의 제소기간을 준수하였다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 25번 ㄴ 지문은 정답표상 X입니다.",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q25-ㄷ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "청문",
+      "rep": "만일 행위자가 제기한 취소심판에서 인용재결이 내려졌다면 처분청은 인용재결을 대상으로 취소소송을 제기할 수 있다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 25번 ㄷ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 25번 ㄷ"
+      ],
+      "refs": [
+        "변시4 25번 ㄷ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "만일 甲이 제기한 취소심판에서 인용재결이 내려졌다면 처분청은 인용재결을 대상으로 취소소송을 제기할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 25번 ㄷ 지문은 정답표상 X입니다.",
+      "source_kind": "letter_combination_negative",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q26-ㄱ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "제소기간",
+      "rep": "위 고시일부터 90일이 지난 시점에서 소송을 제기하였으므로 ㈜ GD커뮤니케이션이 제기한 소송은 제소기간을 도과한 부적법한 소로서 각하되어야 한다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 26번 ㄱ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 26번 ㄱ"
+      ],
+      "refs": [
+        "변시4 26번 ㄱ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "위 고시일부터 90일이 지난 시점에서 소송을 제기하였으므로 ㈜ | | GD커뮤니케이션이 제기한 소송은 제소기간을 도과한 부적법한 소로서 | | 각하되어야 한다. | | | |",
+      "source_basis": "제4회 변호사시험 공법 선택형 26번 ㄱ 지문은 정답표상 X입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "content_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q26-ㄴ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "제소기간",
+      "rep": "여성가족부장관은 ㈜ GD커뮤니케이션에게 반드시 통지를 하여야 하고, 그 통지를 결한 처분은 무효사유에 해당한다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 26번 ㄴ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 26번 ㄴ"
+      ],
+      "refs": [
+        "변시4 26번 ㄴ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "여성가족부장관은 ㈜ GD커뮤니케이션에게 반드시 통지를 하여야 하고, | | 그 통지를 결한 처분은 무효사유에 해당한다. | | | |",
+      "source_basis": "제4회 변호사시험 공법 선택형 26번 ㄴ 지문은 정답표상 X입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "content_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q26-ㄷ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "제소기간",
+      "rep": "만일 ㈜ GD커뮤니케이션이 위 고시에 대한 취소소송을 제기한다면, 제소기간의 기산일은 2014년 9월 29일이다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 26번 ㄷ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 26번 ㄷ"
+      ],
+      "refs": [
+        "변시4 26번 ㄷ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "만일 ㈜ GD커뮤니케이션이 위 고시에 대한 취소소송을 제기한다면, | | 제소기간의 기산일은 2014년 9월 29일이다. | | | |",
+      "source_basis": "제4회 변호사시험 공법 선택형 26번 ㄷ 지문은 정답표상 O입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "content_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q26-ㄹ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "제소기간",
+      "rep": "청소년유해매체물 결정·고시는 일반 불특정 다수인을 상대방으로 하여 일률적으로 표시의무, 포장의무, 청소년에 대한 판매·대여 등의 금지의무 등 각종 의무를 발생시키는 행정처분의 성격을 갖는다. | + +",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 26번 ㄹ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 26번 ㄹ"
+      ],
+      "refs": [
+        "변시4 26번 ㄹ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "청소년유해매체물 결정·고시는 일반 불특정 다수인을 상대방으로 하여 | | 일률적으로 표시의무, 포장의무, 청소년에 대한 판매·대여 등의 금지의무 | | 등 각종 의무를 발생시키는 행정처분의 성격을 갖는다. | + +",
+      "source_basis": "제4회 변호사시험 공법 선택형 26번 ㄹ 지문은 정답표상 O입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "content_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q27-ㄱ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "정당한 세액을 초과하여 부과된 과세처분에 대한 취소소송에서 당사자가 제출한 자료에 의하여 적법하게 부과될 정당한 세액이 산출되는 경우",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 27번 ㄱ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 27번 ㄱ"
+      ],
+      "refs": [
+        "변시4 27번 ㄱ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "정당한 세액을 초과하여 부과된 과세처분에 대한 취소소송에서 당사자가 제출한 자료에 의하여 적법하게 부과될 정당한 세액이 산출되는 경우",
+      "source_basis": "제4회 변호사시험 공법 선택형 27번 ㄱ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q27-ㄴ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "공중위생관리법을 위반한 공중위생영업자에 대한 과징금부과처분 취소심판에서 부과처분에 재량하자의 위법이 있고 적정한 과징금의 산정이 가능한 경우",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 27번 ㄴ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 27번 ㄴ"
+      ],
+      "refs": [
+        "변시4 27번 ㄴ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "｢공중위생관리법｣을 위반한 공중위생영업자에 대한 과징금부과처분 취소심판에서 부과처분에 재량하자의 위법이 있고 적정한 과징금의 산정이 가능한 경우",
+      "source_basis": "제4회 변호사시험 공법 선택형 27번 ㄴ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q27-ㄷ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "개발부담금부과처분 취소소송에서 당사자가 제출한 자료에 의하여 적법하게 부과될 정당한 부과금액을 산출할 수 있는 경우",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 27번 ㄷ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 27번 ㄷ"
+      ],
+      "refs": [
+        "변시4 27번 ㄷ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "개발부담금부과처분 취소소송에서 당사자가 제출한 자료에 의하여 적법하게 부과될 정당한 부과금액을 산출할 수 있는 경우",
+      "source_basis": "제4회 변호사시험 공법 선택형 27번 ㄷ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q27-ㄹ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "공무원에 대한 3개월의 정직처분의 취소를 구하는 소청에서 정직처분이 재량권 남용에 해당하고 그 3분의 1에 해당하는 1개월의 정직처분이 정당하다고 판단되는 경우",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 27번 ㄹ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 27번 ㄹ"
+      ],
+      "refs": [
+        "변시4 27번 ㄹ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "공무원에 대한 3개월의 정직처분의 취소를 구하는 소청에서 정직처분이 재량권 남용에 해당하고 그 3분의 1에 해당하는 1개월의 정직처분이 정당하다고 판단되는 경우",
+      "source_basis": "제4회 변호사시험 공법 선택형 27번 ㄹ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q28-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "집행정지",
+      "rep": "행정처분의 무효란 행정처분이 처음부터 아무런 효력도 발생하지 아니한다는 의미이므로 무효등확인소송에서는 집행정지가 인정되지 아니한다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 28번 ① 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 28번 ①"
+      ],
+      "refs": [
+        "변시4 28번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "행정처분의 무효란 행정처분이 처음부터 아무런 효력도 발생하지 아니한다는 의미이므로 무효등확인소송에서는 집행정지가 인정되지 아니한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 28번 ① 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q28-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "집행정지",
+      "rep": "집행정지결정을 한 후에라도 본안소송이 취하되어 소송이 계속되지 않게 되면 이에 따라 집행정지결정의 효력은 당연히 소멸되는 것이고 별도의 취소조치가 필요한 것은 아니다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 28번 ② 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 28번 ②"
+      ],
+      "refs": [
+        "변시4 28번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "집행정지결정을 한 후에라도 본안소송이 취하되어 소송이 계속되지 않게 되면 이에 따라 집행정지결정의 효력은 당연히 소멸되는 것이고 별도의 취소조치가 필요한 것은 아니다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 28번 ② 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q28-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "집행정지",
+      "rep": "집행정지결정 또는 기각결정에 대하여는 즉시항고를 할 수 있고, 집행정지결정에 대한 즉시항고에는 결정의 집행을 정지하는 효력이 없다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 28번 ③ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 28번 ③"
+      ],
+      "refs": [
+        "변시4 28번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "집행정지결정 또는 기각결정에 대하여는 즉시항고를 할 수 있고, 집행정지결정에 대한 즉시항고에는 결정의 집행을 정지하는 효력이 없다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 28번 ③ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q28-④",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "집행정지",
+      "rep": "집행정지의 소극적 요건으로서 ‘공공복리에 중대한 영향을 미칠 우려’에 대한 주장·소명책임은 행정청에게 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 28번 ④ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 28번 ④"
+      ],
+      "refs": [
+        "변시4 28번 ④"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "집행정지의 소극적 요건으로서 ‘공공복리에 중대한 영향을 미칠 우려’에 대한 주장·소명책임은 행정청에게 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 28번 ④ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q28-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "집행정지",
+      "rep": "법원이 집행정지결정을 하면서 그 주문에서 당해 법원에 계속 중인 본안소송의 판결선고시까지 효력을 정지한 경우, 원고패소판결이 선고되면 그 본안판결의 선고시에 집행정지결정의 효력은 별도의 취소조치 없이 소멸하고 처분의 효력이 부활한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 28번 ⑤ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 28번 ⑤"
+      ],
+      "refs": [
+        "변시4 28번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "법원이 집행정지결정을 하면서 그 주문에서 당해 법원에 계속 중인 본안소송의 판결선고시까지 효력을 정지한 경우, 원고패소판결이 선고되면 그 본안판결의 선고시에 집행정지결정의 효력은 별도의 취소조치 없이 소멸하고 처분의 효력이 부활한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 28번 ⑤ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q29-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "연속적으로 행하여진 선행처분과 후행처분이 서로 독립하여 별개의 법률효과를 목적으로 하고 선행처분에 불가쟁력이 생겨 그 효력을 다툴 수 없게 된 경우에는 선행처분이 당연무효가 아닌 한 원칙적으로 선행처분의 하자를 이유로 후행처분의 효력을 다툴 수 없다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 29번 ① 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 29번 ①"
+      ],
+      "refs": [
+        "변시4 29번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "연속적으로 행하여진 선행처분과 후행처분이 서로 독립하여 별개의 법률효과를 목적으로 하고 선행처분에 불가쟁력이 생겨 그 효력을 다툴 수 없게 된 경우에는 선행처분이 당연무효가 아닌 한 원칙적으로 선행처분의 하자를 이유로 후행처분의 효력을 다툴 수 없다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 29번 ① 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q29-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "선행처분과 후행처분이 서로 독립하여 별개의 효과를 목적으로 하는 경우에도 선행처분의 불가쟁력이나 구속력이 그로 인하여 불이익을 입게 되는 자에게 수인한도를 넘는 가혹함을 가져오며, 그 결과가 당사자에게 예측가능한 것이 아닌 경우에는 국민의 재판받을 권리를 보장하고 있는 헌법의 이념에 비추어 선행처분의 후행처분에 대한 구속력은 인정될 수 없다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 29번 ② 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 29번 ②"
+      ],
+      "refs": [
+        "변시4 29번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "선행처분과 후행처분이 서로 독립하여 별개의 효과를 목적으로 하는 경우에도 선행처분의 불가쟁력이나 구속력이 그로 인하여 불이익을 입게 되는 자에게 수인한도를 넘는 가혹함을 가져오며, 그 결과가 당사자에게 예측가능한 것이 아닌 경우에는 국민의 재판받을 권리를 보장하고 있는 헌법의 이념에 비추어 선행처분의 후행처분에 대한 구속력은 인정될 수 없다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 29번 ② 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q29-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "구 토지수용법상 사업인정과 수용재결은 서로 결합하여 하나의 효과를 발생시키는 것이므로 선행처분인 사업인정의 하자가 후행처분인 수용재결에 승계되어 사업인정의 위법을 이유로 수용재결의 위법을 주장할 수 있다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 29번 ③ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 29번 ③"
+      ],
+      "refs": [
+        "변시4 29번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "구 ｢토지수용법｣상 사업인정과 수용재결은 서로 결합하여 하나의 효과를 발생시키는 것이므로 선행처분인 사업인정의 하자가 후행처분인 수용재결에 승계되어 사업인정의 위법을 이유로 수용재결의 위법을 주장할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 29번 ③ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q29-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "표준지로 선정된 토지의 공시지가에 대하여 불복하기 위하여는 처분청을 상대로 그 공시지가결정의 취소를 구하는 행정소송을 제기하여야 하고, 그러한 소송절차를 밟지 아니한 채 개별토지가격결정을 다투는 소송에서 그 개별토지가격 산정의 기초가 된 표준지공시지가의 위법성을 다툴 수는 없다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 29번 ⑤ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 29번 ⑤"
+      ],
+      "refs": [
+        "변시4 29번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "표준지로 선정된 토지의 공시지가에 대하여 불복하기 위하여는 처분청을 상대로 그 공시지가결정의 취소를 구하는 행정소송을 제기하여야 하고, 그러한 소송절차를 밟지 아니한 채 개별토지가격결정을 다투는 소송에서 그 개별토지가격 산정의 기초가 된 표준지공시지가의 위법성을 다툴 수는 없다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 29번 ⑤ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q30-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "정보공개",
+      "rep": "행위자는 상대방의 거부처분에 대하여 공공기관의 정보공개에 관한 법률상의 이의신청절차를 거치지 아니하고 행정심판을 청구할 수 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 30번 ① 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 30번 ①"
+      ],
+      "refs": [
+        "변시4 30번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "甲은 乙의 거부처분에 대하여 ｢공공기관의 정보공개에 관한 법률｣상의 이의신청절차를 거치지 아니하고 행정심판을 청구할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 30번 ① 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q30-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "정보공개",
+      "rep": "정보공개청구권은 법률상 보호되는 구체적인 권리이므로 행위자가 상대방에게 정보공개를 청구하였다가 거부처분을 받은 것 자체가 법률상 이익의 침해에 해당한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 30번 ② 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 30번 ②"
+      ],
+      "refs": [
+        "변시4 30번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "정보공개청구권은 법률상 보호되는 구체적인 권리이므로 甲이 乙에게 정보공개를 청구하였다가 거부처분을 받은 것 자체가 법률상 이익의 침해에 해당한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 30번 ② 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q30-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "정보공개",
+      "rep": "상대방은 행위자가 공개 청구한 대상정보와 관련이 있는 제3자인 제3자에게 그 사실을 지체 없이 통지하여야 한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 30번 ③ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 30번 ③"
+      ],
+      "refs": [
+        "변시4 30번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "乙은 甲이 공개 청구한 대상정보와 관련이 있는 제3자인 丙에게 그 사실을 지체 없이 통지하여야 한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 30번 ③ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q30-④",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "정보공개",
+      "rep": "공공기관의 정보공개에 관한 법률은 제3자의 권리구제수단에 대해서는 별도의 규정을 두고 있지 않으나, 만일 제3자의 비공개 요청에도 불구하고 상대방이 공개결정을 하였다면 제3자는 그 공개결정에 대한 행정소송을 제기할 수 있다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 30번 ④ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 30번 ④"
+      ],
+      "refs": [
+        "변시4 30번 ④"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "｢공공기관의 정보공개에 관한 법률｣은 제3자의 권리구제수단에 대해서는 별도의 규정을 두고 있지 않으나, 만일 丙의 비공개 요청에도 불구하고 乙이 공개결정을 하였다면 丙은 그 공개결정에 대한 행정소송을 제기할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 30번 ④ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q30-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "정보공개",
+      "rep": "행위자가 공개 청구한 정보가 비공개 대상정보에 해당하는 부분과 공개 가능한 부분이 혼합되어 있는 경우로서 공개 청구의 취지에 어긋나지 않는 범위에서 두 부분을 분리할 수 있는 경우에는 상대방은 비공개정보에 해당하는 부분을 제외하고 공개하여야 한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 30번 ⑤ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 30번 ⑤"
+      ],
+      "refs": [
+        "변시4 30번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "甲이 공개 청구한 정보가 비공개 대상정보에 해당하는 부분과 공개 가능한 부분이 혼합되어 있는 경우로서 공개 청구의 취지에 어긋나지 않는 범위에서 두 부분을 분리할 수 있는 경우에는 乙은 비공개정보에 해당하는 부분을 제외하고 공개하여야 한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 30번 ⑤ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q31-ㄱ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "A시민단체가 금융위원회위원장에 대하여 외국 금융기관인 상대의 국내은행 주식취득 관련 심사정보의 공개를 구한 것에 대하여, 금융위원회위원장이 거부처분을 하면서 위 정보가 대법원에 계속 중인 사건의 관련정보라는 사유를 들었다가, 취소소송에서 다시 위 정보가 서울중앙지방법원에 계속 중인 별개의 사건의 관련정보라는 처분사유를 추가한 경우",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 31번 ㄱ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 31번 ㄱ"
+      ],
+      "refs": [
+        "변시4 31번 ㄱ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "A시민단체가 금융위원회위원장에 대하여 외국 금융기관인 B의 국내은행 주식취득 관련 심사정보의 공개를 구한 것에 대하여, 금융위원회위원장이 거부처분을 하면서 위 정보가 대법원에 계속 중인 사건의 관련정보라는 사유를 들었다가, 취소소송에서 다시 위 정보가 서울중앙지방법원에 계속 중인 별개의 사건의 관련정보라는 처분사유를 추가한 경우",
+      "source_basis": "제4회 변호사시험 공법 선택형 31번 ㄱ 지문은 정답표상 X입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q31-ㄴ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "주택신축을 위한 산림형질변경허가신청에 대하여 행정청이 거부처분을 하면서 당초 준농림지역에서의 행위제한이라는 사유를 들었다가, 취소소송에서 자연경관 및 생태계의 교란, 국토 및 자연의 유지와 환경보전 등 중대한 공익상의 필요라는 처분사유를 추가한 경우",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 31번 ㄴ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 31번 ㄴ"
+      ],
+      "refs": [
+        "변시4 31번 ㄴ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "주택신축을 위한 산림형질변경허가신청에 대하여 행정청이 거부처분을 하면서 당초 준농림지역에서의 행위제한이라는 사유를 들었다가, 취소소송에서 자연경관 및 생태계의 교란, 국토 및 자연의 유지와 환경보전 등 중대한 공익상의 필요라는 처분사유를 추가한 경우",
+      "source_basis": "제4회 변호사시험 공법 선택형 31번 ㄴ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q31-ㄷ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "과세관청이 종합소득세부과처분을 하면서 종합소득세 과세대상 소득 중 특정소득을 이자소득으로 보았다가 취소소송에서 이를 이자소득이 아니라 대금업에 의한 사업소득에 해당한다고 처분사유를 변경한 경우",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 31번 ㄷ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 31번 ㄷ"
+      ],
+      "refs": [
+        "변시4 31번 ㄷ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "과세관청이 종합소득세부과처분을 하면서 종합소득세 과세대상 소득 중 특정소득을 이자소득으로 보았다가 취소소송에서 이를 이자소득이 아니라 대금업에 의한 사업소득에 해당한다고 처분사유를 변경한 경우",
+      "source_basis": "제4회 변호사시험 공법 선택형 31번 ㄷ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q32-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "지방자치",
+      "rep": "상대방 등은 위 소송을 제기하기 전에 A시 조례로 정하는 주민 수 이상의 연서(連署)로 감사청구를 하여야 한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 32번 ① 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 32번 ①"
+      ],
+      "refs": [
+        "변시4 32번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "乙 등은 위 소송을 제기하기 전에 A시 조례로 정하는 주민 수 이상의 연서(連署)로 감사청구를 하여야 한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 32번 ① 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q32-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "지방자치",
+      "rep": "감사청구는 행위자의 권한에 속하는 사무의 처리가 법령에 위반된다고 인정되면 가능하지만, 손해배상청구를 할 것을 요구하는 소송은 법률이 정하는 사항에 한한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 32번 ② 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 32번 ②"
+      ],
+      "refs": [
+        "변시4 32번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "감사청구는 甲의 권한에 속하는 사무의 처리가 법령에 위반된다고 인정되면 가능하지만, 손해배상청구를 할 것을 요구하는 소송은 법률이 정하는 사항에 한한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 32번 ② 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q32-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "지방자치",
+      "rep": "감사청구한 상대방 등은 감사기관이 법률이 정한 기간 내에 감사를 끝내지 아니한 경우 바로 소송을 제기할 수 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 32번 ③ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 32번 ③"
+      ],
+      "refs": [
+        "변시4 32번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "감사청구한 乙 등은 감사기관이 법률이 정한 기간 내에 감사를 끝내지 아니한 경우 바로 소송을 제기할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 32번 ③ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q32-④",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "지방자치",
+      "rep": "손해배상청구를 할 것을 요구하는 소송이 진행 중이더라도 상대방 등을 제외한 다른 주민은 같은 사항에 대하여 별도의 소송을 제기할 수 있다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 32번 ④ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 32번 ④"
+      ],
+      "refs": [
+        "변시4 32번 ④"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "손해배상청구를 할 것을 요구하는 소송이 진행 중이더라도 乙 등을 제외한 다른 주민은 같은 사항에 대하여 별도의 소송을 제기할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 32번 ④ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q32-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "지방자치",
+      "rep": "손해배상청구를 명하는 판결이 확정되면 지방의회의장은 이 사업의 강행으로 예산을 낭비한 시장 행위자에게 그 판결에 따라 결정된 손해배상금의 지불을 청구하여야 한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 32번 ⑤ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 32번 ⑤"
+      ],
+      "refs": [
+        "변시4 32번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "손해배상청구를 명하는 판결이 확정되면 지방의회의장은 이 사업의 강행으로 예산을 낭비한 시장 甲에게 그 판결에 따라 결정된 손해배상금의 지불을 청구하여야 한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 32번 ⑤ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q33-ㄱ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "도시계획",
+      "rep": "폐기물처리업 사업계획에 대한 적정통보는 사업부지에 대한 도시·군관리계획 변경신청을 승인해 주겠다는 취지의 공적 견해를 표명한 것으로 볼 수 있다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 33번 ㄱ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 33번 ㄱ"
+      ],
+      "refs": [
+        "변시4 33번 ㄱ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "폐기물처리업 사업계획에 대한 적정통보는 사업부지에 대한 도시·군관리계획 변경신청을 승인해 주겠다는 취지의 공적 견해를 표명한 것으로 볼 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 33번 ㄱ 지문은 정답표상 X입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q33-ㄴ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "도시계획",
+      "rep": "폐기물처리업 사업계획에 대한 적정통보와 도시·군관리계획의 변경은 각기 그 제도의 취지와 결정단계에서 고려해야 할 사항들이 다르므로 사례의 거부처분은 신뢰보호원칙에 위반되지 않는다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 33번 ㄴ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 33번 ㄴ"
+      ],
+      "refs": [
+        "변시4 33번 ㄴ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "폐기물처리업 사업계획에 대한 적정통보와 도시·군관리계획의 변경은 각기 그 제도의 취지와 결정단계에서 고려해야 할 사항들이 다르므로 A의 거부처분은 신뢰보호원칙에 위반되지 않는다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 33번 ㄴ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q33-ㄷ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "도시계획",
+      "rep": "폐기물처리시설로 인한 수질오염 등을 예방하고자 하는 공익보다 행위자의 폐기물처리업 준비에 소요된 비용의 회수이익이 크지 않다면 행위자의 신뢰는 보호받을 수 없다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 33번 ㄷ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 33번 ㄷ"
+      ],
+      "refs": [
+        "변시4 33번 ㄷ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "폐기물처리시설로 인한 수질오염 등을 예방하고자 하는 공익보다 甲의 폐기물처리업 준비에 소요된 비용의 회수이익이 크지 않다면 甲의 신뢰는 보호받을 수 없다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 33번 ㄷ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q33-ㄹ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "도시계획",
+      "rep": "행위자가 사례의 적정통보에 근거하여 도시·군관리계획 변경신청승인에 대해 신뢰를 갖고 폐기물처리업 준비를 하였다면 행위자에게는 귀책사유가 없다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 33번 ㄹ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 33번 ㄹ"
+      ],
+      "refs": [
+        "변시4 33번 ㄹ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "甲이 A의 적정통보에 근거하여 도시·군관리계획 변경신청승인에 대해 신뢰를 갖고 폐기물처리업 준비를 하였다면 甲에게는 귀책사유가 없다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 33번 ㄹ 지문은 정답표상 X입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q34-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "이행강제금",
+      "rep": "행위자의 무허가 건축행위에 대하여 1천만원의 벌금 부과와 별개로 시정명령의 불이행을 이유로 이행강제금을 부과하더라도 이중처벌에 해당하지 않는다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 34번 ① 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 34번 ①"
+      ],
+      "refs": [
+        "변시4 34번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "甲의 무허가 건축행위에 대하여 1천만원의 벌금 부과와 별개로 시정명령의 불이행을 이유로 이행강제금을 부과하더라도 이중처벌에 해당하지 않는다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 34번 ① 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q34-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "이행강제금",
+      "rep": "행위자가 이행강제금을 부과받은 후 사망한 경우 이행강제금의 납부의무는 행위자의 상속인에게 승계되지 않는다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 34번 ② 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 34번 ②"
+      ],
+      "refs": [
+        "변시4 34번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "甲이 이행강제금을 부과받은 후 사망한 경우 이행강제금의 납부의무는 甲의 상속인에게 승계되지 않는다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 34번 ② 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q34-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "이행강제금",
+      "rep": "사례는 이행강제금 대신 행정대집행을 선택적으로 활용하여 행정목적을 달성할 수 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 34번 ③ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 34번 ③"
+      ],
+      "refs": [
+        "변시4 34번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "A는 이행강제금 대신 행정대집행을 선택적으로 활용하여 행정목적을 달성할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 34번 ③ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q34-④",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "이행강제금",
+      "rep": "사례는 이행강제금을 징수한 후에도 행위자가 시정명령을 이행하지 않는 경우 이행할 때까지 법정 한도에서 반복하여 부과할 수 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 34번 ④ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 34번 ④"
+      ],
+      "refs": [
+        "변시4 34번 ④"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "A는 이행강제금을 징수한 후에도 甲이 시정명령을 이행하지 않는 경우 이행할 때까지 법정 한도에서 반복하여 부과할 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 34번 ④ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q34-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "이행강제금",
+      "rep": "사례의 이행강제금 부과 후 행위자가 시정명령을 이행하면 사례는 이행강제금의 부과를 즉시 중지해야 하며, 이미 부과된 이행강제금을 징수할 수 없다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 34번 ⑤ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 34번 ⑤"
+      ],
+      "refs": [
+        "변시4 34번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "A의 이행강제금 부과 후 甲이 시정명령을 이행하면 A는 이행강제금의 부과를 즉시 중지해야 하며, 이미 부과된 이행강제금을 징수할 수 없다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 34번 ⑤ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q35-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "재산권",
+      "rep": "행위자는 군인연금법 또는 국가유공자 등 예우 및 지원에 관한 법률에 의하여 별도의 보상을 받을 수 없는 경우에도 국가배상법에 따른 배상을 청구할 수 없다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 35번 ① 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 35번 ①"
+      ],
+      "refs": [
+        "변시4 35번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "甲은 ｢군인연금법｣ 또는 ｢국가유공자 등 예우 및 지원에 관한 법률｣에 의하여 별도의 보상을 받을 수 없는 경우에도 ｢국가배상법｣에 따른 배상을 청구할 수 없다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 35번 ① 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q35-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "재산권",
+      "rep": "상대방은 국가배상법상 직무집행 중인 경찰공무원에 해당한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 35번 ② 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 35번 ②"
+      ],
+      "refs": [
+        "변시4 35번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "乙은 ｢국가배상법｣상 직무집행 중인 경찰공무원에 해당한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 35번 ② 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q35-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "재산권",
+      "rep": "헌법재판소는 다른가 제3의 귀책부분을 넘는 상대의 부담부분에 관하여 국가를 상대로 구상권을 행사하는 것이 부인되는 경우, 이는 헌법상 평등원칙, 재산권보장규정 및 헌법 제37조 제2항 등의 헌법규정에 반한다고 보았다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 35번 ③ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 35번 ③"
+      ],
+      "refs": [
+        "변시4 35번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "헌법재판소는 D가 C의 귀책부분을 넘는 B의 부담부분에 관하여 국가를 상대로 구상권을 행사하는 것이 부인되는 경우, 이는 헌법상 평등원칙, 재산권보장규정 및 헌법 제37조 제2항 등의 헌법규정에 반한다고 보았다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 35번 ③ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q35-④",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "재산권",
+      "rep": "대법원 판례에 의하면 다른는 국가를 상대로 제3의 귀책부분을 넘는 상대의 부담부분에 대한 구상을 청구할 수 없다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 35번 ④ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 35번 ④"
+      ],
+      "refs": [
+        "변시4 35번 ④"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "대법원 판례에 의하면 D는 국가를 상대로 C의 귀책부분을 넘는 B의 부담부분에 대한 구상을 청구할 수 없다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 35번 ④ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q35-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "재산권",
+      "rep": "제3자는 국가배상법상 손해배상청구가 제한되는 군인 등에 해당하지 않는다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 35번 ⑤ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 35번 ⑤"
+      ],
+      "refs": [
+        "변시4 35번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "丙은 ｢국가배상법｣상 손해배상청구가 제한되는 군인 등에 해당하지 않는다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 35번 ⑤ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": true,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q36-①",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "사법부",
+      "rep": "국가나 지방자치단체에 근무하는 청원경찰에 대한 징계처분의 시정을 구하는 소송은 행정소송에 해당한다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 36번 ① 지문에서 확인한 O입니다.",
+      "ref": "헌법 제101조",
+      "art": "제101조",
+      "artNo": 101,
+      "src": [
+        "변시4 36번 ①"
+      ],
+      "refs": [
+        "변시4 36번 ①"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "국가나 지방자치단체에 근무하는 청원경찰에 대한 징계처분의 시정을 구하는 소송은 행정소송에 해당한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 36번 ① 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q36-②",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "사법부",
+      "rep": "일반재산(구 잡종재산)인 국유림을 대부하는 행위는 법률이 대부계약의 취소사유나 대부료의 산정방법 등을 정하고 있고, 대부료의 징수에 관하여 국세징수법 중 체납처분에 관한 규정을 준용하도록 정하고 있더라도 사법관계로 파악된다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 36번 ② 지문에서 확인한 O입니다.",
+      "ref": "헌법 제101조",
+      "art": "제101조",
+      "artNo": 101,
+      "src": [
+        "변시4 36번 ②"
+      ],
+      "refs": [
+        "변시4 36번 ②"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "일반재산(구 잡종재산)인 국유림을 대부하는 행위는 법률이 대부계약의 취소사유나 대부료의 산정방법 등을 정하고 있고, 대부료의 징수에 관하여 ｢국세징수법｣ 중 체납처분에 관한 규정을 준용하도록 정하고 있더라도 사법관계로 파악된다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 36번 ② 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q36-③",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "사법부",
+      "rep": "구 공익사업을 위한 토지 등의 취득 및 보상에 관한 법률상 환매권의 존부에 관한 확인을 구하는 소송 및 환매금액의 증감을 구하는 소송은 민사소송이다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 36번 ③ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제101조",
+      "art": "제101조",
+      "artNo": 101,
+      "src": [
+        "변시4 36번 ③"
+      ],
+      "refs": [
+        "변시4 36번 ③"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "구 ｢공익사업을 위한 토지 등의 취득 및 보상에 관한 법률｣상 환매권의 존부에 관한 확인을 구하는 소송 및 환매금액의 증감을 구하는 소송은 민사소송이다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 36번 ③ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q36-④",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "사법부",
+      "rep": "국세환급금결정이나 이 결정을 구하는 신청에 대한 환급거부결정은 행정청의 공행정작용으로서 항고소송의 대상이 된다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 36번 ④ 지문에서 확인한 X입니다.",
+      "ref": "헌법 제101조",
+      "art": "제101조",
+      "artNo": 101,
+      "src": [
+        "변시4 36번 ④"
+      ],
+      "refs": [
+        "변시4 36번 ④"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "국세환급금결정이나 이 결정을 구하는 신청에 대한 환급거부결정은 행정청의 공행정작용으로서 항고소송의 대상이 된다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 36번 ④ 지문은 정답표상 X입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q36-⑤",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "사법부",
+      "rep": "서울특별시지하철공사 임원 및 직원에 대한 징계처분은 위 공사 사장이 공권력 발동주체로서 행정처분을 행한 것으로 볼 수 없으므로 이에 대한 불복절차는 민사소송절차에 의하여야 할 것이지 행정소송에 의할 수는 없는 것이다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 36번 ⑤ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제101조",
+      "art": "제101조",
+      "artNo": 101,
+      "src": [
+        "변시4 36번 ⑤"
+      ],
+      "refs": [
+        "변시4 36번 ⑤"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "서울특별시지하철공사 임원 및 직원에 대한 징계처분은 위 공사 사장이 공권력 발동주체로서 행정처분을 행한 것으로 볼 수 없으므로 이에 대한 불복절차는 민사소송절차에 의하여야 할 것이지 행정소송에 의할 수는 없는 것이다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 36번 ⑤ 지문은 정답표상 O입니다.",
+      "source_kind": "choice_statement_negative",
+      "statement_kind": "choice_cells",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q37-ㄱ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "헌법소원",
+      "rep": "비구속적 행정계획안이나 행정지침이라도 국민의 기본권에 직접적으로 영향을 끼치고, 앞으로 법령의 뒷받침에 의하여 그대로 실시될 것이 틀림없을 것으로 예상될 수 있을 때에는, 공권력행사로서 예외적으로 헌법소원의 대상이 된다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 37번 ㄱ 지문에서 확인한 O입니다.",
+      "ref": "헌법재판소법 제68조 제1항",
+      "art": "제68조",
+      "artNo": 68,
+      "src": [
+        "변시4 37번 ㄱ"
+      ],
+      "refs": [
+        "변시4 37번 ㄱ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "비구속적 행정계획안이나 행정지침이라도 국민의 기본권에 직접적으로 영향을 끼치고, 앞으로 법령의 뒷받침에 의하여 그대로 실시될 것이 틀림없을 것으로 예상될 수 있을 때에는, 공권력행사로서 예외적으로 헌법소원의 대상이 된다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 37번 ㄱ 지문은 정답표상 O입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q37-ㄴ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "헌법소원",
+      "rep": "행정지도가 이를 따르지 않을 경우 일정한 불이익조치를 예정하고 있어 사실상 상대방에게 그에 따를 의무를 부과하는 것과 다를 바 없어 단순한 행정지도로서의 한계를 넘어 규제적·구속적 성격을 상당히 강하게 갖게 되는 경우에는 이를 헌법소원의 대상이 되는 공권력의 행사로 볼 수 있다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 37번 ㄴ 지문에서 확인한 O입니다.",
+      "ref": "헌법재판소법 제68조 제1항",
+      "art": "제68조",
+      "artNo": 68,
+      "src": [
+        "변시4 37번 ㄴ"
+      ],
+      "refs": [
+        "변시4 37번 ㄴ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "행정지도가 이를 따르지 않을 경우 일정한 불이익조치를 예정하고 있어 사실상 상대방에게 그에 따를 의무를 부과하는 것과 다를 바 없어 단순한 행정지도로서의 한계를 넘어 규제적·구속적 성격을 상당히 강하게 갖게 되는 경우에는 이를 헌법소원의 대상이 되는 공권력의 행사로 볼 수 있다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 37번 ㄴ 지문은 정답표상 O입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q37-ㄷ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "헌법소원",
+      "rep": "법원의 재판을 거쳐 확정된 행정처분인 경우, 당해 행정처분을 심판의 대상으로 삼았던 법원의 재판이 예외적으로 헌법소원심판의 대상이 되어 그 재판 자체가 취소되는 경우에는 그 당해 행정처분 역시 헌법소원심판의 대상이 된다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 37번 ㄷ 지문에서 확인한 O입니다.",
+      "ref": "헌법재판소법 제68조 제1항",
+      "art": "제68조",
+      "artNo": 68,
+      "src": [
+        "변시4 37번 ㄷ"
+      ],
+      "refs": [
+        "변시4 37번 ㄷ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "법원의 재판을 거쳐 확정된 행정처분인 경우, 당해 행정처분을 심판의 대상으로 삼았던 법원의 재판이 예외적으로 헌법소원심판의 대상이 되어 그 재판 자체가 취소되는 경우에는 그 당해 행정처분 역시 헌법소원심판의 대상이 된다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 37번 ㄷ 지문은 정답표상 O입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q37-ㄹ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "헌법소원",
+      "rep": "검사로부터 기소유예처분을 받은 피의자는 검찰청법 소정의 항고를 거쳐 그 검사 소속의 지방검찰청 소재지를 관할하는 고등법원에 그 당부에 관한 재정을 신청할 수 있으므로 그와 같은 구제절차를 모두 거치지 않은 채 기소유예처분의 취소를 구하는 헌법소원심판 청구는 부적법하다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 37번 ㄹ 지문에서 확인한 X입니다.",
+      "ref": "헌법재판소법 제68조 제1항",
+      "art": "제68조",
+      "artNo": 68,
+      "src": [
+        "변시4 37번 ㄹ"
+      ],
+      "refs": [
+        "변시4 37번 ㄹ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "검사로부터 기소유예처분을 받은 피의자는 ｢검찰청법｣ 소정의 항고를 거쳐 그 검사 소속의 지방검찰청 소재지를 관할하는 고등법원에 그 당부에 관한 재정을 신청할 수 있으므로 그와 같은 구제절차를 모두 거치지 않은 채 기소유예처분의 취소를 구하는 헌법소원심판 청구는 부적법하다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 37번 ㄹ 지문은 정답표상 X입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q38-ㄱ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "조례",
+      "rep": "조례에 대한 항고소송에서는 조례의 의결기관인 지방의회가 피고적격을 가진다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 38번 ㄱ 지문에서 확인한 X입니다.",
+      "ref": "헌법 제117조",
+      "art": "제117조",
+      "artNo": 117,
+      "src": [
+        "변시4 38번 ㄱ"
+      ],
+      "refs": [
+        "변시4 38번 ㄱ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "조례에 대한 항고소송에서는 조례의 의결기관인 지방의회가 피고적격을 가진다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 38번 ㄱ 지문은 정답표상 X입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q38-ㄴ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "조례",
+      "rep": "생활보호법 소정의 자활보호대상자 중에서 사실상 생계유지가 어려운 자에게 생활보호법과는 별도로 생계비를 지원하는 것을 내용으로 하는 조례안은 생활보호법에 저촉된다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 38번 ㄴ 지문에서 확인한 X입니다.",
+      "ref": "헌법 제117조",
+      "art": "제117조",
+      "artNo": 117,
+      "src": [
+        "변시4 38번 ㄴ"
+      ],
+      "refs": [
+        "변시4 38번 ㄴ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "｢생활보호법｣ 소정의 자활보호대상자 중에서 사실상 생계유지가 어려운 자에게 ｢생활보호법｣과는 별도로 생계비를 지원하는 것을 내용으로 하는 조례안은 ｢생활보호법｣에 저촉된다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 38번 ㄴ 지문은 정답표상 X입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q38-ㄷ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "조례",
+      "rep": "도지사 소속 행정불만처리조정위원회 위원의 위촉·해촉에 도의회의 동의를 받도록 한 조례안은 사후에 소극적으로 개입하는 것으로서 적법하나, 위원의 일부를 도의회 의장이 위촉하도록 한 조례안은 위법하다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 38번 ㄷ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제117조",
+      "art": "제117조",
+      "artNo": 117,
+      "src": [
+        "변시4 38번 ㄷ"
+      ],
+      "refs": [
+        "변시4 38번 ㄷ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "도지사 소속 행정불만처리조정위원회 위원의 위촉·해촉에 도의회의 동의를 받도록 한 조례안은 사후에 소극적으로 개입하는 것으로서 적법하나, 위원의 일부를 도의회 의장이 위촉하도록 한 조례안은 위법하다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 38번 ㄷ 지문은 정답표상 O입니다.",
+      "source_kind": "explicit_ox_combination",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q39-ㄱ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "행정처분 이후 근거법률이 위헌으로 결정된 경우, 당해 행정처분은 원칙적으로 당연 무효가 되므로 이미 취소소송의 제소기간이 경과하여 확정력이 발생한 행정처분에도 위헌결정의 소급효가 미친다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 39번 ㄱ 지문에서 확인한 X입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 39번 ㄱ"
+      ],
+      "refs": [
+        "변시4 39번 ㄱ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "행정처분 이후 근거법률이 위헌으로 결정된 경우, 당해 행정처분은 원칙적으로 당연 무효가 되므로 이미 취소소송의 제소기간이 경과하여 확정력이 발생한 행정처분에도 위헌결정의 소급효가 미친다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 39번 ㄱ 지문은 정답표상 X입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q39-ㄴ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "과세처분에 따라 세금을 납부하였고 그 처분에 불가쟁력이 발생한 경우에는 과세처분의 근거법률이 나중에 위헌으로 결정되었다고 하더라도 이미 납부한 세금의 반환 청구는 허용되지 않는다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 39번 ㄴ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 39번 ㄴ"
+      ],
+      "refs": [
+        "변시4 39번 ㄴ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "과세처분에 따라 세금을 납부하였고 그 처분에 불가쟁력이 발생한 경우에는 과세처분의 근거법률이 나중에 위헌으로 결정되었다고 하더라도 이미 납부한 세금의 반환 청구는 허용되지 않는다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 39번 ㄴ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q39-ㄷ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "행정법",
+      "topic": "행정처분",
+      "rep": "조세 부과의 근거가 되었던 법률규정이 위헌으로 결정된 경우, 비록 그에 기한 과세처분이 위헌결정 전에 이루어졌고, 과세처분에 대한 제소기간이 이미 경과하여 조세채권이 확정되었으며, 조세채권의 집행을 위한 체납처분의 근거규정 자체에 대하여는 따로 위헌결정이 내려진 바 없다고 하더라도, 위와 같은 위헌결정 이후에 조세채권의 집행을 위한 새로운 체납처분에 착수하거나 이를 속행하는 것은 더 이상 허용되지 않는다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 39번 ㄷ 지문에서 확인한 O입니다.",
+      "ref": "",
+      "art": "",
+      "artNo": null,
+      "src": [
+        "변시4 39번 ㄷ"
+      ],
+      "refs": [
+        "변시4 39번 ㄷ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "조세 부과의 근거가 되었던 법률규정이 위헌으로 결정된 경우, 비록 그에 기한 과세처분이 위헌결정 전에 이루어졌고, 과세처분에 대한 제소기간이 이미 경과하여 조세채권이 확정되었으며, 조세채권의 집행을 위한 체납처분의 근거규정 자체에 대하여는 따로 위헌결정이 내려진 바 없다고 하더라도, 위와 같은 위헌결정 이후에 조세채권의 집행을 위한 새로운 체납처분에 착수하거나 이를 속행하는 것은 더 이상 허용되지 않는다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 39번 ㄷ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q40-ㄱ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "손실보상",
+      "rep": "이른바 ‘분리이론’은 재산권의 가치보장보다는 존속보장을 강화하려는 입장에서 접근하는 견해이다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 40번 ㄱ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제23조",
+      "art": "제23조",
+      "artNo": 23,
+      "src": [
+        "변시4 40번 ㄱ"
+      ],
+      "refs": [
+        "변시4 40번 ㄱ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "이른바 ‘분리이론’은 재산권의 가치보장보다는 존속보장을 강화하려는 입장에서 접근하는 견해이다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 40번 ㄱ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q40-ㄴ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "손실보상",
+      "rep": "대법원은 하천법 부칙(1984. 12. 31.) 제2조 제1항과 법률 제3782호 하천법 중 개정법률 부칙 제2조의 규정에 의한 보상청구권의 소멸시효가 만료된 하천구역 편입토지 보상에 관한 특별조치법 제2조 제1항의 규정에 의한 손실보상청구권의 확인을 구하는 소송을 당사자소송으로 보았다.",
+      "a": "O",
+      "why": "제4회 변호사시험 공법 선택형 40번 ㄴ 지문에서 확인한 O입니다.",
+      "ref": "헌법 제23조",
+      "art": "제23조",
+      "artNo": 23,
+      "src": [
+        "변시4 40번 ㄴ"
+      ],
+      "refs": [
+        "변시4 40번 ㄴ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "O",
+      "source_statement": "대법원은 ｢하천법｣ 부칙(1984. 12. 31.) 제2조 제1항과 ｢법률 제3782호 하천법 중 개정법률 부칙 제2조의 규정에 의한 보상청구권의 소멸시효가 만료된 하천구역 편입토지 보상에 관한 특별조치법｣ 제2조 제1항의 규정에 의한 손실보상청구권의 확인을 구하는 소송을 당사자소송으로 보았다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 40번 ㄴ 지문은 정답표상 O입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q40-ㄷ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "손실보상",
+      "rep": "대법원 판례에 의하면 공공사업의 시행으로 사업시행지 밖에서 발생한 간접손실은 손실 발생을 쉽게 예견할 수 있고 손실 범위도 구체적으로 특정할 수 있더라도, 사업시행자와 협의가 이루어지지 아니하고 그 보상에 관한 명문의 근거 법령이 없는 경우에는 보상의 대상이 아니다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 40번 ㄷ 지문에서 확인한 X입니다.",
+      "ref": "헌법 제23조",
+      "art": "제23조",
+      "artNo": 23,
+      "src": [
+        "변시4 40번 ㄷ"
+      ],
+      "refs": [
+        "변시4 40번 ㄷ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "대법원 판례에 의하면 공공사업의 시행으로 사업시행지 밖에서 발생한 간접손실은 손실 발생을 쉽게 예견할 수 있고 손실 범위도 구체적으로 특정할 수 있더라도, 사업시행자와 협의가 이루어지지 아니하고 그 보상에 관한 명문의 근거 법령이 없는 경우에는 보상의 대상이 아니다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 40번 ㄷ 지문은 정답표상 X입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q40-ㄹ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "손실보상",
+      "rep": "토지소유자가 손실보상금의 증액을 쟁송상 구하는 경우에는 전심절차로서 이의신청에 대한 재결을 거친 후 관할 토지수용위원회를 피고로 하여 보상금증액청구소송을 제기하여야 한다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 40번 ㄹ 지문에서 확인한 X입니다.",
+      "ref": "헌법 제23조",
+      "art": "제23조",
+      "artNo": 23,
+      "src": [
+        "변시4 40번 ㄹ"
+      ],
+      "refs": [
+        "변시4 40번 ㄹ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "토지소유자가 손실보상금의 증액을 쟁송상 구하는 경우에는 전심절차로서 이의신청에 대한 재결을 거친 후 관할 토지수용위원회를 피고로 하여 보상금증액청구소송을 제기하여야 한다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 40번 ㄹ 지문은 정답표상 X입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    },
+    {
+      "pid": "public-bar04-q40-ㅁ",
+      "round": 4,
+      "year": 2015,
+      "subject_group": "공법",
+      "subject": "헌법",
+      "topic": "손실보상",
+      "rep": "생활보상의 일종인 이주대책은 입법자의 입법정책적 재량영역이 아니라 헌법 제23조 제3항의 정당한 보상에 포함된다고 함이 헌법재판소의 입장이다.",
+      "a": "X",
+      "why": "제4회 변호사시험 공법 선택형 40번 ㅁ 지문에서 확인한 X입니다.",
+      "ref": "헌법 제23조",
+      "art": "제23조",
+      "artNo": 23,
+      "src": [
+        "변시4 40번 ㅁ"
+      ],
+      "refs": [
+        "변시4 40번 ㅁ"
+      ],
+      "years": [
+        "변시4"
+      ],
+      "freq": 1,
+      "hot": false,
+      "twins": [],
+      "grade": "C",
+      "weight": 0.22,
+      "source_answer": "X",
+      "source_statement": "생활보상의 일종인 이주대책은 입법자의 입법정책적 재량영역이 아니라 헌법 제23조 제3항의 정당한 보상에 포함된다고 함이 헌법재판소의 입장이다.",
+      "source_basis": "제4회 변호사시험 공법 선택형 40번 ㅁ 지문은 정답표상 X입니다.",
+      "source_kind": "letter_combination_positive",
+      "statement_kind": "sub_text_labels",
+      "source_layer_needs_atomization": false,
+      "quality_flags": [],
+      "type": "public_bar_minimal_atom_draft"
+    }
+  ]
+}

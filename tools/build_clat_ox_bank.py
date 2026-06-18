@@ -15,6 +15,8 @@ REPORTS = ROOT / "reports"
 CIVIL_BANK = ASSETS / "ox_msa_unified_v001.json"
 CRIMINAL_SOURCE = ASSETS / "ox_criminal_bar_all_source.json"
 PUBLIC_SOURCE = ASSETS / "ox_public_bar_all_source.json"
+CRIMINAL_MINIMAL = ASSETS / "ox_criminal_bar_all_minimal_atoms_draft.json"
+PUBLIC_MINIMAL = ASSETS / "ox_public_bar_all_minimal_atoms_draft.json"
 OUT_BANK = ASSETS / "ox_clat_unified_v001.json"
 OUT_AUDIT_JSON = REPORTS / "clat_ox_bank_audit.json"
 OUT_AUDIT_MD = REPORTS / "clat_ox_bank_audit.md"
@@ -203,6 +205,25 @@ def normalize_existing_items(items: list[dict[str, Any]]) -> list[dict[str, Any]
     return out
 
 
+def normalize_subject_minimal_items(items: list[dict[str, Any]], layer: str) -> list[dict[str, Any]]:
+    out: list[dict[str, Any]] = []
+    for item in items:
+        rep = clean_text(item.get("rep"))
+        if not rep or reject_clat_atom_text(rep):
+            continue
+        copied = dict(item)
+        copied["rep"] = rep
+        copied["a"] = "X" if item.get("a") == "X" else "O"
+        copied["sourceLayer"] = f"{layer}_minimal_atom"
+        copied["twins"] = [
+            twin
+            for twin in (copied.get("twins") or [])
+            if clean_text(twin.get("q")) and not reject_clat_atom_text(clean_text(twin.get("q")))
+        ]
+        out.append(copied)
+    return out
+
+
 def transform_source_items(items: list[dict[str, Any]], layer: str) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
     for item in items:
@@ -295,22 +316,22 @@ def render_audit(payload: dict[str, Any], skipped_duplicates: int) -> str:
     lines.extend(["", "## 출처층", ""])
     for layer, count in layer_counts.most_common():
         lines.append(f"- {layer}: {count}개")
-    lines.extend(["", "## 비고", "", "- 민사법은 기존 최소 atom 통합본을 사용했습니다.", "- 형사법·공법은 이번 원문 지문층을 CLAT 전용으로 연결했습니다.", ""])
+    lines.extend(["", "## 비고", "", "- 민사법은 기존 최소 atom 통합본을 사용했습니다.", "- 형사법·공법은 회차별 최소 atom 정제본을 사용했습니다.", ""])
     return "\n".join(lines)
 
 
 def main() -> None:
     civil = normalize_existing_items(load_json(CIVIL_BANK).get("items") or [])
-    criminal = transform_source_items(load_json(CRIMINAL_SOURCE).get("items") or [], "criminal")
-    public = transform_source_items(load_json(PUBLIC_SOURCE).get("items") or [], "public")
+    criminal = normalize_subject_minimal_items(load_json(CRIMINAL_MINIMAL).get("items") or [], "criminal")
+    public = normalize_subject_minimal_items(load_json(PUBLIC_MINIMAL).get("items") or [], "public")
     items, skipped = dedupe(civil + criminal + public)
     payload = {
         "title": "CLAT OX unified bank",
         "version": "2026-06-18.clat-all-v001",
         "source": {
             "civil": str(CIVIL_BANK.relative_to(ROOT)),
-            "criminal": str(CRIMINAL_SOURCE.relative_to(ROOT)),
-            "public": str(PUBLIC_SOURCE.relative_to(ROOT)),
+            "criminal": str(CRIMINAL_MINIMAL.relative_to(ROOT)),
+            "public": str(PUBLIC_MINIMAL.relative_to(ROOT)),
         },
         "updatedAt": datetime.now(timezone.utc).isoformat(),
         "count": len(items),
