@@ -9,6 +9,7 @@ month/round/question metadata locally, while public labels are reduced to
 from __future__ import annotations
 
 import argparse
+import difflib
 import hashlib
 import json
 import re
@@ -121,6 +122,12 @@ CASE_LABEL_REPLACEMENTS = {
     "乙": "상대방",
     "丙": "제3자",
     "丁": "제4자",
+    "戊": "제5자",
+    "己": "제6자",
+    "庚": "제7자",
+    "辛": "제8자",
+    "壬": "제9자",
+    "癸": "제10자",
 }
 ASCII_CASE_REPLACEMENTS = {
     "A": "당사자",
@@ -132,6 +139,38 @@ ASCII_CASE_REPLACEMENTS = {
     "Y": "상대방",
 }
 PARTICLE_FIXES = {
+    "민법는": "민법은",
+    "민법가": "민법이",
+    "민법를": "민법을",
+    "민법와": "민법과",
+    "민사소송법는": "민사소송법은",
+    "민사소송법가": "민사소송법이",
+    "민사소송법를": "민사소송법을",
+    "민사소송법와": "민사소송법과",
+    "상법는": "상법은",
+    "상법가": "상법이",
+    "상법를": "상법을",
+    "상법와": "상법과",
+    "형법는": "형법은",
+    "형법가": "형법이",
+    "형법를": "형법을",
+    "형법와": "형법과",
+    "형사소송법는": "형사소송법은",
+    "형사소송법가": "형사소송법이",
+    "형사소송법를": "형사소송법을",
+    "형사소송법와": "형사소송법과",
+    "헌법는": "헌법은",
+    "헌법가": "헌법이",
+    "헌법를": "헌법을",
+    "헌법와": "헌법과",
+    "행정법는": "행정법은",
+    "행정법가": "행정법이",
+    "행정법를": "행정법을",
+    "행정법와": "행정법과",
+    "관련 규정는": "관련 규정은",
+    "관련 규정가": "관련 규정이",
+    "관련 규정를": "관련 규정을",
+    "관련 규정와": "관련 규정과",
     "상대방는": "상대방은",
     "상대방가": "상대방이",
     "상대방를": "상대방을",
@@ -144,6 +183,21 @@ PARTICLE_FIXES = {
     "제5자은": "제5자는",
     "제5자이": "제5자가",
     "제5자을": "제5자를",
+    "제6자은": "제6자는",
+    "제6자이": "제6자가",
+    "제6자을": "제6자를",
+    "제7자은": "제7자는",
+    "제7자이": "제7자가",
+    "제7자을": "제7자를",
+    "제8자은": "제8자는",
+    "제8자이": "제8자가",
+    "제8자을": "제8자를",
+    "제9자은": "제9자는",
+    "제9자이": "제9자가",
+    "제9자을": "제9자를",
+    "제10자은": "제10자는",
+    "제10자이": "제10자가",
+    "제10자을": "제10자를",
     "목적물는": "목적물은",
     "목적물가": "목적물이",
     "목적물를": "목적물을",
@@ -178,6 +232,30 @@ def first_sentence(text: str) -> str:
     return text[:220].rstrip(" ,;·") + "."
 
 
+def repair_generated_prompt(text: str) -> str:
+    text = clean_text(text)
+    text = re.sub(r"([가-힣A-Za-z]+법)\s*관련", r"\1 관련", text)
+    text = re.sub(r"\s+([은는이가을를와과에도])(?=[\s.,])", r"\1", text)
+    for src, dst in PARTICLE_FIXES.items():
+        text = text.replace(src, dst)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def rewrite_known_long_prompt(prompt: str) -> str:
+    if (
+        "서로 양립할 수 없는 적용법조" in prompt
+        and "예비적 공소사실만 유죄로 인정" in prompt
+        and "환송 후 원심은 예비적 공소사실에 대하여만" in prompt
+    ):
+        return (
+            "동일한 사실관계에서 주위적·예비적 공소사실이 양립할 수 없고 예비적 공소사실만 유죄로 인정되어 "
+            "피고인만 상고한 경우, 상고심이 원심판결 전부를 파기환송하였더라도 환송 후 원심은 "
+            "예비적 공소사실만 심리하여야 한다."
+        )
+    return prompt
+
+
 def strip_question_noise(text: str) -> str:
     text = clean_text(text)
     text = re.sub(r"^[①②③④⑤]\s*", "", text)
@@ -190,6 +268,8 @@ def strip_question_noise(text: str) -> str:
     text = re.sub(r"제\s*\d+\s*조(?:\s*의\s*\d+)?(?:\s*제\s*\d+\s*항)?", "관련 규정", text)
     text = re.sub(r"\s+", " ", text).strip(" ,;")
     text = generalize_case_labels(text)
+    text = repair_generated_prompt(text)
+    text = rewrite_known_long_prompt(text)
     return first_sentence(text)
 
 
@@ -251,7 +331,7 @@ def reject_prompt(prompt: str, raw: str) -> bool:
         return True
     if re.search(r"(?:묻|답변|논의|말씀|청구인적격을 논외)", prompt):
         return True
-    if any(ch in prompt for ch in ("甲", "乙", "丙", "丁")):
+    if any(ch in prompt for ch in ("甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "壬", "癸")):
         return True
     if re.search(r"(?<![A-Za-z])[A-D](?![A-Za-z])", prompt):
         return True
@@ -465,6 +545,75 @@ def atom_key(atom: dict[str, Any]) -> tuple[str, str, str]:
     return clean_text(atom.get("subject")), prompt, clean_text(atom.get("a"))
 
 
+def similarity_prompt(text: str) -> str:
+    text = repair_generated_prompt(text)
+    text = re.sub(r"[\s,.;:·ㆍ･「」『』\[\](){}]", "", text)
+    return text
+
+
+def gram_set(text: str, n: int = 5) -> set[str]:
+    if len(text) <= n:
+        return {text}
+    return {text[idx : idx + n] for idx in range(len(text) - n + 1)}
+
+
+def add_similarity_index(
+    index: dict[tuple[str, str], dict[str, list[tuple[dict[str, Any], str, set[str]]]]],
+    item: dict[str, Any],
+) -> None:
+    subject = clean_text(item.get("subject"))
+    answer = clean_text(item.get("a"))
+    prompt = similarity_prompt(item.get("rep"))
+    if not subject or answer not in {"O", "X"} or len(prompt) < 18:
+        return
+    grams = gram_set(prompt)
+    bucket = index.setdefault((subject, answer), defaultdict(list))
+    entry = (item, prompt, grams)
+    for gram in grams:
+        bucket[gram].append(entry)
+
+
+def find_similar_atom(
+    index: dict[tuple[str, str], dict[str, list[tuple[dict[str, Any], str, set[str]]]]],
+    atom: dict[str, Any],
+    threshold: float = 0.96,
+) -> dict[str, Any] | None:
+    subject = clean_text(atom.get("subject"))
+    answer = clean_text(atom.get("a"))
+    prompt = similarity_prompt(atom.get("rep"))
+    if not subject or answer not in {"O", "X"} or len(prompt) < 18:
+        return None
+    bucket = index.get((subject, answer))
+    if not bucket:
+        return None
+    grams = gram_set(prompt)
+    counts: Counter[int] = Counter()
+    refs: dict[int, tuple[dict[str, Any], str, set[str]]] = {}
+    for gram in grams:
+        for entry in bucket.get(gram, []):
+            item, other_prompt, other_grams = entry
+            key = id(item)
+            counts[key] += 1
+            refs[key] = entry
+    best_item: dict[str, Any] | None = None
+    best_ratio = 0.0
+    for key, overlap in counts.most_common(80):
+        item, other_prompt, other_grams = refs[key]
+        if not other_prompt:
+            continue
+        if abs(len(prompt) - len(other_prompt)) / max(len(prompt), len(other_prompt)) > 0.35:
+            continue
+        if overlap / max(1, min(len(grams), len(other_grams))) < 0.55:
+            continue
+        ratio = difflib.SequenceMatcher(None, prompt, other_prompt, autojunk=False).ratio()
+        if ratio > best_ratio:
+            best_ratio = ratio
+            best_item = item
+    if best_item is not None and best_ratio >= threshold:
+        return best_item
+    return None
+
+
 def merge_atom(target: dict[str, Any], incoming: dict[str, Any]) -> None:
     target["freq"] = int(target.get("freq") or 1) + int(incoming.get("freq") or 1)
     for key in ("years", "src"):
@@ -554,20 +703,28 @@ def merge_into_current(current_path: Path, atoms: list[dict[str, Any]], *, backu
     current = load_current_clat(current_path)
     items = list(current.get("items") or [])
     index: dict[tuple[str, str, str], dict[str, Any]] = {}
+    similarity_index: dict[tuple[str, str], dict[str, list[tuple[dict[str, Any], str, set[str]]]]] = {}
     for item in items:
         index[atom_key(item)] = item
+        add_similarity_index(similarity_index, item)
 
     added = 0
     merged = 0
+    near_merged = 0
     for atom in atoms:
         key = atom_key(atom)
         if key in index:
             merge_atom(index[key], atom)
             index[key]["sourceLayer"] = index[key].get("sourceLayer") or "curated_atom"
             merged += 1
+        elif similar := find_similar_atom(similarity_index, atom):
+            merge_atom(similar, atom)
+            merged += 1
+            near_merged += 1
         else:
             items.append(atom)
             index[key] = atom
+            add_similarity_index(similarity_index, atom)
             added += 1
 
     if backup:
@@ -583,7 +740,7 @@ def merge_into_current(current_path: Path, atoms: list[dict[str, Any]], *, backu
     layers = Counter(clean_text(item.get("sourceLayer")) or "unknown" for item in items)
     current["layers"] = dict(layers)
     write_json(current_path, current)
-    return {"added": added, "merged": merged, "total": len(items)}
+    return {"added": added, "merged": merged, "nearMerged": near_merged, "total": len(items)}
 
 
 def write_outputs(atoms: list[dict[str, Any]], audit: dict[str, Any], out_dir: Path) -> None:
@@ -622,6 +779,7 @@ def render_md(audit: dict[str, Any], merge_result: dict[str, Any] | None) -> str
             "## CLAT 병합",
             f"- 새로 추가: {merge_result['added']:,}개",
             f"- 기존 atom에 병합: {merge_result['merged']:,}개",
+            f"- 유사문장 병합: {merge_result.get('nearMerged', 0):,}개",
             f"- 병합 후 총 CLAT atom: {merge_result['total']:,}개",
         ]
     if audit.get("skippedQuestionIds"):
