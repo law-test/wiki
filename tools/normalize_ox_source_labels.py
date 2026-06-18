@@ -24,7 +24,10 @@ OX_FILES = [
 ]
 
 SOURCE_KEYS = {"source", "src", "years", "refs", "ref"}
-MOCK15_PUBLIC_LABEL = "변호사시험 15회 예상"
+MOCK_EXPECTED_LABELS = {
+    "2024": "변호사시험 14회 예상",
+    "2025": "변호사시험 15회 예상",
+}
 
 
 def _year_short(year: str) -> str:
@@ -36,22 +39,31 @@ def _space(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def is_mock15_source_label(value: str) -> bool:
+def expected_mock_public_label(value: str) -> str:
     text = str(value or "")
     compact = re.sub(r"\s+", "", text)
-    if "변호사시험15회예상" in compact or "변시15예상" in compact:
-        return True
-    if "2025" not in text or "변호사시험" not in text or "모의" not in text:
-        return False
-    return bool(re.search(r"(?:제\s*)?[123]\s*차", text) or re.search(r"(?:6|8|10)\s*월", text))
+    for year, label in MOCK_EXPECTED_LABELS.items():
+        round_no = str(int(year) - 2010)
+        if label.replace(" ", "") in compact or f"변시{round_no}예상" in compact:
+            return label
+        if year in text and "변호사시험" in text and "모의" in text:
+            if re.search(r"(?:제\s*)?[123]\s*차", text) or re.search(r"(?:6|8|10)\s*월", text):
+                return label
+            return label
+    return ""
+
+
+def is_mock15_source_label(value: str) -> bool:
+    return expected_mock_public_label(value) == MOCK_EXPECTED_LABELS["2025"]
 
 
 def normalize_source_label(value: str) -> str:
     text = str(value or "")
     if not text:
         return text
-    if is_mock15_source_label(text):
-        return MOCK15_PUBLIC_LABEL
+    mock_label = expected_mock_public_label(text)
+    if mock_label:
+        return mock_label
 
     text = re.sub(r"변호사시험\s+변시", "변시", text)
     text = re.sub(r"법원직\s+법원직", "법원직", text)

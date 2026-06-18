@@ -19,7 +19,11 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SOURCE = Path(r"C:\cowork\law-test-private\private_problem_banks\current")
 DEFAULT_OUT = Path(r"C:\cowork\law-test-private\supabase_private_game_bank_import")
-MOCK15_PUBLIC_LABEL = "변호사시험 15회 예상"
+MOCK_EXPECTED_LABELS = {
+    "2024": "변호사시험 14회 예상",
+    "2025": "변호사시험 15회 예상",
+}
+MOCK15_PUBLIC_LABEL = MOCK_EXPECTED_LABELS["2025"]
 
 
 ARTICLE_RE = re.compile(r"제\s*(\d+)\s*(?:조의\s*(\d+)|의\s*(\d+)\s*조|조)")
@@ -111,27 +115,32 @@ def flatten(values: Any) -> list[str]:
     return [clean_text(values)]
 
 
-def is_mock15_source_text(value: Any) -> bool:
+def expected_mock_public_label(value: Any) -> str:
     text = clean_text(value)
     if not text:
-        return False
+        return ""
     compact = re.sub(r"\s+", "", text)
-    if "변호사시험15회예상" in compact or "변시15예상" in compact:
-        return True
-    if "2025" not in text or "변호사시험" not in text or "모의" not in text:
-        return False
-    if re.search(r"(?:제\s*)?[123]\s*차", text):
-        return True
-    if re.search(r"(?:6|8|10)\s*월", text):
-        return True
-    return True
+    for year, label in MOCK_EXPECTED_LABELS.items():
+        round_no = str(int(year) - 2010)
+        if label.replace(" ", "") in compact or f"변시{round_no}예상" in compact:
+            return label
+        if year in text and "변호사시험" in text and "모의" in text:
+            if re.search(r"(?:제\s*)?[123]\s*차", text) or re.search(r"(?:6|8|10)\s*월", text):
+                return label
+            return label
+    return ""
 
 
-def is_mock15_item(item: dict[str, Any], twin: dict[str, Any] | None = None) -> bool:
-    if str(item.get("mockYear") or item.get("mock_year") or "") == "2025" and (
+def is_mock15_source_text(value: Any) -> bool:
+    return expected_mock_public_label(value) == MOCK15_PUBLIC_LABEL
+
+
+def expected_mock_item_label(item: dict[str, Any], twin: dict[str, Any] | None = None) -> str:
+    item_year = str(item.get("mockYear") or item.get("mock_year") or "")
+    if item_year in MOCK_EXPECTED_LABELS and (
         item.get("mockRound") or item.get("mock_round") or item.get("mockMonth") or item.get("mock_month")
     ):
-        return True
+        return MOCK_EXPECTED_LABELS[item_year]
     for source in (item, twin or {}):
         for key in (
             "source",
@@ -145,9 +154,14 @@ def is_mock15_item(item: dict[str, Any], twin: dict[str, Any] | None = None) -> 
             "ref",
         ):
             for text in flatten(source.get(key)):
-                if is_mock15_source_text(text):
-                    return True
-    return False
+                label = expected_mock_public_label(text)
+                if label:
+                    return label
+    return ""
+
+
+def is_mock15_item(item: dict[str, Any], twin: dict[str, Any] | None = None) -> bool:
+    return expected_mock_item_label(item, twin) == MOCK15_PUBLIC_LABEL
 
 
 def source_tags(*values: Any) -> str:
@@ -167,8 +181,9 @@ def source_tags(*values: Any) -> str:
 
     for raw in values:
         for text in flatten(raw):
-            if is_mock15_source_text(text):
-                push(MOCK15_PUBLIC_LABEL)
+            mock_label = expected_mock_public_label(text)
+            if mock_label:
+                push(mock_label)
                 continue
             text = text.replace("변호사시험 변시", "변시").replace("법원직 법원직", "법원직")
             text = re.sub(r"변시\s*1\s+0\s*번", "변시10", text)
@@ -199,8 +214,9 @@ def source_tags(*values: Any) -> str:
         numbers = re.findall(r"\d+", tag)
         return (-(int(numbers[0]) if numbers else 0), tag)
 
-    if MOCK15_PUBLIC_LABEL in tags:
-        return MOCK15_PUBLIC_LABEL
+    for label in MOCK_EXPECTED_LABELS.values():
+        if label in tags:
+            return label
     tags.sort(key=sort_key)
     return " · ".join(tags[:8])
 
@@ -279,7 +295,7 @@ def make_row(
     subject = clean_text(item.get("subject") or ("법조윤리" if bank == "ethics" else "민법"))
     article = clean_text((twin or {}).get("art") or item.get("art") or "")
     ref = clean_text((twin or {}).get("ref") or item.get("ref") or item.get("source_basis") or "")
-    mock15 = is_mock15_item(item, twin)
+    mock_label = expected_mock_item_label(item, twin)
     tags = source_tags(
         item.get("years"),
         item.get("src"),
@@ -290,8 +306,8 @@ def make_row(
         (twin or {}).get("refs"),
         (twin or {}).get("ref"),
     )
-    if mock15:
-        tags = MOCK15_PUBLIC_LABEL
+    if mock_label:
+        tags = mock_label
     return {
         "bank": bank,
         "source_pid": source_pid,

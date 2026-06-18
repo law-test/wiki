@@ -18873,11 +18873,13 @@ window.__lawinusCleanQuizQuestion=window.__lawinusCleanQuizQuestion||function(va
     function shortYear(y){y=String(y||'');return y.length===4&&y.indexOf('20')===0?y.slice(2):y;}
     function roundNo(v){v=String(v||'').trim();return /^[0-9]+$/.test(v)?String(parseInt(v,10)):v;}
     function sourceLabel(kind,r,q,m){r=roundNo(r);q=String(q||'').trim();m=String(m||'').trim();var label=kind==='bar'?('변호사시험'+r+'회'):(kind==='ethics'?('법조윤리'+r+'회'):('법원직'+shortYear(r)+'년'));if(q)label+=' '+q+'번';if(m)label+=' '+m;return label;}
+    function mockExpectedLabel(s){s=String(s||'');var c=s.replace(/\s+/g,'');if(c.indexOf('변호사시험15회예상')>=0||c.indexOf('변시15예상')>=0)return '변호사시험 15회 예상';if(c.indexOf('변호사시험14회예상')>=0||c.indexOf('변시14예상')>=0)return '변호사시험 14회 예상';if(s.indexOf('2025')>=0&&s.indexOf('변호사시험')>=0&&s.indexOf('모의')>=0)return '변호사시험 15회 예상';if(s.indexOf('2024')>=0&&s.indexOf('변호사시험')>=0&&s.indexOf('모의')>=0)return '변호사시험 14회 예상';return '';}
     function pushTag(label){label=String(label||'').replace(/\s+/g,' ').trim();if(!label)return;var base=(label.match(/^(변호사시험\d+회|법조윤리\d+회|법원직\d+년)/)||[])[1];if(base&&/\d+번/.test(label))tags=tags.filter(function(x){return x!==base;});if(base&&label===base&&tags.some(function(x){return x.indexOf(base+' ')===0;}))return;if(tags.indexOf(label)<0)tags.push(label);}
     function scan(v){
       if(!v)return;
       if(Array.isArray(v)){v.forEach(scan);return;}
       var s=String(v).replace(/\s+/g,' ').trim().replace(/변호사시험\s+변시/g,'변시').replace(/법원직\s+법원직/g,'법원직').replace(/변시\s*1\s+0\s*번/g,'변시10').replace(/변호사시험\s*1\s*회\s+0\s*번/g,'변호사시험10회');
+      var mock=mockExpectedLabel(s);if(mock){pushTag(mock);return;}
       s.replace(/(?:변호사시험\s*)?변시\s*(\d{1,2})\s*(?:회)?\s*(?:민사법|민법|상법|민사소송법|형사법|형법|형사소송법|공법|헌법|행정법)?\s*(?:선택형)?\s*(?:문제|문항|문)\s*(\d{1,3})\s*(?:번)?\s*(?:보기)?\s*([ㄱ-ㅎ①-⑤])?/g,function(_,r,q,m){pushTag(sourceLabel('bar',r,q,m));});
       s.replace(/(?:변호사시험\s*)?변시\s*(\d{1,2})\s*(?:회)?\s+(\d{1,3})\s*(?:번)?\s*([ㄱ-ㅎ①-⑤])?/g,function(_,r,q,m){pushTag(sourceLabel('bar',r,q,m));});
       s.replace(/변호사시험\s*(?:제)?\s*(\d{1,2})\s*회\s*(?:민사법|민법|상법|민사소송법|형사법|형법|형사소송법|공법|헌법|행정법)?\s*(?:선택형)?\s*(?:(?:문제|문항|문)\s*)?(\d{1,3})?\s*(?:번)?\s*(?:보기)?\s*([ㄱ-ㅎ①-⑤])?/g,function(_,r,q,m){pushTag(sourceLabel('bar',r,q,m));});
@@ -19806,11 +19808,13 @@ function lawAtomRowsToItems(rows){
     function shortYear(y){y=String(y||'');return y.length===4&&y.indexOf('20')===0?y.slice(2):y;}
     function roundNo(v){v=String(v||'').trim();return /^[0-9]+$/.test(v)?String(parseInt(v,10)):v;}
     function sourceLabel(kind,r,q,m){r=roundNo(r);q=String(q||'').trim();m=String(m||'').trim();var label=kind==='bar'?('변호사시험'+r+'회'):(kind==='ethics'?('법조윤리'+r+'회'):('법원직'+shortYear(r)+'년'));if(q)label+=' '+q+'번';if(m)label+=' '+m;return label;}
+    function mockExpectedLabel(s){s=String(s||'');var c=s.replace(/\s+/g,'');if(c.indexOf('변호사시험15회예상')>=0||c.indexOf('변시15예상')>=0)return '변호사시험 15회 예상';if(c.indexOf('변호사시험14회예상')>=0||c.indexOf('변시14예상')>=0)return '변호사시험 14회 예상';if(s.indexOf('2025')>=0&&s.indexOf('변호사시험')>=0&&s.indexOf('모의')>=0)return '변호사시험 15회 예상';if(s.indexOf('2024')>=0&&s.indexOf('변호사시험')>=0&&s.indexOf('모의')>=0)return '변호사시험 14회 예상';return '';}
     function push(label){label=String(label||'').replace(/\s+/g,' ').trim();if(!label)return;var base=(label.match(/^(변호사시험\d+회|법조윤리\d+회|법원직\d+년)/)||[])[1];if(base&&/\d+번/.test(label))tags=tags.filter(function(x){return x!==base;});if(base&&label===base&&tags.some(function(x){return x.indexOf(base+' ')===0;}))return;if(tags.indexOf(label)<0)tags.push(label);}
     function scan(v){
       if(!v)return;
       if(Array.isArray(v)){v.forEach(scan);return;}
       var s=String(v).replace(/\s+/g,' ').trim().replace(/변호사시험\s+변시/g,'변시').replace(/법원직\s+법원직/g,'법원직').replace(/변시\s*1\s+0\s*번/g,'변시10').replace(/변호사시험\s*1\s*회\s+0\s*번/g,'변호사시험10회');
+      var mock=mockExpectedLabel(s);if(mock){push(mock);return;}
       s.replace(/(?:변호사시험\s*)?변시\s*(\d{1,2})\s*(?:회)?\s*(?:민사법|민법|상법|민사소송법|형사법|형법|형사소송법|공법|헌법|행정법)?\s*(?:선택형)?\s*(?:문제|문항|문)\s*(\d{1,3})\s*(?:번)?\s*(?:보기)?\s*([ㄱ-ㅎ①-⑤])?/g,function(_,r,q,m){push(sourceLabel('bar',r,q,m));});
       s.replace(/(?:변호사시험\s*)?변시\s*(\d{1,2})\s*(?:회)?\s+(\d{1,3})\s*(?:번)?\s*([ㄱ-ㅎ①-⑤])?/g,function(_,r,q,m){push(sourceLabel('bar',r,q,m));});
       s.replace(/변호사시험\s*(?:제)?\s*(\d{1,2})\s*회\s*(?:민사법|민법|상법|민사소송법|형사법|형법|형사소송법|공법|헌법|행정법)?\s*(?:선택형)?\s*(?:(?:문제|문항|문)\s*)?(\d{1,3})?\s*(?:번)?\s*(?:보기)?\s*([ㄱ-ㅎ①-⑤])?/g,function(_,r,q,m){push(sourceLabel('bar',r,q,m));});
