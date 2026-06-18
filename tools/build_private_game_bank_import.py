@@ -221,6 +221,54 @@ def source_tags(*values: Any) -> str:
     return " · ".join(tags[:8])
 
 
+def source_tags_without_mock(*values: Any) -> str:
+    kept: list[str] = []
+    for raw in values:
+        for text in flatten(raw):
+            if expected_mock_public_label(text):
+                continue
+            kept.append(text)
+    return source_tags(kept)
+
+
+def mock_occurrence_count(item: dict[str, Any], twin: dict[str, Any] | None, mock_label: str) -> int:
+    private_sources = list(flatten(item.get("privateSources"))) + list(flatten((twin or {}).get("privateSources")))
+    if private_sources:
+        return max(1, len(private_sources))
+    src_labels = [
+        text for text in flatten(item.get("src")) + flatten((twin or {}).get("src"))
+        if expected_mock_public_label(text) == mock_label
+    ]
+    return max(1, len(src_labels))
+
+
+def upload_tags(item: dict[str, Any], twin: dict[str, Any] | None, mock_label: str) -> str:
+    if not mock_label:
+        return source_tags(
+            item.get("years"),
+            item.get("src"),
+            item.get("refs"),
+            item.get("ref"),
+            (twin or {}).get("years"),
+            (twin or {}).get("src"),
+            (twin or {}).get("refs"),
+            (twin or {}).get("ref"),
+        )
+    base = source_tags_without_mock(
+        item.get("years"),
+        item.get("src"),
+        item.get("refs"),
+        item.get("ref"),
+        (twin or {}).get("years"),
+        (twin or {}).get("src"),
+        (twin or {}).get("refs"),
+        (twin or {}).get("ref"),
+    )
+    parts = [base] if base else []
+    parts.extend([mock_label] * mock_occurrence_count(item, twin, mock_label))
+    return " · ".join(parts[:8])
+
+
 def sql_text(value: Any) -> str:
     if value is None:
         return "null"
@@ -268,6 +316,56 @@ def upload_meta(item: dict[str, Any], twin: dict[str, Any] | None, mock_label: s
     }
 
 
+def merge_tag_text(left: str, right: str) -> str:
+    tags: list[str] = []
+    for raw in (left, right):
+        for tag in clean_text(raw).split(" · "):
+            if tag and tag not in tags:
+                tags.append(tag)
+    return " · ".join(tags[:8])
+
+
+def disambiguate_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    out: list[dict[str, Any]] = []
+    by_key: dict[tuple[str, str, str], dict[str, Any]] = {}
+    by_signature: dict[tuple[tuple[str, str, str], tuple[str, str, str, str]], dict[str, Any]] = {}
+    used: set[tuple[str, str, str]] = set()
+
+    for row in rows:
+        key = (row["bank"], row["source_pid"], row["source_variant"])
+        signature = (
+            clean_text(row.get("subject")),
+            clean_text(row.get("prompt")),
+            clean_text(row.get("answer")),
+            clean_text(row.get("corrected_prompt")),
+        )
+        exact = by_signature.get((key, signature))
+        if exact:
+            exact["freq"] = max(as_int(exact.get("freq"), 1), as_int(row.get("freq"), 1))
+            exact["tags"] = merge_tag_text(exact.get("tags", ""), row.get("tags", ""))
+            continue
+
+        if key in by_key:
+            new_row = dict(row)
+            base_pid = clean_text(row["source_pid"]) or "row"
+            suffix = sha_pid(row.get("subject", ""), row.get("prompt", ""), row.get("answer", ""), row.get("source_variant", ""))[:8]
+            new_row["source_pid"] = f"{base_pid}-{suffix}"
+            key = (new_row["bank"], new_row["source_pid"], new_row["source_variant"])
+            counter = 2
+            while key in used:
+                new_row["source_pid"] = f"{base_pid}-{suffix}-{counter}"
+                key = (new_row["bank"], new_row["source_pid"], new_row["source_variant"])
+                counter += 1
+            row = new_row
+
+        by_key[key] = row
+        by_signature[(key, signature)] = row
+        used.add(key)
+        out.append(row)
+
+    return out
+
+
 def row_sql(row: dict[str, Any]) -> str:
     values = [
         sql_text(row["bank"]),
@@ -310,18 +408,7 @@ def make_row(
     mock_label = expected_mock_item_label(item, twin)
     if mock_label:
         source_pid = "mock-expected-" + sha_pid(mock_label, subject, article, prompt, answer, corrected)
-    tags = source_tags(
-        item.get("years"),
-        item.get("src"),
-        item.get("refs"),
-        item.get("ref"),
-        (twin or {}).get("years"),
-        (twin or {}).get("src"),
-        (twin or {}).get("refs"),
-        (twin or {}).get("ref"),
-    )
-    if mock_label:
-        tags = mock_label
+    tags = upload_tags(item, twin, mock_label)
     return {
         "bank": bank,
         "source_pid": source_pid,
@@ -497,6 +584,7 @@ def main() -> None:
     source_dir = args.source.resolve()
     rows = build_clat_rows(source_dir) + build_ethics_rows(source_dir)
     rows = [row for row in rows if row["prompt"] and row["answer"] in {"O", "X"}]
+    rows = disambiguate_rows(rows)
     write_chunks(rows, args.out.resolve(), max(50, args.chunk_size))
     print(f"source={source_dir}")
     print(f"out={args.out.resolve()}")
