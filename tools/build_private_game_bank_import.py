@@ -256,6 +256,18 @@ def as_float(value: Any, default: float = 0.0) -> float:
         return default
 
 
+def upload_meta(item: dict[str, Any], twin: dict[str, Any] | None, mock_label: str) -> dict[str, Any]:
+    if mock_label:
+        return {}
+    return {
+        "source_round": item.get("sourceRound") or item.get("round"),
+        "source_question": item.get("sourceQuestion"),
+        "source_part": (twin or {}).get("sourcePart") or item.get("sourcePart"),
+        "source_type": item.get("type"),
+        "source_choice": (twin or {}).get("sourceChoice") or item.get("sourceChoice") or item.get("choice"),
+    }
+
+
 def row_sql(row: dict[str, Any]) -> str:
     values = [
         sql_text(row["bank"]),
@@ -296,6 +308,8 @@ def make_row(
     article = clean_text((twin or {}).get("art") or item.get("art") or "")
     ref = clean_text((twin or {}).get("ref") or item.get("ref") or item.get("source_basis") or "")
     mock_label = expected_mock_item_label(item, twin)
+    if mock_label:
+        source_pid = "mock-expected-" + sha_pid(mock_label, subject, article, prompt, answer, corrected)
     tags = source_tags(
         item.get("years"),
         item.get("src"),
@@ -326,18 +340,7 @@ def make_row(
         "weight": as_float((twin or {}).get("weight", item.get("weight", 0))),
         "freq": as_int((twin or {}).get("freq", item.get("freq", 1))),
         "tags": tags,
-        "meta": {
-            "source_round": item.get("sourceRound") or item.get("round"),
-            "source_question": item.get("sourceQuestion"),
-            "source_part": (twin or {}).get("sourcePart") or item.get("sourcePart"),
-            "source_type": item.get("type"),
-            "mock_year": item.get("mockYear") or item.get("mock_year"),
-            "mock_round": item.get("mockRound") or item.get("mock_round"),
-            "mock_month": item.get("mockMonth") or item.get("mock_month") or item.get("sourceMonth"),
-            "source_choice": (twin or {}).get("sourceChoice") or item.get("sourceChoice") or item.get("choice"),
-            "source_file": item.get("sourceFile") or item.get("source_file") or item.get("sourceQuestionFile"),
-            "source_label_public": MOCK15_PUBLIC_LABEL if mock15 else None,
-        },
+        "meta": upload_meta(item, twin, mock_label),
     }
 
 
