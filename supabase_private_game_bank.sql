@@ -234,3 +234,7 @@ grant execute on function public.get_private_game_questions(text, text, integer)
 grant execute on function public.grade_private_game_question(uuid, text) to anon, authenticated;
 grant execute on function public.get_private_typing_prompts(integer) to anon, authenticated;
 grant execute on function public.get_private_article_atoms(text, text, text, integer) to anon, authenticated;
+
+notify pgrst, 'reload schema';
+
+select 'private_game_bank_schema_ready' as status;
