@@ -1,24 +1,24 @@
 {
-  "count": 8109,
+  "count": 8132,
   "subjects": {
     "민법": 1131,
     "상법": 850,
     "민사소송법": 724,
-    "혼합형사법": 465,
-    "형법": 1266,
-    "형사소송법": 997,
+    "혼합형사법": 464,
+    "형법": 1262,
+    "형사소송법": 1025,
     "헌법": 1352,
     "혼합공법": 256,
     "행정법": 1068
   },
   "answers": {
-    "O": 5927,
-    "X": 2182
+    "O": 5972,
+    "X": 2160
   },
   "layers": {
     "curated_atom": 2705,
-    "criminal_minimal_atom": 2728,
+    "criminal_minimal_atom": 2751,
     "public_minimal_atom": 2676
   },
-  "skippedDuplicates": 6
+  "skippedDuplicates": 5
 }
