@@ -19,6 +19,7 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SOURCE = Path(r"C:\cowork\law-test-private\private_problem_banks\current")
 DEFAULT_OUT = Path(r"C:\cowork\law-test-private\supabase_private_game_bank_import")
+MOCK15_PUBLIC_LABEL = "변호사시험 15회 예상"
 
 
 ARTICLE_RE = re.compile(r"제\s*(\d+)\s*(?:조의\s*(\d+)|의\s*(\d+)\s*조|조)")
@@ -110,6 +111,45 @@ def flatten(values: Any) -> list[str]:
     return [clean_text(values)]
 
 
+def is_mock15_source_text(value: Any) -> bool:
+    text = clean_text(value)
+    if not text:
+        return False
+    compact = re.sub(r"\s+", "", text)
+    if "변호사시험15회예상" in compact or "변시15예상" in compact:
+        return True
+    if "2025" not in text or "변호사시험" not in text or "모의" not in text:
+        return False
+    if re.search(r"(?:제\s*)?[123]\s*차", text):
+        return True
+    if re.search(r"(?:6|8|10)\s*월", text):
+        return True
+    return True
+
+
+def is_mock15_item(item: dict[str, Any], twin: dict[str, Any] | None = None) -> bool:
+    if str(item.get("mockYear") or item.get("mock_year") or "") == "2025" and (
+        item.get("mockRound") or item.get("mock_round") or item.get("mockMonth") or item.get("mock_month")
+    ):
+        return True
+    for source in (item, twin or {}):
+        for key in (
+            "source",
+            "sourceExam",
+            "sourceLabel",
+            "sourceFile",
+            "sourceQuestionFile",
+            "years",
+            "src",
+            "refs",
+            "ref",
+        ):
+            for text in flatten(source.get(key)):
+                if is_mock15_source_text(text):
+                    return True
+    return False
+
+
 def source_tags(*values: Any) -> str:
     tags: list[str] = []
 
@@ -127,6 +167,9 @@ def source_tags(*values: Any) -> str:
 
     for raw in values:
         for text in flatten(raw):
+            if is_mock15_source_text(text):
+                push(MOCK15_PUBLIC_LABEL)
+                continue
             text = text.replace("변호사시험 변시", "변시").replace("법원직 법원직", "법원직")
             text = re.sub(r"변시\s*1\s+0\s*번", "변시10", text)
             text = re.sub(r"변호사시험\s*1\s*회\s+0\s*번", "변호사시험10회", text)
@@ -156,6 +199,8 @@ def source_tags(*values: Any) -> str:
         numbers = re.findall(r"\d+", tag)
         return (-(int(numbers[0]) if numbers else 0), tag)
 
+    if MOCK15_PUBLIC_LABEL in tags:
+        return MOCK15_PUBLIC_LABEL
     tags.sort(key=sort_key)
     return " · ".join(tags[:8])
 
@@ -234,6 +279,7 @@ def make_row(
     subject = clean_text(item.get("subject") or ("법조윤리" if bank == "ethics" else "민법"))
     article = clean_text((twin or {}).get("art") or item.get("art") or "")
     ref = clean_text((twin or {}).get("ref") or item.get("ref") or item.get("source_basis") or "")
+    mock15 = is_mock15_item(item, twin)
     tags = source_tags(
         item.get("years"),
         item.get("src"),
@@ -244,6 +290,8 @@ def make_row(
         (twin or {}).get("refs"),
         (twin or {}).get("ref"),
     )
+    if mock15:
+        tags = MOCK15_PUBLIC_LABEL
     return {
         "bank": bank,
         "source_pid": source_pid,
@@ -267,6 +315,12 @@ def make_row(
             "source_question": item.get("sourceQuestion"),
             "source_part": (twin or {}).get("sourcePart") or item.get("sourcePart"),
             "source_type": item.get("type"),
+            "mock_year": item.get("mockYear") or item.get("mock_year"),
+            "mock_round": item.get("mockRound") or item.get("mock_round"),
+            "mock_month": item.get("mockMonth") or item.get("mock_month") or item.get("sourceMonth"),
+            "source_choice": (twin or {}).get("sourceChoice") or item.get("sourceChoice") or item.get("choice"),
+            "source_file": item.get("sourceFile") or item.get("source_file") or item.get("sourceQuestionFile"),
+            "source_label_public": MOCK15_PUBLIC_LABEL if mock15 else None,
         },
     }
 
