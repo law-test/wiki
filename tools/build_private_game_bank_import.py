@@ -23,7 +23,10 @@ DEFAULT_OUT = Path(r"C:\cowork\law-test-private\supabase_private_game_bank_impor
 
 ARTICLE_RE = re.compile(r"제\s*(\d+)\s*(?:조의\s*(\d+)|의\s*(\d+)\s*조|조)")
 SOURCE_PATTERNS = [
-    (re.compile(r"(?:변호사시험\s*)?변시\s*(\d{1,2})\s*(?:민사법|민법|상법|민사소송법|형사법|형법|형사소송법|공법|헌법|행정법)?\s*(?:선택형)?\s*(?:문제|문항|문)?\s*(\d{1,3})\s*(?:번)?\s*(?:보기)?\s*([ㄱ-ㅎ①-⑤])?"), "변시"),
+    (re.compile(r"(?:변호사시험\s*)?변시\s*(\d{1,2})\s*(?:회)?\s*(?:민사법|민법|상법|민사소송법|형사법|형법|형사소송법|공법|헌법|행정법)?\s*(?:선택형)?\s*(?:문제|문항|문)\s*(\d{1,3})\s*(?:번)?\s*(?:보기)?\s*([ㄱ-ㅎ①-⑤])?"), "변시"),
+    (re.compile(r"(?:변호사시험\s*)?변시\s*(\d{1,2})\s*(?:회)?\s+(\d{1,3})\s*(?:번)?\s*([ㄱ-ㅎ①-⑤])?"), "변시"),
+    (re.compile(r"변호사시험\s*(?:제)?\s*(\d{1,2})\s*회\s*(?:민사법|민법|상법|민사소송법|형사법|형법|형사소송법|공법|헌법|행정법)?\s*(?:선택형)?\s*(?:(?:문제|문항|문)\s*)?(\d{1,3})?\s*(?:번)?\s*(?:보기)?\s*([ㄱ-ㅎ①-⑤])?"), "변시"),
+    (re.compile(r"(?:변호사시험\s*)?변시\s*(\d{1,2})\s*(?:회)?"), "변시"),
     (re.compile(r"법윤\s*(\d{1,2})"), "법윤"),
     (re.compile(r"법조윤리\s*(\d{1,2})"), "법윤"),
     (re.compile(r"법원직\s*(\d{2,4})\s*년?\s*(\d{1,3})?\s*번?\s*([ㄱ-ㅎ①-⑤])?"), "법원직"),
@@ -73,6 +76,29 @@ def short_year(value: str) -> str:
     return value
 
 
+def round_no(value: str) -> str:
+    value = str(value or "").strip()
+    return str(int(value)) if value.isdigit() else value
+
+
+def source_label(kind: str, round_value: str, q_no: str = "", marker: str = "") -> str:
+    q_no = clean_text(q_no)
+    marker = clean_text(marker)
+    if kind == "변시":
+        label = f"변호사시험{round_no(round_value)}회"
+    elif kind == "법윤":
+        label = f"법조윤리{round_no(round_value)}회"
+    elif kind == "법원직":
+        label = f"법원직{short_year(round_value)}년"
+    else:
+        label = clean_text(round_value)
+    if q_no:
+        label += f" {q_no}번"
+    if marker:
+        label += f" {marker}"
+    return label
+
+
 def flatten(values: Any) -> list[str]:
     if values is None:
         return []
@@ -91,7 +117,7 @@ def source_tags(*values: Any) -> str:
         tag = clean_text(tag)
         if not tag or tag in tags:
             return
-        base_match = re.match(r"^(변시\d+|법윤\d+|법원직\d+)", tag)
+        base_match = re.match(r"^(변호사시험\d+회|법조윤리\d+회|법원직\d+년)", tag)
         if base_match and "번" in tag:
             base = base_match.group(1)
             tags[:] = [x for x in tags if x != base]
@@ -102,26 +128,29 @@ def source_tags(*values: Any) -> str:
     for raw in values:
         for text in flatten(raw):
             text = text.replace("변호사시험 변시", "변시").replace("법원직 법원직", "법원직")
+            text = re.sub(r"변시\s*1\s+0\s*번", "변시10", text)
+            text = re.sub(r"변호사시험\s*1\s*회\s+0\s*번", "변호사시험10회", text)
             matched = False
             for pattern, kind in SOURCE_PATTERNS:
                 for match in pattern.finditer(text):
                     matched = True
                     if kind == "변시":
-                        round_no, q_no, marker = match.group(1), match.group(2), match.group(3) or ""
+                        groups = match.groups()
+                        round_no = groups[0]
+                        q_no = groups[1] if len(groups) > 1 and groups[1] else ""
+                        marker = groups[2] if len(groups) > 2 and groups[2] else ""
                         if q_no:
-                            push(f"변시{round_no} {q_no}번" + (f" {marker}" if marker else ""))
+                            push(source_label(kind, round_no, q_no, marker))
                         else:
-                            push(f"변시{round_no}")
+                            push(source_label(kind, round_no))
                     elif kind == "법윤":
-                        push(f"법윤{match.group(1)}")
+                        push(source_label(kind, match.group(1)))
                     elif kind == "법원직":
                         year, q_no, marker = match.group(1), match.group(2), match.group(3) or ""
                         if q_no:
-                            push(f"법원직{short_year(year)} {q_no}번" + (f" {marker}" if marker else ""))
+                            push(source_label(kind, year, q_no, marker))
                         else:
-                            push(f"법원직{short_year(year)}")
-            if not matched and text:
-                push(text)
+                            push(source_label(kind, year))
 
     def sort_key(tag: str) -> tuple[int, str]:
         numbers = re.findall(r"\d+", tag)
