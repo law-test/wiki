@@ -212,8 +212,11 @@ as $$
         p_subject is null
         or p_subject = ''
         or q.subject = p_subject
-        or q.subject = p_law_name
-        or q.law_name = p_law_name
+        or (
+          coalesce(nullif(p_law_name, ''), '') <> ''
+          and coalesce(nullif(p_law_name, ''), '') <> coalesce(nullif(p_subject, ''), '')
+          and q.law_name = p_law_name
+        )
       )
       and (
         q.article = p_article
