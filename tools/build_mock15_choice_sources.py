@@ -83,7 +83,7 @@ def local_name(tag: str) -> str:
     return tag.rsplit("}", 1)[-1]
 
 
-def find_one(directory: Path, marker: str) -> Path:
+def find_one(directory: Path, marker: str, subject_area: str | None = None) -> Path:
     search_dirs = [directory]
     search_dirs.extend(
         path
@@ -96,6 +96,7 @@ def find_one(directory: Path, marker: str) -> Path:
         for path in search_dir.iterdir()
         if path.is_file()
         and marker in path.name
+        and (subject_area is None or subject_area in path.name)
         and path.suffix.lower() in {".hwp", ".pdf"}
         and not path.name.startswith("\ubcc0\ud658_")
         and "\uc0ac\ub840\ud615" not in path.name
@@ -135,6 +136,13 @@ def find_subject_dir(round_directory: Path, subject_area: str) -> Path:
         names = ", ".join(path.name for path in matches) or "none"
         raise FileNotFoundError(f"{round_directory}: expected {subject_area} dir, found {names}")
     return matches[0]
+
+
+def find_choice_source_dir(source_root: Path, exam_year: int, round_no: int, fallback: Path) -> Path:
+    problem_bundle = source_root / "\ubb38\uc81c\ubaa8\uc74c" / f"{str(exam_year)[2:]}-{round_no}"
+    if problem_bundle.exists():
+        return problem_bundle
+    return fallback
 
 
 def hwp_xml_paragraphs(path: Path) -> list[str]:
@@ -308,11 +316,16 @@ def build_items(
         round_directory = find_round_dir(source_root, exam_year, round_no)
         for subject_area, expected_count in SUBJECTS:
             directory = find_subject_dir(round_directory, subject_area)
+            choice_directory = find_choice_source_dir(source_root, exam_year, round_no, directory)
             try:
-                question_file = find_one(directory, "\uc120\ud0dd\ud615 \ubb38\uc81c")
+                question_file = find_one(
+                    choice_directory,
+                    "\uc120\ud0dd\ud615 \ubb38\uc81c",
+                    subject_area,
+                )
             except FileNotFoundError:
                 try:
-                    question_file = find_one(directory, "\ubb38\uc81c")
+                    question_file = find_one(choice_directory, "\ubb38\uc81c", subject_area)
                 except FileNotFoundError as exc:
                     if not allow_missing:
                         raise
@@ -328,13 +341,21 @@ def build_items(
                     )
                     continue
             try:
-                answer_file = find_one(directory, "\uc120\ud0dd\ud615 \uc815\ub2f5\ud45c")
+                answer_file = find_one(
+                    choice_directory,
+                    "\uc120\ud0dd\ud615 \uc815\ub2f5\ud45c",
+                    subject_area,
+                )
             except FileNotFoundError:
                 try:
-                    answer_file = find_one(directory, "\uc815\ub2f5\ud45c")
+                    answer_file = find_one(choice_directory, "\uc815\ub2f5\ud45c", subject_area)
                 except FileNotFoundError:
                     try:
-                        answer_file = find_one(directory, "\uc120\ud0dd\ud615 \ub2f5")
+                        answer_file = find_one(
+                            choice_directory,
+                            "\uc120\ud0dd\ud615 \ub2f5",
+                            subject_area,
+                        )
                     except FileNotFoundError as exc:
                         if not allow_missing:
                             raise
