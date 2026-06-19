@@ -115,6 +115,18 @@ def flatten(values: Any) -> list[str]:
     return [clean_text(values)]
 
 
+def prune_generic_source_tags(tags: list[str]) -> list[str]:
+    specific_prefixes = ("변호사시험", "법조윤리", "법원직")
+    out: list[str] = []
+    for tag in tags:
+        if tag in specific_prefixes and any(other != tag and other.startswith(tag) for other in tags):
+            continue
+        if tag == "기출" and len(tags) > 1:
+            continue
+        out.append(tag)
+    return out
+
+
 def expected_mock_public_label(value: Any) -> str:
     text = clean_text(value)
     if not text:
@@ -177,6 +189,10 @@ def source_tags(*values: Any) -> str:
             tags[:] = [x for x in tags if x != base]
         if base_match and tag == base_match.group(1) and any(x.startswith(tag + " ") for x in tags):
             return
+        if tag in ("변호사시험", "법조윤리", "법원직") and any(x != tag and x.startswith(tag) for x in tags):
+            return
+        if tag.startswith(("변호사시험", "법조윤리", "법원직")):
+            tags[:] = [x for x in tags if x not in ("변호사시험", "법조윤리", "법원직")]
         tags.append(tag)
 
     for raw in values:
@@ -217,6 +233,7 @@ def source_tags(*values: Any) -> str:
     for label in MOCK_EXPECTED_LABELS.values():
         if label in tags:
             return label
+    tags = prune_generic_source_tags(tags)
     tags.sort(key=sort_key)
     return " · ".join(tags[:8])
 
@@ -322,6 +339,7 @@ def merge_tag_text(left: str, right: str) -> str:
         for tag in clean_text(raw).split(" · "):
             if tag and tag not in tags:
                 tags.append(tag)
+    tags = prune_generic_source_tags(tags)
     return " · ".join(tags[:8])
 
 
