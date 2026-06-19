@@ -266,6 +266,7 @@ def strip_question_noise(text: str) -> str:
     text = re.sub(r"(민법|민사소송법|상법|형법|형사소송법|헌법)\s+제\s*\d+\s*조(?:\s*의\s*\d+)?(?:\s*제\s*\d+\s*항)?", r"\1", text)
     text = re.sub(r"제\s*\d+\s*조(?:\s*의\s*\d+)?(?:\s*제\s*\d+\s*항)?", "관련 규정", text)
     text = re.sub(r"\s+", " ", text).strip(" ,;")
+    text = re.sub(r"\s+([.,;:?])", r"\1", text)
     text = generalize_case_labels(text)
     text = repair_generated_prompt(text)
     text = rewrite_known_long_prompt(text)
