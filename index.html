@@ -18827,6 +18827,37 @@ window.__lawinusCleanQuizQuestion=window.__lawinusCleanQuizQuestion||function(va
   s=s.replace(/^(?:해당 조문\s*[,;·]\s*)+/,'').replace(/\(\s*해당 조문\s*\)/g,'').replace(/\s*[,;·]\s*([,;·])/g,'$1').replace(/\s*[,;·]\s*([.。])/g,'$1').replace(/^[\s,;·]+/,'').replace(/\(\s*\)/g,'').replace(/\s{2,}/g,' ').trim();
   return s||String(value||'');
 };
+window.__lawinusCleanLegalOcrText=window.__lawinusCleanLegalOcrText||function(value){
+  var s=String(value||'').replace(/\s+/g,' ').trim();
+  if(!s)return '';
+  function rxEscape(v){return String(v).replace(/[.*+?^${}()|[\]\\]/g,'\\$&');}
+  [
+    '취득시효','점유취득시효','소유권','소유권이전등기','상속회복청구권','부동산',
+    '권리','의무','청구','판결','사건','기간','상속','회복','등기','점유',
+    '법률행위','권리능력','행위능력','의사표시','대리권','무권대리','표현대리',
+    '채권자','채무자','불법행위','손해배상','공동불법행위','사용자책임',
+    '계약체결','계약해제','원상회복','부당이득','구상권','상계권','담보책임',
+    '점유자','소유자','명의신탁','이전등기','말소등기','등기청구권','물권변동',
+    '상속인','피상속인','유류분','혼인관계','친생자','인지청구','양육비',
+    '민사소송','당사자적격','소송물','기판력','변론종결','확정판결','상고심',
+    '형사소송','공소사실','위법수집증거','증거능력','자백보강법칙',
+    '헌법재판소','기본권','과잉금지원칙','평등원칙','명확성원칙'
+  ].forEach(function(term){
+    var pat=term.split('').map(rxEscape).join('\\s*');
+    s=s.replace(new RegExp(pat,'g'),term);
+  });
+  [
+    ['하 지','하지'],['하 고','하고'],['하 여','하여'],['하 는','하는'],['하 면','하면'],['하 므로','하므로'],['하 다','하다'],['한 다','한다'],
+    ['되 지','되지'],['되 고','되고'],['되 는','되는'],['되 면','되면'],['되 어','되어'],['되 었','되었'],['된 다','된다'],
+    ['있 다','있다'],['있 는','있는'],['있 고','있고'],['있 으면','있으면'],['없 다','없다'],['없 는','없는'],['없 고','없고'],
+    ['받 을','받을'],['받 는','받는'],['삼 아','삼아'],['보 아','보아'],['이 르','이르'],['경 료','경료']
+  ].forEach(function(pair){s=s.replace(new RegExp(rxEscape(pair[0]),'g'),pair[1]);});
+  s=s.replace(/([가-힣])\s+(은|는|이|가|을|를|의|에|에게|에서|으로|로|와|과|도|만|까지|부터|보다|조차|마저|라도|이나|나)(?=[\s,.;:!?)]|$)/g,'$1$2');
+  s=s.replace(/([가-힣])\s+(다|고|며|면|서|지)(?=[\s,.;:!?)]|$)/g,'$1$2');
+  s=s.replace(/(\d)\s+(년|월|일|조|항|호|회|차)(?=[가-힣\s,.;:!?)]|$)/g,'$1$2');
+  s=s.replace(/\s*([,.;:!?])\s*/g,'$1 ').replace(/\s{2,}/g,' ').trim();
+  return s;
+};
 (function(){
   var panel=document.querySelector('[data-game-panel="ox"]');
   if(!panel)return;
@@ -21019,12 +21050,13 @@ async function loadExamTerms(){
     }
   }
   function mapCaseQuestion(r){
+      var cleanLegal=window.__lawinusCleanLegalOcrText||function(v){return String(v||'');};
       return {
         id:r.id,
-        article:r.case_no||r.caseNo||r.source||'판례',
-        question:r.question,
-        answer:r.answer,
-        source:r.source||r.case_no||r.caseNo||'',
+        article:cleanLegal(r.case_no||r.caseNo||r.source||'판례'),
+        question:cleanLegal(r.question),
+        answer:cleanLegal(r.answer),
+        source:cleanLegal(r.source||r.case_no||r.caseNo||''),
         url:r.url||'',
         type:r.type||'판례검색'
       };
@@ -21513,7 +21545,7 @@ rainStats();
     var caseReportBtn=document.getElementById('caseReport');
     function caseStats(){document.getElementById('caseScore').textContent=Math.round(caseblank.score);document.getElementById('caseTime').textContent=caseblank.time;document.getElementById('caseCombo').textContent=caseblank.combo;document.getElementById('caseSolved').textContent=caseblank.ok;}
     function addCaseTimeBonus(){var sec=1+Math.floor(Math.random()*10);caseblank.time+=sec;var t=document.getElementById('caseTime');if(t){t.classList.remove('time-bump');void t.offsetWidth;t.classList.add('time-bump');}return sec;}
-    function renderCaseQuestion(q){caseQuestion.innerHTML=esc(q||'').replace(/\(A\)/g,'<span class="case-blank-mark">빈칸</span>');}
+    function renderCaseQuestion(q){var cleanLegal=window.__lawinusCleanLegalOcrText||function(v){return String(v||'');};caseQuestion.innerHTML=esc(cleanLegal(q||'')).replace(/\(A\)/g,'<span class="case-blank-mark">빈칸</span>');}
     var caseWrongTimer=null,caseEnterLock=false,casePendingEnter=false;
     async function nextCaseBlank(){clearTimeout(caseWrongTimer);caseQuestion.classList.add('idle');caseQuestion.textContent='문제를 불러오는 중입니다.';if(caseReportBtn)caseReportBtn.hidden=true;var remote=await fetchCaseQuestion();if(!caseblank.active)return;if(remote){caseblank.current=remote;}else{var b=getBank(),strong=b.caseBlanks.filter(function(q){return (q.question||'').length>=120;}),source=strong.length>=20?strong:b.caseBlanks,pool=source.filter(function(q){return !caseblank.used[q.answer];});if(!pool.length){caseblank.used={};pool=source.slice();}caseblank.current=pick(pool);caseblank.used[caseblank.current.answer]=1;}caseArticle.textContent=caseblank.current.article;caseQuestion.classList.remove('idle');renderCaseQuestion(caseblank.current.question);if(caseReportBtn)caseReportBtn.hidden=false;caseInput.value='';caseInput.focus();caseStats();}
     function finishCaseBlank(msg){if(!caseblank.active&&msg!=='force')return;caseblank.active=false;clearInterval(caseblank.timer);caseInput.disabled=true;if(caseReportBtn)caseReportBtn.hidden=true;var total=caseblank.ok+caseblank.bad,acc=total?Math.round(caseblank.ok/total*100):100;var detail=caseblank.ok+'문항 · 정확도 '+acc+'%',rawScore=caseblank.score,finalScore=gameAdjustedScore(rawScore);addScore('caseblank',rawScore,document.getElementById('caseNick').value,detail);caseblank.score=finalScore;caseQuestion.classList.add('idle');caseQuestion.textContent='종료! 점수 '+finalScore+'점 · '+detail;caseArticle.textContent='판례';caseFeed.className='game-feed good';caseFeed.textContent='상위 점수표를 확인하세요.';caseStats();}
