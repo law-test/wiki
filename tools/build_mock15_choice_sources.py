@@ -145,6 +145,20 @@ def find_choice_source_dir(source_root: Path, exam_year: int, round_no: int, fal
     return fallback
 
 
+def find_one_in_directories(
+    directories: list[Path],
+    marker: str,
+    subject_area: str,
+) -> Path:
+    errors: list[str] = []
+    for directory in directories:
+        try:
+            return find_one(directory, marker, subject_area)
+        except FileNotFoundError as exc:
+            errors.append(str(exc))
+    raise FileNotFoundError(" | ".join(errors))
+
+
 def hwp_xml_paragraphs(path: Path) -> list[str]:
     if not HWP5PROC.exists():
         raise FileNotFoundError(f"hwp5proc not found: {HWP5PROC}")
@@ -348,11 +362,18 @@ def build_items(
                 )
             except FileNotFoundError:
                 try:
-                    answer_file = find_one(choice_directory, "\uc815\ub2f5\ud45c", subject_area)
+                    answer_directories = [choice_directory]
+                    if directory != choice_directory:
+                        answer_directories.append(directory)
+                    answer_file = find_one_in_directories(
+                        answer_directories,
+                        "\uc815\ub2f5\ud45c",
+                        subject_area,
+                    )
                 except FileNotFoundError:
                     try:
-                        answer_file = find_one(
-                            choice_directory,
+                        answer_file = find_one_in_directories(
+                            answer_directories,
                             "\uc120\ud0dd\ud615 \ub2f5",
                             subject_area,
                         )
