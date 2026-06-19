@@ -55,8 +55,8 @@ CIRCLED_TO_NO = {
     "\u2779": 4,
     "\u277a": 5,
 }
-QUESTION_RE = re.compile(r"^\s*" + "\ubb38" + r"\s*(\d{1,3})\.\s*(.*)$")
-QUESTION_INSIDE_RE = re.compile(r"^(.+?)\s+(\ubb38\s*\d{1,3}\.\s*.*)$")
+QUESTION_RE = re.compile(r"^\s*" + "\ubb38" + r"\s*(\d{1,3})\.?\s*(.*)$")
+QUESTION_INSIDE_RE = re.compile(r"^(.+?)\s+(\ubb38\s*\d{1,3}\.?\s*.*)$")
 JAMO_TRANSLATION = str.maketrans(
     {
         "\u1100": "\u3131",
