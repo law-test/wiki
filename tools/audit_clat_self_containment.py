@@ -124,6 +124,21 @@ def has_good_declarative_end(value: str) -> bool:
     return text.endswith(GOOD_ENDS) or strip_trailing_parentheticals(text).endswith(GOOD_ENDS)
 
 
+def is_question_like(value: str) -> bool:
+    if "?" in value or value.endswith("?"):
+        return True
+    if any(marker in value for marker in ("있는가", "없는가", "어떠한가", "가능한가", "타당한가")):
+        return True
+    return bool(re.search(r"인가(?=\s|에|의|가|를|은|는|도|와|과|,|\.|\)|$)", value))
+
+
+def sentence_period_count(value: str) -> int:
+    text = re.sub(r"\d{4}\.\s*\d{1,2}\.\s*\d{1,2}\.", "DATE", value)
+    text = re.sub(r"\d{4}\.\s*\d{1,2}\.", "DATE", text)
+    text = re.sub(r"\d+\.\s*\d+\.", "NUMBER", text)
+    return text.count(".")
+
+
 def has_article_ref(item: dict[str, Any]) -> bool:
     return bool(clean(item.get("art")) or item.get("articleRefs") or clean(item.get("ref")))
 
@@ -149,9 +164,9 @@ def issue_reasons(item: dict[str, Any]) -> list[str]:
         reasons.append("very_long_over_420")
     if prompt.startswith(DEPENDENT_STARTS):
         reasons.append("dependent_start")
-    if any(marker in prompt for marker in QUESTION_MARKERS) or prompt.endswith("?"):
+    if is_question_like(prompt):
         reasons.append("question_like")
-    if prompt.count(".") >= 3 or prompt.count("다.") >= 3:
+    if sentence_period_count(prompt) >= 3:
         reasons.append("multi_sentence")
     if any(marker in prompt for marker in CASE_PARTY_MARKERS):
         reasons.append("case_party_marker")
