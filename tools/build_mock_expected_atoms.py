@@ -235,7 +235,6 @@ def first_sentence(text: str) -> str:
 def repair_generated_prompt(text: str) -> str:
     text = clean_text(text)
     text = re.sub(r"([가-힣A-Za-z]+법)\s*관련", r"\1 관련", text)
-    text = re.sub(r"\s+([은는이가을를와과에도])(?=[\s.,])", r"\1", text)
     for src, dst in PARTICLE_FIXES.items():
         text = text.replace(src, dst)
     text = re.sub(r"\s+", " ", text).strip()
@@ -482,7 +481,7 @@ def make_atom(item: dict[str, Any], *, unit: str, raw: str, answer: str, stem: s
     grade = GRADE_BY_SUBJECT.get(subject, "A")
     pid = f"{ID_PREFIX}-" + sha_id(subject, prompt, answer)
     topic = topic_from_stem(stem)
-    explanation = f"{MOCK_YEAR}년 변호사시험 모의시험 지문을 공개용 법리 문장으로 정리한 예상 atom입니다."
+    explanation = f"{PUBLIC_LABEL} 지문을 공개용 법리 문장으로 정리한 예상 atom입니다."
     if ref_text:
         explanation += f" 근거 단서: {ref_text}."
     return {
