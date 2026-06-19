@@ -83,10 +83,18 @@ def local_name(tag: str) -> str:
 
 
 def find_one(directory: Path, marker: str) -> Path:
+    search_dirs = [directory]
+    search_dirs.extend(
+        path
+        for path in sorted(directory.iterdir())
+        if path.is_dir() and "\uc120\ud0dd\ud615" in path.name
+    )
     matches = sorted(
         path
-        for path in directory.iterdir()
-        if marker in path.name
+        for search_dir in search_dirs
+        for path in search_dir.iterdir()
+        if path.is_file()
+        and marker in path.name
         and path.suffix.lower() in {".hwp", ".pdf"}
         and not path.name.startswith("\ubcc0\ud658_")
         and "\uc0ac\ub840\ud615" not in path.name
@@ -279,12 +287,14 @@ def build_items(
     exam_year: int,
     bar_round: int,
     public_label: str,
-) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    allow_missing: bool = False,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
     if not source_root.exists():
         raise FileNotFoundError(f"source root not found: {source_root}")
 
     items: list[dict[str, Any]] = []
     summary: list[dict[str, Any]] = []
+    missing_sources: list[dict[str, Any]] = []
     for round_no, month in ROUND_MONTHS.items():
         round_directory = find_round_dir(source_root, exam_year, round_no)
         for subject_area, expected_count in SUBJECTS:
@@ -292,11 +302,44 @@ def build_items(
             try:
                 question_file = find_one(directory, "\uc120\ud0dd\ud615 \ubb38\uc81c")
             except FileNotFoundError:
-                question_file = find_one(directory, "\ubb38\uc81c")
+                try:
+                    question_file = find_one(directory, "\ubb38\uc81c")
+                except FileNotFoundError as exc:
+                    if not allow_missing:
+                        raise
+                    missing_sources.append(
+                        {
+                            "mockRound": round_no,
+                            "sourceMonth": month,
+                            "subjectArea": subject_area,
+                            "kind": "question",
+                            "directory": str(directory),
+                            "error": str(exc),
+                        }
+                    )
+                    continue
             try:
                 answer_file = find_one(directory, "\uc120\ud0dd\ud615 \uc815\ub2f5\ud45c")
             except FileNotFoundError:
-                answer_file = find_one(directory, "\uc815\ub2f5\ud45c")
+                try:
+                    answer_file = find_one(directory, "\uc815\ub2f5\ud45c")
+                except FileNotFoundError:
+                    try:
+                        answer_file = find_one(directory, "\uc120\ud0dd\ud615 \ub2f5")
+                    except FileNotFoundError as exc:
+                        if not allow_missing:
+                            raise
+                        missing_sources.append(
+                            {
+                                "mockRound": round_no,
+                                "sourceMonth": month,
+                                "subjectArea": subject_area,
+                                "kind": "answer",
+                                "directory": str(directory),
+                                "error": str(exc),
+                            }
+                        )
+                        continue
             questions = parse_questions(document_paragraphs(question_file), expected_count)
             answers = parse_answers(document_paragraphs(answer_file), expected_count)
             for question_no in range(1, expected_count + 1):
@@ -339,7 +382,7 @@ def build_items(
                     "answerFile": str(answer_file),
                 }
             )
-    return items, summary
+    return items, summary, missing_sources
 
 
 def main() -> None:
@@ -349,13 +392,15 @@ def main() -> None:
     parser.add_argument("--exam-year", type=int, default=2025)
     parser.add_argument("--bar-round", type=int, default=15)
     parser.add_argument("--public-label", default=PUBLIC_SOURCE_LABEL)
+    parser.add_argument("--allow-missing", action="store_true")
     args = parser.parse_args()
 
-    items, summary = build_items(
+    items, summary, missing_sources = build_items(
         source_root=args.source_root,
         exam_year=args.exam_year,
         bar_round=args.bar_round,
         public_label=args.public_label,
+        allow_missing=args.allow_missing,
     )
     args.out.parent.mkdir(parents=True, exist_ok=True)
     payload = {
@@ -365,6 +410,7 @@ def main() -> None:
         "publicDisplayRule": f"Do not display {args.exam_year} mock month, round, or question number.",
         "items": items,
         "summary": summary,
+        "missingSources": missing_sources,
     }
     args.out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {len(items)} questions to {args.out}")
@@ -372,6 +418,11 @@ def main() -> None:
         print(
             f"round={row['mockRound']} month={row['sourceMonth']} "
             f"subject={row['subjectArea']} questions={row['questionCount']} answers={row['answerCount']}"
+        )
+    for row in missing_sources:
+        print(
+            f"missing={row['kind']} round={row['mockRound']} "
+            f"month={row['sourceMonth']} subject={row['subjectArea']}"
         )
 
 
