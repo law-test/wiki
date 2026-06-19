@@ -1,54 +1,66 @@
 {
   "schemaVersion": 1,
   "source": "ox_clat_unified_v001.json",
-  "generatedAt": "2026-06-18T06:16:40.446612+00:00",
-  "sourceUpdatedAt": "2026-06-18T05:28:26.561137+00:00",
-  "itemCount": 7488,
-  "mappedArticleCount": 1873,
-  "skippedItemCount": 1457,
-  "totalAtomRefs": 13971,
+  "generatedAt": "2026-06-19T12:06:57.675903+00:00",
+  "sourceUpdatedAt": "2026-06-19T20:31:37",
+  "itemCount": 33558,
+  "mappedArticleCount": 1810,
+  "skippedItemCount": 24559,
+  "totalAtomRefs": 12071,
   "items": [
+    {
+      "subject": "국가배상법",
+      "law_name": "국가배상법",
+      "article_no": "제2조",
+      "count": 4
+    },
+    {
+      "subject": "국가배상법",
+      "law_name": "국가배상법",
+      "article_no": "제4조",
+      "count": 1
+    },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제1조",
-      "count": 3
+      "count": 1
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제2조",
-      "count": 10
+      "count": 11
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제3조",
-      "count": 5
+      "count": 3
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제3조의2",
-      "count": 5
+      "count": 3
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제4조",
-      "count": 9
+      "count": 5
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제5조",
-      "count": 4
+      "count": 3
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제6조",
-      "count": 1
+      "count": 2
     },
     {
       "subject": "민법",
@@ -72,19 +84,13 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제11조",
-      "count": 1
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
-      "article_no": "제12조",
       "count": 2
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제14조의2",
-      "count": 2
+      "count": 1
     },
     {
       "subject": "민법",
@@ -96,31 +102,13 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제17조",
-      "count": 1
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
-      "article_no": "제26조",
-      "count": 1
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
-      "article_no": "제30조",
-      "count": 1
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
-      "article_no": "제32조",
-      "count": 1
+      "count": 2
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제35조",
-      "count": 5
+      "count": 18
     },
     {
       "subject": "민법",
@@ -131,20 +119,8 @@
     {
       "subject": "민법",
       "law_name": "민법",
-      "article_no": "제45조",
-      "count": 1
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
       "article_no": "제48조",
       "count": 2
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
-      "article_no": "제52조",
-      "count": 1
     },
     {
       "subject": "민법",
@@ -156,7 +132,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제59조",
-      "count": 6
+      "count": 5
     },
     {
       "subject": "민법",
@@ -180,13 +156,19 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제63조",
-      "count": 2
+      "count": 5
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제64조",
       "count": 3
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제68조",
+      "count": 1
     },
     {
       "subject": "민법",
@@ -204,19 +186,19 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제100조",
-      "count": 2
+      "count": 3
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제103조",
-      "count": 12
+      "count": 31
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제104조",
-      "count": 8
+      "count": 24
     },
     {
       "subject": "민법",
@@ -228,31 +210,31 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제107조",
-      "count": 4
+      "count": 10
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제108조",
-      "count": 17
+      "count": 28
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제109조",
-      "count": 23
+      "count": 25
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제110조",
-      "count": 5
+      "count": 7
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제114조",
-      "count": 5
+      "count": 7
     },
     {
       "subject": "민법",
@@ -281,20 +263,26 @@
     {
       "subject": "민법",
       "law_name": "민법",
-      "article_no": "제124조",
+      "article_no": "제121조",
       "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제124조",
+      "count": 3
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제125조",
-      "count": 1
+      "count": 5
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제126조",
-      "count": 6
+      "count": 33
     },
     {
       "subject": "민법",
@@ -311,8 +299,14 @@
     {
       "subject": "민법",
       "law_name": "민법",
+      "article_no": "제129조",
+      "count": 8
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
       "article_no": "제130조",
-      "count": 5
+      "count": 14
     },
     {
       "subject": "민법",
@@ -324,37 +318,37 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제133조",
-      "count": 2
+      "count": 3
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제134조",
-      "count": 1
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
-      "article_no": "제135조",
-      "count": 4
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
-      "article_no": "제137조",
-      "count": 1
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
-      "article_no": "제138조",
       "count": 2
     },
     {
       "subject": "민법",
       "law_name": "민법",
+      "article_no": "제135조",
+      "count": 3
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제137조",
+      "count": 2
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제138조",
+      "count": 8
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
       "article_no": "제139조",
-      "count": 6
+      "count": 4
     },
     {
       "subject": "민법",
@@ -371,14 +365,26 @@
     {
       "subject": "민법",
       "law_name": "민법",
-      "article_no": "제147조",
+      "article_no": "제145조",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제146조",
       "count": 2
     },
     {
       "subject": "민법",
       "law_name": "민법",
-      "article_no": "제150조",
+      "article_no": "제147조",
       "count": 3
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제150조",
+      "count": 4
     },
     {
       "subject": "민법",
@@ -402,13 +408,13 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제162조",
-      "count": 12
+      "count": 13
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제163조",
-      "count": 4
+      "count": 7
     },
     {
       "subject": "민법",
@@ -420,25 +426,25 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제166조",
-      "count": 12
+      "count": 18
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제168조",
-      "count": 19
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
-      "article_no": "제169조",
-      "count": 3
+      "count": 30
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제170조",
-      "count": 1
+      "count": 2
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제174조",
+      "count": 2
     },
     {
       "subject": "민법",
@@ -468,19 +474,19 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제185조",
-      "count": 2
+      "count": 3
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제186조",
-      "count": 43
+      "count": 46
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제187조",
-      "count": 5
+      "count": 8
     },
     {
       "subject": "민법",
@@ -516,19 +522,19 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제199조",
-      "count": 2
+      "count": 3
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제200조",
-      "count": 2
+      "count": 4
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제201조",
-      "count": 2
+      "count": 5
     },
     {
       "subject": "민법",
@@ -540,19 +546,25 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제203조",
-      "count": 6
+      "count": 13
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제204조",
-      "count": 3
+      "count": 5
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제205조",
+      "count": 2
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제207조",
-      "count": 1
+      "count": 3
     },
     {
       "subject": "민법",
@@ -587,8 +599,14 @@
     {
       "subject": "민법",
       "law_name": "민법",
+      "article_no": "제229조",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
       "article_no": "제245조",
-      "count": 35
+      "count": 39
     },
     {
       "subject": "민법",
@@ -600,19 +618,31 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제249조",
-      "count": 5
+      "count": 39
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제250조",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제251조",
+      "count": 3
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제256조",
-      "count": 2
+      "count": 7
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제261조",
-      "count": 4
+      "count": 8
     },
     {
       "subject": "민법",
@@ -636,13 +666,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제268조",
-      "count": 4
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
-      "article_no": "제269조",
-      "count": 2
+      "count": 5
     },
     {
       "subject": "민법",
@@ -654,7 +678,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제273조",
-      "count": 1
+      "count": 2
     },
     {
       "subject": "민법",
@@ -690,7 +714,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제305조",
-      "count": 1
+      "count": 2
     },
     {
       "subject": "민법",
@@ -708,13 +732,13 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제320조",
-      "count": 26
+      "count": 32
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제321조",
-      "count": 1
+      "count": 4
     },
     {
       "subject": "민법",
@@ -726,7 +750,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제324조",
-      "count": 6
+      "count": 7
     },
     {
       "subject": "민법",
@@ -755,6 +779,12 @@
     {
       "subject": "민법",
       "law_name": "민법",
+      "article_no": "제339조",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
       "article_no": "제341조",
       "count": 1
     },
@@ -762,7 +792,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제342조",
-      "count": 6
+      "count": 8
     },
     {
       "subject": "민법",
@@ -780,13 +810,13 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제349조",
-      "count": 2
+      "count": 3
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제352조",
-      "count": 2
+      "count": 4
     },
     {
       "subject": "민법",
@@ -804,13 +834,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제357조",
-      "count": 15
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
-      "article_no": "제358조",
-      "count": 1
+      "count": 20
     },
     {
       "subject": "민법",
@@ -840,19 +864,19 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제366조",
-      "count": 29
+      "count": 38
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제367조",
-      "count": 4
+      "count": 5
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제368조",
-      "count": 13
+      "count": 19
     },
     {
       "subject": "민법",
@@ -869,6 +893,12 @@
     {
       "subject": "민법",
       "law_name": "민법",
+      "article_no": "제373조",
+      "count": 17
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
       "article_no": "제375조",
       "count": 3
     },
@@ -876,13 +906,19 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제378조",
-      "count": 2
+      "count": 3
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제379조",
       "count": 2
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제382조의3",
+      "count": 1
     },
     {
       "subject": "민법",
@@ -900,7 +936,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제390조",
-      "count": 18
+      "count": 25
     },
     {
       "subject": "민법",
@@ -918,19 +954,25 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제396조",
-      "count": 3
+      "count": 23
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제397조",
-      "count": 5
+      "count": 7
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제397조의2",
+      "count": 1
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제398조",
-      "count": 26
+      "count": 35
     },
     {
       "subject": "민법",
@@ -954,7 +996,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제404조",
-      "count": 23
+      "count": 64
     },
     {
       "subject": "민법",
@@ -966,13 +1008,13 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제406조",
-      "count": 59
+      "count": 93
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제407조",
-      "count": 2
+      "count": 4
     },
     {
       "subject": "민법",
@@ -1032,7 +1074,13 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제425조",
-      "count": 3
+      "count": 2
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제426조",
+      "count": 1
     },
     {
       "subject": "민법",
@@ -1044,7 +1092,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제428조",
-      "count": 6
+      "count": 7
     },
     {
       "subject": "민법",
@@ -1098,13 +1146,13 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제442조",
-      "count": 4
+      "count": 6
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제443조",
-      "count": 1
+      "count": 3
     },
     {
       "subject": "민법",
@@ -1134,7 +1182,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제450조",
-      "count": 23
+      "count": 24
     },
     {
       "subject": "민법",
@@ -1170,13 +1218,13 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제458조",
-      "count": 2
+      "count": 1
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제459조",
-      "count": 1
+      "count": 2
     },
     {
       "subject": "민법",
@@ -1188,7 +1236,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제467조",
-      "count": 4
+      "count": 2
     },
     {
       "subject": "민법",
@@ -1206,13 +1254,13 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제470조",
-      "count": 4
+      "count": 5
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제472조",
-      "count": 1
+      "count": 4
     },
     {
       "subject": "민법",
@@ -1224,7 +1272,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제477조",
-      "count": 8
+      "count": 10
     },
     {
       "subject": "민법",
@@ -1236,13 +1284,13 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제481조",
-      "count": 5
+      "count": 4
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제482조",
-      "count": 8
+      "count": 9
     },
     {
       "subject": "민법",
@@ -1254,7 +1302,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제485조",
-      "count": 1
+      "count": 3
     },
     {
       "subject": "민법",
@@ -1272,19 +1320,19 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제493조",
-      "count": 3
+      "count": 1
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제495조",
-      "count": 5
+      "count": 7
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제496조",
-      "count": 7
+      "count": 9
     },
     {
       "subject": "민법",
@@ -1296,31 +1344,55 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제498조",
-      "count": 2
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
-      "article_no": "제504조",
-      "count": 1
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
-      "article_no": "제536조",
-      "count": 22
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
-      "article_no": "제537조",
       "count": 3
     },
     {
       "subject": "민법",
       "law_name": "민법",
-      "article_no": "제538조",
+      "article_no": "제504조",
+      "count": 2
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제527조",
       "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제529조",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제534조",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제535조",
+      "count": 3
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제536조",
+      "count": 44
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제537조",
+      "count": 4
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제538조",
+      "count": 7
     },
     {
       "subject": "민법",
@@ -1356,7 +1428,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제548조",
-      "count": 17
+      "count": 25
     },
     {
       "subject": "민법",
@@ -1373,20 +1445,26 @@
     {
       "subject": "민법",
       "law_name": "민법",
-      "article_no": "제562조",
+      "article_no": "제555조",
+      "count": 2
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제563조",
       "count": 1
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제564조",
-      "count": 7
+      "count": 8
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제565조",
-      "count": 6
+      "count": 10
     },
     {
       "subject": "민법",
@@ -1398,19 +1476,25 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제570조",
+      "count": 3
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제571조",
       "count": 1
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제572조",
-      "count": 2
+      "count": 4
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제578조",
-      "count": 2
+      "count": 3
     },
     {
       "subject": "민법",
@@ -1428,13 +1512,13 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제582조",
-      "count": 1
+      "count": 2
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제587조",
-      "count": 4
+      "count": 2
     },
     {
       "subject": "민법",
@@ -1452,13 +1536,19 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제618조",
-      "count": 12
+      "count": 13
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제622조",
+      "count": 1
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제623조",
-      "count": 2
+      "count": 3
     },
     {
       "subject": "민법",
@@ -1469,8 +1559,20 @@
     {
       "subject": "민법",
       "law_name": "민법",
+      "article_no": "제628조",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
       "article_no": "제629조",
       "count": 3
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제630조",
+      "count": 1
     },
     {
       "subject": "민법",
@@ -1494,13 +1596,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제646조",
-      "count": 1
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
-      "article_no": "제652조",
-      "count": 1
+      "count": 4
     },
     {
       "subject": "민법",
@@ -1512,19 +1608,73 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제666조",
-      "count": 1
+      "count": 3
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제667조",
-      "count": 1
+      "count": 6
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제668조",
       "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제669조",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제670조",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제671조",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제673조",
+      "count": 2
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제674조의3",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제683조",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제686조",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제688조",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제689조",
+      "count": 2
     },
     {
       "subject": "민법",
@@ -1577,26 +1727,38 @@
     {
       "subject": "민법",
       "law_name": "민법",
+      "article_no": "제735조",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
       "article_no": "제739조",
       "count": 1
     },
     {
       "subject": "민법",
       "law_name": "민법",
+      "article_no": "제740조",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
       "article_no": "제741조",
-      "count": 43
+      "count": 46
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제746조",
-      "count": 12
+      "count": 16
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제748조",
-      "count": 5
+      "count": 6
     },
     {
       "subject": "민법",
@@ -1608,19 +1770,25 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제750조",
-      "count": 18
+      "count": 24
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제751조",
+      "count": 3
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제752조",
       "count": 2
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제756조",
-      "count": 8
+      "count": 17
     },
     {
       "subject": "민법",
@@ -1632,13 +1800,13 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제758조",
-      "count": 3
+      "count": 4
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제760조",
-      "count": 14
+      "count": 15
     },
     {
       "subject": "민법",
@@ -1649,7 +1817,25 @@
     {
       "subject": "민법",
       "law_name": "민법",
+      "article_no": "제764조",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
       "article_no": "제766조",
+      "count": 9
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제781조",
+      "count": 3
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제812조",
       "count": 5
     },
     {
@@ -1668,25 +1854,31 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제830조",
-      "count": 3
+      "count": 4
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제837조",
-      "count": 2
+      "count": 3
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제837조의2",
+      "count": 4
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제839조의2",
-      "count": 29
+      "count": 31
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제840조",
-      "count": 4
+      "count": 9
     },
     {
       "subject": "민법",
@@ -1698,7 +1890,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제844조",
-      "count": 3
+      "count": 5
     },
     {
       "subject": "민법",
@@ -1716,13 +1908,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제855조",
-      "count": 1
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
-      "article_no": "제860조",
-      "count": 1
+      "count": 4
     },
     {
       "subject": "민법",
@@ -1740,7 +1926,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제865조",
-      "count": 3
+      "count": 4
     },
     {
       "subject": "민법",
@@ -1752,7 +1938,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제874조",
-      "count": 1
+      "count": 2
     },
     {
       "subject": "민법",
@@ -1806,7 +1992,13 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제921조",
-      "count": 12
+      "count": 14
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제923조",
+      "count": 1
     },
     {
       "subject": "민법",
@@ -1818,13 +2010,13 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제924조의2",
-      "count": 4
+      "count": 5
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제927조",
-      "count": 1
+      "count": 2
     },
     {
       "subject": "민법",
@@ -1842,7 +2034,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제947조의2",
-      "count": 1
+      "count": 2
     },
     {
       "subject": "민법",
@@ -1854,7 +2046,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제959조의14",
-      "count": 1
+      "count": 2
     },
     {
       "subject": "민법",
@@ -1872,19 +2064,19 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제974조",
-      "count": 6
+      "count": 11
     },
     {
       "subject": "민법",
       "law_name": "민법",
-      "article_no": "제975조",
+      "article_no": "제997조",
       "count": 1
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제999조",
-      "count": 10
+      "count": 14
     },
     {
       "subject": "민법",
@@ -1896,13 +2088,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제1001조",
-      "count": 4
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
-      "article_no": "제1003조",
-      "count": 3
+      "count": 10
     },
     {
       "subject": "민법",
@@ -1920,13 +2106,13 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제1008조의2",
-      "count": 1
+      "count": 3
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제1008조의3",
-      "count": 3
+      "count": 4
     },
     {
       "subject": "민법",
@@ -1950,7 +2136,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제1019조",
-      "count": 2
+      "count": 5
     },
     {
       "subject": "민법",
@@ -1962,13 +2148,19 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제1026조",
-      "count": 5
+      "count": 6
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제1028조",
       "count": 6
+    },
+    {
+      "subject": "민법",
+      "law_name": "민법",
+      "article_no": "제1029조",
+      "count": 1
     },
     {
       "subject": "민법",
@@ -1998,7 +2190,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제1066조",
-      "count": 6
+      "count": 7
     },
     {
       "subject": "민법",
@@ -2010,19 +2202,13 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제1071조",
-      "count": 1
+      "count": 2
     },
     {
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제1078조",
       "count": 3
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
-      "article_no": "제1079조",
-      "count": 2
     },
     {
       "subject": "민법",
@@ -2069,14 +2255,8 @@
     {
       "subject": "민법",
       "law_name": "민법",
-      "article_no": "제1103조",
-      "count": 2
-    },
-    {
-      "subject": "민법",
-      "law_name": "민법",
       "article_no": "제1113조",
-      "count": 5
+      "count": 6
     },
     {
       "subject": "민법",
@@ -2094,7 +2274,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제1116조",
-      "count": 1
+      "count": 2
     },
     {
       "subject": "민법",
@@ -2106,7 +2286,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제1118조",
-      "count": 3
+      "count": 2
     },
     {
       "subject": "민법",
@@ -2122,9 +2302,45 @@
     },
     {
       "subject": "민법",
+      "law_name": "상가건물 임대차보호법",
+      "article_no": "제14조",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "상법",
+      "article_no": "제58조",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "상법",
+      "article_no": "제64조",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "주택임대차보호법",
+      "article_no": "제3조",
+      "count": 2
+    },
+    {
+      "subject": "민법",
       "law_name": "주택임대차보호법",
       "article_no": "제3조의3",
-      "count": 2
+      "count": 3
+    },
+    {
+      "subject": "민법",
+      "law_name": "주택임대차보호법",
+      "article_no": "제6조의3",
+      "count": 1
+    },
+    {
+      "subject": "민법",
+      "law_name": "헌법",
+      "article_no": "제13조",
+      "count": 1
     },
     {
       "subject": "민사소송법",
@@ -2172,7 +2388,7 @@
       "subject": "민사소송법",
       "law_name": "민법",
       "article_no": "제67조",
-      "count": 19
+      "count": 14
     },
     {
       "subject": "민사소송법",
@@ -2196,7 +2412,7 @@
       "subject": "민사소송법",
       "law_name": "민법",
       "article_no": "제162조",
-      "count": 6
+      "count": 4
     },
     {
       "subject": "민사소송법",
@@ -2214,7 +2430,7 @@
       "subject": "민사소송법",
       "law_name": "민법",
       "article_no": "제168조",
-      "count": 15
+      "count": 13
     },
     {
       "subject": "민사소송법",
@@ -2227,12 +2443,6 @@
       "law_name": "민법",
       "article_no": "제170조",
       "count": 13
-    },
-    {
-      "subject": "민사소송법",
-      "law_name": "민법",
-      "article_no": "제174조",
-      "count": 2
     },
     {
       "subject": "민사소송법",
@@ -2250,13 +2460,13 @@
       "subject": "민사소송법",
       "law_name": "민법",
       "article_no": "제203조",
-      "count": 3
+      "count": 2
     },
     {
       "subject": "민사소송법",
       "law_name": "민법",
       "article_no": "제204조",
-      "count": 4
+      "count": 2
     },
     {
       "subject": "민사소송법",
@@ -2316,7 +2526,7 @@
       "subject": "민사소송법",
       "law_name": "민법",
       "article_no": "제265조",
-      "count": 12
+      "count": 10
     },
     {
       "subject": "민사소송법",
@@ -2341,12 +2551,6 @@
       "law_name": "민법",
       "article_no": "제276조",
       "count": 9
-    },
-    {
-      "subject": "민사소송법",
-      "law_name": "민법",
-      "article_no": "제279조",
-      "count": 2
     },
     {
       "subject": "민사소송법",
@@ -2490,7 +2694,7 @@
       "subject": "민사소송법",
       "law_name": "민법",
       "article_no": "제493조",
-      "count": 7
+      "count": 3
     },
     {
       "subject": "민사소송법",
@@ -2658,19 +2862,19 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제1조",
-      "count": 4
+      "count": 5
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제2조",
-      "count": 3
+      "count": 2
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제3조",
-      "count": 2
+      "count": 5
     },
     {
       "subject": "민사소송법",
@@ -2693,6 +2897,12 @@
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
+      "article_no": "제13조",
+      "count": 1
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
       "article_no": "제15조",
       "count": 4
     },
@@ -2701,6 +2911,12 @@
       "law_name": "민사소송법",
       "article_no": "제21조",
       "count": 2
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
+      "article_no": "제24조",
+      "count": 1
     },
     {
       "subject": "민사소송법",
@@ -2724,13 +2940,19 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제30조",
-      "count": 5
+      "count": 11
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제31조",
-      "count": 2
+      "count": 3
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
+      "article_no": "제32조",
+      "count": 1
     },
     {
       "subject": "민사소송법",
@@ -2759,6 +2981,12 @@
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
+      "article_no": "제39조",
+      "count": 1
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
       "article_no": "제40조",
       "count": 1
     },
@@ -2766,7 +2994,31 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제41조",
-      "count": 2
+      "count": 3
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
+      "article_no": "제42조",
+      "count": 1
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
+      "article_no": "제43조",
+      "count": 1
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
+      "article_no": "제44조",
+      "count": 1
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
+      "article_no": "제47조",
+      "count": 1
     },
     {
       "subject": "민사소송법",
@@ -2778,19 +3030,19 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제51조",
-      "count": 9
+      "count": 7
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제52조",
-      "count": 8
+      "count": 9
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제53조",
-      "count": 7
+      "count": 35
     },
     {
       "subject": "민사소송법",
@@ -2802,13 +3054,13 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제55조",
-      "count": 3
+      "count": 2
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제56조",
-      "count": 2
+      "count": 4
     },
     {
       "subject": "민사소송법",
@@ -2856,7 +3108,7 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제65조",
-      "count": 9
+      "count": 10
     },
     {
       "subject": "민사소송법",
@@ -2868,13 +3120,19 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제67조",
-      "count": 41
+      "count": 46
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제68조",
       "count": 2
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
+      "article_no": "제69조",
+      "count": 1
     },
     {
       "subject": "민사소송법",
@@ -2886,7 +3144,7 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제71조",
-      "count": 12
+      "count": 31
     },
     {
       "subject": "민사소송법",
@@ -2897,26 +3155,32 @@
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
+      "article_no": "제74조",
+      "count": 1
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
       "article_no": "제76조",
-      "count": 5
+      "count": 6
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제77조",
-      "count": 9
+      "count": 10
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제78조",
-      "count": 9
+      "count": 19
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제79조",
-      "count": 24
+      "count": 32
     },
     {
       "subject": "민사소송법",
@@ -2958,7 +3222,7 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제88조",
-      "count": 4
+      "count": 2
     },
     {
       "subject": "민사소송법",
@@ -2982,7 +3246,7 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제95조",
-      "count": 19
+      "count": 20
     },
     {
       "subject": "민사소송법",
@@ -3001,12 +3265,6 @@
       "law_name": "민사소송법",
       "article_no": "제102조",
       "count": 2
-    },
-    {
-      "subject": "민사소송법",
-      "law_name": "민사소송법",
-      "article_no": "제105조",
-      "count": 6
     },
     {
       "subject": "민사소송법",
@@ -3047,6 +3305,12 @@
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
+      "article_no": "제143조의2",
+      "count": 1
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
       "article_no": "제144조",
       "count": 4
     },
@@ -3066,13 +3330,13 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제149조",
-      "count": 2
+      "count": 3
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제150조",
-      "count": 11
+      "count": 15
     },
     {
       "subject": "민사소송법",
@@ -3089,26 +3353,26 @@
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
+      "article_no": "제165조",
+      "count": 2
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
+      "article_no": "제167조",
+      "count": 1
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
       "article_no": "제168조",
       "count": 2
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
-      "article_no": "제169조",
-      "count": 3
-    },
-    {
-      "subject": "민사소송법",
-      "law_name": "민사소송법",
-      "article_no": "제170조",
-      "count": 3
-    },
-    {
-      "subject": "민사소송법",
-      "law_name": "민사소송법",
       "article_no": "제173조",
-      "count": 25
+      "count": 36
     },
     {
       "subject": "민사소송법",
@@ -3156,7 +3420,7 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제183조",
-      "count": 4
+      "count": 5
     },
     {
       "subject": "민사소송법",
@@ -3191,20 +3455,26 @@
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
-      "article_no": "제197조",
-      "count": 2
+      "article_no": "제202조",
+      "count": 23
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
-      "article_no": "제202조",
-      "count": 17
+      "article_no": "제202조의2",
+      "count": 1
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제203조",
-      "count": 46
+      "count": 64
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
+      "article_no": "제204조",
+      "count": 1
     },
     {
       "subject": "민사소송법",
@@ -3215,8 +3485,14 @@
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
+      "article_no": "제211조",
+      "count": 4
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
       "article_no": "제212조",
-      "count": 15
+      "count": 19
     },
     {
       "subject": "민사소송법",
@@ -3234,13 +3510,25 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제216조",
-      "count": 71
+      "count": 72
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제218조",
       "count": 51
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
+      "article_no": "제219조",
+      "count": 1
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
+      "article_no": "제219조의2",
+      "count": 1
     },
     {
       "subject": "민사소송법",
@@ -3264,12 +3552,6 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제231조",
-      "count": 4
-    },
-    {
-      "subject": "민사소송법",
-      "law_name": "민사소송법",
-      "article_no": "제232조",
       "count": 4
     },
     {
@@ -3306,7 +3588,7 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제248조",
-      "count": 6
+      "count": 8
     },
     {
       "subject": "민사소송법",
@@ -3324,7 +3606,7 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제253조",
-      "count": 17
+      "count": 30
     },
     {
       "subject": "민사소송법",
@@ -3336,19 +3618,19 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제259조",
-      "count": 50
+      "count": 60
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제260조",
-      "count": 7
+      "count": 9
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제262조",
-      "count": 21
+      "count": 46
     },
     {
       "subject": "민사소송법",
@@ -3372,31 +3654,31 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제266조",
-      "count": 21
+      "count": 31
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제267조",
-      "count": 18
+      "count": 19
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제268조",
-      "count": 20
+      "count": 21
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제269조",
-      "count": 5
+      "count": 7
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제271조",
-      "count": 8
+      "count": 7
     },
     {
       "subject": "민사소송법",
@@ -3413,26 +3695,32 @@
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
+      "article_no": "제279조",
+      "count": 1
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
       "article_no": "제283조",
       "count": 2
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
-      "article_no": "제286조",
-      "count": 3
-    },
-    {
-      "subject": "민사소송법",
-      "law_name": "민사소송법",
       "article_no": "제288조",
-      "count": 59
+      "count": 60
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
-      "article_no": "제297조",
-      "count": 3
+      "article_no": "제293조",
+      "count": 1
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
+      "article_no": "제311조",
+      "count": 1
     },
     {
       "subject": "민사소송법",
@@ -3445,6 +3733,12 @@
       "law_name": "민사소송법",
       "article_no": "제320조",
       "count": 4
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
+      "article_no": "제321조",
+      "count": 1
     },
     {
       "subject": "민사소송법",
@@ -3480,7 +3774,7 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제347조",
-      "count": 4
+      "count": 5
     },
     {
       "subject": "민사소송법",
@@ -3552,7 +3846,7 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제369조",
-      "count": 4
+      "count": 5
     },
     {
       "subject": "민사소송법",
@@ -3593,6 +3887,12 @@
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
+      "article_no": "제391조",
+      "count": 1
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
       "article_no": "제393조",
       "count": 11
     },
@@ -3612,7 +3912,7 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제399조",
-      "count": 3
+      "count": 4
     },
     {
       "subject": "민사소송법",
@@ -3624,7 +3924,13 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제403조",
-      "count": 10
+      "count": 16
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
+      "article_no": "제404조",
+      "count": 1
     },
     {
       "subject": "민사소송법",
@@ -3635,26 +3941,32 @@
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
-      "article_no": "제408조",
-      "count": 10
+      "article_no": "제410조",
+      "count": 1
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제412조",
-      "count": 6
+      "count": 5
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "민사소송법",
+      "article_no": "제414조",
+      "count": 1
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제415조",
-      "count": 57
+      "count": 52
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제422조",
-      "count": 4
+      "count": 5
     },
     {
       "subject": "민사소송법",
@@ -3666,7 +3978,7 @@
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제424조",
-      "count": 4
+      "count": 5
     },
     {
       "subject": "민사소송법",
@@ -3707,14 +4019,8 @@
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
-      "article_no": "제450조",
-      "count": 2
-    },
-    {
-      "subject": "민사소송법",
-      "law_name": "민사소송법",
       "article_no": "제451조",
-      "count": 29
+      "count": 33
     },
     {
       "subject": "민사소송법",
@@ -3731,8 +4037,8 @@
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
-      "article_no": "제461조",
-      "count": 5
+      "article_no": "제457조",
+      "count": 1
     },
     {
       "subject": "민사소송법",
@@ -3743,14 +4049,14 @@
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
-      "article_no": "제477조",
-      "count": 3
+      "article_no": "제487조",
+      "count": 2
     },
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
       "article_no": "제498조",
-      "count": 4
+      "count": 9
     },
     {
       "subject": "민사소송법",
@@ -3773,12 +4079,6 @@
     {
       "subject": "민사소송법",
       "law_name": "민사소송법",
-      "article_no": "제709조",
-      "count": 2
-    },
-    {
-      "subject": "민사소송법",
-      "law_name": "민사소송법",
       "article_no": "제837조",
       "count": 2
     },
@@ -3787,12 +4087,6 @@
       "law_name": "민사소송법",
       "article_no": "제840조",
       "count": 2
-    },
-    {
-      "subject": "민사소송법",
-      "law_name": "민사소송법",
-      "article_no": "제1042조",
-      "count": 3
     },
     {
       "subject": "민사소송법",
@@ -3983,12 +4277,6 @@
     {
       "subject": "민사소송법",
       "law_name": "상법",
-      "article_no": "제190조",
-      "count": 4
-    },
-    {
-      "subject": "민사소송법",
-      "law_name": "상법",
       "article_no": "제220조",
       "count": 2
     },
@@ -4090,6 +4378,18 @@
     },
     {
       "subject": "민사소송법",
+      "law_name": "행정소송법",
+      "article_no": "제26조",
+      "count": 1
+    },
+    {
+      "subject": "민사소송법",
+      "law_name": "헌법",
+      "article_no": "제108조",
+      "count": 1
+    },
+    {
+      "subject": "민사소송법",
       "law_name": "형법",
       "article_no": "제79조",
       "count": 2
@@ -4128,7 +4428,7 @@
       "subject": "상법",
       "law_name": "가등기담보 등에 관한 법률",
       "article_no": "제11조",
-      "count": 3
+      "count": 2
     },
     {
       "subject": "상법",
@@ -4144,9 +4444,21 @@
     },
     {
       "subject": "상법",
-      "law_name": "구 상법",
-      "article_no": "제546조",
-      "count": 3
+      "law_name": "국가배상법",
+      "article_no": "제2조",
+      "count": 26
+    },
+    {
+      "subject": "상법",
+      "law_name": "국가배상법",
+      "article_no": "제5조",
+      "count": 16
+    },
+    {
+      "subject": "상법",
+      "law_name": "국가배상법",
+      "article_no": "제6조",
+      "count": 2
     },
     {
       "subject": "상법",
@@ -4157,20 +4469,8 @@
     {
       "subject": "상법",
       "law_name": "민법",
-      "article_no": "제64조",
-      "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "민법",
       "article_no": "제103조",
       "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "민법",
-      "article_no": "제107조",
-      "count": 3
     },
     {
       "subject": "상법",
@@ -4188,12 +4488,6 @@
       "subject": "상법",
       "law_name": "민법",
       "article_no": "제130조",
-      "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "민법",
-      "article_no": "제133조",
       "count": 2
     },
     {
@@ -4218,12 +4512,6 @@
       "subject": "상법",
       "law_name": "민법",
       "article_no": "제324조",
-      "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "민법",
-      "article_no": "제335조",
       "count": 2
     },
     {
@@ -4283,12 +4571,6 @@
     {
       "subject": "상법",
       "law_name": "민법",
-      "article_no": "제713조",
-      "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "민법",
       "article_no": "제750조",
       "count": 2
     },
@@ -4297,6 +4579,12 @@
       "law_name": "민법",
       "article_no": "제756조",
       "count": 5
+    },
+    {
+      "subject": "상법",
+      "law_name": "민법",
+      "article_no": "제758조",
+      "count": 3
     },
     {
       "subject": "상법",
@@ -4333,12 +4621,6 @@
       "law_name": "민사소송법",
       "article_no": "제380조",
       "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "민사소송법",
-      "article_no": "제404조",
-      "count": 4
     },
     {
       "subject": "상법",
@@ -4380,7 +4662,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제3조",
-      "count": 4
+      "count": 2
     },
     {
       "subject": "상법",
@@ -4391,14 +4673,38 @@
     {
       "subject": "상법",
       "law_name": "상법",
+      "article_no": "제5조",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제6조",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제7조",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
       "article_no": "제9조",
       "count": 2
     },
     {
       "subject": "상법",
       "law_name": "상법",
+      "article_no": "제10조",
+      "count": 3
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
       "article_no": "제11조",
-      "count": 2
+      "count": 1
     },
     {
       "subject": "상법",
@@ -4410,13 +4716,19 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제14조",
-      "count": 3
+      "count": 10
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제15조",
-      "count": 4
+      "count": 5
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제16조",
+      "count": 3
     },
     {
       "subject": "상법",
@@ -4434,73 +4746,79 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제21조",
-      "count": 4
+      "count": 2
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제22조",
-      "count": 3
+      "count": 5
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제22조의2",
-      "count": 1
+      "count": 3
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제23조",
-      "count": 1
+      "count": 2
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제24조",
-      "count": 12
+      "count": 15
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제25조",
-      "count": 8
+      "count": 4
     },
     {
       "subject": "상법",
       "law_name": "상법",
-      "article_no": "제31조",
+      "article_no": "제26조",
+      "count": 2
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제30조",
       "count": 2
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제34조",
-      "count": 3
+      "count": 1
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제37조",
-      "count": 4
+      "count": 7
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제39조",
-      "count": 3
+      "count": 7
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제41조",
-      "count": 8
+      "count": 9
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제42조",
-      "count": 9
+      "count": 12
     },
     {
       "subject": "상법",
@@ -4523,26 +4841,8 @@
     {
       "subject": "상법",
       "law_name": "상법",
-      "article_no": "제46조",
-      "count": 5
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제47조",
-      "count": 8
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
       "article_no": "제48조",
       "count": 1
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제51조",
-      "count": 2
     },
     {
       "subject": "상법",
@@ -4554,31 +4854,31 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제54조",
-      "count": 7
+      "count": 8
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제55조",
-      "count": 5
+      "count": 1
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제57조",
-      "count": 11
+      "count": 10
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제58조",
-      "count": 13
+      "count": 31
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제59조",
-      "count": 9
+      "count": 12
     },
     {
       "subject": "상법",
@@ -4596,7 +4896,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제64조",
-      "count": 36
+      "count": 38
     },
     {
       "subject": "상법",
@@ -4614,7 +4914,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제69조",
-      "count": 15
+      "count": 18
     },
     {
       "subject": "상법",
@@ -4656,7 +4956,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제79조",
-      "count": 2
+      "count": 3
     },
     {
       "subject": "상법",
@@ -4675,12 +4975,6 @@
       "law_name": "상법",
       "article_no": "제82조",
       "count": 1
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제83조",
-      "count": 9
     },
     {
       "subject": "상법",
@@ -4715,8 +5009,20 @@
     {
       "subject": "상법",
       "law_name": "상법",
+      "article_no": "제90조",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
       "article_no": "제91조",
-      "count": 8
+      "count": 7
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제92조의2",
+      "count": 1
     },
     {
       "subject": "상법",
@@ -4728,19 +5034,19 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제101조",
-      "count": 4
+      "count": 5
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제102조",
-      "count": 6
+      "count": 4
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제103조",
-      "count": 14
+      "count": 10
     },
     {
       "subject": "상법",
@@ -4758,7 +5064,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제107조",
-      "count": 3
+      "count": 4
     },
     {
       "subject": "상법",
@@ -4770,55 +5076,49 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제110조",
-      "count": 5
+      "count": 3
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제111조",
-      "count": 4
+      "count": 2
     },
     {
       "subject": "상법",
       "law_name": "상법",
-      "article_no": "제113조",
-      "count": 4
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제120조",
-      "count": 4
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제121조",
-      "count": 3
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제128조",
-      "count": 3
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제129조",
+      "article_no": "제115조",
       "count": 1
     },
     {
       "subject": "상법",
       "law_name": "상법",
-      "article_no": "제131조",
+      "article_no": "제120조",
       "count": 3
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제131조",
+      "count": 4
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제132조",
       "count": 2
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제133조",
+      "count": 2
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제134조",
+      "count": 1
     },
     {
       "subject": "상법",
@@ -4830,13 +5130,13 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제136조",
-      "count": 3
+      "count": 5
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제137조",
-      "count": 9
+      "count": 11
     },
     {
       "subject": "상법",
@@ -4847,8 +5147,20 @@
     {
       "subject": "상법",
       "law_name": "상법",
+      "article_no": "제139조",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
       "article_no": "제140조",
       "count": 2
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제141조",
+      "count": 1
     },
     {
       "subject": "상법",
@@ -4860,7 +5172,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제147조",
-      "count": 5
+      "count": 3
     },
     {
       "subject": "상법",
@@ -4871,14 +5183,44 @@
     {
       "subject": "상법",
       "law_name": "상법",
-      "article_no": "제162조",
-      "count": 10
+      "article_no": "제158조",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제168조의10",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제168조의2",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제168조의3",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제168조의4",
+      "count": 1
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제168조의7",
-      "count": 2
+      "count": 4
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제168조의8",
+      "count": 3
     },
     {
       "subject": "상법",
@@ -4895,37 +5237,19 @@
     {
       "subject": "상법",
       "law_name": "상법",
+      "article_no": "제174조",
+      "count": 5
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
       "article_no": "제176조",
       "count": 2
     },
     {
       "subject": "상법",
       "law_name": "상법",
-      "article_no": "제178조",
-      "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제180조",
-      "count": 1
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
       "article_no": "제184조",
-      "count": 6
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제186조",
-      "count": 14
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제187조",
       "count": 3
     },
     {
@@ -4938,7 +5262,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제190조",
-      "count": 46
+      "count": 11
     },
     {
       "subject": "상법",
@@ -4955,24 +5279,6 @@
     {
       "subject": "상법",
       "law_name": "상법",
-      "article_no": "제195조",
-      "count": 3
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제197조",
-      "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제198조",
-      "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
       "article_no": "제201조",
       "count": 3
     },
@@ -4980,13 +5286,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제205조",
-      "count": 8
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제207조",
-      "count": 3
+      "count": 6
     },
     {
       "subject": "상법",
@@ -4998,13 +5298,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제209조",
-      "count": 11
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제210조",
-      "count": 2
+      "count": 4
     },
     {
       "subject": "상법",
@@ -5022,7 +5316,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제232조",
-      "count": 12
+      "count": 1
     },
     {
       "subject": "상법",
@@ -5034,7 +5328,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제240조",
-      "count": 6
+      "count": 4
     },
     {
       "subject": "상법",
@@ -5051,26 +5345,14 @@
     {
       "subject": "상법",
       "law_name": "상법",
-      "article_no": "제259조",
-      "count": 9
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
       "article_no": "제269조",
-      "count": 5
+      "count": 3
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제272조",
       "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제273조",
-      "count": 3
     },
     {
       "subject": "상법",
@@ -5082,7 +5364,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제279조",
-      "count": 2
+      "count": 3
     },
     {
       "subject": "상법",
@@ -5141,6 +5423,12 @@
     {
       "subject": "상법",
       "law_name": "상법",
+      "article_no": "제287조의22",
+      "count": 4
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
       "article_no": "제287조의4",
       "count": 2
     },
@@ -5154,12 +5442,6 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제287조의6",
-      "count": 5
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제287조의7",
       "count": 2
     },
     {
@@ -5184,7 +5466,13 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제290조",
-      "count": 13
+      "count": 14
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제291조",
+      "count": 1
     },
     {
       "subject": "상법",
@@ -5202,31 +5490,19 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제298조",
-      "count": 3
+      "count": 4
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제300조",
-      "count": 11
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제301조",
-      "count": 9
+      "count": 2
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제302조",
-      "count": 5
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제303조",
-      "count": 3
+      "count": 2
     },
     {
       "subject": "상법",
@@ -5262,13 +5538,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제320조",
-      "count": 10
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제321조",
-      "count": 2
+      "count": 3
     },
     {
       "subject": "상법",
@@ -5279,32 +5549,26 @@
     {
       "subject": "상법",
       "law_name": "상법",
-      "article_no": "제323조",
-      "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
       "article_no": "제328조",
-      "count": 11
+      "count": 8
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제329조",
-      "count": 5
+      "count": 8
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제329조의2",
-      "count": 5
+      "count": 2
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제332조",
-      "count": 6
+      "count": 7
     },
     {
       "subject": "상법",
@@ -5316,13 +5580,13 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제335조",
-      "count": 37
+      "count": 34
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제335조의2",
-      "count": 3
+      "count": 4
     },
     {
       "subject": "상법",
@@ -5364,13 +5628,13 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제338조",
-      "count": 17
+      "count": 18
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제339조",
-      "count": 17
+      "count": 10
     },
     {
       "subject": "상법",
@@ -5382,7 +5646,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제340조의2",
-      "count": 6
+      "count": 7
     },
     {
       "subject": "상법",
@@ -5400,13 +5664,13 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제341조",
-      "count": 18
+      "count": 20
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제341조의2",
-      "count": 16
+      "count": 18
     },
     {
       "subject": "상법",
@@ -5418,13 +5682,13 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제342조의2",
-      "count": 9
+      "count": 3
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제342조의3",
-      "count": 3
+      "count": 4
     },
     {
       "subject": "상법",
@@ -5436,7 +5700,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제344조",
-      "count": 4
+      "count": 11
     },
     {
       "subject": "상법",
@@ -5448,7 +5712,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제344조의3",
-      "count": 12
+      "count": 9
     },
     {
       "subject": "상법",
@@ -5466,7 +5730,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제348조",
-      "count": 2
+      "count": 3
     },
     {
       "subject": "상법",
@@ -5478,12 +5742,6 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제355조",
-      "count": 3
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제356조",
       "count": 3
     },
     {
@@ -5508,7 +5766,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제360조의13",
-      "count": 2
+      "count": 3
     },
     {
       "subject": "상법",
@@ -5520,7 +5778,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제360조의15",
-      "count": 4
+      "count": 2
     },
     {
       "subject": "상법",
@@ -5531,14 +5789,20 @@
     {
       "subject": "상법",
       "law_name": "상법",
+      "article_no": "제360조의20",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
       "article_no": "제360조의24",
-      "count": 8
+      "count": 13
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제360조의25",
-      "count": 10
+      "count": 2
     },
     {
       "subject": "상법",
@@ -5556,7 +5820,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제360조의9",
-      "count": 3
+      "count": 4
     },
     {
       "subject": "상법",
@@ -5574,13 +5838,13 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제363조",
-      "count": 11
+      "count": 10
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제363조의2",
-      "count": 8
+      "count": 6
     },
     {
       "subject": "상법",
@@ -5592,13 +5856,19 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제366조",
-      "count": 3
+      "count": 5
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제367조",
+      "count": 1
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제368조",
-      "count": 37
+      "count": 24
     },
     {
       "subject": "상법",
@@ -5610,13 +5880,13 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제368조의3",
-      "count": 18
+      "count": 5
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제368조의4",
-      "count": 7
+      "count": 6
     },
     {
       "subject": "상법",
@@ -5628,7 +5898,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제371조",
-      "count": 7
+      "count": 5
     },
     {
       "subject": "상법",
@@ -5646,13 +5916,13 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제376조",
-      "count": 42
+      "count": 39
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제380조",
-      "count": 17
+      "count": 19
     },
     {
       "subject": "상법",
@@ -5664,7 +5934,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제382조의2",
-      "count": 5
+      "count": 1
     },
     {
       "subject": "상법",
@@ -5675,14 +5945,26 @@
     {
       "subject": "상법",
       "law_name": "상법",
+      "article_no": "제382조의4",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
       "article_no": "제383조",
-      "count": 15
+      "count": 10
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제385조",
-      "count": 9
+      "count": 7
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제386조",
+      "count": 1
     },
     {
       "subject": "상법",
@@ -5694,25 +5976,25 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제388조",
-      "count": 13
+      "count": 14
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제389조",
-      "count": 31
+      "count": 18
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제390조",
-      "count": 8
+      "count": 5
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제391조",
-      "count": 27
+      "count": 22
     },
     {
       "subject": "상법",
@@ -5724,25 +6006,25 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제393조",
-      "count": 13
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제393조의2",
       "count": 10
     },
     {
       "subject": "상법",
       "law_name": "상법",
+      "article_no": "제393조의2",
+      "count": 5
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
       "article_no": "제394조",
-      "count": 8
+      "count": 7
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제395조",
-      "count": 19
+      "count": 33
     },
     {
       "subject": "상법",
@@ -5754,61 +6036,73 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제397조",
-      "count": 14
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제397조의2",
-      "count": 5
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제398조",
-      "count": 23
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제399조",
-      "count": 26
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제400조",
       "count": 11
     },
     {
       "subject": "상법",
       "law_name": "상법",
+      "article_no": "제397조의2",
+      "count": 6
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제398조",
+      "count": 28
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제399조",
+      "count": 28
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제400조",
+      "count": 6
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제401조",
+      "count": 2
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제401조의2",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
       "article_no": "제402조",
-      "count": 7
+      "count": 9
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제403조",
-      "count": 64
+      "count": 57
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제404조",
-      "count": 18
+      "count": 16
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제405조",
-      "count": 12
+      "count": 3
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제406조",
-      "count": 7
+      "count": 3
     },
     {
       "subject": "상법",
@@ -5826,13 +6120,13 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제408조",
-      "count": 5
+      "count": 2
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제408조의2",
-      "count": 3
+      "count": 5
     },
     {
       "subject": "상법",
@@ -5856,7 +6150,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제409조",
-      "count": 20
+      "count": 15
     },
     {
       "subject": "상법",
@@ -5868,7 +6162,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제411조",
-      "count": 5
+      "count": 7
     },
     {
       "subject": "상법",
@@ -5898,31 +6192,31 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제415조",
-      "count": 16
+      "count": 6
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제415조의2",
-      "count": 21
+      "count": 16
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제416조",
-      "count": 19
+      "count": 17
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제418조",
-      "count": 12
+      "count": 11
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제419조",
-      "count": 5
+      "count": 3
     },
     {
       "subject": "상법",
@@ -5952,13 +6246,13 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제423조",
-      "count": 9
+      "count": 6
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제424조",
-      "count": 20
+      "count": 16
     },
     {
       "subject": "상법",
@@ -5970,7 +6264,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제425조",
-      "count": 5
+      "count": 3
     },
     {
       "subject": "상법",
@@ -5982,13 +6276,13 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제429조",
-      "count": 31
+      "count": 34
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제430조",
-      "count": 11
+      "count": 3
     },
     {
       "subject": "상법",
@@ -6005,14 +6299,8 @@
     {
       "subject": "상법",
       "law_name": "상법",
-      "article_no": "제434조",
-      "count": 11
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
       "article_no": "제435조",
-      "count": 11
+      "count": 9
     },
     {
       "subject": "상법",
@@ -6042,7 +6330,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제441조",
-      "count": 5
+      "count": 3
     },
     {
       "subject": "상법",
@@ -6054,7 +6342,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제445조",
-      "count": 9
+      "count": 8
     },
     {
       "subject": "상법",
@@ -6065,20 +6353,14 @@
     {
       "subject": "상법",
       "law_name": "상법",
+      "article_no": "제447조의2",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
       "article_no": "제448조",
       "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제449조",
-      "count": 3
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제449조의2",
-      "count": 3
     },
     {
       "subject": "상법",
@@ -6090,13 +6372,13 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제451조",
-      "count": 13
+      "count": 16
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제458조",
-      "count": 2
+      "count": 3
     },
     {
       "subject": "상법",
@@ -6120,19 +6402,19 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제461조의2",
-      "count": 3
+      "count": 4
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제462조",
-      "count": 15
+      "count": 14
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제462조의2",
-      "count": 13
+      "count": 14
     },
     {
       "subject": "상법",
@@ -6145,12 +6427,6 @@
       "law_name": "상법",
       "article_no": "제462조의4",
       "count": 7
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제464조",
-      "count": 4
     },
     {
       "subject": "상법",
@@ -6173,8 +6449,14 @@
     {
       "subject": "상법",
       "law_name": "상법",
-      "article_no": "제470조",
-      "count": 2
+      "article_no": "제480조의2",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제492조",
+      "count": 1
     },
     {
       "subject": "상법",
@@ -6185,8 +6467,14 @@
     {
       "subject": "상법",
       "law_name": "상법",
+      "article_no": "제513조의2",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
       "article_no": "제516조",
-      "count": 12
+      "count": 11
     },
     {
       "subject": "상법",
@@ -6204,25 +6492,31 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제522조",
-      "count": 4
+      "count": 3
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제522조의3",
-      "count": 12
+      "count": 9
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제527조의2",
-      "count": 7
+      "count": 8
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제527조의3",
-      "count": 10
+      "count": 11
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제527조의4",
+      "count": 1
     },
     {
       "subject": "상법",
@@ -6240,7 +6534,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제529조",
-      "count": 9
+      "count": 7
     },
     {
       "subject": "상법",
@@ -6263,6 +6557,12 @@
     {
       "subject": "상법",
       "law_name": "상법",
+      "article_no": "제530조의2",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
       "article_no": "제530조의3",
       "count": 8
     },
@@ -6276,7 +6576,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제530조의9",
-      "count": 17
+      "count": 18
     },
     {
       "subject": "상법",
@@ -6289,12 +6589,6 @@
       "law_name": "상법",
       "article_no": "제540조",
       "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제542조",
-      "count": 3
     },
     {
       "subject": "상법",
@@ -6312,18 +6606,12 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제542조의12",
-      "count": 19
+      "count": 16
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제542조의4",
-      "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제542조의5",
       "count": 2
     },
     {
@@ -6342,19 +6630,25 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제542조의8",
-      "count": 15
+      "count": 8
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제542조의9",
-      "count": 9
+      "count": 12
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제547조",
+      "count": 1
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제552조",
-      "count": 5
+      "count": 2
     },
     {
       "subject": "상법",
@@ -6371,8 +6665,26 @@
     {
       "subject": "상법",
       "law_name": "상법",
+      "article_no": "제561조",
+      "count": 2
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
       "article_no": "제567조",
       "count": 3
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제568조",
+      "count": 3
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제569조",
+      "count": 1
     },
     {
       "subject": "상법",
@@ -6389,12 +6701,6 @@
     {
       "subject": "상법",
       "law_name": "상법",
-      "article_no": "제600조",
-      "count": 1
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
       "article_no": "제628조",
       "count": 4
     },
@@ -6402,19 +6708,37 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제638조의2",
-      "count": 2
+      "count": 8
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제638조의3",
-      "count": 16
+      "count": 17
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제639조",
-      "count": 8
+      "count": 12
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제640조",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제641조",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제643조",
+      "count": 1
     },
     {
       "subject": "상법",
@@ -6433,6 +6757,12 @@
       "law_name": "상법",
       "article_no": "제646조의2",
       "count": 6
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제648조",
+      "count": 1
     },
     {
       "subject": "상법",
@@ -6456,13 +6786,19 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제651조",
-      "count": 22
+      "count": 21
     },
     {
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제651조의2",
-      "count": 6
+      "count": 7
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제652조",
+      "count": 1
     },
     {
       "subject": "상법",
@@ -6491,12 +6827,6 @@
     {
       "subject": "상법",
       "law_name": "상법",
-      "article_no": "제663조",
-      "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
       "article_no": "제665조",
       "count": 2
     },
@@ -6515,18 +6845,6 @@
     {
       "subject": "상법",
       "law_name": "상법",
-      "article_no": "제672조",
-      "count": 4
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제673조",
-      "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
       "article_no": "제675조",
       "count": 2
     },
@@ -6534,7 +6852,13 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제676조",
-      "count": 4
+      "count": 2
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제679조",
+      "count": 6
     },
     {
       "subject": "상법",
@@ -6546,19 +6870,31 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제682조",
-      "count": 15
+      "count": 17
     },
     {
       "subject": "상법",
       "law_name": "상법",
-      "article_no": "제695조",
-      "count": 2
+      "article_no": "제694조의3",
+      "count": 1
     },
     {
       "subject": "상법",
       "law_name": "상법",
-      "article_no": "제708조",
-      "count": 3
+      "article_no": "제698조",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제714조",
+      "count": 1
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제716조",
+      "count": 1
     },
     {
       "subject": "상법",
@@ -6582,7 +6918,13 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제725조의2",
-      "count": 2
+      "count": 3
+    },
+    {
+      "subject": "상법",
+      "law_name": "상법",
+      "article_no": "제726조의4",
+      "count": 1
     },
     {
       "subject": "상법",
@@ -6600,7 +6942,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제731조",
-      "count": 9
+      "count": 10
     },
     {
       "subject": "상법",
@@ -6612,49 +6954,13 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제733조",
-      "count": 1
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제736조",
       "count": 2
     },
     {
       "subject": "상법",
       "law_name": "상법",
-      "article_no": "제741조",
-      "count": 4
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제750조",
+      "article_no": "제904조",
       "count": 6
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제756조",
-      "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제763조",
-      "count": 3
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법",
-      "article_no": "제807조",
-      "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "상법 §240, §190",
-      "article_no": "제190조",
-      "count": 2
     },
     {
       "subject": "상법",
@@ -6682,12 +6988,6 @@
     },
     {
       "subject": "상법",
-      "law_name": "수표법",
-      "article_no": "제39조",
-      "count": 2
-    },
-    {
-      "subject": "상법",
       "law_name": "어음법",
       "article_no": "제1조",
       "count": 8
@@ -6696,7 +6996,7 @@
       "subject": "상법",
       "law_name": "어음법",
       "article_no": "제2조",
-      "count": 5
+      "count": 2
     },
     {
       "subject": "상법",
@@ -6726,7 +7026,7 @@
       "subject": "상법",
       "law_name": "어음법",
       "article_no": "제11조",
-      "count": 3
+      "count": 1
     },
     {
       "subject": "상법",
@@ -6750,13 +7050,13 @@
       "subject": "상법",
       "law_name": "어음법",
       "article_no": "제16조",
-      "count": 21
+      "count": 18
     },
     {
       "subject": "상법",
       "law_name": "어음법",
       "article_no": "제17조",
-      "count": 18
+      "count": 15
     },
     {
       "subject": "상법",
@@ -6797,12 +7097,6 @@
     {
       "subject": "상법",
       "law_name": "어음법",
-      "article_no": "제28조",
-      "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "어음법",
       "article_no": "제29조",
       "count": 1
     },
@@ -6816,7 +7110,7 @@
       "subject": "상법",
       "law_name": "어음법",
       "article_no": "제31조",
-      "count": 3
+      "count": 1
     },
     {
       "subject": "상법",
@@ -6840,12 +7134,6 @@
       "subject": "상법",
       "law_name": "어음법",
       "article_no": "제47조",
-      "count": 4
-    },
-    {
-      "subject": "상법",
-      "law_name": "어음법",
-      "article_no": "제65조",
       "count": 2
     },
     {
@@ -6876,13 +7164,13 @@
       "subject": "상법",
       "law_name": "어음법",
       "article_no": "제77조",
-      "count": 54
+      "count": 19
     },
     {
       "subject": "상법",
       "law_name": "어음법",
       "article_no": "제78조",
-      "count": 10
+      "count": 2
     },
     {
       "subject": "상법",
@@ -6898,69 +7186,105 @@
     },
     {
       "subject": "상법",
-      "law_name": "어음법",
-      "article_no": "제125조",
-      "count": 1
-    },
-    {
-      "subject": "상법",
-      "law_name": "어음법",
-      "article_no": "제126조",
-      "count": 1
-    },
-    {
-      "subject": "상법",
-      "law_name": "어음법",
-      "article_no": "제129조",
-      "count": 1
-    },
-    {
-      "subject": "상법",
-      "law_name": "어음법",
-      "article_no": "제168조",
-      "count": 9
-    },
-    {
-      "subject": "상법",
-      "law_name": "어음법",
-      "article_no": "제390조",
-      "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "어음법",
-      "article_no": "제451조",
-      "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "어음법",
-      "article_no": "제475조",
-      "count": 2
-    },
-    {
-      "subject": "상법",
-      "law_name": "어음법",
-      "article_no": "제496조",
-      "count": 1
-    },
-    {
-      "subject": "상법",
-      "law_name": "어음법",
-      "article_no": "제536조",
-      "count": 2
-    },
-    {
-      "subject": "상법",
       "law_name": "채무자 회생 및 파산에 관한 법률",
       "article_no": "제295조",
       "count": 2
     },
     {
       "subject": "상법",
+      "law_name": "헌법",
+      "article_no": "제29조",
+      "count": 1
+    },
+    {
+      "subject": "상법",
       "law_name": "형법",
       "article_no": "제228조",
       "count": 3
+    },
+    {
+      "subject": "행정법",
+      "law_name": "지방자치법",
+      "article_no": "제9조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "지방자치법",
+      "article_no": "제22조",
+      "count": 3
+    },
+    {
+      "subject": "행정법",
+      "law_name": "지방자치법",
+      "article_no": "제169조",
+      "count": 4
+    },
+    {
+      "subject": "행정법",
+      "law_name": "지방자치법",
+      "article_no": "제170조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정기본법",
+      "article_no": "제8조",
+      "count": 5
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정기본법",
+      "article_no": "제13조",
+      "count": 5
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정기본법",
+      "article_no": "제14조",
+      "count": 2
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정기본법",
+      "article_no": "제17조",
+      "count": 9
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정기본법",
+      "article_no": "제18조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정기본법",
+      "article_no": "제24조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정기본법",
+      "article_no": "제30조",
+      "count": 3
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정기본법",
+      "article_no": "제32조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정기본법",
+      "article_no": "제37조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정법",
+      "article_no": "제1조",
+      "count": 1
     },
     {
       "subject": "행정법",
@@ -6972,37 +7296,37 @@
       "subject": "행정법",
       "law_name": "행정법",
       "article_no": "제3조",
-      "count": 42
+      "count": 34
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
       "article_no": "제4조",
-      "count": 19
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제5조",
-      "count": 25
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제6조",
       "count": 17
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
+      "article_no": "제5조",
+      "count": 19
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정법",
+      "article_no": "제6조",
+      "count": 11
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정법",
       "article_no": "제7조",
-      "count": 13
+      "count": 6
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
       "article_no": "제8조",
-      "count": 9
+      "count": 2
     },
     {
       "subject": "행정법",
@@ -7020,7 +7344,7 @@
       "subject": "행정법",
       "law_name": "행정법",
       "article_no": "제11조",
-      "count": 15
+      "count": 11
     },
     {
       "subject": "행정법",
@@ -7032,31 +7356,19 @@
       "subject": "행정법",
       "law_name": "행정법",
       "article_no": "제13조",
-      "count": 10
+      "count": 11
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
       "article_no": "제14조",
-      "count": 12
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제15조",
-      "count": 10
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제16조",
-      "count": 4
+      "count": 6
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
       "article_no": "제17조",
-      "count": 19
+      "count": 5
     },
     {
       "subject": "행정법",
@@ -7068,121 +7380,109 @@
       "subject": "행정법",
       "law_name": "행정법",
       "article_no": "제19조",
-      "count": 27
+      "count": 15
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
       "article_no": "제20조",
-      "count": 59
+      "count": 29
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
-      "article_no": "제21조",
-      "count": 23
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제22조",
-      "count": 39
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제23조",
-      "count": 39
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제24조",
-      "count": 9
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제25조",
-      "count": 11
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제26조",
-      "count": 8
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제27조",
-      "count": 6
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제28조",
-      "count": 20
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제29조",
-      "count": 7
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제30조",
-      "count": 27
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제31조",
-      "count": 5
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제32조",
-      "count": 5
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제34조",
-      "count": 12
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제35조",
-      "count": 7
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제36조",
+      "article_no": "제20조의2",
       "count": 2
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
-      "article_no": "제37조",
+      "article_no": "제21조",
+      "count": 19
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정법",
+      "article_no": "제22조",
+      "count": 18
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정법",
+      "article_no": "제23조",
+      "count": 31
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정법",
+      "article_no": "제24조",
       "count": 6
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
-      "article_no": "제38조",
+      "article_no": "제25조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정법",
+      "article_no": "제26조",
+      "count": 9
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정법",
+      "article_no": "제27조",
+      "count": 5
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정법",
+      "article_no": "제28조",
+      "count": 5
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정법",
+      "article_no": "제29조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정법",
+      "article_no": "제30조",
       "count": 13
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
+      "article_no": "제31조",
+      "count": 2
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정법",
+      "article_no": "제33조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정법",
+      "article_no": "제34조",
+      "count": 5
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정법",
+      "article_no": "제37조",
+      "count": 2
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정법",
       "article_no": "제39조",
-      "count": 10
+      "count": 11
     },
     {
       "subject": "행정법",
@@ -7200,37 +7500,31 @@
       "subject": "행정법",
       "law_name": "행정법",
       "article_no": "제43조",
-      "count": 8
+      "count": 5
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
       "article_no": "제44조",
-      "count": 9
+      "count": 6
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
-      "article_no": "제49조",
-      "count": 9
+      "article_no": "제45조",
+      "count": 1
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
-      "article_no": "제50조",
-      "count": 2
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제50조의2",
-      "count": 7
+      "article_no": "제45조의2",
+      "count": 1
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
       "article_no": "제51조",
-      "count": 5
+      "count": 6
     },
     {
       "subject": "행정법",
@@ -7241,32 +7535,8 @@
     {
       "subject": "행정법",
       "law_name": "행정법",
-      "article_no": "제57조",
-      "count": 5
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
       "article_no": "제61조",
       "count": 5
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제64조",
-      "count": 5
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제65조",
-      "count": 1
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제67조",
-      "count": 1
     },
     {
       "subject": "행정법",
@@ -7278,25 +7548,19 @@
       "subject": "행정법",
       "law_name": "행정법",
       "article_no": "제75조",
-      "count": 20
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제79조",
-      "count": 5
+      "count": 11
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
       "article_no": "제80조",
-      "count": 15
+      "count": 16
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
-      "article_no": "제80조의2",
-      "count": 4
+      "article_no": "제81조의2",
+      "count": 1
     },
     {
       "subject": "행정법",
@@ -7307,55 +7571,37 @@
     {
       "subject": "행정법",
       "law_name": "행정법",
-      "article_no": "제86조",
-      "count": 6
+      "article_no": "제89조",
+      "count": 1
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
-      "article_no": "제95조",
-      "count": 5
+      "article_no": "제99조",
+      "count": 1
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
       "article_no": "제101조",
-      "count": 20
+      "count": 18
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
       "article_no": "제107조",
-      "count": 6
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제117조",
-      "count": 24
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제140조",
-      "count": 5
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제148조",
-      "count": 5
-    },
-    {
-      "subject": "행정법",
-      "law_name": "행정법",
-      "article_no": "제169조",
       "count": 4
     },
     {
       "subject": "행정법",
       "law_name": "행정법",
-      "article_no": "제172조",
+      "article_no": "제117조",
+      "count": 19
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정법",
+      "article_no": "제140조",
       "count": 5
     },
     {
@@ -7374,55 +7620,331 @@
       "subject": "행정법",
       "law_name": "행정법",
       "article_no": "제192조",
-      "count": 7
+      "count": 2
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정소송법",
+      "article_no": "제4조",
+      "count": 10
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정소송법",
+      "article_no": "제8조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정소송법",
+      "article_no": "제12조",
+      "count": 3
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정소송법",
+      "article_no": "제16조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정소송법",
+      "article_no": "제18조",
+      "count": 2
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정소송법",
+      "article_no": "제20조",
+      "count": 3
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정소송법",
+      "article_no": "제21조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정소송법",
+      "article_no": "제23조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정소송법",
+      "article_no": "제25조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정소송법",
+      "article_no": "제26조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정소송법",
+      "article_no": "제27조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정소송법",
+      "article_no": "제30조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정소송법",
+      "article_no": "제31조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정소송법",
+      "article_no": "제33조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정소송법",
+      "article_no": "제34조",
+      "count": 2
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정소송법",
+      "article_no": "제35조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정절차법",
+      "article_no": "제11조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정절차법",
+      "article_no": "제40조",
+      "count": 14
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정절차법",
+      "article_no": "제40조의2",
+      "count": 4
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정절차법",
+      "article_no": "제40조의4",
+      "count": 46
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정절차법",
+      "article_no": "제48조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정절차법",
+      "article_no": "제49조",
+      "count": 1
+    },
+    {
+      "subject": "행정법",
+      "law_name": "행정절차법",
+      "article_no": "제51조",
+      "count": 1
+    },
+    {
+      "subject": "행정소송법",
+      "law_name": "행정소송법",
+      "article_no": "제23조",
+      "count": 1
     },
     {
       "subject": "헌법",
-      "law_name": "헌법",
+      "law_name": "국가배상법",
       "article_no": "제2조",
-      "count": 38
+      "count": 3
+    },
+    {
+      "subject": "헌법",
+      "law_name": "대한민국헌법",
+      "article_no": "제12조",
+      "count": 4
+    },
+    {
+      "subject": "헌법",
+      "law_name": "대한민국헌법",
+      "article_no": "제33조",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "대한민국헌법",
+      "article_no": "제53조",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "대한민국헌법",
+      "article_no": "제54조",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "대한민국헌법",
+      "article_no": "제57조",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "대한민국헌법",
+      "article_no": "제60조",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "대한민국헌법",
+      "article_no": "제64조",
+      "count": 2
+    },
+    {
+      "subject": "헌법",
+      "law_name": "대한민국헌법",
+      "article_no": "제65조",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "대한민국헌법",
+      "article_no": "제77조",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "대한민국헌법",
+      "article_no": "제81조",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "대한민국헌법",
+      "article_no": "제82조",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "대한민국헌법",
+      "article_no": "제94조",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "대한민국헌법",
+      "article_no": "제98조",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "대한민국헌법",
+      "article_no": "제104조",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "대한민국헌법",
+      "article_no": "제107조",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "대한민국헌법",
+      "article_no": "제114조",
+      "count": 2
+    },
+    {
+      "subject": "헌법",
+      "law_name": "대한민국헌법",
+      "article_no": "제126조",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "행정소송법",
+      "article_no": "제3조",
+      "count": 1
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
-      "article_no": "제3조",
+      "article_no": "제1조",
       "count": 3
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
+      "article_no": "제2조",
+      "count": 26
+    },
+    {
+      "subject": "헌법",
+      "law_name": "헌법",
+      "article_no": "제3조",
+      "count": 4
+    },
+    {
+      "subject": "헌법",
+      "law_name": "헌법",
+      "article_no": "제4조",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "헌법",
       "article_no": "제5조",
-      "count": 12
+      "count": 9
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제6조",
-      "count": 23
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제7조",
-      "count": 13
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제8조",
       "count": 19
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
+      "article_no": "제7조",
+      "count": 9
+    },
+    {
+      "subject": "헌법",
+      "law_name": "헌법",
+      "article_no": "제8조",
+      "count": 20
+    },
+    {
+      "subject": "헌법",
+      "law_name": "헌법",
+      "article_no": "제9조",
+      "count": 7
+    },
+    {
+      "subject": "헌법",
+      "law_name": "헌법",
       "article_no": "제10조",
-      "count": 70
+      "count": 86
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제11조",
-      "count": 37
+      "count": 47
     },
     {
       "subject": "헌법",
@@ -7440,37 +7962,31 @@
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제14조",
-      "count": 5
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제14조의2",
-      "count": 5
+      "count": 1
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제15조",
-      "count": 20
+      "count": 21
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제16조",
-      "count": 6
+      "count": 1
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제17조",
-      "count": 8
+      "count": 14
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제18조",
-      "count": 16
+      "count": 14
     },
     {
       "subject": "헌법",
@@ -7482,187 +7998,175 @@
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제20조",
-      "count": 8
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제20조의2",
-      "count": 5
+      "count": 2
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제21조",
-      "count": 60
+      "count": 70
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제22조",
-      "count": 13
+      "count": 9
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제23조",
-      "count": 62
+      "count": 78
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제24조",
-      "count": 58
+      "count": 33
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제25조",
-      "count": 26
+      "count": 15
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제26조",
-      "count": 9
+      "count": 11
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제27조",
-      "count": 38
+      "count": 31
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제28조",
-      "count": 10
+      "count": 2
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제29조",
-      "count": 15
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제29조의2",
-      "count": 4
+      "count": 9
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제30조",
-      "count": 14
+      "count": 1
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제31조",
-      "count": 15
+      "count": 36
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제32조",
-      "count": 26
+      "count": 14
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제33조",
-      "count": 15
+      "count": 18
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제34조",
-      "count": 24
+      "count": 22
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제35조",
-      "count": 9
+      "count": 6
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제36조",
-      "count": 30
+      "count": 43
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제37조",
-      "count": 71
+      "count": 63
+    },
+    {
+      "subject": "헌법",
+      "law_name": "헌법",
+      "article_no": "제38조",
+      "count": 1
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제39조",
-      "count": 4
+      "count": 3
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제40조",
-      "count": 54
+      "count": 51
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제41조",
-      "count": 38
+      "count": 17
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제42조",
-      "count": 8
+      "count": 3
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
-      "article_no": "제44조",
-      "count": 9
+      "article_no": "제43조",
+      "count": 1
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
-      "article_no": "제45조",
-      "count": 5
+      "article_no": "제46조",
+      "count": 1
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제47조",
-      "count": 35
+      "count": 39
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제48조",
-      "count": 20
+      "count": 11
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제49조",
-      "count": 20
+      "count": 12
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제50조",
-      "count": 19
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제51조",
-      "count": 11
+      "count": 6
     },
     {
       "subject": "헌법",
@@ -7674,61 +8178,43 @@
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제53조",
-      "count": 28
+      "count": 3
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제54조",
-      "count": 14
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제54조의2",
-      "count": 5
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제55조",
-      "count": 9
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제57조",
-      "count": 28
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제58조",
-      "count": 5
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제60조",
-      "count": 24
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제61조",
-      "count": 20
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제62조",
       "count": 10
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
-      "article_no": "제63조",
+      "article_no": "제57조",
+      "count": 8
+    },
+    {
+      "subject": "헌법",
+      "law_name": "헌법",
+      "article_no": "제57조의2",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "헌법",
+      "article_no": "제60조",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "헌법",
+      "article_no": "제61조",
       "count": 5
+    },
+    {
+      "subject": "헌법",
+      "law_name": "헌법",
+      "article_no": "제62조",
+      "count": 8
     },
     {
       "subject": "헌법",
@@ -7740,55 +8226,43 @@
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제65조",
-      "count": 47
+      "count": 33
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제66조",
-      "count": 34
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제67조",
-      "count": 5
+      "count": 18
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제68조",
-      "count": 179
+      "count": 221
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제69조",
-      "count": 32
+      "count": 16
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제70조",
-      "count": 17
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제71조",
-      "count": 14
+      "count": 1
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제72조",
-      "count": 14
+      "count": 10
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제75조",
-      "count": 70
+      "count": 61
     },
     {
       "subject": "헌법",
@@ -7800,19 +8274,13 @@
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제77조",
-      "count": 10
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제78조",
-      "count": 1
+      "count": 5
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제79조",
-      "count": 10
+      "count": 5
     },
     {
       "subject": "헌법",
@@ -7824,19 +8292,7 @@
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제81조",
-      "count": 9
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제82조",
-      "count": 4
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제82조의2",
-      "count": 4
+      "count": 10
     },
     {
       "subject": "헌법",
@@ -7848,13 +8304,7 @@
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제86조",
-      "count": 15
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제92조",
-      "count": 4
+      "count": 7
     },
     {
       "subject": "헌법",
@@ -7866,49 +8316,25 @@
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제95조",
-      "count": 16
+      "count": 6
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제96조",
-      "count": 5
+      "count": 6
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제97조",
-      "count": 14
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제98조",
-      "count": 13
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제98조의2",
-      "count": 5
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제99조",
-      "count": 5
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제100조",
-      "count": 4
+      "count": 10
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제101조",
-      "count": 31
+      "count": 22
     },
     {
       "subject": "헌법",
@@ -7920,109 +8346,91 @@
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제105조",
-      "count": 9
+      "count": 3
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제106조",
-      "count": 10
+      "count": 4
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제107조",
-      "count": 36
+      "count": 14
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제108조",
-      "count": 8
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제109조",
       "count": 4
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제110조",
-      "count": 5
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제111조",
-      "count": 20
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제112조",
-      "count": 5
+      "count": 13
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제113조",
-      "count": 4
+      "count": 5
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제114조",
-      "count": 5
+      "count": 2
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제116조",
-      "count": 4
+      "count": 1
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제117조",
-      "count": 17
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제118조",
-      "count": 9
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제119조",
       "count": 24
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
+      "article_no": "제118조",
+      "count": 4
+    },
+    {
+      "subject": "헌법",
+      "law_name": "헌법",
+      "article_no": "제119조",
+      "count": 30
+    },
+    {
+      "subject": "헌법",
+      "law_name": "헌법",
       "article_no": "제121조",
-      "count": 16
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "헌법",
+      "article_no": "제122조",
+      "count": 1
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제123조",
-      "count": 5
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제124조",
-      "count": 6
+      "count": 1
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제126조",
-      "count": 16
+      "count": 6
     },
     {
       "subject": "헌법",
@@ -8034,259 +8442,313 @@
       "subject": "헌법",
       "law_name": "헌법",
       "article_no": "제130조",
-      "count": 19
-    },
-    {
-      "subject": "헌법",
-      "law_name": "헌법",
-      "article_no": "제157조",
       "count": 4
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
-      "article_no": "제188조",
-      "count": 4
+      "article_no": "제136조",
+      "count": 1
     },
     {
       "subject": "헌법",
       "law_name": "헌법",
-      "article_no": "제189조",
-      "count": 3
+      "article_no": "제201조",
+      "count": 1
     },
     {
       "subject": "헌법",
+      "law_name": "형사소송법",
+      "article_no": "제92조",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "형사소송법",
+      "article_no": "제325조",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "형사소송법",
+      "article_no": "제326조",
+      "count": 1
+    },
+    {
+      "subject": "헌법",
+      "law_name": "형사소송법",
+      "article_no": "제420조",
+      "count": 1
+    },
+    {
+      "subject": "형법",
+      "law_name": "공직선거법",
+      "article_no": "제106조",
+      "count": 1
+    },
+    {
+      "subject": "형법",
+      "law_name": "공직선거법",
+      "article_no": "제262조",
+      "count": 1
+    },
+    {
+      "subject": "형법",
       "law_name": "헌법",
-      "article_no": "제251조",
-      "count": 5
+      "article_no": "제10조",
+      "count": 1
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제1조",
-      "count": 32
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제2조",
-      "count": 11
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제3조",
-      "count": 18
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제4조",
-      "count": 10
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제5조",
-      "count": 10
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제5조의4",
-      "count": 5
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제6조",
-      "count": 5
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제7조",
-      "count": 24
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제8조",
-      "count": 9
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제10조",
-      "count": 44
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제12조",
-      "count": 10
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제13조",
-      "count": 65
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제14조",
-      "count": 17
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제15조",
-      "count": 25
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제16조",
-      "count": 40
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제17조",
-      "count": 12
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제18조",
-      "count": 22
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제19조",
-      "count": 5
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제20조",
-      "count": 17
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제21조",
-      "count": 24
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제22조",
-      "count": 7
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제23조",
-      "count": 4
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제24조",
-      "count": 17
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제25조",
-      "count": 43
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제26조",
-      "count": 34
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제27조",
-      "count": 37
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제28조",
-      "count": 5
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제30조",
-      "count": 60
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제31조",
-      "count": 20
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제32조",
-      "count": 39
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제33조",
       "count": 33
     },
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제34조",
-      "count": 30
+      "article_no": "제2조",
+      "count": 12
     },
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제35조",
-      "count": 5
+      "article_no": "제3조",
+      "count": 15
     },
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제37조",
-      "count": 37
+      "article_no": "제4조",
+      "count": 6
     },
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제38조",
+      "article_no": "제5조",
+      "count": 4
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제5조의10",
       "count": 2
     },
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제39조",
+      "article_no": "제5조의13",
+      "count": 1
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제5조의3",
+      "count": 2
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제5조의4",
+      "count": 2
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제6조",
+      "count": 7
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제7조",
+      "count": 10
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제8조",
       "count": 5
     },
     {
       "subject": "형법",
       "law_name": "형법",
+      "article_no": "제9조",
+      "count": 2
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제10조",
+      "count": 49
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제11조",
+      "count": 1
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제12조",
+      "count": 11
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제13조",
+      "count": 85
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제14조",
+      "count": 23
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제15조",
+      "count": 31
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제16조",
+      "count": 20
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제17조",
+      "count": 42
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제18조",
+      "count": 98
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제19조",
+      "count": 6
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제20조",
+      "count": 23
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제21조",
+      "count": 19
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제23조",
+      "count": 1
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제24조",
+      "count": 21
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제25조",
+      "count": 33
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제26조",
+      "count": 10
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제27조",
+      "count": 13
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제30조",
+      "count": 59
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제31조",
+      "count": 25
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제32조",
+      "count": 11
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제33조",
+      "count": 49
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제34조",
+      "count": 10
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제35조",
+      "count": 23
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제37조",
+      "count": 39
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제38조",
+      "count": 1
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제39조",
+      "count": 7
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
       "article_no": "제40조",
-      "count": 34
+      "count": 13
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제41조",
       "count": 4
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제43조",
+      "count": 1
     },
     {
       "subject": "형법",
@@ -8298,13 +8760,25 @@
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제48조",
-      "count": 15
+      "count": 13
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제49조",
+      "count": 1
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제50조",
+      "count": 1
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제52조",
-      "count": 5
+      "count": 4
     },
     {
       "subject": "형법",
@@ -8316,43 +8790,67 @@
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제55조",
-      "count": 10
+      "count": 11
     },
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제62조",
-      "count": 10
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제62조의2",
-      "count": 5
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제65조",
+      "article_no": "제59조",
       "count": 2
     },
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제70조",
-      "count": 29
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제74조",
+      "article_no": "제60조",
       "count": 4
     },
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제114조",
+      "article_no": "제62조",
+      "count": 2
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제64조",
       "count": 1
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제65조",
+      "count": 1
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제70조",
+      "count": 5
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제79조",
+      "count": 1
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제88조",
+      "count": 2
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제92조의6",
+      "count": 1
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제114조",
+      "count": 2
     },
     {
       "subject": "형법",
@@ -8363,8 +8861,14 @@
     {
       "subject": "형법",
       "law_name": "형법",
+      "article_no": "제123조",
+      "count": 3
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
       "article_no": "제124조",
-      "count": 4
+      "count": 2
     },
     {
       "subject": "형법",
@@ -8376,55 +8880,25 @@
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제129조",
-      "count": 36
+      "count": 24
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제130조",
-      "count": 20
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제131조",
-      "count": 5
+      "count": 9
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제133조",
-      "count": 5
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제134조",
-      "count": 18
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제136조",
-      "count": 13
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제144조",
-      "count": 5
+      "count": 2
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제145조",
-      "count": 4
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제147조",
-      "count": 4
+      "count": 5
     },
     {
       "subject": "형법",
@@ -8436,19 +8910,13 @@
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제151조",
-      "count": 8
+      "count": 5
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제152조",
-      "count": 15
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제153조",
-      "count": 12
+      "count": 1
     },
     {
       "subject": "형법",
@@ -8460,43 +8928,49 @@
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제156조",
-      "count": 21
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제157조",
-      "count": 4
+      "count": 5
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제164조",
-      "count": 13
+      "count": 3
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제166조",
+      "count": 1
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제167조",
-      "count": 3
+      "count": 6
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제170조",
-      "count": 3
+      "count": 4
     },
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제174조",
-      "count": 3
+      "article_no": "제185조",
+      "count": 1
     },
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제212조",
-      "count": 3
+      "article_no": "제188조",
+      "count": 2
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제207조",
+      "count": 5
     },
     {
       "subject": "형법",
@@ -8507,86 +8981,62 @@
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제217조",
-      "count": 7
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
       "article_no": "제225조",
-      "count": 25
+      "count": 21
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제227조",
-      "count": 8
+      "count": 1
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제227조의2",
+      "count": 1
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제228조",
-      "count": 6
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제229조",
-      "count": 9
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제230조",
-      "count": 8
+      "count": 1
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제231조",
-      "count": 25
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제232조",
-      "count": 2
+      "count": 10
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제232조의2",
-      "count": 5
+      "count": 7
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제233조",
-      "count": 9
+      "count": 4
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제234조",
-      "count": 5
+      "count": 1
     },
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제236조",
-      "count": 5
+      "article_no": "제243조",
+      "count": 2
     },
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제239조",
-      "count": 5
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제246조",
-      "count": 8
+      "article_no": "제244조",
+      "count": 1
     },
     {
       "subject": "형법",
@@ -8598,31 +9048,25 @@
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제250조",
-      "count": 18
+      "count": 6
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제252조",
-      "count": 7
+      "count": 4
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제253조",
-      "count": 9
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제255조",
-      "count": 10
+      "count": 2
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제257조",
-      "count": 4
+      "count": 2
     },
     {
       "subject": "형법",
@@ -8633,44 +9077,32 @@
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제259조",
-      "count": 8
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
       "article_no": "제260조",
-      "count": 9
+      "count": 5
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제261조",
-      "count": 6
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제262조",
-      "count": 10
+      "count": 4
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제263조",
-      "count": 24
+      "count": 19
     },
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제267조",
-      "count": 8
+      "article_no": "제264조",
+      "count": 4
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제268조",
-      "count": 8
+      "count": 9
     },
     {
       "subject": "형법",
@@ -8687,92 +9119,44 @@
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제286조의2",
-      "count": 3
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
       "article_no": "제287조",
-      "count": 5
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제294조",
-      "count": 4
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제294조의2",
-      "count": 4
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제296조의2",
-      "count": 15
+      "count": 7
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제297조",
-      "count": 10
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제297조의2",
-      "count": 2
+      "count": 7
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제298조",
-      "count": 11
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제299조",
-      "count": 5
+      "count": 3
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제302조",
-      "count": 4
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제303조",
-      "count": 4
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제305조",
       "count": 8
     },
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제305조의3",
-      "count": 5
+      "article_no": "제304조",
+      "count": 1
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제305조",
+      "count": 2
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제307조",
-      "count": 24
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제308조",
-      "count": 5
+      "count": 32
     },
     {
       "subject": "형법",
@@ -8783,44 +9167,26 @@
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제310조",
-      "count": 17
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제310조의2",
-      "count": 2
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제311조",
+      "article_no": "제309조",
       "count": 10
     },
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제312조",
-      "count": 3
+      "article_no": "제310조",
+      "count": 21
     },
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제313조",
-      "count": 5
+      "article_no": "제311조",
+      "count": 1
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제314조",
-      "count": 28
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제315조",
-      "count": 2
+      "count": 17
     },
     {
       "subject": "형법",
@@ -8831,200 +9197,122 @@
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제318조의2",
-      "count": 3
+      "article_no": "제318조",
+      "count": 5
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제319조",
-      "count": 15
+      "count": 10
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제323조",
-      "count": 20
+      "count": 7
     },
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제324조",
-      "count": 4
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제326조",
-      "count": 6
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제327조",
-      "count": 8
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제328조",
-      "count": 24
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제329조",
-      "count": 30
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제330조",
-      "count": 17
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제331조",
-      "count": 11
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제332조",
-      "count": 10
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제333조",
-      "count": 17
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제334조",
-      "count": 5
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제335조",
-      "count": 9
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제337조",
-      "count": 18
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제338조",
-      "count": 13
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제339조",
-      "count": 16
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제342조",
+      "article_no": "제324조의6",
       "count": 1
     },
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제344조",
+      "article_no": "제326조",
+      "count": 1
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제328조",
+      "count": 15
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제329조",
+      "count": 20
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제330조",
       "count": 5
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제331조",
+      "count": 2
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제332조",
+      "count": 1
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제334조",
+      "count": 1
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제335조",
+      "count": 8
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제337조",
+      "count": 6
+    },
+    {
+      "subject": "형법",
+      "law_name": "형법",
+      "article_no": "제339조",
+      "count": 2
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제346조",
-      "count": 5
+      "count": 6
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제347조",
-      "count": 60
+      "count": 43
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제347조의2",
-      "count": 16
+      "count": 2
     },
     {
       "subject": "형법",
       "law_name": "형법",
-      "article_no": "제350조",
-      "count": 19
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제354조",
-      "count": 10
+      "article_no": "제349조",
+      "count": 1
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제355조",
-      "count": 73
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제356조",
-      "count": 9
+      "count": 50
     },
     {
       "subject": "형법",
       "law_name": "형법",
       "article_no": "제357조",
-      "count": 10
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제359조",
-      "count": 5
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제360조",
-      "count": 3
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제361조",
-      "count": 5
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제362조",
-      "count": 10
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제364조",
-      "count": 13
-    },
-    {
-      "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제365조",
-      "count": 5
+      "count": 8
     },
     {
       "subject": "형법",
@@ -9034,111 +9322,111 @@
     },
     {
       "subject": "형법",
-      "law_name": "형법",
-      "article_no": "제368조",
-      "count": 2
+      "law_name": "형사소송법",
+      "article_no": "제327조",
+      "count": 1
     },
     {
       "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제1조",
+      "law_name": "헌법",
+      "article_no": "제16조",
+      "count": 1
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "헌법",
+      "article_no": "제107조",
       "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제2조",
-      "count": 13
+      "count": 14
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제3조",
-      "count": 15
+      "count": 4
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제4조",
-      "count": 17
+      "count": 6
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제5조",
-      "count": 6
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제6조",
-      "count": 15
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제7조",
-      "count": 11
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제8조",
-      "count": 15
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제9조",
-      "count": 5
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제10조",
-      "count": 6
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제11조",
       "count": 3
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제13조",
-      "count": 15
+      "article_no": "제6조",
+      "count": 12
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제13조의5",
+      "article_no": "제7조",
       "count": 6
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제14조",
+      "article_no": "제9조",
+      "count": 2
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제10조",
+      "count": 3
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제11조",
+      "count": 2
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제12조",
+      "count": 1
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제13조",
       "count": 7
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제15조",
+      "article_no": "제14조",
+      "count": 2
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제15조의2",
       "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제17조",
-      "count": 5
+      "count": 2
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제20조",
-      "count": 3
+      "article_no": "제23조",
+      "count": 2
     },
     {
       "subject": "형사소송법",
@@ -9149,26 +9437,14 @@
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제26조",
-      "count": 5
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제27조",
-      "count": 5
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
       "article_no": "제30조",
       "count": 11
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제31조",
-      "count": 2
+      "article_no": "제32조",
+      "count": 1
     },
     {
       "subject": "형사소송법",
@@ -9180,7 +9456,7 @@
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제34조",
-      "count": 18
+      "count": 5
     },
     {
       "subject": "형사소송법",
@@ -9191,19 +9467,7 @@
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제36조",
-      "count": 5
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
       "article_no": "제37조",
-      "count": 6
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제38조",
       "count": 1
     },
     {
@@ -9215,20 +9479,20 @@
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제43조",
-      "count": 5
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제44조",
-      "count": 6
+      "article_no": "제41조",
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제46조",
-      "count": 6
+      "count": 1
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제47조",
+      "count": 1
     },
     {
       "subject": "형사소송법",
@@ -9245,32 +9509,26 @@
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제54조",
-      "count": 2
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제55조",
-      "count": 5
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
       "article_no": "제56조",
-      "count": 6
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제65조",
+      "article_no": "제60조",
       "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제72조",
-      "count": 5
+      "count": 6
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제84조의9",
+      "count": 1
     },
     {
       "subject": "형사소송법",
@@ -9281,74 +9539,44 @@
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제92조",
-      "count": 4
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
       "article_no": "제97조",
       "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제98조",
-      "count": 1
+      "article_no": "제106조",
+      "count": 7
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제101조",
+      "article_no": "제117조",
       "count": 1
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제102조",
-      "count": 1
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제114조",
-      "count": 3
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제118조",
-      "count": 12
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제120조",
-      "count": 3
+      "count": 5
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제121조",
-      "count": 16
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제122조",
-      "count": 16
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제123조",
       "count": 14
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제124조",
-      "count": 9
+      "article_no": "제122조",
+      "count": 1
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제123조",
+      "count": 10
     },
     {
       "subject": "형사소송법",
@@ -9360,24 +9588,12 @@
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제129조",
-      "count": 7
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제131조",
-      "count": 2
+      "count": 5
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제133조",
-      "count": 7
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제134조",
       "count": 2
     },
     {
@@ -9389,18 +9605,6 @@
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제144조",
-      "count": 4
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제146조",
-      "count": 6
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
       "article_no": "제147조",
       "count": 5
     },
@@ -9408,67 +9612,37 @@
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제148조",
-      "count": 7
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제148조의2",
-      "count": 2
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제149조",
-      "count": 5
+      "count": 6
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제151조",
-      "count": 23
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제152조",
-      "count": 9
+      "count": 12
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제155조",
-      "count": 9
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제159조",
-      "count": 5
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제162조",
-      "count": 5
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제163조의2",
-      "count": 5
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제164조",
-      "count": 3
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제177조",
       "count": 6
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제156조의2",
+      "count": 1
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제165조의2",
+      "count": 1
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제173조",
+      "count": 1
     },
     {
       "subject": "형사소송법",
@@ -9485,44 +9659,50 @@
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제200조의2",
-      "count": 5
+      "article_no": "제199조",
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제200조의3",
-      "count": 5
+      "count": 8
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제200조의4",
-      "count": 16
+      "count": 5
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제200조의5",
-      "count": 16
+      "count": 7
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제201조",
+      "count": 14
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제201조의2",
-      "count": 9
+      "count": 4
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제202조",
-      "count": 5
+      "article_no": "제205조",
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제208조",
-      "count": 5
+      "count": 1
     },
     {
       "subject": "형사소송법",
@@ -9533,80 +9713,56 @@
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제212조",
-      "count": 8
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
       "article_no": "제213조",
-      "count": 16
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제213조의2",
-      "count": 13
+      "count": 5
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제214조의2",
-      "count": 18
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제214조의3",
       "count": 15
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제215조",
-      "count": 26
+      "count": 15
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제216조",
-      "count": 25
+      "count": 15
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제217조",
-      "count": 29
+      "count": 14
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제218조",
-      "count": 37
+      "count": 11
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제219조",
-      "count": 10
+      "count": 6
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제221조",
-      "count": 2
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제221조의2",
-      "count": 2
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제221조의4",
-      "count": 4
+      "count": 3
     },
     {
       "subject": "형사소송법",
@@ -9618,37 +9774,31 @@
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제225조",
-      "count": 14
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제227조",
-      "count": 2
+      "count": 13
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제230조",
-      "count": 8
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제232조",
-      "count": 11
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제233조",
       "count": 7
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제236조",
+      "article_no": "제233조",
       "count": 2
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제241조",
+      "count": 8
     },
     {
       "subject": "형사소송법",
@@ -9660,31 +9810,25 @@
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제244조의2",
-      "count": 4
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제244조의3",
-      "count": 10
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제244조의4",
-      "count": 6
+      "count": 7
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제246조",
-      "count": 9
+      "count": 8
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제249조",
-      "count": 6
+      "count": 4
     },
     {
       "subject": "형사소송법",
@@ -9695,14 +9839,14 @@
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제252조",
-      "count": 1
+      "article_no": "제253조",
+      "count": 6
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제253조",
-      "count": 3
+      "article_no": "제254조",
+      "count": 4
     },
     {
       "subject": "형사소송법",
@@ -9713,26 +9857,20 @@
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제258조",
-      "count": 5
+      "article_no": "제260조",
+      "count": 37
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제260조",
-      "count": 11
+      "article_no": "제261조",
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제262조",
-      "count": 10
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제262조의2",
-      "count": 5
+      "count": 3
     },
     {
       "subject": "형사소송법",
@@ -9743,50 +9881,56 @@
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제264조의2",
-      "count": 10
+      "article_no": "제266조의3",
+      "count": 5
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제266조의3",
-      "count": 10
+      "article_no": "제266조의5",
+      "count": 4
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제266조의7",
+      "count": 1
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제266조의8",
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제268조",
-      "count": 7
+      "count": 2
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제275조",
-      "count": 5
+      "count": 11
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제275조의2",
-      "count": 6
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제276조",
-      "count": 4
+      "article_no": "제277조의2",
+      "count": 2
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제277조",
-      "count": 4
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제282조",
-      "count": 5
+      "article_no": "제278조",
+      "count": 1
     },
     {
       "subject": "형사소송법",
@@ -9797,44 +9941,38 @@
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제285조",
-      "count": 5
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
       "article_no": "제286조의2",
-      "count": 11
+      "count": 2
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제292조의3",
-      "count": 6
+      "article_no": "제290조",
+      "count": 29
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제295조",
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제296조의2",
-      "count": 5
+      "count": 6
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제297조",
-      "count": 10
+      "count": 3
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제298조",
-      "count": 16
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제303조",
-      "count": 4
+      "count": 15
     },
     {
       "subject": "형사소송법",
@@ -9846,151 +9984,157 @@
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제307조",
-      "count": 5
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제308조",
-      "count": 7
+      "count": 6
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제308조의2",
-      "count": 30
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제309조",
-      "count": 19
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제310조",
-      "count": 26
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제310조의2",
-      "count": 30
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제311조",
-      "count": 12
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제312조",
-      "count": 79
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제313조",
-      "count": 29
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제314조",
-      "count": 46
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제315조",
-      "count": 23
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제316조",
-      "count": 27
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제318조",
-      "count": 24
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제318조의2",
-      "count": 16
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제318조의3",
-      "count": 9
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제319조",
-      "count": 10
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제323조",
-      "count": 5
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제325조",
-      "count": 8
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제326조",
-      "count": 17
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제327조",
-      "count": 29
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제328조",
-      "count": 12
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제329조",
       "count": 20
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제330조",
-      "count": 2
+      "article_no": "제309조",
+      "count": 16
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제331조",
+      "article_no": "제310조",
+      "count": 30
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제310조의2",
+      "count": 32
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제311조",
+      "count": 13
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제312조",
+      "count": 49
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제313조",
+      "count": 18
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제314조",
+      "count": 30
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제315조",
+      "count": 18
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제316조",
+      "count": 9
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제317조",
+      "count": 5
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제318조",
+      "count": 31
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제318조의2",
+      "count": 5
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제318조의4",
+      "count": 1
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제319조",
+      "count": 5
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제320조",
+      "count": 4
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제323조",
+      "count": 6
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제325조",
       "count": 3
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
+      "article_no": "제326조",
+      "count": 6
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제327조",
+      "count": 4
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제328조",
+      "count": 2
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제329조",
+      "count": 10
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제331조",
+      "count": 1
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제332조",
+      "count": 1
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
       "article_no": "제333조",
-      "count": 5
+      "count": 2
     },
     {
       "subject": "형사소송법",
@@ -10002,19 +10146,19 @@
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제342조",
-      "count": 7
+      "count": 15
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제345조",
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제347조",
-      "count": 25
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제347조의2",
-      "count": 3
+      "count": 26
     },
     {
       "subject": "형사소송법",
@@ -10025,8 +10169,14 @@
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
+      "article_no": "제354조",
+      "count": 1
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
       "article_no": "제355조",
-      "count": 10
+      "count": 7
     },
     {
       "subject": "형사소송법",
@@ -10037,56 +10187,50 @@
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제362조",
-      "count": 1
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
       "article_no": "제365조",
-      "count": 5
+      "count": 2
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제368조",
-      "count": 9
+      "count": 6
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제370조",
-      "count": 5
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제373조",
-      "count": 5
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제383조",
-      "count": 5
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제402조",
-      "count": 3
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제409조",
-      "count": 4
+      "count": 1
+    },
+    {
+      "subject": "형사소송법",
+      "law_name": "형사소송법",
+      "article_no": "제415조",
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제416조",
-      "count": 4
+      "count": 12
     },
     {
       "subject": "형사소송법",
@@ -10098,79 +10242,61 @@
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제420조",
-      "count": 20
+      "count": 26
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제423조",
-      "count": 4
+      "article_no": "제421조",
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제428조",
-      "count": 4
+      "article_no": "제427조",
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제429조",
-      "count": 4
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제431조",
-      "count": 4
+      "article_no": "제433조",
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
-      "article_no": "제438조",
-      "count": 6
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제439조",
-      "count": 4
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제452조",
-      "count": 7
+      "article_no": "제441조",
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제453조",
-      "count": 7
+      "count": 1
     },
     {
       "subject": "형사소송법",
       "law_name": "형사소송법",
       "article_no": "제457조의2",
-      "count": 8
-    },
-    {
-      "subject": "형사소송법",
-      "law_name": "형사소송법",
-      "article_no": "제475조",
-      "count": 5
+      "count": 2
     },
     {
       "subject": "혼합공법",
       "law_name": "혼합공법",
       "article_no": "제2조",
-      "count": 15
+      "count": 12
     },
     {
       "subject": "혼합공법",
       "law_name": "혼합공법",
       "article_no": "제3조",
-      "count": 9
+      "count": 7
     },
     {
       "subject": "혼합공법",
@@ -10183,18 +10309,6 @@
       "law_name": "혼합공법",
       "article_no": "제5조",
       "count": 1
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
-      "article_no": "제6조",
-      "count": 4
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
-      "article_no": "제7조",
-      "count": 2
     },
     {
       "subject": "혼합공법",
@@ -10218,7 +10332,7 @@
       "subject": "혼합공법",
       "law_name": "혼합공법",
       "article_no": "제13조",
-      "count": 3
+      "count": 2
     },
     {
       "subject": "혼합공법",
@@ -10229,44 +10343,32 @@
     {
       "subject": "혼합공법",
       "law_name": "혼합공법",
-      "article_no": "제16조",
-      "count": 3
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
-      "article_no": "제17조",
-      "count": 1
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
       "article_no": "제18조",
-      "count": 6
+      "count": 5
     },
     {
       "subject": "혼합공법",
       "law_name": "혼합공법",
       "article_no": "제19조",
-      "count": 7
+      "count": 4
     },
     {
       "subject": "혼합공법",
       "law_name": "혼합공법",
       "article_no": "제20조",
-      "count": 6
+      "count": 5
     },
     {
       "subject": "혼합공법",
       "law_name": "혼합공법",
       "article_no": "제21조",
-      "count": 8
+      "count": 4
     },
     {
       "subject": "혼합공법",
       "law_name": "혼합공법",
       "article_no": "제22조",
-      "count": 2
+      "count": 1
     },
     {
       "subject": "혼합공법",
@@ -10284,25 +10386,19 @@
       "subject": "혼합공법",
       "law_name": "혼합공법",
       "article_no": "제27조",
-      "count": 8
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
-      "article_no": "제28조",
-      "count": 1
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
-      "article_no": "제29조",
       "count": 3
     },
     {
       "subject": "혼합공법",
       "law_name": "혼합공법",
+      "article_no": "제29조",
+      "count": 1
+    },
+    {
+      "subject": "혼합공법",
+      "law_name": "혼합공법",
       "article_no": "제30조",
-      "count": 9
+      "count": 7
     },
     {
       "subject": "혼합공법",
@@ -10313,32 +10409,14 @@
     {
       "subject": "혼합공법",
       "law_name": "혼합공법",
-      "article_no": "제32조",
+      "article_no": "제34조",
       "count": 1
     },
     {
       "subject": "혼합공법",
       "law_name": "혼합공법",
-      "article_no": "제34조",
-      "count": 5
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
-      "article_no": "제36조",
-      "count": 2
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
       "article_no": "제37조",
-      "count": 9
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
-      "article_no": "제38조",
-      "count": 3
+      "count": 1
     },
     {
       "subject": "혼합공법",
@@ -10349,86 +10427,14 @@
     {
       "subject": "혼합공법",
       "law_name": "혼합공법",
-      "article_no": "제43조",
-      "count": 1
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
-      "article_no": "제48조",
-      "count": 1
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
-      "article_no": "제49조",
-      "count": 8
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
-      "article_no": "제50조의2",
-      "count": 1
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
-      "article_no": "제57조",
-      "count": 7
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
-      "article_no": "제60조",
-      "count": 1
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
-      "article_no": "제61조",
-      "count": 2
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
-      "article_no": "제64조",
-      "count": 1
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
-      "article_no": "제65조",
-      "count": 4
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
-      "article_no": "제66조",
-      "count": 3
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
       "article_no": "제75조",
-      "count": 12
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
-      "article_no": "제78조",
-      "count": 3
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
-      "article_no": "제95조",
-      "count": 3
+      "count": 9
     },
     {
       "subject": "혼합공법",
       "law_name": "혼합공법",
       "article_no": "제101조",
-      "count": 14
+      "count": 3
     },
     {
       "subject": "혼합공법",
@@ -10440,19 +10446,13 @@
       "subject": "혼합공법",
       "law_name": "혼합공법",
       "article_no": "제107조",
-      "count": 8
+      "count": 4
     },
     {
       "subject": "혼합공법",
       "law_name": "혼합공법",
       "article_no": "제117조",
-      "count": 10
-    },
-    {
-      "subject": "혼합공법",
-      "law_name": "혼합공법",
-      "article_no": "제189조",
-      "count": 1
+      "count": 9
     },
     {
       "subject": "혼합형사법",
@@ -10470,37 +10470,13 @@
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
       "article_no": "제3조",
-      "count": 8
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제4조",
       "count": 1
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제5조의11",
-      "count": 1
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제8조",
-      "count": 3
     },
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
       "article_no": "제10조",
-      "count": 9
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제11조",
-      "count": 1
+      "count": 8
     },
     {
       "subject": "혼합형사법",
@@ -10511,67 +10487,19 @@
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
-      "article_no": "제14조",
-      "count": 1
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제14조의3",
-      "count": 4
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제16조",
-      "count": 4
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제17조",
-      "count": 1
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
       "article_no": "제18조",
       "count": 8
     },
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
-      "article_no": "제20조",
-      "count": 1
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
       "article_no": "제21조",
-      "count": 2
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제22조",
       "count": 1
     },
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
       "article_no": "제25조",
-      "count": 3
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제26조",
-      "count": 3
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제28조",
       "count": 3
     },
     {
@@ -10584,12 +10512,6 @@
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
       "article_no": "제33조",
-      "count": 5
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제34조",
       "count": 3
     },
     {
@@ -10607,14 +10529,8 @@
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
-      "article_no": "제38조",
-      "count": 1
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
       "article_no": "제40조",
-      "count": 9
+      "count": 1
     },
     {
       "subject": "혼합형사법",
@@ -10638,19 +10554,13 @@
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
       "article_no": "제52조",
-      "count": 6
+      "count": 1
     },
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
       "article_no": "제54조",
-      "count": 6
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제56조",
-      "count": 1
+      "count": 7
     },
     {
       "subject": "혼합형사법",
@@ -10661,31 +10571,7 @@
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
-      "article_no": "제70조",
-      "count": 4
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
       "article_no": "제97조",
-      "count": 4
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제98조",
-      "count": 4
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제101조",
-      "count": 4
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제102조",
       "count": 4
     },
     {
@@ -10710,84 +10596,42 @@
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
       "article_no": "제129조",
-      "count": 11
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제133조",
-      "count": 4
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제134조",
-      "count": 8
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제136조",
-      "count": 5
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제137조",
-      "count": 3
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제145조",
-      "count": 6
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제147조",
-      "count": 6
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제148조의2",
-      "count": 2
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제151조",
-      "count": 5
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제152조",
-      "count": 13
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제153조",
-      "count": 5
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제155조",
-      "count": 8
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제156조",
       "count": 7
     },
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
-      "article_no": "제157조",
+      "article_no": "제136조",
+      "count": 2
+    },
+    {
+      "subject": "혼합형사법",
+      "law_name": "혼합형사법",
+      "article_no": "제145조",
+      "count": 1
+    },
+    {
+      "subject": "혼합형사법",
+      "law_name": "혼합형사법",
+      "article_no": "제151조",
+      "count": 3
+    },
+    {
+      "subject": "혼합형사법",
+      "law_name": "혼합형사법",
+      "article_no": "제152조",
+      "count": 3
+    },
+    {
+      "subject": "혼합형사법",
+      "law_name": "혼합형사법",
+      "article_no": "제155조",
+      "count": 1
+    },
+    {
+      "subject": "혼합형사법",
+      "law_name": "혼합형사법",
+      "article_no": "제156조",
       "count": 2
     },
     {
@@ -10799,32 +10643,8 @@
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
-      "article_no": "제212조",
-      "count": 2
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
       "article_no": "제213조",
       "count": 1
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제213조의2",
-      "count": 1
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제214조의2",
-      "count": 4
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제214조의3",
-      "count": 2
     },
     {
       "subject": "혼합형사법",
@@ -10836,7 +10656,7 @@
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
       "article_no": "제219조",
-      "count": 6
+      "count": 1
     },
     {
       "subject": "혼합형사법",
@@ -10848,12 +10668,6 @@
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
       "article_no": "제225조",
-      "count": 6
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제227조",
       "count": 2
     },
     {
@@ -10865,32 +10679,8 @@
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
-      "article_no": "제233조",
-      "count": 8
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제236조",
-      "count": 4
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제244조의4",
-      "count": 2
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
       "article_no": "제246조",
-      "count": 2
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제249조",
-      "count": 3
+      "count": 1
     },
     {
       "subject": "혼합형사법",
@@ -10902,7 +10692,7 @@
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
       "article_no": "제253조",
-      "count": 8
+      "count": 5
     },
     {
       "subject": "혼합형사법",
@@ -10914,12 +10704,6 @@
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
       "article_no": "제261조",
-      "count": 1
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제262조",
       "count": 1
     },
     {
@@ -10937,50 +10721,8 @@
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
-      "article_no": "제271조",
-      "count": 4
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제273조",
-      "count": 5
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
       "article_no": "제275조",
       "count": 7
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제276조",
-      "count": 4
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제280조",
-      "count": 4
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제283조",
-      "count": 5
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제286조",
-      "count": 5
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제286조의2",
-      "count": 1
     },
     {
       "subject": "혼합형사법",
@@ -10991,20 +10733,8 @@
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
-      "article_no": "제297조",
-      "count": 1
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제297조의2",
-      "count": 1
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
       "article_no": "제298조",
-      "count": 7
+      "count": 5
     },
     {
       "subject": "혼합형사법",
@@ -11016,13 +10746,13 @@
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
       "article_no": "제307조",
-      "count": 3
+      "count": 2
     },
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
       "article_no": "제308조의2",
-      "count": 5
+      "count": 1
     },
     {
       "subject": "혼합형사법",
@@ -11033,86 +10763,44 @@
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
-      "article_no": "제310조",
-      "count": 11
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
       "article_no": "제310조의2",
-      "count": 7
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제311조",
       "count": 2
     },
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
       "article_no": "제312조",
-      "count": 8
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제313조",
-      "count": 1
+      "count": 2
     },
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
       "article_no": "제314조",
-      "count": 11
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제315조",
-      "count": 3
+      "count": 5
     },
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
       "article_no": "제316조",
-      "count": 3
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제323조",
-      "count": 3
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제324조",
-      "count": 4
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제325조",
       "count": 1
     },
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
-      "article_no": "제326조",
-      "count": 4
+      "article_no": "제323조",
+      "count": 2
     },
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
-      "article_no": "제327조",
-      "count": 8
+      "article_no": "제326조",
+      "count": 3
     },
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
       "article_no": "제328조",
-      "count": 8
+      "count": 1
     },
     {
       "subject": "혼합형사법",
@@ -11124,12 +10812,6 @@
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
       "article_no": "제331조",
-      "count": 10
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제332조",
       "count": 1
     },
     {
@@ -11141,19 +10823,7 @@
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
-      "article_no": "제334조",
-      "count": 3
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
       "article_no": "제335조",
-      "count": 4
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제337조",
       "count": 1
     },
     {
@@ -11165,14 +10835,8 @@
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
-      "article_no": "제343조",
-      "count": 3
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
       "article_no": "제347조",
-      "count": 16
+      "count": 8
     },
     {
       "subject": "혼합형사법",
@@ -11184,7 +10848,7 @@
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
       "article_no": "제355조",
-      "count": 13
+      "count": 8
     },
     {
       "subject": "혼합형사법",
@@ -11195,56 +10859,14 @@
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
-      "article_no": "제361조의2",
-      "count": 2
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제362조",
-      "count": 5
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제364조",
-      "count": 4
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
       "article_no": "제368조",
       "count": 7
     },
     {
       "subject": "혼합형사법",
       "law_name": "혼합형사법",
-      "article_no": "제383조",
-      "count": 1
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
       "article_no": "제420조",
       "count": 9
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제423조",
-      "count": 1
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제438조",
-      "count": 2
-    },
-    {
-      "subject": "혼합형사법",
-      "law_name": "혼합형사법",
-      "article_no": "제457조의2",
-      "count": 4
     }
   ]
 }

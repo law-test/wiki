@@ -198,7 +198,16 @@ as $$
     select q.*
     from public.private_game_questions q
     where q.active
-      and q.bank in ('clat', 'ethics')
+      and (
+        (
+          coalesce(p_subject, '') = '법조윤리'
+          and q.bank = 'ethics'
+        )
+        or (
+          coalesce(p_subject, '') <> '법조윤리'
+          and q.bank = 'clat'
+        )
+      )
       and (
         p_subject is null
         or p_subject = ''

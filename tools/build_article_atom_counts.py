@@ -56,6 +56,39 @@ def law_name_from_article(article: str, subject: str) -> str:
     return prefix or subject
 
 
+def primary_article_refs(item: dict[str, Any]) -> list[tuple[str, str, str]]:
+    """Return only article refs that should place an atom on an article page.
+
+    Do not scan explanatory references here. For example, a 민법 atom can cite
+    "가등기담보법 제1조" in its reference text, but that should not make the
+    atom badge appear on 민법 제1조.
+    """
+    subject = clean_text(item.get("subject"))
+    refs: list[tuple[str, str, str]] = []
+
+    for raw in item.get("articleRefs") or []:
+        if isinstance(raw, dict):
+            law_name = clean_text(raw.get("lawName") or raw.get("law_name") or subject)
+            article_no = normalize_article_no(clean_text(raw.get("articleNo") or raw.get("article_no") or raw.get("article")))
+            if subject and law_name and article_no:
+                refs.append((subject, law_name, article_no))
+        else:
+            text = clean_text(raw)
+            law_name = law_name_from_article(text, subject)
+            for article_no in article_norms(text):
+                if subject and law_name and article_no:
+                    refs.append((subject, law_name, article_no))
+
+    if refs:
+        return list(dict.fromkeys(refs))
+
+    article = clean_text(item.get("art") or item.get("article"))
+    if not subject or not article:
+        return []
+    law_name = law_name_from_article(article, subject)
+    return [(subject, law_name, article_no) for article_no in article_norms(article)]
+
+
 def atom_weight(item: dict[str, Any]) -> int:
     count = 1 if clean_text(item.get("rep")) else 0
     for twin in item.get("twins") or []:
@@ -70,15 +103,12 @@ def build_counts(source: Path) -> dict[str, Any]:
     skipped = 0
 
     for item in data.get("items") or []:
-        subject = clean_text(item.get("subject"))
-        article = clean_text(item.get("art") or item.get("article"))
-        norms = article_norms(article, item.get("ref"), item.get("topic"))
-        if not subject or not norms:
+        refs = primary_article_refs(item)
+        if not refs:
             skipped += 1
             continue
-        law_name = law_name_from_article(article, subject)
         weight = atom_weight(item)
-        for article_no in norms:
+        for subject, law_name, article_no in refs:
             counts[(subject, law_name, article_no)] += weight
 
     rows = [
