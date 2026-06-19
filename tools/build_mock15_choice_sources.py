@@ -288,7 +288,10 @@ def build_items(
         round_directory = find_round_dir(source_root, exam_year, round_no)
         for subject_area, expected_count in SUBJECTS:
             directory = find_subject_dir(round_directory, subject_area)
-            question_file = find_one(directory, "\uc120\ud0dd\ud615 \ubb38\uc81c")
+            try:
+                question_file = find_one(directory, "\uc120\ud0dd\ud615 \ubb38\uc81c")
+            except FileNotFoundError:
+                question_file = find_one(directory, "\ubb38\uc81c")
             try:
                 answer_file = find_one(directory, "\uc120\ud0dd\ud615 \uc815\ub2f5\ud45c")
             except FileNotFoundError:
