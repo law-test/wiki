@@ -88,6 +88,7 @@ def find_one(directory: Path, marker: str) -> Path:
         for path in directory.iterdir()
         if marker in path.name
         and path.suffix.lower() in {".hwp", ".pdf"}
+        and not path.name.startswith("\ubcc0\ud658_")
         and "\uc0ac\ub840\ud615" not in path.name
         and "\uae30\ub85d\ud615" not in path.name
     )
