@@ -44,6 +44,16 @@ CIRCLED_TO_NO = {
     "\u2462": 3,
     "\u2463": 4,
     "\u2464": 5,
+    "\u2780": 1,
+    "\u2781": 2,
+    "\u2782": 3,
+    "\u2783": 4,
+    "\u2784": 5,
+    "\u2776": 1,
+    "\u2777": 2,
+    "\u2778": 3,
+    "\u2779": 4,
+    "\u277a": 5,
 }
 QUESTION_RE = re.compile(r"^\s*" + "\ubb38" + r"\s*(\d{1,3})\.\s*(.*)$")
 QUESTION_INSIDE_RE = re.compile(r"^(.+?)\s+(\ubb38\s*\d{1,3}\.\s*.*)$")
@@ -229,7 +239,7 @@ def parse_questions(paragraphs: list[str], expected_count: int) -> dict[int, str
 
 def parse_answers(paragraphs: list[str], expected_count: int) -> dict[int, int]:
     text = "\n".join(paragraphs)
-    tokens = re.findall(r"\d{1,3}|[\u2460\u2461\u2462\u2463\u2464]", text)
+    tokens = re.findall(r"\d{1,3}|[\u2460-\u2464\u2776-\u277a\u2780-\u2784]", text)
     answers: dict[int, int] = {}
     idx = 0
     while idx + 1 < len(tokens):
