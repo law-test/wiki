@@ -34,7 +34,6 @@ DEPENDENT_STARTS = (
     "이러한 ",
     "위 ",
     "해당 ",
-    "같은 ",
     "동법 ",
 )
 
@@ -127,9 +126,22 @@ def has_good_declarative_end(value: str) -> bool:
 def is_question_like(value: str) -> bool:
     if "?" in value or value.endswith("?"):
         return True
-    if any(marker in value for marker in ("있는가", "없는가", "어떠한가", "가능한가", "타당한가")):
+    if any(
+        marker in value
+        for marker in (
+            "있는가",
+            "없는가",
+            "어떠한가",
+            "가능한가",
+            "타당한가",
+            "동일한가",
+            "검사인가",
+            "사법경찰관인가",
+            "피고인가",
+        )
+    ):
         return True
-    return bool(re.search(r"인가(?=\s|에|의|가|를|은|는|도|와|과|,|\.|\)|$)", value))
+    return False
 
 
 def sentence_period_count(value: str) -> int:
