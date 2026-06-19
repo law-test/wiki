@@ -81,6 +81,15 @@ def find_one(directory: Path, marker: str) -> Path:
         and "\uc0ac\ub840\ud615" not in path.name
         and "\uae30\ub85d\ud615" not in path.name
     )
+    if len(matches) > 1:
+        originals = [
+            path
+            for path in matches
+            if not re.search(r"\(\d+\)$", path.stem)
+            and "\ubcf5\uc0ac" not in path.name
+        ]
+        if len(originals) == 1:
+            return originals[0]
     if len(matches) != 1:
         names = ", ".join(path.name for path in matches) or "none"
         raise FileNotFoundError(f"{directory}: expected 1 {marker!r} file, found {names}")
