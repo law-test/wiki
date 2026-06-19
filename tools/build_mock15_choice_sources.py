@@ -56,6 +56,7 @@ CIRCLED_TO_NO = {
     "\u277a": 5,
 }
 QUESTION_RE = re.compile(r"^\s*" + "\ubb38" + r"\s*(\d{1,3})\.?\s*(.*)$")
+BARE_QUESTION_RE = re.compile(r"^\s*(\d{1,3})\.\s*(.*)$")
 QUESTION_INSIDE_RE = re.compile(r"^(.+?)\s+(\ubb38\s*\d{1,3}\.?\s*.*)$")
 JAMO_TRANSLATION = str.maketrans(
     {
@@ -223,6 +224,14 @@ def parse_questions(paragraphs: list[str], expected_count: int) -> dict[int, str
     current_no: int | None = None
     for para in paragraphs:
         match = QUESTION_RE.match(para)
+        if not match:
+            bare_match = BARE_QUESTION_RE.match(para)
+            if bare_match:
+                number = int(bare_match.group(1))
+                if 1 <= number <= expected_count and (
+                    current_no is None or number == current_no + 1
+                ):
+                    match = bare_match
         if match:
             current_no = int(match.group(1))
             questions[current_no] = []
