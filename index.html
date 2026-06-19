@@ -18855,6 +18855,8 @@ window.__lawinusCleanLegalOcrText=window.__lawinusCleanLegalOcrText||function(va
   s=s.replace(/([가-힣])\s+(은|는|이|가|을|를|의|에|에게|에서|으로|로|와|과|도|만|까지|부터|보다|조차|마저|라도|이나|나)(?=[\s,.;:!?)]|$)/g,'$1$2');
   s=s.replace(/([가-힣])\s+(다|고|며|면|서|지)(?=[\s,.;:!?)]|$)/g,'$1$2');
   s=s.replace(/(\d)\s+(년|월|일|조|항|호|회|차)(?=[가-힣\s,.;:!?)]|$)/g,'$1$2');
+  s=s.replace(/^\s*\d+\.\s+(?=[가-힣A-Za-z])/,'').replace(/\s+\d+\.\s*$/,'');
+  s=s.replace(/\(\s+/g,'(').replace(/\s+\)/g,')');
   s=s.replace(/\s*([,.;:!?])\s*/g,'$1 ').replace(/\s{2,}/g,' ').trim();
   return s;
 };
