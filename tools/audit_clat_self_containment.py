@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
@@ -79,6 +80,22 @@ EXPLICIT_RIGHT_MARKERS = (
 )
 
 CASE_PARTY_MARKERS = tuple("甲乙丙丁")
+META_ANSWER_MARKERS = (
+    "지문은 X",
+    "지문은 O",
+    "본 지문은 X",
+    "본 지문은 O",
+    "설문은 X",
+    "설문은 O",
+    "정답은 X",
+    "정답은 O",
+    "설문은 틀렸다",
+    "설문은 옳지 않다",
+    "진술은 틀렸다",
+    "진술은 옳지 않다",
+    "설명은 틀렸다",
+    "설명은 옳지 않다",
+)
 
 
 def load_json(path: Path) -> Any:
@@ -91,6 +108,20 @@ def write_json(path: Path, payload: Any) -> None:
 
 def clean(value: Any) -> str:
     return " ".join(str(value or "").replace("\u00a0", " ").replace("\u3000", " ").split())
+
+
+def strip_trailing_parentheticals(value: str) -> str:
+    text = value.strip()
+    while True:
+        stripped = re.sub(r"\s*\([^()]*\)\s*\.$", ".", text)
+        if stripped == text:
+            return text
+        text = stripped.strip()
+
+
+def has_good_declarative_end(value: str) -> bool:
+    text = value.strip()
+    return text.endswith(GOOD_ENDS) or strip_trailing_parentheticals(text).endswith(GOOD_ENDS)
 
 
 def has_article_ref(item: dict[str, Any]) -> bool:
@@ -124,7 +155,9 @@ def issue_reasons(item: dict[str, Any]) -> list[str]:
         reasons.append("multi_sentence")
     if any(marker in prompt for marker in CASE_PARTY_MARKERS):
         reasons.append("case_party_marker")
-    if prompt and not prompt.endswith(GOOD_ENDS):
+    if any(marker in prompt for marker in META_ANSWER_MARKERS):
+        reasons.append("meta_answer_leak")
+    if prompt and not has_good_declarative_end(prompt):
         reasons.append("non_declarative_end")
     if answer == "O" and any(marker in why for marker in EXPLICIT_WRONG_MARKERS):
         reasons.append("answer_o_but_explanation_says_wrong")
