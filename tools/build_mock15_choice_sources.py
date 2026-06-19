@@ -289,7 +289,10 @@ def build_items(
         for subject_area, expected_count in SUBJECTS:
             directory = find_subject_dir(round_directory, subject_area)
             question_file = find_one(directory, "\uc120\ud0dd\ud615 \ubb38\uc81c")
-            answer_file = find_one(directory, "\uc120\ud0dd\ud615 \uc815\ub2f5\ud45c")
+            try:
+                answer_file = find_one(directory, "\uc120\ud0dd\ud615 \uc815\ub2f5\ud45c")
+            except FileNotFoundError:
+                answer_file = find_one(directory, "\uc815\ub2f5\ud45c")
             questions = parse_questions(document_paragraphs(question_file), expected_count)
             answers = parse_answers(document_paragraphs(answer_file), expected_count)
             for question_no in range(1, expected_count + 1):
