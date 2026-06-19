@@ -517,6 +517,8 @@ def make_atom(item: dict[str, Any], *, unit: str, raw: str, answer: str, stem: s
 def atoms_from_item(item: dict[str, Any]) -> tuple[list[dict[str, Any]], str]:
     text = str(item.get("originalQuestionText") or "")
     answer_no = int(item.get("answerNo") or 0)
+    if answer_no <= 0:
+        return [], "no_answer"
     stem_circled, choices = split_circled(text)
     stem_letters, letter_statements = split_letter_statements(text)
     atoms: list[dict[str, Any]] = []

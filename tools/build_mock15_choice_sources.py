@@ -279,15 +279,21 @@ def parse_questions(paragraphs: list[str], expected_count: int) -> dict[int, str
 
 def parse_answers(paragraphs: list[str], expected_count: int) -> dict[int, int]:
     text = "\n".join(paragraphs)
-    tokens = re.findall(r"\d{1,3}|[\u2460-\u2464\u2776-\u277a\u2780-\u2784]", text)
+    tokens = re.findall(
+        r"\uc815\ub2f5\s*\uc5c6\uc74c|\d{1,3}|[\u2460-\u2464\u2776-\u277a\u2780-\u2784]",
+        text,
+    )
     answers: dict[int, int] = {}
     idx = 0
     while idx + 1 < len(tokens):
         number_token, answer_token = tokens[idx], tokens[idx + 1]
-        if number_token.isdigit() and answer_token in CIRCLED_TO_NO:
+        if number_token.isdigit() and (
+            answer_token in CIRCLED_TO_NO
+            or re.fullmatch(r"\uc815\ub2f5\s*\uc5c6\uc74c", answer_token)
+        ):
             number = int(number_token)
             if 1 <= number <= expected_count:
-                answers[number] = CIRCLED_TO_NO[answer_token]
+                answers[number] = CIRCLED_TO_NO.get(answer_token, 0)
                 idx += 2
                 continue
         idx += 1
@@ -395,6 +401,7 @@ def build_items(
             answers = parse_answers(document_paragraphs(answer_file), expected_count)
             for question_no in range(1, expected_count + 1):
                 law_name = classify_law(subject_area, question_no)
+                answer_no = answers[question_no]
                 items.append(
                     {
                         "id": f"mock{bar_round}_{exam_year}_r{round_no:02d}_{subject_area}_q{question_no:03d}",
@@ -404,8 +411,12 @@ def build_items(
                         "subjectArea": subject_area,
                         "lawName": law_name,
                         "originalQuestionText": questions[question_no],
-                        "answerNo": answers[question_no],
-                        "answerChoice": list(CIRCLED_TO_NO)[answers[question_no] - 1],
+                        "answerNo": answer_no,
+                        "answerChoice": (
+                            "\uc815\ub2f5 \uc5c6\uc74c"
+                            if answer_no == 0
+                            else list(CIRCLED_TO_NO)[answer_no - 1]
+                        ),
                         "source": {
                             "examYear": exam_year,
                             "mockRound": round_no,
