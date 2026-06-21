@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Build local-only Supabase import SQL for private game question banks.
 
 The generated .local.sql files contain the problem bank text. Keep them outside
@@ -17,8 +17,8 @@ from typing import Any
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_SOURCE = Path(r"C:\cowork\law-test-private\private_problem_banks\current")
-DEFAULT_OUT = Path(r"C:\cowork\law-test-private\supabase_private_game_bank_import")
+DEFAULT_SOURCE = Path(r"C:\cowork\lawinus.org\02_비공개데이터\private_problem_banks\current")
+DEFAULT_OUT = Path(r"C:\cowork\lawinus.org\02_비공개데이터\supabase_private_game_bank_import")
 MOCK_EXPECTED_LABELS = {
     str(year): f"변호사시험 {year - 2010}회 예상"
     for year in range(2011, 2026)

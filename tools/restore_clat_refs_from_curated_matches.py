@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Restore CLAT mock references from very close curated atom matches.
 
 This is deliberately stricter than a general semantic matcher.  It only copies
@@ -19,7 +19,7 @@ from pathlib import Path
 from typing import Any
 
 
-PRIVATE_ROOT = Path(r"C:\cowork\law-test-private")
+PRIVATE_ROOT = Path(r"C:\cowork\lawinus.org\02_비공개데이터")
 DEFAULT_CURRENT = PRIVATE_ROOT / "private_problem_banks" / "current" / "ox_clat_unified_v001.json"
 REPORT_ROOT = PRIVATE_ROOT / "reports"
 

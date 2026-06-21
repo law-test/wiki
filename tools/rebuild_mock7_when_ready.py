@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Rebuild and replace the 2017 mock-exam CLAT atoms when the missing file exists.
 
 The 2017 first-round civil-law choice question paper is currently missing.
@@ -19,7 +19,7 @@ from pathlib import Path
 
 PYTHON = Path(r"C:\Users\HOME\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe")
 REPO_ROOT = Path(__file__).resolve().parents[1]
-PRIVATE_ROOT = Path(r"C:\cowork\law-test-private\private_problem_banks")
+PRIVATE_ROOT = Path(r"C:\cowork\lawinus.org\02_비공개데이터\private_problem_banks")
 DEFAULT_SOURCE_ROOT = (
     Path(r"C:\cowork\변호사시험_2026_06_15")
     / "ALL 모의고사문제+채점기준표 (2)"

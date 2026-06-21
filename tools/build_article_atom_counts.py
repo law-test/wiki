@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Build a public article-to-atom count index from the private CLAT bank.
 
 The output intentionally contains only subject, law name, article number, and
@@ -17,7 +17,7 @@ from typing import Any
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_SOURCE = Path(r"C:\cowork\law-test-private\private_problem_banks\current\ox_clat_unified_v001.json")
+DEFAULT_SOURCE = Path(r"C:\cowork\lawinus.org\02_비공개데이터\private_problem_banks\current\ox_clat_unified_v001.json")
 DEFAULT_OUT = REPO_ROOT / "assets" / "article_atom_counts.json"
 ARTICLE_RE = re.compile(r"\uc81c\s*(\d+)\s*\uc870(?:\s*\uc758\s*(\d+)|\uc758\s*(\d+))?")
 

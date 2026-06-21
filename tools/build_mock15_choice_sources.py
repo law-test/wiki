@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import argparse
 import json
@@ -21,7 +21,7 @@ DEFAULT_SOURCE_ROOT = (
     / "2025\ud559\ub144\ub3c4 \ubcc0\uc2dc \ubaa8\uc758"
 )
 DEFAULT_OUT = (
-    Path("C:/cowork/law-test-private")
+    Path("C:/cowork/lawinus.org/02_비공개데이터")
     / "private_problem_banks"
     / "mock15"
     / "mock15_2025_choice_sources_v001.json"

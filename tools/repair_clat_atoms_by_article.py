@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 r"""Repair CLAT atom wording by statute-article unit and merge exact duplicates.
 
 The script focuses on safe wording cleanup in the private current CLAT bank:
@@ -25,8 +25,8 @@ from pathlib import Path
 from typing import Any
 
 
-PRIVATE_ROOT = Path(r"C:\cowork\law-test-private\private_problem_banks")
-REPORT_ROOT = Path(r"C:\cowork\law-test-private\reports")
+PRIVATE_ROOT = Path(r"C:\cowork\lawinus.org\02_비공개데이터\private_problem_banks")
+REPORT_ROOT = Path(r"C:\cowork\lawinus.org\02_비공개데이터\reports")
 DEFAULT_CURRENT = PRIVATE_ROOT / "current" / "ox_clat_unified_v001.json"
 
 ARTICLELESS = "조문미상"

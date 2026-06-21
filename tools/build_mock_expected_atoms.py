@@ -1,7 +1,7 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 r"""Build local-only CLAT atoms from mock bar-exam source JSON.
 
-The generated JSON files stay under C:\cowork\law-test-private.  They keep
+The generated JSON files stay under C:\cowork\lawinus.org\02_비공개데이터.  They keep
 month/round/question metadata locally, while public labels are reduced to
 "변호사시험 N회 예상" for upload.
 """
@@ -20,7 +20,7 @@ from pathlib import Path
 from typing import Any
 
 
-PRIVATE_ROOT = Path(r"C:\cowork\law-test-private\private_problem_banks")
+PRIVATE_ROOT = Path(r"C:\cowork\lawinus.org\02_비공개데이터\private_problem_banks")
 DEFAULT_SOURCE = PRIVATE_ROOT / "mock15" / "mock15_2025_choice_sources_v001.json"
 DEFAULT_CURRENT = PRIVATE_ROOT / "current"
 DEFAULT_OUT = PRIVATE_ROOT / "mock15"

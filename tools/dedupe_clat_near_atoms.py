@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Merge highly similar CLAT atoms so repeated sources are listed together."""
 
 from __future__ import annotations
@@ -14,8 +14,8 @@ from pathlib import Path
 from typing import Any
 
 
-DEFAULT_BANK = Path(r"C:\cowork\law-test-private\private_problem_banks\current\ox_clat_unified_v001.json")
-REPORT_DIR = Path(r"C:\cowork\law-test-private\private_problem_banks\current")
+DEFAULT_BANK = Path(r"C:\cowork\lawinus.org\02_비공개데이터\private_problem_banks\current\ox_clat_unified_v001.json")
+REPORT_DIR = Path(r"C:\cowork\lawinus.org\02_비공개데이터\private_problem_banks\current")
 EXPECTED_WORD = "예상"
 
 

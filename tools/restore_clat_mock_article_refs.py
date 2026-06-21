@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Restore missing CLAT mock atom article references with high-precision rules.
 
 This tool is intentionally conservative.  It only fills an article reference
@@ -18,8 +18,8 @@ from pathlib import Path
 from typing import Any
 
 
-REPO_ROOT = Path(r"C:\cowork\law-test-wiki-deploy-fix")
-PRIVATE_ROOT = Path(r"C:\cowork\law-test-private")
+REPO_ROOT = Path(r"C:\cowork\lawinus.org\01_공개배포_repo")
+PRIVATE_ROOT = Path(r"C:\cowork\lawinus.org\02_비공개데이터")
 DEFAULT_CURRENT = PRIVATE_ROOT / "private_problem_banks" / "current" / "ox_clat_unified_v001.json"
 REPORT_ROOT = PRIVATE_ROOT / "reports"
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Replace one mock-exam contribution inside the private CLAT bank.
 
 Use this after rebuilding a mock-year atom file that was previously merged
@@ -18,7 +18,7 @@ from pathlib import Path
 from typing import Any
 
 
-PRIVATE_ROOT = Path(r"C:\cowork\law-test-private\private_problem_banks")
+PRIVATE_ROOT = Path(r"C:\cowork\lawinus.org\02_비공개데이터\private_problem_banks")
 DEFAULT_CURRENT = PRIVATE_ROOT / "current" / "ox_clat_unified_v001.json"
 
 

@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import argparse
 import json
@@ -22,8 +22,8 @@ from build_mock15_choice_sources import (
 )
 
 
-DEFAULT_SOURCE_ROOT = Path(r"C:\cowork\law-test-private\source_downloads\akls_2011_2012_mocks")
-DEFAULT_OUT_ROOT = Path(r"C:\cowork\law-test-private\private_problem_banks")
+DEFAULT_SOURCE_ROOT = Path(r"C:\cowork\lawinus.org\02_비공개데이터\source_downloads\akls_2011_2012_mocks")
+DEFAULT_OUT_ROOT = Path(r"C:\cowork\lawinus.org\02_비공개데이터\private_problem_banks")
 
 SUBJECT_PAGE_INDEX = {
     "공법": 0,

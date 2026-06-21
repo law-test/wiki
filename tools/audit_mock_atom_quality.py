@@ -1,8 +1,8 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 r"""Audit local-only mock-exam CLAT atom quality.
 
 This does not modify game banks.  It scans all
-`C:\cowork\law-test-private\private_problem_banks\mock*` atom payloads and
+`C:\cowork\lawinus.org\02_비공개데이터\private_problem_banks\mock*` atom payloads and
 writes a private JSON/Markdown report under `law-test-private\reports`.
 """
 
@@ -17,8 +17,8 @@ from pathlib import Path
 from typing import Any
 
 
-PRIVATE_ROOT = Path(r"C:\cowork\law-test-private\private_problem_banks")
-REPORT_ROOT = Path(r"C:\cowork\law-test-private\reports")
+PRIVATE_ROOT = Path(r"C:\cowork\lawinus.org\02_비공개데이터\private_problem_banks")
+REPORT_ROOT = Path(r"C:\cowork\lawinus.org\02_비공개데이터\reports")
 
 EXPECTED_SUBJECTS = {"민법", "민사소송법", "상법", "형법", "형사소송법", "헌법", "행정법"}
 EXPECTED_SUBJECT_AREAS = {"민사법", "형사법", "공법"}

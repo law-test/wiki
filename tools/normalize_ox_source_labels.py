@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """Normalize compact exam source labels in OX JSON banks.
 
 Target display examples:
@@ -16,7 +16,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSET_DIR = ROOT / "assets"
-PRIVATE_BANK_DIR = Path(r"C:\cowork\law-test-private\private_problem_banks\current")
+PRIVATE_BANK_DIR = Path(r"C:\cowork\lawinus.org\02_비공개데이터\private_problem_banks\current")
 OX_FILES = [
     ASSET_DIR / "ox_civil_unified_full_v002.json",
     ASSET_DIR / "ox_msa_unified_v001.json",

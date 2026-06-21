@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Upload private game-bank rows to Supabase through the REST API.
 
 Set SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY or LAW_TEST_SUPABASE_KEY.
@@ -17,7 +17,7 @@ from pathlib import Path
 from urllib import error, parse, request
 
 
-DEFAULT_SOURCE = Path(r"C:\cowork\law-test-private\private_problem_banks\current")
+DEFAULT_SOURCE = Path(r"C:\cowork\lawinus.org\02_비공개데이터\private_problem_banks\current")
 DEFAULT_URL = "https://vtqbyznczhgkpylczxpe.supabase.co"
 ROW_COLUMNS = {
     "bank",
