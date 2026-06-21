@@ -12,7 +12,7 @@ from pypdf import PdfReader
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PRIVATE_OUT = ROOT.parent / "law-test-private"
+PRIVATE_OUT = ROOT.parent / "02_비공개데이터"
 OUT_JSON = PRIVATE_OUT / "case_king_questions.json"
 OUT_SQL = PRIVATE_OUT / "supabase_case_king_questions.sql"
 OUT_HWPX = PRIVATE_OUT / "case_king_questions.hwpx"

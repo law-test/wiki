@@ -10,7 +10,7 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
 COMMENTARIES = ASSETS / "criminal_law_commentaries.json"
-CASE_BANK = ROOT.parent / "law-test-private" / "case_king_questions.json"
+CASE_BANK = ROOT.parent / "02_비공개데이터" / "case_king_questions.json"
 
 SUPABASE_URL = "https://vtqbyznczhgkpylczxpe.supabase.co"
 SUPABASE_KEY = "sb_publishable_7B7sH9voJSz0QZDks744Vw_vVctHzSr"

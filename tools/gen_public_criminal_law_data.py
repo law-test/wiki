@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT_DIR = ROOT.parent / "law-test-private" / "public_criminal_laws"
+OUT_DIR = ROOT.parent / "02_비공개데이터" / "public_criminal_laws"
 ARTICLES_JSON = OUT_DIR / "law_subject_articles.json"
 SQL_OUT = OUT_DIR / "supabase_law_subject_articles.sql"
 SQL_ASCII_OUT = OUT_DIR / "supabase_law_subject_articles_ascii.sql"

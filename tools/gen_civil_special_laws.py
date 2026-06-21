@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT_DIR = ROOT.parent / "law-test-private" / "civil_special_laws"
+OUT_DIR = ROOT.parent / "02_비공개데이터" / "civil_special_laws"
 SOURCE = Path.home() / "Downloads" / "민사특별법_민법조문_매칭_민간임대_공동주택_소비자_가맹거래추가.txt"
 JSON_OUT = OUT_DIR / "civil_special_laws.json"
 SQL_OUT = OUT_DIR / "supabase_civil_special_laws.sql"

@@ -3,7 +3,7 @@ r"""Audit local-only mock-exam CLAT atom quality.
 
 This does not modify game banks.  It scans all
 `C:\cowork\lawinus.org\02_비공개데이터\private_problem_banks\mock*` atom payloads and
-writes a private JSON/Markdown report under `law-test-private\reports`.
+writes a private JSON/Markdown report under `02_비공개데이터\reports`.
 """
 
 from __future__ import annotations

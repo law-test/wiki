@@ -20,7 +20,7 @@ ASSETS = ROOT / "assets"
 ARTICLES_JSON = ASSETS / "commercial_law_articles.json"
 COMMENTARIES_JSON = ASSETS / "commercial_law_commentaries.json"
 RESOURCES_JSON = ASSETS / "commercial_law_resources.json"
-CACHE_DIR = ROOT.parent / "law-test-private" / "commercial_law"
+CACHE_DIR = ROOT.parent / "02_비공개데이터" / "commercial_law"
 CASE_CACHE_JSON = CACHE_DIR / "case_cache.json"
 KCI_CACHE_JSON = CACHE_DIR / "kci_keyword_cache.json"
 
