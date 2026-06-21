@@ -20,8 +20,8 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SOURCE = Path(r"C:\cowork\law-test-private\private_problem_banks\current")
 DEFAULT_OUT = Path(r"C:\cowork\law-test-private\supabase_private_game_bank_import")
 MOCK_EXPECTED_LABELS = {
-    "2024": "변호사시험 14회 예상",
-    "2025": "변호사시험 15회 예상",
+    str(year): f"변호사시험 {year - 2010}회 예상"
+    for year in range(2011, 2026)
 }
 MOCK15_PUBLIC_LABEL = MOCK_EXPECTED_LABELS["2025"]
 
@@ -132,6 +132,17 @@ def expected_mock_public_label(value: Any) -> str:
     if not text:
         return ""
     compact = re.sub(r"\s+", "", text)
+    for pattern in (
+        r"변호사시험(?:제)?(\d{1,2})회예상",
+        r"변시(\d{1,2})(?:회)?예상",
+        r"mock(\d{1,2})[_-]?\d{4}",
+    ):
+        match = re.search(pattern, compact, flags=re.IGNORECASE)
+        if match:
+            round_value = int(match.group(1))
+            year = str(round_value + 2010)
+            if year in MOCK_EXPECTED_LABELS:
+                return MOCK_EXPECTED_LABELS[year]
     for year, label in MOCK_EXPECTED_LABELS.items():
         round_no = str(int(year) - 2010)
         if label.replace(" ", "") in compact or f"변시{round_no}예상" in compact:
@@ -141,6 +152,55 @@ def expected_mock_public_label(value: Any) -> str:
                 return label
             return label
     return ""
+
+
+def mock_public_labels(item: dict[str, Any], twin: dict[str, Any] | None = None) -> list[str]:
+    labels: list[str] = []
+
+    def push(label: str) -> None:
+        if label:
+            labels.append(label)
+
+    for source in (item, twin or {}):
+        for private_source in source.get("privateSources") or []:
+            if isinstance(private_source, dict):
+                label = expected_mock_public_label(private_source.get("publicLabel"))
+                if label:
+                    push(label)
+                else:
+                    exam_year = private_source.get("examYear")
+                    if str(exam_year) in MOCK_EXPECTED_LABELS:
+                        push(MOCK_EXPECTED_LABELS[str(exam_year)])
+            else:
+                push(expected_mock_public_label(private_source))
+
+    if labels:
+        return labels
+
+    seen: set[str] = set()
+    labels = []
+
+    def push_once(label: str) -> None:
+        if label and label not in seen:
+            labels.append(label)
+            seen.add(label)
+
+    for source in (item, twin or {}):
+        for key in (
+            "mockPublicLabel",
+            "source",
+            "sourceExam",
+            "sourceLabel",
+            "sourceFile",
+            "sourceQuestionFile",
+            "years",
+            "src",
+            "refs",
+            "ref",
+        ):
+            for text in flatten(source.get(key)):
+                push_once(expected_mock_public_label(text))
+    return labels
 
 
 def is_mock15_source_text(value: Any) -> bool:
@@ -153,22 +213,9 @@ def expected_mock_item_label(item: dict[str, Any], twin: dict[str, Any] | None =
         item.get("mockRound") or item.get("mock_round") or item.get("mockMonth") or item.get("mock_month")
     ):
         return MOCK_EXPECTED_LABELS[item_year]
-    for source in (item, twin or {}):
-        for key in (
-            "source",
-            "sourceExam",
-            "sourceLabel",
-            "sourceFile",
-            "sourceQuestionFile",
-            "years",
-            "src",
-            "refs",
-            "ref",
-        ):
-            for text in flatten(source.get(key)):
-                label = expected_mock_public_label(text)
-                if label:
-                    return label
+    labels = mock_public_labels(item, twin)
+    if labels:
+        return labels[0]
     return ""
 
 
@@ -260,7 +307,8 @@ def mock_occurrence_count(item: dict[str, Any], twin: dict[str, Any] | None, moc
 
 
 def upload_tags(item: dict[str, Any], twin: dict[str, Any] | None, mock_label: str) -> str:
-    if not mock_label:
+    mock_labels = mock_public_labels(item, twin)
+    if not mock_labels and not mock_label:
         return source_tags(
             item.get("years"),
             item.get("src"),
@@ -282,7 +330,10 @@ def upload_tags(item: dict[str, Any], twin: dict[str, Any] | None, mock_label: s
         (twin or {}).get("ref"),
     )
     parts = [base] if base else []
-    parts.extend([mock_label] * mock_occurrence_count(item, twin, mock_label))
+    if mock_labels:
+        parts.extend(mock_labels)
+    elif mock_label:
+        parts.extend([mock_label] * mock_occurrence_count(item, twin, mock_label))
     return " · ".join(parts[:8])
 
 
