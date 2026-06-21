@@ -21303,6 +21303,24 @@ async function loadExamTerms(){
       return rank;
     }
     function modeTitle(mode){return {typing:'법학 타자연습',rain:'법학 산성비',blank:'조문왕',caseblank:'판례왕',polar:'변시탐험',ox:'CLAT OX',ethics:'윤리게임'}[mode]||mode;}
+    function scoreModeFromDbRow(r){
+      var detail=r.detail||'';
+      if(detail.indexOf('판례왕 · ')===0)return 'caseblank';
+      if(detail.indexOf('CLAT · ')===0)return 'ox';
+      if(detail.indexOf('윤리게임 · ')===0)return 'ethics';
+      return r.mode;
+    }
+    function scoreDetailFromDbRow(mode,detail){
+      detail=detail||'';
+      if(mode==='caseblank')return detail.replace(/^판례왕 ·\s*/,'');
+      if(mode==='ox')return detail.replace(/^CLAT ·\s*/,'');
+      if(mode==='ethics')return detail.replace(/^윤리게임 ·\s*/,'');
+      return detail;
+    }
+    function normalizeDbScoreRow(r){
+      var mode=scoreModeFromDbRow(r);
+      return {mode:mode,name:r.author_name||'회원',score:r.score,detail:scoreDetailFromDbRow(mode,r.detail||''),at:r.created_at};
+    }
     function normalizeScoreGroups(groups){
       var out={typing:[],rain:[],blank:[],caseblank:[],polar:[],ox:[],ethics:[]};
       Object.keys(out).forEach(function(mode){
@@ -21364,7 +21382,7 @@ async function loadExamTerms(){
     }
     function renderRecentScores(groups){
       var el=document.getElementById('recentScores');if(!el)return;
-      var rows=recentScores().slice(0,8);
+      var rows=((groups&&groups.recent&&groups.recent.length)?groups.recent:recentScores()).slice(0,8);
       if(!rows.length){el.innerHTML='<li class="recent-score-empty">아직 최근 기록이 없습니다.</li>';return;}
       el.innerHTML=rows.map(function(r){
         var parsed=readStoredScore({score:r.score,detail:r.detail||'',at:r.at});
@@ -21381,25 +21399,33 @@ async function loadExamTerms(){
       if(res.error){console.warn(res.error);return normalizeScoreGroups(allScores());}
       var grouped={typing:[],rain:[],blank:[],caseblank:[],polar:[],ox:[],ethics:[]};
       (res.data||[]).forEach(function(r){
-        var detail=r.detail||'',mode=detail.indexOf('판례왕 · ')===0?'caseblank':(detail.indexOf('CLAT · ')===0?'ox':(detail.indexOf('윤리게임 · ')===0?'ethics':r.mode));
-        if(grouped[mode]){
-          var parsed=readStoredScore({score:r.score,detail:mode==='caseblank'?detail.replace(/^판례왕 ·\s*/,''):(mode==='ox'?detail.replace(/^CLAT ·\s*/,''):(mode==='ethics'?detail.replace(/^윤리게임 ·\s*/,''):detail)),at:r.created_at});
-          grouped[mode].push({name:r.author_name||'회원',score:parsed.score,detail:parsed.detail,at:r.created_at});
+        var row=normalizeDbScoreRow(r);
+        if(grouped[row.mode]){
+          var parsed=readStoredScore(row);
+          grouped[row.mode].push({name:row.name,score:parsed.score,detail:parsed.detail,at:row.at});
         }
       });
       var caseRes=await db.client.from('game_scores').select('mode,score,detail,author_name,created_at').eq('mode','blank').like('detail','판례왕 ·%').order('score',{ascending:false}).order('created_at',{ascending:true}).limit(200);
       if(!caseRes.error){
-        grouped.caseblank=(caseRes.data||[]).map(function(r){var parsed=readStoredScore({score:r.score,detail:(r.detail||'').replace(/^판례왕 ·\s*/,''),at:r.created_at});return {name:r.author_name||'회원',score:parsed.score,detail:parsed.detail,at:r.created_at};});
+        grouped.caseblank=(caseRes.data||[]).map(function(r){var row=normalizeDbScoreRow(r),parsed=readStoredScore(row);return {name:row.name,score:parsed.score,detail:parsed.detail,at:row.at};});
       }else{console.warn(caseRes.error);}
       var oxRes=await db.client.from('game_scores').select('mode,score,detail,author_name,created_at').eq('mode','blank').like('detail','CLAT ·%').order('score',{ascending:false}).order('created_at',{ascending:true}).limit(200);
       if(!oxRes.error){
-        grouped.ox=(oxRes.data||[]).map(function(r){var parsed=readStoredScore({score:r.score,detail:(r.detail||'').replace(/^CLAT ·\s*/,''),at:r.created_at});return {name:r.author_name||'회원',score:parsed.score,detail:parsed.detail,at:r.created_at};});
+        grouped.ox=(oxRes.data||[]).map(function(r){var row=normalizeDbScoreRow(r),parsed=readStoredScore(row);return {name:row.name,score:parsed.score,detail:parsed.detail,at:row.at};});
       }else{console.warn(oxRes.error);}
       var ethicsRes=await db.client.from('game_scores').select('mode,score,detail,author_name,created_at').eq('mode','blank').like('detail','윤리게임 ·%').order('score',{ascending:false}).order('created_at',{ascending:true}).limit(200);
       if(!ethicsRes.error){
-        grouped.ethics=(ethicsRes.data||[]).map(function(r){var parsed=readStoredScore({score:r.score,detail:(r.detail||'').replace(/^윤리게임 ·\s*/,''),at:r.created_at});return {name:r.author_name||'회원',score:parsed.score,detail:parsed.detail,at:r.created_at};});
+        grouped.ethics=(ethicsRes.data||[]).map(function(r){var row=normalizeDbScoreRow(r),parsed=readStoredScore(row);return {name:row.name,score:parsed.score,detail:parsed.detail,at:row.at};});
       }else{console.warn(ethicsRes.error);}
-      return normalizeScoreGroups(grouped);
+      var normalized=normalizeScoreGroups(grouped);
+      var recentRes=await db.client.from('game_scores').select('mode,score,detail,author_name,created_at').order('created_at',{ascending:false}).limit(30);
+      if(!recentRes.error){
+        normalized.recent=(recentRes.data||[]).map(normalizeDbScoreRow).filter(function(r){return !!normalized[r.mode];});
+      }else{
+        console.warn(recentRes.error);
+        normalized.recent=recentScores();
+      }
+      return normalized;
     }
     async function renderRanks(){var d=await fetchScores();renderRecentScores(d);renderRankList('typingRanks',d.typing||[]);renderRankList('rainRanks',d.rain||[]);renderRankList('blankRanks',d.blank||[]);renderRankList('caseblankRanks',d.caseblank||[]);renderRankList('oxRanks',d.ox||[]);renderRankList('polarRanks',d.polar||[]);renderRankList('ethicsRanks',d.ethics||[]);}
     document.addEventListener('lawinus-auth-change',renderRanks);

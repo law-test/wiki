@@ -51,6 +51,7 @@ alter table public.problem_reports enable row level security;
 drop policy if exists "users create own comments" on public.article_comments;
 drop policy if exists "users create own board posts" on public.board_posts;
 drop policy if exists "users create own scores" on public.game_scores;
+drop policy if exists "scores are readable" on public.game_scores;
 drop policy if exists "anyone can create problem reports" on public.problem_reports;
 
 create policy "anyone can create comments"
@@ -65,13 +66,17 @@ create policy "anyone can create scores"
 on public.game_scores for insert
 with check (user_id is null or auth.uid() = user_id);
 
+create policy "scores are readable"
+on public.game_scores for select
+using (true);
+
 create policy "anyone can create problem reports"
 on public.problem_reports for insert
 with check (user_id is null or auth.uid() = user_id);
 
 grant insert on public.article_comments to anon;
 grant insert on public.board_posts to anon;
-grant insert on public.game_scores to anon;
+grant select, insert on public.game_scores to anon, authenticated;
 grant insert on public.problem_reports to anon, authenticated;
 
 grant usage, select on all sequences in schema public to anon, authenticated;
