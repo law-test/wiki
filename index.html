@@ -18925,8 +18925,8 @@ window.__lawinusCleanLegalOcrText=window.__lawinusCleanLegalOcrText||function(va
     function shortYear(y){y=String(y||'');return y.length===4&&y.indexOf('20')===0?y.slice(2):y;}
     function roundNo(v){v=String(v||'').trim();return /^[0-9]+$/.test(v)?String(parseInt(v,10)):v;}
     function sourceLabel(kind,r,q,m){r=roundNo(r);q=String(q||'').trim();m=String(m||'').trim();var label=kind==='bar'?('변호사시험'+r+'회'):(kind==='ethics'?('법조윤리'+r+'회'):('법원직'+shortYear(r)+'년'));if(q)label+=' '+q+'번';if(m)label+=' '+m;return label;}
-    function mockExpectedLabel(s){s=String(s||'');var c=s.replace(/\s+/g,'');if(c.indexOf('변호사시험15회예상')>=0||c.indexOf('변시15예상')>=0)return '변호사시험 15회 예상';if(c.indexOf('변호사시험14회예상')>=0||c.indexOf('변시14예상')>=0)return '변호사시험 14회 예상';if(s.indexOf('2025')>=0&&s.indexOf('변호사시험')>=0&&s.indexOf('모의')>=0)return '변호사시험 15회 예상';if(s.indexOf('2024')>=0&&s.indexOf('변호사시험')>=0&&s.indexOf('모의')>=0)return '변호사시험 14회 예상';return '';}
-    function pushTag(label){label=String(label||'').replace(/\s+/g,' ').trim();if(!label)return;var generic=/^(변호사시험|법조윤리|법원직)$/.test(label);if(generic&&tags.some(function(x){return x!==label&&x.indexOf(label)===0;}))return;if(!generic&&/^(변호사시험|법조윤리|법원직)/.test(label))tags=tags.filter(function(x){return !/^(변호사시험|법조윤리|법원직)$/.test(x);});var base=(label.match(/^(변호사시험\d+회|법조윤리\d+회|법원직\d+년)/)||[])[1];if(base&&/\d+번/.test(label))tags=tags.filter(function(x){return x!==base;});if(base&&label===base&&tags.some(function(x){return x.indexOf(base+' ')===0;}))return;if(tags.indexOf(label)<0)tags.push(label);}
+    function mockExpectedLabel(s){s=String(s||'');var c=s.replace(/\s+/g,''),m=c.match(/변호사시험(?:제)?(\d{1,2})회예상/)||c.match(/변시(\d{1,2})(?:회)?예상/)||c.match(/mock(\d{1,2})[_-]?\d{4}/i);if(m)return '변호사시험 '+roundNo(m[1])+'회 예상';m=s.match(/(20\d{2}).*변호사시험.*모의|변호사시험.*모의.*(20\d{2})/);if(m){var n=parseInt(m[1]||m[2],10)-2010;if(n>=1&&n<=30)return '변호사시험 '+n+'회 예상';}return '';}
+    function pushTag(label){label=String(label||'').replace(/\s+/g,' ').trim();if(!label)return;var compact=label.replace(/\s+/g,''),expected=(compact.match(/^변호사시험(\d{1,2})회예상$/)||[])[1],bar=(compact.match(/^변호사시험(\d{1,2})회/)||[])[1];if(expected)tags=tags.filter(function(x){return x.replace(/\s+/g,'')!=='변호사시험'+expected+'회';});if(bar&&compact.indexOf('예상')<0&&tags.some(function(x){return x.replace(/\s+/g,'')==='변호사시험'+bar+'회예상';}))return;var generic=/^(변호사시험|법조윤리|법원직)$/.test(label);if(generic&&tags.some(function(x){return x!==label&&x.indexOf(label)===0;}))return;if(!generic&&/^(변호사시험|법조윤리|법원직)/.test(label))tags=tags.filter(function(x){return !/^(변호사시험|법조윤리|법원직)$/.test(x);});var base=(label.match(/^(변호사시험\d+회|법조윤리\d+회|법원직\d+년)/)||[])[1];if(base&&/\d+번/.test(label))tags=tags.filter(function(x){return x!==base;});if(base&&label===base&&tags.some(function(x){return x.indexOf(base+' ')===0;}))return;if(tags.indexOf(label)<0)tags.push(label);}
     function scan(v){
       if(!v)return;
       if(Array.isArray(v)){v.forEach(scan);return;}
@@ -18940,9 +18940,9 @@ window.__lawinusCleanLegalOcrText=window.__lawinusCleanLegalOcrText||function(va
       s.replace(/법조윤리\s*(\d{1,2})\s*(?:회)?/g,function(_,r){pushTag(sourceLabel('ethics',r));});
       s.replace(/법원직\s*(\d{2,4})\s*년?\s*(\d{1,3})?\s*번?\s*([ㄱ-ㅎ①-⑤])?/g,function(_,y,q,m){pushTag(sourceLabel('court',y,q,m));});
     }
-    scan(u&&u.years);scan(u&&u.src);scan(u&&u.refs);scan(u&&u.ref);
+    scan(u&&u.mockPublicLabel);scan(u&&u.publicLabel);scan(u&&u.why);scan(u&&u.explanation);scan(u&&u.years);scan(u&&u.src);scan(u&&u.refs);scan(u&&u.ref);
     (u&&u.twins?u.twins:[]).forEach(function(x){scan(x&&x.src);scan(x&&x.refs);scan(x&&x.ref);});
-    scan(t&&t.src);scan(t&&t.refs);scan(t&&t.ref);
+    scan(t&&t.mockPublicLabel);scan(t&&t.publicLabel);scan(t&&t.why);scan(t&&t.explanation);scan(t&&t.src);scan(t&&t.refs);scan(t&&t.ref);
     tags.sort(function(a,b){var an=parseInt((a.match(/[0-9]+/)||[0])[0],10)||0;var bn=parseInt((b.match(/[0-9]+/)||[0])[0],10)||0;return bn-an;});
     return tags;
   }
@@ -19815,8 +19815,8 @@ function lawAtomRowsToItems(rows){
     function shortYear(y){y=String(y||'');return y.length===4&&y.indexOf('20')===0?y.slice(2):y;}
     function roundNo(v){v=String(v||'').trim();return /^[0-9]+$/.test(v)?String(parseInt(v,10)):v;}
     function sourceLabel(kind,r,q,m){r=roundNo(r);q=String(q||'').trim();m=String(m||'').trim();var label=kind==='bar'?('변호사시험'+r+'회'):(kind==='ethics'?('법조윤리'+r+'회'):('법원직'+shortYear(r)+'년'));if(q)label+=' '+q+'번';if(m)label+=' '+m;return label;}
-    function mockExpectedLabel(s){s=String(s||'');var c=s.replace(/\s+/g,'');if(c.indexOf('변호사시험15회예상')>=0||c.indexOf('변시15예상')>=0)return '변호사시험 15회 예상';if(c.indexOf('변호사시험14회예상')>=0||c.indexOf('변시14예상')>=0)return '변호사시험 14회 예상';if(s.indexOf('2025')>=0&&s.indexOf('변호사시험')>=0&&s.indexOf('모의')>=0)return '변호사시험 15회 예상';if(s.indexOf('2024')>=0&&s.indexOf('변호사시험')>=0&&s.indexOf('모의')>=0)return '변호사시험 14회 예상';return '';}
-    function push(label){label=String(label||'').replace(/\s+/g,' ').trim();if(!label)return;var generic=/^(변호사시험|법조윤리|법원직)$/.test(label);if(generic&&tags.some(function(x){return x!==label&&x.indexOf(label)===0;}))return;if(!generic&&/^(변호사시험|법조윤리|법원직)/.test(label))tags=tags.filter(function(x){return !/^(변호사시험|법조윤리|법원직)$/.test(x);});var base=(label.match(/^(변호사시험\d+회|법조윤리\d+회|법원직\d+년)/)||[])[1];if(base&&/\d+번/.test(label))tags=tags.filter(function(x){return x!==base;});if(base&&label===base&&tags.some(function(x){return x.indexOf(base+' ')===0;}))return;if(tags.indexOf(label)<0)tags.push(label);}
+    function mockExpectedLabel(s){s=String(s||'');var c=s.replace(/\s+/g,''),m=c.match(/변호사시험(?:제)?(\d{1,2})회예상/)||c.match(/변시(\d{1,2})(?:회)?예상/)||c.match(/mock(\d{1,2})[_-]?\d{4}/i);if(m)return '변호사시험 '+roundNo(m[1])+'회 예상';m=s.match(/(20\d{2}).*변호사시험.*모의|변호사시험.*모의.*(20\d{2})/);if(m){var n=parseInt(m[1]||m[2],10)-2010;if(n>=1&&n<=30)return '변호사시험 '+n+'회 예상';}return '';}
+    function push(label){label=String(label||'').replace(/\s+/g,' ').trim();if(!label)return;var compact=label.replace(/\s+/g,''),expected=(compact.match(/^변호사시험(\d{1,2})회예상$/)||[])[1],bar=(compact.match(/^변호사시험(\d{1,2})회/)||[])[1];if(expected)tags=tags.filter(function(x){return x.replace(/\s+/g,'')!=='변호사시험'+expected+'회';});if(bar&&compact.indexOf('예상')<0&&tags.some(function(x){return x.replace(/\s+/g,'')==='변호사시험'+bar+'회예상';}))return;var generic=/^(변호사시험|법조윤리|법원직)$/.test(label);if(generic&&tags.some(function(x){return x!==label&&x.indexOf(label)===0;}))return;if(!generic&&/^(변호사시험|법조윤리|법원직)/.test(label))tags=tags.filter(function(x){return !/^(변호사시험|법조윤리|법원직)$/.test(x);});var base=(label.match(/^(변호사시험\d+회|법조윤리\d+회|법원직\d+년)/)||[])[1];if(base&&/\d+번/.test(label))tags=tags.filter(function(x){return x!==base;});if(base&&label===base&&tags.some(function(x){return x.indexOf(base+' ')===0;}))return;if(tags.indexOf(label)<0)tags.push(label);}
     function scan(v){
       if(!v)return;
       if(Array.isArray(v)){v.forEach(scan);return;}
@@ -19831,10 +19831,10 @@ function lawAtomRowsToItems(rows){
       s.replace(/법원직\s*(\d{2,4})\s*년?\s*(\d{1,3})?\s*번?\s*([ㄱ-ㅎ①-⑤])?/g,function(_,y,q,m){push(sourceLabel('court',y,q,m));});
     }
     if(t){
-      scan(t&&t.years);scan(t&&t.src);scan(t&&t.refs);scan(t&&t.ref);
-      if(!tags.length){scan(u&&u.years);scan(u&&u.src);scan(u&&u.refs);scan(u&&u.ref);}
+      scan(t&&t.mockPublicLabel);scan(t&&t.publicLabel);scan(t&&t.why);scan(t&&t.explanation);scan(t&&t.years);scan(t&&t.src);scan(t&&t.refs);scan(t&&t.ref);
+      if(!tags.length){scan(u&&u.mockPublicLabel);scan(u&&u.publicLabel);scan(u&&u.why);scan(u&&u.explanation);scan(u&&u.years);scan(u&&u.src);scan(u&&u.refs);scan(u&&u.ref);}
     }else{
-      scan(u&&u.years);scan(u&&u.src);scan(u&&u.refs);scan(u&&u.ref);
+      scan(u&&u.mockPublicLabel);scan(u&&u.publicLabel);scan(u&&u.why);scan(u&&u.explanation);scan(u&&u.years);scan(u&&u.src);scan(u&&u.refs);scan(u&&u.ref);
     }
     tags.sort(function(a,b){return (parseInt((b.match(/[0-9]+/)||[0])[0],10)||0)-(parseInt((a.match(/[0-9]+/)||[0])[0],10)||0);});
     return tags;
