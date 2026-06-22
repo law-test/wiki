@@ -132,10 +132,11 @@ def chunks(rows: list[dict], size: int):
         yield rows[start : start + size]
 
 
-def upload_rows(url: str, key: str, rows: list[dict], banks: set[str], chunk_size: int) -> None:
-    for bank in sorted(banks):
-        encoded = parse.quote(f"eq.{bank}", safe="=.")
-        api_request(url, key, "PATCH", f"/rest/v1/private_game_questions?bank={encoded}", {"active": False})
+def upload_rows(url: str, key: str, rows: list[dict], banks: set[str], chunk_size: int, skip_reset: bool) -> None:
+    if not skip_reset:
+        for bank in sorted(banks):
+            encoded = parse.quote(f"eq.{bank}", safe="=.")
+            api_request(url, key, "PATCH", f"/rest/v1/private_game_questions?bank={encoded}", {"active": False})
     total = len(rows)
     for idx, chunk in enumerate(chunks(rows, chunk_size), start=1):
         api_request(
@@ -172,6 +173,11 @@ def main() -> None:
     parser.add_argument("--bank", choices=["clat", "ethics", "all"], default="clat")
     parser.add_argument("--chunk-size", type=int, default=400)
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--skip-reset",
+        action="store_true",
+        help="Do not mark the existing bank inactive before upserting. Use only when row keys are known to match.",
+    )
     args = parser.parse_args()
 
     banks = {"clat", "ethics"} if args.bank == "all" else {args.bank}
@@ -182,7 +188,7 @@ def main() -> None:
     if args.dry_run:
         return
     key = env_key()
-    upload_rows(args.url, key, rows, banks, max(50, args.chunk_size))
+    upload_rows(args.url, key, rows, banks, max(50, args.chunk_size), args.skip_reset)
     for bank in sorted(banks):
         print(f"active_{bank}_sanity={count_active(args.url, key, bank)}")
 
