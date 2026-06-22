@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "source": "ox_clat_unified_v001.json",
-  "generatedAt": "2026-06-22T07:00:56.924593+00:00",
+  "generatedAt": "2026-06-22T08:12:40.606853+00:00",
   "sourceUpdatedAt": "2026-06-19T22:27:56",
   "itemCount": 33579,
   "mappedArticleCount": 1810,
-  "skippedItemCount": 24580,
-  "totalAtomRefs": 12071,
+  "skippedItemCount": 24579,
+  "totalAtomRefs": 12072,
   "items": [
     {
       "subject": "국가배상법",
@@ -4722,7 +4722,7 @@
       "subject": "상법",
       "law_name": "상법",
       "article_no": "제15조",
-      "count": 5
+      "count": 6
     },
     {
       "subject": "상법",
