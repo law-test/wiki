@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "source": "ox_clat_unified_v001.json",
-  "generatedAt": "2026-06-22T08:12:40.606853+00:00",
+  "generatedAt": "2026-06-22T10:41:03.755940+00:00",
   "sourceUpdatedAt": "2026-06-19T22:27:56",
   "itemCount": 33579,
   "mappedArticleCount": 1810,
-  "skippedItemCount": 24579,
-  "totalAtomRefs": 12072,
+  "skippedItemCount": 24581,
+  "totalAtomRefs": 12070,
   "items": [
     {
       "subject": "국가배상법",
@@ -282,7 +282,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제126조",
-      "count": 33
+      "count": 32
     },
     {
       "subject": "민법",
@@ -1752,7 +1752,7 @@
       "subject": "민법",
       "law_name": "민법",
       "article_no": "제746조",
-      "count": 16
+      "count": 15
     },
     {
       "subject": "민법",
