@@ -510,6 +510,8 @@ def build_clat_rows(source_dir: Path) -> list[dict[str, Any]]:
     data = load_json(path)
     rows: list[dict[str, Any]] = []
     for idx, item in enumerate(data.get("items") or []):
+        if item.get("active") is False:
+            continue
         if item.get("subject") == "법조윤리":
             continue
         pid = clean_text(item.get("pid") or f"clat-{idx + 1}-{sha_pid(item.get('rep', ''))}")

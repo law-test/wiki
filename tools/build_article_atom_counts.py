@@ -103,6 +103,9 @@ def build_counts(source: Path) -> dict[str, Any]:
     skipped = 0
 
     for item in data.get("items") or []:
+        if item.get("active") is False:
+            skipped += 1
+            continue
         refs = primary_article_refs(item)
         if not refs:
             skipped += 1
