@@ -19,6 +19,7 @@ from urllib import error, parse, request
 
 DEFAULT_SOURCE = Path(r"C:\cowork\lawinus.org\02_비공개데이터\private_problem_banks\current")
 DEFAULT_URL = "https://vtqbyznczhgkpylczxpe.supabase.co"
+DEFAULT_REVIEW_REGISTRY = Path(__file__).resolve().parents[1] / "reports" / "question_review_overrides_20260913.json"
 ROW_COLUMNS = {
     "bank",
     "source_pid",
@@ -110,7 +111,7 @@ def api_request_headers(
         raise SystemExit(f"Supabase API failed {exc.code} {exc.reason}: {detail}") from exc
 
 
-def build_rows(source: Path, banks: set[str]) -> list[dict]:
+def build_rows(source: Path, banks: set[str], review_overrides: Path = DEFAULT_REVIEW_REGISTRY) -> list[dict]:
     bank = load_import_module()
     rows: list[dict] = []
     if "clat" in banks:
@@ -122,9 +123,9 @@ def build_rows(source: Path, banks: set[str]) -> list[dict]:
         if not row.get("prompt") or row.get("answer") not in {"O", "X"}:
             continue
         out = {key: row.get(key) for key in ROW_COLUMNS if key in row}
-        out["active"] = True
+        out.setdefault("active", True)
         clean_rows.append(out)
-    return bank.disambiguate_rows(clean_rows)
+    return bank.apply_final_reviews(bank.disambiguate_rows(clean_rows), review_overrides, banks=banks)
 
 
 def chunks(rows: list[dict], size: int):
@@ -173,6 +174,7 @@ def main() -> None:
     parser.add_argument("--bank", choices=["clat", "ethics", "all"], default="clat")
     parser.add_argument("--chunk-size", type=int, default=400)
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--review-overrides", type=Path, default=DEFAULT_REVIEW_REGISTRY)
     parser.add_argument(
         "--skip-reset",
         action="store_true",
@@ -181,7 +183,7 @@ def main() -> None:
     args = parser.parse_args()
 
     banks = {"clat", "ethics"} if args.bank == "all" else {args.bank}
-    rows = build_rows(args.source.resolve(), banks)
+    rows = build_rows(args.source.resolve(), banks, args.review_overrides)
     print(f"source={args.source.resolve()}")
     print(f"banks={','.join(sorted(banks))}")
     print(f"rows={len(rows)}")

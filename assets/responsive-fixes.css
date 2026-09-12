@@ -1,0 +1,340 @@
+/* Narrow-screen corrections. Keep this stylesheet after the existing styles. */
+
+/* A flex input's default minimum width otherwise competes with the search button. */
+.clarity-fix .search {
+  min-width: 0;
+  flex-wrap: wrap;
+}
+
+.clarity-fix .search input {
+  flex: 1 1 0;
+  min-width: 0;
+  width: 0;
+}
+
+.clarity-fix .search span,
+.clarity-fix .search button[type="submit"] {
+  flex: 0 0 auto;
+  justify-content: center;
+}
+
+/* Preserve the former span's appearance while using a real submit button. */
+.clarity-fix .search button[type="submit"] {
+  display: inline-flex;
+  align-items: center;
+  height: 44px;
+  padding: 0 22px;
+  border: 1px solid transparent;
+  border-radius: 0 999px 999px 0;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #fff;
+  font-family: var(--sans);
+  font-size: 12.5px;
+  font-weight: 900;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.clarity-fix .search button[type="submit"]:hover {
+  filter: brightness(1.03);
+}
+
+/* Live feedback occupies its own row, so it never covers the menu below. */
+.clarity-fix .search .search-status {
+  display: block;
+  flex: 0 0 100%;
+  min-width: 0;
+  margin-top: 6px;
+  padding-inline: 4px;
+  color: var(--txt2);
+  font-size: 12px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.clarity-fix .search .search-status[hidden] {
+  display: none;
+}
+
+/* Grid items must be allowed to shrink before their text can wrap. */
+.game-page .game-center,
+.game-page .game-layout,
+.game-page .game-layout > *,
+.game-page .game-panel,
+.game-page .study-dashboard > *,
+.game-page .study-today-card {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.clarity-fix .game-page .study-mode-grid .game-tab {
+  min-width: 0;
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.game-page .game-controls > *,
+.game-page .game-input {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.game-page .game-target,
+.game-page .game-feed,
+.game-page .game-help,
+.game-page .blank-article,
+.game-page .ox-reveal,
+.game-page .study-today-card b,
+.game-page .study-today-card small {
+  overflow-wrap: anywhere;
+}
+
+/* Three flow buttons cannot fit on one line in a 320px-wide phone. */
+.game-page .ox-flow-controls {
+  flex-wrap: wrap;
+}
+
+/* Visible controls make the game usable without discovering its touch zones. */
+.game-page .polar-controls {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 12px 0 8px;
+}
+
+.clarity-fix .game-page .polar-controls .game-btn {
+  min-width: 0;
+  min-height: 48px;
+  margin: 0;
+  padding: 10px 4px;
+  font-size: 15px;
+  line-height: 1.35;
+  white-space: normal;
+  touch-action: manipulation;
+}
+
+.game-page .polar-controls .game-btn:disabled {
+  opacity: .5;
+  cursor: default;
+  transform: none;
+}
+
+.game-page .polar-controls .game-btn:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.game-page .polar-touch-help {
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.game-page .ox-tag,
+.game-page .ox-event,
+.game-page .ox-trap {
+  display: inline-block;
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  vertical-align: middle;
+}
+
+.game-page .rank-list li {
+  grid-template-columns: 28px minmax(0, 1fr) auto;
+}
+
+.game-page .rank-name,
+.game-page .rank-detail,
+.game-page .recent-score-detail {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+/* The tablet header needs a new row before the mobile breakpoint takes over. */
+@media (min-width: 769px) and (max-width: 1100px) {
+  .clarity-fix .hwrap {
+    flex-wrap: wrap;
+  }
+
+  .clarity-fix .search {
+    order: 3;
+    flex-basis: 100%;
+    max-width: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .clarity-fix .menubar .mwrap {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Override the later, more specific desktop rule that fixes nav at 326px. */
+  .clarity-fix .layout nav {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .clarity-fix .authbar {
+    min-width: 0;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .clarity-fix .authbar .auth-user {
+    max-width: min(180px, 42vw);
+  }
+
+  /* 16px editable text also avoids focus zoom in mobile Safari. */
+  .clarity-fix .search input,
+  .game-page .game-controls input,
+  .game-page .game-controls select,
+  .game-page .game-input,
+  .auth-box input {
+    font-size: 16px;
+    min-height: 44px;
+  }
+
+  .clarity-fix .search span,
+  .clarity-fix .search button[type="submit"],
+  .clarity-fix .authbar button,
+  .clarity-fix #navtoggle,
+  .clarity-fix .game-page .game-btn,
+  .game-page .confidence-row button,
+  .game-page .problem-report-btn,
+  .auth-modal button {
+    min-height: 44px;
+  }
+
+  .clarity-fix .search button[type="submit"] {
+    margin-left: 6px;
+    padding-inline: 16px;
+    border-radius: 999px;
+  }
+
+  .clarity-fix .menubar .mtop,
+  .clarity-fix nav summary,
+  .clarity-fix nav .art-link {
+    min-height: 44px;
+  }
+
+  .game-page .game-target {
+    font-size: 19px;
+    line-height: 1.65;
+    padding: 14px;
+  }
+
+  .game-page .game-target.idle {
+    font-size: 14px;
+  }
+
+  .game-page .case-blank-mark {
+    min-width: 64px;
+    max-width: 100%;
+    padding-inline: 8px;
+  }
+
+  .auth-modal {
+    padding: 12px;
+  }
+
+  .auth-box {
+    max-height: calc(100vh - 24px);
+    max-height: calc(100dvh - 24px);
+  }
+}
+
+@media (max-width: 520px) {
+  .clarity-fix .layout {
+    padding: 10px;
+  }
+
+  .clarity-fix main > section.art.on {
+    padding: 20px 12px 26px;
+  }
+
+  .clarity-fix .game-page .game-panel:not(.rank-panel) {
+    padding: 16px 12px;
+  }
+
+  .game-page .game-controls {
+    gap: 8px;
+  }
+
+  .game-page .game-controls input,
+  .game-page .game-controls select {
+    flex: 1 1 120px;
+  }
+
+  .game-page .ox-flow-controls .game-btn {
+    flex: 1 1 86px;
+  }
+
+  .game-page .game-stat,
+  .game-page .game-stats > span {
+    padding: 10px 6px;
+    overflow-wrap: anywhere;
+  }
+
+  /* Keep the flag count and level visible on the same row without overlap. */
+  .game-page .polar-stack {
+    left: 10px;
+    width: calc(100% - 110px);
+    min-width: 0;
+    max-width: 220px;
+    padding-inline: 6px;
+  }
+
+  .game-page .polar-stack::before {
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+
+  .game-page .polar-level-badge {
+    right: 10px;
+    max-width: 90px;
+    padding-inline: 8px;
+    font-size: 10px;
+  }
+
+  .game-page .polar-wreath,
+  .game-page .polar-combo-fx {
+    max-width: calc(100% - 20px);
+    overflow-wrap: anywhere;
+  }
+
+  .game-page .polar-death-screen {
+    padding: 12px;
+  }
+
+  .game-page .polar-death-title {
+    font-size: 28px;
+  }
+}
+
+/* In a short window, a multi-row sticky header consumes the play area.
+   Let it scroll away in landscape and while a software keyboard is open. */
+@media (max-height: 520px) {
+  .clarity-fix header {
+    position: static;
+  }
+
+  .clarity-fix .layout nav,
+  .game-page .rank-panel {
+    position: static;
+  }
+
+  .clarity-fix .layout nav {
+    max-height: calc(100vh - 24px);
+    max-height: calc(100dvh - 24px);
+  }
+
+  .clarity-fix section.art,
+  .game-page [data-game-panel] {
+    scroll-margin-top: 16px;
+  }
+}

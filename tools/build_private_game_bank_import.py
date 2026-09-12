@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import importlib.util
 import json
 import re
 from datetime import datetime
@@ -19,6 +20,7 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SOURCE = Path(r"C:\cowork\lawinus.org\02_비공개데이터\private_problem_banks\current")
 DEFAULT_OUT = Path(r"C:\cowork\lawinus.org\02_비공개데이터\supabase_private_game_bank_import")
+DEFAULT_REVIEW_REGISTRY = REPO_ROOT / "reports" / "question_review_overrides_20260913.json"
 MOCK_EXPECTED_LABELS = {
     str(year): f"변호사시험 {year - 2010}회 예상"
     for year in range(2011, 2026)
@@ -436,6 +438,9 @@ def disambiguate_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def row_sql(row: dict[str, Any]) -> str:
+    active = row.get("active", True)
+    if type(active) is not bool:
+        raise ValueError("Question active must be boolean")
     values = [
         sql_text(row["bank"]),
         sql_text(row["source_pid"]),
@@ -455,7 +460,7 @@ def row_sql(row: dict[str, Any]) -> str:
         str(max(1, as_int(row["freq"]))),
         sql_text(row["tags"]),
         sql_json(row["meta"]),
-        "true",
+        "true" if active else "false",
     ]
     return "(" + ",".join(values) + ")"
 
@@ -590,6 +595,22 @@ def build_ethics_rows(source_dir: Path) -> list[dict[str, Any]]:
     return rows
 
 
+def apply_final_reviews(
+    rows: list[dict[str, Any]],
+    registry_path: Path = DEFAULT_REVIEW_REGISTRY,
+    *,
+    banks: set[str] | None = None,
+) -> list[dict[str, Any]]:
+    """Shared SQL/REST import boundary; validate reviews before output/reset."""
+    path = Path(__file__).with_name("question_review_overrides.py")
+    spec = importlib.util.spec_from_file_location("question_review_overrides", path)
+    if spec is None or spec.loader is None:
+        raise RuntimeError(f"Cannot load reviewed question rules: {path}")
+    review = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(review)
+    return review.apply_reviewed_overrides(rows, review.load_registry(registry_path), banks=banks)
+
+
 def write_chunks(rows: list[dict[str, Any]], out_dir: Path, chunk_size: int) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     header = """-- Local-only private game-bank import.
@@ -621,7 +642,7 @@ on conflict (bank, source_pid, source_variant) do update set
   freq = excluded.freq,
   tags = excluded.tags,
   meta = excluded.meta,
-  active = true,
+  active = excluded.active,
   updated_at = now();
 """
     for old in out_dir.glob("private_game_questions_*.local.sql"):
@@ -650,12 +671,14 @@ def main() -> None:
     parser.add_argument("--source", type=Path, default=DEFAULT_SOURCE)
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
     parser.add_argument("--chunk-size", type=int, default=450)
+    parser.add_argument("--review-overrides", type=Path, default=DEFAULT_REVIEW_REGISTRY)
     args = parser.parse_args()
 
     source_dir = args.source.resolve()
     rows = build_clat_rows(source_dir) + build_ethics_rows(source_dir)
     rows = [row for row in rows if row["prompt"] and row["answer"] in {"O", "X"}]
     rows = disambiguate_rows(rows)
+    rows = apply_final_reviews(rows, args.review_overrides)
     write_chunks(rows, args.out.resolve(), max(50, args.chunk_size))
     print(f"source={source_dir}")
     print(f"out={args.out.resolve()}")
